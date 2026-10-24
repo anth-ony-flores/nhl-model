@@ -114,9 +114,19 @@ def rec(rows, m, strong=False):
     return out
 
 
-def clv_stats(rows, m):
+def rec_all(rows, strong=False):
+    """Combined record across moneyline, puck line and total (optionally strong-edge picks only)."""
+    parts = [rec(rows, m, strong=strong) for m in ("ml", "pl", "tot")]
+    W = sum(x["w"] for x in parts); L = sum(x["l"] for x in parts); Pu = sum(x["p"] for x in parts)
+    u = round(sum(x["units"] for x in parts), 2); n = W + L + Pu
+    return {"w": W, "l": L, "p": Pu, "pct": round(W / (W + L), 4) if W + L else None, "units": u,
+            "roi": round(u / n, 4) if n else None}
+
+
+def clv_stats(rows, m, strong=False):
     """Closing line value: how the market moved on the picked side between DraftKings' open and close."""
-    v = [float(r[f"{m}_clv"]) for r in rows if r.get(f"{m}_clv") not in (None, "")]
+    v = [float(r[f"{m}_clv"]) for r in rows if r.get(f"{m}_clv") not in (None, "")
+         and (not strong or float(r.get(f"{m}_edge") or 0) >= STRONG)]
     if not v:
         return {"n": 0, "avg_pts": None, "beat_close_pct": None}
     return {"n": len(v), "avg_pts": round(100 * sum(v) / len(v), 2),
@@ -142,6 +152,8 @@ def summarize(rows):
          "rules": "One pick per market per game. Graded against DraftKings closing lines from ESPN's public feed; "
                   "1 unit risked per pick at the closing odds. Strong edge = 3.0 points or more.",
          "clv": {m: clv_stats(rows, m) for m in ("ml", "pl", "tot")},
+         "clv_strong": {m: clv_stats(rows, m, strong=True) for m in ("ml", "pl", "tot")},
+         "all_picks": rec_all(rows), "strong_all": rec_all(rows, strong=True),
          "names": NAMES}
     (ROOT / "tracking").mkdir(exist_ok=True)
     json.dump(S, open(ROOT / "tracking" / "summary.json", "w"), indent=1)
@@ -154,6 +166,7 @@ def summarize(rows):
                           "final": f"{r['away']} {r['away_score']}, {r['home']} {r['home_score']}" + ("" if r["final_type"] == "REG" else f" ({r['final_type']})"),
                           "market": m, "pick": r[f"{m}_pick"], "odds": r.get(f"{m}_odds") or None,
                           "edge": float(r[f"{m}_edge"]) if r.get(f"{m}_edge") else None,
+                          "strong": bool(r.get(f"{m}_edge")) and float(r[f"{m}_edge"]) >= STRONG,
                           "result": r[f"{m}_result"], "units": float(r[f"{m}_units"]) if r.get(f"{m}_units") not in (None, "") else None,
                           "open_odds": r.get(f"{m}_open_odds") or None,
                           "clv": float(r[f"{m}_clv"]) if r.get(f"{m}_clv") not in (None, "") else None})

@@ -56,3 +56,5 @@ ol.plays .pt{font-family:var(--mono);color:var(--muted);font-size:.78rem;margin-
 .mvt td.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
 .mv-up{color:var(--good)}.mv-dn{color:var(--red)}
 details.mv{margin-top:10px}
+
+.rec-sub h3{margin:6px 0 0;font-family:var(--display);font-size:1.05rem;letter-spacing:.04em;text-transform:uppercase}
