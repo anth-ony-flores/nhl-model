@@ -27,7 +27,7 @@
  "PIT": {
   "id": 8481668,
   "name": "Arturs Silovs",
-  "source": "likely: first off at morning skate (Dan Potash)"
+  "source": "confirmed by NHL official game roster (starting goalie), 3:31 PM"
  },
  "PHI": {
   "id": 8479361,
@@ -42,6 +42,16 @@
  "STL": {
   "id": 8480981,
   "name": "Joel Hofer",
-  "source": "likely: projected starter per Jeremy Rutherford, coach did not confirm (via gamedaytweets)"
+  "source": "confirmed by NHL official game roster (starting goalie), 3:31 PM"
+ },
+ "SJS": {
+  "id": 8477968,
+  "name": "Alex Nedeljkovic",
+  "source": "confirmed by NHL official game roster (starting goalie), 3:31 PM"
+ },
+ "NSH": {
+  "id": 8477424,
+  "name": "Juuse Saros",
+  "source": "confirmed by NHL official game roster (starting goalie), 3:31 PM"
  }
 }

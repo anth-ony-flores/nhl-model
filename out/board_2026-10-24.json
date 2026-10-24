@@ -1,7 +1,7 @@
 {
  "date": "2026-10-24",
  "data_through": "2026-10-23",
- "generated": "2026-10-24 15:28 MST",
+ "generated": "2026-10-24 15:32 MST",
  "league_xg60": 3.003,
  "b2b_effect": {
   "own_xg": -0.251,
@@ -364,22 +364,11 @@
     "options": []
    },
    "away_goalie": {
-    "id": 8482137,
-    "name": "Yaroslav Askarov",
-    "basis": "most starts in last 10",
-    "gsax_per_xg": -0.0401,
-    "options": [
-     {
-      "id": 8482137,
-      "name": "Yaroslav Askarov",
-      "gsax_per_xg": -0.0401
-     },
-     {
-      "id": 8477968,
-      "name": "Alex Nedeljkovic",
-      "gsax_per_xg": 0.0279
-     }
-    ]
+    "id": 8477968,
+    "name": "Alex Nedeljkovic",
+    "basis": "confirmed: confirmed by NHL official game roster (starting goalie), 3:31 PM",
+    "gsax_per_xg": 0.0279,
+    "options": []
    },
    "inj_home": [],
    "inj_away": [
@@ -410,49 +399,49 @@
    "inj_adj_away": 0.032,
    "xg_home": 3.272,
    "xg_away": 2.979,
-   "proj_home": 3.68,
+   "proj_home": 3.46,
    "proj_away": 2.76,
-   "p_home": 0.6518,
-   "p_away": 0.3482,
-   "p_ot": 0.223,
-   "fair_ml_home": -187,
-   "fair_ml_away": 187,
-   "exp_total": 6.44,
+   "p_home": 0.618,
+   "p_away": 0.382,
+   "p_ot": 0.234,
+   "fair_ml_home": -162,
+   "fair_ml_away": 162,
+   "exp_total": 6.22,
    "totals": {
     "4.5": {
-     "over": 0.7861,
-     "under": 0.2139
+     "over": 0.761,
+     "under": 0.239
     },
     "5.0": {
-     "over": 0.615,
-     "under": 0.2139
+     "over": 0.5802,
+     "under": 0.239
     },
     "5.5": {
-     "over": 0.615,
-     "under": 0.385
+     "over": 0.5802,
+     "under": 0.4198
     },
     "6.0": {
-     "over": 0.4721,
-     "under": 0.385
+     "over": 0.4368,
+     "under": 0.4198
     },
     "6.5": {
-     "over": 0.4721,
-     "under": 0.5279
+     "over": 0.4368,
+     "under": 0.5632
     },
     "7.0": {
-     "over": 0.3048,
-     "under": 0.5279
+     "over": 0.2725,
+     "under": 0.5632
     },
     "7.5": {
-     "over": 0.3048,
-     "under": 0.6952
+     "over": 0.2725,
+     "under": 0.7275
     }
    },
    "puck_line": {
-    "home_-1.5": 0.4401,
-    "away_+1.5": 0.5599,
-    "away_-1.5": 0.1932,
-    "home_+1.5": 0.8068
+    "home_-1.5": 0.4035,
+    "away_+1.5": 0.5965,
+    "away_-1.5": 0.2138,
+    "home_+1.5": 0.7862
    }
   },
   {
@@ -589,32 +578,16 @@
    "home_goalie": {
     "id": 8481668,
     "name": "Arturs Silovs",
-    "basis": "confirmed: likely: first off at morning skate (Dan Potash)",
+    "basis": "confirmed: confirmed by NHL official game roster (starting goalie), 3:31 PM",
     "gsax_per_xg": -0.0362,
     "options": []
    },
    "away_goalie": {
     "id": 8477424,
     "name": "Juuse Saros",
-    "basis": "most starts in last 10",
+    "basis": "confirmed: confirmed by NHL official game roster (starting goalie), 3:31 PM",
     "gsax_per_xg": -0.0127,
-    "options": [
-     {
-      "id": 8477424,
-      "name": "Juuse Saros",
-      "gsax_per_xg": -0.0127
-     },
-     {
-      "id": 8483575,
-      "name": "Matt Murray",
-      "gsax_per_xg": 0.013
-     },
-     {
-      "id": 8481020,
-      "name": "Justus Annunen",
-      "gsax_per_xg": 0.0327
-     }
-    ]
+    "options": []
    },
    "inj_home": [
     {
@@ -1054,7 +1027,7 @@
    "home_goalie": {
     "id": 8480981,
     "name": "Joel Hofer",
-    "basis": "confirmed: likely: projected starter per Jeremy Rutherford, coach did not confirm (via gamedaytweets)",
+    "basis": "confirmed: confirmed by NHL official game roster (starting goalie), 3:31 PM",
     "gsax_per_xg": 0.0713,
     "options": []
    },
