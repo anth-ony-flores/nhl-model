@@ -2,11 +2,16 @@
 Usage: python export_site.py 2026-10-24
 Writes site/data/board.json (same merge as build_page.py) and site/index.html
 (built from src/template.html; the live layer is site/live.js + site/live.css, so the design stays in one place)."""
-import json, sys, urllib.request
+import json, sys, urllib.request, hashlib
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE = ROOT / "site"
+
+
+def ver(name):
+    """Content hash so browsers load updated scripts without a hard refresh."""
+    return hashlib.md5((SITE / name).read_bytes()).hexdigest()[:8]
 
 
 def merged_board(day):
@@ -54,7 +59,7 @@ def build_index():
     tpl = (ROOT / "src" / "template.html").read_text()
     # head: title, fonts, styles; body: markup + scripts
     css_end = tpl.index("</style>")
-    head_part = tpl[:css_end] + "</style>\n<link rel=\"stylesheet\" href=\"live.css\">"
+    head_part = tpl[:css_end] + "</style>\n<link rel=\"stylesheet\" href=\"live.css?v=" + ver("live.css") + "\">"
     body_part = tpl[css_end + len("</style>"):]
     # drop the inline data block; data now comes from data/board.json
     a = body_part.index('<script id="board"')
@@ -72,7 +77,7 @@ def build_index():
               "\nfetch('data/board.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json();})"
               ".then(B=>{renderBoard(B);startLive(B);})"
               ".catch(()=>{document.getElementById('games').innerHTML='<p class=\"note\">Board data could not be loaded. Try reloading the page.</p>';});\n")
-    body_part = body_part[:s0 - len("<script>")] + '<script src="live.js"></script>\n<script src="record.js"></script>\n<script>' + script + body_part[s1:]
+    body_part = body_part[:s0 - len("<script>")] + '<script src="live.js?v=' + ver('live.js') + '"></script>\n<script src="record.js?v=' + ver('record.js') + '"></script>\n<script>' + script + body_part[s1:]
     html = HEAD + head_part.replace('<meta name="claude:viewport-fit-sides" content="cover">\n', "") + "</head><body>" + body_part + "</body></html>"
     (SITE / "index.html").write_text(html)
     return len(html)
@@ -134,7 +139,7 @@ fetch('data/record.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw 0;return r.
 
 def build_history():
     tpl = (ROOT / "src" / "template.html").read_text()
-    head_part = tpl[:tpl.index("</style>")] + "</style>\n<link rel=\"stylesheet\" href=\"live.css\">"
+    head_part = tpl[:tpl.index("</style>")] + "</style>\n<link rel=\"stylesheet\" href=\"live.css?v=" + ver("live.css") + "\">"
     head_part = head_part.replace("<title>Ice Ledger NHL Board</title>", "<title>Ice Ledger Pick History</title>")
     head_part = head_part.replace('<meta name="claude:viewport-fit-sides" content="cover">\n', "")
     html = HEAD + head_part + "</head><body>" + HISTORY_BODY + "</body></html>"
