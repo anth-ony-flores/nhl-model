@@ -22,7 +22,7 @@
  "CBJ": {
   "id": 8475660,
   "name": "Cam Talbot",
-  "source": "likely: starter's crease at morning skate (Mark Scheig)"
+  "source": "confirmed by NHL official game roster (starting goalie), 15:47Z"
  },
  "PIT": {
   "id": 8481668,
@@ -37,7 +37,7 @@
  "BOS": {
   "id": 8480280,
   "name": "Jeremy Swayman",
-  "source": "confirmed by Jack Studley via Daily Faceoff"
+  "source": "confirmed by NHL official game roster (starting goalie), 15:47Z"
  },
  "STL": {
   "id": 8480981,
@@ -53,5 +53,15 @@
   "id": 8477424,
   "name": "Juuse Saros",
   "source": "confirmed by NHL official game roster (starting goalie), 3:31 PM"
+ },
+ "VGK": {
+  "id": 8479394,
+  "name": "Carter Hart",
+  "source": "confirmed by NHL official game roster (starting goalie), 15:47Z"
+ },
+ "CAR": {
+  "id": 8481611,
+  "name": "Pyotr Kochetkov",
+  "source": "confirmed by NHL official game roster (starting goalie), 15:47Z"
  }
 }

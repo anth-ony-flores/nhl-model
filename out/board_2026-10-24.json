@@ -1,7 +1,7 @@
 {
  "date": "2026-10-24",
  "data_through": "2026-10-23",
- "generated": "2026-10-24 15:38 MST",
+ "generated": "2026-10-24 15:47 MST",
  "league_xg60": 3.003,
  "b2b_effect": {
   "own_xg": -0.251,
@@ -359,7 +359,7 @@
    "home_goalie": {
     "id": 8480280,
     "name": "Jeremy Swayman",
-    "basis": "confirmed: confirmed by Jack Studley via Daily Faceoff",
+    "basis": "confirmed: confirmed by NHL official game roster (starting goalie), 15:47Z",
     "gsax_per_xg": 0.0921,
     "options": []
    },
@@ -918,27 +918,16 @@
    "home_goalie": {
     "id": 8475660,
     "name": "Cam Talbot",
-    "basis": "confirmed: likely: starter's crease at morning skate (Mark Scheig)",
+    "basis": "confirmed: confirmed by NHL official game roster (starting goalie), 15:47Z",
     "gsax_per_xg": -0.0472,
     "options": []
    },
    "away_goalie": {
-    "id": 8478499,
-    "name": "Adin Hill",
-    "basis": "most starts in last 10",
-    "gsax_per_xg": -0.0601,
-    "options": [
-     {
-      "id": 8478499,
-      "name": "Adin Hill",
-      "gsax_per_xg": -0.0601
-     },
-     {
-      "id": 8479394,
-      "name": "Carter Hart",
-      "gsax_per_xg": -0.0098
-     }
-    ]
+    "id": 8479394,
+    "name": "Carter Hart",
+    "basis": "confirmed: confirmed by NHL official game roster (starting goalie), 15:47Z",
+    "gsax_per_xg": -0.0098,
+    "options": []
    },
    "inj_home": [],
    "inj_away": [
@@ -969,49 +958,49 @@
    "inj_adj_away": 0.021,
    "xg_home": 2.569,
    "xg_away": 3.137,
-   "proj_home": 2.89,
+   "proj_home": 2.76,
    "proj_away": 3.34,
-   "p_home": 0.422,
-   "p_away": 0.578,
-   "p_ot": 0.2393,
-   "fair_ml_home": 137,
-   "fair_ml_away": -137,
-   "exp_total": 6.23,
+   "p_home": 0.3996,
+   "p_away": 0.6004,
+   "p_ot": 0.2394,
+   "fair_ml_home": 150,
+   "fair_ml_away": -150,
+   "exp_total": 6.1,
    "totals": {
     "4.5": {
-     "over": 0.7621,
-     "under": 0.2379
+     "over": 0.7458,
+     "under": 0.2542
     },
     "5.0": {
-     "over": 0.5811,
-     "under": 0.2379
+     "over": 0.5599,
+     "under": 0.2542
     },
     "5.5": {
-     "over": 0.5811,
-     "under": 0.4189
+     "over": 0.5599,
+     "under": 0.4401
     },
     "6.0": {
-     "over": 0.4385,
-     "under": 0.4189
+     "over": 0.4167,
+     "under": 0.4401
     },
     "6.5": {
-     "over": 0.4385,
-     "under": 0.5615
+     "over": 0.4167,
+     "under": 0.5833
     },
     "7.0": {
-     "over": 0.2734,
-     "under": 0.5615
+     "over": 0.2547,
+     "under": 0.5833
     },
     "7.5": {
-     "over": 0.2734,
-     "under": 0.7266
+     "over": 0.2547,
+     "under": 0.7453
     }
    },
    "puck_line": {
-    "home_-1.5": 0.2423,
-    "away_+1.5": 0.7577,
-    "away_-1.5": 0.3672,
-    "home_+1.5": 0.6328
+    "home_-1.5": 0.2246,
+    "away_+1.5": 0.7754,
+    "away_-1.5": 0.3848,
+    "home_+1.5": 0.6152
    }
   },
   {
@@ -1034,20 +1023,9 @@
    "away_goalie": {
     "id": 8481611,
     "name": "Pyotr Kochetkov",
-    "basis": "most starts in last 10",
+    "basis": "confirmed: confirmed by NHL official game roster (starting goalie), 15:47Z",
     "gsax_per_xg": 0.0169,
-    "options": [
-     {
-      "id": 8481611,
-      "name": "Pyotr Kochetkov",
-      "gsax_per_xg": 0.0169
-     },
-     {
-      "id": 8483548,
-      "name": "Brandon Bussi",
-      "gsax_per_xg": 0.0002
-     }
-    ]
+    "options": []
    },
    "inj_home": [
     {
