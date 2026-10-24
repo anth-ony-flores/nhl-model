@@ -1,0 +1,2411 @@
+{
+ "date": "2026-10-24",
+ "data_through": "2026-10-23",
+ "generated": "2026-10-24 11:05 MST",
+ "league_xg60": 3.003,
+ "b2b_effect": {
+  "own_xg": -0.251,
+  "opp_xg": 0.111
+ },
+ "games": [
+  {
+   "id": 2026020168,
+   "start_utc": "2026-10-24T17:00:00Z",
+   "venue": "Xfinity Mobile Arena",
+   "home": "PHI",
+   "away": "ANA",
+   "home_name": "Flyers",
+   "away_name": "Ducks",
+   "home_b2b": false,
+   "away_b2b": false,
+   "home_goalie": {
+    "id": 8479361,
+    "name": "Joseph Woll",
+    "basis": "confirmed: confirmed by the Flyers via Daily Faceoff",
+    "gsax_per_xg": 0.0088,
+    "options": []
+   },
+   "away_goalie": {
+    "id": 8480843,
+    "name": "Lukas Dostal",
+    "basis": "most starts in last 10",
+    "gsax_per_xg": -0.0126,
+    "options": [
+     {
+      "id": 8480843,
+      "name": "Lukas Dostal",
+      "gsax_per_xg": -0.0126
+     },
+     {
+      "id": 8478024,
+      "name": "Ville Husso",
+      "gsax_per_xg": -0.0143
+     }
+    ]
+   },
+   "inj_home": [
+    {
+     "name": "Cam York",
+     "status": "Injured Reserve",
+     "playerId": 8481546,
+     "position": "D",
+     "value": -0.0882,
+     "regular": false,
+     "applied": false,
+     "note": "Head coach Rick Tocchet said Friday that he isn't sure whether York (upper body) will be able to suit up Saturday against the Ducks, Jordan Hall of NBC Sports Philadelphia reports.",
+     "date": "2026-10-23"
+    },
+    {
+     "name": "Owen Tippett",
+     "status": "Injured Reserve",
+     "playerId": 8480015,
+     "position": "R",
+     "value": 0.0449,
+     "regular": true,
+     "applied": true,
+     "note": "Tippett (upper body) was placed on injured reserve Monday, per the NHL media site.",
+     "date": "2026-10-19"
+    },
+    {
+     "name": "Travis Konecny",
+     "status": "Injured Reserve",
+     "playerId": 8478439,
+     "position": "R",
+     "value": -0.061,
+     "regular": false,
+     "applied": false,
+     "note": "Konecny (lower body) was placed on injured reserve Sunday, according to the NHL media site.",
+     "date": "2026-10-11"
+    },
+    {
+     "name": "Nikita Grebenkin",
+     "status": "Injured Reserve",
+     "playerId": 8483733,
+     "position": "R",
+     "value": -0.043,
+     "regular": false,
+     "applied": false,
+     "note": "Grebenkin (back) underwent successful surgery and is expected to miss at least four months.",
+     "date": "2026-10-10"
+    }
+   ],
+   "inj_away": [
+    {
+     "name": "Pavel Mintyukov",
+     "status": "Injured Reserve",
+     "playerId": 8483490,
+     "position": "D",
+     "value": -0.0623,
+     "regular": true,
+     "applied": true,
+     "note": "Mintyukov (lower body) was put on injured reserve Thursday.",
+     "date": "2026-10-23"
+    },
+    {
+     "name": "Jeff Malott",
+     "status": "Day-To-Day",
+     "playerId": 8482408,
+     "position": "L",
+     "value": 0.0354,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-10-23"
+    },
+    {
+     "name": "Judd Caulfield",
+     "status": "Injured Reserve",
+     "playerId": 8481538,
+     "position": "R",
+     "value": -0.0237,
+     "regular": true,
+     "applied": true,
+     "note": "Caulfield (personal) remains in Southern California and won't play Thursday versus the Devils, Zach Cavanagh of The Sporting Tribune reports. Per the NHL media site, Caulfield has also been designated",
+     "date": "2026-10-22"
+    },
+    {
+     "name": "Ian Moore",
+     "status": "Injured Reserve",
+     "playerId": 8482178,
+     "position": "D",
+     "value": 0.0056,
+     "regular": false,
+     "applied": false,
+     "note": "Head coach Joel Quenneville said Friday that Moore (lower body) is still \"a ways from skating,\" Patrick Present of The Hockey News reports.",
+     "date": "2026-10-16"
+    },
+    {
+     "name": "Ryan Poehling",
+     "status": "Injured Reserve",
+     "playerId": 8480068,
+     "position": "C",
+     "value": -0.0613,
+     "regular": true,
+     "applied": true,
+     "note": "Poehling (knee) is expected to miss 6-8 weeks with an MCL sprain.",
+     "date": "2026-10-13"
+    },
+    {
+     "name": "Troy Terry",
+     "status": "Injured Reserve",
+     "playerId": 8478873,
+     "position": "R",
+     "value": 0.069,
+     "regular": false,
+     "applied": false,
+     "note": "Terry (hip) was moved from the non-roster list to long-term injured reserve Wednesday, Zach Cavanagh of The Sporting Tribune reports.",
+     "date": "2026-09-30"
+    }
+   ],
+   "inj_adj_home": 0.045,
+   "inj_adj_away": -0.147,
+   "xg_home": 2.881,
+   "xg_away": 3.126,
+   "proj_home": 3.04,
+   "proj_away": 3.07,
+   "p_home": 0.4959,
+   "p_away": 0.5041,
+   "p_ot": 0.2463,
+   "fair_ml_home": 102,
+   "fair_ml_away": -102,
+   "exp_total": 6.11,
+   "totals": {
+    "5.5": {
+     "over": 0.5615,
+     "under": 0.4385
+    },
+    "6.0": {
+     "over": 0.4193,
+     "under": 0.4385
+    },
+    "6.5": {
+     "over": 0.4193,
+     "under": 0.5807
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.2965,
+    "away_+1.5": 0.7035,
+    "away_-1.5": 0.3031,
+    "home_+1.5": 0.6969
+   },
+   "frozen": true
+  },
+  {
+   "id": 2026020169,
+   "start_utc": "2026-10-24T19:30:00Z",
+   "venue": "Prudential Center",
+   "home": "NJD",
+   "away": "LAK",
+   "home_name": "Devils",
+   "away_name": "Kings",
+   "home_b2b": false,
+   "away_b2b": false,
+   "home_goalie": {
+    "id": 8474596,
+    "name": "Jake Allen",
+    "basis": "most starts in last 10",
+    "gsax_per_xg": 0.0031,
+    "options": [
+     {
+      "id": 8474596,
+      "name": "Jake Allen",
+      "gsax_per_xg": 0.0031
+     },
+     {
+      "id": 8482076,
+      "name": "Nico Daws",
+      "gsax_per_xg": -0.0309
+     }
+    ]
+   },
+   "away_goalie": {
+    "id": 8475311,
+    "name": "Darcy Kuemper",
+    "basis": "most starts in last 10",
+    "gsax_per_xg": -0.0132,
+    "options": [
+     {
+      "id": 8475311,
+      "name": "Darcy Kuemper",
+      "gsax_per_xg": -0.0132
+     },
+     {
+      "id": 8476341,
+      "name": "Anton Forsberg",
+      "gsax_per_xg": 0.0284
+     }
+    ]
+   },
+   "inj_home": [
+    {
+     "name": "Seamus Casey",
+     "status": "Injured Reserve",
+     "playerId": 8483429,
+     "position": "D",
+     "value": -0.0524,
+     "regular": false,
+     "applied": false,
+     "note": "Casey will be out of action for 6-8 weeks after undergoing a knee procedure, Kristy Flannery of The Hockey News reports Friday.",
+     "date": "2026-10-02"
+    }
+   ],
+   "inj_away": [
+    {
+     "name": "Quinton Byfield",
+     "status": "Day-To-Day",
+     "playerId": 8482124,
+     "position": "R",
+     "value": 0.0481,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-10-23"
+    },
+    {
+     "name": "Alex Turcotte",
+     "status": "Injured Reserve",
+     "playerId": 8481532,
+     "position": "C",
+     "value": 0.0408,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-10-10"
+    },
+    {
+     "name": "Jan Jenik",
+     "status": "Injured Reserve",
+     "playerId": 8480890,
+     "position": "C",
+     "value": -0.0308,
+     "regular": false,
+     "applied": false,
+     "note": "Jenik (undisclosed) was placed on non-roster injured reserve by Los Angeles on Thursday, per Zach Dooley of LA Kings Insider.",
+     "date": "2026-09-24"
+    },
+    {
+     "name": "Kevin Fiala",
+     "status": "Injured Reserve",
+     "playerId": 8477942,
+     "position": "L",
+     "value": 0.0711,
+     "regular": false,
+     "applied": false,
+     "note": "Fiala (lower leg fracture) is at least three weeks away from being ready to play, Zach Dooley of the Kings' official site reports Thursday.",
+     "date": "2026-09-17"
+    }
+   ],
+   "inj_adj_home": 0,
+   "inj_adj_away": 0,
+   "xg_home": 3.059,
+   "xg_away": 2.659,
+   "proj_home": 3.18,
+   "proj_away": 2.64,
+   "p_home": 0.5952,
+   "p_away": 0.4048,
+   "p_ot": 0.2467,
+   "fair_ml_home": -147,
+   "fair_ml_away": 147,
+   "exp_total": 5.82,
+   "totals": {
+    "5.5": {
+     "over": 0.5127,
+     "under": 0.4873
+    },
+    "6.0": {
+     "over": 0.3705,
+     "under": 0.4873
+    },
+    "6.5": {
+     "over": 0.3705,
+     "under": 0.6295
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3746,
+    "away_+1.5": 0.6254,
+    "away_-1.5": 0.2245,
+    "home_+1.5": 0.7755
+   }
+  },
+  {
+   "id": 2026020170,
+   "start_utc": "2026-10-24T23:00:00Z",
+   "venue": "TD Garden",
+   "home": "BOS",
+   "away": "SJS",
+   "home_name": "Bruins",
+   "away_name": "Sharks",
+   "home_b2b": false,
+   "away_b2b": false,
+   "home_goalie": {
+    "id": 8480280,
+    "name": "Jeremy Swayman",
+    "basis": "confirmed: confirmed by Jack Studley via Daily Faceoff",
+    "gsax_per_xg": 0.0921,
+    "options": []
+   },
+   "away_goalie": {
+    "id": 8482137,
+    "name": "Yaroslav Askarov",
+    "basis": "most starts in last 10",
+    "gsax_per_xg": -0.0401,
+    "options": [
+     {
+      "id": 8482137,
+      "name": "Yaroslav Askarov",
+      "gsax_per_xg": -0.0401
+     },
+     {
+      "id": 8477968,
+      "name": "Alex Nedeljkovic",
+      "gsax_per_xg": 0.0279
+     }
+    ]
+   },
+   "inj_home": [],
+   "inj_away": [
+    {
+     "name": "Igor Chernyshov",
+     "status": "Out",
+     "playerId": 8484994,
+     "position": "L",
+     "value": 0.0363,
+     "regular": true,
+     "applied": true,
+     "note": "Chernyshov (upper body) is week-to-week, per Sheng Peng of San Jose Hockey Now on Saturday.",
+     "date": "2026-10-24"
+    },
+    {
+     "name": "Alexander Wennberg",
+     "status": "Out",
+     "playerId": 8477505,
+     "position": "C",
+     "value": -0.0044,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-22"
+    }
+   ],
+   "inj_adj_home": 0.0,
+   "inj_adj_away": 0.032,
+   "xg_home": 3.272,
+   "xg_away": 2.979,
+   "proj_home": 3.68,
+   "proj_away": 2.76,
+   "p_home": 0.6518,
+   "p_away": 0.3482,
+   "p_ot": 0.223,
+   "fair_ml_home": -187,
+   "fair_ml_away": 187,
+   "exp_total": 6.44,
+   "totals": {
+    "5.5": {
+     "over": 0.615,
+     "under": 0.385
+    },
+    "6.0": {
+     "over": 0.4721,
+     "under": 0.385
+    },
+    "6.5": {
+     "over": 0.4721,
+     "under": 0.5279
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.4401,
+    "away_+1.5": 0.5599,
+    "away_-1.5": 0.1932,
+    "home_+1.5": 0.8068
+   }
+  },
+  {
+   "id": 2026020171,
+   "start_utc": "2026-10-24T23:00:00Z",
+   "venue": "Canadian Tire Centre",
+   "home": "OTT",
+   "away": "NYR",
+   "home_name": "Senators",
+   "away_name": "Rangers",
+   "home_b2b": false,
+   "away_b2b": false,
+   "home_goalie": {
+    "id": 8477992,
+    "name": "Jonas Johansson",
+    "basis": "confirmed: confirmed by TSN 1200 via Daily Faceoff",
+    "gsax_per_xg": -0.0609,
+    "options": []
+   },
+   "away_goalie": {
+    "id": 8482193,
+    "name": "Dylan Garand",
+    "basis": "most starts in last 10",
+    "gsax_per_xg": 0.0497,
+    "options": [
+     {
+      "id": 8482193,
+      "name": "Dylan Garand",
+      "gsax_per_xg": 0.0497
+     },
+     {
+      "id": 8478048,
+      "name": "Igor Shesterkin",
+      "gsax_per_xg": 0.0978
+     }
+    ]
+   },
+   "inj_home": [
+    {
+     "name": "Thomas Chabot",
+     "status": "Out",
+     "playerId": 8478469,
+     "position": "D",
+     "value": 0.0004,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-19"
+    },
+    {
+     "name": "William Eklund",
+     "status": "Injured Reserve",
+     "playerId": 8482667,
+     "position": "L",
+     "value": 0.0839,
+     "regular": false,
+     "applied": false,
+     "note": "Eklund had surgery to repair a torn ankle tendon and will be out 10-12 weeks, Bruce Garrioch of Postmedia reports Thursday.",
+     "date": "2026-10-15"
+    },
+    {
+     "name": "Kurtis MacDermid",
+     "status": "Injured Reserve",
+     "playerId": 8477073,
+     "position": "L",
+     "value": -0.0669,
+     "regular": false,
+     "applied": false,
+     "note": "MacDermid (upper body) was moved to the injured non-roster list Monday.",
+     "date": "2026-09-28"
+    }
+   ],
+   "inj_away": [
+    {
+     "name": "Adam Sykora",
+     "status": "Injured Reserve",
+     "playerId": 8483669,
+     "position": "L",
+     "value": -0.0802,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-09-29"
+    }
+   ],
+   "inj_adj_home": 0.0,
+   "inj_adj_away": 0,
+   "xg_home": 3.052,
+   "xg_away": 2.693,
+   "proj_home": 3.05,
+   "proj_away": 2.92,
+   "p_home": 0.5238,
+   "p_away": 0.4762,
+   "p_ot": 0.2492,
+   "fair_ml_home": -110,
+   "fair_ml_away": 110,
+   "exp_total": 5.97,
+   "totals": {
+    "5.5": {
+     "over": 0.5382,
+     "under": 0.4618
+    },
+    "6.0": {
+     "over": 0.3961,
+     "under": 0.4618
+    },
+    "6.5": {
+     "over": 0.3961,
+     "under": 0.6039
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3165,
+    "away_+1.5": 0.6835,
+    "away_-1.5": 0.279,
+    "home_+1.5": 0.721
+   }
+  },
+  {
+   "id": 2026020172,
+   "start_utc": "2026-10-24T23:00:00Z",
+   "venue": "PPG Paints Arena",
+   "home": "PIT",
+   "away": "NSH",
+   "home_name": "Penguins",
+   "away_name": "Predators",
+   "home_b2b": false,
+   "away_b2b": false,
+   "home_goalie": {
+    "id": 8481668,
+    "name": "Arturs Silovs",
+    "basis": "confirmed: likely: first off at morning skate (Dan Potash)",
+    "gsax_per_xg": -0.0362,
+    "options": []
+   },
+   "away_goalie": {
+    "id": 8477424,
+    "name": "Juuse Saros",
+    "basis": "most starts in last 10",
+    "gsax_per_xg": -0.0127,
+    "options": [
+     {
+      "id": 8477424,
+      "name": "Juuse Saros",
+      "gsax_per_xg": -0.0127
+     },
+     {
+      "id": 8483575,
+      "name": "Matt Murray",
+      "gsax_per_xg": 0.013
+     },
+     {
+      "id": 8481020,
+      "name": "Justus Annunen",
+      "gsax_per_xg": 0.0327
+     }
+    ]
+   },
+   "inj_home": [
+    {
+     "name": "Egor Chinakhov",
+     "status": "Out",
+     "playerId": 8482475,
+     "position": "R",
+     "value": -0.0294,
+     "regular": true,
+     "applied": true,
+     "note": "Chinakhov (lower body) will miss Saturday's home clash against the Predators and is still day-to-day, per Seth Rorabaugh.",
+     "date": "2026-10-24"
+    },
+    {
+     "name": "Evgeni Malkin",
+     "status": "Out",
+     "playerId": 8471215,
+     "position": "C",
+     "value": 0.0188,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-24"
+    },
+    {
+     "name": "Samuel Girard",
+     "status": "Injured Reserve",
+     "playerId": 8479398,
+     "position": "D",
+     "value": 0.0264,
+     "regular": true,
+     "applied": true,
+     "note": "Girard (undisclosed) was placed on injured reserve Saturday.",
+     "date": "2026-10-24"
+    },
+    {
+     "name": "Bryan Rust",
+     "status": "Injured Reserve",
+     "playerId": 8475810,
+     "position": "R",
+     "value": -0.0415,
+     "regular": true,
+     "applied": true,
+     "note": "Rust (lower body) will be re-evaluated in six weeks, Michelle Crechiolo of the Penguins' official site reports Thursday.",
+     "date": "2026-10-22"
+    },
+    {
+     "name": "Ben Kindel",
+     "status": "Injured Reserve",
+     "playerId": 8485414,
+     "position": "C",
+     "value": -0.0225,
+     "regular": true,
+     "applied": true,
+     "note": "Kindel (undisclosed) was placed on injured reserve Thursday.",
+     "date": "2026-10-22"
+    },
+    {
+     "name": "Trevor van Riemsdyk",
+     "status": "Injured Reserve",
+     "playerId": 8477845,
+     "position": "D",
+     "value": -0.0026,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-10-12"
+    },
+    {
+     "name": "Justin Brazeau",
+     "status": "Injured Reserve",
+     "playerId": 8479638,
+     "position": "R",
+     "value": -0.0272,
+     "regular": false,
+     "applied": false,
+     "note": "Brazeau (lower body) was placed on injured reserve by the Penguins on Sunday.",
+     "date": "2026-09-27"
+    },
+    {
+     "name": "Ryan Graves",
+     "status": "Injured Reserve",
+     "playerId": 8477435,
+     "position": "D",
+     "value": 0.0175,
+     "regular": false,
+     "applied": false,
+     "note": "Graves (lower body) is out indefinitely and was placed on injured reserve Sunday.",
+     "date": "2026-09-27"
+    }
+   ],
+   "inj_away": [],
+   "inj_adj_home": -0.048,
+   "inj_adj_away": 0.0,
+   "xg_home": 3.29,
+   "xg_away": 3.029,
+   "proj_home": 3.55,
+   "proj_away": 3.12,
+   "p_home": 0.5709,
+   "p_away": 0.4291,
+   "p_ot": 0.2309,
+   "fair_ml_home": -133,
+   "fair_ml_away": 133,
+   "exp_total": 6.68,
+   "totals": {
+    "5.5": {
+     "over": 0.6494,
+     "under": 0.3506
+    },
+    "6.0": {
+     "over": 0.5107,
+     "under": 0.3506
+    },
+    "6.5": {
+     "over": 0.5107,
+     "under": 0.4893
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3685,
+    "away_+1.5": 0.6315,
+    "away_-1.5": 0.2532,
+    "home_+1.5": 0.7468
+   }
+  },
+  {
+   "id": 2026020173,
+   "start_utc": "2026-10-24T23:00:00Z",
+   "venue": "Capital One Arena",
+   "home": "WSH",
+   "away": "BUF",
+   "home_name": "Capitals",
+   "away_name": "Sabres",
+   "home_b2b": false,
+   "away_b2b": false,
+   "home_goalie": {
+    "id": 8479292,
+    "name": "Charlie Lindgren",
+    "basis": "confirmed: confirmed by Sammi Silber via Daily Faceoff",
+    "gsax_per_xg": -0.0375,
+    "options": []
+   },
+   "away_goalie": {
+    "id": 8480045,
+    "name": "Ukko-Pekka Luukkonen",
+    "basis": "most starts in last 10",
+    "gsax_per_xg": -0.0025,
+    "options": [
+     {
+      "id": 8480045,
+      "name": "Ukko-Pekka Luukkonen",
+      "gsax_per_xg": -0.0025
+     },
+     {
+      "id": 8481551,
+      "name": "Colten Ellis",
+      "gsax_per_xg": 0.0092
+     }
+    ]
+   },
+   "inj_home": [
+    {
+     "name": "Vincent Desharnais",
+     "status": "Injured Reserve",
+     "playerId": 8479576,
+     "position": "D",
+     "value": 0.0276,
+     "regular": true,
+     "applied": true,
+     "note": "ir",
+     "date": "2026-10-23"
+    },
+    {
+     "name": "Rasmus Sandin",
+     "status": "Injured Reserve",
+     "playerId": 8480873,
+     "position": "D",
+     "value": -0.0198,
+     "regular": false,
+     "applied": false,
+     "note": "Sandin (knee) was placed on long-term injured reserve Monday.",
+     "date": "2026-10-12"
+    }
+   ],
+   "inj_away": [
+    {
+     "name": "Jiri Kulich",
+     "status": "Out",
+     "playerId": 8483468,
+     "position": "C",
+     "value": 0.0304,
+     "regular": true,
+     "applied": true,
+     "note": "Kulich (face) is back in Buffalo for evaluation and won't play against Washington on Saturday, according to Paul Hamilton of WGR Sports Radio 550.",
+     "date": "2026-10-24"
+    },
+    {
+     "name": "Justin Danforth",
+     "status": "Day-To-Day",
+     "playerId": 8479941,
+     "position": "R",
+     "value": -0.0039,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-10-22"
+    },
+    {
+     "name": "Sam Carrick",
+     "status": "Injured Reserve",
+     "playerId": 8475842,
+     "position": "C",
+     "value": -0.0314,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-10-21"
+    },
+    {
+     "name": "Matt Grzelcyk",
+     "status": "Injured Reserve",
+     "playerId": 8476891,
+     "position": "D",
+     "value": -0.0025,
+     "regular": false,
+     "applied": false,
+     "note": "Grzelcyk (lower body) suffered a \"flare-up\" and could be out for at least \"a few days,\" head coach Lindy Ruff told Rachel Lenzi of The Buffalo News on Tuesday.",
+     "date": "2026-10-13"
+    },
+    {
+     "name": "Conor Timmins",
+     "status": "Injured Reserve",
+     "playerId": 8479982,
+     "position": "D",
+     "value": -0.0411,
+     "regular": false,
+     "applied": false,
+     "note": "Timmins (lower body) doesn't have a timeline for his return yet, according to Heather Engel of NHL.com on Tuesday.",
+     "date": "2026-09-29"
+    },
+    {
+     "name": "Jack Rathbone",
+     "status": "Injured Reserve",
+     "playerId": 8480056,
+     "position": "D",
+     "value": 0.0221,
+     "regular": false,
+     "applied": false,
+     "note": "ir-nr",
+     "date": "2026-09-28"
+    }
+   ],
+   "inj_adj_home": 0.028,
+   "inj_adj_away": 0.03,
+   "xg_home": 3.295,
+   "xg_away": 3.262,
+   "proj_home": 3.48,
+   "proj_away": 3.44,
+   "p_home": 0.5074,
+   "p_away": 0.4926,
+   "p_ot": 0.2295,
+   "fair_ml_home": -103,
+   "fair_ml_away": 103,
+   "exp_total": 6.92,
+   "totals": {
+    "5.5": {
+     "over": 0.6839,
+     "under": 0.3161
+    },
+    "6.0": {
+     "over": 0.5494,
+     "under": 0.3161
+    },
+    "6.5": {
+     "over": 0.5494,
+     "under": 0.4506
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3179,
+    "away_+1.5": 0.6821,
+    "away_-1.5": 0.3058,
+    "home_+1.5": 0.6942
+   }
+  },
+  {
+   "id": 2026020174,
+   "start_utc": "2026-10-24T23:00:00Z",
+   "venue": "Nationwide Arena",
+   "home": "CBJ",
+   "away": "VGK",
+   "home_name": "Blue Jackets",
+   "away_name": "Golden Knights",
+   "home_b2b": false,
+   "away_b2b": false,
+   "home_goalie": {
+    "id": 8475660,
+    "name": "Cam Talbot",
+    "basis": "confirmed: likely: starter's crease at morning skate (Mark Scheig)",
+    "gsax_per_xg": -0.0472,
+    "options": []
+   },
+   "away_goalie": {
+    "id": 8478499,
+    "name": "Adin Hill",
+    "basis": "most starts in last 10",
+    "gsax_per_xg": -0.0601,
+    "options": [
+     {
+      "id": 8478499,
+      "name": "Adin Hill",
+      "gsax_per_xg": -0.0601
+     },
+     {
+      "id": 8479394,
+      "name": "Carter Hart",
+      "gsax_per_xg": -0.0098
+     }
+    ]
+   },
+   "inj_home": [],
+   "inj_away": [
+    {
+     "name": "Mitch Marner",
+     "status": "Out",
+     "playerId": 8478483,
+     "position": "R",
+     "value": 0.0207,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-24"
+    },
+    {
+     "name": "Parker Wotherspoon",
+     "status": "Injured Reserve",
+     "playerId": 8478450,
+     "position": "D",
+     "value": -0.0578,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-10-21"
+    }
+   ],
+   "inj_adj_home": 0.0,
+   "inj_adj_away": 0.021,
+   "xg_home": 2.569,
+   "xg_away": 3.137,
+   "proj_home": 2.89,
+   "proj_away": 3.34,
+   "p_home": 0.422,
+   "p_away": 0.578,
+   "p_ot": 0.2393,
+   "fair_ml_home": 137,
+   "fair_ml_away": -137,
+   "exp_total": 6.23,
+   "totals": {
+    "5.5": {
+     "over": 0.5811,
+     "under": 0.4189
+    },
+    "6.0": {
+     "over": 0.4385,
+     "under": 0.4189
+    },
+    "6.5": {
+     "over": 0.4385,
+     "under": 0.5615
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.2423,
+    "away_+1.5": 0.7577,
+    "away_-1.5": 0.3672,
+    "home_+1.5": 0.6328
+   }
+  },
+  {
+   "id": 2026020175,
+   "start_utc": "2026-10-24T23:00:00Z",
+   "venue": "Enterprise Center",
+   "home": "STL",
+   "away": "CAR",
+   "home_name": "Blues",
+   "away_name": "Hurricanes",
+   "home_b2b": false,
+   "away_b2b": false,
+   "home_goalie": {
+    "id": 8480981,
+    "name": "Joel Hofer",
+    "basis": "most starts in last 10",
+    "gsax_per_xg": 0.0713,
+    "options": [
+     {
+      "id": 8480981,
+      "name": "Joel Hofer",
+      "gsax_per_xg": 0.0713
+     },
+     {
+      "id": 8476412,
+      "name": "Jordan Binnington",
+      "gsax_per_xg": -0.0909
+     }
+    ]
+   },
+   "away_goalie": {
+    "id": 8481611,
+    "name": "Pyotr Kochetkov",
+    "basis": "most starts in last 10",
+    "gsax_per_xg": 0.0169,
+    "options": [
+     {
+      "id": 8481611,
+      "name": "Pyotr Kochetkov",
+      "gsax_per_xg": 0.0169
+     },
+     {
+      "id": 8483548,
+      "name": "Brandon Bussi",
+      "gsax_per_xg": 0.0002
+     }
+    ]
+   },
+   "inj_home": [
+    {
+     "name": "Ross Johnston",
+     "status": "Injured Reserve",
+     "playerId": 8477527,
+     "position": "L",
+     "value": -0.0442,
+     "regular": true,
+     "applied": true,
+     "note": "ir",
+     "date": "2026-10-19"
+    },
+    {
+     "name": "Torey Krug",
+     "status": "Injured Reserve",
+     "playerId": 8476792,
+     "position": "D",
+     "value": 0.0022,
+     "regular": false,
+     "applied": false,
+     "note": "Krug (ankle) was placed on long-term injured reserve by the Blues on Monday, per PuckPedia.",
+     "date": "2026-10-13"
+    },
+    {
+     "name": "Dillon Dube",
+     "status": "Injured Reserve",
+     "playerId": 8479346,
+     "position": "C",
+     "value": -0.0926,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-10-10"
+    },
+    {
+     "name": "Alexey Toropchenko",
+     "status": "Injured Reserve",
+     "playerId": 8480281,
+     "position": "R",
+     "value": -0.066,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-10-05"
+    },
+    {
+     "name": "Tyler Tucker",
+     "status": "Injured Reserve",
+     "playerId": 8481006,
+     "position": "D",
+     "value": 0.0615,
+     "regular": false,
+     "applied": false,
+     "note": "Tucker had arthroscopic knee surgery and will be re-assessed in six weeks, the team announced Wednesday.",
+     "date": "2026-09-30"
+    },
+    {
+     "name": "Logan Mailloux",
+     "status": "Injured Reserve",
+     "playerId": 8482733,
+     "position": "D",
+     "value": -0.0983,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-09-28"
+    }
+   ],
+   "inj_away": [
+    {
+     "name": "Mark Jankowski",
+     "status": "Day-To-Day",
+     "playerId": 8476873,
+     "position": "L",
+     "value": 0.0325,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-10-23"
+    },
+    {
+     "name": "Taylor Hall",
+     "status": "Injured Reserve",
+     "playerId": 8475791,
+     "position": "L",
+     "value": 0.0429,
+     "regular": true,
+     "applied": true,
+     "note": "ir",
+     "date": "2026-10-19"
+    },
+    {
+     "name": "Jordan Staal",
+     "status": "Injured Reserve",
+     "playerId": 8473533,
+     "position": "C",
+     "value": -0.0364,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-10-15"
+    },
+    {
+     "name": "Alexander Nikishin",
+     "status": "Injured Reserve",
+     "playerId": 8482100,
+     "position": "D",
+     "value": -0.003,
+     "regular": false,
+     "applied": false,
+     "note": "Nikishin (contract dispute) is on the Hurricanes' injured, non-roster list, per the NHL media site Wednesday.",
+     "date": "2026-10-14"
+    }
+   ],
+   "inj_adj_home": -0.044,
+   "inj_adj_away": 0.043,
+   "xg_home": 2.539,
+   "xg_away": 3.399,
+   "proj_home": 2.78,
+   "proj_away": 3.15,
+   "p_home": 0.4348,
+   "p_away": 0.5652,
+   "p_ot": 0.2477,
+   "fair_ml_home": 130,
+   "fair_ml_away": -130,
+   "exp_total": 5.92,
+   "totals": {
+    "5.5": {
+     "over": 0.5303,
+     "under": 0.4697
+    },
+    "6.0": {
+     "over": 0.3879,
+     "under": 0.4697
+    },
+    "6.5": {
+     "over": 0.3879,
+     "under": 0.6121
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.2473,
+    "away_+1.5": 0.7527,
+    "away_-1.5": 0.3503,
+    "home_+1.5": 0.6497
+   }
+  },
+  {
+   "id": 2026020176,
+   "start_utc": "2026-10-24T23:00:00Z",
+   "venue": "Rogers Place",
+   "home": "EDM",
+   "away": "TOR",
+   "home_name": "Oilers",
+   "away_name": "Maple Leafs",
+   "home_b2b": false,
+   "away_b2b": false,
+   "home_goalie": {
+    "id": 8477465,
+    "name": "Tristan Jarry",
+    "basis": "confirmed: confirmed by Jason Gregor via Daily Faceoff",
+    "gsax_per_xg": -0.0522,
+    "options": []
+   },
+   "away_goalie": {
+    "id": 8475683,
+    "name": "Sergei Bobrovsky",
+    "basis": "most starts in last 10",
+    "gsax_per_xg": 0.0151,
+    "options": [
+     {
+      "id": 8475683,
+      "name": "Sergei Bobrovsky",
+      "gsax_per_xg": 0.0151
+     },
+     {
+      "id": 8476932,
+      "name": "Anthony Stolarz",
+      "gsax_per_xg": 0.0306
+     }
+    ]
+   },
+   "inj_home": [
+    {
+     "name": "Mattias Ekholm",
+     "status": "Out",
+     "playerId": 8475218,
+     "position": "D",
+     "value": 0.2023,
+     "regular": true,
+     "applied": true,
+     "note": "Ekholm (undisclosed) will miss at least a week after getting injured versus the Hurricanes on Thursday, Jason Gregor of Sports 1440 Edmonton reports.",
+     "date": "2026-10-23"
+    },
+    {
+     "name": "Jason Dickinson",
+     "status": "Injured Reserve",
+     "playerId": 8477450,
+     "position": "C",
+     "value": 0.0177,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-10-22"
+    },
+    {
+     "name": "Alec Regula",
+     "status": "Injured Reserve",
+     "playerId": 8480831,
+     "position": "D",
+     "value": -0.0291,
+     "regular": false,
+     "applied": false,
+     "note": "Regula (undisclosed) was designated for long-term injured reserve Thursday.",
+     "date": "2026-10-01"
+    },
+    {
+     "name": "Matt Savoie",
+     "status": "Injured Reserve",
+     "playerId": 8483512,
+     "position": "C",
+     "value": -0.0361,
+     "regular": false,
+     "applied": false,
+     "note": "Savoie (lower body) was shifted to long-term injured reserve Thursday.",
+     "date": "2026-10-01"
+    },
+    {
+     "name": "Mattias Janmark",
+     "status": "Injured Reserve",
+     "playerId": 8477406,
+     "position": "C",
+     "value": -0.0944,
+     "regular": false,
+     "applied": false,
+     "note": "Janmark (undisclosed) does not have a timetable for his return from injury.",
+     "date": "2026-09-29"
+    }
+   ],
+   "inj_away": [
+    {
+     "name": "Nick Blankenburg",
+     "status": "Injured Reserve",
+     "playerId": 8483565,
+     "position": "D",
+     "value": 0.0225,
+     "regular": true,
+     "applied": true,
+     "note": "Blankenburg (undisclosed) was placed on injured reserve by the Maple Leafs on Friday, David Alter of The Hockey News reports.",
+     "date": "2026-10-23"
+    },
+    {
+     "name": "Marshall Rifai",
+     "status": "Injured Reserve",
+     "playerId": 8483546,
+     "position": "D",
+     "value": -0.0296,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-10-23"
+    },
+    {
+     "name": "John Tavares",
+     "status": "Injured Reserve",
+     "playerId": 8475166,
+     "position": "C",
+     "value": 0.0302,
+     "regular": true,
+     "applied": true,
+     "note": "ir",
+     "date": "2026-10-17"
+    },
+    {
+     "name": "Dakota Joshua",
+     "status": "Injured Reserve",
+     "playerId": 8478057,
+     "position": "C",
+     "value": 0.0167,
+     "regular": false,
+     "applied": false,
+     "note": "Joshua (abdomen) was sent to AHL Toronto on Friday for a conditioning stint.",
+     "date": "2026-10-17"
+    },
+    {
+     "name": "Miles Wood",
+     "status": "Injured Reserve",
+     "playerId": 8477425,
+     "position": "L",
+     "value": -0.0671,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-10-15"
+    },
+    {
+     "name": "Chris Tanev",
+     "status": "Injured Reserve",
+     "playerId": 8475690,
+     "position": "D",
+     "value": 0.0218,
+     "regular": false,
+     "applied": false,
+     "note": "The Maple Leafs announced Thursday that Tanev (lower body) is considered week-to-week, Mark Masters of TSN reports.",
+     "date": "2026-10-15"
+    },
+    {
+     "name": "Max Domi",
+     "status": "Injured Reserve",
+     "playerId": 8477503,
+     "position": "C",
+     "value": -0.0632,
+     "regular": false,
+     "applied": false,
+     "note": "Domi (back) was transferred from the non-roster list to long-term injured reserve Wednesday, per PuckPedia.",
+     "date": "2026-09-30"
+    },
+    {
+     "name": "William Villeneuve",
+     "status": "Injured Reserve",
+     "playerId": 8482174,
+     "position": "D",
+     "value": -0.0028,
+     "regular": false,
+     "applied": false,
+     "note": "ir-nr",
+     "date": "2026-09-29"
+    }
+   ],
+   "inj_adj_home": 0.202,
+   "inj_adj_away": 0.053,
+   "xg_home": 3.215,
+   "xg_away": 2.823,
+   "proj_home": 3.49,
+   "proj_away": 3.08,
+   "p_home": 0.5679,
+   "p_away": 0.4321,
+   "p_ot": 0.2332,
+   "fair_ml_home": -131,
+   "fair_ml_away": 131,
+   "exp_total": 6.57,
+   "totals": {
+    "5.5": {
+     "over": 0.6345,
+     "under": 0.3655
+    },
+    "6.0": {
+     "over": 0.4946,
+     "under": 0.3655
+    },
+    "6.5": {
+     "over": 0.4946,
+     "under": 0.5054
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3642,
+    "away_+1.5": 0.6358,
+    "away_-1.5": 0.2542,
+    "home_+1.5": 0.7458
+   }
+  },
+  {
+   "id": 2026020177,
+   "start_utc": "2026-10-25T01:00:00Z",
+   "venue": "Delta Center",
+   "home": "UTA",
+   "away": "TBL",
+   "home_name": "Mammoth",
+   "away_name": "Lightning",
+   "home_b2b": false,
+   "away_b2b": true,
+   "home_goalie": {
+    "id": 8478872,
+    "name": "Karel Vejmelka",
+    "basis": "most starts in last 10",
+    "gsax_per_xg": -0.0074,
+    "options": [
+     {
+      "id": 8478872,
+      "name": "Karel Vejmelka",
+      "gsax_per_xg": -0.0074
+     },
+     {
+      "id": 8482657,
+      "name": "Sebastian Cossa",
+      "gsax_per_xg": -0.0404
+     }
+    ]
+   },
+   "away_goalie": {
+    "id": 8483710,
+    "name": "Dennis Hildeby",
+    "basis": "back-to-back: rotated from yesterday's starter",
+    "gsax_per_xg": 0.0519,
+    "options": [
+     {
+      "id": 8476883,
+      "name": "Andrei Vasilevskiy",
+      "gsax_per_xg": 0.0703
+     },
+     {
+      "id": 8483710,
+      "name": "Dennis Hildeby",
+      "gsax_per_xg": 0.0519
+     }
+    ]
+   },
+   "inj_home": [
+    {
+     "name": "John Marino",
+     "status": "Out",
+     "playerId": 8478507,
+     "position": "D",
+     "value": 0.0364,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-24"
+    },
+    {
+     "name": "Michael Carcone",
+     "status": "Injured Reserve",
+     "playerId": 8479619,
+     "position": "L",
+     "value": 0.0213,
+     "regular": false,
+     "applied": false,
+     "note": "Carcone (upper body) was placed on injured reserve by the Mammoth on Tuesday.",
+     "date": "2026-10-20"
+    },
+    {
+     "name": "Maveric Lamoureux",
+     "status": "Injured Reserve",
+     "playerId": 8483472,
+     "position": "D",
+     "value": -0.0012,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-09-28"
+    }
+   ],
+   "inj_away": [
+    {
+     "name": "Victor Hedman",
+     "status": "Day-To-Day",
+     "playerId": 8475167,
+     "position": "D",
+     "value": -0.0444,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-10-24"
+    },
+    {
+     "name": "Yanni Gourde",
+     "status": "Injured Reserve",
+     "playerId": 8476826,
+     "position": "C",
+     "value": -0.0074,
+     "regular": false,
+     "applied": false,
+     "note": "Gourde (hip) was placed on the injured non-roster list Monday.",
+     "date": "2026-09-28"
+    }
+   ],
+   "inj_adj_home": 0.036,
+   "inj_adj_away": 0,
+   "xg_home": 3.037,
+   "xg_away": 2.858,
+   "proj_home": 3.11,
+   "proj_away": 2.93,
+   "p_home": 0.5325,
+   "p_away": 0.4675,
+   "p_ot": 0.2472,
+   "fair_ml_home": -114,
+   "fair_ml_away": 114,
+   "exp_total": 6.04,
+   "totals": {
+    "5.5": {
+     "over": 0.5499,
+     "under": 0.4501
+    },
+    "6.0": {
+     "over": 0.4076,
+     "under": 0.4501
+    },
+    "6.5": {
+     "over": 0.4076,
+     "under": 0.5924
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3249,
+    "away_+1.5": 0.6751,
+    "away_-1.5": 0.2734,
+    "home_+1.5": 0.7266
+   }
+  },
+  {
+   "id": 2026020178,
+   "start_utc": "2026-10-25T02:00:00Z",
+   "venue": "Scotiabank Saddledome",
+   "home": "CGY",
+   "away": "DET",
+   "home_name": "Flames",
+   "away_name": "Red Wings",
+   "home_b2b": false,
+   "away_b2b": false,
+   "home_goalie": {
+    "id": 8481692,
+    "name": "Dustin Wolf",
+    "basis": "most starts in last 10",
+    "gsax_per_xg": -0.0395,
+    "options": [
+     {
+      "id": 8481692,
+      "name": "Dustin Wolf",
+      "gsax_per_xg": -0.0395
+     },
+     {
+      "id": 8482445,
+      "name": "Devin Cooley",
+      "gsax_per_xg": 0.0579
+     }
+    ]
+   },
+   "away_goalie": {
+    "id": 8480193,
+    "name": "Daniil Tarasov",
+    "basis": "confirmed: expected per 32 Hockey Updates, Oct 24 (Gibson hurt Thursday)",
+    "gsax_per_xg": 0.0282,
+    "options": []
+   },
+   "inj_home": [
+    {
+     "name": "Mikael Backlund",
+     "status": "Day-To-Day",
+     "playerId": 8474150,
+     "position": "C",
+     "value": 0.0336,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-10-23"
+    },
+    {
+     "name": "Samuel Honzek",
+     "status": "Injured Reserve",
+     "playerId": 8484180,
+     "position": "L",
+     "value": 0.0106,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-10-20"
+    },
+    {
+     "name": "Jonathan Huberdeau",
+     "status": "Injured Reserve",
+     "playerId": 8476456,
+     "position": "L",
+     "value": 0.0285,
+     "regular": false,
+     "applied": false,
+     "note": "Huberdeau (hip) was placed on injured reserve Monday, per Pat Steinberg of QR Calgary 770 AM.",
+     "date": "2026-09-28"
+    }
+   ],
+   "inj_away": [
+    {
+     "name": "Simon Edvinsson",
+     "status": "Injured Reserve",
+     "playerId": 8482762,
+     "position": "D",
+     "value": 0.1158,
+     "regular": false,
+     "applied": false,
+     "note": "Edvinsson (contract dispute) is on the Red Wings' injured, non-roster list, per the NHL media site Wednesday.",
+     "date": "2026-10-14"
+    },
+    {
+     "name": "Mason Appleton",
+     "status": "Injured Reserve",
+     "playerId": 8478891,
+     "position": "C",
+     "value": -0.0346,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-10-06"
+    },
+    {
+     "name": "Marco Kasper",
+     "status": "Injured Reserve",
+     "playerId": 8483464,
+     "position": "C",
+     "value": 0.0485,
+     "regular": false,
+     "applied": false,
+     "note": "Kasper (upper body) has been given a week-to-week timetable for return.",
+     "date": "2026-10-06"
+    }
+   ],
+   "inj_adj_home": 0,
+   "inj_adj_away": 0,
+   "xg_home": 2.827,
+   "xg_away": 3.195,
+   "proj_home": 2.87,
+   "proj_away": 3.27,
+   "p_home": 0.4305,
+   "p_away": 0.5695,
+   "p_ot": 0.2423,
+   "fair_ml_home": 132,
+   "fair_ml_away": -132,
+   "exp_total": 6.14,
+   "totals": {
+    "5.5": {
+     "over": 0.5661,
+     "under": 0.4339
+    },
+    "6.0": {
+     "over": 0.4234,
+     "under": 0.4339
+    },
+    "6.5": {
+     "over": 0.4234,
+     "under": 0.5766
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.2472,
+    "away_+1.5": 0.7528,
+    "away_-1.5": 0.3581,
+    "home_+1.5": 0.6419
+   }
+  },
+  {
+   "id": 2026020179,
+   "start_utc": "2026-10-25T02:00:00Z",
+   "venue": "Climate Pledge Arena",
+   "home": "SEA",
+   "away": "MIN",
+   "home_name": "Kraken",
+   "away_name": "Wild",
+   "home_b2b": false,
+   "away_b2b": false,
+   "home_goalie": {
+    "id": 8475831,
+    "name": "Philipp Grubauer",
+    "basis": "most starts in last 10",
+    "gsax_per_xg": 0.0198,
+    "options": [
+     {
+      "id": 8475831,
+      "name": "Philipp Grubauer",
+      "gsax_per_xg": 0.0198
+     },
+     {
+      "id": 8478916,
+      "name": "Joey Daccord",
+      "gsax_per_xg": -0.0266
+     }
+    ]
+   },
+   "away_goalie": {
+    "id": 8482661,
+    "name": "Jesper Wallstedt",
+    "basis": "most starts in last 10",
+    "gsax_per_xg": 0.0776,
+    "options": [
+     {
+      "id": 8482661,
+      "name": "Jesper Wallstedt",
+      "gsax_per_xg": 0.0776
+     },
+     {
+      "id": 8475717,
+      "name": "Calvin Pickard",
+      "gsax_per_xg": -0.0519
+     }
+    ]
+   },
+   "inj_home": [
+    {
+     "name": "Jared McCann",
+     "status": "Out",
+     "playerId": 8477955,
+     "position": "L",
+     "value": 0.0687,
+     "regular": true,
+     "applied": true,
+     "note": "McCann (lower body) won't play against Minnesota on Saturday.",
+     "date": "2026-10-24"
+    },
+    {
+     "name": "Jacob Melanson",
+     "status": "Injured Reserve",
+     "playerId": 8482874,
+     "position": "R",
+     "value": 0.0298,
+     "regular": false,
+     "applied": false,
+     "note": "Melanson's upper-body injury was diagnosed Saturday as an anterior mediastinum hematoma with vascular pseudo aneurysm. He will continue to be evaluated and is out indefinitely.",
+     "date": "2026-10-10"
+    },
+    {
+     "name": "Ryan Lindgren",
+     "status": "Injured Reserve",
+     "playerId": 8479324,
+     "position": "D",
+     "value": -0.0766,
+     "regular": false,
+     "applied": false,
+     "note": "Lindgren (upper body) was placed on injured reserve by the Kraken on Thursday and is expected to miss four to six weeks.",
+     "date": "2026-10-08"
+    }
+   ],
+   "inj_away": [
+    {
+     "name": "Maxim Shabanov",
+     "status": "Day-To-Day",
+     "playerId": 8485702,
+     "position": "R",
+     "value": -0.0674,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-10-23"
+    },
+    {
+     "name": "Marcus Foligno",
+     "status": "Injured Reserve",
+     "playerId": 8475220,
+     "position": "L",
+     "value": 0.0547,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-10-12"
+    },
+    {
+     "name": "Nick Foligno",
+     "status": "Injured Reserve",
+     "playerId": 8473422,
+     "position": "L",
+     "value": 0.0382,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-10-09"
+    },
+    {
+     "name": "Brock Faber",
+     "status": "Injured Reserve",
+     "playerId": 8482122,
+     "position": "D",
+     "value": 0.068,
+     "regular": false,
+     "applied": false,
+     "note": "Faber underwent a procedure to repair his fractured skull and is without a timetable to return, per Michael Russo of The Athletic.",
+     "date": "2026-09-29"
+    }
+   ],
+   "inj_adj_home": 0.069,
+   "inj_adj_away": 0,
+   "xg_home": 2.617,
+   "xg_away": 3.398,
+   "proj_home": 2.68,
+   "proj_away": 3.32,
+   "p_home": 0.389,
+   "p_away": 0.611,
+   "p_ot": 0.2402,
+   "fair_ml_home": 157,
+   "fair_ml_away": -157,
+   "exp_total": 6.0,
+   "totals": {
+    "5.5": {
+     "over": 0.5429,
+     "under": 0.4571
+    },
+    "6.0": {
+     "over": 0.3995,
+     "under": 0.4571
+    },
+    "6.5": {
+     "over": 0.3995,
+     "under": 0.6005
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.2159,
+    "away_+1.5": 0.7841,
+    "away_-1.5": 0.3925,
+    "home_+1.5": 0.6075
+   }
+  }
+ ],
+ "ratings": [
+  {
+   "team": "CAR",
+   "off": 3.527,
+   "def": 2.623,
+   "net": 0.904,
+   "finishing": -0.0186
+  },
+  {
+   "team": "COL",
+   "off": 3.339,
+   "def": 2.8,
+   "net": 0.539,
+   "finishing": 0.0139
+  },
+  {
+   "team": "TBL",
+   "off": 3.257,
+   "def": 2.797,
+   "net": 0.46,
+   "finishing": -0.0062
+  },
+  {
+   "team": "VGK",
+   "off": 3.116,
+   "def": 2.656,
+   "net": 0.459,
+   "finishing": 0.0068
+  },
+  {
+   "team": "MIN",
+   "off": 3.285,
+   "def": 2.861,
+   "net": 0.425,
+   "finishing": -0.0139
+  },
+  {
+   "team": "NJD",
+   "off": 3.203,
+   "def": 2.79,
+   "net": 0.412,
+   "finishing": -0.0411
+  },
+  {
+   "team": "OTT",
+   "off": 3.089,
+   "def": 2.743,
+   "net": 0.346,
+   "finishing": -0.0206
+  },
+  {
+   "team": "UTA",
+   "off": 3.151,
+   "def": 2.838,
+   "net": 0.314,
+   "finishing": 0.0074
+  },
+  {
+   "team": "DAL",
+   "off": 2.919,
+   "def": 2.689,
+   "net": 0.23,
+   "finishing": -0.008
+  },
+  {
+   "team": "EDM",
+   "off": 3.034,
+   "def": 2.842,
+   "net": 0.193,
+   "finishing": 0.0369
+  },
+  {
+   "team": "FLA",
+   "off": 3.04,
+   "def": 2.944,
+   "net": 0.096,
+   "finishing": -0.0272
+  },
+  {
+   "team": "WSH",
+   "off": 3.238,
+   "def": 3.201,
+   "net": 0.037,
+   "finishing": -0.0095
+  },
+  {
+   "team": "LAK",
+   "off": 2.872,
+   "def": 2.859,
+   "net": 0.013,
+   "finishing": -0.0336
+  },
+  {
+   "team": "BUF",
+   "off": 3.066,
+   "def": 3.059,
+   "net": 0.007,
+   "finishing": 0.0055
+  },
+  {
+   "team": "NYR",
+   "off": 2.952,
+   "def": 2.966,
+   "net": -0.013,
+   "finishing": -0.0016
+  },
+  {
+   "team": "PIT",
+   "off": 3.136,
+   "def": 3.155,
+   "net": -0.019,
+   "finishing": 0.0043
+  },
+  {
+   "team": "STL",
+   "off": 2.875,
+   "def": 2.919,
+   "net": -0.044,
+   "finishing": 0.0267
+  },
+  {
+   "team": "BOS",
+   "off": 2.98,
+   "def": 3.077,
+   "net": -0.097,
+   "finishing": 0.0238
+  },
+  {
+   "team": "DET",
+   "off": 2.952,
+   "def": 3.071,
+   "net": -0.119,
+   "finishing": -0.0275
+  },
+  {
+   "team": "MTL",
+   "off": 3.035,
+   "def": 3.157,
+   "net": -0.121,
+   "finishing": -0.0016
+  },
+  {
+   "team": "CBJ",
+   "off": 2.906,
+   "def": 3.035,
+   "net": -0.13,
+   "finishing": -0.0186
+  },
+  {
+   "team": "WPG",
+   "off": 2.899,
+   "def": 3.033,
+   "net": -0.135,
+   "finishing": -0.0241
+  },
+  {
+   "team": "ANA",
+   "off": 3.106,
+   "def": 3.28,
+   "net": -0.174,
+   "finishing": -0.0282
+  },
+  {
+   "team": "PHI",
+   "off": 2.701,
+   "def": 2.927,
+   "net": -0.226,
+   "finishing": -0.0301
+  },
+  {
+   "team": "NSH",
+   "off": 2.901,
+   "def": 3.134,
+   "net": -0.232,
+   "finishing": -0.0222
+  },
+  {
+   "team": "NYI",
+   "off": 2.914,
+   "def": 3.172,
+   "net": -0.258,
+   "finishing": -0.029
+  },
+  {
+   "team": "SEA",
+   "off": 2.794,
+   "def": 3.082,
+   "net": -0.288,
+   "finishing": 0.0219
+  },
+  {
+   "team": "TOR",
+   "off": 2.91,
+   "def": 3.259,
+   "net": -0.349,
+   "finishing": 0.0191
+  },
+  {
+   "team": "SJS",
+   "off": 2.921,
+   "def": 3.28,
+   "net": -0.358,
+   "finishing": -0.0046
+  },
+  {
+   "team": "CGY",
+   "off": 2.76,
+   "def": 3.246,
+   "net": -0.487,
+   "finishing": -0.0341
+  },
+  {
+   "team": "CHI",
+   "off": 2.641,
+   "def": 3.218,
+   "net": -0.577,
+   "finishing": -0.017
+  },
+  {
+   "team": "VAN",
+   "off": 2.588,
+   "def": 3.394,
+   "net": -0.806,
+   "finishing": -0.0016
+  }
+ ],
+ "scorecard": [
+  {
+   "group": "2021",
+   "model": "Model (xG + goalie + finishing)",
+   "n": 1311,
+   "logloss": 0.6472877789350592,
+   "brier": 0.2276875917502225,
+   "acc": 0.6262395118230358
+  },
+  {
+   "group": "2021",
+   "model": "xG ratings only",
+   "n": 1311,
+   "logloss": 0.6523515419644245,
+   "brier": 0.2300205103876602,
+   "acc": 0.6323417238749046
+  },
+  {
+   "group": "2021",
+   "model": "Goals-based ratings",
+   "n": 1311,
+   "logloss": 0.6488560780284489,
+   "brier": 0.2283997423928978,
+   "acc": 0.6270022883295194
+  },
+  {
+   "group": "2021",
+   "model": "Season points %",
+   "n": 1311,
+   "logloss": 0.6631960096127093,
+   "brier": 0.2352690959632782,
+   "acc": 0.623951182303585
+  },
+  {
+   "group": "2021",
+   "model": "Home team (constant)",
+   "n": 1311,
+   "logloss": 0.6904972502110099,
+   "brier": 0.2486760957314855,
+   "acc": 0.5369946605644547
+  },
+  {
+   "group": "2022",
+   "model": "Model (xG + goalie + finishing)",
+   "n": 1312,
+   "logloss": 0.6552730710409845,
+   "brier": 0.2316620329112773,
+   "acc": 0.6051829268292683
+  },
+  {
+   "group": "2022",
+   "model": "xG ratings only",
+   "n": 1312,
+   "logloss": 0.6559859996687012,
+   "brier": 0.2319411124347457,
+   "acc": 0.6074695121951219
+  },
+  {
+   "group": "2022",
+   "model": "Goals-based ratings",
+   "n": 1312,
+   "logloss": 0.6594185177942893,
+   "brier": 0.2337328964080021,
+   "acc": 0.5960365853658537
+  },
+  {
+   "group": "2022",
+   "model": "Season points %",
+   "n": 1312,
+   "logloss": 0.6741939322126971,
+   "brier": 0.240284019017833,
+   "acc": 0.5960365853658537
+  },
+  {
+   "group": "2022",
+   "model": "Home team (constant)",
+   "n": 1312,
+   "logloss": 0.6921197436551199,
+   "brier": 0.2494863478373379,
+   "acc": 0.5236280487804879
+  },
+  {
+   "group": "2023",
+   "model": "Model (xG + goalie + finishing)",
+   "n": 1312,
+   "logloss": 0.6613396840052935,
+   "brier": 0.2345647082586149,
+   "acc": 0.6067073170731707
+  },
+  {
+   "group": "2023",
+   "model": "xG ratings only",
+   "n": 1312,
+   "logloss": 0.6621768228925746,
+   "brier": 0.234992862340983,
+   "acc": 0.6013719512195121
+  },
+  {
+   "group": "2023",
+   "model": "Goals-based ratings",
+   "n": 1312,
+   "logloss": 0.665546185117258,
+   "brier": 0.2365213126649001,
+   "acc": 0.5960365853658537
+  },
+  {
+   "group": "2023",
+   "model": "Season points %",
+   "n": 1312,
+   "logloss": 0.6823408134827308,
+   "brier": 0.2439721618279049,
+   "acc": 0.5754573170731707
+  },
+  {
+   "group": "2023",
+   "model": "Home team (constant)",
+   "n": 1312,
+   "logloss": 0.6899918220849296,
+   "brier": 0.2484236915045221,
+   "acc": 0.5411585365853658
+  },
+  {
+   "group": "2024",
+   "model": "Model (xG + goalie + finishing)",
+   "n": 1312,
+   "logloss": 0.6636417673733729,
+   "brier": 0.2356800144362315,
+   "acc": 0.5899390243902439
+  },
+  {
+   "group": "2024",
+   "model": "xG ratings only",
+   "n": 1312,
+   "logloss": 0.6664168753492353,
+   "brier": 0.2369821180084339,
+   "acc": 0.5815548780487805
+  },
+  {
+   "group": "2024",
+   "model": "Goals-based ratings",
+   "n": 1312,
+   "logloss": 0.6691183410035375,
+   "brier": 0.2382480795666909,
+   "acc": 0.5846036585365854
+  },
+  {
+   "group": "2024",
+   "model": "Season points %",
+   "n": 1312,
+   "logloss": 0.6837595105533922,
+   "brier": 0.2447277678599035,
+   "acc": 0.5701219512195121
+  },
+  {
+   "group": "2024",
+   "model": "Home team (constant)",
+   "n": 1312,
+   "logloss": 0.6874938271981846,
+   "brier": 0.247176225374695,
+   "acc": 0.5617378048780488
+  },
+  {
+   "group": "2025",
+   "model": "Model (xG + goalie + finishing)",
+   "n": 1312,
+   "logloss": 0.6829736714831296,
+   "brier": 0.2450597075247446,
+   "acc": 0.5403963414634146
+  },
+  {
+   "group": "2025",
+   "model": "xG ratings only",
+   "n": 1312,
+   "logloss": 0.6804465172481237,
+   "brier": 0.2438243039189096,
+   "acc": 0.5510670731707317
+  },
+  {
+   "group": "2025",
+   "model": "Goals-based ratings",
+   "n": 1312,
+   "logloss": 0.6875121250571671,
+   "brier": 0.24715795695668,
+   "acc": 0.5289634146341463
+  },
+  {
+   "group": "2025",
+   "model": "Season points %",
+   "n": 1312,
+   "logloss": 0.6989754783912784,
+   "brier": 0.2520109765014232,
+   "acc": 0.53125
+  },
+  {
+   "group": "2025",
+   "model": "Home team (constant)",
+   "n": 1312,
+   "logloss": 0.6923047803133972,
+   "brier": 0.2495787527358436,
+   "acc": 0.5221036585365854
+  },
+  {
+   "group": "2026",
+   "model": "Model (xG + goalie + finishing)",
+   "n": 165,
+   "logloss": 0.6558725891945731,
+   "brier": 0.2320721794029706,
+   "acc": 0.593939393939394
+  },
+  {
+   "group": "2026",
+   "model": "xG ratings only",
+   "n": 165,
+   "logloss": 0.6631410342633971,
+   "brier": 0.2355019624510538,
+   "acc": 0.5878787878787879
+  },
+  {
+   "group": "2026",
+   "model": "Goals-based ratings",
+   "n": 165,
+   "logloss": 0.6690662950391715,
+   "brier": 0.2381465882667076,
+   "acc": 0.6121212121212121
+  },
+  {
+   "group": "2026",
+   "model": "Season points %",
+   "n": 165,
+   "logloss": 0.7419282969857053,
+   "brier": 0.2693023840331412,
+   "acc": 0.5151515151515151
+  },
+  {
+   "group": "2026",
+   "model": "Home team (constant)",
+   "n": 165,
+   "logloss": 0.6843207288673002,
+   "brier": 0.245591621372744,
+   "acc": 0.5878787878787879
+  },
+  {
+   "group": "Test 2023-25",
+   "model": "Model (xG + goalie + finishing)",
+   "n": 3936,
+   "logloss": 0.6693183742872654,
+   "brier": 0.238434810073197,
+   "acc": 0.5790142276422764
+  },
+  {
+   "group": "Test 2023-25",
+   "model": "xG ratings only",
+   "n": 3936,
+   "logloss": 0.6696800718299779,
+   "brier": 0.2385997614227755,
+   "acc": 0.5779979674796748
+  },
+  {
+   "group": "Test 2023-25",
+   "model": "Goals-based ratings",
+   "n": 3936,
+   "logloss": 0.6740588837259875,
+   "brier": 0.2406424497294237,
+   "acc": 0.5698678861788617
+  },
+  {
+   "group": "Test 2023-25",
+   "model": "Season points %",
+   "n": 3936,
+   "logloss": 0.6883586008091338,
+   "brier": 0.2469036353964105,
+   "acc": 0.5589430894308943
+  },
+  {
+   "group": "Test 2023-25",
+   "model": "Home team (constant)",
+   "n": 3936,
+   "logloss": 0.6899301431988372,
+   "brier": 0.2483928898716869,
+   "acc": 0.5416666666666666
+  }
+ ],
+ "calibration": [
+  {
+   "p_home": "(0.0, 0.35]",
+   "n": 165,
+   "pred": 0.311996014137658,
+   "actual": 0.3272727272727272
+  },
+  {
+   "p_home": "(0.35, 0.45]",
+   "n": 692,
+   "pred": 0.4112289005666795,
+   "actual": 0.4219653179190751
+  },
+  {
+   "p_home": "(0.45, 0.5]",
+   "n": 674,
+   "pred": 0.4761129270182256,
+   "actual": 0.5133531157270029
+  },
+  {
+   "p_home": "(0.5, 0.55]",
+   "n": 714,
+   "pred": 0.5256760110851446,
+   "actual": 0.5252100840336135
+  },
+  {
+   "p_home": "(0.55, 0.65]",
+   "n": 1232,
+   "pred": 0.5952015701466121,
+   "actual": 0.5982142857142857
+  },
+  {
+   "p_home": "(0.65, 1.0]",
+   "n": 459,
+   "pred": 0.698509112675993,
+   "actual": 0.7145969498910676
+  }
+ ],
+ "market_calibration": [
+  {
+   "market": "Goes to OT/SO",
+   "pred": 0.23897448566613222,
+   "actual": 0.21951219512195122,
+   "n": 3936
+  },
+  {
+   "market": "Over 5.5",
+   "pred": 0.5723848409849603,
+   "actual": 0.5591971544715447,
+   "n": 3936
+  },
+  {
+   "market": "Over 6.5",
+   "pred": 0.4306412112058537,
+   "actual": 0.44740853658536583,
+   "n": 3936
+  },
+  {
+   "market": "Home -1.5 covers",
+   "pred": 0.3294768137880082,
+   "actual": 0.33028455284552843,
+   "n": 3936
+  },
+  {
+   "market": "Away -1.5 covers",
+   "pred": 0.28069918794902865,
+   "actual": 0.27134146341463417,
+   "n": 3936
+  },
+  {
+   "market": "Favorite -1.5 covers",
+   "pred": 0.3642227517093859,
+   "actual": 0.36534552845528456,
+   "n": 3936
+  }
+ ],
+ "goals_per_xg": 1.0078,
+ "params": {
+  "team": {
+   "hl": 70,
+   "carry": 0.5,
+   "ridge": 5.0,
+   "lookback": 500
+  },
+  "goalie_K": 60,
+  "goalie_hl": 150,
+  "shoot_K": 300,
+  "dist": {
+   "tie_k": 1.45,
+   "ot_s": 1.0,
+   "en_q": 0.45
+  },
+  "c_home": 1.0790460812120686,
+  "c_away": 1.028791459108919,
+  "pct_logit": [
+   0.13287168486459167,
+   2.0448074662780864
+  ],
+  "home_rate": 0.5303088067098742
+ }
+}

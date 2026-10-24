@@ -1,0 +1,91 @@
+name: board
+
+on:
+  schedule:
+    - cron: "30 13 * * *"        # morning full refresh, 6:30 AM Arizona
+    - cron: "*/15 15-23 * * *"   # pre-game, 8:00 AM to 4:45 PM Arizona
+    - cron: "*/15 0-3 * * *"     # pre-game, 5:00 PM to 8:45 PM Arizona
+    - cron: "0 10 * * *"         # nightly tracking for yesterday's games, 3:00 AM Arizona
+  push:
+    branches: [main]
+    paths: ["site/**", "out/**", "src/template.html", "src/export_site.py"]
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "morning | pregame | track | publish"
+        default: "pregame"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: board
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Pick mode
+        id: mode
+        run: |
+          S="${{ github.event.schedule }}"
+          M="${{ github.event.inputs.mode }}"
+          if [ -n "$M" ]; then MODE="$M"
+          elif [ "${{ github.event_name }}" = "push" ]; then MODE=publish
+          elif [ "$S" = "30 13 * * *" ]; then MODE=morning
+          elif [ "$S" = "0 10 * * *" ]; then MODE=track
+          else MODE=pregame; fi
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
+          echo "day=$(python scripts/today.py)" >> "$GITHUB_OUTPUT"
+          echo "yday=$(python scripts/today.py --yesterday)" >> "$GITHUB_OUTPUT"
+
+      - name: Morning full refresh
+        if: steps.mode.outputs.mode == 'morning'
+        run: |
+          FULL=1 bash scripts/fetch_data.sh
+          cd src
+          python data.py
+          python players.py
+          python metrics.py ${{ steps.mode.outputs.day }}
+          python injuries.py ${{ steps.mode.outputs.day }}
+          python board.py ${{ steps.mode.outputs.day }}
+          python export_site.py ${{ steps.mode.outputs.day }}
+
+      - name: Pre-game refresh (injuries, goalie overrides, lock started games)
+        if: steps.mode.outputs.mode == 'pregame'
+        run: |
+          cd src
+          python injuries.py ${{ steps.mode.outputs.day }}
+          python board.py ${{ steps.mode.outputs.day }}
+          python export_site.py ${{ steps.mode.outputs.day }}
+
+      - name: Nightly tracking
+        if: steps.mode.outputs.mode == 'track'
+        run: cd src && python track.py ${{ steps.mode.outputs.yday }}
+
+      - name: Commit changes
+        if: steps.mode.outputs.mode != 'publish'
+        run: |
+          git config user.name "nhl-model-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A out site data/*.parquet tracking
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "${{ steps.mode.outputs.mode }} ${{ steps.mode.outputs.day }}"
+          for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && break; sleep 5; done
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - uses: actions/deploy-pages@v4

@@ -1,0 +1,8 @@
+data/*.csv
+data/*.zip
+data/*.json
+data/*.htm
+__pycache__/
+site/_shots/
+.env
+out/nhl_board.html

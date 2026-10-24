@@ -1,0 +1,363 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="description" content="Personal NHL projection model with live scores"><style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font-size:14px}img{max-width:100%}[hidden]{display:none!important}</style><title>Ice Ledger NHL Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: rink-sheet board. One column of game rows, each split away | probability bar | home, tabs for ratings and backtest. */
+:root{
+  --ice:#f3f6f8; --sheet:#ffffff; --ink:#0f1c2b; --muted:#5b6877; --line:#d8e0e7;
+  --red:#c8102e; --blue:#1f4fa3; --redsoft:#f6dde1; --bluesoft:#dde6f5;
+  --good:#1d7a4a; --warn:#a86400;
+  --display:"Saira Condensed","Arial Narrow",system-ui,sans-serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --ice:#0b131c; --sheet:#111c28; --ink:#e6edf3; --muted:#93a3b3; --line:#243444;
+  --red:#ff5468; --blue:#6f9bff; --redsoft:#3a1b22; --bluesoft:#18284a; --good:#4cc38a; --warn:#e2a54a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --ice:#0b131c; --sheet:#111c28; --ink:#e6edf3; --muted:#93a3b3; --line:#243444;
+  --red:#ff5468; --blue:#6f9bff; --redsoft:#3a1b22; --bluesoft:#18284a; --good:#4cc38a; --warn:#e2a54a; color-scheme:dark}
+body{background:var(--ice);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5}
+.wrap{max-width:980px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 48px;display:grid;gap:22px}
+header{display:grid;gap:6px;border-bottom:3px solid var(--red);padding-bottom:14px;position:relative}
+header::after{content:"";position:absolute;left:0;right:0;bottom:-9px;height:3px;background:var(--blue)}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(2rem,6vw,3.1rem);line-height:1;letter-spacing:.01em;margin:0;text-wrap:balance;text-transform:uppercase}
+.sub{color:var(--muted);font-size:.92rem;display:flex;flex-wrap:wrap;gap:4px 16px}
+.sub b{color:var(--ink);font-weight:600}
+nav{display:flex;gap:6px;flex-wrap:wrap}
+nav button{font-family:var(--display);font-weight:700;font-size:1.05rem;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--line);background:var(--sheet);color:var(--muted);padding:6px 16px;border-radius:2px;cursor:pointer}
+nav button[aria-selected="true"]{background:var(--ink);color:var(--sheet);border-color:var(--ink)}
+nav button:focus-visible,summary:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.note{font-size:.88rem;color:var(--muted);max-width:70ch}
+.games{display:grid;gap:12px}
+.game{background:var(--sheet);border:1px solid var(--line);border-radius:3px;padding:14px 16px;display:grid;gap:12px}
+.top{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;font-size:.82rem;color:var(--muted);font-family:var(--mono)}
+.match{display:grid;grid-template-columns:1fr minmax(120px,1.4fr) 1fr;align-items:center;gap:14px}
+.team{display:grid;gap:2px;min-width:0}
+.team.home{text-align:right}
+.abbr{font-family:var(--display);font-weight:800;font-size:2rem;line-height:1}
+.nm{font-size:.82rem;color:var(--muted)}
+.side{justify-self:start;font-size:.66rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:1px 7px;border-radius:2px;background:var(--bluesoft);color:var(--blue)}
+.side.home{justify-self:end;background:var(--redsoft);color:var(--red)}
+.mtitle{font-family:var(--body);font-weight:600;color:var(--ink);font-size:.9rem}
+.top{align-items:baseline}
+.goalie{font-size:.82rem}
+.goalie .proj{color:var(--warn);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;font-weight:600}
+.pill{display:inline-block;font-size:.68rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:1px 6px;border-radius:2px;background:var(--redsoft);color:var(--red);margin-left:4px}
+.mid{display:grid;gap:6px;text-align:center}
+.score{font-family:var(--mono);font-size:1.25rem;font-weight:500;font-variant-numeric:tabular-nums}
+.bar{display:flex;height:10px;border-radius:2px;overflow:hidden;background:var(--line)}
+.bar .a{background:var(--blue)} .bar .h{background:var(--red)}
+.pcts{display:flex;justify-content:space-between;font-family:var(--mono);font-size:.85rem;font-variant-numeric:tabular-nums}
+.pcts .fa{color:var(--blue)} .pcts .fh{color:var(--red)}
+.mkts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;border-top:1px dashed var(--line);padding-top:10px}
+.mk{display:grid;gap:2px;min-width:0}
+.mk h4{margin:0;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.mk div{font-family:var(--mono);font-size:.84rem;font-variant-numeric:tabular-nums}
+.inj{border-top:1px dashed var(--line);padding-top:8px;font-size:.84rem;display:grid;gap:2px}
+.inj .dl{font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.inj .rk{font-family:var(--mono);color:var(--muted)}
+.sum{border-top:1px dashed var(--line);padding-top:10px;display:grid;gap:6px}
+.sum p{margin:0;max-width:75ch;font-size:.92rem}
+.src{font-size:.78rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 12px}
+.src a{color:var(--blue)}
+.nm a.tl{color:inherit;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:2px}
+.nm a.tl:hover{color:var(--blue)}
+a:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.goalie .conf{color:var(--good);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;font-weight:600}
+.sh{font-family:var(--mono);font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.idtabs{display:inline-flex;border:1px solid var(--line);border-radius:3px;padding:3px;gap:3px;background:var(--ice)}
+.idtabs button{font:600 .85rem var(--body);border:0;background:none;color:var(--muted);padding:6px 14px;border-radius:2px;cursor:pointer}
+.idtabs button[aria-selected="true"]{background:var(--ink);color:var(--sheet)}
+.idtabs button:focus-visible{outline:2px solid var(--blue);outline-offset:1px}
+.idgrid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:18px;margin-top:10px}
+.rwrap{display:grid;gap:4px;justify-items:center;min-width:0}
+.leg{display:flex;gap:16px;font-size:.85rem;font-weight:600}.leg .la{color:var(--blue)}.leg .lh{color:var(--red)}
+svg.radar{width:100%;max-width:460px;height:auto;overflow:visible}
+.radar .rg{fill:none;stroke:var(--line)}
+.radar .ra{stroke:var(--line)} .radar .ra.on{stroke:var(--muted);stroke-width:1.5}
+.radar .rt{font:10px var(--mono);fill:var(--muted)}
+.radar .rl{font:12.5px var(--body);fill:var(--muted);cursor:pointer} .radar .rl.on{fill:var(--ink);font-weight:700}
+.radar .rp{stroke-width:2;stroke-linejoin:round}
+.radar .rp.a{fill:var(--blue);fill-opacity:.14;stroke:var(--blue)}
+.radar .rp.h{fill:var(--red);fill-opacity:.12;stroke:var(--red);stroke-dasharray:5 4}
+.radar .rm.a{fill:var(--sheet);stroke:var(--blue);stroke-width:1.8} .radar .rm.h{fill:var(--sheet);stroke:var(--red);stroke-width:1.8}
+.ccol{display:grid;gap:12px;align-content:start;min-width:0}
+table.ct{width:100%;border-collapse:collapse;font-size:.9rem}
+.ct th{font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600;text-align:right;padding:6px 8px;border-bottom:1px solid var(--line);background:none}
+.ct th:first-child{text-align:left}.ct th.a{color:var(--blue)}.ct th.h{color:var(--red)}
+.ct td{padding:8px;border-bottom:1px solid var(--line);text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.ct td:first-child{text-align:left;font-family:var(--body)}
+.ct td.a{color:var(--blue)}.ct td.h{color:var(--red)}.ct td.b{font-weight:700}
+.ct tr[data-cat]{cursor:pointer}.ct tr[data-cat]:hover td{background:var(--ice)}
+.ct tr.sel td{background:var(--bluesoft)}.ct tr.sel td:first-child{box-shadow:inset 3px 0 0 var(--ink)}
+.ct tr:focus-visible{outline:2px solid var(--blue);outline-offset:-2px}
+.sty{font-size:.68rem;color:var(--muted);letter-spacing:.04em}
+.cdet h4{margin:0;font-family:var(--display);font-size:1.15rem;letter-spacing:.03em;text-transform:uppercase}
+.cdet p{margin:2px 0 8px;font-size:.85rem;color:var(--muted)}
+.dd{display:grid;grid-template-columns:1fr 1fr;gap:12px;font-size:.85rem}
+.dd b{display:block;margin-bottom:2px}.dd .a b{color:var(--blue)}.dd .h b{color:var(--red)}
+.dd .dl{display:block;font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-top:4px}
+.dd div div{font-family:var(--mono)}
+details.all summary{cursor:pointer;font-size:.85rem;color:var(--blue)}
+@media (max-width:720px){.idgrid{grid-template-columns:1fr}}
+details.mx{padding-top:2px}
+details.mx summary,details.all summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:6px 12px;flex-wrap:wrap;padding:10px 14px;border:1px solid var(--line);border-radius:3px;background:var(--ice);transition:background .15s}
+details.mx summary:hover,details.all summary:hover{background:var(--bluesoft);border-color:var(--blue)}
+details.mx summary::-webkit-details-marker,details.all summary::-webkit-details-marker{display:none}
+details.mx summary:focus-visible,details.all summary:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.xt{font-family:var(--display);font-weight:700;font-size:1.05rem;letter-spacing:.05em;text-transform:uppercase;color:var(--ink)}
+details.all .xt{font-family:var(--body);font-size:.85rem;letter-spacing:0;text-transform:none;font-weight:600}
+.xh{font-size:.8rem;color:var(--muted);flex:1 1 auto}
+.chev{margin-left:auto;font:600 .78rem var(--body);color:var(--blue);white-space:nowrap}
+.chev::after{content:"Open \25BE"}
+details[open]>summary .chev::after{content:"Close \25B4"}
+@media (prefers-reduced-motion:reduce){details.mx summary,details.all summary{transition:none}}
+.mxbody{display:grid;gap:14px;margin-top:10px}
+.edges{display:grid;gap:6px}
+.edge{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,2fr) 4.5em;align-items:center;gap:10px;font-size:.85rem}
+.etrack{position:relative;height:12px;background:var(--ice);border:1px solid var(--line);border-radius:2px}
+.etrack::after{content:"";position:absolute;left:50%;top:-3px;bottom:-3px;width:1px;background:var(--muted)}
+.efill{position:absolute;top:0;bottom:0}
+.efill.a{background:var(--blue);right:50%} .efill.h{background:var(--red);left:50%}
+.etag{font-family:var(--mono);font-size:.78rem;text-align:right;font-variant-numeric:tabular-nums}
+.mt{width:100%;border-collapse:collapse;font-size:.85rem}
+.mt th,.mt td{padding:5px 8px;border-bottom:1px solid var(--line);white-space:nowrap;font-variant-numeric:tabular-nums}
+.mt th{font-size:.7rem}
+.mt td.lab{text-align:left;white-space:normal;color:var(--ink)}
+.mt td.v{font-family:var(--mono);text-align:right}
+.mt td.v.h{text-align:left}
+.mt td.better{font-weight:600}
+.mt td.better.a{color:var(--blue)} .mt td.better.h{color:var(--red)}
+.mt .rk{color:var(--muted);font-size:.74rem;margin:0 4px}
+.mt tr.grp td{background:var(--ice);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600;text-align:left}
+.mxnote{font-size:.78rem;color:var(--muted);max-width:75ch;margin:0}
+@media (max-width:560px){.edge{grid-template-columns:1fr 4.5em}.edge .etrack{grid-column:1/-1;order:3}}
+.tbl{overflow-x:auto;background:var(--sheet);border:1px solid var(--line);border-radius:3px}
+table{border-collapse:collapse;width:100%;font-size:.88rem}
+th,td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+th{font-size:.72rem;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:600;background:var(--ice)}
+th:first-child,td:first-child{text-align:left}
+td.mono{font-family:var(--mono)}
+tr.best td{font-weight:600}
+.pos{color:var(--good)} .neg{color:var(--red)}
+h2{font-family:var(--display);font-weight:700;font-size:1.5rem;letter-spacing:.03em;text-transform:uppercase;margin:0}
+section{display:grid;gap:12px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.kpi{background:var(--sheet);border:1px solid var(--line);border-radius:3px;padding:12px 14px;display:grid;gap:2px}
+.kpi .v{font-family:var(--display);font-weight:700;font-size:1.8rem;line-height:1.05}
+.kpi .l{font-size:.78rem;color:var(--muted)}
+footer{font-size:.8rem;color:var(--muted);border-top:1px solid var(--line);padding-top:12px;display:grid;gap:4px}
+footer a{color:var(--blue)}
+@media (max-width:560px){
+  .match{grid-template-columns:1fr 1fr}
+  .mid{grid-column:1/-1;order:3}
+  .mkts{grid-template-columns:1fr}
+  .abbr{font-size:1.7rem}
+}
+</style>
+<link rel="stylesheet" href="live.css"></head><body>
+
+<div class="wrap">
+  <header>
+    <h1 id="hdr">NHL Board</h1>
+    <div class="sub" id="meta"></div>
+  </header>
+  <nav role="tablist">
+    <button id="t-games" role="tab" aria-selected="true" data-v="games">Games</button>
+    <button id="t-ratings" role="tab" aria-selected="false" data-v="ratings">Team ratings</button>
+    <button id="t-backtest" role="tab" aria-selected="false" data-v="backtest">Backtest</button>
+  </nav>
+
+  <section id="v-games">
+    <p class="note">Probabilities and fair odds are model outputs with no vig. Goalies marked <span class="pill" style="background:none;color:var(--warn);padding:0;margin:0">projected</span> are the model's guess, not confirmed starters; confirm before relying on a number. Totals and puck lines count overtime and shootouts the way sportsbooks do.</p>
+    <div class="games" id="games"></div>
+  </section>
+
+  <section id="v-ratings" hidden>
+    <p class="note">Expected goals per 60 minutes, adjusted for opponent, score state, venue and shot flurries. Offense: higher is better. Defense (allowed): lower is better. Finishing is goals above expected per expected goal, heavily shrunk toward zero.</p>
+    <div class="tbl"><table id="rat"></table></div>
+  </section>
+
+  <section id="v-backtest" hidden>
+    <div class="cards" id="kpis"></div>
+    <p class="note" id="btnote"></p>
+    <h2>Log loss by season (lower is better)</h2>
+    <div class="tbl"><table id="bt"></table></div>
+    <h2>Calibration, test seasons</h2>
+    <div class="tbl"><table id="cal"></table></div>
+    <h2>Totals and puck line, test seasons</h2>
+    <div class="tbl"><table id="mcal"></table></div>
+  </section>
+
+  <footer>
+    <div>Data: <a href="https://moneypuck.com" target="_blank" rel="noopener">MoneyPuck.com</a> (expected goals, shots, goalies) and the NHL public API (schedule, yesterday's starters). Personal, non-commercial use.</div>
+    <div id="foot2"></div>
+  </footer>
+</div>
+
+
+<script src="live.js"></script>
+<script>
+function renderBoard(B){
+
+const $ = id => document.getElementById(id);
+const pct = x => (100*x).toFixed(1)+'%';
+const ml = x => x==null ? '–' : (x>0?'+':'')+x;
+const amer = p => p>=0.5 ? Math.round(-100*p/(1-p)) : Math.round(100*(1-p)/p);
+const dt = new Date(B.date+'T12:00:00');
+$('hdr').textContent = 'NHL Board · ' + dt.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric',year:'numeric'});
+$('meta').innerHTML = `<span><b>${B.games.length}</b> games</span><span>Results through <b>${B.data_through}</b></span><span>Built ${B.generated}</span><span>Times in Arizona (MST)</span>`;
+
+const SLUG={ANA:'ducks',BOS:'bruins',BUF:'sabres',CGY:'flames',CAR:'hurricanes',CHI:'blackhawks',COL:'avalanche',CBJ:'bluejackets',DAL:'stars',DET:'redwings',EDM:'oilers',FLA:'panthers',LAK:'kings',MIN:'wild',MTL:'canadiens',NSH:'predators',NJD:'devils',NYI:'islanders',NYR:'rangers',OTT:'senators',PHI:'flyers',PIT:'penguins',SJS:'sharks',SEA:'kraken',STL:'blues',TBL:'lightning',TOR:'mapleleafs',UTA:'utah',VAN:'canucks',VGK:'goldenknights',WSH:'capitals',WPG:'jets'};
+const tlink=(ab,txt)=>SLUG[ab]?`<a class="tl" href="https://www.nhl.com/${SLUG[ab]}/" target="_blank" rel="noopener">${txt}</a>`:txt;
+function tm(t){return new Date(t).toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit',timeZone:'America/Phoenix'})+' MST'}
+function gl(g){
+  if(!g||!g.name) return '<div class="goalie">Goalie: unknown</div>';
+  const s = g.gsax_per_xg; const sign = s>=0?'+':'';
+  const bs=(g.basis||''); const tag = bs.startsWith('confirmed') ? '<span class="conf">confirmed</span>' : bs.startsWith('likely') ? '<span class="conf">likely</span>' : bs.startsWith('expected') ? '<span class="conf">expected</span>' : '<span class="proj">projected</span>';
+  return `<div class="goalie">${g.name} ${tag}<br><span class="nm">GSAx/xG ${sign}${(100*s).toFixed(1)}% · ${(g.basis||'').replace(/^confirmed: /,'')}</span></div>`;
+}
+const MX = B.metrics;
+const pctOf = r => 100*(MX.n - r)/(MX.n - 1);   // rank 1 -> 100
+const CATS = [
+ {name:'Chance creation', off:'xgf60_5v5', def:'xga60_5v5', d:'Expected goals per 60 minutes at 5-on-5. Offense: chances created. Defense: chances allowed.'},
+ {name:'Shot volume', off:'cf60f_5v5', def:'cf60a_5v5', d:'All shot attempts per 60 at 5-on-5, including misses and blocks. A proxy for puck possession.'},
+ {name:'High danger', off:'hdxgf60_5v5', def:'hdxga60_5v5', d:'Expected goals from high-danger shots (above a 20% scoring chance) per 60 at 5-on-5.'},
+ {name:'Special teams', off:'pp_xgf60', def:'pk_xga60', d:'Offense: power-play expected goals per 60. Defense: expected goals allowed per 60 on the penalty kill.'},
+ {name:'Finishing & saves', off:'finish_gp', def:'gsax_gp', d:'Offense: goals scored above expected per game. Defense: goals saved above expected per game by the team\'s goalies this season.'},
+ {name:'Discipline', off:'pen_drawn_gp', def:'pen_taken_gp', d:'Offense: penalties drawn per game. Defense: penalties taken per game (fewer is better).'},
+ {name:'Recent form', off:'l10_xgf_gp', def:'l10_xga_gp', d:'Expected goals for and against per game over the last 10 games, all situations.'},
+ {name:'Pace', off:'pace60_5v5', def:'pace60_5v5', style:true, d:'Combined shot attempts per 60 at 5-on-5 in the team\'s games. Higher means faster, not better.'}
+];
+const DEF = k => MX.defs.find(d=>d.key===k);
+function fmtv(def,v){ if(v==null) return '–'; const s=(+v).toFixed(def.dec); const signed=['finish_gp','gsax_gp','l10_gd'].includes(def.key); return (signed&&v>0?'+':'')+s+def.unit; }
+function score(t,c,view){ const T=MX.teams[t]; const o=pctOf(T.ranks[c.off]), d=pctOf(T.ranks[c.def]); if(c.style) return o; return view==='off'?o:view==='def'?d:(o+d)/2; }
+function radar(g,view,sel){
+  const A=g.away,H=g.home,N=CATS.length,cx=250,cy=195,R=120;
+  const pt=(i,v)=>{const a=-Math.PI/2+2*Math.PI*i/N, r=R*v/100; return [cx+r*Math.cos(a), cy+r*Math.sin(a)];};
+  let s=`<svg viewBox="0 0 500 390" class="radar" role="img" aria-label="Radar chart comparing ${A} and ${H}, ${view==='off'?'offense':view==='def'?'defense':'overall'}, 0 to 100">`;
+  for(const lv of [25,50,75,100]){ s+=`<polygon points="${CATS.map((_,i)=>pt(i,lv).join(',')).join(' ')}" class="rg"/>`; }
+  CATS.forEach((c,i)=>{const [x,y]=pt(i,100); s+=`<line x1="${cx}" y1="${cy}" x2="${x}" y2="${y}" class="ra${i===sel?' on':''}"/>`;});
+  for(const lv of [25,50,75,100]){ const [x,y]=pt(0,lv); s+=`<text x="${x+4}" y="${y+3}" class="rt">${lv}</text>`; }
+  const poly=(t,cls)=>{const ps=CATS.map((c,i)=>pt(i,score(t,c,view))); return `<polygon points="${ps.map(p=>p.join(',')).join(' ')}" class="rp ${cls}"/>`+ps.map((p,i)=>cls==='a'?`<circle cx="${p[0]}" cy="${p[1]}" r="${i===sel?5:3.2}" class="rm a"/>`:`<rect x="${p[0]-(i===sel?5:3.4)}" y="${p[1]-(i===sel?5:3.4)}" width="${i===sel?10:6.8}" height="${i===sel?10:6.8}" class="rm h"/>`).join('');};
+  s+=poly(A,'a')+poly(H,'h');
+  CATS.forEach((c,i)=>{const [x,y]=pt(i,123); const anc=Math.abs(x-cx)<8?'middle':x>cx?'start':'end'; const dy=y<cy-60?-6:y>cy+60?14:4; s+=`<text x="${x}" y="${y+dy}" text-anchor="${anc}" class="rl${i===sel?' on':''}" data-cat="${i}">${c.name}</text>`;});
+  return s+'</svg>';
+}
+function catTable(g,view,sel){
+  const A=g.away,H=g.home;
+  return `<table class="ct"><tr><th>Category · 0-100</th><th class="a">${A}</th><th class="h">${H}</th></tr>`+
+   CATS.map((c,i)=>{const sa=score(A,c,view), sh=score(H,c,view); return `<tr data-cat="${i}" class="${i===sel?'sel':''}" tabindex="0"><td>${c.name}${c.style?' <span class="sty">style</span>':''}</td><td class="a${!c.style&&sa>sh?' b':''}">${sa.toFixed(1)}</td><td class="h${!c.style&&sh>sa?' b':''}">${sh.toFixed(1)}</td></tr>`}).join('')+'</table>';
+}
+function catDetail(g,sel){
+  const c=CATS[sel], A=g.away, H=g.home, oD=DEF(c.off), dD=DEF(c.def);
+  const side=t=>{const T=MX.teams[t]; return c.style?`<div><span class="dl">Pace</span>${fmtv(oD,T.values[c.off])} <span class="rk">#${T.ranks[c.off]}</span></div>`:
+    `<div><span class="dl">Offense</span>${fmtv(oD,T.values[c.off])} <span class="rk">#${T.ranks[c.off]}</span></div><div><span class="dl">Defense</span>${fmtv(dD,T.values[c.def])} <span class="rk">#${T.ranks[c.def]}</span></div>`;};
+  return `<h4>${c.name}</h4><p>${c.d}</p><div class="dd"><div class="a"><b>${g.away_name}</b>${side(A)}</div><div class="h"><b>${g.home_name}</b>${side(H)}</div></div>`;
+}
+function edgeRow(label, sa, sh, note){
+  const d = sh - sa, w = Math.min(50, Math.abs(d)/2);
+  const fill = d>0 ? `<div class="efill h" style="width:${w}%"></div>` : d<0 ? `<div class="efill a" style="width:${w}%"></div>` : '';
+  return `<div class="edge"><div>${label}<div class="nm">${note}</div></div><div class="etrack" role="img" aria-label="${label}: edge ${Math.abs(d).toFixed(0)} points">${fill}</div><div class="etag">${Math.abs(d)<5?'even':(d>0?'home':'away')+' +'+Math.abs(d).toFixed(0)}</div></div>`;
+}
+function attack(off, offKey, def, defKey){ return (pctOf(MX.teams[off].ranks[offKey]) + 100 - pctOf(MX.teams[def].ranks[defKey]))/2; }
+const MXS = {};  // per-game view state
+function idPanel(g){ const k=g.away+'-'+g.home, st=MXS[k]||(MXS[k]={view:'all',sel:0});
+  return `<div class="idtabs" role="tablist">${[['all','Overall'],['off','Offense'],['def','Defense']].map(([v,l])=>`<button data-view="${v}" aria-selected="${st.view===v}">${l}</button>`).join('')}</div>
+  <div class="idgrid"><div class="rwrap"><div class="leg"><span class="la">● ${g.away_name}</span><span class="lh">■ ${g.home_name}</span></div>${radar(g,st.view,st.sel)}<p class="mxnote">Larger = stronger (league percentile). On pace, larger = faster. Select a category to see its numbers.</p></div>
+  <div class="ccol">${catTable(g,st.view,st.sel)}<div class="cdet">${catDetail(g,st.sel)}</div></div></div>`;}
+function matchup(g){
+  if(!MX||!MX.teams[g.home]||!MX.teams[g.away]) return '';
+  const A=g.away,H=g.home, TA=MX.teams[A], TH=MX.teams[H];
+  const pairs=[["5-on-5 chances","xgf60_5v5","xga60_5v5"],["High-danger chances","hdxgf60_5v5","hdxga60_5v5"],["Power play vs. penalty kill","pp_xgf60","pk_xga60"],["Finishing vs. goaltending","finish_gp","gsax_gp"]];
+  const edges = pairs.map(([lab,o,dk])=>{const sa=attack(A,o,H,dk), sh=attack(H,o,A,dk); return edgeRow(lab, sa, sh, `${A} attack ${sa.toFixed(0)} · ${H} attack ${sh.toFixed(0)}`)}).join('');
+  let grp='', rows='';
+  for(const d of MX.defs){ if(d.group==='Underlying') continue;
+    if(d.group!==grp){grp=d.group; rows+=`<tr class="grp"><td colspan="3">${grp}</td></tr>`;}
+    const ra=TA.ranks[d.key], rh=TH.ranks[d.key];
+    const ba = d.higher_better!==null && ra<rh, bh = d.higher_better!==null && rh<ra;
+    rows+=`<tr><td class="v${ba?' better a':''}">${fmtv(d,TA.values[d.key])}<span class="rk">${ra}</span></td><td class="lab">${d.label}</td><td class="v h${bh?' better h':''}"><span class="rk">${rh}</span>${fmtv(d,TH.values[d.key])}</td></tr>`;
+  }
+  return `<details class="mx" id="mx-${A}-${H}" data-g="${A}-${H}"><summary><span class="xt">Matchup breakdown</span><span class="xh">Radar, 0-100 categories, edges, all ranks</span><span class="chev" aria-hidden="true"></span></summary><div class="mxbody">
+    <div class="sh">01 / Team identity</div>
+    <div class="idp">${idPanel(g)}</div>
+    <div class="sh">02 / Matchup edges</div>
+    <div class="edges">${edges}</div>
+    <p class="mxnote">Attack score = (offense percentile + 100 minus opponent's defense percentile) ÷ 2. Bars point toward the team with the edge; gaps under 5 points are even. These describe statistical strengths, not win probabilities.</p>
+    <details class="all"><summary><span class="xt">All ${MX.defs.filter(d=>d.group!=='Underlying').length} metrics with league ranks</span><span class="chev" aria-hidden="true"></span></summary><div class="tbl"><table class="mt"><tr><th style="text-align:right">${A} · rank</th><th style="text-align:left">Season to date</th><th style="text-align:left">rank · ${H}</th></tr>${rows}</table></div></details>
+    <p class="mxnote">Ranks out of ${MX.n} teams (1 = best; pace ranks fastest first). Regular season games through ${String(MX.through).replace(/(\d{4})(\d{2})(\d{2})/,'$1-$2-$3')}. Early-season samples are small. Finishing & saves uses each team's goalies so far this season, not tonight's starter.</p>
+  </div></details>`;
+}
+document.getElementById('games').addEventListener('click',e=>{
+  const box=e.target.closest('details.mx'); if(!box) return;
+  const g=B.games.find(x=>x.away+'-'+x.home===box.dataset.g); const st=MXS[box.dataset.g];
+  const vb=e.target.closest('[data-view]'), cr=e.target.closest('[data-cat]');
+  if(vb){st.view=vb.dataset.view;} else if(cr){st.sel=+cr.dataset.cat;} else return;
+  box.querySelector('.idp').innerHTML=idPanel(g);
+});
+document.getElementById('games').addEventListener('keydown',e=>{ if((e.key==='Enter'||e.key===' ')&&e.target.matches('tr[data-cat]')){e.preventDefault();e.target.click();} });
+
+function injLine(g){
+  const f=(ab,list)=>{const ap=(list||[]).filter(p=>p.applied), dtd=(list||[]).filter(p=>p.regular&&!p.applied&&p.status==='Day-To-Day');
+    if(!ap.length&&!dtd.length) return '';
+    return `<div><b>${ab}</b> ${ap.map(p=>`${p.name} <span class="rk">${p.value>=0?'−':'+'}${Math.abs(p.value).toFixed(2)}</span>`).join(', ')}${dtd.length?`${ap.length?'; ':''}<span class="nm">day to day, not applied: ${dtd.map(p=>p.name).join(', ')}</span>`:''}</div>`;};
+  const s=f(g.away,g.inj_away)+f(g.home,g.inj_home);
+  return s?`<div class="inj"><span class="dl">Missing regulars (model-adjusted, xG per game)</span>${s}</div>`:'';
+}
+const SHOW = g => B.detail_games==='ALL' || (B.detail_games||[]).includes(g.away+'@'+g.home);
+$('games').innerHTML = B.games.map(g=>{
+  const t55=g.totals['5.5'], t65=g.totals['6.5'];
+  return `<article class="game">
+    <div class="top">${g.frozen?'<span class="pill" style="background:var(--bluesoft);color:var(--blue);margin:0">Locked at puck drop</span>':''}<span class="mtitle">${g.away_name} at ${g.home_name}</span><span>${tm(g.start_utc)} · ${g.venue||''}</span><span>OT/SO chance ${pct(g.p_ot)}</span></div>
+    <div class="match">
+      <div class="team"><span class="side">Away</span><div class="abbr">${g.away}${g.away_b2b?'<span class="pill">B2B</span>':''}</div><div class="nm">${tlink(g.away,g.away_name)} · ${g.away_rec} · #${g.away_rank} xG</div>${gl(g.away_goalie)}</div>
+      <div class="mid">
+        <div class="score">${g.proj_away.toFixed(2)} – ${g.proj_home.toFixed(2)}</div>
+        <div class="bar" role="img" aria-label="${g.away} ${pct(g.p_away)}, ${g.home} ${pct(g.p_home)}"><div class="a" style="width:${100*g.p_away}%"></div><div class="h" style="width:${100*g.p_home}%"></div></div>
+        <div class="pcts"><span class="fa">${pct(g.p_away)} (${ml(g.fair_ml_away)})</span><span class="fh">${pct(g.p_home)} (${ml(g.fair_ml_home)})</span></div>
+      </div>
+      <div class="team home"><span class="side home">Home</span><div class="abbr">${g.home_b2b?'<span class="pill" style="margin:0 4px 0 0">B2B</span>':''}${g.home}</div><div class="nm">#${g.home_rank} xG · ${g.home_rec} · ${tlink(g.home,g.home_name)}</div>${gl(g.home_goalie)}</div>
+    </div>
+    <div class="mkts">
+      <div class="mk"><h4>Projected total</h4><div>${g.exp_total.toFixed(2)}</div></div>
+      <div class="mk"><h4>Over / under</h4><div>5.5: ${pct(t55.over)} / ${pct(t55.under)}</div><div>6.5: ${pct(t65.over)} / ${pct(t65.under)}</div></div>
+      <div class="mk"><h4>Puck line −1.5 (fair)</h4><div>${g.away} ${pct(g.puck_line['away_-1.5'])} (${ml(amer(g.puck_line['away_-1.5']))})</div><div>${g.home} ${pct(g.puck_line['home_-1.5'])} (${ml(amer(g.puck_line['home_-1.5']))})</div></div>
+    </div>
+    ${injLine(g)}
+    ${SHOW(g)?matchup(g):''}
+    ${g.summary?`<div class="sum"><p>${g.summary}</p><div class="src">Sources: ${g.sources.map(s=>`<a href="${s[1]}" target="_blank" rel="noopener">${s[0]}</a>`).join('')}</div></div>`:''}
+  </article>`}).join('');
+
+const r = B.ratings;
+$('rat').innerHTML = '<tr><th>#</th><th>Team</th><th>Net xG/60</th><th>Offense</th><th>Defense (allowed)</th><th>Finishing</th></tr>' +
+  r.map((t,i)=>`<tr><td>${i+1}</td><td>${tlink(t.team,t.team)}</td><td class="mono ${t.net>=0?'pos':'neg'}">${t.net>=0?'+':''}${t.net.toFixed(2)}</td><td class="mono">${t.off.toFixed(2)}</td><td class="mono">${t.def.toFixed(2)}</td><td class="mono">${t.finishing>=0?'+':''}${(100*t.finishing).toFixed(1)}%</td></tr>`).join('').replace('<tr><td>1</td>','<tr><td>1</td>');
+
+const sc = B.scorecard, models=[...new Set(sc.map(s=>s.model))], groups=[...new Set(sc.map(s=>s.group))];
+const lab = g => g==='Test 2023-25' ? 'Test 2023-24 to 2025-26' : `${g}-${String(+g+1).slice(2)}${+g<=2022?' (tuning)':+g===2026?' (live, to date)':' (test)'}`;
+$('bt').innerHTML = '<tr><th>Season</th><th>Games</th>'+models.map(m=>`<th>${m}</th>`).join('')+'</tr>'+
+  groups.map(g=>{const rs=sc.filter(s=>s.group===g);const best=Math.min(...rs.map(x=>x.logloss));
+   return `<tr${g.startsWith('Test')?' class="best"':''}><td>${lab(g)}</td><td>${rs[0].n}</td>`+models.map(m=>{const x=rs.find(s=>s.model===m);return `<td class="mono${x.logloss===best?' pos':''}">${x.logloss.toFixed(4)}</td>`}).join('')+'</tr>'}).join('');
+const T = sc.filter(s=>s.group==='Test 2023-25'), M=T.find(s=>s.model.startsWith('Model')), H=T.find(s=>s.model.startsWith('Home')), P=T.find(s=>s.model.startsWith('Season'));
+$('kpis').innerHTML = [
+  [M.logloss.toFixed(4),'Model log loss, 2023-24 to 2025-26 ('+M.n+' games)'],
+  [(100*(1-M.logloss/H.logloss)).toFixed(1)+'%','Improvement vs. always picking the home team'],
+  [(100*(1-M.logloss/P.logloss)).toFixed(1)+'%','Improvement vs. season points % baseline'],
+  [pct(M.acc),'Favorite won (test seasons)']].map(([v,l])=>`<div class="kpi"><div class="v">${v}</div><div class="l">${l}</div></div>`).join('');
+$('btnote').textContent = 'Walk-forward: every prediction uses only games played before that date. Settings were tuned on 2021-22 and 2022-23 only. Starting goalies in the backtest are the actual starters, which are usually known before puck drop but not always. No market comparison yet: that needs historical closing odds.';
+$('cal').innerHTML = '<tr><th>Home win prob. bucket</th><th>Games</th><th>Predicted</th><th>Actual</th></tr>'+
+  B.calibration.map(c=>`<tr><td>${c.p_home}</td><td>${c.n}</td><td class="mono">${pct(c.pred)}</td><td class="mono">${pct(c.actual)}</td></tr>`).join('');
+$('mcal').innerHTML = '<tr><th>Outcome</th><th>Games</th><th>Predicted</th><th>Actual</th><th>Gap</th></tr>'+
+  B.market_calibration.map(c=>{const d=c.pred-c.actual;return `<tr><td>${c.market}</td><td>${c.n}</td><td class="mono">${pct(c.pred)}</td><td class="mono">${pct(c.actual)}</td><td class="mono">${d>=0?'+':''}${(100*d).toFixed(1)} pts</td></tr>`}).join('');
+$('foot2').textContent = `Model settings: rating half-life ${B.params.team.hl} game days, prior-season weight ${B.params.team.carry}, ridge ${B.params.team.ridge}; goalie shrinkage ${B.params.goalie_K} xG. League average ${B.league_xg60} xG/60. Back-to-back effect on own xG/60: ${B.b2b_effect.own_xg}.`;
+
+const tabs=[...document.querySelectorAll('nav button')];
+function show(v){tabs.forEach(b=>b.setAttribute('aria-selected',b.dataset.v===v));['games','ratings','backtest'].forEach(x=>$('v-'+x).hidden=x!==v);}
+tabs.forEach(b=>b.addEventListener('click',()=>show(b.dataset.v)));
+const h=(location.hash||'').slice(1); if(['games','ratings','backtest'].includes(h)) show(h);
+
+}
+
+fetch('data/board.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json();}).then(B=>{renderBoard(B);startLive(B);}).catch(()=>{document.getElementById('games').innerHTML='<p class="note">Board data could not be loaded. Try reloading the page.</p>';});
+</script>
+</body></html>
