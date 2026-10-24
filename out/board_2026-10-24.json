@@ -1,7 +1,7 @@
 {
  "date": "2026-10-24",
  "data_through": "2026-10-23",
- "generated": "2026-10-24 14:57 MST",
+ "generated": "2026-10-24 15:02 MST",
  "league_xg60": 3.003,
  "b2b_effect": {
   "own_xg": -0.251,
@@ -1054,20 +1054,9 @@
    "home_goalie": {
     "id": 8480981,
     "name": "Joel Hofer",
-    "basis": "most starts in last 10",
+    "basis": "confirmed: likely: projected starter per Jeremy Rutherford, coach did not confirm (via gamedaytweets)",
     "gsax_per_xg": 0.0713,
-    "options": [
-     {
-      "id": 8480981,
-      "name": "Joel Hofer",
-      "gsax_per_xg": 0.0713
-     },
-     {
-      "id": 8476412,
-      "name": "Jordan Binnington",
-      "gsax_per_xg": -0.0909
-     }
-    ]
+    "options": []
    },
    "away_goalie": {
     "id": 8481611,
