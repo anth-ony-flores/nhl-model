@@ -68,3 +68,4 @@ details.mv{margin-top:10px}
 .rchip.rc-W{background:var(--good);color:var(--sheet)}
 .rchip.rc-L{background:var(--line);color:var(--muted)}
 .rchip.rc-P{background:var(--line);color:var(--ink)}
+.game.is-final .res{background:var(--sheet)}

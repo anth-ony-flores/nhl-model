@@ -171,15 +171,15 @@ function marketHTML(g, G) {
   const rows = [];
   if (mh != null) {
     const liveTxt = G && G.state === 'in' && ml.home.live ? ` · live ${fmtO(ml.away.live)}/${fmtO(ml.home.live)}` : '';
-    rows.push(`<div class="dkr"><span class="dkl">Moneyline</span><span>${esc(g.away)} ${fmtO(ml.away.close || ml.away.open)} / ${esc(g.home)} ${fmtO(ml.home.close || ml.home.open)} <span class="nm">(open ${fmtO(ml.away.open)}/${fmtO(ml.home.open)}${liveTxt})</span></span><span>Market ${esc(g.home)} ${pc1(mh)} · Model ${pc1(g.p_home)}</span>${pickTxt(P.ml)}${resChip(gradeOf('ml', P.ml, g, G))}</div>`);
+    rows.push(`<div class="dkr"><span class="dkl">Moneyline</span><span>${esc(g.away)} ${fmtO(ml.away.close || ml.away.open)} / ${esc(g.home)} ${fmtO(ml.home.close || ml.home.open)} <span class="nm">(open ${fmtO(ml.away.open)}/${fmtO(ml.home.open)}${liveTxt})</span></span><span>Market ${esc(g.home)} ${pc1(mh)} · Model ${pc1(g.p_home)}</span><span>${pickTxt(P.ml)}${resChip(gradeOf('ml', P.ml, g, G))}</span></div>`);
   }
   if (o.total && o.total.line != null) {
     const {mo, mod} = P.totInfo;
-    rows.push(`<div class="dkr"><span class="dkl">Total ${o.total.line}</span><span>Over ${fmtO(o.total.over)} / Under ${fmtO(o.total.under)}</span><span>${mo != null ? 'Market over ' + pc1(mo) : ''}${mod != null ? ' · Model ' + pc1(mod) : ' · Model line not computed'}</span>${mod != null ? pickTxt(P.tot) + resChip(gradeOf('tot', P.tot, g, G)) : '<span class="nm">No pick at this line</span>'}</div>`);
+    rows.push(`<div class="dkr"><span class="dkl">Total ${o.total.line}</span><span>Over ${fmtO(o.total.over)} / Under ${fmtO(o.total.under)}</span><span>${mo != null ? 'Market over ' + pc1(mo) : ''}${mod != null ? ' · Model ' + pc1(mod) : ' · Model line not computed'}</span>${mod != null ? '<span>' + pickTxt(P.tot) + resChip(gradeOf('tot', P.tot, g, G)) + '</span>' : '<span class="nm">No pick at this line</span>'}</div>`);
   }
   if (P.pl) {
     const x = P.pl;
-    rows.push(`<div class="dkr"><span class="dkl">Puck line</span><span>${esc(x.fav)} −1.5 ${fmtO(x.fo)} / ${esc(x.dog)} +1.5 ${fmtO(x.dO)}</span><span>${x.mf != null ? 'Market ' + esc(x.fav) + ' covers ' + pc1(x.mf) : ''} · Model ${pc1(x.modFav)}</span>${pickTxt(x)}${resChip(gradeOf('pl', x, g, G))}</div>`);
+    rows.push(`<div class="dkr"><span class="dkl">Puck line</span><span>${esc(x.fav)} −1.5 ${fmtO(x.fo)} / ${esc(x.dog)} +1.5 ${fmtO(x.dO)}</span><span>${x.mf != null ? 'Market ' + esc(x.fav) + ' covers ' + pc1(x.mf) : ''} · Model ${pc1(x.modFav)}</span><span>${pickTxt(x)}${resChip(gradeOf('pl', x, g, G))}</span></div>`);
   }
   const pre = !(G && G.state !== 'pre');
   return `<div class="dkh"><span class="dl">${esc(o.book)} vs model</span><span class="nm">Market % has the vig removed. ${pre ? 'Current line; picks are graded at the closing line.' : 'Closing line; these are the graded picks.'}</span></div>` + rows.join('');
