@@ -1,7 +1,7 @@
 {
  "day": "2026-10-24",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-24 15:48",
+ "fetched": "2026-10-24 15:58",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -54,8 +54,19 @@
    ]
   },
   "BUF": {
-   "missing_value": 0.0304,
+   "missing_value": 0.0265,
    "players": [
+    {
+     "name": "Justin Danforth",
+     "status": "Out",
+     "playerId": 8479941,
+     "position": "R",
+     "value": -0.0039,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-24"
+    },
     {
      "name": "Jiri Kulich",
      "status": "Out",
@@ -66,17 +77,6 @@
      "applied": true,
      "note": "Kulich (face) is back in Buffalo for evaluation and won't play against Washington on Saturday, according to Paul Hamilton of WGR Sports Radio 550.",
      "date": "2026-10-24"
-    },
-    {
-     "name": "Justin Danforth",
-     "status": "Day-To-Day",
-     "playerId": 8479941,
-     "position": "R",
-     "value": -0.0039,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-22"
     },
     {
      "name": "Sam Carrick",

@@ -779,6 +779,17 @@
    ],
    "inj_away": [
     {
+     "name": "Justin Danforth",
+     "status": "Out",
+     "playerId": 8479941,
+     "position": "R",
+     "value": -0.0039,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-24"
+    },
+    {
      "name": "Jiri Kulich",
      "status": "Out",
      "playerId": 8483468,
@@ -788,17 +799,6 @@
      "applied": true,
      "note": "Kulich (face) is back in Buffalo for evaluation and won't play against Washington on Saturday, according to Paul Hamilton of WGR Sports Radio 550.",
      "date": "2026-10-24"
-    },
-    {
-     "name": "Justin Danforth",
-     "status": "Day-To-Day",
-     "playerId": 8479941,
-     "position": "R",
-     "value": -0.0039,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-22"
     },
     {
      "name": "Sam Carrick",
@@ -846,13 +846,13 @@
     }
    ],
    "inj_adj_home": 0.028,
-   "inj_adj_away": 0.03,
-   "xg_home": 3.295,
-   "xg_away": 3.262,
+   "inj_adj_away": 0.026,
+   "xg_home": 3.293,
+   "xg_away": 3.264,
    "proj_home": 3.48,
    "proj_away": 3.44,
-   "p_home": 0.5074,
-   "p_away": 0.4926,
+   "p_home": 0.5068,
+   "p_away": 0.4932,
    "p_ot": 0.2295,
    "fair_ml_home": -103,
    "fair_ml_away": 103,
@@ -888,10 +888,10 @@
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3179,
-    "away_+1.5": 0.6821,
-    "away_-1.5": 0.3058,
-    "home_+1.5": 0.6942
+    "home_-1.5": 0.3174,
+    "away_+1.5": 0.6826,
+    "away_-1.5": 0.3063,
+    "home_+1.5": 0.6937
    }
   },
   {
