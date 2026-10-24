@@ -161,7 +161,7 @@ function gradeOf(kind, x, g, G) {
   else { const t = hs + as, ln = parseFloat(x.pick.split(' ')[1]); res = t === ln ? 'P' : ((t > ln) === x.pick.startsWith('Over') ? 'W' : 'L'); }
   return res;
 }
-const resChip = r => r ? `<span class="res res-${r}">${r === 'W' ? '\u2713 W' : r === 'L' ? '\u2717 L' : 'Push'}</span>` : '';
+const resChip = r => r ? `<span class="rchip rc-${r}">${r === 'W' ? '\u2713 W' : r === 'L' ? '\u2717 L' : 'Push'}</span>` : '';
 const pickTxt = x => x && x.pick ? `<span class="pk${x.edge >= STRONG ? ' strong' : ''}">Model pick: ${esc(x.pick)}, ${pp(x.edge)}</span>` : '<span class="nm">No pick (edge rounds to 0.0)</span>';
 
 function marketHTML(g, G) {

@@ -64,7 +64,7 @@ details.mv{margin-top:10px}
 .game.is-final{background:var(--ice);border-color:var(--line)}
 .game.is-final .abbr.lost{color:var(--muted);font-weight:700}
 .game.is-final .bar{opacity:.55}
-.res{font-family:var(--body);font-size:.72rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:1px 7px;border-radius:2px;margin-left:6px;white-space:nowrap}
-.res.res-W{background:var(--good);color:var(--sheet)}
-.res.res-L{background:var(--line);color:var(--muted)}
-.res.res-P{background:var(--line);color:var(--ink)}
+.rchip{font-family:var(--body);font-size:.72rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:1px 7px;border-radius:2px;margin-left:6px;white-space:nowrap}
+.rchip.rc-W{background:var(--good);color:var(--sheet)}
+.rchip.rc-L{background:var(--line);color:var(--muted)}
+.rchip.rc-P{background:var(--line);color:var(--ink)}
