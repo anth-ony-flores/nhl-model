@@ -1,7 +1,7 @@
 {
  "day": "2026-10-24",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-24 12:29",
+ "fetched": "2026-10-24 14:00",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -212,33 +212,33 @@
    ]
   },
   "CHI": {
-   "missing_value": 0,
+   "missing_value": -0.0565,
    "players": [
     {
      "name": "Bowen Byram",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8481524,
      "position": "D",
      "value": -0.0565,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
+     "applied": true,
+     "note": "out",
      "date": "2026-10-24"
     }
    ]
   },
   "COL": {
-   "missing_value": 0,
+   "missing_value": -0.0466,
    "players": [
     {
      "name": "Nicolas Roy",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8478462,
      "position": "C",
      "value": -0.0466,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
+     "applied": true,
+     "note": "out",
      "date": "2026-10-24"
     },
     {
