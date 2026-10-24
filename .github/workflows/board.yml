@@ -79,7 +79,7 @@ jobs:
         run: |
           git config user.name "nhl-model-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add -A out site data/*.parquet tracking
+          git add -A out site tracking $(ls data/*.parquet 2>/dev/null)
           if git diff --cached --quiet; then echo "no changes"; exit 0; fi
           git commit -m "${{ steps.mode.outputs.mode }} ${{ steps.mode.outputs.day }}"
           for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && break; sleep 5; done
