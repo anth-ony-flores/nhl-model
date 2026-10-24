@@ -58,3 +58,13 @@ ol.plays .pt{font-family:var(--mono);color:var(--muted);font-size:.78rem;margin-
 details.mv{margin-top:10px}
 
 .rec-sub h3{margin:6px 0 0;font-family:var(--display);font-size:1.05rem;letter-spacing:.04em;text-transform:uppercase}
+
+/* final games: settled look, not a color. Red = live, dark badge = final */
+.lv-fin{font-family:var(--body);font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;background:var(--ink);color:var(--sheet);padding:2px 8px;border-radius:2px}
+.game.is-final{background:var(--ice);border-color:var(--line)}
+.game.is-final .abbr.lost{color:var(--muted);font-weight:700}
+.game.is-final .bar{opacity:.55}
+.res{font-family:var(--body);font-size:.72rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:1px 7px;border-radius:2px;margin-left:6px;white-space:nowrap}
+.res.res-W{background:var(--good);color:var(--sheet)}
+.res.res-L{background:var(--line);color:var(--muted)}
+.res.res-P{background:var(--line);color:var(--ink)}

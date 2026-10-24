@@ -119,7 +119,7 @@ function statusHTML(G, g) {
   const sc = `<span class="lv-sc">${esc(g.away)} ${G.as}<span class="dash">–</span>${G.hs} ${esc(g.home)}</span>`;
   if (G.state === 'in') return `<span class="lv-dot" aria-hidden="true"></span><span class="lv-st live">Live · ${esc(G.short)}</span>${sc}`;
   const suf = /OT/i.test(G.detail) ? ' (OT)' : /SO/i.test(G.detail) ? ' (SO)' : '';
-  return `<span class="lv-st final">Final${suf}</span>${sc}`;
+  return `<span class="lv-fin">Final${suf.replace(/[()]/g, '').replace(' ', '/')}</span>${sc}`;
 }
 
 /* Model picks: same rules as src/picks.py, so the pick shown here is the pick graded nightly.
@@ -152,6 +152,16 @@ function makePicks(g, o) {
   P.mh = mh;
   return P;
 }
+function gradeOf(kind, x, g, G) {
+  if (!G || G.state !== 'post' || !x || !x.pick) return null;
+  const hs = G.hs, as = G.as, home = x.pick.startsWith(g.home + ' ');
+  let res;
+  if (kind === 'ml') res = (home ? hs > as : as > hs) ? 'W' : 'L';
+  else if (kind === 'pl') { const line = x.pick.endsWith('-1.5') ? -1.5 : 1.5; const m = home ? hs - as : as - hs; res = m + line > 0 ? 'W' : 'L'; }
+  else { const t = hs + as, ln = parseFloat(x.pick.split(' ')[1]); res = t === ln ? 'P' : ((t > ln) === x.pick.startsWith('Over') ? 'W' : 'L'); }
+  return res;
+}
+const resChip = r => r ? `<span class="res res-${r}">${r === 'W' ? '\u2713 W' : r === 'L' ? '\u2717 L' : 'Push'}</span>` : '';
 const pickTxt = x => x && x.pick ? `<span class="pk${x.edge >= STRONG ? ' strong' : ''}">Model pick: ${esc(x.pick)}, ${pp(x.edge)}</span>` : '<span class="nm">No pick (edge rounds to 0.0)</span>';
 
 function marketHTML(g, G) {
@@ -161,15 +171,15 @@ function marketHTML(g, G) {
   const rows = [];
   if (mh != null) {
     const liveTxt = G && G.state === 'in' && ml.home.live ? ` · live ${fmtO(ml.away.live)}/${fmtO(ml.home.live)}` : '';
-    rows.push(`<div class="dkr"><span class="dkl">Moneyline</span><span>${esc(g.away)} ${fmtO(ml.away.close || ml.away.open)} / ${esc(g.home)} ${fmtO(ml.home.close || ml.home.open)} <span class="nm">(open ${fmtO(ml.away.open)}/${fmtO(ml.home.open)}${liveTxt})</span></span><span>Market ${esc(g.home)} ${pc1(mh)} · Model ${pc1(g.p_home)}</span>${pickTxt(P.ml)}</div>`);
+    rows.push(`<div class="dkr"><span class="dkl">Moneyline</span><span>${esc(g.away)} ${fmtO(ml.away.close || ml.away.open)} / ${esc(g.home)} ${fmtO(ml.home.close || ml.home.open)} <span class="nm">(open ${fmtO(ml.away.open)}/${fmtO(ml.home.open)}${liveTxt})</span></span><span>Market ${esc(g.home)} ${pc1(mh)} · Model ${pc1(g.p_home)}</span>${pickTxt(P.ml)}${resChip(gradeOf('ml', P.ml, g, G))}</div>`);
   }
   if (o.total && o.total.line != null) {
     const {mo, mod} = P.totInfo;
-    rows.push(`<div class="dkr"><span class="dkl">Total ${o.total.line}</span><span>Over ${fmtO(o.total.over)} / Under ${fmtO(o.total.under)}</span><span>${mo != null ? 'Market over ' + pc1(mo) : ''}${mod != null ? ' · Model ' + pc1(mod) : ' · Model line not computed'}</span>${mod != null ? pickTxt(P.tot) : '<span class="nm">No pick at this line</span>'}</div>`);
+    rows.push(`<div class="dkr"><span class="dkl">Total ${o.total.line}</span><span>Over ${fmtO(o.total.over)} / Under ${fmtO(o.total.under)}</span><span>${mo != null ? 'Market over ' + pc1(mo) : ''}${mod != null ? ' · Model ' + pc1(mod) : ' · Model line not computed'}</span>${mod != null ? pickTxt(P.tot) + resChip(gradeOf('tot', P.tot, g, G)) : '<span class="nm">No pick at this line</span>'}</div>`);
   }
   if (P.pl) {
     const x = P.pl;
-    rows.push(`<div class="dkr"><span class="dkl">Puck line</span><span>${esc(x.fav)} −1.5 ${fmtO(x.fo)} / ${esc(x.dog)} +1.5 ${fmtO(x.dO)}</span><span>${x.mf != null ? 'Market ' + esc(x.fav) + ' covers ' + pc1(x.mf) : ''} · Model ${pc1(x.modFav)}</span>${pickTxt(x)}</div>`);
+    rows.push(`<div class="dkr"><span class="dkl">Puck line</span><span>${esc(x.fav)} −1.5 ${fmtO(x.fo)} / ${esc(x.dog)} +1.5 ${fmtO(x.dO)}</span><span>${x.mf != null ? 'Market ' + esc(x.fav) + ' covers ' + pc1(x.mf) : ''} · Model ${pc1(x.modFav)}</span>${pickTxt(x)}${resChip(gradeOf('pl', x, g, G))}</div>`);
   }
   const pre = !(G && G.state !== 'pre');
   return `<div class="dkh"><span class="dl">${esc(o.book)} vs model</span><span class="nm">Market % has the vig removed. ${pre ? 'Current line; picks are graded at the closing line.' : 'Closing line; these are the graded picks.'}</span></div>` + rows.join('');
@@ -233,10 +243,15 @@ function render() {
     const G = LIVE.games[k];
     C.lv.innerHTML = statusHTML(G, C.g);
     C.el.classList.toggle('is-live', !!G && G.state === 'in');
-    C.el.classList.toggle('is-final', !!G && G.state === 'post');
+    const fin = !!G && G.state === 'post';
+    C.el.classList.toggle('is-final', fin);
+    const ab = C.el.querySelectorAll('.team .abbr');
+    if (ab.length === 2) { ab[0].classList.toggle('lost', fin && G.as < G.hs); ab[1].classList.toggle('lost', fin && G.hs < G.as); }
     C.dk.innerHTML = marketHTML(C.g, G) + movementHTML(C.g, G, k);
     if (C.det.open) refreshPanel(k, false);
   }
+  const box = document.getElementById('games');
+  if (box) Object.values(LIVE.cards).filter(C => C.el.classList.contains('is-final')).forEach(C => box.appendChild(C.el));
   tally();
 }
 
