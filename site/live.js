@@ -100,7 +100,7 @@ async function fillMissingOdds() {
   const jobs = [];
   for (const [k, G] of Object.entries(LIVE.games)) {
     const needClose = G.state !== 'pre' && (!G.closeOdds || (G.state === 'in' && now - G.closeTried > 300000));
-    if (!needClose || now - G.closeTried < 60000) continue;
+    if (!needClose || now - G.closeTried < 15000) continue;
     G.closeTried = now;
     jobs.push(getJSON(`${ESPN}/summary?event=${G.id}`).then(s => {
       const o = normOdds((s.pickcenter || [])[0]); if (o) { G.closeOdds = o; G.odds = o; }
