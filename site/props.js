@@ -41,7 +41,19 @@
 
   function table(g, m, rows) {
     const goal = m === "goal", sv = m === "saves";
-    const head = `<tr><th>Player</th><th class="tm">Team</th><th>DK line</th><th>${goal ? "Yes" : "Over"}</th>${goal ? "" : "<th>Under</th>"}<th>Proj</th><th>Model P(${goal ? "goal" : "over"})</th><th>Market P(${goal ? "goal" : "over"})</th><th>Edge</th><th class="tm">Model lean</th></tr>`;
+    const unit = { sog: "shots on goal", pts: "points", goal: "goals", saves: "saves" }[m];
+    const th = (txt, tip, cls) => `<th${cls ? ` class="${cls}"` : ""}><span class="tip" tabindex="0" data-tip="${esc(tip)}">${txt}</span></th>`;
+    const head = "<tr>" +
+      th("Player", "Only players with a DraftKings line today are listed.") +
+      th("Team", "Player's team.", "tm") +
+      th("DK line", goal ? "Anytime goal: the player scores at least once (1+)." : `DraftKings' current line. Over means more than this many ${unit}. If the line moved, the opening line shows under the odds.`) +
+      th(goal ? "Yes" : "Over", goal ? "DraftKings' current price for the player to score, with the opening price below it." : "DraftKings' current price on the over, with the opening price below it.") +
+      (goal ? "" : th("Under", "DraftKings' current price on the under, with the opening price below it.")) +
+      th("Proj", `The model's average projected ${unit} for this player in this game.`) +
+      th(`Model P(${goal ? "goal" : "over"})`, goal ? "The model's chance the player scores." : "The model's chance the player goes over the line.") +
+      th(`Market P(${goal ? "goal" : "over"})`, goal ? "DraftKings' implied chance he scores. Single price, so the bookmaker's margin is still in it and the edge reads low." : "DraftKings' implied chance of the over, with the bookmaker's margin removed.") +
+      th("Edge", "Model chance minus market chance on the side the model leans, in percentage points. 3.0 or more is tagged strong.") +
+      th("Model lean", "The side and line the model favors, e.g. Under 2.5 shots means the model expects 2 or fewer. A projection, not a pick: prop picks stay off until validated.", "tm") + "</tr>";
     const body = rows.map(r => {
       const lc = r.lean === "Under" ? "un" : r.lean ? "ov" : "no";
       const who = esc(r.player) + (sv && r.starter === false ? ' <span class="op">not the projected starter</span>' : "");
@@ -50,7 +62,7 @@
         `<td>${r.mean == null ? "" : (sv ? r.mean.toFixed(1) : r.mean.toFixed(2))}</td><td>${pct(r.p_over)}</td>` +
         `<td>${pct(r.mkt_over)}${goal && r.mkt_over != null ? '<span class="op">vig in</span>' : ""}</td>` +
         `<td>${r.edge == null ? "" : (100 * r.edge).toFixed(1) + " pts"}</td>` +
-        `<td class="lean ${lc}">${r.lean || "None"}${r.strong ? '<span class="stg">strong</span>' : ""}</td></tr>`;
+        `<td class="lean ${lc}">${r.lean ? `${r.lean} ${ln(r.line)} ${{ sog: "shots", pts: "pts", goal: "goals", saves: "saves" }[m]}` : "None"}${r.strong ? '<span class="stg">strong</span>' : ""}</td></tr>`;
     }).join("");
     return `<div class="pp-mk"><h3>${MK.find(x => x[0] === m)[1]}</h3><div class="tbl"><table class="ptb">${head}${body}</table></div></div>`;
   }

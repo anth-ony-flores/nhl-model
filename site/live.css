@@ -109,3 +109,13 @@ table.ptb{font-size:.84rem}
 .ptb tr.done td{color:var(--muted)}
 .pp-empty{color:var(--muted);font-size:.88rem;margin:0}
 .pp-gate .op{color:var(--muted);font-size:.8rem}
+
+/* column tooltips on the props tables: hover, keyboard focus, or tap */
+.ptb th .tip{cursor:help;text-decoration:underline dotted;text-underline-offset:3px;position:relative;outline:none}
+.ptb th .tip:focus-visible{outline:2px solid var(--blue,#3b6fd8);outline-offset:2px;border-radius:2px}
+.ptb th .tip::after{content:attr(data-tip);position:absolute;left:0;top:calc(100% + 6px);z-index:20;width:max-content;max-width:240px;
+  white-space:normal;text-transform:none;letter-spacing:normal;font-weight:400;font-size:.8rem;line-height:1.35;text-align:left;
+  padding:8px 10px;border-radius:6px;background:var(--ink,#111);color:var(--sheet,#fff);box-shadow:0 4px 14px rgba(0,0,0,.25);
+  opacity:0;visibility:hidden;pointer-events:none;transition:opacity .12s}
+.ptb th:last-child .tip::after,.ptb th:nth-last-child(2) .tip::after{left:auto;right:0}
+.ptb th .tip:hover::after,.ptb th .tip:focus::after{opacity:1;visibility:visible}
