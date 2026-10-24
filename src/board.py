@@ -107,7 +107,7 @@ def main(day):
         la = C["scale"] * c_t * S["ashare"] * xa * (1 + SK.get(a, 0)) * (1 - GK.get(hg, 0))
         pr = game_probs(lh, la, P["dist"])
         tot = {}
-        for line in [5.5, 6.0, 6.5]:
+        for line in [4.5, 5.0, 5.5, 6.0, 6.5, 7.0, 7.5]:
             o, u = p_over(pr["total_dist"], line)
             tot[str(line)] = {"over": round(o, 4), "under": round(u, 4)}
         ph = pr["p_home"]

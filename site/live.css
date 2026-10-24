@@ -36,3 +36,18 @@ ol.plays .pt{font-family:var(--mono);color:var(--muted);font-size:.78rem;margin-
 .tally{display:flex;flex-wrap:wrap;gap:4px 16px;font-size:.88rem;color:var(--muted)}
 .tally b{color:var(--ink)}
 .livestat{font-size:.78rem;color:var(--muted);font-family:var(--mono)}
+.pk{color:var(--good);font-weight:600;font-family:var(--body)}
+.pk.strong::after{content:"strong";margin-left:6px;font:700 .62rem var(--body);letter-spacing:.08em;text-transform:uppercase;padding:1px 5px;border-radius:2px;background:var(--good);color:var(--sheet)}
+/* Model record strip */
+.rec{background:var(--sheet);border:1px solid var(--line);border-radius:3px;padding:12px 16px;display:grid;gap:10px}
+.rec-h{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:4px 12px}
+.rec-h h2{font-family:var(--display);font-weight:700;font-size:1.3rem;letter-spacing:.04em;text-transform:uppercase;margin:0}
+.rec-h a{font-size:.85rem;color:var(--blue)}
+.rec-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+@media (max-width:640px){.rec-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.rc{display:grid;gap:2px;padding:8px 10px;border:1px solid var(--line);border-radius:3px;background:var(--ice);min-width:0}
+.rc .l{font-size:.7rem;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+.rc .v{font-family:var(--display);font-weight:700;font-size:1.6rem;line-height:1.05;font-variant-numeric:tabular-nums}
+.rc .s{font-family:var(--mono);font-size:.78rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.pos{color:var(--good)}.neg{color:var(--red)}
+.rec-n{font-size:.78rem;color:var(--muted);margin:0}
