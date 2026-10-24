@@ -155,6 +155,27 @@
     if (ok) { oddsNote = `odds refreshed ${new Date().toLocaleTimeString([], { hour: "numeric", minute: "2-digit" })} from ESPN (DraftKings)`; draw(); }
   }
 
+  // ---- column tooltips: one floating box, kept inside the viewport so table scrolling never clips it ----
+  const tipBox = document.createElement("div");
+  tipBox.className = "pp-tipbox"; tipBox.setAttribute("role", "tooltip"); tipBox.hidden = true;
+  document.body.appendChild(tipBox);
+  let tipFor = null;
+  function showTip(el) {
+    tipFor = el; tipBox.textContent = el.dataset.tip; tipBox.hidden = false;
+    const r = el.getBoundingClientRect(), w = tipBox.offsetWidth, h = tipBox.offsetHeight;
+    let x = Math.min(Math.max(12, r.left), innerWidth - w - 12), y = r.bottom + 6;
+    if (y + h > innerHeight - 8) y = r.top - h - 6;
+    tipBox.style.left = x + "px"; tipBox.style.top = y + "px";
+  }
+  function hideTip() { tipFor = null; tipBox.hidden = true; }
+  const tipOf = e => e.target.closest && e.target.closest(".ptb th .tip");
+  document.addEventListener("mouseover", e => { const t = tipOf(e); if (t) showTip(t); else if (tipFor && tipFor !== document.activeElement) hideTip(); });
+  document.addEventListener("focusin", e => { const t = tipOf(e); if (t) showTip(t); });
+  document.addEventListener("focusout", e => { if (tipOf(e)) hideTip(); });
+  document.addEventListener("click", e => { const t = tipOf(e); if (t) showTip(t); else hideTip(); });
+  document.addEventListener("keydown", e => { if (e.key === "Escape") hideTip(); });
+  addEventListener("scroll", hideTip, { passive: true, capture: true });
+
   // ---- game status from ESPN scoreboard (every 30 s, same feed as the Games tab) ----
   async function status() {
     try {
