@@ -1,7 +1,7 @@
 {
  "day": "2026-10-24",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-24 12:19",
+ "fetched": "2026-10-24 12:29",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -462,18 +462,18 @@
    ]
   },
   "LAK": {
-   "missing_value": 0,
+   "missing_value": 0.0481,
    "players": [
     {
      "name": "Quinton Byfield",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8482124,
      "position": "R",
      "value": 0.0481,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-23"
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-24"
     },
     {
      "name": "Alex Turcotte",
