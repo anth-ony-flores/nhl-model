@@ -1,7 +1,7 @@
 {
  "date": "2026-10-24",
  "data_through": "2026-10-23",
- "generated": "2026-10-24 11:26 MST",
+ "generated": "2026-10-24 11:47 MST",
  "league_xg60": 3.003,
  "b2b_effect": {
   "own_xg": -0.251,
@@ -309,6 +309,14 @@
    "fair_ml_away": 147,
    "exp_total": 5.82,
    "totals": {
+    "4.5": {
+     "over": 0.7085,
+     "under": 0.2915
+    },
+    "5.0": {
+     "over": 0.5127,
+     "under": 0.2915
+    },
     "5.5": {
      "over": 0.5127,
      "under": 0.4873
@@ -320,6 +328,14 @@
     "6.5": {
      "over": 0.3705,
      "under": 0.6295
+    },
+    "7.0": {
+     "over": 0.2161,
+     "under": 0.6295
+    },
+    "7.5": {
+     "over": 0.2161,
+     "under": 0.7839
     }
    },
    "puck_line": {
@@ -402,6 +418,14 @@
    "fair_ml_away": 187,
    "exp_total": 6.44,
    "totals": {
+    "4.5": {
+     "over": 0.7861,
+     "under": 0.2139
+    },
+    "5.0": {
+     "over": 0.615,
+     "under": 0.2139
+    },
     "5.5": {
      "over": 0.615,
      "under": 0.385
@@ -413,6 +437,14 @@
     "6.5": {
      "over": 0.4721,
      "under": 0.5279
+    },
+    "7.0": {
+     "over": 0.3048,
+     "under": 0.5279
+    },
+    "7.5": {
+     "over": 0.3048,
+     "under": 0.6952
     }
    },
    "puck_line": {
@@ -479,17 +511,6 @@
      "applied": false,
      "note": "Eklund had surgery to repair a torn ankle tendon and will be out 10-12 weeks, Bruce Garrioch of Postmedia reports Thursday.",
      "date": "2026-10-15"
-    },
-    {
-     "name": "Kurtis MacDermid",
-     "status": "Injured Reserve",
-     "playerId": 8477073,
-     "position": "L",
-     "value": -0.0669,
-     "regular": false,
-     "applied": false,
-     "note": "MacDermid (upper body) was moved to the injured non-roster list Monday.",
-     "date": "2026-09-28"
     }
    ],
    "inj_away": [
@@ -518,6 +539,14 @@
    "fair_ml_away": 110,
    "exp_total": 5.97,
    "totals": {
+    "4.5": {
+     "over": 0.7295,
+     "under": 0.2705
+    },
+    "5.0": {
+     "over": 0.5382,
+     "under": 0.2705
+    },
     "5.5": {
      "over": 0.5382,
      "under": 0.4618
@@ -529,6 +558,14 @@
     "6.5": {
      "over": 0.3961,
      "under": 0.6039
+    },
+    "7.0": {
+     "over": 0.2366,
+     "under": 0.6039
+    },
+    "7.5": {
+     "over": 0.2366,
+     "under": 0.7634
     }
    },
    "puck_line": {
@@ -682,6 +719,14 @@
    "fair_ml_away": 133,
    "exp_total": 6.68,
    "totals": {
+    "4.5": {
+     "over": 0.8114,
+     "under": 0.1886
+    },
+    "5.0": {
+     "over": 0.6494,
+     "under": 0.1886
+    },
     "5.5": {
      "over": 0.6494,
      "under": 0.3506
@@ -693,6 +738,14 @@
     "6.5": {
      "over": 0.5107,
      "under": 0.4893
+    },
+    "7.0": {
+     "over": 0.3396,
+     "under": 0.4893
+    },
+    "7.5": {
+     "over": 0.3396,
+     "under": 0.6604
     }
    },
    "puck_line": {
@@ -842,6 +895,14 @@
    "fair_ml_away": 103,
    "exp_total": 6.92,
    "totals": {
+    "4.5": {
+     "over": 0.835,
+     "under": 0.165
+    },
+    "5.0": {
+     "over": 0.6839,
+     "under": 0.165
+    },
     "5.5": {
      "over": 0.6839,
      "under": 0.3161
@@ -853,6 +914,14 @@
     "6.5": {
      "over": 0.5494,
      "under": 0.4506
+    },
+    "7.0": {
+     "over": 0.377,
+     "under": 0.4506
+    },
+    "7.5": {
+     "over": 0.377,
+     "under": 0.623
     }
    },
    "puck_line": {
@@ -935,6 +1004,14 @@
    "fair_ml_away": -137,
    "exp_total": 6.23,
    "totals": {
+    "4.5": {
+     "over": 0.7621,
+     "under": 0.2379
+    },
+    "5.0": {
+     "over": 0.5811,
+     "under": 0.2379
+    },
     "5.5": {
      "over": 0.5811,
      "under": 0.4189
@@ -946,6 +1023,14 @@
     "6.5": {
      "over": 0.4385,
      "under": 0.5615
+    },
+    "7.0": {
+     "over": 0.2734,
+     "under": 0.5615
+    },
+    "7.5": {
+     "over": 0.2734,
+     "under": 0.7266
     }
    },
    "puck_line": {
@@ -1128,6 +1213,14 @@
    "fair_ml_away": -130,
    "exp_total": 5.92,
    "totals": {
+    "4.5": {
+     "over": 0.723,
+     "under": 0.277
+    },
+    "5.0": {
+     "over": 0.5303,
+     "under": 0.277
+    },
     "5.5": {
      "over": 0.5303,
      "under": 0.4697
@@ -1139,6 +1232,14 @@
     "6.5": {
      "over": 0.3879,
      "under": 0.6121
+    },
+    "7.0": {
+     "over": 0.2301,
+     "under": 0.6121
+    },
+    "7.5": {
+     "over": 0.2301,
+     "under": 0.7699
     }
    },
    "puck_line": {
@@ -1343,6 +1444,14 @@
    "fair_ml_away": 131,
    "exp_total": 6.57,
    "totals": {
+    "4.5": {
+     "over": 0.8011,
+     "under": 0.1989
+    },
+    "5.0": {
+     "over": 0.6345,
+     "under": 0.1989
+    },
     "5.5": {
      "over": 0.6345,
      "under": 0.3655
@@ -1354,6 +1463,14 @@
     "6.5": {
      "over": 0.4946,
      "under": 0.5054
+    },
+    "7.0": {
+     "over": 0.3243,
+     "under": 0.5054
+    },
+    "7.5": {
+     "over": 0.3243,
+     "under": 0.6757
     }
    },
    "puck_line": {
@@ -1481,6 +1598,14 @@
    "fair_ml_away": 114,
    "exp_total": 6.04,
    "totals": {
+    "4.5": {
+     "over": 0.7386,
+     "under": 0.2614
+    },
+    "5.0": {
+     "over": 0.5499,
+     "under": 0.2614
+    },
     "5.5": {
      "over": 0.5499,
      "under": 0.4501
@@ -1492,6 +1617,14 @@
     "6.5": {
      "over": 0.4076,
      "under": 0.5924
+    },
+    "7.0": {
+     "over": 0.2463,
+     "under": 0.5924
+    },
+    "7.5": {
+     "over": 0.2463,
+     "under": 0.7537
     }
    },
    "puck_line": {
@@ -1619,6 +1752,14 @@
    "fair_ml_away": -135,
    "exp_total": 6.14,
    "totals": {
+    "4.5": {
+     "over": 0.7508,
+     "under": 0.2492
+    },
+    "5.0": {
+     "over": 0.566,
+     "under": 0.2492
+    },
     "5.5": {
      "over": 0.566,
      "under": 0.434
@@ -1630,6 +1771,14 @@
     "6.5": {
      "over": 0.4232,
      "under": 0.5768
+    },
+    "7.0": {
+     "over": 0.2601,
+     "under": 0.5768
+    },
+    "7.5": {
+     "over": 0.2601,
+     "under": 0.7399
     }
    },
    "puck_line": {
@@ -1779,6 +1928,14 @@
    "fair_ml_away": -157,
    "exp_total": 6.0,
    "totals": {
+    "4.5": {
+     "over": 0.7324,
+     "under": 0.2676
+    },
+    "5.0": {
+     "over": 0.5429,
+     "under": 0.2676
+    },
     "5.5": {
      "over": 0.5429,
      "under": 0.4571
@@ -1790,6 +1947,14 @@
     "6.5": {
      "over": 0.3995,
      "under": 0.6005
+    },
+    "7.0": {
+     "over": 0.2403,
+     "under": 0.6005
+    },
+    "7.5": {
+     "over": 0.2403,
+     "under": 0.7597
     }
    },
    "puck_line": {
