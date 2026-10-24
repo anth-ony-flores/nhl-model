@@ -1,7 +1,7 @@
 {
  "date": "2026-10-24",
  "data_through": "2026-10-23",
- "generated": "2026-10-24 15:48 MST",
+ "generated": "2026-10-24 15:58 MST",
  "league_xg60": 3.003,
  "b2b_effect": {
   "own_xg": -0.251,
@@ -742,27 +742,16 @@
    "home_goalie": {
     "id": 8479292,
     "name": "Charlie Lindgren",
-    "basis": "confirmed: confirmed by Sammi Silber via Daily Faceoff",
+    "basis": "confirmed: confirmed by NHL official game roster (starting goalie), 15:57Z",
     "gsax_per_xg": -0.0375,
     "options": []
    },
    "away_goalie": {
     "id": 8480045,
     "name": "Ukko-Pekka Luukkonen",
-    "basis": "most starts in last 10",
+    "basis": "confirmed: confirmed by NHL official game roster (starting goalie), 15:57Z",
     "gsax_per_xg": -0.0025,
-    "options": [
-     {
-      "id": 8480045,
-      "name": "Ukko-Pekka Luukkonen",
-      "gsax_per_xg": -0.0025
-     },
-     {
-      "id": 8481551,
-      "name": "Colten Ellis",
-      "gsax_per_xg": 0.0092
-     }
-    ]
+    "options": []
    },
    "inj_home": [
     {

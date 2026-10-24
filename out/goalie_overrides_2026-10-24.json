@@ -17,7 +17,7 @@
  "WSH": {
   "id": 8479292,
   "name": "Charlie Lindgren",
-  "source": "confirmed by Sammi Silber via Daily Faceoff"
+  "source": "confirmed by NHL official game roster (starting goalie), 15:57Z"
  },
  "CBJ": {
   "id": 8475660,
@@ -63,5 +63,10 @@
   "id": 8481611,
   "name": "Pyotr Kochetkov",
   "source": "confirmed by NHL official game roster (starting goalie), 15:47Z"
+ },
+ "BUF": {
+  "id": 8480045,
+  "name": "Ukko-Pekka Luukkonen",
+  "source": "confirmed by NHL official game roster (starting goalie), 15:57Z"
  }
 }
