@@ -1,7 +1,7 @@
 {
  "day": "2026-10-24",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-24 11:09",
+ "fetched": "2026-10-24 11:25",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -125,18 +125,29 @@
    ]
   },
   "CGY": {
-   "missing_value": 0,
+   "missing_value": 0.0336,
    "players": [
     {
      "name": "Mikael Backlund",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8474150,
      "position": "C",
      "value": 0.0336,
      "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-24"
+    },
+    {
+     "name": "Jonathan Huberdeau",
+     "status": "Injured Reserve",
+     "playerId": 8476456,
+     "position": "L",
+     "value": 0.0285,
+     "regular": false,
      "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-23"
+     "note": "Huberdeau (hip) skated with his teammates Saturday, but he isn't close to returning, Pat Steinberg of QR Calgary 770 AM reports.",
+     "date": "2026-10-24"
     },
     {
      "name": "Samuel Honzek",
@@ -148,17 +159,6 @@
      "applied": false,
      "note": "ir",
      "date": "2026-10-20"
-    },
-    {
-     "name": "Jonathan Huberdeau",
-     "status": "Injured Reserve",
-     "playerId": 8476456,
-     "position": "L",
-     "value": 0.0285,
-     "regular": false,
-     "applied": false,
-     "note": "Huberdeau (hip) was placed on injured reserve Monday, per Pat Steinberg of QR Calgary 770 AM.",
-     "date": "2026-09-28"
     }
    ]
   },
@@ -266,8 +266,19 @@
    ]
   },
   "DAL": {
-   "missing_value": 0.0473,
+   "missing_value": 0.0604,
    "players": [
+    {
+     "name": "Sam Steel",
+     "status": "Out",
+     "playerId": 8479351,
+     "position": "C",
+     "value": 0.0131,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-24"
+    },
     {
      "name": "Radek Faksa",
      "status": "Day-To-Day",
