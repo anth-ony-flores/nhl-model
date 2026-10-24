@@ -3,8 +3,7 @@ name: board
 on:
   schedule:
     - cron: "30 13 * * *"        # morning full refresh, 6:30 AM Arizona
-    - cron: "*/15 15-23 * * *"   # pre-game, 8:00 AM to 4:45 PM Arizona
-    - cron: "*/15 0-3 * * *"     # pre-game, 5:00 PM to 8:45 PM Arizona
+    # pre-game refreshes now run from gameday.yml, paced off puck-drop times
     - cron: "0 10 * * *"         # nightly tracking for yesterday's games, 3:00 AM Arizona
   push:
     branches: [main]
