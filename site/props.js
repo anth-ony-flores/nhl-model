@@ -7,7 +7,7 @@
   const FEED = { "Total Shots on Goal": "sog", "Total Points": "pts", "Anytime Goalscorer": "goal", "Total Saves": "saves" };
   const CORE = "https://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl";
   const EVEN = 0.0005;
-  let D = null, M = "all", TEAM = "all", ST = false, oddsNote = "";
+  let D = null, M = "sog", TEAM = "all", ST = false, oddsNote = "";
 
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const num = o => { if (o == null || o === "") return null; const s = String(o).toUpperCase(); if (s === "EVEN") return 100; const n = parseFloat(s.replace("+", "")); return isFinite(n) ? n : null; };

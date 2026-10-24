@@ -166,8 +166,8 @@ PROPS_BODY = """
   <section class="pp-gate" id="pp-gate" aria-live="polite"></section>
   <div class="pp-flt">
     <div class="hf" role="group" aria-label="Market" id="pp-mkt">
-      <button type="button" data-m="all" aria-pressed="true">All markets</button>
-      <button type="button" data-m="sog" aria-pressed="false">Shots on goal</button>
+      <button type="button" data-m="sog" aria-pressed="true">Shots on goal</button>
+      <button type="button" data-m="all" aria-pressed="false">All markets</button>
       <button type="button" data-m="pts" aria-pressed="false">Points</button>
       <button type="button" data-m="goal" aria-pressed="false">Anytime goal</button>
       <button type="button" data-m="saves" aria-pressed="false">Goalie saves</button>
