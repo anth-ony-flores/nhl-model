@@ -6,3 +6,4 @@ __pycache__/
 site/_shots/
 .env
 out/nhl_board.html
+data/cache/
