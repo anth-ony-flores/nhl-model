@@ -29,7 +29,7 @@ function normOdds(o) {
     const hc = o.pointSpread.home.close || o.pointSpread.home.open || {}, ac = o.pointSpread.away.close || o.pointSpread.away.open || {};
     spread = {home: {line: parseFloat(hc.line), odds: hc.odds}, away: {line: parseFloat(ac.line), odds: ac.odds}};
   }
-  return {book: (o.provider && o.provider.name) || 'DraftKings', ml, total, spread};
+  return {book: (o.provider && o.provider.name) || 'DraftKings', ml, total, spread, raw: o};
 }
 
 function keyOf(away, home) { return fixAb(away) + '@' + fixAb(home); }
@@ -175,13 +175,66 @@ function marketHTML(g, G) {
   return `<div class="dkh"><span class="dl">${esc(o.book)} vs model</span><span class="nm">Market % has the vig removed. ${pre ? 'Current line; picks are graded at the closing line.' : 'Closing line; these are the graded picks.'}</span></div>` + rows.join('');
 }
 
+
+/* ---------- line movement: DraftKings open vs close vs live, from the picked side ---------- */
+LIVE.mvOpen = {};
+function px(raw, mkt, side, k) {
+  const m = raw && raw[mkt] && raw[mkt][side] && raw[mkt][side][k];
+  if (!m || m.odds == null) return null;
+  return {line: m.line != null ? String(m.line).replace(/^[ou]/, '') : null, odds: m.odds};
+}
+function cell(a, b) {
+  if (!a) return '<td class="nm">–</td>';
+  const p = b ? novig(a.odds, b.odds) : null;
+  return `<td class="mono">${a.line != null ? esc(a.line) + ' ' : ''}${fmtO(a.odds)}${p != null ? ' <span class="nm">' + pc1(p) + '</span>' : ''}</td>`;
+}
+function moveCell(o, c, oo, co, label) {
+  if (!o || !c || !oo || !co) return '<td class="nm">–</td>';
+  if (o.line != null && c.line != null && o.line !== c.line) return `<td class="nm">line moved ${esc(o.line)} to ${esc(c.line)}</td>`;
+  const d = novig(c.odds, co.odds) - novig(o.odds, oo.odds);
+  if (!isFinite(d)) return '<td class="nm">–</td>';
+  if (Math.abs(d) < 0.0005) return '<td class="nm">no move</td>';
+  return `<td class="mono ${d > 0 ? 'mv-up' : 'mv-dn'}">${pp(d)}${label ? ' <span class="nm">' + label(d) + '</span>' : ''}</td>`;
+}
+function movementHTML(g, G, k) {
+  const o = G && (G.closeOdds || G.odds);
+  if (!o || !o.raw) return '';
+  const raw = o.raw, P = makePicks(g, o), started = G.state !== 'pre';
+  const rows = [];
+  const add = (name, mkt, side, other, sideLbl, picked) => {
+    const op = px(raw, mkt, side, 'open'), cl = px(raw, mkt, side, 'close'), lv = px(raw, mkt, side, 'live');
+    const oo = px(raw, mkt, other, 'open'), co = px(raw, mkt, other, 'close'), lo = px(raw, mkt, other, 'live');
+    if (!op && !cl) return;
+    const lab = picked ? (d => d > 0 ? 'toward pick' : 'against pick') : null;
+    rows.push(`<tr><td>${name}</td><td>${esc(sideLbl)}${picked ? ' <span class="pk">pick</span>' : ''}</td>${cell(op, oo)}${cell(cl, co)}${started ? cell(lv, lo) : ''}${moveCell(op, cl, oo, co, lab)}</tr>`);
+  };
+  const H = g.home, A = g.away;
+  { const s = P.ml ? (P.ml.pick.startsWith(H + ' ') ? 'home' : 'away') : 'home';
+    add('Moneyline', 'moneyline', s, s === 'home' ? 'away' : 'home', (s === 'home' ? H : A) + ' ML', !!P.ml); }
+  if (P.pl || o.spread) {
+    let s;
+    if (P.pl && P.pl.pick) { const takeFav = P.pl.pick.endsWith('-1.5'); const favHome = o.spread.home.line < 0; s = (takeFav === favHome) ? 'home' : 'away'; }
+    else s = o.spread && o.spread.home.line < 0 ? 'home' : 'away';
+    const ln = px(raw, 'pointSpread', s, 'close') || px(raw, 'pointSpread', s, 'open');
+    add('Puck line', 'pointSpread', s, s === 'home' ? 'away' : 'home', (s === 'home' ? H : A) + ' ' + (ln && ln.line ? ln.line : ''), !!(P.pl && P.pl.pick));
+  }
+  { const s = P.tot && P.tot.pick.startsWith('Under') ? 'under' : 'over';
+    add('Total', 'total', s, s === 'over' ? 'under' : 'over', s === 'over' ? 'Over' : 'Under', !!P.tot); }
+  if (!rows.length) return '';
+  const open = LIVE.mvOpen[k] ? ' open' : '';
+  return `<details class="mx mv" data-k="${esc(k)}"${open}><summary><span class="xt">Line movement</span><span class="xh">${esc(o.book)} open vs ${started ? 'close vs live' : 'now'}</span><span class="chev" aria-hidden="true"></span></summary>
+    <div class="tbl"><table class="mvt"><tr><th>Market</th><th>Side</th><th>Open</th><th>${started ? 'Close' : 'Now'}</th>${started ? '<th>Live</th>' : ''}<th>${started ? 'Open to close' : 'Move so far'}</th></tr>${rows.join('')}</table></div>
+    <p class="mxnote">Percentages have the vig removed, shown for the side listed. A move toward the model's pick before puck drop is a good sign the model saw something the market later agreed with.${started ? ' Live prices reflect the score and clock, so they are not a fair comparison to the pre-game line.' : ''}</p></details>`;
+}
+document.addEventListener('toggle', e => { const d = e.target; if (d.matches && d.matches('details.mv')) LIVE.mvOpen[d.dataset.k] = d.open; }, true);
+
 function render() {
   for (const [k, C] of Object.entries(LIVE.cards)) {
     const G = LIVE.games[k];
     C.lv.innerHTML = statusHTML(G, C.g);
     C.el.classList.toggle('is-live', !!G && G.state === 'in');
     C.el.classList.toggle('is-final', !!G && G.state === 'post');
-    C.dk.innerHTML = marketHTML(C.g, G);
+    C.dk.innerHTML = marketHTML(C.g, G) + movementHTML(C.g, G, k);
     if (C.det.open) refreshPanel(k, false);
   }
   tally();

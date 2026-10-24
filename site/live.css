@@ -51,3 +51,8 @@ ol.plays .pt{font-family:var(--mono);color:var(--muted);font-size:.78rem;margin-
 .rc .s{font-family:var(--mono);font-size:.78rem;color:var(--muted);font-variant-numeric:tabular-nums}
 .pos{color:var(--good)}.neg{color:var(--red)}
 .rec-n{font-size:.78rem;color:var(--muted);margin:0}
+
+.mvt td,.mvt th{text-align:right}.mvt td:first-child,.mvt th:first-child,.mvt td:nth-child(2),.mvt th:nth-child(2){text-align:left}
+.mvt td.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.mv-up{color:var(--good)}.mv-dn{color:var(--red)}
+details.mv{margin-top:10px}

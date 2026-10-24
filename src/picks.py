@@ -160,3 +160,48 @@ def grade(P, hs, as_):
             win = (tot > x["line"]) == (x["side"] == "over")
             x["result"] = "W" if win else "L"; x["units"] = round(profit(x["odds"]) if win else -1.0, 3)
     return P
+
+
+def _open(d, side):
+    x = ((d or {}).get(side) or {}).get("open") or {}
+    return x.get("line"), x.get("odds")
+
+
+def movement(p, P):
+    """Line movement for each pick: vig-free probability of the picked side at DraftKings' open vs close.
+    clv > 0 means the market moved toward the pick (closing line value). Only computed when the line
+    (puck line / total) did not change between open and close, so the prices are comparable."""
+    out = {}
+    if not p:
+        return out
+    x = P.get("ml")
+    if x:
+        ml = p.get("moneyline") or {}
+        _, oh = _open(ml, "home"); _, oa = _open(ml, "away")
+        po_home = novig(oh, oa)
+        if po_home is not None:
+            po = po_home if x["side"] == "home" else 1 - po_home
+            out["ml"] = {"open_odds": oh if x["side"] == "home" else oa, "open_p": round(po, 4), "clv": round(x["market_p"] - po, 4)}
+    x = P.get("pl")
+    if x:
+        ps = p.get("pointSpread") or {}
+        other = "away" if x["side"] == "home" else "home"
+        ls, os_ = _open(ps, x["side"]); _, oo = _open(ps, other)
+        if ls is not None and num(ls) == x["line"]:
+            po = novig(os_, oo)
+            if po is not None:
+                out["pl"] = {"open_odds": os_, "open_p": round(po, 4), "clv": round(x["market_p"] - po, 4)}
+    x = P.get("tot")
+    if x:
+        t = p.get("total") or {}
+        other = "under" if x["side"] == "over" else "over"
+        ls, os_ = _open(t, x["side"]); _, oo = _open(t, other)
+        try:
+            same = ls is not None and float(str(ls).lstrip("ou")) == x["line"]
+        except ValueError:
+            same = False
+        if same:
+            po = novig(os_, oo)
+            if po is not None:
+                out["tot"] = {"open_odds": os_, "open_p": round(po, 4), "clv": round(x["market_p"] - po, 4)}
+    return out

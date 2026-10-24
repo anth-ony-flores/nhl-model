@@ -7,7 +7,7 @@ import csv, json, sys, urllib.request
 from datetime import date, timedelta
 from pathlib import Path
 import numpy as np
-from picks import norm_odds, make_picks, grade, novig, STRONG
+from picks import norm_odds, make_picks, grade, novig, STRONG, movement
 
 ROOT = Path(__file__).resolve().parent.parent
 LOG = ROOT / "tracking" / "log.csv"
@@ -20,7 +20,7 @@ FIELDS = (["date", "game", "espn_id", "away", "home", "away_score", "home_score"
            "model_p_home", "model_total", "away_goalie", "home_goalie",
            "dk_ml_away", "dk_ml_home", "dk_p_home", "dk_pl_home_line", "dk_pl_home_odds", "dk_pl_away_odds",
            "dk_total", "dk_over", "dk_under"]
-          + [f"{m}_{k}" for m in MKTS for k in (["pick", "result"] if m == "su" else ["pick", "odds", "edge", "model_p", "market_p", "result", "units"])])
+          + [f"{m}_{k}" for m in MKTS for k in (["pick", "result"] if m == "su" else ["pick", "odds", "edge", "model_p", "market_p", "result", "units", "open_odds", "open_p", "clv"])])
 
 
 def get(url):
@@ -80,11 +80,14 @@ def track(day, board=None, scoreboard=None, summaries=None):
                       "dk_pl_home_line": o["spread"]["home"]["line"], "dk_pl_home_odds": o["spread"]["home"]["odds"],
                       "dk_pl_away_odds": o["spread"]["away"]["odds"], "dk_total": o["total"]["line"],
                       "dk_over": o["total"]["over"], "dk_under": o["total"]["under"]})
+        MV = movement(p, P) if o else {}
         for m in ("ml", "pl", "tot"):
             x = P.get(m)
             if x:
                 for k in ("pick", "odds", "edge", "model_p", "market_p", "result", "units"):
                     r[f"{m}_{k}"] = x[k]
+                for k, v in MV.get(m, {}).items():
+                    r[f"{m}_{k}"] = v
         existing[key] = r
         added += 1
     write_log(list(existing.values()))
@@ -111,6 +114,15 @@ def rec(rows, m, strong=False):
     return out
 
 
+def clv_stats(rows, m):
+    """Closing line value: how the market moved on the picked side between DraftKings' open and close."""
+    v = [float(r[f"{m}_clv"]) for r in rows if r.get(f"{m}_clv") not in (None, "")]
+    if not v:
+        return {"n": 0, "avg_pts": None, "beat_close_pct": None}
+    return {"n": len(v), "avg_pts": round(100 * sum(v) / len(v), 2),
+            "beat_close_pct": round(sum(x > 0 for x in v) / len(v), 4)}
+
+
 def summarize(rows):
     rows = sorted(rows, key=lambda r: (r["date"], r["game"]))
     last = max((r["date"] for r in rows), default=None)
@@ -129,6 +141,7 @@ def summarize(rows):
                      "market": ll([float(r["dk_p_home"]) for r in both], ys) if both else None},
          "rules": "One pick per market per game. Graded against DraftKings closing lines from ESPN's public feed; "
                   "1 unit risked per pick at the closing odds. Strong edge = 3.0 points or more.",
+         "clv": {m: clv_stats(rows, m) for m in ("ml", "pl", "tot")},
          "names": NAMES}
     (ROOT / "tracking").mkdir(exist_ok=True)
     json.dump(S, open(ROOT / "tracking" / "summary.json", "w"), indent=1)
@@ -141,7 +154,9 @@ def summarize(rows):
                           "final": f"{r['away']} {r['away_score']}, {r['home']} {r['home_score']}" + ("" if r["final_type"] == "REG" else f" ({r['final_type']})"),
                           "market": m, "pick": r[f"{m}_pick"], "odds": r.get(f"{m}_odds") or None,
                           "edge": float(r[f"{m}_edge"]) if r.get(f"{m}_edge") else None,
-                          "result": r[f"{m}_result"], "units": float(r[f"{m}_units"]) if r.get(f"{m}_units") not in (None, "") else None})
+                          "result": r[f"{m}_result"], "units": float(r[f"{m}_units"]) if r.get(f"{m}_units") not in (None, "") else None,
+                          "open_odds": r.get(f"{m}_open_odds") or None,
+                          "clv": float(r[f"{m}_clv"]) if r.get(f"{m}_clv") not in (None, "") else None})
     site = ROOT / "site" / "data"
     site.mkdir(parents=True, exist_ok=True)
     json.dump({"summary": S, "picks": picks}, open(site / "record.json", "w"))
