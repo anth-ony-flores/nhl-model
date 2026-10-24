@@ -59,6 +59,8 @@ jobs:
           python metrics.py ${{ steps.mode.outputs.day }}
           python injuries.py ${{ steps.mode.outputs.day }}
           python board.py ${{ steps.mode.outputs.day }}
+          python props.py ${{ steps.mode.outputs.day }} || echo "props rates failed"
+          python props_lines.py ${{ steps.mode.outputs.day }} || echo "props lines failed"
           python export_site.py ${{ steps.mode.outputs.day }}
 
       - name: Pre-game refresh (injuries, goalie overrides, lock started games)
@@ -67,6 +69,7 @@ jobs:
           cd src
           python injuries.py ${{ steps.mode.outputs.day }}
           python board.py ${{ steps.mode.outputs.day }}
+          python props_lines.py ${{ steps.mode.outputs.day }} || echo "props lines failed"
           python export_site.py ${{ steps.mode.outputs.day }}
 
       - name: Nightly tracking

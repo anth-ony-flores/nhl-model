@@ -32,7 +32,8 @@ SEASONS = list(range(2020, 2027))
 DEFAULT = {"hl": 40, "carry": 0.6, "hl_t": 30, "carry_t": 0.5,
            "K_toi": 3.0, "K_sog": 3.0, "K_g": 8.0, "K_a": 6.0, "w_ixg": 0.6,
            "b_sog": 1.0, "b_g": 1.0, "r_sog": 12.0, "c_pts": 1.0, "c_sog": 1.0, "c_g": 1.0, "c_a": 1.0,
-           "K_sv": 1500.0, "r_sa": 40.0, "c_sa": 0.96, "h_env": 40, "h_env_g": 40, "hl_g": 60}
+           "K_sv": 1500.0, "r_sa": 40.0, "c_sa": 0.96, "h_env": 40, "h_env_g": 40, "hl_g": 60, "q_pull": 0.05, "f_pull": 0.5, "b_sa": 1.0,
+           "pm_toi": 1.0, "pm_sog": 1.0, "pm_g": 1.0, "pm_a": 1.0}
 
 SK_COLS = ["playerId", "name", "gameId", "season", "playerTeam", "opposingTeam", "home_or_away", "gameDate",
            "position", "situation", "icetime", "I_F_shotsOnGoal", "I_F_goals", "I_F_primaryAssists",
@@ -181,7 +182,9 @@ def skater_features(sk, tm, p, team_pred=None):
     sk["gn"] = sk.g / env_g; sk["xn"] = sk.ixg / env_x; sk["an"] = sk.a / env_a
     S = ewm_pre(sk, "playerId", ["toi", "sogn", "gn", "an", "xn"], p["hl"], p["carry"])
     n = S["_n"].clip(lower=0)
-    pos_toi = sk.pos.map({"F": 15.5 * 60, "D": 20.5 * 60})
+    # priors are for a player we know little about, who is usually below the average regular: position average
+    # times a multiplier fitted on low-sample players in the tune seasons (pm_*)
+    pos_toi = sk.pos.map({"F": 15.5 * 60, "D": 20.5 * 60}) * p["pm_toi"]
     toi = (S.toi + p["K_toi"] * pos_toi) / (n + p["K_toi"])
     hrs = S.toi / 3600
     # priors (per 60): position averages relative to league, from the first season in the data (2020-21)
@@ -191,7 +194,8 @@ def skater_features(sk, tm, p, team_pred=None):
     def prior(col):
         t = base[col].sum() / (base.toi.sum() / 3600)
         return sk.pos.map((base.groupby("pos")[col].sum() / (base.groupby("pos").toi.sum() / 3600) / t).to_dict())
-    pr_sog, pr_g, pr_x, pr_a = sk.pos.map(rel), prior("g"), prior("ixg"), prior("a")
+    pr_sog, pr_g, pr_x, pr_a = (sk.pos.map(rel) * p["pm_sog"], prior("g") * p["pm_g"], prior("ixg") * p["pm_g"],
+                                prior("a") * p["pm_a"])
     sog60 = env * (S.sogn + p["K_sog"] * pr_sog) / (hrs + p["K_sog"])
     # goal rate: blend of the player's goals and individual xG (each relative to league), times league goal rate
     grel = p["w_ixg"] * (S.xn + p["K_g"] * pr_x) / (hrs + p["K_g"]) + (1 - p["w_ixg"]) * (S.gn + p["K_g"] * pr_g) / (hrs + p["K_g"])
@@ -230,7 +234,7 @@ def goalie_features(gg, tm, p):
     T = team_rel(tm, p)
     gg = gg.merge(T[["gameId", "team", "rel_a", "env_sog"]], on=["gameId", "team"], how="left")
     gg = gg.merge(T[["gameId", "team", "rel_f"]].rename(columns={"team": "opp"}), on=["gameId", "opp"], how="left")
-    gg["mu_sa"] = p["c_sa"] * gg.env_sog * gg.rel_f * gg.rel_a
+    gg["mu_sa"] = p["c_sa"] * gg.env_sog * (gg.rel_f * gg.rel_a) ** p["b_sa"]
     gg["sv_proj"] = envsv + G.dsv.to_numpy() / (G.sa.to_numpy() + p["K_sv"])
     gg["league_sv"] = envsv
     return gg
@@ -257,14 +261,91 @@ def p_over(market, line, row, p):
     if market == "goal":
         return float(poisson.sf(k - 1, row["mu_g"]))
     if market == "saves":
-        return float(saves_sf(k, row["mu_sa"], row["sv_proj"], p["r_sa"]))
+        return float(saves_sf(k, row["mu_sa"], row["sv_proj"], p["r_sa"], p["q_pull"], p["f_pull"]))
     return None
 
 
-def saves_sf(k, mu_sa, sv, r):
-    """P(saves >= k): shots ~ NB(mu_sa, r), saves | shots ~ Binomial(shots, sv). Vectorized over mu_sa, sv."""
+def saves_sf(k, mu_sa, sv, r, q=0.0, f=0.5):
+    """P(saves >= k): shots ~ NB(mean, r), saves | shots ~ Binomial(shots, sv). Vectorized over mu_sa, sv.
+    Mixture for the starter being pulled: with probability q he faces only a share f of a full game's shots
+    (mu_sa is the overall mean, so the full-game mean is mu_sa / (1 - q (1 - f)))."""
     mu = np.atleast_1d(np.asarray(mu_sa, float))[:, None]
     s = np.atleast_1d(np.asarray(sv, float))[:, None]
-    n = np.arange(0, 90)[None, :]
-    out = (nbinom.pmf(n, r, r / (r + mu)) * binom.sf(k - 1, n, s)).sum(axis=1)
+    n = np.arange(0, 100)[None, :]
+    ps = binom.sf(k - 1, n, s)
+    full = mu / (1 - q * (1 - f))
+    out = (1 - q) * (nbinom.pmf(n, r, r / (r + full)) * ps).sum(axis=1)
+    if q > 0:
+        out += q * (nbinom.pmf(n, r, r / (r + f * full)) * ps).sum(axis=1)
     return out if np.ndim(mu_sa) else float(out[0])
+
+
+# ---------------- live export (morning job; needs the raw MoneyPuck CSVs) ----------------
+def export_rates(day, recent_days=60):
+    """Pre-game projection inputs for every skater and goalie on teams playing `day`, written to
+    out/props_rates_DAY.json. props_lines.py combines them with the board (team xG, starting goalies) and
+    DraftKings lines, so pre-game refreshes do not need the raw data."""
+    p = params()
+    board = json.load(open(ROOT / "out" / f"board_{day}.json"))
+    teams = {}
+    games = []
+    for i, g in enumerate(board["games"]):
+        gid = 9_000_000_000 + i     # synthetic ids for today's games
+        games.append((gid, g["home"], g["away"]))
+        teams[g["home"]] = (gid, g["away"], 1); teams[g["away"]] = (gid, g["home"], 0)
+    D = pd.Timestamp(day)
+    sk = load_skaters(); tm = load_teams(); gg = load_goalie_games()
+    sk = sk[sk.date < D]; tm = tm[tm.date < D]; gg = gg.merge(tm[["gameId", "team", "date"]], on=["gameId", "team"])
+    season = D.year if D.month >= 7 else D.year - 1   # MoneyPuck season label = starting year
+    # skaters: last appearance within recent_days, on a team playing today
+    last = sk.sort_values("date").groupby("playerId").tail(1)
+    last = last[(last.date >= D - pd.Timedelta(days=recent_days)) & last.team.isin(teams)]
+    dummy = last[["playerId", "name", "team", "pos"]].copy()
+    dummy["gameId"] = dummy.team.map(lambda t: teams[t][0]); dummy["opp"] = dummy.team.map(lambda t: teams[t][1])
+    dummy["home"] = dummy.team.map(lambda t: teams[t][2]); dummy["season"] = season; dummy["date"] = D
+    for c in ("toi", "sog", "g", "a", "pts", "ixg"):
+        dummy[c] = 0.0
+    tdum = pd.DataFrame([{"team": t, "season": season, "gameId": v[0], "date": D, "playoffGame": 0,
+                          "shotsOnGoalFor": 0.0, "shotsOnGoalAgainst": 0.0, "xgf60": 0.0, "goalsFor": 0.0}
+                         for t, v in teams.items()])
+    tmx = pd.concat([tm, tdum], ignore_index=True).sort_values(["date", "gameId"]).reset_index(drop=True)
+    skx = pd.concat([sk, dummy], ignore_index=True).sort_values(["date", "gameId"], kind="stable").reset_index(drop=True)
+    f = skater_features(skx, tmx, p, None)
+    f = f[f.gameId >= 9_000_000_000]
+    T = team_rel(tmx, p)
+    T = T[T.gameId >= 9_000_000_000].set_index("team")
+    # goalies: anyone who appeared for a team playing today this season or within recent_days
+    opp_map = {t: v[1] for t, v in teams.items()}
+    gh = gg.merge(tm[["gameId", "team"]].rename(columns={"team": "opp"}), on="gameId").query("opp != team")
+    gl = gh.sort_values("date").groupby("goalie_id").tail(1)
+    gl = gl[(gl.date >= D - pd.Timedelta(days=365)) & gl.team.isin(teams)]
+    gd = gl[["goalie_id", "team"]].copy()
+    gd["gameId"] = gd.team.map(lambda t: teams[t][0]); gd["opp"] = gd.team.map(opp_map)
+    gd["season"] = season; gd["date"] = D; gd["sa"] = 0.0; gd["ga"] = 0.0; gd["saves"] = 0.0
+    gx = pd.concat([gh, gd], ignore_index=True)
+    G = goalie_features(gx, tmx, p)
+    G = G[G.gameId >= 9_000_000_000]
+    env_sv = float(G.league_sv.iloc[0]) if len(G) else 0.895
+    gp = DATA / "goalies.parquet"
+    gnames = (pd.read_parquet(gp, columns=["goalie_id", "name"]).dropna().drop_duplicates("goalie_id", keep="last")
+              .assign(goalie_id=lambda d: d.goalie_id.astype(int)).set_index("goalie_id").name.to_dict()) if gp.exists() else {}
+    out = {"date": day, "data_through": str(sk.date.max().date()), "params": p,
+           "league_sv": round(env_sv, 4),
+           "teams": {t: {"rel_f": round(float(T.loc[t, "rel_f"]), 4), "rel_a": round(float(T.loc[t, "rel_a"]), 4),
+                         "env_sog": round(float(T.loc[t, "env_sog"]), 3), "xgf_base": round(float(T.loc[t, "xgf_base"]), 4)}
+                     for t in teams},
+           "skaters": [{"id": int(r.playerId), "name": r.name, "team": r.team, "pos": r.pos,
+                        "toi": round(float(r.toi_proj), 2), "mu_sog": round(float(r.mu_sog), 4),
+                        "mu_g": round(float(r.mu_g), 5), "mu_a": round(float(r.mu_a), 5), "n": round(float(r.n_games), 1)}
+                       for r in f.itertuples()],
+           "goalies": {str(int(r.goalie_id)): {"team": r.team, "name": gnames.get(int(r.goalie_id)), "sv": round(float(r.sv_proj), 5)}
+                       for r in G.itertuples()}}
+    (ROOT / "out").mkdir(exist_ok=True)
+    json.dump(out, open(ROOT / "out" / f"props_rates_{day}.json", "w"))
+    print(f"props rates {day}: {len(out['skaters'])} skaters, {len(out['goalies'])} goalies, data through {out['data_through']}")
+    return out
+
+
+if __name__ == "__main__":
+    import sys
+    export_rates(sys.argv[1])

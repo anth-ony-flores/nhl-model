@@ -108,16 +108,36 @@ def goalie_eval(gx, tm, prm, seasons):
     out = {}
     for L in SAVE_LINES:
         k = int(np.floor(L)) + 1
-        p = P.saves_sf(k, f.mu_sa.to_numpy(), f.sv_proj.to_numpy(), prm["r_sa"])
+        p = P.saves_sf(k, f.mu_sa.to_numpy(), f.sv_proj.to_numpy(), prm["r_sa"], prm["q_pull"], prm["f_pull"])
         out[f"sv{L}"] = (p, (f.saves >= k).astype(int).to_numpy())
     return f, out
+
+
+def fit_priors(prm, scale, n_max=15):
+    """Prior multipliers so players with little history (pre-game weight < n_max games) are unbiased on average
+    in the tune seasons. Without this, call-ups and fringe players are projected like average regulars
+    (about 15 to 45% too high in the 2023-26 test before the fix)."""
+    grid = np.round(np.arange(0.4, 1.21, 0.05), 2)
+    for _ in range(2):
+        for k, col, mu in (("pm_toi", "toi", "toi_proj"), ("pm_sog", "sog", "mu_sog"), ("pm_g", "g", "mu_g"), ("pm_a", "a", "mu_a")):
+            best = None
+            for v in grid:
+                q = scale(dict(prm, **{k: float(v)}))
+                f = P.skater_features(sk_glob, tm_glob, q, tp_glob)
+                f = f[f.season.isin(TUNE) & (f.gameId % 1_000_000 // 10_000 == 2) & (f.n_games < n_max)]
+                act = f[col].mean() / 60 if col == "toi" else f[col].mean()
+                err = abs(f[mu].mean() / act - 1)
+                if best is None or err < best[0]:
+                    best = (err, float(v))
+            prm = scale(dict(prm, **{k: best[1]}))
+    return prm
 
 
 def tune(sk, gx, tm, tp, quick=False):
     prm = dict(P.DEFAULT)
     grid = {
-        "hl": [15, 25, 40, 70], "carry": [0.3, 0.5, 0.7, 0.9],
-        "K_toi": [1, 3, 6], "K_sog": [1.5, 3, 6], "K_g": [4, 8, 16], "K_a": [3, 6, 12],
+        "hl": [15, 25, 40, 70, 120], "carry": [0.3, 0.5, 0.7, 0.9, 1.0],
+        "K_toi": [0.5, 1, 3, 6], "K_sog": [0.5, 1, 1.5, 3, 6], "K_g": [1, 2, 4, 8, 16], "K_a": [0.5, 1, 2, 3, 6, 12],
         "w_ixg": [0.3, 0.5, 0.7, 0.9], "b_sog": [0.0, 0.5, 1.0, 1.5], "b_g": [0.0, 0.5, 1.0, 1.5],
         "r_sog": [6, 10, 16, 30, 60, 1000], "hl_t": [15, 30, 60], "h_env": [5, 10, 25],
     }
@@ -147,10 +167,11 @@ def tune(sk, gx, tm, tp, quick=False):
                     best, prm = s, t
             print(f"round {rnd} {k}={prm[k]} obj={best:.5f}", flush=True)
     prm = scale(prm)
-    print("scales", {k: round(prm[k], 4) for k in ("c_sog", "c_g", "c_a")})
+    prm = fit_priors(prm, scale)
+    print("scales", {k: round(prm[k], 4) for k in ("c_sog", "c_g", "c_a", "pm_toi", "pm_sog", "pm_g", "pm_a")})
     # goalie params (separate objective)
     gb = None
-    ggrid = {"K_sv": [250, 500, 1000, 2000, 4000], "r_sa": [10, 15, 25, 40, 80],
+    ggrid = {"b_sa": [0.25, 0.5, 0.75, 1.0], "K_sv": [250, 500, 1000, 2000, 4000, 8000, 16000], "r_sa": [10, 15, 25, 40, 80],
              "hl_g": [20, 40, 80, 160], "h_env_g": [5, 10, 25]}
 
     def gscale(pr):
@@ -161,6 +182,11 @@ def tune(sk, gx, tm, tp, quick=False):
     def gobj(pr):
         _, o = goalie_eval(gx, tm, gscale(pr), TUNE)
         return np.mean([ll(*v) for v in o.values()])
+    # pull rate and shot share when pulled, measured on tune-season starters (share of team SOG against < 0.8)
+    st = gx[(gx.starter == 1) & gx.season.isin(TUNE)].merge(tm[["gameId", "team", "shotsOnGoalAgainst"]], on=["gameId", "team"])
+    sh = st.sa / st.shotsOnGoalAgainst
+    prm.update(q_pull=float((sh < 0.8).mean()), f_pull=float(sh[sh < 0.8].mean()))
+    print("pull", round(prm["q_pull"], 4), round(prm["f_pull"], 3))
     gb = gobj(prm)
     for rnd in range(2):
         for k, vals in ggrid.items():
@@ -174,10 +200,11 @@ def tune(sk, gx, tm, tp, quick=False):
 
 
 def main(quick=False):
-    global tm_glob
+    global tm_glob, sk_glob, tp_glob
     sk, tm, gg, bg = load()
     tm_glob = tm
     tp = team_pred(bg)
+    sk_glob, tp_glob = sk, tp
     gx = goalie_rows(gg, tm, bg)
     t0 = time.time()
     prm = tune(sk, gx, tm, tp, quick)

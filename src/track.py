@@ -7,7 +7,7 @@ import csv, json, sys, urllib.request
 from datetime import date, timedelta
 from pathlib import Path
 import numpy as np
-from picks import norm_odds, make_picks, grade, novig, STRONG, movement
+from picks import norm_odds, make_picks, grade, novig, STRONG, movement, profit
 
 ROOT = Path(__file__).resolve().parent.parent
 LOG = ROOT / "tracking" / "log.csv"
@@ -176,5 +176,98 @@ def summarize(rows):
     return S
 
 
+# ---------------- player props (off until out/props_config.json has "picks": true) ----------------
+PLOG = ROOT / "tracking" / "props_log.csv"
+PFIELDS = ["date", "game", "espn_id", "market", "player", "espn_player_id", "player_id", "team", "line", "pick",
+           "odds", "model_p", "market_p", "edge", "strong", "actual", "result", "units"]
+PSTAT = {"sog": "S", "goal": "G", "saves": "SV"}   # ESPN boxscore labels (S = shots on goal; SOG there is shootout goals)
+
+
+def box_stats(summary):
+    """ESPN game summary -> {athlete_id: {"S":..,"G":..,"A":..,"SV":..}} for players who dressed."""
+    out = {}
+    for t in (summary.get("boxscore") or {}).get("players", []):
+        for st in t.get("statistics", []):
+            lab = st.get("labels") or []
+            for a in st.get("athletes", []):
+                v = dict(zip(lab, a.get("stats") or []))
+                d = out.setdefault(str(a["athlete"]["id"]), {})
+                for k in ("S", "G", "A", "SV"):
+                    if k in v:
+                        try:
+                            d[k] = int(float(v[k]))
+                        except ValueError:
+                            pass
+    return out
+
+
+def track_props(day, props=None, scoreboard=None, summaries=None):
+    cfg_p = ROOT / "out" / "props_config.json"
+    cfg = json.load(open(cfg_p)) if cfg_p.exists() else {}
+    if not cfg.get("picks"):
+        print("prop picks are off (out/props_config.json); nothing graded")
+        return None
+    pp = ROOT / "out" / f"props_{day}.json"
+    if props is None and not pp.exists():
+        print(f"no {pp.name}")
+        return None
+    props = props or json.load(open(pp))
+    sb = scoreboard or get(f"{ESPN}/scoreboard?dates={day.replace('-', '')}")
+    done = {e["id"] for e in sb.get("events", []) if e["competitions"][0]["status"]["type"].get("completed")}
+    rows = {(r["date"], r["espn_id"], r["market"], r["espn_player_id"]): r
+            for r in (csv.DictReader(open(PLOG)) if PLOG.exists() else [])}
+    added = 0
+    for g in props["games"]:
+        if g.get("espn_id") not in done:
+            continue
+        s = (summaries or {}).get(g["espn_id"]) or get(f"{ESPN}/summary?event={g['espn_id']}")
+        B = box_stats(s)
+        for m, lst in g["markets"].items():
+            for x in lst:
+                if not x.get("lean") or x.get("edge") is None:
+                    continue
+                key = (day, g["espn_id"], m, x["espn_id"])
+                if key in rows:
+                    continue
+                over = x["lean"] in ("Over", "Yes")
+                odds = x["over"] if over else x["under"]
+                st = B.get(str(x["espn_id"]))
+                if st is None:
+                    actual, res, u = "", "V", 0.0          # did not dress: void
+                else:
+                    actual = st.get("G", 0) + st.get("A", 0) if m == "pts" else st.get(PSTAT[m], 0)
+                    L = float(x["line"])
+                    if actual == L:
+                        res = "P"
+                    else:
+                        res = "W" if (actual > L) == over else "L"
+                    u = 0.0 if res == "P" else (profit(odds) if res == "W" else -1.0)
+                mp = x.get("mkt_over")
+                rows[key] = {"date": day, "game": f"{g['away']}@{g['home']}", "espn_id": g["espn_id"], "market": m,
+                             "player": x["player"], "espn_player_id": x["espn_id"], "player_id": x.get("player_id"),
+                             "team": x["team"], "line": x["line"], "pick": x["lean"], "odds": odds,
+                             "model_p": x["p_over"] if over else round(1 - x["p_over"], 4),
+                             "market_p": mp if over or mp is None else round(1 - mp, 4),
+                             "edge": x["edge"], "strong": int(bool(x.get("strong"))), "actual": actual,
+                             "result": res, "units": round(u, 4)}
+                added += 1
+    PLOG.parent.mkdir(exist_ok=True)
+    allr = sorted(rows.values(), key=lambda r: (r["date"], r["game"], r["market"], r["player"]))
+    with open(PLOG, "w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=PFIELDS, extrasaction="ignore")
+        w.writeheader(); w.writerows(allr)
+    S = {}
+    for m in ("all", "sog", "pts", "goal", "saves"):
+        for strong in (False, True):
+            rr = [r for r in allr if (m == "all" or r["market"] == m) and (not strong or str(r["strong"]) == "1") and r["result"] in ("W", "L", "P")]
+            W = sum(r["result"] == "W" for r in rr); L_ = sum(r["result"] == "L" for r in rr); u = sum(float(r["units"]) for r in rr)
+            S[m + ("_strong" if strong else "")] = {"w": W, "l": L_, "p": len(rr) - W - L_, "units": round(u, 2),
+                                                     "roi": round(u / len(rr), 4) if rr else None}
+    json.dump({"updated": day, "record": S}, open(ROOT / "tracking" / "props_summary.json", "w"), indent=1)
+    print(f"props {day}: graded {added} new picks, {len(allr)} total")
+    return S
+
+
 if __name__ == "__main__":
     track(sys.argv[1])
+    track_props(sys.argv[1])

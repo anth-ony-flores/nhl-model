@@ -69,3 +69,43 @@ details.mv{margin-top:10px}
 .rchip.rc-L{background:var(--line);color:var(--muted)}
 .rchip.rc-P{background:var(--line);color:var(--ink)}
 .game.is-final .res{background:var(--sheet)}
+
+/* Page links shared by every page: Games, Player props, Pick history */
+nav.pnav{display:flex;flex-wrap:wrap;gap:4px 18px;border-bottom:1px solid var(--line);padding-bottom:2px}
+nav.pnav a{font-family:var(--display);font-weight:700;font-size:1.05rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);text-decoration:none;padding:4px 0;border-bottom:3px solid transparent;margin-bottom:-3px}
+nav.pnav a:hover{color:var(--ink)}
+nav.pnav a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--red)}
+nav.pnav a:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+
+/* Player props page */
+.pp-flt{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center}
+.pp-flt .hf{display:flex;flex-wrap:wrap;gap:6px}
+.pp-flt button{font:600 .85rem var(--body);border:1px solid var(--line);background:var(--sheet);color:var(--muted);padding:6px 12px;border-radius:2px;cursor:pointer}
+.pp-flt button[aria-pressed="true"]{background:var(--ink);color:var(--sheet);border-color:var(--ink)}
+.pp-flt button:focus-visible,.pp-flt select:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.pp-flt select{font:600 .85rem var(--body);border:1px solid var(--line);background:var(--sheet);color:var(--ink);padding:6px 8px;border-radius:2px;max-width:100%}
+.pp-flt label{font-size:.8rem;color:var(--muted);display:flex;gap:6px;align-items:center}
+.pp-gate{background:var(--sheet);border:1px solid var(--line);border-left:4px solid var(--warn);border-radius:3px;padding:10px 14px;display:grid;gap:4px;font-size:.88rem}
+.pp-gate b{font-family:var(--display);font-size:1.1rem;letter-spacing:.04em;text-transform:uppercase}
+.pp-game{background:var(--sheet);border:1px solid var(--line);border-radius:3px;padding:14px 16px;display:grid;gap:12px;min-width:0}
+.pp-gh{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:4px 12px}
+.pp-gh h2{margin:0;font-family:var(--display);font-weight:800;font-size:1.6rem;line-height:1;letter-spacing:.02em}
+.pp-gh h2 .at{color:var(--muted);font-weight:500;margin:0 6px;font-size:1.1rem}
+.pp-gh .gm{font-family:var(--mono);font-size:.8rem;color:var(--muted)}
+.pp-gh .gm .live{color:var(--red);font-weight:600}
+.pp-gl{font-size:.8rem;color:var(--muted)}
+.pp-mk{display:grid;gap:4px;min-width:0}
+.pp-mk h3{margin:0;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+table.ptb{font-size:.84rem}
+.ptb th{font-size:.66rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600;padding:5px 8px;background:none}
+.ptb td{padding:5px 8px;font-family:var(--mono)}
+.ptb th:first-child,.ptb td:first-child{text-align:left;font-family:var(--body);position:sticky;left:0;background:var(--sheet);z-index:1}
+.ptb td.tm,.ptb th.tm{text-align:left}
+.ptb td .op{color:var(--muted);font-size:.74rem;display:block}
+.ptb td.lean{font-family:var(--body);font-weight:600;text-align:left}
+.ptb td.lean.ov{color:var(--good)}.ptb td.lean.un{color:var(--blue)}.ptb td.lean.no{color:var(--muted);font-weight:400}
+.ptb .stg{margin-left:6px;font:700 .6rem var(--body);letter-spacing:.08em;text-transform:uppercase;padding:1px 5px;border-radius:2px;background:var(--good);color:var(--sheet)}
+.ptb td.neg{color:var(--muted)}
+.ptb tr.done td{color:var(--muted)}
+.pp-empty{color:var(--muted);font-size:.88rem;margin:0}
+.pp-gate .op{color:var(--muted);font-size:.8rem}

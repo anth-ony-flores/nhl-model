@@ -48,6 +48,13 @@ def merged_board(day):
     return data
 
 
+def pnav(cur):
+    """Page links shared by every page."""
+    items = [("games", "./", "Games"), ("props", "props.html", "Player props"), ("history", "history.html", "Pick history")]
+    return ('<nav class="pnav" aria-label="Pages">' +
+            "".join(f'<a href="{h}"' + (' aria-current="page"' if k == cur else "") + f">{t}</a>" for k, h, t in items) + "</nav>")
+
+
 HEAD = ('<!doctype html><html lang="en"><head><meta charset="utf-8">'
         '<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">'
         '<meta name="description" content="Personal NHL projection model with live scores">'
@@ -78,6 +85,7 @@ def build_index():
               ".then(B=>{renderBoard(B);startLive(B);})"
               ".catch(()=>{document.getElementById('games').innerHTML='<p class=\"note\">Board data could not be loaded. Try reloading the page.</p>';});\n")
     body_part = body_part[:s0 - len("<script>")] + '<script src="live.js?v=' + ver('live.js') + '"></script>\n<script src="record.js?v=' + ver('record.js') + '"></script>\n<script>' + script + body_part[s1:]
+    body_part = body_part.replace("</header>", "</header>\n  " + pnav("games"), 1)
     html = HEAD + head_part.replace('<meta name="claude:viewport-fit-sides" content="cover">\n', "") + "</head><body>" + body_part + "</body></html>"
     (SITE / "index.html").write_text(html)
     return len(html)
@@ -87,8 +95,9 @@ HISTORY_BODY = """
 <div class="wrap">
   <header>
     <h1>Pick history</h1>
-    <div class="sub"><a href="./" style="color:var(--blue)">Back to the board</a><span id="hmeta"></span></div>
+    <div class="sub"><span id="hmeta"></span></div>
   </header>
+  {PNAV}
   <section class="rec" id="hsum" hidden></section>
   <div class="hf" role="group" aria-label="Filter by market" id="hf">
     <button type="button" data-m="all" aria-pressed="true">All</button>
@@ -143,8 +152,42 @@ def build_history():
     head_part = tpl[:tpl.index("</style>")] + "</style>\n<link rel=\"stylesheet\" href=\"live.css?v=" + ver("live.css") + "\">"
     head_part = head_part.replace("<title>Ice Ledger NHL Board</title>", "<title>Ice Ledger Pick History</title>")
     head_part = head_part.replace('<meta name="claude:viewport-fit-sides" content="cover">\n', "")
-    html = HEAD + head_part + "</head><body>" + HISTORY_BODY + "</body></html>"
+    html = HEAD + head_part + "</head><body>" + HISTORY_BODY.replace("{PNAV}", pnav("history")) + "</body></html>"
     (SITE / "history.html").write_text(html)
+
+
+PROPS_BODY = """
+<div class="wrap">
+  <header>
+    <h1>Player props</h1>
+    <div class="sub" id="pp-meta"></div>
+  </header>
+  {PNAV}
+  <section class="pp-gate" id="pp-gate" aria-live="polite"></section>
+  <div class="pp-flt">
+    <div class="hf" role="group" aria-label="Market" id="pp-mkt">
+      <button type="button" data-m="all" aria-pressed="true">All markets</button>
+      <button type="button" data-m="sog" aria-pressed="false">Shots on goal</button>
+      <button type="button" data-m="pts" aria-pressed="false">Points</button>
+      <button type="button" data-m="goal" aria-pressed="false">Anytime goal</button>
+      <button type="button" data-m="saves" aria-pressed="false">Goalie saves</button>
+    </div>
+    <label>Team <select id="pp-team" aria-label="Team"></select></label>
+    <button type="button" id="pp-strong" aria-pressed="false">Strong edge only (3+ pts)</button>
+  </div>
+  <div class="games" id="pp-games"><p class="pp-empty">Loading props.</p></div>
+  <p class="note">Only players with a DraftKings line are listed. Proj is the model's mean for the game. Market P is DraftKings' vig-free probability for the over (anytime goal has a single price, so its vig is included and its edge reads low). Edge is the model's probability minus the market's on the side the model leans, in points; strong is 3.0 points or more. Shots, points and saves are projected from MoneyPuck game logs (decayed by games, shrunk toward position averages, adjusted for the opponent and the board's team scoring projection). Data: MoneyPuck.com; lines: DraftKings via ESPN.</p>
+</div>
+"""
+
+
+def build_props():
+    tpl = (ROOT / "src" / "template.html").read_text()
+    head_part = tpl[:tpl.index("</style>")] + "</style>\n<link rel=\"stylesheet\" href=\"live.css?v=" + ver("live.css") + "\">"
+    head_part = head_part.replace("<title>Ice Ledger NHL Board</title>", "<title>Ice Ledger Player Props</title>")
+    head_part = head_part.replace('<meta name="claude:viewport-fit-sides" content="cover">\n', "")
+    body = PROPS_BODY.replace("{PNAV}", pnav("props")) + '<script src="props.js?v=' + ver("props.js") + '"></script>'
+    (SITE / "props.html").write_text(HEAD + head_part + "</head><body>" + body + "</body></html>")
 
 
 if __name__ == "__main__":
@@ -154,4 +197,5 @@ if __name__ == "__main__":
     json.dump(data, open(SITE / "data" / "board.json", "w"), default=float)
     n = build_index()
     build_history()
+    build_props()
     print("wrote", SITE / "data" / "board.json", "and", SITE / "index.html", n)
