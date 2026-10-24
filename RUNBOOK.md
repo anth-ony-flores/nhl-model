@@ -38,3 +38,9 @@ goalie overrides and summaries in out/, then
   cd src && python3 injuries.py DAY && python3 board.py DAY && python3 export_site.py DAY && python3 build_page.py DAY
   cd .. && git add -A out site && git commit -m "news DAY" && git push   (Pages redeploys on push)
   cp out/nhl_board.html to the artifact scratchpad path and publish (keeps the Claude artifact in sync).
+
+## Staggered cadence (from Oct 24, 2026, 12:20 PM MST)
+- GitHub: gameday.yml runs at 8:00 AM and 1:45 PM MST and loops, refreshing every 10 min while any game starts
+  within 2 h; idle otherwise; stops after the last puck drop. Each refresh dispatches board.yml (publish) to redeploy.
+- Claude news checks: every 30 min when the next puck drop is 60 to 120 min away, every 15 min under 60 min,
+  otherwise the next check is set for 120 min before the next puck drop. None after the last puck drop.
