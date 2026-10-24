@@ -1,7 +1,7 @@
 {
  "day": "2026-10-24",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-24 11:25",
+ "fetched": "2026-10-24 11:42",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -251,23 +251,23 @@
      "applied": false,
      "note": "ir-lt",
      "date": "2026-10-23"
-    },
-    {
-     "name": "Georgii Merkulov",
-     "status": "Injured Reserve",
-     "playerId": 8483567,
-     "position": "C",
-     "value": 0.023,
-     "regular": false,
-     "applied": false,
-     "note": "Merkulov (undisclosed) was put on non-roster injured reserve Monday.",
-     "date": "2026-09-28"
     }
    ]
   },
   "DAL": {
    "missing_value": 0.0604,
    "players": [
+    {
+     "name": "Esa Lindell",
+     "status": "Injured Reserve",
+     "playerId": 8476902,
+     "position": "D",
+     "value": 0.0473,
+     "regular": true,
+     "applied": true,
+     "note": "ir",
+     "date": "2026-10-24"
+    },
     {
      "name": "Sam Steel",
      "status": "Out",
@@ -289,17 +289,6 @@
      "applied": false,
      "note": "day-to-day",
      "date": "2026-10-23"
-    },
-    {
-     "name": "Esa Lindell",
-     "status": "Out",
-     "playerId": 8476902,
-     "position": "D",
-     "value": 0.0473,
-     "regular": true,
-     "applied": true,
-     "note": "out",
-     "date": "2026-10-20"
     },
     {
      "name": "Matt Duchene",
@@ -724,17 +713,6 @@
      "applied": false,
      "note": "Eklund had surgery to repair a torn ankle tendon and will be out 10-12 weeks, Bruce Garrioch of Postmedia reports Thursday.",
      "date": "2026-10-15"
-    },
-    {
-     "name": "Kurtis MacDermid",
-     "status": "Injured Reserve",
-     "playerId": 8477073,
-     "position": "L",
-     "value": -0.0669,
-     "regular": false,
-     "applied": false,
-     "note": "MacDermid (upper body) was moved to the injured non-roster list Monday.",
-     "date": "2026-09-28"
     }
    ]
   },
