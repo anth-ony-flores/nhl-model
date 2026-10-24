@@ -72,10 +72,73 @@ def build_index():
               "\nfetch('data/board.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json();})"
               ".then(B=>{renderBoard(B);startLive(B);})"
               ".catch(()=>{document.getElementById('games').innerHTML='<p class=\"note\">Board data could not be loaded. Try reloading the page.</p>';});\n")
-    body_part = body_part[:s0 - len("<script>")] + '<script src="live.js"></script>\n<script>' + script + body_part[s1:]
+    body_part = body_part[:s0 - len("<script>")] + '<script src="live.js"></script>\n<script src="record.js"></script>\n<script>' + script + body_part[s1:]
     html = HEAD + head_part.replace('<meta name="claude:viewport-fit-sides" content="cover">\n', "") + "</head><body>" + body_part + "</body></html>"
     (SITE / "index.html").write_text(html)
     return len(html)
+
+
+HISTORY_BODY = """
+<div class="wrap">
+  <header>
+    <h1>Pick history</h1>
+    <div class="sub"><a href="./" style="color:var(--blue)">Back to the board</a><span id="hmeta"></span></div>
+  </header>
+  <section class="rec" id="hsum" hidden></section>
+  <div class="hf" role="group" aria-label="Filter by market" id="hf">
+    <button type="button" data-m="all" aria-pressed="true">All</button>
+    <button type="button" data-m="su" aria-pressed="false">Straight up</button>
+    <button type="button" data-m="ml" aria-pressed="false">Moneyline</button>
+    <button type="button" data-m="pl" aria-pressed="false">Puck line</button>
+    <button type="button" data-m="tot" aria-pressed="false">Total</button>
+  </div>
+  <div class="tbl"><table class="ht" id="ht"></table></div>
+  <p class="note">One pick per market per game, graded against DraftKings closing lines from ESPN's public feed. 1 unit risked per pick at the closing odds; a push returns 0. Edge is the model's probability minus the market's vig-free probability. Strong edge is 3.0 points or more.</p>
+</div>
+<style>
+.hf{display:flex;flex-wrap:wrap;gap:6px}
+.hf button{font:600 .85rem var(--body);border:1px solid var(--line);background:var(--sheet);color:var(--muted);padding:6px 12px;border-radius:2px;cursor:pointer}
+.hf button[aria-pressed="true"]{background:var(--ink);color:var(--sheet);border-color:var(--ink)}
+.hf button:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.ht td.res-W{color:var(--good);font-weight:600}.ht td.res-L{color:var(--red);font-weight:600}.ht td.res-P{color:var(--muted)}
+.ht td.wrapc{white-space:normal}
+</style>
+<script>
+const NAMES={su:'Straight up',ml:'Moneyline',pl:'Puck line',tot:'Total'};
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmtO=o=>{if(o==null||o==='')return '';const n=parseFloat(String(o).replace('+',''));return isFinite(n)?(n>0?'+'+n:String(n)):'';};
+const fmtU=u=>u==null?'':(u>=0?'+':'\u2212')+Math.abs(u).toFixed(2);
+let D=null,M='all';
+function draw(){
+  const rows=D.picks.filter(p=>M==='all'||p.market===M);
+  document.getElementById('ht').innerHTML='<tr><th>Date</th><th>Game</th><th>Market</th><th>Pick</th><th>Odds</th><th>Edge</th><th>Final</th><th>Result</th><th>Units</th></tr>'+
+    (rows.length?rows.map(p=>`<tr><td class="mono">${esc(p.date)}</td><td>${esc(p.game)}</td><td>${NAMES[p.market]}</td><td>${esc(p.pick)}</td><td class="mono">${fmtO(p.odds)}</td><td class="mono">${p.edge==null?'':(100*p.edge).toFixed(1)+' pts'}</td><td class="wrapc">${esc(p.final)}</td><td class="res-${esc(p.result)}">${esc(p.result)}</td><td class="mono">${fmtU(p.units)}</td></tr>`).join(''):'<tr><td colspan="9">No graded picks yet.</td></tr>');
+}
+function sum(S){
+  const wl=r=>`${r.w}-${r.l}${r.p?'-'+r.p:''}`, pct=r=>r.pct==null?'':(100*r.pct).toFixed(1)+'%';
+  const card=(l,r,u)=>`<div class="rc"><span class="l">${l}</span><span class="v">${wl(r)}</span><span class="s">${pct(r)}${u&&r.units!=null?` \u00b7 <span class="${r.units>=0?'pos':'neg'}">${fmtU(r.units)}u</span>`:''}</span></div>`;
+  const st=S.strong||{};
+  const el=document.getElementById('hsum');
+  el.innerHTML=`<div class="rec-h"><h2>All picks</h2></div><div class="rec-grid">${card('Straight up',S.record.su,false)}${card('Moneyline',S.record.ml,true)}${card('Puck line',S.record.pl,true)}${card('Total',S.record.tot,true)}</div>`+
+    (st.ml?`<div class="rec-h"><h2>Strong edge (3+ pts)</h2></div><div class="rec-grid">${card('Moneyline',st.ml,true)}${card('Puck line',st.pl,true)}${card('Total',st.tot,true)}</div>`:'')+
+    (S.last7?`<div class="rec-h"><h2>Last 7 days</h2></div><div class="rec-grid">${card('Straight up',S.last7.su,false)}${card('Moneyline',S.last7.ml,true)}${card('Puck line',S.last7.pl,true)}${card('Total',S.last7.tot,true)}</div>`:'');
+  el.hidden=false;
+  document.getElementById('hmeta').textContent=`${S.games} games through ${S.updated}`;
+}
+document.getElementById('hf').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;M=b.dataset.m;document.querySelectorAll('#hf button').forEach(x=>x.setAttribute('aria-pressed',x===b));draw();});
+fetch('data/record.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw 0;return r.json();}).then(d=>{D=d;if(d.summary&&d.summary.games)sum(d.summary);draw();})
+  .catch(()=>{document.getElementById('ht').innerHTML='<tr><td>No graded picks yet. The first results post the morning after game day.</td></tr>';});
+</script>
+"""
+
+
+def build_history():
+    tpl = (ROOT / "src" / "template.html").read_text()
+    head_part = tpl[:tpl.index("</style>")] + "</style>\n<link rel=\"stylesheet\" href=\"live.css\">"
+    head_part = head_part.replace("<title>Ice Ledger NHL Board</title>", "<title>Ice Ledger Pick History</title>")
+    head_part = head_part.replace('<meta name="claude:viewport-fit-sides" content="cover">\n', "")
+    html = HEAD + head_part + "</head><body>" + HISTORY_BODY + "</body></html>"
+    (SITE / "history.html").write_text(html)
 
 
 if __name__ == "__main__":
@@ -84,4 +147,5 @@ if __name__ == "__main__":
     data = merged_board(day)
     json.dump(data, open(SITE / "data" / "board.json", "w"), default=float)
     n = build_index()
+    build_history()
     print("wrote", SITE / "data" / "board.json", "and", SITE / "index.html", n)

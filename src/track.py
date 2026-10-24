@@ -1,18 +1,26 @@
-"""Nightly forward tracking: model vs DraftKings closing line (via ESPN's public feed) vs results.
-Usage: python track.py 2026-10-24   (run after that day's games finish)
-Appends one row per finished game to tracking/log.csv (idempotent by game) and rewrites tracking/summary.json."""
+"""Nightly tracking: model picks vs DraftKings closing lines (ESPN public feed), graded on final scores.
+Usage: python track.py 2026-10-24   (run after that day's games finish; safe to rerun)
+- tracking/log.csv: one row per finished game (idempotent by game key)
+- tracking/summary.json: record by market, strong-edge subset, last 7 days, moneyline log loss
+- site/data/record.json: summary + every graded pick, for the Pages site"""
 import csv, json, sys, urllib.request
+from datetime import date, timedelta
 from pathlib import Path
 import numpy as np
+from picks import norm_odds, make_picks, grade, novig, STRONG
 
 ROOT = Path(__file__).resolve().parent.parent
 LOG = ROOT / "tracking" / "log.csv"
 AB = {"LA": "LAK", "NJ": "NJD", "SJ": "SJS", "TB": "TBL", "UTAH": "UTA", "WAS": "WSH", "MON": "MTL",
       "NAS": "NSH", "CLB": "CBJ", "CAL": "CGY", "VEG": "VGK", "LV": "VGK"}
 ESPN = "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl"
-FIELDS = ["date", "game", "home", "away", "model_p_home", "model_total", "home_goalie", "away_goalie",
-          "dk_ml_home", "dk_ml_away", "dk_p_home", "dk_total", "dk_over", "dk_under",
-          "home_score", "away_score", "ot", "home_win", "espn_id"]
+MKTS = ["su", "ml", "pl", "tot"]
+NAMES = {"su": "Straight up", "ml": "Moneyline", "pl": "Puck line", "tot": "Total"}
+FIELDS = (["date", "game", "espn_id", "away", "home", "away_score", "home_score", "final_type",
+           "model_p_home", "model_total", "away_goalie", "home_goalie",
+           "dk_ml_away", "dk_ml_home", "dk_p_home", "dk_pl_home_line", "dk_pl_home_odds", "dk_pl_away_odds",
+           "dk_total", "dk_over", "dk_under"]
+          + [f"{m}_{k}" for m in MKTS for k in (["pick", "result"] if m == "su" else ["pick", "odds", "edge", "model_p", "market_p", "result", "units"])])
 
 
 def get(url):
@@ -21,78 +29,124 @@ def get(url):
         return json.load(r)
 
 
-def implied(o):
-    o = float(o)
-    return 100 / (o + 100) if o > 0 else -o / (-o + 100)
+def fix(a):
+    return AB.get(a, a)
 
 
-def main(day):
-    board = json.load(open(ROOT / "out" / f"board_{day}.json"))
+def read_log():
+    return list(csv.DictReader(open(LOG))) if LOG.exists() else []
+
+
+def write_log(rows):
+    LOG.parent.mkdir(exist_ok=True)
+    rows = sorted(rows, key=lambda r: (r["date"], r["game"]))
+    with open(LOG, "w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=FIELDS, extrasaction="ignore")
+        w.writeheader(); w.writerows(rows)
+
+
+def track(day, board=None, scoreboard=None, summaries=None):
+    """board/scoreboard/summaries can be injected for tests; otherwise read from disk and ESPN."""
+    board = board or json.load(open(ROOT / "out" / f"board_{day}.json"))
     games = {(g["away"], g["home"]): g for g in board["games"]}
-    sb = get(f"{ESPN}/scoreboard?dates={day.replace('-', '')}")
-    done = set()
-    if LOG.exists():
-        done = {r["game"] for r in csv.DictReader(open(LOG))}
-    rows = []
+    sb = scoreboard or get(f"{ESPN}/scoreboard?dates={day.replace('-', '')}")
+    existing = {r["game"]: r for r in read_log()}
+    added = 0
     for e in sb.get("events", []):
         c = e["competitions"][0]
-        st = c["status"]["type"]
-        if not st.get("completed"):
+        if not c["status"]["type"].get("completed"):
             continue
         side = {x["homeAway"]: x for x in c["competitors"]}
-        h = AB.get(side["home"]["team"]["abbreviation"], side["home"]["team"]["abbreviation"])
-        a = AB.get(side["away"]["team"]["abbreviation"], side["away"]["team"]["abbreviation"])
-        g = games.get((a, h))
-        key = f"{day} {a}@{h}"
-        if g is None or key in done:
+        H, A = fix(side["home"]["team"]["abbreviation"]), fix(side["away"]["team"]["abbreviation"])
+        g = games.get((A, H))
+        key = f"{day} {A}@{H}"
+        if g is None or key in existing:
             continue
         hs, as_ = int(side["home"]["score"]), int(side["away"]["score"])
-        ot = int(c["status"].get("period", 3) > 3)
-        dk = {}
-        try:
-            pc = get(f"{ESPN}/summary?event={e['id']}").get("pickcenter", [])
-            p = next((x for x in pc if "draftkings" in x.get("provider", {}).get("name", "").lower()), pc[0] if pc else None)
-            if p:
-                ml = p.get("moneyline", {})
-                mh = ml.get("home", {}).get("close", {}).get("odds") or p["homeTeamOdds"].get("moneyLine")
-                ma = ml.get("away", {}).get("close", {}).get("odds") or p["awayTeamOdds"].get("moneyLine")
-                ih, ia = implied(mh), implied(ma)
-                dk = {"dk_ml_home": mh, "dk_ml_away": ma, "dk_p_home": round(ih / (ih + ia), 4),
-                      "dk_total": p.get("overUnder"), "dk_over": p.get("overOdds"), "dk_under": p.get("underOdds")}
-        except Exception:
-            pass
-        rows.append({"date": day, "game": key, "home": h, "away": a, "model_p_home": g["p_home"],
-                     "model_total": g["exp_total"], "home_goalie": (g.get("home_goalie") or {}).get("name"),
-                     "away_goalie": (g.get("away_goalie") or {}).get("name"), **dk,
-                     "home_score": hs, "away_score": as_, "ot": ot, "home_win": int(hs > as_), "espn_id": e["id"]})
-    LOG.parent.mkdir(exist_ok=True)
-    new = not LOG.exists()
-    with open(LOG, "a", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=FIELDS)
-        if new:
-            w.writeheader()
-        for r in rows:
-            w.writerow(r)
-    summarize()
-    print(f"logged {len(rows)} games for {day}")
+        detail = c["status"]["type"].get("detail", "")
+        ftype = "SO" if "SO" in detail else ("OT" if "OT" in detail else "REG")
+        s = (summaries or {}).get(e["id"]) or get(f"{ESPN}/summary?event={e['id']}")
+        pc = s.get("pickcenter") or []
+        p = next((x for x in pc if "draftkings" in (x.get("provider") or {}).get("name", "").lower()), pc[0] if pc else None)
+        o = norm_odds(p)
+        P = grade(make_picks(g, o) if o else {"su": make_picks(g, None)["su"], "ml": None, "pl": None, "tot": None}, hs, as_)
+        r = {"date": day, "game": key, "espn_id": e["id"], "away": A, "home": H, "away_score": as_, "home_score": hs,
+             "final_type": ftype, "model_p_home": g["p_home"], "model_total": g["exp_total"],
+             "away_goalie": (g.get("away_goalie") or {}).get("name"), "home_goalie": (g.get("home_goalie") or {}).get("name"),
+             "su_pick": P["su"]["pick"], "su_result": P["su"]["result"]}
+        if o:
+            r.update({"dk_ml_away": o["ml"]["away"], "dk_ml_home": o["ml"]["home"],
+                      "dk_p_home": round(novig(o["ml"]["home"], o["ml"]["away"]), 4) if novig(o["ml"]["home"], o["ml"]["away"]) is not None else "",
+                      "dk_pl_home_line": o["spread"]["home"]["line"], "dk_pl_home_odds": o["spread"]["home"]["odds"],
+                      "dk_pl_away_odds": o["spread"]["away"]["odds"], "dk_total": o["total"]["line"],
+                      "dk_over": o["total"]["over"], "dk_under": o["total"]["under"]})
+        for m in ("ml", "pl", "tot"):
+            x = P.get(m)
+            if x:
+                for k in ("pick", "odds", "edge", "model_p", "market_p", "result", "units"):
+                    r[f"{m}_{k}"] = x[k]
+        existing[key] = r
+        added += 1
+    write_log(list(existing.values()))
+    summary = summarize(list(existing.values()))
+    print(f"{day}: logged {added} new games, {len(existing)} total")
+    return summary
 
 
-def summarize():
-    R = list(csv.DictReader(open(LOG)))
-    def ll(p, y):
-        p = np.clip(np.array(p, float), 1e-6, 1 - 1e-6); y = np.array(y, float)
-        return float(-np.mean(y * np.log(p) + (1 - y) * np.log(1 - p)))
-    both = [r for r in R if r.get("dk_p_home")]
-    y = [int(r["home_win"]) for r in both]
-    s = {"games": len(R), "games_with_close": len(both),
-         "model_logloss": ll([float(r["model_p_home"]) for r in both], y) if both else None,
-         "market_logloss": ll([float(r["dk_p_home"]) for r in both], y) if both else None,
-         "model_fav_record": f"{sum((float(r['model_p_home']) > .5) == (r['home_win'] == '1') for r in R)}-"
-                             f"{sum((float(r['model_p_home']) > .5) != (r['home_win'] == '1') for r in R)}",
-         "note": "Log loss: lower is better. Market = DraftKings closing moneyline with vig removed (ESPN feed)."}
-    json.dump(s, open(ROOT / "tracking" / "summary.json", "w"), indent=1)
-    print(s)
+def rec(rows, m, strong=False):
+    W = L = Pu = 0; units = 0.0
+    for r in rows:
+        if not r.get(f"{m}_result"):
+            continue
+        if strong and float(r.get(f"{m}_edge") or 0) < STRONG:
+            continue
+        res = r[f"{m}_result"]
+        W += res == "W"; L += res == "L"; Pu += res == "P"
+        if m != "su":
+            units += float(r.get(f"{m}_units") or 0)
+    n = W + L + Pu
+    out = {"w": W, "l": L, "p": Pu, "pct": round(W / (W + L), 4) if W + L else None}
+    if m != "su":
+        out.update({"units": round(units, 2), "roi": round(units / n, 4) if n else None})
+    return out
+
+
+def summarize(rows):
+    rows = sorted(rows, key=lambda r: (r["date"], r["game"]))
+    last = max((r["date"] for r in rows), default=None)
+    recent = [r for r in rows if last and r["date"] >= (date.fromisoformat(last) - timedelta(days=6)).isoformat()]
+    both = [r for r in rows if r.get("dk_p_home") not in (None, "")]
+    def ll(ps, ys):
+        p = np.clip(np.array(ps, float), 1e-6, 1 - 1e-6); y = np.array(ys, float)
+        return round(float(-np.mean(y * np.log(p) + (1 - y) * np.log(1 - p))), 4)
+    ys = [int(int(r["home_score"]) > int(r["away_score"])) for r in both]
+    S = {"updated": last, "games": len(rows),
+         "record": {m: rec(rows, m) for m in MKTS},
+         "strong": {m: rec(rows, m, strong=True) for m in ("ml", "pl", "tot")},
+         "last7": {m: rec(recent, m) for m in MKTS},
+         "logloss": {"games": len(both),
+                     "model": ll([float(r["model_p_home"]) for r in both], ys) if both else None,
+                     "market": ll([float(r["dk_p_home"]) for r in both], ys) if both else None},
+         "rules": "One pick per market per game. Graded against DraftKings closing lines from ESPN's public feed; "
+                  "1 unit risked per pick at the closing odds. Strong edge = 3.0 points or more.",
+         "names": NAMES}
+    (ROOT / "tracking").mkdir(exist_ok=True)
+    json.dump(S, open(ROOT / "tracking" / "summary.json", "w"), indent=1)
+    picks = []
+    for r in reversed(rows):
+        for m in MKTS:
+            if not r.get(f"{m}_pick"):
+                continue
+            picks.append({"date": r["date"], "game": f"{r['away']} at {r['home']}",
+                          "final": f"{r['away']} {r['away_score']}, {r['home']} {r['home_score']}" + ("" if r["final_type"] == "REG" else f" ({r['final_type']})"),
+                          "market": m, "pick": r[f"{m}_pick"], "odds": r.get(f"{m}_odds") or None,
+                          "edge": float(r[f"{m}_edge"]) if r.get(f"{m}_edge") else None,
+                          "result": r[f"{m}_result"], "units": float(r[f"{m}_units"]) if r.get(f"{m}_units") not in (None, "") else None})
+    site = ROOT / "site" / "data"
+    site.mkdir(parents=True, exist_ok=True)
+    json.dump({"summary": S, "picks": picks}, open(site / "record.json", "w"))
+    return S
 
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    track(sys.argv[1])
