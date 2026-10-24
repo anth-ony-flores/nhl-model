@@ -123,7 +123,8 @@
   }
 
   async function refresh() {
-    const live = D.games.filter(g => g.espn_id && g.state !== "post");
+    // pre-game lines only: once a game starts, DraftKings switches to in-game prices, which the model does not project
+    const live = D.games.filter(g => g.espn_id && (!g.state || g.state === "pre"));
     if (!live.length) return;
     let ok = 0;
     await Promise.all(live.map(async g => {
@@ -142,13 +143,29 @@
     if (ok) { oddsNote = `odds refreshed ${new Date().toLocaleTimeString([], { hour: "numeric", minute: "2-digit" })} from ESPN (DraftKings)`; draw(); }
   }
 
+  // ---- game status from ESPN scoreboard (every 30 s, same feed as the Games tab) ----
+  async function status() {
+    try {
+      const r = await fetch(`https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=${D.date.replace(/-/g, "")}`, { cache: "no-store" });
+      if (!r.ok) return;
+      const sb = await r.json(), by = {};
+      for (const e of sb.events || []) { const t = e.competitions[0].status.type; by[e.id] = { state: t.state, detail: t.shortDetail }; }
+      let ch = false;
+      for (const g of D.games) {
+        const x = by[g.espn_id];
+        if (x && (x.state !== g.state || x.detail !== g.detail)) { g.state = x.state; g.detail = x.detail; ch = true; }
+      }
+      if (ch) draw();
+    } catch (e) { /* keep last known status */ }
+  }
+
   fetch("data/props.json", { cache: "no-store" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
     D = d;
     for (const g of D.games) for (const m in g.markets) for (const r of g.markets[m]) r._line0 = r.line;
     const t = new Date(D.generated);
     oddsNote = `odds as of ${isNaN(t) ? D.generated : t.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" })}`;
     gate(); filters(); draw();
-    refresh(); setInterval(refresh, 5 * 60 * 1000);
+    status().then(refresh); setInterval(status, 30 * 1000); setInterval(refresh, 5 * 60 * 1000);
   }).catch(() => {
     document.getElementById("pp-games").innerHTML = '<p class="pp-empty">Prop data could not be loaded. Try reloading the page.</p>';
   });
