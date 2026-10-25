@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated": "2026-10-25T22:59:26Z",
+ "generated": "2026-10-25T23:09:36Z",
  "data_through": "2026-10-24",
  "picks_enabled": false,
  "params": {
@@ -2505,7 +2505,7 @@
    "home_name": "Stars",
    "start_utc": "2026-10-25T22:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "16:39 - 2nd",
    "frozen": true,
    "goal_factor": {
     "NYI": 0.893,
@@ -4694,9 +4694,9 @@
       "opp": "WPG",
       "line": 3.5,
       "open_line": 3.5,
-      "over": "+105",
+      "over": "+110",
       "over_open": "+130",
-      "under": "-145",
+      "under": "-150",
       "under_open": "-175",
       "updated": "2026-10-26T01:40Z",
       "player_id": 8481540,
@@ -4715,11 +4715,11 @@
        "6.5": 0.0543,
        "7.5": 0.023
       },
-      "mkt_over": 0.4518,
-      "edge_over": -0.0538,
-      "edge_under": 0.0538,
+      "mkt_over": 0.4425,
+      "edge_over": -0.0445,
+      "edge_under": 0.0445,
       "lean": "Under",
-      "edge": 0.0538,
+      "edge": 0.0445,
       "strong": true
      },
      {
@@ -4834,9 +4834,9 @@
       "opp": "WPG",
       "line": 1.5,
       "open_line": 1.5,
-      "over": "-105",
+      "over": "-125",
       "over_open": "-145",
-      "under": "-130",
+      "under": "-105",
       "under_open": "+105",
       "updated": "2026-10-26T01:40Z",
       "player_id": 8483457,
@@ -4855,12 +4855,12 @@
        "6.5": 0.0017,
        "7.5": 0.0004
       },
-      "mkt_over": 0.4754,
-      "edge_over": -0.0197,
-      "edge_under": 0.0197,
+      "mkt_over": 0.5203,
+      "edge_over": -0.0646,
+      "edge_under": 0.0646,
       "lean": "Under",
-      "edge": 0.0197,
-      "strong": false
+      "edge": 0.0646,
+      "strong": true
      },
      {
       "espn_id": "4874943",
@@ -5546,9 +5546,9 @@
       "opp": "MTL",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "-235",
+      "over": "-245",
       "over_open": "-220",
-      "under": "+170",
+      "under": "+175",
       "under_open": "+160",
       "updated": "2026-10-25T09:10Z",
       "player_id": 8478398,
@@ -5563,11 +5563,11 @@
        "2.5": 0.1046,
        "3.5": 0.0276
       },
-      "mkt_over": 0.6545,
-      "edge_over": 0.0208,
-      "edge_under": -0.0208,
+      "mkt_over": 0.6613,
+      "edge_over": 0.0139,
+      "edge_under": -0.0139,
       "lean": "Over",
-      "edge": 0.0208,
+      "edge": 0.0139,
       "strong": false
      },
      {
@@ -5827,7 +5827,7 @@
       "opp": "WPG",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+130",
+      "over": "+125",
       "over_open": "+125",
       "under": null,
       "under_open": null,
@@ -5841,9 +5841,9 @@
       "curve": {
        "0.5": 0.3875
       },
-      "mkt_over": 0.4348,
+      "mkt_over": 0.4444,
       "vig_included": true,
-      "edge_over": -0.0473,
+      "edge_over": -0.057,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -5943,7 +5943,7 @@
       "opp": "WPG",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+380",
+      "over": "+370",
       "over_open": "+350",
       "under": null,
       "under_open": null,
@@ -5957,9 +5957,9 @@
       "curve": {
        "0.5": 0.1842
       },
-      "mkt_over": 0.2083,
+      "mkt_over": 0.2128,
       "vig_included": true,
-      "edge_over": -0.0241,
+      "edge_over": -0.0286,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -5972,7 +5972,7 @@
       "opp": "WPG",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+425",
+      "over": "+400",
       "over_open": "+400",
       "under": null,
       "under_open": null,
@@ -5986,9 +5986,9 @@
       "curve": {
        "0.5": 0.182
       },
-      "mkt_over": 0.1905,
+      "mkt_over": 0.2,
       "vig_included": true,
-      "edge_over": -0.0085,
+      "edge_over": -0.018,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -6668,7 +6668,7 @@
       "opp": "MTL",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+550",
+      "over": "+600",
       "over_open": "+550",
       "under": null,
       "under_open": null,
@@ -6682,9 +6682,9 @@
       "curve": {
        "0.5": 0.0886
       },
-      "mkt_over": 0.1538,
+      "mkt_over": 0.1429,
       "vig_included": true,
-      "edge_over": -0.0653,
+      "edge_over": -0.0543,
       "edge_under": null,
       "lean": null,
       "edge": null,
