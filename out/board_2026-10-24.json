@@ -1,7 +1,7 @@
 {
  "date": "2026-10-24",
  "data_through": "2026-10-23",
- "generated": "2026-10-24 18:46 MST",
+ "generated": "2026-10-24 18:50 MST",
  "league_xg60": 3.003,
  "b2b_effect": {
   "own_xg": -0.251,
@@ -1786,17 +1786,6 @@
     }
    ],
    "inj_away": [
-    {
-     "name": "Maxim Shabanov",
-     "status": "Day-To-Day",
-     "playerId": 8485702,
-     "position": "R",
-     "value": -0.0674,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-23"
-    },
     {
      "name": "Marcus Foligno",
      "status": "Injured Reserve",
