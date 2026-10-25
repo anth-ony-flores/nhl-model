@@ -1,7 +1,7 @@
 {
  "day": "2026-10-25",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-25 14:38",
+ "fetched": "2026-10-25 14:48",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -167,13 +167,13 @@
    "players": [
     {
      "name": "Alexander Nikishin",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8482100,
      "position": "D",
      "value": -0.003,
      "regular": false,
      "applied": false,
-     "note": "Nikishin (not injury related) signed a one-year, $3 million contract Sunday, which ends his time as an unsigned restricted free agent.",
+     "note": "out",
      "date": "2026-10-25"
     },
     {
