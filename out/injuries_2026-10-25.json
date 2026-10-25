@@ -1,7 +1,7 @@
 {
  "day": "2026-10-25",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-25 10:20",
+ "fetched": "2026-10-25 10:30",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -885,8 +885,8 @@
      "value": 0.0687,
      "regular": true,
      "applied": true,
-     "note": "ir",
-     "date": "2026-10-24"
+     "note": "McCann (lower body) will be out for approximately 10 weeks, the team announced Sunday.",
+     "date": "2026-10-25"
     },
     {
      "name": "Jacob Melanson",
