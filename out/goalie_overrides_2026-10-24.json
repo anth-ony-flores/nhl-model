@@ -10,9 +10,9 @@
   "source": "confirmed by TSN 1200 via Daily Faceoff"
  },
  "DET": {
-  "id": 8480193,
-  "name": "Daniil Tarasov",
-  "source": "expected per 32 Hockey Updates, Oct 24 (Gibson hurt Thursday)"
+  "id": 8476434,
+  "name": "John Gibson",
+  "source": "projected: Tarasov scratched and Gibson dressed per NHL game roster (6:45 PM); starter not yet marked (Postava the alternative)"
  },
  "WSH": {
   "id": 8479292,
@@ -68,5 +68,15 @@
   "id": 8480045,
   "name": "Ukko-Pekka Luukkonen",
   "source": "confirmed by NHL official game roster (starting goalie), 15:57Z"
+ },
+ "MIN": {
+  "id": 8482661,
+  "name": "Jesper Wallstedt",
+  "source": "confirmed by NHL official game roster (starting goalie), 18:46Z"
+ },
+ "SEA": {
+  "id": 8478916,
+  "name": "Joey Daccord",
+  "source": "confirmed by NHL official game roster (starting goalie), 18:46Z"
  }
 }

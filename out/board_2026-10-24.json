@@ -1,7 +1,7 @@
 {
  "date": "2026-10-24",
  "data_through": "2026-10-23",
- "generated": "2026-10-24 18:39 MST",
+ "generated": "2026-10-24 18:46 MST",
  "league_xg60": 3.003,
  "b2b_effect": {
   "own_xg": -0.251,
@@ -1601,10 +1601,10 @@
     ]
    },
    "away_goalie": {
-    "id": 8480193,
-    "name": "Daniil Tarasov",
-    "basis": "confirmed: expected per 32 Hockey Updates, Oct 24 (Gibson hurt Thursday)",
-    "gsax_per_xg": 0.0282,
+    "id": 8476434,
+    "name": "John Gibson",
+    "basis": "confirmed: projected: Tarasov scratched and Gibson dressed per NHL game roster (6:45 PM); starter not yet marked (Postava the alternative)",
+    "gsax_per_xg": 0.0304,
     "options": []
    },
    "inj_home": [
@@ -1681,49 +1681,49 @@
    "inj_adj_away": 0,
    "xg_home": 2.81,
    "xg_away": 3.212,
-   "proj_home": 2.85,
+   "proj_home": 2.84,
    "proj_away": 3.29,
-   "p_home": 0.4251,
-   "p_away": 0.5749,
-   "p_ot": 0.2417,
-   "fair_ml_home": 135,
-   "fair_ml_away": -135,
-   "exp_total": 6.14,
+   "p_home": 0.4241,
+   "p_away": 0.5759,
+   "p_ot": 0.2418,
+   "fair_ml_home": 136,
+   "fair_ml_away": -136,
+   "exp_total": 6.13,
    "totals": {
     "4.5": {
-     "over": 0.7508,
-     "under": 0.2492
+     "over": 0.75,
+     "under": 0.25
     },
     "5.0": {
-     "over": 0.566,
-     "under": 0.2492
+     "over": 0.565,
+     "under": 0.25
     },
     "5.5": {
-     "over": 0.566,
-     "under": 0.434
+     "over": 0.565,
+     "under": 0.435
     },
     "6.0": {
-     "over": 0.4232,
-     "under": 0.434
+     "over": 0.4222,
+     "under": 0.435
     },
     "6.5": {
-     "over": 0.4232,
-     "under": 0.5768
+     "over": 0.4222,
+     "under": 0.5778
     },
     "7.0": {
-     "over": 0.2601,
-     "under": 0.5768
+     "over": 0.2592,
+     "under": 0.5778
     },
     "7.5": {
-     "over": 0.2601,
-     "under": 0.7399
+     "over": 0.2592,
+     "under": 0.7408
     }
    },
    "puck_line": {
-    "home_-1.5": 0.2433,
-    "away_+1.5": 0.7567,
-    "away_-1.5": 0.3628,
-    "home_+1.5": 0.6372
+    "home_-1.5": 0.2425,
+    "away_+1.5": 0.7575,
+    "away_-1.5": 0.3636,
+    "home_+1.5": 0.6364
    }
   },
   {
@@ -1737,40 +1737,18 @@
    "home_b2b": false,
    "away_b2b": false,
    "home_goalie": {
-    "id": 8475831,
-    "name": "Philipp Grubauer",
-    "basis": "most starts in last 10",
-    "gsax_per_xg": 0.0198,
-    "options": [
-     {
-      "id": 8475831,
-      "name": "Philipp Grubauer",
-      "gsax_per_xg": 0.0198
-     },
-     {
-      "id": 8478916,
-      "name": "Joey Daccord",
-      "gsax_per_xg": -0.0266
-     }
-    ]
+    "id": 8478916,
+    "name": "Joey Daccord",
+    "basis": "confirmed: confirmed by NHL official game roster (starting goalie), 18:46Z",
+    "gsax_per_xg": -0.0266,
+    "options": []
    },
    "away_goalie": {
     "id": 8482661,
     "name": "Jesper Wallstedt",
-    "basis": "most starts in last 10",
+    "basis": "confirmed: confirmed by NHL official game roster (starting goalie), 18:46Z",
     "gsax_per_xg": 0.0776,
-    "options": [
-     {
-      "id": 8482661,
-      "name": "Jesper Wallstedt",
-      "gsax_per_xg": 0.0776
-     },
-     {
-      "id": 8475717,
-      "name": "Calvin Pickard",
-      "gsax_per_xg": -0.0519
-     }
-    ]
+    "options": []
    },
    "inj_home": [
     {
@@ -1857,49 +1835,49 @@
    "inj_adj_away": 0,
    "xg_home": 2.617,
    "xg_away": 3.398,
-   "proj_home": 2.68,
-   "proj_away": 3.32,
-   "p_home": 0.389,
-   "p_away": 0.611,
-   "p_ot": 0.2402,
-   "fair_ml_home": 157,
-   "fair_ml_away": -157,
-   "exp_total": 6.0,
+   "proj_home": 2.67,
+   "proj_away": 3.46,
+   "p_home": 0.3663,
+   "p_away": 0.6337,
+   "p_ot": 0.233,
+   "fair_ml_home": 173,
+   "fair_ml_away": -173,
+   "exp_total": 6.14,
    "totals": {
     "4.5": {
-     "over": 0.7324,
-     "under": 0.2676
+     "over": 0.7503,
+     "under": 0.2497
     },
     "5.0": {
-     "over": 0.5429,
-     "under": 0.2676
+     "over": 0.5665,
+     "under": 0.2497
     },
     "5.5": {
-     "over": 0.5429,
-     "under": 0.4571
+     "over": 0.5665,
+     "under": 0.4335
     },
     "6.0": {
-     "over": 0.3995,
-     "under": 0.4571
+     "over": 0.4225,
+     "under": 0.4335
     },
     "6.5": {
-     "over": 0.3995,
-     "under": 0.6005
+     "over": 0.4225,
+     "under": 0.5775
     },
     "7.0": {
-     "over": 0.2403,
-     "under": 0.6005
+     "over": 0.2603,
+     "under": 0.5775
     },
     "7.5": {
-     "over": 0.2403,
-     "under": 0.7597
+     "over": 0.2603,
+     "under": 0.7397
     }
    },
    "puck_line": {
-    "home_-1.5": 0.2159,
-    "away_+1.5": 0.7841,
-    "away_-1.5": 0.3925,
-    "home_+1.5": 0.6075
+    "home_-1.5": 0.2021,
+    "away_+1.5": 0.7979,
+    "away_-1.5": 0.4166,
+    "home_+1.5": 0.5834
    }
   }
  ],
