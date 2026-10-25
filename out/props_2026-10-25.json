@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated": "2026-10-25T20:40:42Z",
+ "generated": "2026-10-25T20:50:51Z",
  "data_through": "2026-10-24",
  "picks_enabled": false,
  "params": {
@@ -89,7 +89,7 @@
    "home_name": "Blackhawks",
    "start_utc": "2026-10-25T19:00:00Z",
    "state": "in",
-   "detail": "5:14 - 2nd",
+   "detail": "2:03 - 2nd",
    "frozen": true,
    "goal_factor": {
     "FLA": 1.065,
