@@ -995,17 +995,17 @@
    ]
   },
   "TBL": {
-   "missing_value": 0,
+   "missing_value": -0.0444,
    "players": [
     {
      "name": "Victor Hedman",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8475167,
      "position": "D",
      "value": -0.0444,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
+     "applied": true,
+     "note": "Scratched per NHL official game roster (5:45 PM MST)",
      "date": "2026-10-24"
     },
     {
