@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated": "2026-10-25T21:58:40Z",
+ "generated": "2026-10-25T22:08:48Z",
  "data_through": "2026-10-24",
  "picks_enabled": false,
  "params": {
@@ -11,39 +11,14 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 143,
-  "checked": 142,
-  "first_is_over": 141,
-  "mismatch": 1,
-  "mismatches": [
-   {
-    "market": "saves",
-    "espn_id": "3151981",
-    "line": 23.5,
-    "first": "-120",
-    "second": "-115",
-    "milestone": "-115"
-   }
-  ]
+  "pairs": 110,
+  "checked": 109,
+  "first_is_over": 109,
+  "mismatch": 0,
+  "mismatches": []
  },
- "lines": 287,
+ "lines": 218,
  "unmatched": [
-  {
-   "espn_id": "5139042",
-   "name": "Matthew Seminoff",
-   "team": "DAL",
-   "market": "goal",
-   "game": "NYI@DAL",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  },
-  {
-   "espn_id": "5275580",
-   "name": "Dylan Hryckowian",
-   "team": "DAL",
-   "market": "goal",
-   "game": "NYI@DAL",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  },
   {
    "espn_id": "4697401",
    "name": "Dawson Mercer",
@@ -69,7 +44,7 @@
    "why": "athlete not on either team's ESPN roster"
   }
  ],
- "unmatched_rate": 0.0174,
+ "unmatched_rate": 0.0138,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -2529,9 +2504,9 @@
    "away_name": "Islanders",
    "home_name": "Stars",
    "start_utc": "2026-10-25T22:00:00Z",
-   "state": "pre",
-   "detail": "10/25 - 6:00 PM EDT",
-   "frozen": false,
+   "state": "in",
+   "detail": "20:00 - 1st",
+   "frozen": true,
    "goal_factor": {
     "NYI": 0.893,
     "DAL": 1.054
@@ -5261,9 +5236,9 @@
       "opp": "WPG",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+130",
+      "over": "+125",
       "over_open": "+150",
-      "under": "-175",
+      "under": "-170",
       "under_open": "-200",
       "updated": "2026-10-25T18:49Z",
       "player_id": 8481618,
@@ -5278,11 +5253,11 @@
        "2.5": 0.0113,
        "3.5": 0.0013
       },
-      "mkt_over": 0.4059,
-      "edge_over": -0.0398,
-      "edge_under": 0.0398,
+      "mkt_over": 0.4138,
+      "edge_over": -0.0477,
+      "edge_under": 0.0477,
       "lean": "Under",
-      "edge": 0.0398,
+      "edge": 0.0477,
       "strong": true
      },
      {
@@ -5345,6 +5320,37 @@
       "edge_under": -0.001,
       "lean": "Over",
       "edge": 0.001,
+      "strong": false
+     },
+     {
+      "espn_id": "3069687",
+      "player": "Josh Anderson",
+      "team": "MTL",
+      "opp": "WPG",
+      "line": 0.5,
+      "open_line": 0.5,
+      "over": "+170",
+      "over_open": "+170",
+      "under": "-230",
+      "under_open": "-230",
+      "updated": "2026-10-26T00:48Z",
+      "player_id": 8476981,
+      "pos": "F",
+      "proj_toi": 13.92,
+      "games_weight": 39.9,
+      "mean": 0.393,
+      "p_over": 0.3248,
+      "curve": {
+       "0.5": 0.3248,
+       "1.5": 0.0596,
+       "2.5": 0.0075,
+       "3.5": 0.0007
+      },
+      "mkt_over": 0.347,
+      "edge_over": -0.0222,
+      "edge_under": 0.0222,
+      "lean": "Under",
+      "edge": 0.0222,
       "strong": false
      },
      {
@@ -5757,9 +5763,9 @@
       "opp": "MTL",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+225",
+      "over": "+220",
       "over_open": "+220",
-      "under": "-310",
+      "under": "-300",
       "under_open": "-310",
       "updated": "2026-10-26T00:26Z",
       "player_id": 8482765,
@@ -5774,11 +5780,11 @@
        "2.5": 0.002,
        "3.5": 0.0001
       },
-      "mkt_over": 0.2892,
-      "edge_over": -0.0739,
-      "edge_under": 0.0739,
+      "mkt_over": 0.2941,
+      "edge_over": -0.0788,
+      "edge_under": 0.0788,
       "lean": "Under",
-      "edge": 0.0739,
+      "edge": 0.0788,
       "strong": true
      },
      {
