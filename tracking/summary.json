@@ -1,0 +1,156 @@
+{
+ "updated": "2026-10-24",
+ "games": 12,
+ "record": {
+  "su": {
+   "w": 9,
+   "l": 3,
+   "p": 0,
+   "pct": 0.75
+  },
+  "ml": {
+   "w": 4,
+   "l": 8,
+   "p": 0,
+   "pct": 0.3333,
+   "units": -4.42,
+   "roi": -0.3682
+  },
+  "pl": {
+   "w": 5,
+   "l": 7,
+   "p": 0,
+   "pct": 0.4167,
+   "units": -3.75,
+   "roi": -0.3122
+  },
+  "tot": {
+   "w": 6,
+   "l": 6,
+   "p": 0,
+   "pct": 0.5,
+   "units": -1.07,
+   "roi": -0.0894
+  }
+ },
+ "strong": {
+  "ml": {
+   "w": 2,
+   "l": 3,
+   "p": 0,
+   "pct": 0.4,
+   "units": -1.18,
+   "roi": -0.236
+  },
+  "pl": {
+   "w": 1,
+   "l": 3,
+   "p": 0,
+   "pct": 0.25,
+   "units": -2.5,
+   "roi": -0.6238
+  },
+  "tot": {
+   "w": 3,
+   "l": 4,
+   "p": 0,
+   "pct": 0.4286,
+   "units": -1.69,
+   "roi": -0.2419
+  }
+ },
+ "last7": {
+  "su": {
+   "w": 9,
+   "l": 3,
+   "p": 0,
+   "pct": 0.75
+  },
+  "ml": {
+   "w": 4,
+   "l": 8,
+   "p": 0,
+   "pct": 0.3333,
+   "units": -4.42,
+   "roi": -0.3682
+  },
+  "pl": {
+   "w": 5,
+   "l": 7,
+   "p": 0,
+   "pct": 0.4167,
+   "units": -3.75,
+   "roi": -0.3122
+  },
+  "tot": {
+   "w": 6,
+   "l": 6,
+   "p": 0,
+   "pct": 0.5,
+   "units": -1.07,
+   "roi": -0.0894
+  }
+ },
+ "logloss": {
+  "games": 12,
+  "model": 0.6544,
+  "market": 0.632
+ },
+ "rules": "One pick per market per game. Graded against DraftKings closing lines from ESPN's public feed; 1 unit risked per pick at the closing odds. Strong edge = 3.0 points or more.",
+ "clv": {
+  "ml": {
+   "n": 12,
+   "avg_pts": 0.35,
+   "beat_close_pct": 0.3333
+  },
+  "pl": {
+   "n": 12,
+   "avg_pts": 0.14,
+   "beat_close_pct": 0.4167
+  },
+  "tot": {
+   "n": 11,
+   "avg_pts": -0.73,
+   "beat_close_pct": 0.1818
+  }
+ },
+ "clv_strong": {
+  "ml": {
+   "n": 5,
+   "avg_pts": -0.63,
+   "beat_close_pct": 0.2
+  },
+  "pl": {
+   "n": 4,
+   "avg_pts": -0.95,
+   "beat_close_pct": 0.25
+  },
+  "tot": {
+   "n": 6,
+   "avg_pts": -1.38,
+   "beat_close_pct": 0.1667
+  }
+ },
+ "all_picks": {
+  "w": 15,
+  "l": 21,
+  "p": 0,
+  "pct": 0.4167,
+  "units": -9.24,
+  "roi": -0.2567
+ },
+ "strong_all": {
+  "w": 6,
+  "l": 10,
+  "p": 0,
+  "pct": 0.375,
+  "units": -5.37,
+  "roi": -0.3356
+ },
+ "names": {
+  "su": "Straight up",
+  "ml": "Moneyline",
+  "pl": "Puck line",
+  "tot": "Total"
+ }
+}
