@@ -1,7 +1,7 @@
 {
  "day": "2026-10-24",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-24 17:39",
+ "fetched": "2026-10-24 17:49",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -1005,8 +1005,8 @@
      "value": -0.0444,
      "regular": true,
      "applied": true,
-     "note": "Scratched per NHL official game roster (5:45 PM MST)",
-     "date": "2026-10-24"
+     "note": "Hedman (lower body) won't play Saturday versus the Mammoth.",
+     "date": "2026-10-25"
     },
     {
      "name": "Yanni Gourde",

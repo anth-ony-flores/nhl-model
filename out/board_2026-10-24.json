@@ -1,7 +1,7 @@
 {
  "date": "2026-10-24",
  "data_through": "2026-10-23",
- "generated": "2026-10-24 17:46 MST",
+ "generated": "2026-10-24 17:49 MST",
  "league_xg60": 3.003,
  "b2b_effect": {
   "own_xg": -0.251,
@@ -1507,8 +1507,8 @@
      "value": -0.0444,
      "regular": true,
      "applied": true,
-     "note": "Scratched per NHL official game roster (5:45 PM MST)",
-     "date": "2026-10-24"
+     "note": "Hedman (lower body) won't play Saturday versus the Mammoth.",
+     "date": "2026-10-25"
     },
     {
      "name": "Yanni Gourde",
