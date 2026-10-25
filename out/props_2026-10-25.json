@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated": "2026-10-25T23:09:36Z",
+ "generated": "2026-10-25T23:19:45Z",
  "data_through": "2026-10-24",
  "picks_enabled": false,
  "params": {
@@ -11,40 +11,15 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 110,
-  "checked": 108,
-  "first_is_over": 108,
+  "pairs": 72,
+  "checked": 70,
+  "first_is_over": 70,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 218,
- "unmatched": [
-  {
-   "espn_id": "4697401",
-   "name": "Dawson Mercer",
-   "team": "WPG",
-   "market": "pts",
-   "game": "MTL@WPG",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  },
-  {
-   "espn_id": "4697401",
-   "name": "Dawson Mercer",
-   "team": "WPG",
-   "market": "goal",
-   "game": "MTL@WPG",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  },
-  {
-   "espn_id": "5080223",
-   "name": null,
-   "team": null,
-   "market": "goal",
-   "game": "MTL@WPG",
-   "why": "athlete not on either team's ESPN roster"
-  }
- ],
- "unmatched_rate": 0.0138,
+ "lines": 144,
+ "unmatched": [],
+ "unmatched_rate": 0.0,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -2505,7 +2480,7 @@
    "home_name": "Stars",
    "start_utc": "2026-10-25T22:00:00Z",
    "state": "in",
-   "detail": "16:39 - 2nd",
+   "detail": "10:53 - 2nd",
    "frozen": true,
    "goal_factor": {
     "NYI": 0.893,
@@ -4676,9 +4651,9 @@
    "away_name": "Canadiens",
    "home_name": "Jets",
    "start_utc": "2026-10-25T23:00:00Z",
-   "state": "pre",
-   "detail": "10/25 - 7:00 PM EDT",
-   "frozen": false,
+   "state": "in",
+   "detail": "20:00 - 1st",
+   "frozen": true,
    "goal_factor": {
     "MTL": 0.994,
     "WPG": 1.089
