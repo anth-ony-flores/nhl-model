@@ -1,7 +1,7 @@
 {
  "day": "2026-10-25",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-25 11:01",
+ "fetched": "2026-10-25 11:11",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -1155,17 +1155,6 @@
   "VAN": {
    "missing_value": 0,
    "players": [
-    {
-     "name": "Jack Thompson",
-     "status": "Injured Reserve",
-     "playerId": 8482144,
-     "position": "D",
-     "value": 0.0843,
-     "regular": false,
-     "applied": false,
-     "note": "ir-nr",
-     "date": "2026-09-29"
-    },
     {
      "name": "Akil Thomas",
      "status": "Injured Reserve",

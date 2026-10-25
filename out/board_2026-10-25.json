@@ -1,7 +1,7 @@
 {
  "date": "2026-10-25",
  "data_through": "2026-10-24",
- "generated": "2026-10-25 11:01 MST",
+ "generated": "2026-10-25 11:11 MST",
  "league_xg60": 3.007,
  "b2b_effect": {
   "own_xg": -0.251,
@@ -724,17 +724,6 @@
     ]
    },
    "inj_home": [
-    {
-     "name": "Jack Thompson",
-     "status": "Injured Reserve",
-     "playerId": 8482144,
-     "position": "D",
-     "value": 0.0843,
-     "regular": false,
-     "applied": false,
-     "note": "ir-nr",
-     "date": "2026-09-29"
-    },
     {
      "name": "Akil Thomas",
      "status": "Injured Reserve",
