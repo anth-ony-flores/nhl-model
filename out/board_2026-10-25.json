@@ -1,7 +1,7 @@
 {
  "date": "2026-10-25",
  "data_through": "2026-10-24",
- "generated": "2026-10-25 14:00 MST",
+ "generated": "2026-10-25 14:08 MST",
  "league_xg60": 3.007,
  "b2b_effect": {
   "own_xg": -0.251,
@@ -212,7 +212,7 @@
      "value": -0.0224,
      "regular": true,
      "applied": true,
-     "note": "Faksa (lower body) won't be in the lineup against the Islanders on Sunday, according to Lia Assimakopoulos of The Dallas Morning News.",
+     "note": "out",
      "date": "2026-10-25"
     },
     {

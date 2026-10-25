@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated": "2026-10-25T21:01:00Z",
+ "generated": "2026-10-25T21:08:02Z",
  "data_through": "2026-10-24",
  "picks_enabled": false,
  "params": {
@@ -2635,9 +2635,9 @@
       "opp": "DAL",
       "line": 1.5,
       "open_line": 1.5,
-      "over": "+100",
+      "over": "-105",
       "over_open": "+100",
-      "under": "-135",
+      "under": "-130",
       "under_open": "-135",
       "updated": "2026-10-25T08:37Z",
       "player_id": 8475170,
@@ -2656,12 +2656,12 @@
        "6.5": 0.0015,
        "7.5": 0.0003
       },
-      "mkt_over": 0.4653,
-      "edge_over": -0.0212,
-      "edge_under": 0.0212,
+      "mkt_over": 0.4754,
+      "edge_over": -0.0313,
+      "edge_under": 0.0313,
       "lean": "Under",
-      "edge": 0.0212,
-      "strong": false
+      "edge": 0.0313,
+      "strong": true
      },
      {
       "espn_id": "4565244",
@@ -3359,7 +3359,7 @@
       "opp": "NYI",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "-145",
+      "over": "-150",
       "over_open": "-160",
       "under": "+110",
       "under_open": "+115",
@@ -3376,11 +3376,11 @@
        "2.5": 0.0559,
        "3.5": 0.0114
       },
-      "mkt_over": 0.5541,
-      "edge_over": 0.0211,
-      "edge_under": -0.0211,
+      "mkt_over": 0.5575,
+      "edge_over": 0.0177,
+      "edge_under": -0.0177,
       "lean": "Over",
-      "edge": 0.0211,
+      "edge": 0.0177,
       "strong": false
      },
      {
@@ -3545,9 +3545,9 @@
       "opp": "NYI",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+255",
+      "over": "+250",
       "over_open": "+255",
-      "under": "-360",
+      "under": "-350",
       "under_open": "-360",
       "updated": "2026-10-25T21:31Z",
       "player_id": 8481641,
@@ -3562,11 +3562,11 @@
        "2.5": 0.0018,
        "3.5": 0.0001
       },
-      "mkt_over": 0.2647,
-      "edge_over": -0.0574,
-      "edge_under": 0.0574,
+      "mkt_over": 0.2687,
+      "edge_over": -0.0614,
+      "edge_under": 0.0614,
       "lean": "Under",
-      "edge": 0.0574,
+      "edge": 0.0614,
       "strong": true
      }
     ],
@@ -7775,9 +7775,9 @@
       "opp": "NSH",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+155",
+      "over": "+145",
       "over_open": "+130",
-      "under": "-210",
+      "under": "-200",
       "under_open": "-180",
       "updated": "2026-10-25T09:50Z",
       "player_id": 8486171,
@@ -7792,11 +7792,11 @@
        "2.5": 0.0098,
        "3.5": 0.001
       },
-      "mkt_over": 0.3666,
-      "edge_over": -0.0157,
-      "edge_under": 0.0157,
+      "mkt_over": 0.3797,
+      "edge_over": -0.0288,
+      "edge_under": 0.0288,
       "lean": "Under",
-      "edge": 0.0157,
+      "edge": 0.0288,
       "strong": false
      },
      {
@@ -8056,7 +8056,7 @@
       "opp": "NSH",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "-105",
+      "over": "+100",
       "over_open": "-105",
       "under": null,
       "under_open": null,
@@ -8070,9 +8070,9 @@
       "curve": {
        "0.5": 0.444
       },
-      "mkt_over": 0.5122,
+      "mkt_over": 0.5,
       "vig_included": true,
-      "edge_over": -0.0682,
+      "edge_over": -0.056,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8172,7 +8172,7 @@
       "opp": "NSH",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+275",
+      "over": "+270",
       "over_open": "+295",
       "under": null,
       "under_open": null,
@@ -8186,12 +8186,12 @@
       "curve": {
        "0.5": 0.277
       },
-      "mkt_over": 0.2667,
+      "mkt_over": 0.2703,
       "vig_included": true,
-      "edge_over": 0.0104,
+      "edge_over": 0.0068,
       "edge_under": null,
       "lean": "Yes",
-      "edge": 0.0104,
+      "edge": 0.0068,
       "strong": false
      },
      {
@@ -8230,7 +8230,7 @@
       "opp": "NSH",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+290",
+      "over": "+295",
       "over_open": "+280",
       "under": null,
       "under_open": null,
@@ -8244,9 +8244,9 @@
       "curve": {
        "0.5": 0.2376
       },
-      "mkt_over": 0.2564,
+      "mkt_over": 0.2532,
       "vig_included": true,
-      "edge_over": -0.0188,
+      "edge_over": -0.0156,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8288,7 +8288,7 @@
       "opp": "NSH",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+350",
+      "over": "+330",
       "over_open": "+360",
       "under": null,
       "under_open": null,
@@ -8302,9 +8302,9 @@
       "curve": {
        "0.5": 0.1938
       },
-      "mkt_over": 0.2222,
+      "mkt_over": 0.2326,
       "vig_included": true,
-      "edge_over": -0.0284,
+      "edge_over": -0.0387,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8433,7 +8433,7 @@
       "opp": "NSH",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+1000",
+      "over": "+950",
       "over_open": "+1300",
       "under": null,
       "under_open": null,
@@ -8447,12 +8447,12 @@
       "curve": {
        "0.5": 0.0918
       },
-      "mkt_over": 0.0909,
+      "mkt_over": 0.0952,
       "vig_included": true,
-      "edge_over": 0.0009,
+      "edge_over": -0.0035,
       "edge_under": null,
-      "lean": "Yes",
-      "edge": 0.0009,
+      "lean": null,
+      "edge": null,
       "strong": false
      },
      {
@@ -8549,7 +8549,7 @@
       "opp": "NSH",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+1700",
+      "over": "+1600",
       "over_open": "+1600",
       "under": null,
       "under_open": null,
@@ -8563,9 +8563,9 @@
       "curve": {
        "0.5": 0.0357
       },
-      "mkt_over": 0.0556,
+      "mkt_over": 0.0588,
       "vig_included": true,
-      "edge_over": -0.0199,
+      "edge_over": -0.0231,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8926,7 +8926,7 @@
       "opp": "COL",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+1200",
+      "over": "+1100",
       "over_open": "+900",
       "under": null,
       "under_open": null,
@@ -8940,9 +8940,9 @@
       "curve": {
        "0.5": 0.0706
       },
-      "mkt_over": 0.0769,
+      "mkt_over": 0.0833,
       "vig_included": true,
-      "edge_over": -0.0063,
+      "edge_over": -0.0128,
       "edge_under": null,
       "lean": null,
       "edge": null,
