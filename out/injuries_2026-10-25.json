@@ -1,7 +1,7 @@
 {
  "day": "2026-10-25",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-25 14:07",
+ "fetched": "2026-10-25 14:18",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -166,6 +166,17 @@
    "missing_value": 0.0429,
    "players": [
     {
+     "name": "Alexander Nikishin",
+     "status": "Day-To-Day",
+     "playerId": 8482100,
+     "position": "D",
+     "value": -0.003,
+     "regular": false,
+     "applied": false,
+     "note": "Nikishin (not injury related) signed a one-year, $3 million contract Sunday, which ends his time as an unsigned restricted free agent.",
+     "date": "2026-10-25"
+    },
+    {
      "name": "Mark Jankowski",
      "status": "Day-To-Day",
      "playerId": 8476873,
@@ -197,17 +208,6 @@
      "applied": false,
      "note": "ir",
      "date": "2026-10-15"
-    },
-    {
-     "name": "Alexander Nikishin",
-     "status": "Injured Reserve",
-     "playerId": 8482100,
-     "position": "D",
-     "value": -0.003,
-     "regular": false,
-     "applied": false,
-     "note": "Nikishin (contract dispute) is on the Hurricanes' injured, non-roster list, per the NHL media site Wednesday.",
-     "date": "2026-10-14"
     }
    ]
   },
@@ -265,7 +265,7 @@
      "value": -0.0224,
      "regular": true,
      "applied": true,
-     "note": "out",
+     "note": "Faksa (lower body) won't be in the lineup against the Islanders on Sunday, according to Lia Assimakopoulos of The Dallas Morning News.",
      "date": "2026-10-25"
     },
     {
@@ -550,17 +550,6 @@
      "applied": true,
      "note": "out",
      "date": "2026-10-22"
-    },
-    {
-     "name": "Florian Xhekaj",
-     "status": "Injured Reserve",
-     "playerId": 8484403,
-     "position": "L",
-     "value": 0.0081,
-     "regular": false,
-     "applied": false,
-     "note": "Xhekaj (lower body) was placed on injured reserve Saturday, per the NHL media site.",
-     "date": "2026-10-17"
     },
     {
      "name": "Ivan Demidov",
