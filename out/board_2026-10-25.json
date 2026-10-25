@@ -1,7 +1,7 @@
 {
  "date": "2026-10-25",
  "data_through": "2026-10-24",
- "generated": "2026-10-25 11:42 MST",
+ "generated": "2026-10-25 11:52 MST",
  "league_xg60": 3.007,
  "b2b_effect": {
   "own_xg": -0.251,
@@ -73,17 +73,6 @@
     }
    ],
    "inj_away": [
-    {
-     "name": "Gustav Forsling",
-     "status": "Day-To-Day",
-     "playerId": 8478055,
-     "position": "D",
-     "value": 0.0995,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-23"
-    },
     {
      "name": "Brad Marchand",
      "status": "Injured Reserve",
