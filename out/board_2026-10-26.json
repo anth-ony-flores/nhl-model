@@ -1,7 +1,7 @@
 {
  "date": "2026-10-26",
  "data_through": "2026-10-25",
- "generated": "2026-10-26 15:47 MST",
+ "generated": "2026-10-26 15:57 MST",
  "league_xg60": 3.01,
  "b2b_effect": {
   "own_xg": -0.209,
@@ -78,17 +78,6 @@
      "applied": true,
      "note": "ir",
      "date": "2026-10-26"
-    },
-    {
-     "name": "Quinton Byfield",
-     "status": "Day-To-Day",
-     "playerId": 8482124,
-     "position": "R",
-     "value": 0.0481,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-25"
     },
     {
      "name": "Alex Turcotte",
