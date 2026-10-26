@@ -1,7 +1,7 @@
 {
  "day": "2026-10-26",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-26 08:18",
+ "fetched": "2026-10-26 14:00",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -57,6 +57,17 @@
    "missing_value": 0.0304,
    "players": [
     {
+     "name": "Jiri Kulich",
+     "status": "Out",
+     "playerId": 8483468,
+     "position": "C",
+     "value": 0.0304,
+     "regular": true,
+     "applied": true,
+     "note": "Kulich has been placed in concussion protocol, per Rachel Lenzi of The Buffalo News on Monday.",
+     "date": "2026-10-26"
+    },
+    {
      "name": "Justin Danforth",
      "status": "Day-To-Day",
      "playerId": 8479941,
@@ -66,17 +77,6 @@
      "applied": false,
      "note": "day-to-day",
      "date": "2026-10-25"
-    },
-    {
-     "name": "Jiri Kulich",
-     "status": "Out",
-     "playerId": 8483468,
-     "position": "C",
-     "value": 0.0304,
-     "regular": true,
-     "applied": true,
-     "note": "Kulich (face) is back in Buffalo for evaluation and won't play against Washington on Saturday, according to Paul Hamilton of WGR Sports Radio 550.",
-     "date": "2026-10-24"
     },
     {
      "name": "Sam Carrick",
@@ -135,8 +135,8 @@
      "value": 0.0336,
      "regular": true,
      "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-25"
+     "note": "Backlund (upper body) will be a game-time decision against Toronto on Monday, per Pat Steinberg of QR Calgary 770 AM.",
+     "date": "2026-10-26"
     },
     {
      "name": "Jonathan Huberdeau",
@@ -163,8 +163,19 @@
    ]
   },
   "CAR": {
-   "missing_value": 0.0429,
+   "missing_value": 0.0325,
    "players": [
+    {
+     "name": "Mark Jankowski",
+     "status": "Out",
+     "playerId": 8476873,
+     "position": "L",
+     "value": 0.0325,
+     "regular": true,
+     "applied": true,
+     "note": "Jankowski (lower body) won't play against Boston on Tuesday, per Ryan Henkel of The Hockey News.",
+     "date": "2026-10-26"
+    },
     {
      "name": "Alexander Nikishin",
      "status": "Out",
@@ -173,30 +184,8 @@
      "value": -0.003,
      "regular": false,
      "applied": false,
-     "note": "out",
-     "date": "2026-10-25"
-    },
-    {
-     "name": "Mark Jankowski",
-     "status": "Day-To-Day",
-     "playerId": 8476873,
-     "position": "L",
-     "value": 0.0325,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-25"
-    },
-    {
-     "name": "Taylor Hall",
-     "status": "Injured Reserve",
-     "playerId": 8475791,
-     "position": "L",
-     "value": 0.0429,
-     "regular": true,
-     "applied": true,
-     "note": "ir",
-     "date": "2026-10-19"
+     "note": "Nikishin (not injury related) will need some time before he makes his 2026-27 debut, according to Cory Lavalette of the North State Journal on Monday.",
+     "date": "2026-10-26"
     },
     {
      "name": "Jordan Staal",
@@ -451,8 +440,19 @@
    ]
   },
   "LAK": {
-   "missing_value": 0,
+   "missing_value": 0.011,
    "players": [
+    {
+     "name": "Mats Zuccarello",
+     "status": "Out",
+     "playerId": 8475692,
+     "position": "R",
+     "value": 0.011,
+     "regular": true,
+     "applied": true,
+     "note": "Zuccarello (upper body) won't play against the Rangers on Monday, per Zach Dooley of the Kings' official site.",
+     "date": "2026-10-26"
+    },
     {
      "name": "Quinton Byfield",
      "status": "Day-To-Day",
@@ -595,26 +595,26 @@
    "missing_value": -0.0151,
    "players": [
     {
-     "name": "Calum Ritchie",
-     "status": "Out",
-     "playerId": 8484221,
-     "position": "C",
-     "value": -0.0677,
-     "regular": true,
-     "applied": true,
-     "note": "Ritchie (lower body) will be out of action for 4-6 weeks, the team announced Monday.",
-     "date": "2026-10-19"
-    },
-    {
      "name": "Matias Maccelli",
-     "status": "Out",
+     "status": "Injured Reserve",
      "playerId": 8481711,
      "position": "L",
      "value": 0.0526,
      "regular": true,
      "applied": true,
-     "note": "Maccelli (lower body) will miss the next 2-4 weeks, the team announced Monday.",
-     "date": "2026-10-19"
+     "note": "Maccelli (lower body) was placed on injured reserve Monday.",
+     "date": "2026-10-26"
+    },
+    {
+     "name": "Calum Ritchie",
+     "status": "Injured Reserve",
+     "playerId": 8484221,
+     "position": "C",
+     "value": -0.0677,
+     "regular": true,
+     "applied": true,
+     "note": "ir",
+     "date": "2026-10-26"
     },
     {
      "name": "Alexander Romanov",
@@ -686,6 +686,17 @@
   "PHI": {
    "missing_value": 0.0449,
    "players": [
+    {
+     "name": "Rasmus Ristolainen",
+     "status": "Out",
+     "playerId": 8477499,
+     "position": "D",
+     "value": 0.0089,
+     "regular": false,
+     "applied": false,
+     "note": "The Flyers announced Monday that Ristolainen is expected to miss approximately two weeks due to an upper-body injury.",
+     "date": "2026-10-26"
+    },
     {
      "name": "Cam York",
      "status": "Injured Reserve",
@@ -1160,17 +1171,6 @@
   "VGK": {
    "missing_value": 0,
    "players": [
-    {
-     "name": "Mitch Marner",
-     "status": "Day-To-Day",
-     "playerId": 8478483,
-     "position": "R",
-     "value": 0.0207,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-25"
-    },
     {
      "name": "Parker Wotherspoon",
      "status": "Injured Reserve",

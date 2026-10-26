@@ -1,7 +1,7 @@
 {
  "date": "2026-10-26",
  "data_through": "2026-10-25",
- "generated": "2026-10-26 08:18 MST",
+ "generated": "2026-10-26 14:00 MST",
  "league_xg60": 3.01,
  "b2b_effect": {
   "own_xg": -0.209,
@@ -69,6 +69,17 @@
    ],
    "inj_away": [
     {
+     "name": "Mats Zuccarello",
+     "status": "Out",
+     "playerId": 8475692,
+     "position": "R",
+     "value": 0.011,
+     "regular": true,
+     "applied": true,
+     "note": "Zuccarello (upper body) won't play against the Rangers on Monday, per Zach Dooley of the Kings' official site.",
+     "date": "2026-10-26"
+    },
+    {
      "name": "Quinton Byfield",
      "status": "Day-To-Day",
      "playerId": 8482124,
@@ -114,16 +125,16 @@
     }
    ],
    "inj_adj_home": 0,
-   "inj_adj_away": 0,
-   "xg_home": 2.881,
-   "xg_away": 2.84,
+   "inj_adj_away": 0.011,
+   "xg_home": 2.887,
+   "xg_away": 2.835,
    "proj_home": 3.12,
    "proj_away": 2.78,
-   "p_home": 0.5583,
-   "p_away": 0.4417,
-   "p_ot": 0.2489,
-   "fair_ml_home": -126,
-   "fair_ml_away": 126,
+   "p_home": 0.5601,
+   "p_away": 0.4399,
+   "p_ot": 0.2487,
+   "fair_ml_home": -127,
+   "fair_ml_away": 127,
    "exp_total": 5.9,
    "totals": {
     "4.5": {
@@ -139,27 +150,27 @@
      "under": 0.4738
     },
     "6.0": {
-     "over": 0.384,
+     "over": 0.3841,
      "under": 0.4738
     },
     "6.5": {
-     "over": 0.384,
-     "under": 0.616
+     "over": 0.3841,
+     "under": 0.6159
     },
     "7.0": {
-     "over": 0.2268,
-     "under": 0.616
+     "over": 0.2269,
+     "under": 0.6159
     },
     "7.5": {
-     "over": 0.2268,
-     "under": 0.7732
+     "over": 0.2269,
+     "under": 0.7731
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3439,
-    "away_+1.5": 0.6561,
-    "away_-1.5": 0.252,
-    "home_+1.5": 0.748
+    "home_-1.5": 0.3455,
+    "away_+1.5": 0.6545,
+    "away_-1.5": 0.2507,
+    "home_+1.5": 0.7493
    }
   },
   {
@@ -217,8 +228,8 @@
      "value": 0.0336,
      "regular": true,
      "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-25"
+     "note": "Backlund (upper body) will be a game-time decision against Toronto on Monday, per Pat Steinberg of QR Calgary 770 AM.",
+     "date": "2026-10-26"
     },
     {
      "name": "Jonathan Huberdeau",
