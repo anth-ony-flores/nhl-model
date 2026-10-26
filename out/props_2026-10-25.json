@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated": "2026-10-26T01:01:07Z",
+ "generated": "2026-10-26T01:11:14Z",
  "data_through": "2026-10-24",
  "picks_enabled": false,
  "params": {
@@ -6909,7 +6909,7 @@
    "home_name": "Predators",
    "start_utc": "2026-10-26T00:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "15:50 - 2nd",
    "frozen": true,
    "goal_factor": {
     "COL": 1.108,
