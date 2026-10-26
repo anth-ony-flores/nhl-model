@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated": "2026-10-26T00:20:33Z",
+ "generated": "2026-10-26T00:30:41Z",
  "data_through": "2026-10-24",
  "picks_enabled": false,
  "params": {
@@ -2479,8 +2479,8 @@
    "away_name": "Islanders",
    "home_name": "Stars",
    "start_utc": "2026-10-25T22:00:00Z",
-   "state": "in",
-   "detail": "6:58 - 3rd",
+   "state": "post",
+   "detail": "Final",
    "frozen": true,
    "goal_factor": {
     "NYI": 0.893,
@@ -4652,7 +4652,7 @@
    "home_name": "Jets",
    "start_utc": "2026-10-25T23:00:00Z",
    "state": "in",
-   "detail": "20:00 - 2nd",
+   "detail": "13:49 - 2nd",
    "frozen": true,
    "goal_factor": {
     "MTL": 0.994,
@@ -6909,7 +6909,7 @@
    "home_name": "Predators",
    "start_utc": "2026-10-26T00:00:00Z",
    "state": "in",
-   "detail": "13:03 - 1st",
+   "detail": "7:20 - 1st",
    "frozen": true,
    "goal_factor": {
     "COL": 1.108,
