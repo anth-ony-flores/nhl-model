@@ -1,7 +1,7 @@
 {
  "date": "2026-10-26",
  "data_through": "2026-10-25",
- "generated": "2026-10-26 14:16 MST",
+ "generated": "2026-10-26 14:26 MST",
  "league_xg60": 3.01,
  "b2b_effect": {
   "own_xg": -0.209,
@@ -70,13 +70,13 @@
    "inj_away": [
     {
      "name": "Mats Zuccarello",
-     "status": "Out",
+     "status": "Injured Reserve",
      "playerId": 8475692,
      "position": "R",
      "value": 0.011,
      "regular": true,
      "applied": true,
-     "note": "Zuccarello (upper body) won't play against the Rangers on Monday, per Zach Dooley of the Kings' official site.",
+     "note": "ir",
      "date": "2026-10-26"
     },
     {
