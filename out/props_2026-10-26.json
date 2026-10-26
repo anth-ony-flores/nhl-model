@@ -1,6 +1,6 @@
 {
  "date": "2026-10-26",
- "generated": "2026-10-26T22:57:17Z",
+ "generated": "2026-10-26T23:07:25Z",
  "data_through": "2026-10-25",
  "picks_enabled": false,
  "params": {
@@ -12,8 +12,8 @@
  },
  "side_check": {
   "pairs": 122,
-  "checked": 117,
-  "first_is_over": 117,
+  "checked": 118,
+  "first_is_over": 118,
   "mismatch": 0,
   "mismatches": []
  },
@@ -5511,9 +5511,9 @@
       "opp": "EDM",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+145",
+      "over": "+150",
       "over_open": "+155",
-      "under": "-200",
+      "under": "-205",
       "under_open": "-205",
       "updated": "2026-10-26T19:07Z",
       "player_id": 8477429,
@@ -5528,11 +5528,11 @@
        "2.5": 0.0153,
        "3.5": 0.0019
       },
-      "mkt_over": 0.3797,
-      "edge_over": 0.0207,
-      "edge_under": -0.0207,
+      "mkt_over": 0.3731,
+      "edge_over": 0.0274,
+      "edge_under": -0.0274,
       "lean": "Over",
-      "edge": 0.0207,
+      "edge": 0.0274,
       "strong": false
      },
      {
@@ -7208,11 +7208,11 @@
       "player": "Michal Postava",
       "team": "DET",
       "opp": "EDM",
-      "line": 24.5,
+      "line": 25.5,
       "open_line": 25.5,
-      "over": "-130",
+      "over": "-115",
       "over_open": "-120",
-      "under": "-105",
+      "under": "-120",
       "under_open": "-115",
       "updated": "2026-10-27T00:50Z",
       "player_id": 8485545,
@@ -7222,7 +7222,7 @@
       "proj_sa": 26.1,
       "proj_sv": 0.8916,
       "mean": 23.24,
-      "p_over": 0.4131,
+      "p_over": 0.3487,
       "curve": {
        "14.5": 0.9253,
        "15.5": 0.9019,
@@ -7253,11 +7253,11 @@
        "40.5": 0.0033,
        "41.5": 0.0021
       },
-      "mkt_over": 0.5246,
-      "edge_over": -0.1115,
-      "edge_under": 0.1115,
+      "mkt_over": 0.4951,
+      "edge_over": -0.1464,
+      "edge_under": 0.1464,
       "lean": "Under",
-      "edge": 0.1115,
+      "edge": 0.1464,
       "strong": true
      },
      {
