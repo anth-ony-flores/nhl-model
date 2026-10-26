@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated": "2026-10-26T00:00:16Z",
+ "generated": "2026-10-26T00:10:24Z",
  "data_through": "2026-10-24",
  "picks_enabled": false,
  "params": {
@@ -11,13 +11,13 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 72,
-  "checked": 70,
-  "first_is_over": 70,
+  "pairs": 34,
+  "checked": 33,
+  "first_is_over": 33,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 144,
+ "lines": 70,
  "unmatched": [],
  "unmatched_rate": 0.0,
  "strong": 0.03,
@@ -2480,7 +2480,7 @@
    "home_name": "Stars",
    "start_utc": "2026-10-25T22:00:00Z",
    "state": "in",
-   "detail": "20:00 - 3rd",
+   "detail": "12:39 - 3rd",
    "frozen": true,
    "goal_factor": {
     "NYI": 0.893,
@@ -6908,9 +6908,9 @@
    "away_name": "Avalanche",
    "home_name": "Predators",
    "start_utc": "2026-10-26T00:00:00Z",
-   "state": "pre",
-   "detail": "10/25 - 8:00 PM EDT",
-   "frozen": false,
+   "state": "in",
+   "detail": "19:04 - 1st",
+   "frozen": true,
    "goal_factor": {
     "COL": 1.108,
     "NSH": 0.838
