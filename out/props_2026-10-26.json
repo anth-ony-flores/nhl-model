@@ -1,6 +1,6 @@
 {
  "date": "2026-10-26",
- "generated": "2026-10-26T23:58:02Z",
+ "generated": "2026-10-27T00:08:09Z",
  "data_through": "2026-10-25",
  "picks_enabled": false,
  "params": {
@@ -12,8 +12,8 @@
  },
  "side_check": {
   "pairs": 89,
-  "checked": 87,
-  "first_is_over": 87,
+  "checked": 86,
+  "first_is_over": 86,
   "mismatch": 0,
   "mismatches": []
  },
@@ -56,7 +56,7 @@
    "home_name": "Rangers",
    "start_utc": "2026-10-26T23:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "18:15 - 2nd",
    "frozen": true,
    "goal_factor": {
     "LAK": 1.01,
@@ -5463,9 +5463,9 @@
       "opp": "EDM",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "-155",
+      "over": "-150",
       "over_open": "-170",
-      "under": "+115",
+      "under": "+110",
       "under_open": "+125",
       "updated": "2026-10-26T09:26Z",
       "player_id": 8482078,
@@ -5480,11 +5480,11 @@
        "2.5": 0.0529,
        "3.5": 0.0106
       },
-      "mkt_over": 0.5665,
-      "edge_over": 0.0006,
-      "edge_under": -0.0006,
+      "mkt_over": 0.5575,
+      "edge_over": 0.0096,
+      "edge_under": -0.0096,
       "lean": "Over",
-      "edge": 0.0006,
+      "edge": 0.0096,
       "strong": false
      },
      {
@@ -5804,9 +5804,9 @@
       "opp": "EDM",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+425",
+      "over": "+450",
       "over_open": "+425",
-      "under": "-650",
+      "under": "-700",
       "under_open": "-650",
       "updated": "2026-10-27T00:32Z",
       "player_id": 8475279,
@@ -5821,11 +5821,11 @@
        "2.5": 0.0008,
        "3.5": 0.0
       },
-      "mkt_over": 0.1802,
-      "edge_over": -0.021,
-      "edge_under": 0.021,
+      "mkt_over": 0.172,
+      "edge_over": -0.0129,
+      "edge_under": 0.0129,
       "lean": "Under",
-      "edge": 0.021,
+      "edge": 0.0129,
       "strong": false
      },
      {
@@ -6530,7 +6530,7 @@
       "opp": "EDM",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+1700",
+      "over": "+1800",
       "over_open": "+1500",
       "under": null,
       "under_open": null,
@@ -6544,12 +6544,12 @@
       "curve": {
        "0.5": 0.1148
       },
-      "mkt_over": 0.0556,
+      "mkt_over": 0.0526,
       "vig_included": true,
-      "edge_over": 0.0592,
+      "edge_over": 0.0622,
       "edge_under": null,
       "lean": "Yes",
-      "edge": 0.0592,
+      "edge": 0.0622,
       "strong": true
      },
      {
@@ -6675,7 +6675,7 @@
       "opp": "EDM",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+1400",
+      "over": "+1500",
       "over_open": "+1400",
       "under": null,
       "under_open": null,
@@ -6689,9 +6689,9 @@
       "curve": {
        "0.5": 0.0411
       },
-      "mkt_over": 0.0667,
+      "mkt_over": 0.0625,
       "vig_included": true,
-      "edge_over": -0.0255,
+      "edge_over": -0.0214,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -7284,13 +7284,13 @@
       "player": "Michal Postava",
       "team": "DET",
       "opp": "EDM",
-      "line": 25.5,
+      "line": 24.5,
       "open_line": 25.5,
-      "over": "-105",
+      "over": "-125",
       "over_open": "-120",
-      "under": "-130",
+      "under": "-105",
       "under_open": "-115",
-      "updated": "2026-10-27T00:50Z",
+      "updated": "2026-10-27T01:55Z",
       "player_id": 8485545,
       "pos": "G",
       "starter": false,
@@ -7298,7 +7298,7 @@
       "proj_sa": 26.1,
       "proj_sv": 0.8916,
       "mean": 23.24,
-      "p_over": 0.3487,
+      "p_over": 0.4131,
       "curve": {
        "14.5": 0.9253,
        "15.5": 0.9019,
@@ -7329,11 +7329,11 @@
        "40.5": 0.0033,
        "41.5": 0.0021
       },
-      "mkt_over": 0.4754,
-      "edge_over": -0.1267,
-      "edge_under": 0.1267,
+      "mkt_over": 0.5203,
+      "edge_over": -0.1072,
+      "edge_under": 0.1072,
       "lean": "Under",
-      "edge": 0.1267,
+      "edge": 0.1072,
       "strong": true
      },
      {
