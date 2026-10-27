@@ -1,6 +1,6 @@
 {
  "date": "2026-10-27",
- "generated": "2026-10-27T21:00:05Z",
+ "generated": "2026-10-27T21:10:14Z",
  "data_through": "2026-10-26",
  "picks_enabled": false,
  "params": {
@@ -11,13 +11,13 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 468,
-  "checked": 453,
-  "first_is_over": 453,
+  "pairs": 469,
+  "checked": 454,
+  "first_is_over": 454,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 862,
+ "lines": 863,
  "unmatched": [
   {
    "espn_id": "4024959",
@@ -5771,9 +5771,9 @@
       "opp": "LAK",
       "line": 1.5,
       "open_line": 1.5,
-      "over": "-130",
+      "over": "-135",
       "over_open": "-115",
-      "under": "-105",
+      "under": "+100",
       "under_open": "-120",
       "updated": "2026-10-27T18:53Z",
       "player_id": 8477479,
@@ -5792,11 +5792,11 @@
        "6.5": 0.0031,
        "7.5": 0.0008
       },
-      "mkt_over": 0.5246,
-      "edge_over": -0.0093,
-      "edge_under": 0.0093,
+      "mkt_over": 0.5347,
+      "edge_over": -0.0194,
+      "edge_under": 0.0194,
       "lean": "Under",
-      "edge": 0.0093,
+      "edge": 0.0194,
       "strong": false
      },
      {
@@ -6043,7 +6043,7 @@
       "open_line": 0.5,
       "over": "-110",
       "over_open": "-110",
-      "under": "-125",
+      "under": "-120",
       "under_open": "-120",
       "updated": "2026-10-27T11:37Z",
       "player_id": 8482124,
@@ -6058,11 +6058,11 @@
        "2.5": 0.0204,
        "3.5": 0.0028
       },
-      "mkt_over": 0.4853,
-      "edge_over": -0.0498,
-      "edge_under": 0.0498,
+      "mkt_over": 0.4899,
+      "edge_over": -0.0544,
+      "edge_under": 0.0544,
       "lean": "Under",
-      "edge": 0.0498,
+      "edge": 0.0544,
       "strong": true
      },
      {
@@ -20581,9 +20581,9 @@
       "opp": "VGK",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "-135",
+      "over": "-130",
       "over_open": "-130",
-      "under": "+100",
+      "under": "-105",
       "under_open": "-105",
       "updated": "2026-10-27T08:56Z",
       "player_id": 8480208,
@@ -20598,11 +20598,11 @@
        "2.5": 0.0366,
        "3.5": 0.0063
       },
-      "mkt_over": 0.5347,
-      "edge_over": -0.0214,
-      "edge_under": 0.0214,
+      "mkt_over": 0.5246,
+      "edge_over": -0.0113,
+      "edge_under": 0.0113,
       "lean": "Under",
-      "edge": 0.0214,
+      "edge": 0.0113,
       "strong": false
      },
      {
@@ -20758,6 +20758,37 @@
       "edge_under": 0.0671,
       "lean": "Under",
       "edge": 0.0671,
+      "strong": true
+     },
+     {
+      "espn_id": "3151036",
+      "player": "Warren Foegele",
+      "team": "OTT",
+      "opp": "VGK",
+      "line": 0.5,
+      "open_line": 0.5,
+      "over": "+190",
+      "over_open": "+200",
+      "under": "-260",
+      "under_open": "-280",
+      "updated": "2026-10-27T23:51Z",
+      "player_id": 8477998,
+      "pos": "F",
+      "proj_toi": 13.52,
+      "games_weight": 40.3,
+      "mean": 0.315,
+      "p_over": 0.27,
+      "curve": {
+       "0.5": 0.27,
+       "1.5": 0.0403,
+       "2.5": 0.0041,
+       "3.5": 0.0003
+      },
+      "mkt_over": 0.3232,
+      "edge_over": -0.0532,
+      "edge_under": 0.0532,
+      "lean": "Under",
+      "edge": 0.0532,
       "strong": true
      },
      {
