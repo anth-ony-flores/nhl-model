@@ -1,7 +1,7 @@
 {
  "date": "2026-10-27",
  "data_through": "2026-10-26",
- "generated": "2026-10-27 16:40 MST",
+ "generated": "2026-10-27 16:50 MST",
  "league_xg60": 3.011,
  "b2b_effect": {
   "own_xg": -0.206,
@@ -199,6 +199,17 @@
    },
    "inj_home": [
     {
+     "name": "Taylor Hall",
+     "status": "Out",
+     "playerId": 8475791,
+     "position": "L",
+     "value": 0.0429,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-27"
+    },
+    {
      "name": "Alexander Nikishin",
      "status": "Out",
      "playerId": 8482100,
@@ -222,53 +233,53 @@
     }
    ],
    "inj_away": [],
-   "inj_adj_home": 0,
+   "inj_adj_home": 0.043,
    "inj_adj_away": 0.0,
-   "xg_home": 3.574,
-   "xg_away": 2.625,
-   "proj_home": 3.41,
-   "proj_away": 2.66,
-   "p_home": 0.6293,
-   "p_away": 0.3707,
-   "p_ot": 0.2353,
-   "fair_ml_home": -170,
-   "fair_ml_away": 170,
+   "xg_home": 3.553,
+   "xg_away": 2.647,
+   "proj_home": 3.4,
+   "proj_away": 2.68,
+   "p_home": 0.6228,
+   "p_away": 0.3772,
+   "p_ot": 0.2365,
+   "fair_ml_home": -165,
+   "fair_ml_away": 165,
    "exp_total": 6.07,
    "totals": {
     "4.5": {
-     "over": 0.7419,
-     "under": 0.2581
+     "over": 0.7422,
+     "under": 0.2578
     },
     "5.0": {
-     "over": 0.5555,
-     "under": 0.2581
+     "over": 0.5558,
+     "under": 0.2578
     },
     "5.5": {
-     "over": 0.5555,
-     "under": 0.4445
+     "over": 0.5558,
+     "under": 0.4442
     },
     "6.0": {
-     "over": 0.4115,
-     "under": 0.4445
+     "over": 0.412,
+     "under": 0.4442
     },
     "6.5": {
-     "over": 0.4115,
-     "under": 0.5885
+     "over": 0.412,
+     "under": 0.588
     },
     "7.0": {
-     "over": 0.2508,
-     "under": 0.5885
+     "over": 0.2511,
+     "under": 0.588
     },
     "7.5": {
-     "over": 0.2508,
-     "under": 0.7492
+     "over": 0.2511,
+     "under": 0.7489
     }
    },
    "puck_line": {
-    "home_-1.5": 0.4111,
-    "away_+1.5": 0.5889,
-    "away_-1.5": 0.2043,
-    "home_+1.5": 0.7957
+    "home_-1.5": 0.4051,
+    "away_+1.5": 0.5949,
+    "away_-1.5": 0.2087,
+    "home_+1.5": 0.7913
    }
   },
   {

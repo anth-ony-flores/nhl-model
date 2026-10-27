@@ -1,7 +1,7 @@
 {
  "day": "2026-10-27",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-27 16:40",
+ "fetched": "2026-10-27 16:50",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -152,8 +152,19 @@
    ]
   },
   "CAR": {
-   "missing_value": 0,
+   "missing_value": 0.0429,
    "players": [
+    {
+     "name": "Taylor Hall",
+     "status": "Out",
+     "playerId": 8475791,
+     "position": "L",
+     "value": 0.0429,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-27"
+    },
     {
      "name": "Alexander Nikishin",
      "status": "Out",
