@@ -1,7 +1,7 @@
 {
  "day": "2026-10-27",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-27 07:19",
+ "fetched": "2026-10-27 14:00",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -152,19 +152,8 @@
    ]
   },
   "CAR": {
-   "missing_value": 0.0325,
+   "missing_value": 0,
    "players": [
-    {
-     "name": "Mark Jankowski",
-     "status": "Out",
-     "playerId": 8476873,
-     "position": "L",
-     "value": 0.0325,
-     "regular": true,
-     "applied": true,
-     "note": "Jankowski (lower body) won't play against Boston on Tuesday, per Ryan Henkel of The Hockey News.",
-     "date": "2026-10-26"
-    },
     {
      "name": "Alexander Nikishin",
      "status": "Out",
@@ -190,35 +179,24 @@
    ]
   },
   "CHI": {
-   "missing_value": 0,
+   "missing_value": -0.0565,
    "players": [
     {
      "name": "Bowen Byram",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8481524,
      "position": "D",
      "value": -0.0565,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-26"
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-27"
     }
    ]
   },
   "COL": {
    "missing_value": 0,
    "players": [
-    {
-     "name": "Nicolas Roy",
-     "status": "Day-To-Day",
-     "playerId": 8478462,
-     "position": "C",
-     "value": -0.0466,
-     "regular": false,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-26"
-    },
     {
      "name": "Zachary L'Heureux",
      "status": "Injured Reserve",
@@ -233,30 +211,8 @@
    ]
   },
   "DAL": {
-   "missing_value": 0.0473,
+   "missing_value": 0.038,
    "players": [
-    {
-     "name": "Radek Faksa",
-     "status": "Day-To-Day",
-     "playerId": 8476889,
-     "position": "C",
-     "value": -0.0224,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-26"
-    },
-    {
-     "name": "Sam Steel",
-     "status": "Day-To-Day",
-     "playerId": 8479351,
-     "position": "C",
-     "value": 0.0131,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-26"
-    },
     {
      "name": "Esa Lindell",
      "status": "Injured Reserve",
@@ -265,8 +221,30 @@
      "value": 0.0473,
      "regular": true,
      "applied": true,
-     "note": "ir",
-     "date": "2026-10-24"
+     "note": "Lindell (lower body) is expected to return to the Stars' lineup within the next 4-7 days, per Owen Newkirk of DLLS Sports.",
+     "date": "2026-10-27"
+    },
+    {
+     "name": "Radek Faksa",
+     "status": "Out",
+     "playerId": 8476889,
+     "position": "C",
+     "value": -0.0224,
+     "regular": true,
+     "applied": true,
+     "note": "Faksa (lower body) will likely miss another week, according to Owen Newkirk of DLLS Sports on Tuesday.",
+     "date": "2026-10-27"
+    },
+    {
+     "name": "Sam Steel",
+     "status": "Out",
+     "playerId": 8479351,
+     "position": "C",
+     "value": 0.0131,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-27"
     },
     {
      "name": "Matt Duchene",
@@ -293,17 +271,17 @@
    ]
   },
   "DET": {
-   "missing_value": -0.0277,
+   "missing_value": 0,
    "players": [
     {
      "name": "Albert Johansson",
-     "status": "Out",
+     "status": "Day-To-Day",
      "playerId": 8481607,
      "position": "D",
      "value": -0.0277,
      "regular": true,
-     "applied": true,
-     "note": "out",
+     "applied": false,
+     "note": "day-to-day",
      "date": "2026-10-27"
     },
     {
@@ -688,25 +666,14 @@
    "players": [
     {
      "name": "Rasmus Ristolainen",
-     "status": "Out",
+     "status": "Injured Reserve",
      "playerId": 8477499,
      "position": "D",
      "value": 0.0089,
      "regular": false,
      "applied": false,
-     "note": "The Flyers announced Monday that Ristolainen is expected to miss approximately two weeks due to an upper-body injury.",
-     "date": "2026-10-26"
-    },
-    {
-     "name": "Cam York",
-     "status": "Injured Reserve",
-     "playerId": 8481546,
-     "position": "D",
-     "value": -0.0882,
-     "regular": false,
-     "applied": false,
-     "note": "Head coach Rick Tocchet said Friday that he isn't sure whether York (upper body) will be able to suit up Saturday against the Ducks, Jordan Hall of NBC Sports Philadelphia reports.",
-     "date": "2026-10-23"
+     "note": "Ristolainen (hand) was placed on injured reserve, retroactive to Oct. 24, on Tuesday.",
+     "date": "2026-10-27"
     },
     {
      "name": "Owen Tippett",
@@ -746,6 +713,28 @@
   "PIT": {
    "missing_value": -0.0376,
    "players": [
+    {
+     "name": "Ben Kindel",
+     "status": "Injured Reserve",
+     "playerId": 8485414,
+     "position": "C",
+     "value": -0.0225,
+     "regular": true,
+     "applied": true,
+     "note": "Kindel (vasovagal episode) returned to practice Tuesday and feels normal following his vasovagal episode on Oct. 20, per Wes Crosby of NHL.com.",
+     "date": "2026-10-27"
+    },
+    {
+     "name": "Elmer Soderblom",
+     "status": "Day-To-Day",
+     "playerId": 8481725,
+     "position": "L",
+     "value": 0.0144,
+     "regular": true,
+     "applied": false,
+     "note": "Soderblom (upper body) was deemed day-to-day on Tuesday.",
+     "date": "2026-10-27"
+    },
     {
      "name": "Evgeni Malkin",
      "status": "Day-To-Day",
@@ -788,17 +777,6 @@
      "regular": true,
      "applied": true,
      "note": "Rust (lower body) will be re-evaluated in six weeks, Michelle Crechiolo of the Penguins' official site reports Thursday.",
-     "date": "2026-10-22"
-    },
-    {
-     "name": "Ben Kindel",
-     "status": "Injured Reserve",
-     "playerId": 8485414,
-     "position": "C",
-     "value": -0.0225,
-     "regular": true,
-     "applied": true,
-     "note": "Kindel (undisclosed) was placed on injured reserve Thursday.",
      "date": "2026-10-22"
     },
     {
@@ -938,17 +916,6 @@
      "date": "2026-10-10"
     },
     {
-     "name": "Alexey Toropchenko",
-     "status": "Injured Reserve",
-     "playerId": 8480281,
-     "position": "R",
-     "value": -0.066,
-     "regular": false,
-     "applied": false,
-     "note": "ir",
-     "date": "2026-10-05"
-    },
-    {
      "name": "Tyler Tucker",
      "status": "Injured Reserve",
      "playerId": 8481006,
@@ -1011,17 +978,28 @@
    ]
   },
   "TOR": {
-   "missing_value": 0.0922,
+   "missing_value": 0.0225,
    "players": [
     {
+     "name": "Dakota Joshua",
+     "status": "Injured Reserve",
+     "playerId": 8478057,
+     "position": "C",
+     "value": 0.0167,
+     "regular": false,
+     "applied": false,
+     "note": "Joshua (abdomen) was recalled from his conditioning loan with AHL Toronto on Monday.",
+     "date": "2026-10-27"
+    },
+    {
      "name": "Kirill Marchenko",
-     "status": "Out",
+     "status": "Day-To-Day",
      "playerId": 8480893,
      "position": "R",
      "value": 0.0697,
      "regular": true,
-     "applied": true,
-     "note": "out",
+     "applied": false,
+     "note": "day-to-day",
      "date": "2026-10-27"
     },
     {
@@ -1055,17 +1033,6 @@
      "regular": false,
      "applied": false,
      "note": "ir",
-     "date": "2026-10-17"
-    },
-    {
-     "name": "Dakota Joshua",
-     "status": "Injured Reserve",
-     "playerId": 8478057,
-     "position": "C",
-     "value": 0.0167,
-     "regular": false,
-     "applied": false,
-     "note": "Joshua (abdomen) was sent to AHL Toronto on Friday for a conditioning stint.",
      "date": "2026-10-17"
     },
     {
