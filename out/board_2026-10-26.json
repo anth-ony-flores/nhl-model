@@ -1,7 +1,7 @@
 {
  "date": "2026-10-26",
  "data_through": "2026-10-25",
- "generated": "2026-10-26 17:18 MST",
+ "generated": "2026-10-26 17:28 MST",
  "league_xg60": 3.01,
  "b2b_effect": {
   "own_xg": -0.209,
@@ -210,17 +210,6 @@
     ]
    },
    "inj_home": [
-    {
-     "name": "Mikael Backlund",
-     "status": "Day-To-Day",
-     "playerId": 8474150,
-     "position": "C",
-     "value": 0.0336,
-     "regular": true,
-     "applied": false,
-     "note": "Backlund (upper body) will be a game-time decision against Toronto on Monday, per Pat Steinberg of QR Calgary 770 AM.",
-     "date": "2026-10-26"
-    },
     {
      "name": "Jonathan Huberdeau",
      "status": "Injured Reserve",
