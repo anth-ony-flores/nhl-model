@@ -1,6 +1,6 @@
 {
  "date": "2026-10-28",
- "generated": "2026-10-28T23:31:47Z",
+ "generated": "2026-10-28T23:41:55Z",
  "data_through": "2026-10-27",
  "picks_enabled": false,
  "params": {
@@ -11,22 +11,14 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 169,
-  "checked": 164,
-  "first_is_over": 164,
+  "pairs": 122,
+  "checked": 118,
+  "first_is_over": 118,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 312,
+ "lines": 230,
  "unmatched": [
-  {
-   "espn_id": "4755690",
-   "name": "Jack St. Ivany",
-   "team": "WSH",
-   "market": "goal",
-   "game": "PHI@WSH",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  },
   {
    "espn_id": "5080217",
    "name": "Jani Nyman",
@@ -44,7 +36,7 @@
    "why": "no MoneyPuck skater match (no recent games?)"
   }
  ],
- "unmatched_rate": 0.0096,
+ "unmatched_rate": 0.0087,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -80,9 +72,9 @@
    "away_name": "Flyers",
    "home_name": "Capitals",
    "start_utc": "2026-10-28T23:30:00Z",
-   "state": "pre",
-   "detail": "10/28 - 7:30 PM EDT",
-   "frozen": false,
+   "state": "in",
+   "detail": "17:56 - 1st",
+   "frozen": true,
    "goal_factor": {
     "PHI": 0.997,
     "WSH": 1.034
