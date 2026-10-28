@@ -1,6 +1,6 @@
 {
  "date": "2026-10-27",
- "generated": "2026-10-28T01:01:33Z",
+ "generated": "2026-10-28T01:11:41Z",
  "data_through": "2026-10-26",
  "picks_enabled": false,
  "params": {
@@ -11,22 +11,14 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 176,
-  "checked": 173,
-  "first_is_over": 173,
+  "pairs": 138,
+  "checked": 137,
+  "first_is_over": 137,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 320,
+ "lines": 246,
  "unmatched": [
-  {
-   "espn_id": "3150468",
-   "name": "Liam O'Brien",
-   "team": "UTA",
-   "market": "goal",
-   "game": "MIN@UTA",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  },
   {
    "espn_id": "4565241",
    "name": "Ville Heinola",
@@ -36,7 +28,7 @@
    "why": "no MoneyPuck skater match (no recent games?)"
   }
  ],
- "unmatched_rate": 0.0063,
+ "unmatched_rate": 0.0041,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -73,7 +65,7 @@
    "home_name": "Flyers",
    "start_utc": "2026-10-27T23:00:00Z",
    "state": "in",
-   "detail": "17:21 - 3rd",
+   "detail": "11:37 - 3rd",
    "frozen": true,
    "goal_factor": {
     "CBJ": 1.001,
@@ -2678,7 +2670,7 @@
    "home_name": "Hurricanes",
    "start_utc": "2026-10-28T00:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "17:47 - 2nd",
    "frozen": true,
    "goal_factor": {
     "BOS": 0.89,
@@ -5281,7 +5273,7 @@
    "home_name": "Blackhawks",
    "start_utc": "2026-10-28T00:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "17:35 - 2nd",
    "frozen": true,
    "goal_factor": {
     "LAK": 1.002,
@@ -7558,7 +7550,7 @@
    "home_name": "Blues",
    "start_utc": "2026-10-28T00:00:00Z",
    "state": "in",
-   "detail": "20:00 - 2nd",
+   "detail": "13:57 - 2nd",
    "frozen": true,
    "goal_factor": {
     "MTL": 0.954,
@@ -10161,7 +10153,7 @@
    "home_name": "Predators",
    "start_utc": "2026-10-28T00:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "15:17 - 2nd",
    "frozen": true,
    "goal_factor": {
     "NYI": 1.027,
@@ -12593,7 +12585,7 @@
    "home_name": "Stars",
    "start_utc": "2026-10-28T00:00:00Z",
    "state": "in",
-   "detail": "19:46 - 2nd",
+   "detail": "13:58 - 2nd",
    "frozen": true,
    "goal_factor": {
     "NJD": 0.904,
@@ -15091,7 +15083,7 @@
    "home_name": "Jets",
    "start_utc": "2026-10-28T00:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "16:59 - 2nd",
    "frozen": true,
    "goal_factor": {
     "FLA": 1.004,
@@ -17541,9 +17533,9 @@
    "away_name": "Wild",
    "home_name": "Mammoth",
    "start_utc": "2026-10-28T01:00:00Z",
-   "state": "pre",
-   "detail": "10/27 - 9:00 PM EDT",
-   "frozen": false,
+   "state": "in",
+   "detail": "18:20 - 1st",
+   "frozen": true,
    "goal_factor": {
     "MIN": 0.977,
     "UTA": 0.946
