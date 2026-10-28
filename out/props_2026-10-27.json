@@ -1,6 +1,6 @@
 {
  "date": "2026-10-27",
- "generated": "2026-10-28T02:22:36Z",
+ "generated": "2026-10-28T02:32:44Z",
  "data_through": "2026-10-26",
  "picks_enabled": false,
  "params": {
@@ -2661,7 +2661,7 @@
    "home_name": "Hurricanes",
    "start_utc": "2026-10-28T00:00:00Z",
    "state": "in",
-   "detail": "9:41 - 3rd",
+   "detail": "4:41 - 3rd",
    "frozen": true,
    "goal_factor": {
     "BOS": 0.89,
@@ -5264,7 +5264,7 @@
    "home_name": "Blackhawks",
    "start_utc": "2026-10-28T00:00:00Z",
    "state": "in",
-   "detail": "7:34 - 3rd",
+   "detail": "1:13 - 3rd",
    "frozen": true,
    "goal_factor": {
     "LAK": 1.002,
@@ -7541,7 +7541,7 @@
    "home_name": "Blues",
    "start_utc": "2026-10-28T00:00:00Z",
    "state": "in",
-   "detail": "8:24 - 3rd",
+   "detail": "4:49 - 3rd",
    "frozen": true,
    "goal_factor": {
     "MTL": 0.954,
@@ -10144,7 +10144,7 @@
    "home_name": "Predators",
    "start_utc": "2026-10-28T00:00:00Z",
    "state": "in",
-   "detail": "7:56 - 3rd",
+   "detail": "2:55 - 3rd",
    "frozen": true,
    "goal_factor": {
     "NYI": 1.027,
@@ -12576,7 +12576,7 @@
    "home_name": "Stars",
    "start_utc": "2026-10-28T00:00:00Z",
    "state": "in",
-   "detail": "8:48 - 3rd",
+   "detail": "3:41 - 3rd",
    "frozen": true,
    "goal_factor": {
     "NJD": 0.904,
@@ -15074,7 +15074,7 @@
    "home_name": "Jets",
    "start_utc": "2026-10-28T00:00:00Z",
    "state": "in",
-   "detail": "11:07 - 3rd",
+   "detail": "5:00 - 3rd",
    "frozen": true,
    "goal_factor": {
     "FLA": 1.004,
@@ -17525,7 +17525,7 @@
    "home_name": "Mammoth",
    "start_utc": "2026-10-28T01:00:00Z",
    "state": "in",
-   "detail": "12:39 - 2nd",
+   "detail": "9:18 - 2nd",
    "frozen": true,
    "goal_factor": {
     "MIN": 0.977,
@@ -19866,7 +19866,7 @@
    "home_name": "Golden Knights",
    "start_utc": "2026-10-28T02:00:00Z",
    "state": "in",
-   "detail": "12:05 - 1st",
+   "detail": "5:32 - 1st",
    "frozen": true,
    "goal_factor": {
     "OTT": 0.887,
@@ -22273,7 +22273,7 @@
    "home_name": "Ducks",
    "start_utc": "2026-10-28T02:00:00Z",
    "state": "in",
-   "detail": "12:12 - 1st",
+   "detail": "6:03 - 1st",
    "frozen": true,
    "goal_factor": {
     "VAN": 1.125,
