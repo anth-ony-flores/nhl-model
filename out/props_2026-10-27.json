@@ -1,6 +1,6 @@
 {
  "date": "2026-10-27",
- "generated": "2026-10-28T00:10:51Z",
+ "generated": "2026-10-28T00:20:59Z",
  "data_through": "2026-10-26",
  "picks_enabled": false,
  "params": {
@@ -73,7 +73,7 @@
    "home_name": "Flyers",
    "start_utc": "2026-10-27T23:00:00Z",
    "state": "in",
-   "detail": "14:56 - 2nd",
+   "detail": "9:21 - 2nd",
    "frozen": true,
    "goal_factor": {
     "CBJ": 1.001,
@@ -2678,7 +2678,7 @@
    "home_name": "Hurricanes",
    "start_utc": "2026-10-28T00:00:00Z",
    "state": "in",
-   "detail": "18:59 - 1st",
+   "detail": "13:06 - 1st",
    "frozen": true,
    "goal_factor": {
     "BOS": 0.89,
@@ -5281,7 +5281,7 @@
    "home_name": "Blackhawks",
    "start_utc": "2026-10-28T00:00:00Z",
    "state": "in",
-   "detail": "19:32 - 1st",
+   "detail": "14:11 - 1st",
    "frozen": true,
    "goal_factor": {
     "LAK": 1.002,
@@ -7558,7 +7558,7 @@
    "home_name": "Blues",
    "start_utc": "2026-10-28T00:00:00Z",
    "state": "in",
-   "detail": "18:07 - 1st",
+   "detail": "12:19 - 1st",
    "frozen": true,
    "goal_factor": {
     "MTL": 0.954,
@@ -10161,7 +10161,7 @@
    "home_name": "Predators",
    "start_utc": "2026-10-28T00:00:00Z",
    "state": "in",
-   "detail": "19:22 - 1st",
+   "detail": "13:03 - 1st",
    "frozen": true,
    "goal_factor": {
     "NYI": 1.027,
@@ -12593,7 +12593,7 @@
    "home_name": "Stars",
    "start_utc": "2026-10-28T00:00:00Z",
    "state": "in",
-   "detail": "18:20 - 1st",
+   "detail": "11:26 - 1st",
    "frozen": true,
    "goal_factor": {
     "NJD": 0.904,
@@ -15091,7 +15091,7 @@
    "home_name": "Jets",
    "start_utc": "2026-10-28T00:00:00Z",
    "state": "in",
-   "detail": "18:50 - 1st",
+   "detail": "12:33 - 1st",
    "frozen": true,
    "goal_factor": {
     "FLA": 1.004,

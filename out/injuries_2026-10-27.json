@@ -1,7 +1,7 @@
 {
  "day": "2026-10-27",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-27 17:10",
+ "fetched": "2026-10-27 17:20",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -440,8 +440,19 @@
    ]
   },
   "LAK": {
-   "missing_value": 0.0205,
+   "missing_value": -0.009,
    "players": [
+    {
+     "name": "Corey Perry",
+     "status": "Out",
+     "playerId": 8470621,
+     "position": "R",
+     "value": -0.0295,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-28"
+    },
     {
      "name": "Drew Doughty",
      "status": "Out",
