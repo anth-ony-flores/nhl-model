@@ -1,6 +1,6 @@
 {
  "date": "2026-10-28",
- "generated": "2026-10-28T23:41:55Z",
+ "generated": "2026-10-28T23:52:03Z",
  "data_through": "2026-10-27",
  "picks_enabled": false,
  "params": {
@@ -73,7 +73,7 @@
    "home_name": "Capitals",
    "start_utc": "2026-10-28T23:30:00Z",
    "state": "in",
-   "detail": "17:56 - 1st",
+   "detail": "12:07 - 1st",
    "frozen": true,
    "goal_factor": {
     "PHI": 0.997,
