@@ -1,7 +1,7 @@
 {
  "day": "2026-10-28",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-28 07:23",
+ "fetched": "2026-10-28 14:30",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -222,25 +222,25 @@
    ]
   },
   "DAL": {
-   "missing_value": 0.0249,
+   "missing_value": 0.0207,
    "players": [
+    {
+     "name": "Kyle Capobianco",
+     "status": "Out",
+     "playerId": 8478476,
+     "position": "D",
+     "value": -0.0042,
+     "regular": true,
+     "applied": true,
+     "note": "Capobianco (leg) is undergoing an MRI and is expected to miss at least a week, Robert Tiffin of NHL.com reports Wednesday.",
+     "date": "2026-10-28"
+    },
     {
      "name": "Sam Steel",
      "status": "Day-To-Day",
      "playerId": 8479351,
      "position": "C",
      "value": 0.0131,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-28"
-    },
-    {
-     "name": "Kyle Capobianco",
-     "status": "Day-To-Day",
-     "playerId": 8478476,
-     "position": "D",
-     "value": -0.0042,
      "regular": true,
      "applied": false,
      "note": "day-to-day",
@@ -293,18 +293,18 @@
    ]
   },
   "DET": {
-   "missing_value": 0,
+   "missing_value": -0.0276,
    "players": [
     {
      "name": "Albert Johansson",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8481607,
      "position": "D",
      "value": -0.0276,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-27"
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-28"
     },
     {
      "name": "Simon Edvinsson",
@@ -342,40 +342,18 @@
    ]
   },
   "EDM": {
-   "missing_value": 0.2023,
+   "missing_value": 0.1308,
    "players": [
     {
      "name": "Zach Hyman",
-     "status": "Day-To-Day",
+     "status": "Injured Reserve",
      "playerId": 8475786,
      "position": "L",
      "value": 0.1308,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-27"
-    },
-    {
-     "name": "Mattias Ekholm",
-     "status": "Out",
-     "playerId": 8475218,
-     "position": "D",
-     "value": 0.2023,
-     "regular": true,
      "applied": true,
-     "note": "Ekholm (undisclosed) will miss at least a week after getting injured versus the Hurricanes on Thursday, Jason Gregor of Sports 1440 Edmonton reports.",
-     "date": "2026-10-23"
-    },
-    {
-     "name": "Jason Dickinson",
-     "status": "Injured Reserve",
-     "playerId": 8477450,
-     "position": "C",
-     "value": 0.0177,
-     "regular": false,
-     "applied": false,
      "note": "ir",
-     "date": "2026-10-22"
+     "date": "2026-10-28"
     },
     {
      "name": "Alec Regula",
@@ -777,8 +755,30 @@
    ]
   },
   "PIT": {
-   "missing_value": -0.0376,
+   "missing_value": -0.0232,
    "players": [
+    {
+     "name": "Justin Brazeau",
+     "status": "Out",
+     "playerId": 8479638,
+     "position": "R",
+     "value": -0.0272,
+     "regular": false,
+     "applied": false,
+     "note": "out",
+     "date": "2026-10-28"
+    },
+    {
+     "name": "Elmer Soderblom",
+     "status": "Injured Reserve",
+     "playerId": 8481725,
+     "position": "L",
+     "value": 0.0144,
+     "regular": true,
+     "applied": true,
+     "note": "ir",
+     "date": "2026-10-28"
+    },
     {
      "name": "Ben Kindel",
      "status": "Injured Reserve",
@@ -788,17 +788,6 @@
      "regular": true,
      "applied": true,
      "note": "Kindel (vasovagal episode) returned to practice Tuesday and feels normal following his vasovagal episode on Oct. 20, per Wes Crosby of NHL.com.",
-     "date": "2026-10-27"
-    },
-    {
-     "name": "Elmer Soderblom",
-     "status": "Day-To-Day",
-     "playerId": 8481725,
-     "position": "L",
-     "value": 0.0144,
-     "regular": true,
-     "applied": false,
-     "note": "Soderblom (upper body) was deemed day-to-day on Tuesday.",
      "date": "2026-10-27"
     },
     {
@@ -857,17 +846,6 @@
      "date": "2026-10-12"
     },
     {
-     "name": "Justin Brazeau",
-     "status": "Injured Reserve",
-     "playerId": 8479638,
-     "position": "R",
-     "value": -0.0272,
-     "regular": false,
-     "applied": false,
-     "note": "Brazeau (lower body) was placed on injured reserve by the Penguins on Sunday.",
-     "date": "2026-09-27"
-    },
-    {
      "name": "Ryan Graves",
      "status": "Injured Reserve",
      "playerId": 8477435,
@@ -885,25 +863,25 @@
    "players": [
     {
      "name": "Igor Chernyshov",
-     "status": "Out",
+     "status": "Injured Reserve",
      "playerId": 8484994,
      "position": "L",
      "value": 0.0349,
      "regular": true,
      "applied": true,
-     "note": "Chernyshov (upper body) is week-to-week, per Sheng Peng of San Jose Hockey Now on Saturday.",
-     "date": "2026-10-24"
+     "note": "ir",
+     "date": "2026-10-28"
     },
     {
      "name": "Alexander Wennberg",
-     "status": "Out",
+     "status": "Injured Reserve",
      "playerId": 8477505,
      "position": "C",
      "value": -0.0044,
      "regular": true,
      "applied": true,
-     "note": "out",
-     "date": "2026-10-22"
+     "note": "ir",
+     "date": "2026-10-28"
     }
    ]
   },
@@ -1006,25 +984,36 @@
    ]
   },
   "TBL": {
-   "missing_value": 0,
+   "missing_value": -0.0865,
    "players": [
+    {
+     "name": "Brandon Hagel",
+     "status": "Day-To-Day",
+     "playerId": 8479542,
+     "position": "L",
+     "value": 0.1957,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-10-28"
+    },
+    {
+     "name": "Zemgus Girgensons",
+     "status": "Out",
+     "playerId": 8476878,
+     "position": "C",
+     "value": -0.0865,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-28"
+    },
     {
      "name": "Victor Hedman",
      "status": "Day-To-Day",
      "playerId": 8475167,
      "position": "D",
      "value": -0.0364,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-25"
-    },
-    {
-     "name": "Zemgus Girgensons",
-     "status": "Day-To-Day",
-     "playerId": 8476878,
-     "position": "C",
-     "value": -0.0865,
      "regular": true,
      "applied": false,
      "note": "day-to-day",
@@ -1044,8 +1033,30 @@
    ]
   },
   "TOR": {
-   "missing_value": 0.0225,
+   "missing_value": 0.0922,
    "players": [
+    {
+     "name": "Chris Tanev",
+     "status": "Injured Reserve",
+     "playerId": 8475690,
+     "position": "D",
+     "value": 0.0218,
+     "regular": false,
+     "applied": false,
+     "note": "The Maple Leafs announced Wednesday that Tanev (upper body) has been upgraded to day-to-day, Mark Masters of TSN reports.",
+     "date": "2026-10-28"
+    },
+    {
+     "name": "Kirill Marchenko",
+     "status": "Out",
+     "playerId": 8480893,
+     "position": "R",
+     "value": 0.0697,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-28"
+    },
     {
      "name": "Dakota Joshua",
      "status": "Injured Reserve",
@@ -1055,17 +1066,6 @@
      "regular": false,
      "applied": false,
      "note": "Joshua (abdomen) was recalled from his conditioning loan with AHL Toronto on Monday.",
-     "date": "2026-10-27"
-    },
-    {
-     "name": "Kirill Marchenko",
-     "status": "Day-To-Day",
-     "playerId": 8480893,
-     "position": "R",
-     "value": 0.0697,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
      "date": "2026-10-27"
     },
     {
@@ -1110,17 +1110,6 @@
      "regular": false,
      "applied": false,
      "note": "ir",
-     "date": "2026-10-15"
-    },
-    {
-     "name": "Chris Tanev",
-     "status": "Injured Reserve",
-     "playerId": 8475690,
-     "position": "D",
-     "value": 0.0218,
-     "regular": false,
-     "applied": false,
-     "note": "The Maple Leafs announced Thursday that Tanev (lower body) is considered week-to-week, Mark Masters of TSN reports.",
      "date": "2026-10-15"
     },
     {

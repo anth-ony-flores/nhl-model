@@ -1,7 +1,7 @@
 {
  "date": "2026-10-28",
  "data_through": "2026-10-26",
- "generated": "2026-10-28 07:23 MST",
+ "generated": "2026-10-28 14:30 MST",
  "league_xg60": 3.011,
  "b2b_effect": {
   "own_xg": -0.206,
@@ -222,36 +222,14 @@
    "inj_home": [
     {
      "name": "Zach Hyman",
-     "status": "Day-To-Day",
+     "status": "Injured Reserve",
      "playerId": 8475786,
      "position": "L",
      "value": 0.1308,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-27"
-    },
-    {
-     "name": "Mattias Ekholm",
-     "status": "Out",
-     "playerId": 8475218,
-     "position": "D",
-     "value": 0.2023,
-     "regular": true,
      "applied": true,
-     "note": "Ekholm (undisclosed) will miss at least a week after getting injured versus the Hurricanes on Thursday, Jason Gregor of Sports 1440 Edmonton reports.",
-     "date": "2026-10-23"
-    },
-    {
-     "name": "Jason Dickinson",
-     "status": "Injured Reserve",
-     "playerId": 8477450,
-     "position": "C",
-     "value": 0.0177,
-     "regular": false,
-     "applied": false,
      "note": "ir",
-     "date": "2026-10-22"
+     "date": "2026-10-28"
     },
     {
      "name": "Alec Regula",
@@ -311,53 +289,53 @@
      "date": "2026-10-20"
     }
    ],
-   "inj_adj_home": 0.202,
+   "inj_adj_home": 0.131,
    "inj_adj_away": 0,
-   "xg_home": 3.077,
-   "xg_away": 2.703,
-   "proj_home": 3.14,
-   "proj_away": 2.74,
-   "p_home": 0.5695,
-   "p_away": 0.4305,
-   "p_ot": 0.2482,
-   "fair_ml_home": -132,
-   "fair_ml_away": 132,
+   "xg_home": 3.112,
+   "xg_away": 2.668,
+   "proj_home": 3.17,
+   "proj_away": 2.71,
+   "p_home": 0.5812,
+   "p_away": 0.4188,
+   "p_ot": 0.247,
+   "fair_ml_home": -139,
+   "fair_ml_away": 139,
    "exp_total": 5.88,
    "totals": {
     "4.5": {
-     "over": 0.7175,
-     "under": 0.2825
+     "over": 0.7172,
+     "under": 0.2828
     },
     "5.0": {
-     "over": 0.5235,
-     "under": 0.2825
+     "over": 0.5233,
+     "under": 0.2828
     },
     "5.5": {
-     "over": 0.5235,
-     "under": 0.4765
+     "over": 0.5233,
+     "under": 0.4767
     },
     "6.0": {
-     "over": 0.3813,
-     "under": 0.4765
+     "over": 0.3809,
+     "under": 0.4767
     },
     "6.5": {
-     "over": 0.3813,
-     "under": 0.6187
+     "over": 0.3809,
+     "under": 0.6191
     },
     "7.0": {
-     "over": 0.2246,
-     "under": 0.6187
+     "over": 0.2245,
+     "under": 0.6191
     },
     "7.5": {
-     "over": 0.2246,
-     "under": 0.7754
+     "over": 0.2245,
+     "under": 0.7755
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3532,
-    "away_+1.5": 0.6468,
-    "away_-1.5": 0.2436,
-    "home_+1.5": 0.7564
+    "home_-1.5": 0.3634,
+    "away_+1.5": 0.6366,
+    "away_-1.5": 0.2352,
+    "home_+1.5": 0.7648
    }
   },
   {
@@ -564,6 +542,28 @@
    ],
    "inj_away": [
     {
+     "name": "Chris Tanev",
+     "status": "Injured Reserve",
+     "playerId": 8475690,
+     "position": "D",
+     "value": 0.0218,
+     "regular": false,
+     "applied": false,
+     "note": "The Maple Leafs announced Wednesday that Tanev (upper body) has been upgraded to day-to-day, Mark Masters of TSN reports.",
+     "date": "2026-10-28"
+    },
+    {
+     "name": "Kirill Marchenko",
+     "status": "Out",
+     "playerId": 8480893,
+     "position": "R",
+     "value": 0.0697,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-28"
+    },
+    {
      "name": "Dakota Joshua",
      "status": "Injured Reserve",
      "playerId": 8478057,
@@ -572,17 +572,6 @@
      "regular": false,
      "applied": false,
      "note": "Joshua (abdomen) was recalled from his conditioning loan with AHL Toronto on Monday.",
-     "date": "2026-10-27"
-    },
-    {
-     "name": "Kirill Marchenko",
-     "status": "Day-To-Day",
-     "playerId": 8480893,
-     "position": "R",
-     "value": 0.0697,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
      "date": "2026-10-27"
     },
     {
@@ -630,17 +619,6 @@
      "date": "2026-10-15"
     },
     {
-     "name": "Chris Tanev",
-     "status": "Injured Reserve",
-     "playerId": 8475690,
-     "position": "D",
-     "value": 0.0218,
-     "regular": false,
-     "applied": false,
-     "note": "The Maple Leafs announced Thursday that Tanev (lower body) is considered week-to-week, Mark Masters of TSN reports.",
-     "date": "2026-10-15"
-    },
-    {
      "name": "Max Domi",
      "status": "Injured Reserve",
      "playerId": 8477503,
@@ -664,16 +642,16 @@
     }
    ],
    "inj_adj_home": 0.069,
-   "inj_adj_away": 0.022,
-   "xg_home": 3.043,
-   "xg_away": 3.104,
-   "proj_home": 3.25,
-   "proj_away": 3.29,
-   "p_home": 0.4938,
-   "p_away": 0.5062,
+   "inj_adj_away": 0.092,
+   "xg_home": 3.078,
+   "xg_away": 3.07,
+   "proj_home": 3.29,
+   "proj_away": 3.26,
+   "p_home": 0.5052,
+   "p_away": 0.4948,
    "p_ot": 0.2369,
-   "fair_ml_home": 103,
-   "fair_ml_away": -103,
+   "fair_ml_home": -102,
+   "fair_ml_away": 102,
    "exp_total": 6.54,
    "totals": {
     "4.5": {
@@ -681,16 +659,16 @@
      "under": 0.2022
     },
     "5.0": {
-     "over": 0.6295,
+     "over": 0.6296,
      "under": 0.2022
     },
     "5.5": {
-     "over": 0.6295,
-     "under": 0.3705
+     "over": 0.6296,
+     "under": 0.3704
     },
     "6.0": {
      "over": 0.4897,
-     "under": 0.3705
+     "under": 0.3704
     },
     "6.5": {
      "over": 0.4897,
@@ -706,10 +684,10 @@
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3014,
-    "away_+1.5": 0.6986,
-    "away_-1.5": 0.3115,
-    "home_+1.5": 0.6885
+    "home_-1.5": 0.3107,
+    "away_+1.5": 0.6893,
+    "away_-1.5": 0.3023,
+    "home_+1.5": 0.6977
    }
   }
  ],
