@@ -1,6 +1,6 @@
 {
  "date": "2026-10-27",
- "generated": "2026-10-28T01:52:13Z",
+ "generated": "2026-10-28T02:02:21Z",
  "data_through": "2026-10-26",
  "picks_enabled": false,
  "params": {
@@ -7550,7 +7550,7 @@
    "home_name": "Blues",
    "start_utc": "2026-10-28T00:00:00Z",
    "state": "in",
-   "detail": "End of 2nd",
+   "detail": "18:03 - 3rd",
    "frozen": true,
    "goal_factor": {
     "MTL": 0.954,
@@ -10153,7 +10153,7 @@
    "home_name": "Predators",
    "start_utc": "2026-10-28T00:00:00Z",
    "state": "in",
-   "detail": "End of 2nd",
+   "detail": "18:05 - 3rd",
    "frozen": true,
    "goal_factor": {
     "NYI": 1.027,
@@ -12585,7 +12585,7 @@
    "home_name": "Stars",
    "start_utc": "2026-10-28T00:00:00Z",
    "state": "in",
-   "detail": "End of 2nd",
+   "detail": "18:28 - 3rd",
    "frozen": true,
    "goal_factor": {
     "NJD": 0.904,
@@ -20172,9 +20172,9 @@
       "opp": "OTT",
       "line": 2.5,
       "open_line": 2.5,
-      "over": "+125",
+      "over": "+120",
       "over_open": "+105",
-      "under": "-170",
+      "under": "-165",
       "under_open": "-140",
       "updated": "2026-10-27T08:48Z",
       "player_id": 8476881,
@@ -20193,11 +20193,11 @@
        "6.5": 0.0081,
        "7.5": 0.0024
       },
-      "mkt_over": 0.4138,
-      "edge_over": -0.0618,
-      "edge_under": 0.0618,
+      "mkt_over": 0.422,
+      "edge_over": -0.0699,
+      "edge_under": 0.0699,
       "lean": "Under",
-      "edge": 0.0618,
+      "edge": 0.0699,
       "strong": true
      },
      {
@@ -20207,9 +20207,9 @@
       "opp": "OTT",
       "line": 2.5,
       "open_line": 2.5,
-      "over": "+110",
+      "over": "+120",
       "over_open": "+110",
-      "under": "-145",
+      "under": "-165",
       "under_open": "-150",
       "updated": "2026-10-27T08:48Z",
       "player_id": 8478483,
@@ -20228,11 +20228,11 @@
        "6.5": 0.0065,
        "7.5": 0.0018
       },
-      "mkt_over": 0.4459,
-      "edge_over": -0.1187,
-      "edge_under": 0.1187,
+      "mkt_over": 0.422,
+      "edge_over": -0.0948,
+      "edge_under": 0.0948,
       "lean": "Under",
-      "edge": 0.1187,
+      "edge": 0.0948,
       "strong": true
      },
      {
@@ -20452,9 +20452,9 @@
       "opp": "OTT",
       "line": 1.5,
       "open_line": 1.5,
-      "over": "+135",
+      "over": "+130",
       "over_open": "-105",
-      "under": "-185",
+      "under": "-175",
       "under_open": "-125",
       "updated": "2026-10-28T00:35Z",
       "player_id": 8475188,
@@ -20473,11 +20473,11 @@
        "6.5": 0.0004,
        "7.5": 0.0001
       },
-      "mkt_over": 0.396,
-      "edge_over": -0.0506,
-      "edge_under": 0.0506,
+      "mkt_over": 0.4059,
+      "edge_over": -0.0605,
+      "edge_under": 0.0605,
       "lean": "Under",
-      "edge": 0.0506,
+      "edge": 0.0605,
       "strong": true
      },
      {
