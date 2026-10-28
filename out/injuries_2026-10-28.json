@@ -1,7 +1,7 @@
 {
  "day": "2026-10-28",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-28 15:10",
+ "fetched": "2026-10-28 15:20",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -1056,17 +1056,6 @@
      "applied": true,
      "note": "out",
      "date": "2026-10-28"
-    },
-    {
-     "name": "Dakota Joshua",
-     "status": "Injured Reserve",
-     "playerId": 8478057,
-     "position": "C",
-     "value": 0.0167,
-     "regular": false,
-     "applied": false,
-     "note": "Joshua (abdomen) was recalled from his conditioning loan with AHL Toronto on Monday.",
-     "date": "2026-10-27"
     },
     {
      "name": "Nick Blankenburg",
