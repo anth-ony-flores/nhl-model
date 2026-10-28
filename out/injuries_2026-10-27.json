@@ -1,7 +1,7 @@
 {
  "day": "2026-10-27",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-27 16:50",
+ "fetched": "2026-10-27 17:00",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -440,8 +440,19 @@
    ]
   },
   "LAK": {
-   "missing_value": 0.011,
+   "missing_value": 0.0205,
    "players": [
+    {
+     "name": "Drew Doughty",
+     "status": "Out",
+     "playerId": 8474563,
+     "position": "D",
+     "value": 0.0095,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-27"
+    },
     {
      "name": "Mats Zuccarello",
      "status": "Injured Reserve",
