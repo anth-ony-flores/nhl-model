@@ -1,6 +1,6 @@
 {
  "date": "2026-10-28",
- "generated": "2026-10-29T01:23:11Z",
+ "generated": "2026-10-29T01:33:18Z",
  "data_through": "2026-10-27",
  "picks_enabled": false,
  "params": {
@@ -73,7 +73,7 @@
    "home_name": "Capitals",
    "start_utc": "2026-10-28T23:30:00Z",
    "state": "in",
-   "detail": "End of 2nd",
+   "detail": "18:30 - 3rd",
    "frozen": true,
    "goal_factor": {
     "PHI": 0.997,
@@ -5185,7 +5185,7 @@
    "home_name": "Avalanche",
    "start_utc": "2026-10-29T01:00:00Z",
    "state": "in",
-   "detail": "11:29 - 1st",
+   "detail": "6:30 - 1st",
    "frozen": true,
    "goal_factor": {
     "NJD": 0.881,
@@ -8966,7 +8966,7 @@
       "opp": "SEA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+220",
+      "over": "+215",
       "over_open": "+215",
       "under": null,
       "under_open": null,
@@ -8980,9 +8980,9 @@
       "curve": {
        "0.5": 0.2502
       },
-      "mkt_over": 0.3125,
+      "mkt_over": 0.3175,
       "vig_included": true,
-      "edge_over": -0.0623,
+      "edge_over": -0.0672,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8995,7 +8995,7 @@
       "opp": "SEA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+215",
+      "over": "+220",
       "over_open": "+215",
       "under": null,
       "under_open": null,
@@ -9009,9 +9009,9 @@
       "curve": {
        "0.5": 0.2113
       },
-      "mkt_over": 0.3175,
+      "mkt_over": 0.3125,
       "vig_included": true,
-      "edge_over": -0.1062,
+      "edge_over": -0.1012,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -9111,7 +9111,7 @@
       "opp": "SEA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+700",
+      "over": "+750",
       "over_open": "+650",
       "under": null,
       "under_open": null,
@@ -9125,12 +9125,12 @@
       "curve": {
        "0.5": 0.146
       },
-      "mkt_over": 0.125,
+      "mkt_over": 0.1176,
       "vig_included": true,
-      "edge_over": 0.021,
+      "edge_over": 0.0283,
       "edge_under": null,
       "lean": "Yes",
-      "edge": 0.021,
+      "edge": 0.0283,
       "strong": false
      },
      {
@@ -9633,7 +9633,7 @@
       "opp": "TOR",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+390",
+      "over": "+400",
       "over_open": "+320",
       "under": null,
       "under_open": null,
@@ -9647,9 +9647,9 @@
       "curve": {
        "0.5": 0.1704
       },
-      "mkt_over": 0.2041,
+      "mkt_over": 0.2,
       "vig_included": true,
-      "edge_over": -0.0337,
+      "edge_over": -0.0296,
       "edge_under": null,
       "lean": null,
       "edge": null,
