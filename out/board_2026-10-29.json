@@ -1,7 +1,7 @@
 {
  "date": "2026-10-29",
  "data_through": "2026-10-28",
- "generated": "2026-10-29 07:26 MST",
+ "generated": "2026-10-29 14:00 MST",
  "league_xg60": 3.009,
  "b2b_effect": {
   "own_xg": -0.221,
@@ -56,17 +56,6 @@
    },
    "inj_home": [
     {
-     "name": "Brandon Hagel",
-     "status": "Day-To-Day",
-     "playerId": 8479542,
-     "position": "L",
-     "value": 0.1957,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-28"
-    },
-    {
      "name": "Zemgus Girgensons",
      "status": "Out",
      "playerId": 8476878,
@@ -76,17 +65,6 @@
      "applied": true,
      "note": "out",
      "date": "2026-10-28"
-    },
-    {
-     "name": "Victor Hedman",
-     "status": "Day-To-Day",
-     "playerId": 8475167,
-     "position": "D",
-     "value": -0.0364,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-25"
     },
     {
      "name": "Yanni Gourde",
@@ -254,50 +232,6 @@
      "date": "2026-10-28"
     },
     {
-     "name": "Ben Kindel",
-     "status": "Injured Reserve",
-     "playerId": 8485414,
-     "position": "C",
-     "value": -0.0225,
-     "regular": true,
-     "applied": true,
-     "note": "Kindel (vasovagal episode) returned to practice Tuesday and feels normal following his vasovagal episode on Oct. 20, per Wes Crosby of NHL.com.",
-     "date": "2026-10-27"
-    },
-    {
-     "name": "Evgeni Malkin",
-     "status": "Day-To-Day",
-     "playerId": 8471215,
-     "position": "C",
-     "value": 0.0188,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-25"
-    },
-    {
-     "name": "Egor Chinakhov",
-     "status": "Day-To-Day",
-     "playerId": 8482475,
-     "position": "R",
-     "value": -0.0294,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-25"
-    },
-    {
-     "name": "Samuel Girard",
-     "status": "Injured Reserve",
-     "playerId": 8479398,
-     "position": "D",
-     "value": 0.0264,
-     "regular": true,
-     "applied": true,
-     "note": "Girard (undisclosed) was placed on injured reserve Saturday.",
-     "date": "2026-10-24"
-    },
-    {
      "name": "Bryan Rust",
      "status": "Injured Reserve",
      "playerId": 8475810,
@@ -366,14 +300,14 @@
      "date": "2026-09-28"
     }
    ],
-   "inj_adj_home": -0.023,
+   "inj_adj_home": -0.027,
    "inj_adj_away": 0.036,
-   "xg_home": 3.016,
-   "xg_away": 3.255,
+   "xg_home": 3.018,
+   "xg_away": 3.253,
    "proj_home": 3.25,
    "proj_away": 3.39,
-   "p_home": 0.4756,
-   "p_away": 0.5244,
+   "p_home": 0.4762,
+   "p_away": 0.5238,
    "p_ot": 0.2346,
    "fair_ml_home": 110,
    "fair_ml_away": -110,
@@ -409,10 +343,10 @@
     }
    },
    "puck_line": {
-    "home_-1.5": 0.2883,
-    "away_+1.5": 0.7117,
-    "away_-1.5": 0.328,
-    "home_+1.5": 0.672
+    "home_-1.5": 0.2888,
+    "away_+1.5": 0.7112,
+    "away_-1.5": 0.3274,
+    "home_+1.5": 0.6726
    }
   },
   {
@@ -470,8 +404,8 @@
      "value": 0.0429,
      "regular": false,
      "applied": false,
-     "note": "Hall (undisclosed) tweaked something different from his previous upper-body injury and will miss time, Cory Lavalette of the North State Journal reports Tuesday.",
-     "date": "2026-10-28"
+     "note": "Head coach Rod Brind'Amour said Thursday that Hall (undisclosed) will miss a few more games, Chip Alexander of The Raleigh News &amp; Observer reports.",
+     "date": "2026-10-29"
     },
     {
      "name": "Alexander Nikishin",
@@ -599,6 +533,17 @@
    },
    "inj_home": [
     {
+     "name": "Dylan Larkin",
+     "status": "Out",
+     "playerId": 8477946,
+     "position": "C",
+     "value": 0.0063,
+     "regular": true,
+     "applied": true,
+     "note": "Larkin (not injury related) will not play until he is traded away from the Red Wings, per Elliotte Friedman of Sportsnet.",
+     "date": "2026-10-29"
+    },
+    {
      "name": "Albert Johansson",
      "status": "Out",
      "playerId": 8481607,
@@ -646,27 +591,38 @@
    "inj_away": [
     {
      "name": "Bowen Byram",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8481524,
      "position": "D",
      "value": -0.0565,
      "regular": false,
      "applied": false,
+     "note": "out",
+     "date": "2026-10-29"
+    },
+    {
+     "name": "Alex Vlasic",
+     "status": "Day-To-Day",
+     "playerId": 8481568,
+     "position": "D",
+     "value": -0.0477,
+     "regular": true,
+     "applied": false,
      "note": "day-to-day",
-     "date": "2026-10-28"
+     "date": "2026-10-29"
     }
    ],
-   "inj_adj_home": -0.028,
+   "inj_adj_home": -0.021,
    "inj_adj_away": 0,
-   "xg_home": 3.173,
-   "xg_away": 2.666,
+   "xg_home": 3.17,
+   "xg_away": 2.669,
    "proj_home": 3.17,
    "proj_away": 2.63,
-   "p_home": 0.596,
-   "p_away": 0.404,
-   "p_ot": 0.2472,
-   "fair_ml_home": -148,
-   "fair_ml_away": 148,
+   "p_home": 0.595,
+   "p_away": 0.405,
+   "p_ot": 0.2473,
+   "fair_ml_home": -147,
+   "fair_ml_away": 147,
    "exp_total": 5.8,
    "totals": {
     "4.5": {
@@ -699,10 +655,10 @@
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3748,
-    "away_+1.5": 0.6252,
-    "away_-1.5": 0.2236,
-    "home_+1.5": 0.7764
+    "home_-1.5": 0.3739,
+    "away_+1.5": 0.6261,
+    "away_-1.5": 0.2243,
+    "home_+1.5": 0.7757
    }
   },
   {
@@ -1038,19 +994,8 @@
      "value": -0.0042,
      "regular": true,
      "applied": true,
-     "note": "Capobianco (leg) is undergoing an MRI and is expected to miss at least a week, Robert Tiffin of NHL.com reports Wednesday.",
-     "date": "2026-10-28"
-    },
-    {
-     "name": "Sam Steel",
-     "status": "Day-To-Day",
-     "playerId": 8479351,
-     "position": "C",
-     "value": 0.0131,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-28"
+     "note": "Capobianco (leg) is expected to miss around four weeks, per Stars TV host Brien Rea.",
+     "date": "2026-10-29"
     },
     {
      "name": "Esa Lindell",
@@ -1084,17 +1029,6 @@
      "applied": false,
      "note": "Duchene will be out for approximately three months after undergoing surgery to repair a core injury, the team announced Monday.",
      "date": "2026-10-12"
-    },
-    {
-     "name": "Cameron Hughes",
-     "status": "Injured Reserve",
-     "playerId": 8478888,
-     "position": "C",
-     "value": 0.023,
-     "regular": false,
-     "applied": false,
-     "note": "ir-nr",
-     "date": "2026-09-29"
     }
    ],
    "inj_away": [
@@ -1229,15 +1163,26 @@
    },
    "inj_home": [
     {
+     "name": "Brock Faber",
+     "status": "Injured Reserve",
+     "playerId": 8482122,
+     "position": "D",
+     "value": 0.068,
+     "regular": false,
+     "applied": false,
+     "note": "Faber (skull) has cleared his return to play protocol and could resume skating within a few days, per Michael Russo of The Athletic.",
+     "date": "2026-10-29"
+    },
+    {
      "name": "Jared Spurgeon",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8474716,
      "position": "D",
      "value": 0.0991,
      "regular": true,
-     "applied": false,
-     "note": "Spurgeon (undisclosed) did not finish Tuesday's game versus the Mammoth after blocking two shots on the same shift. Head coach John Hynes had no status update on the defenseman after the contest, per ",
-     "date": "2026-10-28"
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-29"
     },
     {
      "name": "Marcus Foligno",
@@ -1260,17 +1205,6 @@
      "applied": false,
      "note": "ir",
      "date": "2026-10-09"
-    },
-    {
-     "name": "Brock Faber",
-     "status": "Injured Reserve",
-     "playerId": 8482122,
-     "position": "D",
-     "value": 0.068,
-     "regular": false,
-     "applied": false,
-     "note": "Faber underwent a procedure to repair his fractured skull and is without a timetable to return, per Michael Russo of The Athletic.",
-     "date": "2026-09-29"
     }
    ],
    "inj_away": [
@@ -1319,53 +1253,53 @@
      "date": "2026-10-15"
     }
    ],
-   "inj_adj_home": 0,
+   "inj_adj_home": 0.099,
    "inj_adj_away": -0.015,
-   "xg_home": 3.639,
-   "xg_away": 2.714,
-   "proj_home": 3.41,
-   "proj_away": 2.46,
-   "p_home": 0.6638,
-   "p_away": 0.3362,
-   "p_ot": 0.2328,
-   "fair_ml_home": -197,
-   "fair_ml_away": 197,
+   "xg_home": 3.589,
+   "xg_away": 2.764,
+   "proj_home": 3.37,
+   "proj_away": 2.5,
+   "p_home": 0.6498,
+   "p_away": 0.3502,
+   "p_ot": 0.2359,
+   "fair_ml_home": -186,
+   "fair_ml_away": 186,
    "exp_total": 5.86,
    "totals": {
     "4.5": {
-     "over": 0.7138,
-     "under": 0.2862
+     "over": 0.7142,
+     "under": 0.2858
     },
     "5.0": {
-     "over": 0.5209,
-     "under": 0.2862
+     "over": 0.5211,
+     "under": 0.2858
     },
     "5.5": {
-     "over": 0.5209,
-     "under": 0.4791
+     "over": 0.5211,
+     "under": 0.4789
     },
     "6.0": {
-     "over": 0.3765,
-     "under": 0.4791
+     "over": 0.3771,
+     "under": 0.4789
     },
     "6.5": {
-     "over": 0.3765,
-     "under": 0.6235
+     "over": 0.3771,
+     "under": 0.6229
     },
     "7.0": {
-     "over": 0.2224,
-     "under": 0.6235
+     "over": 0.2225,
+     "under": 0.6229
     },
     "7.5": {
-     "over": 0.2224,
-     "under": 0.7776
+     "over": 0.2225,
+     "under": 0.7775
     }
    },
    "puck_line": {
-    "home_-1.5": 0.44,
-    "away_+1.5": 0.56,
-    "away_-1.5": 0.1791,
-    "home_+1.5": 0.8209
+    "home_-1.5": 0.4264,
+    "away_+1.5": 0.5736,
+    "away_-1.5": 0.1882,
+    "home_+1.5": 0.8118
    }
   },
   {
@@ -1462,6 +1396,17 @@
    ],
    "inj_away": [
     {
+     "name": "Konsta Helenius",
+     "status": "Out",
+     "playerId": 8484797,
+     "position": "C",
+     "value": 0.0207,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-29"
+    },
+    {
      "name": "Justin Danforth",
      "status": "Day-To-Day",
      "playerId": 8479941,
@@ -1482,17 +1427,6 @@
      "applied": true,
      "note": "Kulich has been placed in concussion protocol, per Rachel Lenzi of The Buffalo News on Monday.",
      "date": "2026-10-26"
-    },
-    {
-     "name": "Sam Carrick",
-     "status": "Injured Reserve",
-     "playerId": 8475842,
-     "position": "C",
-     "value": -0.0314,
-     "regular": false,
-     "applied": false,
-     "note": "ir",
-     "date": "2026-10-21"
     },
     {
      "name": "Matt Grzelcyk",
@@ -1529,16 +1463,16 @@
     }
    ],
    "inj_adj_home": -0.062,
-   "inj_adj_away": 0.03,
-   "xg_home": 3.208,
-   "xg_away": 3.316,
-   "proj_home": 3.34,
-   "proj_away": 3.42,
-   "p_home": 0.4873,
-   "p_away": 0.5127,
+   "inj_adj_away": 0.051,
+   "xg_home": 3.218,
+   "xg_away": 3.305,
+   "proj_home": 3.35,
+   "proj_away": 3.41,
+   "p_home": 0.4906,
+   "p_away": 0.5094,
    "p_ot": 0.2326,
-   "fair_ml_home": 105,
-   "fair_ml_away": -105,
+   "fair_ml_home": 104,
+   "fair_ml_away": -104,
    "exp_total": 6.76,
    "totals": {
     "4.5": {
@@ -1571,10 +1505,10 @@
     }
    },
    "puck_line": {
-    "home_-1.5": 0.2993,
-    "away_+1.5": 0.7007,
-    "away_-1.5": 0.32,
-    "home_+1.5": 0.68
+    "home_-1.5": 0.3019,
+    "away_+1.5": 0.6981,
+    "away_-1.5": 0.3173,
+    "home_+1.5": 0.6827
    }
   },
   {
@@ -1630,28 +1564,6 @@
    },
    "inj_home": [
     {
-     "name": "Corey Perry",
-     "status": "Day-To-Day",
-     "playerId": 8470621,
-     "position": "R",
-     "value": -0.0289,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-28"
-    },
-    {
-     "name": "Drew Doughty",
-     "status": "Day-To-Day",
-     "playerId": 8474563,
-     "position": "D",
-     "value": 0.0091,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-28"
-    },
-    {
      "name": "Mats Zuccarello",
      "status": "Injured Reserve",
      "playerId": 8475692,
@@ -1659,8 +1571,19 @@
      "value": 0.011,
      "regular": true,
      "applied": true,
-     "note": "ir",
-     "date": "2026-10-26"
+     "note": "Zuccarello (upper body) is regarded as week-to-week, Zach Dooley of the Kings' official site reports Thursday.",
+     "date": "2026-10-29"
+    },
+    {
+     "name": "Kevin Fiala",
+     "status": "Injured Reserve",
+     "playerId": 8477942,
+     "position": "L",
+     "value": 0.0711,
+     "regular": false,
+     "applied": false,
+     "note": "Head coach Peter Laviolette said Thursday that Fiala (lower leg) remains on a week-to-week timeline, Zach Dooley of the Kings' official site reports.",
+     "date": "2026-10-29"
     },
     {
      "name": "Alex Turcotte",
@@ -1683,41 +1606,19 @@
      "applied": false,
      "note": "Jenik (undisclosed) was placed on non-roster injured reserve by Los Angeles on Thursday, per Zach Dooley of LA Kings Insider.",
      "date": "2026-09-24"
-    },
-    {
-     "name": "Kevin Fiala",
-     "status": "Injured Reserve",
-     "playerId": 8477942,
-     "position": "L",
-     "value": 0.0711,
-     "regular": false,
-     "applied": false,
-     "note": "Fiala (lower leg fracture) is at least three weeks away from being ready to play, Zach Dooley of the Kings' official site reports Thursday.",
-     "date": "2026-09-17"
     }
    ],
    "inj_away": [
     {
      "name": "Warren Foegele",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8477998,
      "position": "L",
      "value": -0.016,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-28"
-    },
-    {
-     "name": "Thomas Chabot",
-     "status": "Out",
-     "playerId": 8478469,
-     "position": "D",
-     "value": 0.0004,
-     "regular": true,
      "applied": true,
-     "note": "Chabot (upper body) was a full participant in Monday's practice in Vegas and is nearing a return to the lineup, according to Bruce Garrioch of Postmedia.",
-     "date": "2026-10-27"
+     "note": "Foegele (knee) is expected to miss an extended period of time, Jackson Starr of the Senators' official site reports Thursday.",
+     "date": "2026-10-29"
     },
     {
      "name": "William Eklund",
@@ -1732,41 +1633,41 @@
     }
    ],
    "inj_adj_home": 0.011,
-   "inj_adj_away": 0.0,
-   "xg_home": 2.633,
-   "xg_away": 3.063,
+   "inj_adj_away": -0.016,
+   "xg_home": 2.624,
+   "xg_away": 3.071,
    "proj_home": 2.58,
-   "proj_away": 3.08,
-   "p_home": 0.4111,
-   "p_away": 0.5889,
-   "p_ot": 0.2515,
-   "fair_ml_home": 143,
-   "fair_ml_away": -143,
+   "proj_away": 3.09,
+   "p_home": 0.4085,
+   "p_away": 0.5915,
+   "p_ot": 0.2512,
+   "fair_ml_home": 145,
+   "fair_ml_away": -145,
    "exp_total": 5.66,
    "totals": {
     "4.5": {
-     "over": 0.6858,
-     "under": 0.3142
+     "over": 0.6857,
+     "under": 0.3143
     },
     "5.0": {
-     "over": 0.4852,
-     "under": 0.3142
+     "over": 0.4851,
+     "under": 0.3143
     },
     "5.5": {
-     "over": 0.4852,
-     "under": 0.5148
+     "over": 0.4851,
+     "under": 0.5149
     },
     "6.0": {
-     "over": 0.3445,
-     "under": 0.5148
+     "over": 0.3444,
+     "under": 0.5149
     },
     "6.5": {
-     "over": 0.3445,
-     "under": 0.6555
+     "over": 0.3444,
+     "under": 0.6556
     },
     "7.0": {
      "over": 0.1953,
-     "under": 0.6555
+     "under": 0.6556
     },
     "7.5": {
      "over": 0.1953,
@@ -1774,10 +1675,10 @@
     }
    },
    "puck_line": {
-    "home_-1.5": 0.2266,
-    "away_+1.5": 0.7734,
-    "away_-1.5": 0.3656,
-    "home_+1.5": 0.6344
+    "home_-1.5": 0.2248,
+    "away_+1.5": 0.7752,
+    "away_-1.5": 0.3679,
+    "home_+1.5": 0.6321
    }
   },
   {

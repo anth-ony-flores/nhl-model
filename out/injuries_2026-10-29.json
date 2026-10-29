@@ -1,7 +1,7 @@
 {
  "day": "2026-10-29",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-29 07:26",
+ "fetched": "2026-10-29 14:00",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -54,8 +54,19 @@
    ]
   },
   "BUF": {
-   "missing_value": 0.0304,
+   "missing_value": 0.0511,
    "players": [
+    {
+     "name": "Konsta Helenius",
+     "status": "Out",
+     "playerId": 8484797,
+     "position": "C",
+     "value": 0.0207,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-29"
+    },
     {
      "name": "Justin Danforth",
      "status": "Day-To-Day",
@@ -77,17 +88,6 @@
      "applied": true,
      "note": "Kulich has been placed in concussion protocol, per Rachel Lenzi of The Buffalo News on Monday.",
      "date": "2026-10-26"
-    },
-    {
-     "name": "Sam Carrick",
-     "status": "Injured Reserve",
-     "playerId": 8475842,
-     "position": "C",
-     "value": -0.0314,
-     "regular": false,
-     "applied": false,
-     "note": "ir",
-     "date": "2026-10-21"
     },
     {
      "name": "Matt Grzelcyk",
@@ -173,8 +173,8 @@
      "value": 0.0429,
      "regular": false,
      "applied": false,
-     "note": "Hall (undisclosed) tweaked something different from his previous upper-body injury and will miss time, Cory Lavalette of the North State Journal reports Tuesday.",
-     "date": "2026-10-28"
+     "note": "Head coach Rod Brind'Amour said Thursday that Hall (undisclosed) will miss a few more games, Chip Alexander of The Raleigh News &amp; Observer reports.",
+     "date": "2026-10-29"
     },
     {
      "name": "Alexander Nikishin",
@@ -205,14 +205,25 @@
    "players": [
     {
      "name": "Bowen Byram",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8481524,
      "position": "D",
      "value": -0.0565,
      "regular": false,
      "applied": false,
+     "note": "out",
+     "date": "2026-10-29"
+    },
+    {
+     "name": "Alex Vlasic",
+     "status": "Day-To-Day",
+     "playerId": 8481568,
+     "position": "D",
+     "value": -0.0477,
+     "regular": true,
+     "applied": false,
      "note": "day-to-day",
-     "date": "2026-10-28"
+     "date": "2026-10-29"
     }
    ]
   },
@@ -254,19 +265,8 @@
      "value": -0.0042,
      "regular": true,
      "applied": true,
-     "note": "Capobianco (leg) is undergoing an MRI and is expected to miss at least a week, Robert Tiffin of NHL.com reports Wednesday.",
-     "date": "2026-10-28"
-    },
-    {
-     "name": "Sam Steel",
-     "status": "Day-To-Day",
-     "playerId": 8479351,
-     "position": "C",
-     "value": 0.0131,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-28"
+     "note": "Capobianco (leg) is expected to miss around four weeks, per Stars TV host Brien Rea.",
+     "date": "2026-10-29"
     },
     {
      "name": "Esa Lindell",
@@ -300,23 +300,23 @@
      "applied": false,
      "note": "Duchene will be out for approximately three months after undergoing surgery to repair a core injury, the team announced Monday.",
      "date": "2026-10-12"
-    },
-    {
-     "name": "Cameron Hughes",
-     "status": "Injured Reserve",
-     "playerId": 8478888,
-     "position": "C",
-     "value": 0.023,
-     "regular": false,
-     "applied": false,
-     "note": "ir-nr",
-     "date": "2026-09-29"
     }
    ]
   },
   "DET": {
-   "missing_value": -0.0276,
+   "missing_value": -0.0213,
    "players": [
+    {
+     "name": "Dylan Larkin",
+     "status": "Out",
+     "playerId": 8477946,
+     "position": "C",
+     "value": 0.0063,
+     "regular": true,
+     "applied": true,
+     "note": "Larkin (not injury related) will not play until he is traded away from the Red Wings, per Elliotte Friedman of Sportsnet.",
+     "date": "2026-10-29"
+    },
     {
      "name": "Albert Johansson",
      "status": "Out",
@@ -423,8 +423,8 @@
      "value": -0.0695,
      "regular": false,
      "applied": false,
-     "note": "ir",
-     "date": "2026-10-12"
+     "note": "Marchand (leg) has started skating and is tentatively three weeks away from returning, per George Richards.",
+     "date": "2026-10-29"
     },
     {
      "name": "Aleksander Barkov",
@@ -434,8 +434,8 @@
      "value": 0.082,
      "regular": false,
      "applied": false,
-     "note": "Barkov (lower body) will be out for approximately 6-8 weeks, Jameson Olive of the Panthers' official site reports Tuesday.",
-     "date": "2026-10-06"
+     "note": "Barkov (lower body) resumed skating Wednesday, George Richards of Florida Hockey Now reports.",
+     "date": "2026-10-29"
     },
     {
      "name": "Jonah Gadjovich",
@@ -454,28 +454,6 @@
    "missing_value": 0.011,
    "players": [
     {
-     "name": "Corey Perry",
-     "status": "Day-To-Day",
-     "playerId": 8470621,
-     "position": "R",
-     "value": -0.0289,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-28"
-    },
-    {
-     "name": "Drew Doughty",
-     "status": "Day-To-Day",
-     "playerId": 8474563,
-     "position": "D",
-     "value": 0.0091,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-28"
-    },
-    {
      "name": "Mats Zuccarello",
      "status": "Injured Reserve",
      "playerId": 8475692,
@@ -483,8 +461,19 @@
      "value": 0.011,
      "regular": true,
      "applied": true,
-     "note": "ir",
-     "date": "2026-10-26"
+     "note": "Zuccarello (upper body) is regarded as week-to-week, Zach Dooley of the Kings' official site reports Thursday.",
+     "date": "2026-10-29"
+    },
+    {
+     "name": "Kevin Fiala",
+     "status": "Injured Reserve",
+     "playerId": 8477942,
+     "position": "L",
+     "value": 0.0711,
+     "regular": false,
+     "applied": false,
+     "note": "Head coach Peter Laviolette said Thursday that Fiala (lower leg) remains on a week-to-week timeline, Zach Dooley of the Kings' official site reports.",
+     "date": "2026-10-29"
     },
     {
      "name": "Alex Turcotte",
@@ -507,33 +496,33 @@
      "applied": false,
      "note": "Jenik (undisclosed) was placed on non-roster injured reserve by Los Angeles on Thursday, per Zach Dooley of LA Kings Insider.",
      "date": "2026-09-24"
-    },
-    {
-     "name": "Kevin Fiala",
-     "status": "Injured Reserve",
-     "playerId": 8477942,
-     "position": "L",
-     "value": 0.0711,
-     "regular": false,
-     "applied": false,
-     "note": "Fiala (lower leg fracture) is at least three weeks away from being ready to play, Zach Dooley of the Kings' official site reports Thursday.",
-     "date": "2026-09-17"
     }
    ]
   },
   "MIN": {
-   "missing_value": 0,
+   "missing_value": 0.0991,
    "players": [
     {
+     "name": "Brock Faber",
+     "status": "Injured Reserve",
+     "playerId": 8482122,
+     "position": "D",
+     "value": 0.068,
+     "regular": false,
+     "applied": false,
+     "note": "Faber (skull) has cleared his return to play protocol and could resume skating within a few days, per Michael Russo of The Athletic.",
+     "date": "2026-10-29"
+    },
+    {
      "name": "Jared Spurgeon",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8474716,
      "position": "D",
      "value": 0.0991,
      "regular": true,
-     "applied": false,
-     "note": "Spurgeon (undisclosed) did not finish Tuesday's game versus the Mammoth after blocking two shots on the same shift. Head coach John Hynes had no status update on the defenseman after the contest, per ",
-     "date": "2026-10-28"
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-29"
     },
     {
      "name": "Marcus Foligno",
@@ -556,17 +545,6 @@
      "applied": false,
      "note": "ir",
      "date": "2026-10-09"
-    },
-    {
-     "name": "Brock Faber",
-     "status": "Injured Reserve",
-     "playerId": 8482122,
-     "position": "D",
-     "value": 0.068,
-     "regular": false,
-     "applied": false,
-     "note": "Faber underwent a procedure to repair his fractured skull and is without a timetable to return, per Michael Russo of The Athletic.",
-     "date": "2026-09-29"
     }
    ]
   },
@@ -690,29 +668,18 @@
    ]
   },
   "OTT": {
-   "missing_value": 0.0004,
+   "missing_value": -0.016,
    "players": [
     {
      "name": "Warren Foegele",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8477998,
      "position": "L",
      "value": -0.016,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-28"
-    },
-    {
-     "name": "Thomas Chabot",
-     "status": "Out",
-     "playerId": 8478469,
-     "position": "D",
-     "value": 0.0004,
-     "regular": true,
      "applied": true,
-     "note": "Chabot (upper body) was a full participant in Monday's practice in Vegas and is nearing a return to the lineup, according to Bruce Garrioch of Postmedia.",
-     "date": "2026-10-27"
+     "note": "Foegele (knee) is expected to miss an extended period of time, Jackson Starr of the Senators' official site reports Thursday.",
+     "date": "2026-10-29"
     },
     {
      "name": "William Eklund",
@@ -777,7 +744,7 @@
    ]
   },
   "PIT": {
-   "missing_value": -0.0232,
+   "missing_value": -0.0271,
    "players": [
     {
      "name": "Justin Brazeau",
@@ -800,50 +767,6 @@
      "applied": true,
      "note": "ir",
      "date": "2026-10-28"
-    },
-    {
-     "name": "Ben Kindel",
-     "status": "Injured Reserve",
-     "playerId": 8485414,
-     "position": "C",
-     "value": -0.0225,
-     "regular": true,
-     "applied": true,
-     "note": "Kindel (vasovagal episode) returned to practice Tuesday and feels normal following his vasovagal episode on Oct. 20, per Wes Crosby of NHL.com.",
-     "date": "2026-10-27"
-    },
-    {
-     "name": "Evgeni Malkin",
-     "status": "Day-To-Day",
-     "playerId": 8471215,
-     "position": "C",
-     "value": 0.0188,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-25"
-    },
-    {
-     "name": "Egor Chinakhov",
-     "status": "Day-To-Day",
-     "playerId": 8482475,
-     "position": "R",
-     "value": -0.0294,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-25"
-    },
-    {
-     "name": "Samuel Girard",
-     "status": "Injured Reserve",
-     "playerId": 8479398,
-     "position": "D",
-     "value": 0.0264,
-     "regular": true,
-     "applied": true,
-     "note": "Girard (undisclosed) was placed on injured reserve Saturday.",
-     "date": "2026-10-24"
     },
     {
      "name": "Bryan Rust",
@@ -1009,17 +932,6 @@
    "missing_value": -0.0865,
    "players": [
     {
-     "name": "Brandon Hagel",
-     "status": "Day-To-Day",
-     "playerId": 8479542,
-     "position": "L",
-     "value": 0.1957,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-28"
-    },
-    {
      "name": "Zemgus Girgensons",
      "status": "Out",
      "playerId": 8476878,
@@ -1029,17 +941,6 @@
      "applied": true,
      "note": "out",
      "date": "2026-10-28"
-    },
-    {
-     "name": "Victor Hedman",
-     "status": "Day-To-Day",
-     "playerId": 8475167,
-     "position": "D",
-     "value": -0.0364,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-25"
     },
     {
      "name": "Yanni Gourde",
@@ -1057,6 +958,17 @@
   "TOR": {
    "missing_value": 0.0922,
    "players": [
+    {
+     "name": "Kirill Marchenko",
+     "status": "Injured Reserve",
+     "playerId": 8480893,
+     "position": "R",
+     "value": 0.0697,
+     "regular": true,
+     "applied": true,
+     "note": "ir",
+     "date": "2026-10-29"
+    },
     {
      "name": "Miles Wood",
      "status": "Injured Reserve",
@@ -1077,17 +989,6 @@
      "regular": false,
      "applied": false,
      "note": "The Maple Leafs announced Wednesday that Tanev (upper body) has been upgraded to day-to-day, Mark Masters of TSN reports.",
-     "date": "2026-10-28"
-    },
-    {
-     "name": "Kirill Marchenko",
-     "status": "Out",
-     "playerId": 8480893,
-     "position": "R",
-     "value": 0.0697,
-     "regular": true,
-     "applied": true,
-     "note": "out",
      "date": "2026-10-28"
     },
     {
