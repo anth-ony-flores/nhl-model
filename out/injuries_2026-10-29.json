@@ -1,7 +1,7 @@
 {
  "day": "2026-10-29",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-29 15:04",
+ "fetched": "2026-10-29 15:15",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -54,8 +54,19 @@
    ]
   },
   "BUF": {
-   "missing_value": 0.0511,
+   "missing_value": 0.0472,
    "players": [
+    {
+     "name": "Justin Danforth",
+     "status": "Injured Reserve",
+     "playerId": 8479941,
+     "position": "R",
+     "value": -0.0039,
+     "regular": true,
+     "applied": true,
+     "note": "Danforth (upper body) was placed on injured reserve Thursday, per the NHL media site.",
+     "date": "2026-10-29"
+    },
     {
      "name": "Konsta Helenius",
      "status": "Out",
@@ -66,17 +77,6 @@
      "applied": true,
      "note": "out",
      "date": "2026-10-29"
-    },
-    {
-     "name": "Justin Danforth",
-     "status": "Day-To-Day",
-     "playerId": 8479941,
-     "position": "R",
-     "value": -0.0039,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-28"
     },
     {
      "name": "Jiri Kulich",
