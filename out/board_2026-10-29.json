@@ -1,7 +1,7 @@
 {
  "date": "2026-10-29",
  "data_through": "2026-10-28",
- "generated": "2026-10-29 16:36 MST",
+ "generated": "2026-10-29 16:46 MST",
  "league_xg60": 3.009,
  "b2b_effect": {
   "own_xg": -0.221,
@@ -1026,6 +1026,17 @@
    ],
    "inj_away": [
     {
+     "name": "Mike Matheson",
+     "status": "Out",
+     "playerId": 8476875,
+     "position": "D",
+     "value": -0.1422,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-29"
+    },
+    {
      "name": "Nick Suzuki",
      "status": "Out",
      "playerId": 8480018,
@@ -1060,52 +1071,52 @@
     }
    ],
    "inj_adj_home": 0.021,
-   "inj_adj_away": 0.104,
-   "xg_home": 3.116,
-   "xg_away": 2.652,
-   "proj_home": 2.9,
-   "proj_away": 2.58,
-   "p_home": 0.5587,
-   "p_away": 0.4413,
-   "p_ot": 0.2596,
-   "fair_ml_home": -127,
-   "fair_ml_away": 127,
-   "exp_total": 5.48,
+   "inj_adj_away": -0.038,
+   "xg_home": 3.045,
+   "xg_away": 2.724,
+   "proj_home": 2.84,
+   "proj_away": 2.65,
+   "p_home": 0.5359,
+   "p_away": 0.4641,
+   "p_ot": 0.2611,
+   "fair_ml_home": -115,
+   "fair_ml_away": 115,
+   "exp_total": 5.49,
    "totals": {
     "4.5": {
-     "over": 0.6585,
-     "under": 0.3415
+     "over": 0.6593,
+     "under": 0.3407
     },
     "5.0": {
-     "over": 0.4529,
-     "under": 0.3415
+     "over": 0.4536,
+     "under": 0.3407
     },
     "5.5": {
-     "over": 0.4529,
-     "under": 0.5471
+     "over": 0.4536,
+     "under": 0.5464
     },
     "6.0": {
-     "over": 0.3152,
-     "under": 0.5471
+     "over": 0.316,
+     "under": 0.5464
     },
     "6.5": {
-     "over": 0.3152,
-     "under": 0.6848
+     "over": 0.316,
+     "under": 0.684
     },
     "7.0": {
-     "over": 0.1726,
-     "under": 0.6848
+     "over": 0.1731,
+     "under": 0.684
     },
     "7.5": {
-     "over": 0.1726,
-     "under": 0.8274
+     "over": 0.1731,
+     "under": 0.8269
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3357,
-    "away_+1.5": 0.6643,
-    "away_-1.5": 0.2451,
-    "home_+1.5": 0.7549
+    "home_-1.5": 0.3171,
+    "away_+1.5": 0.6829,
+    "away_-1.5": 0.2616,
+    "home_+1.5": 0.7384
    }
   },
   {
