@@ -1,7 +1,7 @@
 {
  "day": "2026-10-29",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-29 16:46",
+ "fetched": "2026-10-29 16:56",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -492,6 +492,17 @@
    "missing_value": 0.0991,
    "players": [
     {
+     "name": "Jared Spurgeon",
+     "status": "Injured Reserve",
+     "playerId": 8474716,
+     "position": "D",
+     "value": 0.0991,
+     "regular": true,
+     "applied": true,
+     "note": "ir",
+     "date": "2026-10-29"
+    },
+    {
      "name": "Brock Faber",
      "status": "Injured Reserve",
      "playerId": 8482122,
@@ -500,17 +511,6 @@
      "regular": false,
      "applied": false,
      "note": "Faber (skull) has cleared his return to play protocol and could resume skating within a few days, per Michael Russo of The Athletic.",
-     "date": "2026-10-29"
-    },
-    {
-     "name": "Jared Spurgeon",
-     "status": "Out",
-     "playerId": 8474716,
-     "position": "D",
-     "value": 0.0991,
-     "regular": true,
-     "applied": true,
-     "note": "out",
      "date": "2026-10-29"
     },
     {
