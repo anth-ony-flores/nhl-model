@@ -1,6 +1,6 @@
 {
  "date": "2026-10-28",
- "generated": "2026-10-29T01:33:18Z",
+ "generated": "2026-10-29T01:43:26Z",
  "data_through": "2026-10-27",
  "picks_enabled": false,
  "params": {
@@ -73,7 +73,7 @@
    "home_name": "Capitals",
    "start_utc": "2026-10-28T23:30:00Z",
    "state": "in",
-   "detail": "18:30 - 3rd",
+   "detail": "12:26 - 3rd",
    "frozen": true,
    "goal_factor": {
     "PHI": 0.997,
@@ -2664,7 +2664,7 @@
    "home_name": "Oilers",
    "start_utc": "2026-10-29T00:30:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "16:33 - 2nd",
    "frozen": true,
    "goal_factor": {
     "CGY": 0.97,
@@ -5185,7 +5185,7 @@
    "home_name": "Avalanche",
    "start_utc": "2026-10-29T01:00:00Z",
    "state": "in",
-   "detail": "6:30 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "NJD": 0.881,
@@ -7743,9 +7743,9 @@
       "opp": "SEA",
       "line": 2.5,
       "open_line": 2.5,
-      "over": "-120",
+      "over": "-130",
       "over_open": "-155",
-      "under": "-115",
+      "under": "-105",
       "under_open": "+115",
       "updated": "2026-10-28T21:40Z",
       "player_id": 8477939,
@@ -7764,11 +7764,11 @@
        "6.5": 0.0319,
        "7.5": 0.0121
       },
-      "mkt_over": 0.5049,
-      "edge_over": 0.0238,
-      "edge_under": -0.0238,
+      "mkt_over": 0.5246,
+      "edge_over": 0.0041,
+      "edge_under": -0.0041,
       "lean": "Over",
-      "edge": 0.0238,
+      "edge": 0.0041,
       "strong": false
      },
      {
@@ -7848,7 +7848,7 @@
       "opp": "SEA",
       "line": 1.5,
       "open_line": 1.5,
-      "over": "-135",
+      "over": "-130",
       "over_open": "-125",
       "under": "+100",
       "under_open": "-110",
@@ -7869,12 +7869,12 @@
        "6.5": 0.0028,
        "7.5": 0.0007
       },
-      "mkt_over": 0.5347,
-      "edge_over": -0.0309,
-      "edge_under": 0.0309,
+      "mkt_over": 0.5306,
+      "edge_over": -0.0268,
+      "edge_under": 0.0268,
       "lean": "Under",
-      "edge": 0.0309,
-      "strong": true
+      "edge": 0.0268,
+      "strong": false
      },
      {
       "espn_id": "2976833",
