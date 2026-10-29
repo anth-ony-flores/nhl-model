@@ -1,6 +1,6 @@
 {
  "date": "2026-10-28",
- "generated": "2026-10-29T00:42:41Z",
+ "generated": "2026-10-29T00:52:48Z",
  "data_through": "2026-10-27",
  "picks_enabled": false,
  "params": {
@@ -11,13 +11,13 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 124,
-  "checked": 120,
-  "first_is_over": 120,
+  "pairs": 81,
+  "checked": 78,
+  "first_is_over": 78,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 232,
+ "lines": 153,
  "unmatched": [
   {
    "espn_id": "5080217",
@@ -36,7 +36,7 @@
    "why": "no MoneyPuck skater match (no recent games?)"
   }
  ],
- "unmatched_rate": 0.0086,
+ "unmatched_rate": 0.0131,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -73,7 +73,7 @@
    "home_name": "Capitals",
    "start_utc": "2026-10-28T23:30:00Z",
    "state": "in",
-   "detail": "13:54 - 2nd",
+   "detail": "9:36 - 2nd",
    "frozen": true,
    "goal_factor": {
     "PHI": 0.997,
@@ -2663,9 +2663,9 @@
    "away_name": "Flames",
    "home_name": "Oilers",
    "start_utc": "2026-10-29T00:30:00Z",
-   "state": "pre",
-   "detail": "10/28 - 8:30 PM EDT",
-   "frozen": false,
+   "state": "in",
+   "detail": "14:41 - 1st",
+   "frozen": true,
    "goal_factor": {
     "CGY": 0.97,
     "EDM": 1.027
