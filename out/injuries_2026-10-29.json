@@ -1,7 +1,7 @@
 {
  "day": "2026-10-29",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-29 14:54",
+ "fetched": "2026-10-29 15:04",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -304,17 +304,17 @@
    ]
   },
   "DET": {
-   "missing_value": -0.0213,
+   "missing_value": -0.0276,
    "players": [
     {
      "name": "Dylan Larkin",
-     "status": "Out",
+     "status": "Suspension",
      "playerId": 8477946,
      "position": "C",
      "value": 0.0063,
      "regular": true,
-     "applied": true,
-     "note": "Larkin (not injury related) will not play until he is traded away from the Red Wings, per Elliotte Friedman of Sportsnet.",
+     "applied": false,
+     "note": "suspension",
      "date": "2026-10-29"
     },
     {
