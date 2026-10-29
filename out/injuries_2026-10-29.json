@@ -1,7 +1,7 @@
 {
  "day": "2026-10-29",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-29 16:05",
+ "fetched": "2026-10-29 16:15",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -212,17 +212,6 @@
      "regular": false,
      "applied": false,
      "note": "out",
-     "date": "2026-10-29"
-    },
-    {
-     "name": "Alex Vlasic",
-     "status": "Day-To-Day",
-     "playerId": 8481568,
-     "position": "D",
-     "value": -0.0477,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
      "date": "2026-10-29"
     }
    ]

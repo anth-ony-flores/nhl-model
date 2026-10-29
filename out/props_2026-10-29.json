@@ -1,6 +1,6 @@
 {
  "date": "2026-10-29",
- "generated": "2026-10-29T23:05:46Z",
+ "generated": "2026-10-29T23:15:54Z",
  "data_through": "2026-10-28",
  "picks_enabled": false,
  "params": {
@@ -11,22 +11,14 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 376,
-  "checked": 364,
-  "first_is_over": 364,
+  "pairs": 303,
+  "checked": 293,
+  "first_is_over": 293,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 733,
+ "lines": 588,
  "unmatched": [
-  {
-   "espn_id": "5080205",
-   "name": "Artem Duda",
-   "team": "UTA",
-   "market": "goal",
-   "game": "UTA@PIT",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  },
   {
    "espn_id": "5302584",
    "name": "Trey Taylor",
@@ -52,7 +44,7 @@
    "why": "no MoneyPuck skater match (no recent games?)"
   }
  ],
- "unmatched_rate": 0.0055,
+ "unmatched_rate": 0.0051,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -89,7 +81,7 @@
    "home_name": "Lightning",
    "start_utc": "2026-10-29T23:00:00Z",
    "state": "in",
-   "detail": "20:00 - 1st",
+   "detail": "15:20 - 1st",
    "frozen": true,
    "goal_factor": {
     "WPG": 0.928,
@@ -2264,9 +2256,9 @@
    "away_name": "Mammoth",
    "home_name": "Penguins",
    "start_utc": "2026-10-29T23:00:00Z",
-   "state": "pre",
-   "detail": "10/29 - 7:00 PM EDT",
-   "frozen": false,
+   "state": "in",
+   "detail": "17:07 - 1st",
+   "frozen": true,
    "goal_factor": {
     "UTA": 1.046,
     "PIT": 0.975
@@ -4566,9 +4558,9 @@
    "away_name": "Blue Jackets",
    "home_name": "Hurricanes",
    "start_utc": "2026-10-29T23:00:00Z",
-   "state": "pre",
-   "detail": "10/29 - 7:00 PM EDT",
-   "frozen": false,
+   "state": "in",
+   "detail": "15:29 - 1st",
+   "frozen": true,
    "goal_factor": {
     "CBJ": 0.86,
     "CAR": 1.012
