@@ -1,7 +1,7 @@
 {
  "day": "2026-10-29",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-29 15:15",
+ "fetched": "2026-10-29 15:25",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -304,17 +304,17 @@
    ]
   },
   "DET": {
-   "missing_value": -0.0276,
+   "missing_value": -0.0213,
    "players": [
     {
      "name": "Dylan Larkin",
-     "status": "Suspension",
+     "status": "Injured Reserve",
      "playerId": 8477946,
      "position": "C",
      "value": 0.0063,
      "regular": true,
-     "applied": false,
-     "note": "suspension",
+     "applied": true,
+     "note": "ir-nr",
      "date": "2026-10-29"
     },
     {
