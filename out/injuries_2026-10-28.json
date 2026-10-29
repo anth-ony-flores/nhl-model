@@ -1,7 +1,7 @@
 {
  "day": "2026-10-28",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-28 17:12",
+ "fetched": "2026-10-28 17:22",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -1036,6 +1036,17 @@
    "missing_value": 0.0922,
    "players": [
     {
+     "name": "Miles Wood",
+     "status": "Injured Reserve",
+     "playerId": 8477425,
+     "position": "L",
+     "value": -0.0671,
+     "regular": false,
+     "applied": false,
+     "note": "Wood (undisclosed) was transferred to long-term injured reserve Wednesday, David Alter of The Hockey News reports.",
+     "date": "2026-10-29"
+    },
+    {
      "name": "Chris Tanev",
      "status": "Injured Reserve",
      "playerId": 8475690,
@@ -1089,17 +1100,6 @@
      "applied": false,
      "note": "ir",
      "date": "2026-10-17"
-    },
-    {
-     "name": "Miles Wood",
-     "status": "Injured Reserve",
-     "playerId": 8477425,
-     "position": "L",
-     "value": -0.0671,
-     "regular": false,
-     "applied": false,
-     "note": "ir",
-     "date": "2026-10-15"
     },
     {
      "name": "Max Domi",

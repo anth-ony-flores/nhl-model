@@ -1,7 +1,7 @@
 {
  "date": "2026-10-28",
  "data_through": "2026-10-26",
- "generated": "2026-10-28 17:12 MST",
+ "generated": "2026-10-28 17:22 MST",
  "league_xg60": 3.011,
  "b2b_effect": {
   "own_xg": -0.206,
@@ -543,6 +543,17 @@
    ],
    "inj_away": [
     {
+     "name": "Miles Wood",
+     "status": "Injured Reserve",
+     "playerId": 8477425,
+     "position": "L",
+     "value": -0.0671,
+     "regular": false,
+     "applied": false,
+     "note": "Wood (undisclosed) was transferred to long-term injured reserve Wednesday, David Alter of The Hockey News reports.",
+     "date": "2026-10-29"
+    },
+    {
      "name": "Chris Tanev",
      "status": "Injured Reserve",
      "playerId": 8475690,
@@ -596,17 +607,6 @@
      "applied": false,
      "note": "ir",
      "date": "2026-10-17"
-    },
-    {
-     "name": "Miles Wood",
-     "status": "Injured Reserve",
-     "playerId": 8477425,
-     "position": "L",
-     "value": -0.0671,
-     "regular": false,
-     "applied": false,
-     "note": "ir",
-     "date": "2026-10-15"
     },
     {
      "name": "Max Domi",
