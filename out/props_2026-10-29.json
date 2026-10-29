@@ -1,6 +1,6 @@
 {
  "date": "2026-10-29",
- "generated": "2026-10-29T21:00:06Z",
+ "generated": "2026-10-29T21:10:17Z",
  "data_through": "2026-10-28",
  "picks_enabled": false,
  "params": {
@@ -12,8 +12,8 @@
  },
  "side_check": {
   "pairs": 401,
-  "checked": 389,
-  "first_is_over": 388,
+  "checked": 390,
+  "first_is_over": 389,
   "mismatch": 1,
   "mismatches": [
    {
@@ -5026,9 +5026,9 @@
       "opp": "CBJ",
       "line": 1.5,
       "open_line": 1.5,
-      "over": "-110",
+      "over": "-130",
       "over_open": "-175",
-      "under": "-125",
+      "under": "-105",
       "under_open": "+130",
       "updated": "2026-10-29T11:39Z",
       "player_id": 8476906,
@@ -5047,12 +5047,12 @@
        "6.5": 0.0041,
        "7.5": 0.0011
       },
-      "mkt_over": 0.4853,
-      "edge_over": 0.0583,
-      "edge_under": -0.0583,
+      "mkt_over": 0.5246,
+      "edge_over": 0.019,
+      "edge_under": -0.019,
       "lean": "Over",
-      "edge": 0.0583,
-      "strong": true
+      "edge": 0.019,
+      "strong": false
      },
      {
       "espn_id": "3042054",
@@ -16132,7 +16132,7 @@
       "opp": "NYI",
       "line": 3.5,
       "open_line": 3.5,
-      "over": "-110",
+      "over": "-115",
       "over_open": "-115",
       "under": "-120",
       "under_open": "-120",
@@ -16153,11 +16153,11 @@
        "6.5": 0.0644,
        "7.5": 0.0283
       },
-      "mkt_over": 0.4899,
-      "edge_over": -0.0625,
-      "edge_under": 0.0625,
+      "mkt_over": 0.4951,
+      "edge_over": -0.0678,
+      "edge_under": 0.0678,
       "lean": "Under",
-      "edge": 0.0625,
+      "edge": 0.0678,
       "strong": true
      },
      {
@@ -16476,9 +16476,9 @@
       "opp": "MIN",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+110",
+      "over": "+120",
       "over_open": "+120",
-      "under": "-150",
+      "under": "-160",
       "under_open": "-160",
       "updated": "2026-10-29T11:49Z",
       "player_id": 8475170,
@@ -16493,11 +16493,11 @@
        "2.5": 0.0205,
        "3.5": 0.0029
       },
-      "mkt_over": 0.4425,
-      "edge_over": -0.0062,
-      "edge_under": 0.0062,
-      "lean": "Under",
-      "edge": 0.0062,
+      "mkt_over": 0.4248,
+      "edge_over": 0.0114,
+      "edge_under": -0.0114,
+      "lean": "Over",
+      "edge": 0.0114,
       "strong": false
      },
      {
@@ -16600,9 +16600,9 @@
       "opp": "MIN",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+190",
+      "over": "+200",
       "over_open": "+200",
-      "under": "-265",
+      "under": "-270",
       "under_open": "-270",
       "updated": "2026-10-29T20:19Z",
       "player_id": 8477950,
@@ -16617,11 +16617,11 @@
        "2.5": 0.0088,
        "3.5": 0.0009
       },
-      "mkt_over": 0.322,
-      "edge_over": 0.0186,
-      "edge_under": -0.0186,
+      "mkt_over": 0.3136,
+      "edge_over": 0.027,
+      "edge_under": -0.027,
       "lean": "Over",
-      "edge": 0.0186,
+      "edge": 0.027,
       "strong": false
      },
      {
@@ -18142,13 +18142,13 @@
       "player": "Ilya Sorokin",
       "team": "NYI",
       "opp": "MIN",
-      "line": 26.5,
+      "line": 27.5,
       "open_line": 26.5,
-      "over": "-130",
+      "over": "-105",
       "over_open": "-130",
-      "under": "-105",
+      "under": "-130",
       "under_open": "-105",
-      "updated": "2026-10-29T20:03Z",
+      "updated": "2026-10-29T23:54Z",
       "player_id": 8478009,
       "pos": "G",
       "starter": true,
@@ -18156,7 +18156,7 @@
       "proj_sa": 27.7,
       "proj_sv": 0.8936,
       "mean": 24.72,
-      "p_over": 0.385,
+      "p_over": 0.3247,
       "curve": {
        "14.5": 0.9438,
        "15.5": 0.927,
@@ -18187,11 +18187,11 @@
        "40.5": 0.0079,
        "41.5": 0.0053
       },
-      "mkt_over": 0.5246,
-      "edge_over": -0.1396,
-      "edge_under": 0.1396,
+      "mkt_over": 0.4754,
+      "edge_over": -0.1507,
+      "edge_under": 0.1507,
       "lean": "Under",
-      "edge": 0.1396,
+      "edge": 0.1507,
       "strong": true
      }
     ]
