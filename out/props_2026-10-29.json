@@ -1,6 +1,6 @@
 {
  "date": "2026-10-29",
- "generated": "2026-10-30T00:36:54Z",
+ "generated": "2026-10-30T00:47:01Z",
  "data_through": "2026-10-28",
  "picks_enabled": false,
  "params": {
@@ -73,7 +73,7 @@
    "home_name": "Lightning",
    "start_utc": "2026-10-29T23:00:00Z",
    "state": "in",
-   "detail": "5:12 - 2nd",
+   "detail": "1:12 - 2nd",
    "frozen": true,
    "goal_factor": {
     "WPG": 0.928,
@@ -2249,7 +2249,7 @@
    "home_name": "Penguins",
    "start_utc": "2026-10-29T23:00:00Z",
    "state": "in",
-   "detail": "3:17 - 2nd",
+   "detail": "End of 2nd",
    "frozen": true,
    "goal_factor": {
     "UTA": 1.046,
@@ -4551,7 +4551,7 @@
    "home_name": "Hurricanes",
    "start_utc": "2026-10-29T23:00:00Z",
    "state": "in",
-   "detail": "5:06 - 2nd",
+   "detail": "End of 2nd",
    "frozen": true,
    "goal_factor": {
     "CBJ": 0.86,
@@ -6859,7 +6859,7 @@
    "home_name": "Red Wings",
    "start_utc": "2026-10-29T23:30:00Z",
    "state": "in",
-   "detail": "18:18 - 2nd",
+   "detail": "12:41 - 2nd",
    "frozen": true,
    "goal_factor": {
     "CHI": 1.017,
@@ -9073,7 +9073,7 @@
    "home_name": "Blues",
    "start_utc": "2026-10-30T00:00:00Z",
    "state": "in",
-   "detail": "4:31 - 1st",
+   "detail": "0:27 - 1st",
    "frozen": true,
    "goal_factor": {
     "BOS": 0.984,
@@ -11501,7 +11501,7 @@
    "home_name": "Predators",
    "start_utc": "2026-10-30T00:00:00Z",
    "state": "in",
-   "detail": "10:06 - 1st",
+   "detail": "5:23 - 1st",
    "frozen": true,
    "goal_factor": {
     "WSH": 0.988,
@@ -13941,7 +13941,7 @@
    "home_name": "Stars",
    "start_utc": "2026-10-30T00:00:00Z",
    "state": "in",
-   "detail": "4:56 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "MTL": 0.899,
@@ -15993,7 +15993,7 @@
    "home_name": "Wild",
    "start_utc": "2026-10-30T00:00:00Z",
    "state": "in",
-   "detail": "3:24 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "NYI": 0.944,
