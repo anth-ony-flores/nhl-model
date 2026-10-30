@@ -1,7 +1,7 @@
 {
  "day": "2026-10-30",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-30 14:10",
+ "fetched": "2026-10-30 14:20",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -1179,13 +1179,13 @@
    "players": [
     {
      "name": "Filip Chytil",
-     "status": "Out",
+     "status": "Injured Reserve",
      "playerId": 8480078,
      "position": "C",
      "value": 0.0139,
      "regular": true,
      "applied": true,
-     "note": "Chytil (upper body) is expected to miss Saturday's game against Toronto, per Jeff Paterson of CanucksArmy.com.",
+     "note": "ir",
      "date": "2026-10-30"
     },
     {
