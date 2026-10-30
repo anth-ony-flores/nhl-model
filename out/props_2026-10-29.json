@@ -1,6 +1,6 @@
 {
  "date": "2026-10-29",
- "generated": "2026-10-30T00:47:01Z",
+ "generated": "2026-10-30T00:57:08Z",
  "data_through": "2026-10-28",
  "picks_enabled": false,
  "params": {
@@ -73,7 +73,7 @@
    "home_name": "Lightning",
    "start_utc": "2026-10-29T23:00:00Z",
    "state": "in",
-   "detail": "1:12 - 2nd",
+   "detail": "End of 2nd",
    "frozen": true,
    "goal_factor": {
     "WPG": 0.928,
@@ -6859,7 +6859,7 @@
    "home_name": "Red Wings",
    "start_utc": "2026-10-29T23:30:00Z",
    "state": "in",
-   "detail": "12:41 - 2nd",
+   "detail": "8:57 - 2nd",
    "frozen": true,
    "goal_factor": {
     "CHI": 1.017,
@@ -9073,7 +9073,7 @@
    "home_name": "Blues",
    "start_utc": "2026-10-30T00:00:00Z",
    "state": "in",
-   "detail": "0:27 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "BOS": 0.984,
@@ -11501,7 +11501,7 @@
    "home_name": "Predators",
    "start_utc": "2026-10-30T00:00:00Z",
    "state": "in",
-   "detail": "5:23 - 1st",
+   "detail": "0:55 - 1st",
    "frozen": true,
    "goal_factor": {
     "WSH": 0.988,
