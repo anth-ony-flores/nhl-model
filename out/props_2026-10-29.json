@@ -1,6 +1,6 @@
 {
  "date": "2026-10-29",
- "generated": "2026-10-30T01:37:37Z",
+ "generated": "2026-10-30T01:47:44Z",
  "data_through": "2026-10-28",
  "picks_enabled": false,
  "params": {
@@ -73,7 +73,7 @@
    "home_name": "Lightning",
    "start_utc": "2026-10-29T23:00:00Z",
    "state": "in",
-   "detail": "4:47 - 3rd",
+   "detail": "0:35 - 3rd",
    "frozen": true,
    "goal_factor": {
     "WPG": 0.928,
@@ -2249,7 +2249,7 @@
    "home_name": "Penguins",
    "start_utc": "2026-10-29T23:00:00Z",
    "state": "in",
-   "detail": "0:22 - 3rd",
+   "detail": "2:28 - OT",
    "frozen": true,
    "goal_factor": {
     "UTA": 1.046,
@@ -4550,8 +4550,8 @@
    "away_name": "Blue Jackets",
    "home_name": "Hurricanes",
    "start_utc": "2026-10-29T23:00:00Z",
-   "state": "in",
-   "detail": "2:33 - 3rd",
+   "state": "post",
+   "detail": "Final",
    "frozen": true,
    "goal_factor": {
     "CBJ": 0.86,
@@ -6859,7 +6859,7 @@
    "home_name": "Red Wings",
    "start_utc": "2026-10-29T23:30:00Z",
    "state": "in",
-   "detail": "15:40 - 3rd",
+   "detail": "10:50 - 3rd",
    "frozen": true,
    "goal_factor": {
     "CHI": 1.017,
@@ -9073,7 +9073,7 @@
    "home_name": "Blues",
    "start_utc": "2026-10-30T00:00:00Z",
    "state": "in",
-   "detail": "4:41 - 2nd",
+   "detail": "End of 2nd",
    "frozen": true,
    "goal_factor": {
     "BOS": 0.984,
@@ -11501,7 +11501,7 @@
    "home_name": "Predators",
    "start_utc": "2026-10-30T00:00:00Z",
    "state": "in",
-   "detail": "8:24 - 2nd",
+   "detail": "4:44 - 2nd",
    "frozen": true,
    "goal_factor": {
     "WSH": 0.988,
@@ -13941,7 +13941,7 @@
    "home_name": "Stars",
    "start_utc": "2026-10-30T00:00:00Z",
    "state": "in",
-   "detail": "2:57 - 2nd",
+   "detail": "End of 2nd",
    "frozen": true,
    "goal_factor": {
     "MTL": 0.899,
@@ -15993,7 +15993,7 @@
    "home_name": "Wild",
    "start_utc": "2026-10-30T00:00:00Z",
    "state": "in",
-   "detail": "0:39 - 2nd",
+   "detail": "End of 2nd",
    "frozen": true,
    "goal_factor": {
     "NYI": 0.944,
