@@ -1,6 +1,6 @@
 {
  "date": "2026-10-30",
- "generated": "2026-10-30T22:41:45Z",
+ "generated": "2026-10-30T22:51:51Z",
  "data_through": "2026-10-29",
  "picks_enabled": false,
  "params": {
@@ -56,7 +56,7 @@
    "home_name": "Golden Knights",
    "start_utc": "2026-10-30T22:00:00Z",
    "state": "in",
-   "detail": "1:42 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "NJD": 0.895,
