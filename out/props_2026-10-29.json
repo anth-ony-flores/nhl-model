@@ -1,6 +1,6 @@
 {
  "date": "2026-10-29",
- "generated": "2026-10-30T00:06:30Z",
+ "generated": "2026-10-30T00:16:38Z",
  "data_through": "2026-10-28",
  "picks_enabled": false,
  "params": {
@@ -11,22 +11,14 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 268,
-  "checked": 259,
-  "first_is_over": 259,
+  "pairs": 158,
+  "checked": 153,
+  "first_is_over": 153,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 517,
+ "lines": 300,
  "unmatched": [
-  {
-   "espn_id": "5302584",
-   "name": "Trey Taylor",
-   "team": "DAL",
-   "market": "goal",
-   "game": "MTL@DAL",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  },
   {
    "espn_id": "5080175",
    "name": "Filip Bystedt",
@@ -44,7 +36,7 @@
    "why": "no MoneyPuck skater match (no recent games?)"
   }
  ],
- "unmatched_rate": 0.0058,
+ "unmatched_rate": 0.0067,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -81,7 +73,7 @@
    "home_name": "Lightning",
    "start_utc": "2026-10-29T23:00:00Z",
    "state": "in",
-   "detail": "19:34 - 2nd",
+   "detail": "13:46 - 2nd",
    "frozen": true,
    "goal_factor": {
     "WPG": 0.928,
@@ -2257,7 +2249,7 @@
    "home_name": "Penguins",
    "start_utc": "2026-10-29T23:00:00Z",
    "state": "in",
-   "detail": "19:27 - 2nd",
+   "detail": "13:45 - 2nd",
    "frozen": true,
    "goal_factor": {
     "UTA": 1.046,
@@ -4559,7 +4551,7 @@
    "home_name": "Hurricanes",
    "start_utc": "2026-10-29T23:00:00Z",
    "state": "in",
-   "detail": "19:28 - 2nd",
+   "detail": "13:55 - 2nd",
    "frozen": true,
    "goal_factor": {
     "CBJ": 0.86,
@@ -6867,7 +6859,7 @@
    "home_name": "Red Wings",
    "start_utc": "2026-10-29T23:30:00Z",
    "state": "in",
-   "detail": "5:48 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "CHI": 1.017,
@@ -9080,9 +9072,9 @@
    "away_name": "Bruins",
    "home_name": "Blues",
    "start_utc": "2026-10-30T00:00:00Z",
-   "state": "pre",
-   "detail": "10/29 - 8:00 PM EDT",
-   "frozen": false,
+   "state": "in",
+   "detail": "14:56 - 1st",
+   "frozen": true,
    "goal_factor": {
     "BOS": 0.984,
     "STL": 1.045
@@ -13948,9 +13940,9 @@
    "away_name": "Canadiens",
    "home_name": "Stars",
    "start_utc": "2026-10-30T00:00:00Z",
-   "state": "pre",
-   "detail": "10/29 - 8:00 PM EDT",
-   "frozen": false,
+   "state": "in",
+   "detail": "14:29 - 1st",
+   "frozen": true,
    "goal_factor": {
     "MTL": 0.899,
     "DAL": 1.057
@@ -16000,9 +15992,9 @@
    "away_name": "Islanders",
    "home_name": "Wild",
    "start_utc": "2026-10-30T00:00:00Z",
-   "state": "pre",
-   "detail": "10/29 - 8:00 PM EDT",
-   "frozen": false,
+   "state": "in",
+   "detail": "14:41 - 1st",
+   "frozen": true,
    "goal_factor": {
     "NYI": 0.944,
     "MIN": 1.059
