@@ -1,6 +1,6 @@
 {
  "date": "2026-10-30",
- "generated": "2026-10-30T23:12:05Z",
+ "generated": "2026-10-30T23:22:12Z",
  "data_through": "2026-10-29",
  "picks_enabled": false,
  "params": {
@@ -56,7 +56,7 @@
    "home_name": "Golden Knights",
    "start_utc": "2026-10-30T22:00:00Z",
    "state": "in",
-   "detail": "15:59 - 2nd",
+   "detail": "10:20 - 2nd",
    "frozen": true,
    "goal_factor": {
     "NJD": 0.895,
@@ -2397,7 +2397,7 @@
    "home_name": "Panthers",
    "start_utc": "2026-10-30T23:00:00Z",
    "state": "in",
-   "detail": "17:57 - 1st",
+   "detail": "13:14 - 1st",
    "frozen": true,
    "goal_factor": {
     "WPG": 0.912,
