@@ -1,7 +1,7 @@
 {
  "day": "2026-10-30",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-30 07:25",
+ "fetched": "2026-10-30 13:00",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -125,18 +125,29 @@
    ]
   },
   "CGY": {
-   "missing_value": 0,
+   "missing_value": -0.0528,
    "players": [
     {
+     "name": "Connor Zary",
+     "status": "Out",
+     "playerId": 8482074,
+     "position": "C",
+     "value": 0.022,
+     "regular": false,
+     "applied": false,
+     "note": "out",
+     "date": "2026-10-30"
+    },
+    {
      "name": "Brennan Othmann",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8482747,
      "position": "L",
      "value": -0.0528,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-29"
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-30"
     },
     {
      "name": "Jonathan Huberdeau",
@@ -227,8 +238,19 @@
      "value": -0.0146,
      "regular": true,
      "applied": true,
-     "note": "out",
-     "date": "2026-10-29"
+     "note": "Manson (ankle) is expected to miss the next eight weeks, Corey Masisak of The Denver Post reports Friday.",
+     "date": "2026-10-30"
+    },
+    {
+     "name": "Logan O'Connor",
+     "status": "Day-To-Day",
+     "playerId": 8481186,
+     "position": "R",
+     "value": -0.0021,
+     "regular": false,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-10-30"
     },
     {
      "name": "Zachary L'Heureux",
@@ -293,17 +315,39 @@
    ]
   },
   "DET": {
-   "missing_value": 0.0063,
+   "missing_value": -0.0213,
    "players": [
     {
+     "name": "Mason Appleton",
+     "status": "Injured Reserve",
+     "playerId": 8478891,
+     "position": "C",
+     "value": -0.0346,
+     "regular": false,
+     "applied": false,
+     "note": "Head coach Todd McLellan said Friday that Appleton (undisclosed) is still 10 days to two weeks away from returning to game action, Ansar Khan of MLive.com reports.",
+     "date": "2026-10-30"
+    },
+    {
+     "name": "Marco Kasper",
+     "status": "Injured Reserve",
+     "playerId": 8483464,
+     "position": "C",
+     "value": 0.0485,
+     "regular": false,
+     "applied": false,
+     "note": "Head coach Todd McLellan said Friday that Kasper (upper body) is still 10 days to two weeks away from returning to game action, Ansar Khan of MLive.com reports.",
+     "date": "2026-10-30"
+    },
+    {
      "name": "Albert Johansson",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8481607,
      "position": "D",
      "value": -0.0276,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
+     "applied": true,
+     "note": "Head coach Todd McLellan said Friday that Johansson (undisclosed) will miss at least three more games, Ansar Khan of MLive.com reports.",
      "date": "2026-10-30"
     },
     {
@@ -327,28 +371,6 @@
      "applied": false,
      "note": "Edvinsson (contract dispute) is on the Red Wings' injured, non-roster list, per the NHL media site Wednesday.",
      "date": "2026-10-14"
-    },
-    {
-     "name": "Mason Appleton",
-     "status": "Injured Reserve",
-     "playerId": 8478891,
-     "position": "C",
-     "value": -0.0346,
-     "regular": false,
-     "applied": false,
-     "note": "ir",
-     "date": "2026-10-06"
-    },
-    {
-     "name": "Marco Kasper",
-     "status": "Injured Reserve",
-     "playerId": 8483464,
-     "position": "C",
-     "value": 0.0485,
-     "regular": false,
-     "applied": false,
-     "note": "Kasper (upper body) has been given a week-to-week timetable for return.",
-     "date": "2026-10-06"
     }
    ]
   },
@@ -502,6 +524,17 @@
   "MIN": {
    "missing_value": 0.0991,
    "players": [
+    {
+     "name": "Joel Eriksson Ek",
+     "status": "Day-To-Day",
+     "playerId": 8478493,
+     "position": "C",
+     "value": 0.0653,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-10-30"
+    },
     {
      "name": "Jared Spurgeon",
      "status": "Injured Reserve",
@@ -676,6 +709,17 @@
   "NYR": {
    "missing_value": 0,
    "players": [
+    {
+     "name": "Eeli Tolvanen",
+     "status": "Day-To-Day",
+     "playerId": 8480009,
+     "position": "R",
+     "value": -0.0732,
+     "regular": true,
+     "applied": false,
+     "note": "Tolvanen didn't participate in Friday's practice session due to personal reasons, Vince Z. Mercogliano of The Athletic reports.",
+     "date": "2026-10-30"
+    },
     {
      "name": "Adam Sykora",
      "status": "Injured Reserve",
@@ -905,6 +949,17 @@
    "missing_value": 0,
    "players": [
     {
+     "name": "Colton Parayko",
+     "status": "Day-To-Day",
+     "playerId": 8476892,
+     "position": "D",
+     "value": 0.0233,
+     "regular": true,
+     "applied": false,
+     "note": "Parayko didn't practice Friday due to an upper-body injury but is considered probable for Saturday's game against the Red Wings, Lou Korac of NHL.com reports.",
+     "date": "2026-10-30"
+    },
+    {
      "name": "Ross Johnston",
      "status": "Injured Reserve",
      "playerId": 8477527,
@@ -1122,6 +1177,17 @@
   "VAN": {
    "missing_value": 0,
    "players": [
+    {
+     "name": "Filip Chytil",
+     "status": "Day-To-Day",
+     "playerId": 8480078,
+     "position": "C",
+     "value": 0.0139,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-10-30"
+    },
     {
      "name": "Akil Thomas",
      "status": "Injured Reserve",

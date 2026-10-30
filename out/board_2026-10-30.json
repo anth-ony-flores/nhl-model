@@ -1,7 +1,7 @@
 {
  "date": "2026-10-30",
  "data_through": "2026-10-29",
- "generated": "2026-10-30 07:26 MST",
+ "generated": "2026-10-30 13:00 MST",
  "league_xg60": 3.009,
  "b2b_effect": {
   "own_xg": -0.216,
@@ -352,15 +352,26 @@
    },
    "inj_home": [
     {
+     "name": "Connor Zary",
+     "status": "Out",
+     "playerId": 8482074,
+     "position": "C",
+     "value": 0.022,
+     "regular": false,
+     "applied": false,
+     "note": "out",
+     "date": "2026-10-30"
+    },
+    {
      "name": "Brennan Othmann",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8482747,
      "position": "L",
      "value": -0.0528,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-29"
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-30"
     },
     {
      "name": "Jonathan Huberdeau",
@@ -420,53 +431,53 @@
      "date": "2026-10-08"
     }
    ],
-   "inj_adj_home": 0,
+   "inj_adj_home": -0.053,
    "inj_adj_away": 0.069,
-   "xg_home": 2.91,
-   "xg_away": 2.913,
-   "proj_home": 3.02,
-   "proj_away": 2.83,
-   "p_home": 0.5324,
-   "p_away": 0.4676,
-   "p_ot": 0.2518,
-   "fair_ml_home": -114,
-   "fair_ml_away": 114,
+   "xg_home": 2.936,
+   "xg_away": 2.887,
+   "proj_home": 3.04,
+   "proj_away": 2.81,
+   "p_home": 0.5411,
+   "p_away": 0.4589,
+   "p_ot": 0.2513,
+   "fair_ml_home": -118,
+   "fair_ml_away": 118,
    "exp_total": 5.85,
    "totals": {
     "4.5": {
-     "over": 0.7128,
-     "under": 0.2872
+     "over": 0.713,
+     "under": 0.287
     },
     "5.0": {
-     "over": 0.5173,
-     "under": 0.2872
+     "over": 0.5176,
+     "under": 0.287
     },
     "5.5": {
-     "over": 0.5173,
-     "under": 0.4827
+     "over": 0.5176,
+     "under": 0.4824
     },
     "6.0": {
-     "over": 0.3757,
-     "under": 0.4827
+     "over": 0.3759,
+     "under": 0.4824
     },
     "6.5": {
-     "over": 0.3757,
-     "under": 0.6243
+     "over": 0.3759,
+     "under": 0.6241
     },
     "7.0": {
-     "over": 0.2198,
-     "under": 0.6243
+     "over": 0.22,
+     "under": 0.6241
     },
     "7.5": {
-     "over": 0.2198,
-     "under": 0.7802
+     "over": 0.22,
+     "under": 0.78
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3214,
-    "away_+1.5": 0.6786,
-    "away_-1.5": 0.2704,
-    "home_+1.5": 0.7296
+    "home_-1.5": 0.3285,
+    "away_+1.5": 0.6715,
+    "away_-1.5": 0.2639,
+    "home_+1.5": 0.7361
    }
   }
  ],
