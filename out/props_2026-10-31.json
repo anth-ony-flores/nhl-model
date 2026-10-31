@@ -1,6 +1,6 @@
 {
  "date": "2026-10-31",
- "generated": "2026-10-31T18:02:00Z",
+ "generated": "2026-10-31T18:12:08Z",
  "data_through": "2026-10-30",
  "picks_enabled": false,
  "params": {
@@ -11,13 +11,13 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 299,
-  "checked": 295,
-  "first_is_over": 295,
+  "pairs": 235,
+  "checked": 234,
+  "first_is_over": 234,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 586,
+ "lines": 450,
  "unmatched": [
   {
    "espn_id": "4588638",
@@ -52,7 +52,7 @@
    "why": "athlete not on either team's ESPN roster"
   }
  ],
- "unmatched_rate": 0.0068,
+ "unmatched_rate": 0.0089,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -89,7 +89,7 @@
    "home_name": "Bruins",
    "start_utc": "2026-10-31T17:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "15:01 - 2nd",
    "frozen": true,
    "goal_factor": {
     "CHI": 1.04,
@@ -2358,7 +2358,7 @@
    "home_name": "Red Wings",
    "start_utc": "2026-10-31T17:00:00Z",
    "state": "in",
-   "detail": "17:43 - 2nd",
+   "detail": "11:08 - 2nd",
    "frozen": true,
    "goal_factor": {
     "STL": 0.992,
@@ -4595,9 +4595,9 @@
    "away_name": "Lightning",
    "home_name": "Predators",
    "start_utc": "2026-10-31T18:00:00Z",
-   "state": "pre",
-   "detail": "10/31 - 2:00 PM EDT",
-   "frozen": false,
+   "state": "in",
+   "detail": "17:47 - 1st",
+   "frozen": true,
    "goal_factor": {
     "TBL": 1.06,
     "NSH": 0.909
@@ -6771,9 +6771,9 @@
    "away_name": "Oilers",
    "home_name": "Islanders",
    "start_utc": "2026-10-31T18:00:00Z",
-   "state": "pre",
-   "detail": "10/31 - 2:00 PM EDT",
-   "frozen": false,
+   "state": "in",
+   "detail": "17:38 - 1st",
+   "frozen": true,
    "goal_factor": {
     "EDM": 0.993,
     "NYI": 0.974
