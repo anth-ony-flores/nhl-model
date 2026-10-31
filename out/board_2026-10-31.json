@@ -1,7 +1,7 @@
 {
  "date": "2026-10-31",
  "data_through": "2026-10-30",
- "generated": "2026-10-31 11:52 MST",
+ "generated": "2026-10-31 12:02 MST",
  "league_xg60": 3.004,
  "b2b_effect": {
   "own_xg": -0.225,
@@ -984,7 +984,7 @@
      "value": -0.0174,
      "regular": true,
      "applied": true,
-     "note": "out",
+     "note": "Burakovsky (lower body) is expected to miss the next 3-4 weeks, Jackson Starr of the Senators' official site reports Saturday.",
      "date": "2026-10-31"
     },
     {
@@ -1692,13 +1692,13 @@
    "inj_away": [
     {
      "name": "Brennan Othmann",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8482747,
      "position": "L",
      "value": -0.0528,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
+     "applied": true,
+     "note": "out",
      "date": "2026-10-31"
     },
     {
@@ -1736,52 +1736,52 @@
     }
    ],
    "inj_adj_home": -0.015,
-   "inj_adj_away": 0,
-   "xg_home": 3.609,
-   "xg_away": 2.281,
-   "proj_home": 3.59,
-   "proj_away": 2.25,
-   "p_home": 0.7241,
-   "p_away": 0.2759,
-   "p_ot": 0.2159,
-   "fair_ml_home": -263,
-   "fair_ml_away": 263,
+   "inj_adj_away": -0.053,
+   "xg_home": 3.582,
+   "xg_away": 2.307,
+   "proj_home": 3.56,
+   "proj_away": 2.28,
+   "p_home": 0.7167,
+   "p_away": 0.2833,
+   "p_ot": 0.2183,
+   "fair_ml_home": -253,
+   "fair_ml_away": 253,
    "exp_total": 5.84,
    "totals": {
     "4.5": {
-     "over": 0.7097,
-     "under": 0.2903
+     "over": 0.7102,
+     "under": 0.2898
     },
     "5.0": {
-     "over": 0.5182,
-     "under": 0.2903
+     "over": 0.5185,
+     "under": 0.2898
     },
     "5.5": {
-     "over": 0.5182,
-     "under": 0.4818
+     "over": 0.5185,
+     "under": 0.4815
     },
     "6.0": {
-     "over": 0.3714,
-     "under": 0.4818
+     "over": 0.3721,
+     "under": 0.4815
     },
     "6.5": {
-     "over": 0.3714,
-     "under": 0.6286
+     "over": 0.3721,
+     "under": 0.6279
     },
     "7.0": {
-     "over": 0.2199,
-     "under": 0.6286
+     "over": 0.2202,
+     "under": 0.6279
     },
     "7.5": {
-     "over": 0.2199,
-     "under": 0.7801
+     "over": 0.2202,
+     "under": 0.7798
     }
    },
    "puck_line": {
-    "home_-1.5": 0.5025,
-    "away_+1.5": 0.4975,
-    "away_-1.5": 0.1413,
-    "home_+1.5": 0.8587
+    "home_-1.5": 0.4944,
+    "away_+1.5": 0.5056,
+    "away_-1.5": 0.1458,
+    "home_+1.5": 0.8542
    }
   }
  ],

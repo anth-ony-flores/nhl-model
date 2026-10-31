@@ -1,7 +1,7 @@
 {
  "day": "2026-10-31",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-31 11:52",
+ "fetched": "2026-10-31 12:02",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -125,17 +125,17 @@
    ]
   },
   "CGY": {
-   "missing_value": 0,
+   "missing_value": -0.0528,
    "players": [
     {
      "name": "Brennan Othmann",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8482747,
      "position": "L",
      "value": -0.0528,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
+     "applied": true,
+     "note": "out",
      "date": "2026-10-31"
     },
     {
@@ -755,7 +755,7 @@
      "value": -0.0174,
      "regular": true,
      "applied": true,
-     "note": "out",
+     "note": "Burakovsky (lower body) is expected to miss the next 3-4 weeks, Jackson Starr of the Senators' official site reports Saturday.",
      "date": "2026-10-31"
     },
     {
