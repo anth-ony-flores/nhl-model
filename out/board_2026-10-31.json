@@ -1,7 +1,7 @@
 {
  "date": "2026-10-31",
  "data_through": "2026-10-30",
- "generated": "2026-10-31 11:32 MST",
+ "generated": "2026-10-31 11:42 MST",
  "league_xg60": 3.004,
  "b2b_effect": {
   "own_xg": -0.225,
@@ -977,14 +977,14 @@
    ],
    "inj_away": [
     {
-     "name": "Hayden Hodgson",
-     "status": "Suspension",
-     "playerId": 8478173,
-     "position": "R",
-     "value": -0.0375,
-     "regular": false,
-     "applied": false,
-     "note": "suspension",
+     "name": "Andre Burakovsky",
+     "status": "Out",
+     "playerId": 8477444,
+     "position": "L",
+     "value": -0.0174,
+     "regular": true,
+     "applied": true,
+     "note": "out",
      "date": "2026-10-31"
     },
     {
@@ -995,19 +995,19 @@
      "value": -0.016,
      "regular": true,
      "applied": true,
-     "note": "Foegele (knee) was placed on injured reserve Friday, per Bruce Garrioch of Postmedia.",
-     "date": "2026-10-30"
+     "note": "Foegele (knee) will miss 3-4 weeks, Jackson Starr of the Senators' official site reports Saturday.",
+     "date": "2026-10-31"
     },
     {
-     "name": "Andre Burakovsky",
-     "status": "Day-To-Day",
-     "playerId": 8477444,
-     "position": "L",
-     "value": -0.0174,
-     "regular": true,
+     "name": "Hayden Hodgson",
+     "status": "Suspension",
+     "playerId": 8478173,
+     "position": "R",
+     "value": -0.0375,
+     "regular": false,
      "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-30"
+     "note": "suspension",
+     "date": "2026-10-31"
     },
     {
      "name": "William Eklund",
@@ -1022,52 +1022,52 @@
     }
    ],
    "inj_adj_home": 0.03,
-   "inj_adj_away": -0.016,
-   "xg_home": 2.704,
-   "xg_away": 3.512,
-   "proj_home": 2.72,
-   "proj_away": 3.54,
-   "p_home": 0.3635,
-   "p_away": 0.6365,
-   "p_ot": 0.2298,
-   "fair_ml_home": 175,
-   "fair_ml_away": -175,
+   "inj_adj_away": -0.033,
+   "xg_home": 2.695,
+   "xg_away": 3.521,
+   "proj_home": 2.71,
+   "proj_away": 3.55,
+   "p_home": 0.3609,
+   "p_away": 0.6391,
+   "p_ot": 0.2293,
+   "fair_ml_home": 177,
+   "fair_ml_away": -177,
    "exp_total": 6.26,
    "totals": {
     "4.5": {
-     "over": 0.7656,
-     "under": 0.2344
+     "over": 0.7655,
+     "under": 0.2345
     },
     "5.0": {
      "over": 0.5867,
-     "under": 0.2344
+     "under": 0.2345
     },
     "5.5": {
      "over": 0.5867,
      "under": 0.4133
     },
     "6.0": {
-     "over": 0.443,
+     "over": 0.4429,
      "under": 0.4133
     },
     "6.5": {
-     "over": 0.443,
-     "under": 0.557
+     "over": 0.4429,
+     "under": 0.5571
     },
     "7.0": {
-     "over": 0.2783,
-     "under": 0.557
+     "over": 0.2782,
+     "under": 0.5571
     },
     "7.5": {
-     "over": 0.2783,
-     "under": 0.7217
+     "over": 0.2782,
+     "under": 0.7218
     }
    },
    "puck_line": {
-    "home_-1.5": 0.2016,
-    "away_+1.5": 0.7984,
-    "away_-1.5": 0.4218,
-    "home_+1.5": 0.5782
+    "home_-1.5": 0.1998,
+    "away_+1.5": 0.8002,
+    "away_-1.5": 0.4243,
+    "home_+1.5": 0.5757
    }
   },
   {
