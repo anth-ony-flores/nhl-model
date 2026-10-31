@@ -1,12 +1,23 @@
 {
  "day": "2026-10-31",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-31 13:03",
+ "fetched": "2026-10-31 14:00",
  "k": 1.0,
  "teams": {
   "ANA": {
    "missing_value": -0.0623,
    "players": [
+    {
+     "name": "Troy Terry",
+     "status": "Injured Reserve",
+     "playerId": 8478873,
+     "position": "R",
+     "value": 0.069,
+     "regular": false,
+     "applied": false,
+     "note": "Although Terry's (hip) return doesn't appear to be imminent, he is getting close to playing, Derek Lee of The Hockey News reports Saturday.",
+     "date": "2026-10-31"
+    },
     {
      "name": "Pavel Mintyukov",
      "status": "Injured Reserve",
@@ -39,17 +50,6 @@
      "applied": false,
      "note": "Poehling (knee) is expected to miss 6-8 weeks with an MCL sprain.",
      "date": "2026-10-13"
-    },
-    {
-     "name": "Troy Terry",
-     "status": "Injured Reserve",
-     "playerId": 8478873,
-     "position": "R",
-     "value": 0.069,
-     "regular": false,
-     "applied": false,
-     "note": "Terry (hip) was moved from the non-roster list to long-term injured reserve Wednesday, Zach Cavanagh of The Sporting Tribune reports.",
-     "date": "2026-09-30"
     }
    ]
   },
