@@ -1,7 +1,7 @@
 {
  "date": "2026-10-31",
  "data_through": "2026-10-30",
- "generated": "2026-10-31 10:11 MST",
+ "generated": "2026-10-31 10:21 MST",
  "league_xg60": 3.004,
  "b2b_effect": {
   "own_xg": -0.225,
@@ -1632,6 +1632,17 @@
    },
    "inj_home": [
     {
+     "name": "Logan O'Connor",
+     "status": "Out",
+     "playerId": 8481186,
+     "position": "R",
+     "value": -0.0021,
+     "regular": false,
+     "applied": false,
+     "note": "out",
+     "date": "2026-10-31"
+    },
+    {
      "name": "Josh Manson",
      "status": "Out",
      "playerId": 8476312,
@@ -1640,17 +1651,6 @@
      "regular": true,
      "applied": true,
      "note": "Manson (ankle) is expected to miss the next eight weeks, Corey Masisak of The Denver Post reports Friday.",
-     "date": "2026-10-30"
-    },
-    {
-     "name": "Logan O'Connor",
-     "status": "Day-To-Day",
-     "playerId": 8481186,
-     "position": "R",
-     "value": -0.0021,
-     "regular": false,
-     "applied": false,
-     "note": "day-to-day",
      "date": "2026-10-30"
     },
     {

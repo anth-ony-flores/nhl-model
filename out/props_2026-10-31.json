@@ -1,6 +1,6 @@
 {
  "date": "2026-10-31",
- "generated": "2026-10-31T17:11:18Z",
+ "generated": "2026-10-31T17:21:27Z",
  "data_through": "2026-10-30",
  "picks_enabled": false,
  "params": {
@@ -89,7 +89,7 @@
    "home_name": "Bruins",
    "start_utc": "2026-10-31T17:00:00Z",
    "state": "in",
-   "detail": "17:40 - 1st",
+   "detail": "11:14 - 1st",
    "frozen": true,
    "goal_factor": {
     "CHI": 1.04,
@@ -2358,7 +2358,7 @@
    "home_name": "Red Wings",
    "start_utc": "2026-10-31T17:00:00Z",
    "state": "in",
-   "detail": "18:04 - 1st",
+   "detail": "12:33 - 1st",
    "frozen": true,
    "goal_factor": {
     "STL": 0.992,
