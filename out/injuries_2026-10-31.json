@@ -1,7 +1,7 @@
 {
  "day": "2026-10-31",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-31 07:08",
+ "fetched": "2026-10-31 08:29",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -720,6 +720,28 @@
   "NYR": {
    "missing_value": 0,
    "players": [
+    {
+     "name": "Braden Schneider",
+     "status": "Day-To-Day",
+     "playerId": 8482073,
+     "position": "D",
+     "value": -0.1263,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-10-31"
+    },
+    {
+     "name": "Sean Durzi",
+     "status": "Day-To-Day",
+     "playerId": 8480434,
+     "position": "D",
+     "value": -0.0336,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-10-31"
+    },
     {
      "name": "Eeli Tolvanen",
      "status": "Day-To-Day",
