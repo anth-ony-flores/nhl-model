@@ -1,6 +1,6 @@
 {
  "date": "2026-10-31",
- "generated": "2026-10-31T21:58:16Z",
+ "generated": "2026-10-31T22:08:25Z",
  "data_through": "2026-10-30",
  "picks_enabled": false,
  "params": {
@@ -8948,7 +8948,7 @@
    "home_name": "Kings",
    "start_utc": "2026-10-31T20:00:00Z",
    "state": "in",
-   "detail": "End of 2nd",
+   "detail": "18:18 - 3rd",
    "frozen": true,
    "goal_factor": {
     "BUF": 0.946,
@@ -11405,7 +11405,7 @@
    "home_name": "Sharks",
    "start_utc": "2026-10-31T20:00:00Z",
    "state": "in",
-   "detail": "20:00 - 3rd",
+   "detail": "13:47 - 3rd",
    "frozen": true,
    "goal_factor": {
     "OTT": 1.134,
@@ -16657,19 +16657,19 @@
       "player": "Easton Cowan",
       "team": "TOR",
       "opp": "VAN",
-      "line": 1.5,
+      "line": 2.5,
       "open_line": 1.5,
-      "over": "-195",
+      "over": "+140",
       "over_open": "-170",
-      "under": "+140",
+      "under": "-195",
       "under_open": "+125",
-      "updated": "2026-11-01T00:46Z",
+      "updated": "2026-11-01T00:53Z",
       "player_id": 8484158,
       "pos": "F",
       "proj_toi": 15.24,
       "games_weight": 34.7,
       "mean": 1.763,
-      "p_over": 0.5194,
+      "p_over": 0.2612,
       "curve": {
        "0.5": 0.8197,
        "1.5": 0.5194,
@@ -16680,11 +16680,11 @@
        "6.5": 0.0033,
        "7.5": 0.0008
       },
-      "mkt_over": 0.6134,
-      "edge_over": -0.0939,
-      "edge_under": 0.0939,
+      "mkt_over": 0.3866,
+      "edge_over": -0.1255,
+      "edge_under": 0.1255,
       "lean": "Under",
-      "edge": 0.0939,
+      "edge": 0.1255,
       "strong": true
      },
      {
@@ -16764,7 +16764,7 @@
       "opp": "VAN",
       "line": 1.5,
       "open_line": 1.5,
-      "over": "+110",
+      "over": "+105",
       "over_open": "-110",
       "under": "-145",
       "under_open": "-125",
@@ -16785,11 +16785,11 @@
        "6.5": 0.0013,
        "7.5": 0.0003
       },
-      "mkt_over": 0.4459,
-      "edge_over": -0.0118,
-      "edge_under": 0.0118,
+      "mkt_over": 0.4518,
+      "edge_over": -0.0177,
+      "edge_under": 0.0177,
       "lean": "Under",
-      "edge": 0.0118,
+      "edge": 0.0177,
       "strong": false
      },
      {
