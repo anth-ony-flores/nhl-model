@@ -1,7 +1,7 @@
 {
  "date": "2026-10-31",
  "data_through": "2026-10-30",
- "generated": "2026-10-31 09:00 MST",
+ "generated": "2026-10-31 09:10 MST",
  "league_xg60": 3.004,
  "b2b_effect": {
   "own_xg": -0.225,
@@ -228,14 +228,14 @@
    "inj_away": [
     {
      "name": "Colton Parayko",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8476892,
      "position": "D",
      "value": 0.0233,
      "regular": true,
-     "applied": false,
-     "note": "Parayko didn't practice Friday due to an upper-body injury but is considered probable for Saturday's game against the Red Wings, Lou Korac of NHL.com reports.",
-     "date": "2026-10-30"
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-31"
     },
     {
      "name": "Ross Johnston",
@@ -294,52 +294,52 @@
     }
    ],
    "inj_adj_home": -0.021,
-   "inj_adj_away": 0,
-   "xg_home": 2.925,
-   "xg_away": 2.797,
-   "proj_home": 2.83,
-   "proj_away": 2.86,
-   "p_home": 0.4946,
-   "p_away": 0.5054,
-   "p_ot": 0.2564,
-   "fair_ml_home": 102,
-   "fair_ml_away": -102,
+   "inj_adj_away": 0.023,
+   "xg_home": 2.937,
+   "xg_away": 2.785,
+   "proj_home": 2.84,
+   "proj_away": 2.85,
+   "p_home": 0.4985,
+   "p_away": 0.5015,
+   "p_ot": 0.2565,
+   "fair_ml_home": 101,
+   "fair_ml_away": -101,
    "exp_total": 5.7,
    "totals": {
     "4.5": {
-     "over": 0.6909,
-     "under": 0.3091
+     "over": 0.6908,
+     "under": 0.3092
     },
     "5.0": {
-     "over": 0.4905,
-     "under": 0.3091
+     "over": 0.4904,
+     "under": 0.3092
     },
     "5.5": {
-     "over": 0.4905,
-     "under": 0.5095
+     "over": 0.4904,
+     "under": 0.5096
     },
     "6.0": {
-     "over": 0.3503,
-     "under": 0.5095
+     "over": 0.3502,
+     "under": 0.5096
     },
     "6.5": {
-     "over": 0.3503,
-     "under": 0.6497
+     "over": 0.3502,
+     "under": 0.6498
     },
     "7.0": {
-     "over": 0.1994,
-     "under": 0.6497
+     "over": 0.1993,
+     "under": 0.6498
     },
     "7.5": {
-     "over": 0.1994,
-     "under": 0.8006
+     "over": 0.1993,
+     "under": 0.8007
     }
    },
    "puck_line": {
-    "home_-1.5": 0.2884,
-    "away_+1.5": 0.7116,
-    "away_-1.5": 0.2968,
-    "home_+1.5": 0.7032
+    "home_-1.5": 0.2914,
+    "away_+1.5": 0.7086,
+    "away_-1.5": 0.2938,
+    "home_+1.5": 0.7062
    }
   },
   {

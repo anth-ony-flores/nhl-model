@@ -1,7 +1,7 @@
 {
  "day": "2026-10-31",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-31 09:00",
+ "fetched": "2026-10-31 09:10",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -979,18 +979,18 @@
    ]
   },
   "STL": {
-   "missing_value": 0,
+   "missing_value": 0.0233,
    "players": [
     {
      "name": "Colton Parayko",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8476892,
      "position": "D",
      "value": 0.0233,
      "regular": true,
-     "applied": false,
-     "note": "Parayko didn't practice Friday due to an upper-body injury but is considered probable for Saturday's game against the Red Wings, Lou Korac of NHL.com reports.",
-     "date": "2026-10-30"
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-31"
     },
     {
      "name": "Ross Johnston",
