@@ -1,6 +1,6 @@
 {
  "date": "2026-10-31",
- "generated": "2026-10-31T22:38:51Z",
+ "generated": "2026-10-31T22:49:01Z",
  "data_through": "2026-10-30",
  "picks_enabled": false,
  "params": {
@@ -12,8 +12,8 @@
  },
  "side_check": {
   "pairs": 162,
-  "checked": 160,
-  "first_is_over": 160,
+  "checked": 159,
+  "first_is_over": 159,
   "mismatch": 0,
   "mismatches": []
  },
@@ -8947,8 +8947,8 @@
    "away_name": "Sabres",
    "home_name": "Kings",
    "start_utc": "2026-10-31T20:00:00Z",
-   "state": "in",
-   "detail": "3:37 - 3rd",
+   "state": "post",
+   "detail": "Final",
    "frozen": true,
    "goal_factor": {
     "BUF": 0.946,
@@ -14150,9 +14150,9 @@
       "opp": "PIT",
       "line": 2.5,
       "open_line": 2.5,
-      "over": "+125",
+      "over": "+130",
       "over_open": "+145",
-      "under": "-170",
+      "under": "-175",
       "under_open": "-195",
       "updated": "2026-10-31T19:44Z",
       "player_id": 8480865,
@@ -14171,11 +14171,11 @@
        "6.5": 0.0069,
        "7.5": 0.002
       },
-      "mkt_over": 0.4138,
-      "edge_over": -0.0793,
-      "edge_under": 0.0793,
+      "mkt_over": 0.4059,
+      "edge_over": -0.0714,
+      "edge_under": 0.0714,
       "lean": "Under",
-      "edge": 0.0793,
+      "edge": 0.0714,
       "strong": true
      },
      {
@@ -14932,9 +14932,9 @@
       "opp": "PIT",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "-210",
+      "over": "-205",
       "over_open": "-195",
-      "under": "+155",
+      "under": "+150",
       "under_open": "+140",
       "updated": "2026-10-31T19:44Z",
       "player_id": 8483457,
@@ -14949,12 +14949,12 @@
        "2.5": 0.0653,
        "3.5": 0.0142
       },
-      "mkt_over": 0.6334,
-      "edge_over": -0.034,
-      "edge_under": 0.034,
+      "mkt_over": 0.6269,
+      "edge_over": -0.0275,
+      "edge_under": 0.0275,
       "lean": "Under",
-      "edge": 0.034,
-      "strong": true
+      "edge": 0.0275,
+      "strong": false
      },
      {
       "espn_id": "5833",
@@ -16381,11 +16381,11 @@
       "player": "Sergei Murashov",
       "team": "PIT",
       "opp": "MTL",
-      "line": 25.5,
+      "line": 24.5,
       "open_line": 26.5,
-      "over": "+100",
+      "over": "-135",
       "over_open": "-120",
-      "under": "-135",
+      "under": "+100",
       "under_open": "-115",
       "updated": "2026-11-01T00:45Z",
       "player_id": 8483703,
@@ -16395,7 +16395,7 @@
       "proj_sa": 25.0,
       "proj_sv": 0.8901,
       "mean": 22.22,
-      "p_over": 0.2822,
+      "p_over": 0.343,
       "curve": {
        "14.5": 0.9076,
        "15.5": 0.8781,
@@ -16426,11 +16426,11 @@
        "40.5": 0.0017,
        "41.5": 0.0011
       },
-      "mkt_over": 0.4653,
-      "edge_over": -0.1831,
-      "edge_under": 0.1831,
+      "mkt_over": 0.5347,
+      "edge_over": -0.1916,
+      "edge_under": 0.1916,
       "lean": "Under",
-      "edge": 0.1831,
+      "edge": 0.1916,
       "strong": true
      },
      {
