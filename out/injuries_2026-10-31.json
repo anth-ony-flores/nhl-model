@@ -1,7 +1,7 @@
 {
  "day": "2026-10-31",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-31 09:20",
+ "fetched": "2026-10-31 09:30",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -513,17 +513,6 @@
   "MIN": {
    "missing_value": 0.0991,
    "players": [
-    {
-     "name": "Joel Eriksson Ek",
-     "status": "Day-To-Day",
-     "playerId": 8478493,
-     "position": "C",
-     "value": 0.0653,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-30"
-    },
     {
      "name": "Jared Spurgeon",
      "status": "Injured Reserve",
