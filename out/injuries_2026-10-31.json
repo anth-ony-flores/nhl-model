@@ -1,7 +1,7 @@
 {
  "day": "2026-10-31",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-31 08:50",
+ "fetched": "2026-10-31 09:00",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -216,14 +216,14 @@
    "players": [
     {
      "name": "Bowen Byram",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8481524,
      "position": "D",
      "value": -0.0565,
      "regular": false,
      "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-30"
+     "note": "out",
+     "date": "2026-10-31"
     }
    ]
   },
@@ -464,17 +464,6 @@
   "LAK": {
    "missing_value": 0,
    "players": [
-    {
-     "name": "Brandt Clarke",
-     "status": "Day-To-Day",
-     "playerId": 8482730,
-     "position": "D",
-     "value": 0.0811,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-30"
-    },
     {
      "name": "Mats Zuccarello",
      "status": "Injured Reserve",

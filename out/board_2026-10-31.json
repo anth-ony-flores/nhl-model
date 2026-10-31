@@ -1,7 +1,7 @@
 {
  "date": "2026-10-31",
  "data_through": "2026-10-30",
- "generated": "2026-10-31 08:50 MST",
+ "generated": "2026-10-31 09:00 MST",
  "league_xg60": 3.004,
  "b2b_effect": {
   "own_xg": -0.225,
@@ -58,14 +58,14 @@
    "inj_away": [
     {
      "name": "Bowen Byram",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8481524,
      "position": "D",
      "value": -0.0565,
      "regular": false,
      "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-30"
+     "note": "out",
+     "date": "2026-10-31"
     }
    ],
    "inj_adj_home": 0.0,
@@ -712,17 +712,6 @@
     ]
    },
    "inj_home": [
-    {
-     "name": "Brandt Clarke",
-     "status": "Day-To-Day",
-     "playerId": 8482730,
-     "position": "D",
-     "value": 0.0811,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-30"
-    },
     {
      "name": "Mats Zuccarello",
      "status": "Injured Reserve",
