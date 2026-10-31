@@ -1,7 +1,7 @@
 {
  "date": "2026-10-31",
  "data_through": "2026-10-30",
- "generated": "2026-10-31 08:29 MST",
+ "generated": "2026-10-31 08:40 MST",
  "league_xg60": 3.004,
  "b2b_effect": {
   "own_xg": -0.225,
@@ -1104,14 +1104,14 @@
    "inj_home": [
     {
      "name": "Mike Matheson",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8476875,
      "position": "D",
      "value": -0.1422,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-30"
+     "applied": true,
+     "note": "Matheson (lower body) is expected to miss two weeks, Renaud Lavoie of TVA Sports reports Saturday.",
+     "date": "2026-10-31"
     },
     {
      "name": "Nick Suzuki",
@@ -1204,53 +1204,53 @@
      "date": "2026-09-27"
     }
    ],
-   "inj_adj_home": 0.104,
+   "inj_adj_home": -0.038,
    "inj_adj_away": -0.027,
-   "xg_home": 3.201,
-   "xg_away": 3.335,
-   "proj_home": 3.48,
-   "proj_away": 2.98,
-   "p_home": 0.5838,
-   "p_away": 0.4162,
-   "p_ot": 0.2337,
-   "fair_ml_home": -140,
-   "fair_ml_away": 140,
-   "exp_total": 6.47,
+   "xg_home": 3.272,
+   "xg_away": 3.264,
+   "proj_home": 3.55,
+   "proj_away": 2.92,
+   "p_home": 0.605,
+   "p_away": 0.395,
+   "p_ot": 0.2307,
+   "fair_ml_home": -153,
+   "fair_ml_away": 153,
+   "exp_total": 6.48,
    "totals": {
     "4.5": {
-     "over": 0.7895,
-     "under": 0.2105
+     "over": 0.7904,
+     "under": 0.2096
     },
     "5.0": {
-     "over": 0.6184,
-     "under": 0.2105
+     "over": 0.62,
+     "under": 0.2096
     },
     "5.5": {
-     "over": 0.6184,
-     "under": 0.3816
+     "over": 0.62,
+     "under": 0.38
     },
     "6.0": {
-     "over": 0.4772,
-     "under": 0.3816
+     "over": 0.4785,
+     "under": 0.38
     },
     "6.5": {
-     "over": 0.4772,
-     "under": 0.5228
+     "over": 0.4785,
+     "under": 0.5215
     },
     "7.0": {
-     "over": 0.3083,
-     "under": 0.5228
+     "over": 0.3098,
+     "under": 0.5215
     },
     "7.5": {
-     "over": 0.3083,
-     "under": 0.6917
+     "over": 0.3098,
+     "under": 0.6902
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3766,
-    "away_+1.5": 0.6234,
-    "away_-1.5": 0.2411,
-    "home_+1.5": 0.7589
+    "home_-1.5": 0.3961,
+    "away_+1.5": 0.6039,
+    "away_-1.5": 0.226,
+    "home_+1.5": 0.774
    }
   },
   {
@@ -1356,17 +1356,6 @@
      "applied": false,
      "note": "Wood (undisclosed) was transferred to long-term injured reserve Wednesday, David Alter of The Hockey News reports.",
      "date": "2026-10-29"
-    },
-    {
-     "name": "Chris Tanev",
-     "status": "Injured Reserve",
-     "playerId": 8475690,
-     "position": "D",
-     "value": 0.0218,
-     "regular": false,
-     "applied": false,
-     "note": "The Maple Leafs announced Wednesday that Tanev (upper body) has been upgraded to day-to-day, Mark Masters of TSN reports.",
-     "date": "2026-10-28"
     },
     {
      "name": "Nick Blankenburg",

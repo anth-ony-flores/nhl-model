@@ -1,7 +1,7 @@
 {
  "day": "2026-10-31",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-31 08:29",
+ "fetched": "2026-10-31 08:39",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -582,18 +582,18 @@
    ]
   },
   "MTL": {
-   "missing_value": 0.1042,
+   "missing_value": -0.038,
    "players": [
     {
      "name": "Mike Matheson",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8476875,
      "position": "D",
      "value": -0.1422,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-30"
+     "applied": true,
+     "note": "Matheson (lower body) is expected to miss two weeks, Renaud Lavoie of TVA Sports reports Saturday.",
+     "date": "2026-10-31"
     },
     {
      "name": "Nick Suzuki",
@@ -1111,17 +1111,6 @@
      "applied": false,
      "note": "Wood (undisclosed) was transferred to long-term injured reserve Wednesday, David Alter of The Hockey News reports.",
      "date": "2026-10-29"
-    },
-    {
-     "name": "Chris Tanev",
-     "status": "Injured Reserve",
-     "playerId": 8475690,
-     "position": "D",
-     "value": 0.0218,
-     "regular": false,
-     "applied": false,
-     "note": "The Maple Leafs announced Wednesday that Tanev (upper body) has been upgraded to day-to-day, Mark Masters of TSN reports.",
-     "date": "2026-10-28"
     },
     {
      "name": "Nick Blankenburg",
