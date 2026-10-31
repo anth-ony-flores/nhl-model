@@ -1,7 +1,7 @@
 {
  "day": "2026-10-31",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-31 09:40",
+ "fetched": "2026-10-31 09:50",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -266,7 +266,7 @@
    ]
   },
   "DAL": {
-   "missing_value": 0.0207,
+   "missing_value": -0.0266,
    "players": [
     {
      "name": "Kyle Capobianco",
@@ -278,17 +278,6 @@
      "applied": true,
      "note": "Capobianco (leg) is expected to miss around four weeks, per Stars TV host Brien Rea.",
      "date": "2026-10-29"
-    },
-    {
-     "name": "Esa Lindell",
-     "status": "Injured Reserve",
-     "playerId": 8476902,
-     "position": "D",
-     "value": 0.0473,
-     "regular": true,
-     "applied": true,
-     "note": "Lindell (lower body) is expected to return to the Stars' lineup within the next 4-7 days, per Owen Newkirk of DLLS Sports.",
-     "date": "2026-10-27"
     },
     {
      "name": "Radek Faksa",
