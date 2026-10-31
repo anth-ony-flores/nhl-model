@@ -1,6 +1,6 @@
 {
  "date": "2026-10-31",
- "generated": "2026-10-31T22:28:43Z",
+ "generated": "2026-10-31T22:38:51Z",
  "data_through": "2026-10-30",
  "picks_enabled": false,
  "params": {
@@ -8948,7 +8948,7 @@
    "home_name": "Kings",
    "start_utc": "2026-10-31T20:00:00Z",
    "state": "in",
-   "detail": "7:37 - 3rd",
+   "detail": "3:37 - 3rd",
    "frozen": true,
    "goal_factor": {
     "BUF": 0.946,
@@ -11404,8 +11404,8 @@
    "away_name": "Senators",
    "home_name": "Sharks",
    "start_utc": "2026-10-31T20:00:00Z",
-   "state": "in",
-   "detail": "5:02 - 3rd",
+   "state": "post",
+   "detail": "Final",
    "frozen": true,
    "goal_factor": {
     "OTT": 1.134,
