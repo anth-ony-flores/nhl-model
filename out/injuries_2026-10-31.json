@@ -1,7 +1,7 @@
 {
  "day": "2026-10-31",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-31 16:09",
+ "fetched": "2026-10-31 16:19",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -571,8 +571,19 @@
    ]
   },
   "MTL": {
-   "missing_value": -0.038,
+   "missing_value": -0.0927,
    "players": [
+    {
+     "name": "Kirby Dach",
+     "status": "Out",
+     "playerId": 8481523,
+     "position": "C",
+     "value": -0.0547,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-31"
+    },
     {
      "name": "Mike Matheson",
      "status": "Out",
