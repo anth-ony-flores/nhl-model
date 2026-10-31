@@ -1,6 +1,6 @@
 {
  "date": "2026-10-31",
- "generated": "2026-10-31T19:53:29Z",
+ "generated": "2026-10-31T20:03:37Z",
  "data_through": "2026-10-30",
  "picks_enabled": false,
  "params": {
@@ -4620,7 +4620,7 @@
    "home_name": "Predators",
    "start_utc": "2026-10-31T18:00:00Z",
    "state": "in",
-   "detail": "End of 2nd",
+   "detail": "16:01 - 3rd",
    "frozen": true,
    "goal_factor": {
     "TBL": 1.06,
@@ -6796,7 +6796,7 @@
    "home_name": "Islanders",
    "start_utc": "2026-10-31T18:00:00Z",
    "state": "in",
-   "detail": "End of 2nd",
+   "detail": "17:02 - 3rd",
    "frozen": true,
    "goal_factor": {
     "EDM": 0.993,
