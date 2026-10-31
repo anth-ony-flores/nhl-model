@@ -1,6 +1,6 @@
 {
  "date": "2026-10-31",
- "generated": "2026-10-31T19:33:12Z",
+ "generated": "2026-10-31T19:43:21Z",
  "data_through": "2026-10-30",
  "picks_enabled": false,
  "params": {
@@ -113,7 +113,7 @@
    "home_name": "Bruins",
    "start_utc": "2026-10-31T17:00:00Z",
    "state": "in",
-   "detail": "5:11 - 3rd",
+   "detail": "0:10 - 3rd",
    "frozen": true,
    "goal_factor": {
     "CHI": 1.04,
@@ -2381,8 +2381,8 @@
    "away_name": "Blues",
    "home_name": "Red Wings",
    "start_utc": "2026-10-31T17:00:00Z",
-   "state": "in",
-   "detail": "1:18 - 3rd",
+   "state": "post",
+   "detail": "Final",
    "frozen": true,
    "goal_factor": {
     "STL": 0.992,
@@ -4620,7 +4620,7 @@
    "home_name": "Predators",
    "start_utc": "2026-10-31T18:00:00Z",
    "state": "in",
-   "detail": "3:21 - 2nd",
+   "detail": "End of 2nd",
    "frozen": true,
    "goal_factor": {
     "TBL": 1.06,
@@ -6796,7 +6796,7 @@
    "home_name": "Islanders",
    "start_utc": "2026-10-31T18:00:00Z",
    "state": "in",
-   "detail": "3:20 - 2nd",
+   "detail": "End of 2nd",
    "frozen": true,
    "goal_factor": {
     "EDM": 0.993,
