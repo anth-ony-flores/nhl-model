@@ -1,7 +1,7 @@
 {
  "date": "2026-10-31",
  "data_through": "2026-10-30",
- "generated": "2026-10-31 10:31 MST",
+ "generated": "2026-10-31 10:41 MST",
  "league_xg60": 3.004,
  "b2b_effect": {
   "own_xg": -0.225,
@@ -398,15 +398,26 @@
    "inj_home": [],
    "inj_away": [
     {
+     "name": "Erik Cernak",
+     "status": "Out",
+     "playerId": 8478416,
+     "position": "D",
+     "value": -0.0247,
+     "regular": true,
+     "applied": true,
+     "note": "Cernak (undisclosed) won't be in the lineup against Nashville on Saturday, according to Lightning reporter Gabby Shirley.",
+     "date": "2026-10-31"
+    },
+    {
      "name": "Zemgus Girgensons",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8476878,
      "position": "C",
      "value": -0.0865,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-30"
+     "applied": true,
+     "note": "Girgensons (lower body) won't play against Nashville on Saturday, per Lightning reporter Gabby Shirley.",
+     "date": "2026-10-31"
     },
     {
      "name": "Yanni Gourde",
@@ -421,52 +432,52 @@
     }
    ],
    "inj_adj_home": 0.0,
-   "inj_adj_away": 0,
-   "xg_home": 2.689,
-   "xg_away": 3.409,
-   "proj_home": 2.69,
-   "proj_away": 3.46,
-   "p_home": 0.3701,
-   "p_away": 0.6299,
-   "p_ot": 0.2334,
-   "fair_ml_home": 170,
-   "fair_ml_away": -170,
+   "inj_adj_away": -0.111,
+   "xg_home": 2.634,
+   "xg_away": 3.465,
+   "proj_home": 2.64,
+   "proj_away": 3.51,
+   "p_home": 0.3531,
+   "p_away": 0.6469,
+   "p_ot": 0.2301,
+   "fair_ml_home": 183,
+   "fair_ml_away": -183,
    "exp_total": 6.15,
    "totals": {
     "4.5": {
-     "over": 0.7522,
-     "under": 0.2478
+     "over": 0.7516,
+     "under": 0.2484
     },
     "5.0": {
-     "over": 0.5689,
-     "under": 0.2478
+     "over": 0.5686,
+     "under": 0.2484
     },
     "5.5": {
-     "over": 0.5689,
-     "under": 0.4311
+     "over": 0.5686,
+     "under": 0.4314
     },
     "6.0": {
-     "over": 0.425,
-     "under": 0.4311
+     "over": 0.4242,
+     "under": 0.4314
     },
     "6.5": {
-     "over": 0.425,
-     "under": 0.575
+     "over": 0.4242,
+     "under": 0.5758
     },
     "7.0": {
-     "over": 0.2624,
-     "under": 0.575
+     "over": 0.2621,
+     "under": 0.5758
     },
     "7.5": {
-     "over": 0.2624,
-     "under": 0.7376
+     "over": 0.2621,
+     "under": 0.7379
     }
    },
    "puck_line": {
-    "home_-1.5": 0.2048,
-    "away_+1.5": 0.7952,
-    "away_-1.5": 0.4133,
-    "home_+1.5": 0.5867
+    "home_-1.5": 0.1934,
+    "away_+1.5": 0.8066,
+    "away_-1.5": 0.4296,
+    "home_+1.5": 0.5704
    }
   },
   {
