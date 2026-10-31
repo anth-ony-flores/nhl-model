@@ -1,7 +1,7 @@
 {
  "date": "2026-10-31",
  "data_through": "2026-10-30",
- "generated": "2026-10-31 10:01 MST",
+ "generated": "2026-10-31 10:11 MST",
  "league_xg60": 3.004,
  "b2b_effect": {
   "own_xg": -0.225,
@@ -518,14 +518,14 @@
    "inj_home": [
     {
      "name": "Ryan Pulock",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8477506,
      "position": "D",
      "value": -0.0916,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-30"
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-31"
     },
     {
      "name": "Matias Maccelli",
@@ -618,53 +618,53 @@
      "date": "2026-09-29"
     }
    ],
-   "inj_adj_home": -0.015,
+   "inj_adj_home": -0.107,
    "inj_adj_away": 0.131,
-   "xg_home": 2.802,
-   "xg_away": 3.055,
-   "proj_home": 3.0,
-   "proj_away": 2.95,
-   "p_home": 0.5087,
-   "p_away": 0.4913,
-   "p_ot": 0.2499,
-   "fair_ml_home": -104,
-   "fair_ml_away": 104,
-   "exp_total": 5.95,
+   "xg_home": 2.847,
+   "xg_away": 3.009,
+   "proj_home": 3.05,
+   "proj_away": 2.91,
+   "p_home": 0.5238,
+   "p_away": 0.4762,
+   "p_ot": 0.2495,
+   "fair_ml_home": -110,
+   "fair_ml_away": 110,
+   "exp_total": 5.96,
    "totals": {
     "4.5": {
-     "over": 0.7271,
-     "under": 0.2729
+     "over": 0.7277,
+     "under": 0.2723
     },
     "5.0": {
-     "over": 0.5351,
-     "under": 0.2729
+     "over": 0.5358,
+     "under": 0.2723
     },
     "5.5": {
-     "over": 0.5351,
-     "under": 0.4649
+     "over": 0.5358,
+     "under": 0.4642
     },
     "6.0": {
-     "over": 0.3931,
-     "under": 0.4649
+     "over": 0.3938,
+     "under": 0.4642
     },
     "6.5": {
-     "over": 0.3931,
-     "under": 0.6069
+     "over": 0.3938,
+     "under": 0.6062
     },
     "7.0": {
-     "over": 0.2341,
-     "under": 0.6069
+     "over": 0.2347,
+     "under": 0.6062
     },
     "7.5": {
-     "over": 0.2341,
-     "under": 0.7659
+     "over": 0.2347,
+     "under": 0.7653
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3041,
-    "away_+1.5": 0.6959,
-    "away_-1.5": 0.2903,
-    "home_+1.5": 0.7097
+    "home_-1.5": 0.3163,
+    "away_+1.5": 0.6837,
+    "away_-1.5": 0.2787,
+    "home_+1.5": 0.7213
    }
   },
   {

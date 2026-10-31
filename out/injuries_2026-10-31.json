@@ -1,7 +1,7 @@
 {
  "day": "2026-10-31",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-31 10:01",
+ "fetched": "2026-10-31 10:11",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -304,8 +304,19 @@
    ]
   },
   "DET": {
-   "missing_value": -0.0213,
+   "missing_value": -0.0276,
    "players": [
+    {
+     "name": "Dylan Larkin",
+     "status": "Suspension",
+     "playerId": 8477946,
+     "position": "C",
+     "value": 0.0063,
+     "regular": true,
+     "applied": false,
+     "note": "suspension",
+     "date": "2026-10-31"
+    },
     {
      "name": "Mason Appleton",
      "status": "Injured Reserve",
@@ -338,17 +349,6 @@
      "applied": true,
      "note": "Head coach Todd McLellan said Friday that Johansson (undisclosed) will miss at least three more games, Ansar Khan of MLive.com reports.",
      "date": "2026-10-30"
-    },
-    {
-     "name": "Dylan Larkin",
-     "status": "Injured Reserve",
-     "playerId": 8477946,
-     "position": "C",
-     "value": 0.0063,
-     "regular": true,
-     "applied": true,
-     "note": "ir-nr",
-     "date": "2026-10-29"
     },
     {
      "name": "Simon Edvinsson",
@@ -625,18 +625,18 @@
    ]
   },
   "NYI": {
-   "missing_value": -0.0151,
+   "missing_value": -0.1067,
    "players": [
     {
      "name": "Ryan Pulock",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8477506,
      "position": "D",
      "value": -0.0916,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-30"
+     "applied": true,
+     "note": "out",
+     "date": "2026-10-31"
     },
     {
      "name": "Matias Maccelli",
