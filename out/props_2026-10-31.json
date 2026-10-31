@@ -1,6 +1,6 @@
 {
  "date": "2026-10-31",
- "generated": "2026-10-31T21:27:49Z",
+ "generated": "2026-10-31T21:37:58Z",
  "data_through": "2026-10-30",
  "picks_enabled": false,
  "params": {
@@ -8948,7 +8948,7 @@
    "home_name": "Kings",
    "start_utc": "2026-10-31T20:00:00Z",
    "state": "in",
-   "detail": "6:39 - 2nd",
+   "detail": "2:35 - 2nd",
    "frozen": true,
    "goal_factor": {
     "BUF": 0.946,
@@ -11405,7 +11405,7 @@
    "home_name": "Sharks",
    "start_utc": "2026-10-31T20:00:00Z",
    "state": "in",
-   "detail": "6:19 - 2nd",
+   "detail": "1:28 - 2nd",
    "frozen": true,
    "goal_factor": {
     "OTT": 1.134,
@@ -16812,9 +16812,9 @@
       "opp": "TOR",
       "line": 2.5,
       "open_line": 2.5,
-      "over": "+125",
+      "over": "+130",
       "over_open": "+125",
-      "under": "-170",
+      "under": "-175",
       "under_open": "-170",
       "updated": "2026-10-31T16:57Z",
       "player_id": 8478444,
@@ -16833,11 +16833,11 @@
        "6.5": 0.0084,
        "7.5": 0.0025
       },
-      "mkt_over": 0.4138,
-      "edge_over": -0.0589,
-      "edge_under": 0.0589,
+      "mkt_over": 0.4059,
+      "edge_over": -0.051,
+      "edge_under": 0.051,
       "lean": "Under",
-      "edge": 0.0589,
+      "edge": 0.051,
       "strong": true
      },
      {
@@ -17086,9 +17086,9 @@
       "opp": "VAN",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "-140",
+      "over": "-145",
       "over_open": "-130",
-      "under": "+100",
+      "under": "+110",
       "under_open": "-105",
       "updated": "2026-10-31T10:54Z",
       "player_id": 8478178,
@@ -17103,11 +17103,11 @@
        "2.5": 0.0524,
        "3.5": 0.0104
       },
-      "mkt_over": 0.5385,
-      "edge_over": 0.0272,
-      "edge_under": -0.0272,
+      "mkt_over": 0.5541,
+      "edge_over": 0.0115,
+      "edge_under": -0.0115,
       "lean": "Over",
-      "edge": 0.0272,
+      "edge": 0.0115,
       "strong": false
      },
      {
@@ -17458,7 +17458,7 @@
       "opp": "TOR",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "-115",
+      "over": "-110",
       "over_open": "-125",
       "under": "-120",
       "under_open": "-110",
@@ -17475,11 +17475,11 @@
        "2.5": 0.0337,
        "3.5": 0.0056
       },
-      "mkt_over": 0.4951,
-      "edge_over": 0.0065,
-      "edge_under": -0.0065,
+      "mkt_over": 0.4899,
+      "edge_over": 0.0117,
+      "edge_under": -0.0117,
       "lean": "Over",
-      "edge": 0.0065,
+      "edge": 0.0117,
       "strong": false
      },
      {

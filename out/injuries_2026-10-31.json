@@ -1,7 +1,7 @@
 {
  "day": "2026-10-31",
  "source": "ESPN injuries feed",
- "fetched": "2026-10-31 14:27",
+ "fetched": "2026-10-31 14:37",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -364,17 +364,17 @@
    ]
   },
   "EDM": {
-   "missing_value": 0.1308,
+   "missing_value": 0.0672,
    "players": [
     {
      "name": "Isaac Howard",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8483455,
      "position": "L",
      "value": -0.0636,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
+     "applied": true,
+     "note": "Howard (knee) won't play against the Rangers on Sunday, per Stephen Whyno of the Associated Press.",
      "date": "2026-10-31"
     },
     {
