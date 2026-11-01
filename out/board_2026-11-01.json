@@ -1,7 +1,7 @@
 {
  "date": "2026-11-01",
  "data_through": "2026-10-31",
- "generated": "2026-11-01 11:40 MST",
+ "generated": "2026-11-01 11:50 MST",
  "league_xg60": 3.007,
  "b2b_effect": {
   "own_xg": -0.234,
@@ -401,28 +401,6 @@
      "applied": false,
      "note": "Ristolainen (hand) was placed on injured reserve, retroactive to Oct. 24, on Tuesday.",
      "date": "2026-10-27"
-    },
-    {
-     "name": "Owen Tippett",
-     "status": "Injured Reserve",
-     "playerId": 8480015,
-     "position": "R",
-     "value": 0.0449,
-     "regular": false,
-     "applied": false,
-     "note": "Tippett (upper body) was placed on injured reserve Monday, per the NHL media site.",
-     "date": "2026-10-19"
-    },
-    {
-     "name": "Travis Konecny",
-     "status": "Injured Reserve",
-     "playerId": 8478439,
-     "position": "R",
-     "value": -0.061,
-     "regular": false,
-     "applied": false,
-     "note": "Konecny (lower body) was placed on injured reserve Sunday, according to the NHL media site.",
-     "date": "2026-10-11"
     },
     {
      "name": "Nikita Grebenkin",
