@@ -1,6 +1,6 @@
 {
  "date": "2026-11-01",
- "generated": "2026-11-01T21:18:19Z",
+ "generated": "2026-11-01T21:28:28Z",
  "data_through": "2026-10-31",
  "picks_enabled": false,
  "params": {
@@ -4786,7 +4786,7 @@
    "home_name": "Flyers",
    "start_utc": "2026-11-01T21:00:00Z",
    "state": "in",
-   "detail": "14:18 - 1st",
+   "detail": "9:56 - 1st",
    "frozen": true,
    "goal_factor": {
     "UTA": 0.982,
