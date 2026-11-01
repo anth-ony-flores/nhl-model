@@ -1,7 +1,7 @@
 {
  "day": "2026-11-01",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-01 13:41",
+ "fetched": "2026-11-01 13:52",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -1137,8 +1137,19 @@
    ]
   },
   "UTA": {
-   "missing_value": 0.0364,
+   "missing_value": 0.1244,
    "players": [
+    {
+     "name": "Kailer Yamamoto",
+     "status": "Out",
+     "playerId": 8479977,
+     "position": "R",
+     "value": 0.088,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-01"
+    },
     {
      "name": "John Marino",
      "status": "Injured Reserve",

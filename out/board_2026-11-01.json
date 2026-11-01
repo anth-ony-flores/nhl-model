@@ -1,7 +1,7 @@
 {
  "date": "2026-11-01",
  "data_through": "2026-10-31",
- "generated": "2026-11-01 13:41 MST",
+ "generated": "2026-11-01 13:52 MST",
  "league_xg60": 3.007,
  "b2b_effect": {
   "own_xg": -0.234,
@@ -417,6 +417,17 @@
    ],
    "inj_away": [
     {
+     "name": "Kailer Yamamoto",
+     "status": "Out",
+     "playerId": 8479977,
+     "position": "R",
+     "value": 0.088,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-01"
+    },
+    {
      "name": "John Marino",
      "status": "Injured Reserve",
      "playerId": 8478507,
@@ -440,52 +451,52 @@
     }
    ],
    "inj_adj_home": 0,
-   "inj_adj_away": 0.036,
-   "xg_home": 2.547,
-   "xg_away": 3.144,
-   "proj_home": 2.72,
-   "proj_away": 3.06,
-   "p_home": 0.4409,
-   "p_away": 0.5591,
-   "p_ot": 0.2518,
-   "fair_ml_home": 127,
-   "fair_ml_away": -127,
+   "inj_adj_away": 0.124,
+   "xg_home": 2.591,
+   "xg_away": 3.1,
+   "proj_home": 2.77,
+   "proj_away": 3.02,
+   "p_home": 0.4555,
+   "p_away": 0.5445,
+   "p_ot": 0.2528,
+   "fair_ml_home": 120,
+   "fair_ml_away": -120,
    "exp_total": 5.78,
    "totals": {
     "4.5": {
-     "over": 0.7027,
-     "under": 0.2973
+     "over": 0.7035,
+     "under": 0.2965
     },
     "5.0": {
-     "over": 0.5051,
-     "under": 0.2973
+     "over": 0.5059,
+     "under": 0.2965
     },
     "5.5": {
-     "over": 0.5051,
-     "under": 0.4949
+     "over": 0.5059,
+     "under": 0.4941
     },
     "6.0": {
-     "over": 0.3638,
-     "under": 0.4949
+     "over": 0.3647,
+     "under": 0.4941
     },
     "6.5": {
-     "over": 0.3638,
-     "under": 0.6362
+     "over": 0.3647,
+     "under": 0.6353
     },
     "7.0": {
-     "over": 0.2103,
-     "under": 0.6362
+     "over": 0.211,
+     "under": 0.6353
     },
     "7.5": {
-     "over": 0.2103,
-     "under": 0.7897
+     "over": 0.211,
+     "under": 0.789
     }
    },
    "puck_line": {
-    "home_-1.5": 0.2495,
-    "away_+1.5": 0.7505,
-    "away_-1.5": 0.3423,
-    "home_+1.5": 0.6577
+    "home_-1.5": 0.2603,
+    "away_+1.5": 0.7397,
+    "away_-1.5": 0.3301,
+    "home_+1.5": 0.6699
    }
   },
   {
