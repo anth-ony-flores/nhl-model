@@ -1,6 +1,6 @@
 {
  "date": "2026-11-01",
- "generated": "2026-11-01T16:20:26Z",
+ "generated": "2026-11-01T16:30:35Z",
  "data_through": "2026-10-31",
  "picks_enabled": false,
  "params": {
@@ -2701,19 +2701,19 @@
       "player": "Tom Wilson",
       "team": "WSH",
       "opp": "MIN",
-      "line": 2.5,
+      "line": 1.5,
       "open_line": 2.5,
-      "over": "+145",
+      "over": "-195",
       "over_open": "+140",
-      "under": "-195",
+      "under": "+145",
       "under_open": "-190",
-      "updated": "2026-11-01T16:11Z",
+      "updated": "2026-11-01T19:21Z",
       "player_id": 8476880,
       "pos": "F",
       "proj_toi": 18.99,
       "games_weight": 40.5,
       "mean": 2.034,
-      "p_over": 0.3322,
+      "p_over": 0.5941,
       "curve": {
        "0.5": 0.8603,
        "1.5": 0.5941,
@@ -2724,12 +2724,12 @@
        "6.5": 0.0068,
        "7.5": 0.0019
       },
-      "mkt_over": 0.3818,
-      "edge_over": -0.0496,
-      "edge_under": 0.0496,
+      "mkt_over": 0.6182,
+      "edge_over": -0.0241,
+      "edge_under": 0.0241,
       "lean": "Under",
-      "edge": 0.0496,
-      "strong": true
+      "edge": 0.0241,
+      "strong": false
      },
      {
       "espn_id": "3899933",
