@@ -1,6 +1,6 @@
 {
  "date": "2026-11-01",
- "generated": "2026-11-01T22:59:38Z",
+ "generated": "2026-11-01T23:09:45Z",
  "data_through": "2026-10-31",
  "picks_enabled": false,
  "params": {
@@ -11,30 +11,14 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 67,
-  "checked": 65,
-  "first_is_over": 65,
+  "pairs": 33,
+  "checked": 32,
+  "first_is_over": 32,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 138,
+ "lines": 68,
  "unmatched": [
-  {
-   "espn_id": "3069614",
-   "name": "Matt Tomkins",
-   "team": "EDM",
-   "market": "saves",
-   "game": "EDM@NYR",
-   "why": "no MoneyPuck goalie match"
-  },
-  {
-   "espn_id": "4874882",
-   "name": "Scott Morrow",
-   "team": "NYR",
-   "market": "goal",
-   "game": "EDM@NYR",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  },
   {
    "espn_id": "3026526",
    "name": "Laurent Brossoit",
@@ -52,7 +36,7 @@
    "why": "athlete not on either team's ESPN roster"
   }
  ],
- "unmatched_rate": 0.029,
+ "unmatched_rate": 0.0294,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -2622,7 +2606,7 @@
    "home_name": "Capitals",
    "start_utc": "2026-11-01T20:30:00Z",
    "state": "in",
-   "detail": "3:45 - 3rd",
+   "detail": "0:02 - 3rd",
    "frozen": true,
    "goal_factor": {
     "MIN": 1.041,
@@ -4794,7 +4778,7 @@
    "home_name": "Flyers",
    "start_utc": "2026-11-01T21:00:00Z",
    "state": "in",
-   "detail": "20:00 - 3rd",
+   "detail": "14:20 - 3rd",
    "frozen": true,
    "goal_factor": {
     "UTA": 0.982,
@@ -7198,9 +7182,9 @@
    "away_name": "Oilers",
    "home_name": "Rangers",
    "start_utc": "2026-11-01T23:00:00Z",
-   "state": "pre",
-   "detail": "11/1 - 6:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "19:23 - 1st",
+   "frozen": true,
    "goal_factor": {
     "EDM": 0.897,
     "NYR": 1.0
