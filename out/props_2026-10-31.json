@@ -1,6 +1,6 @@
 {
  "date": "2026-10-31",
- "generated": "2026-11-01T00:00:04Z",
+ "generated": "2026-11-01T00:10:17Z",
  "data_through": "2026-10-30",
  "picks_enabled": false,
  "params": {
@@ -11,30 +11,14 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 70,
-  "checked": 69,
-  "first_is_over": 69,
+  "pairs": 36,
+  "checked": 36,
+  "first_is_over": 36,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 142,
+ "lines": 72,
  "unmatched": [
-  {
-   "espn_id": "3792",
-   "name": "David Perron",
-   "team": "DAL",
-   "market": "goal",
-   "game": "CBJ@DAL",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  },
-  {
-   "espn_id": "3899939",
-   "name": "Ivan Provorov",
-   "team": "CBJ",
-   "market": "goal",
-   "game": "CBJ@DAL",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  },
   {
    "espn_id": "5136614",
    "name": null,
@@ -44,7 +28,7 @@
    "why": "athlete not on either team's ESPN roster"
   }
  ],
- "unmatched_rate": 0.0211,
+ "unmatched_rate": 0.0139,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -16463,7 +16447,7 @@
    "home_name": "Canucks",
    "start_utc": "2026-10-31T23:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "18:26 - 2nd",
    "frozen": true,
    "goal_factor": {
     "TOR": 1.15,
@@ -18801,9 +18785,9 @@
    "away_name": "Blue Jackets",
    "home_name": "Stars",
    "start_utc": "2026-11-01T00:00:00Z",
-   "state": "pre",
-   "detail": "10/31 - 8:00 PM EDT",
-   "frozen": false,
+   "state": "in",
+   "detail": "19:16 - 1st",
+   "frozen": true,
    "goal_factor": {
     "CBJ": 0.906,
     "DAL": 1.009
