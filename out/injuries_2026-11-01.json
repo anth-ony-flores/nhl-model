@@ -1,7 +1,7 @@
 {
  "day": "2026-11-01",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-01 15:39",
+ "fetched": "2026-11-01 15:49",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -707,29 +707,18 @@
    ]
   },
   "NYR": {
-   "missing_value": 0,
+   "missing_value": -0.0336,
    "players": [
     {
-     "name": "Braden Schneider",
-     "status": "Day-To-Day",
-     "playerId": 8482073,
-     "position": "D",
-     "value": -0.1263,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-31"
-    },
-    {
      "name": "Sean Durzi",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8480434,
      "position": "D",
      "value": -0.0336,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-10-31"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-01"
     },
     {
      "name": "Adam Sykora",
