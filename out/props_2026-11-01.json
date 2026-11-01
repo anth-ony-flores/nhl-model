@@ -1,6 +1,6 @@
 {
  "date": "2026-11-01",
- "generated": "2026-11-01T22:29:15Z",
+ "generated": "2026-11-01T22:39:23Z",
  "data_through": "2026-10-31",
  "picks_enabled": false,
  "params": {
@@ -2614,7 +2614,7 @@
    "home_name": "Capitals",
    "start_utc": "2026-11-01T20:30:00Z",
    "state": "in",
-   "detail": "18:20 - 3rd",
+   "detail": "13:33 - 3rd",
    "frozen": true,
    "goal_factor": {
     "MIN": 1.041,
@@ -4786,7 +4786,7 @@
    "home_name": "Flyers",
    "start_utc": "2026-11-01T21:00:00Z",
    "state": "in",
-   "detail": "7:50 - 2nd",
+   "detail": "2:53 - 2nd",
    "frozen": true,
    "goal_factor": {
     "UTA": 0.982,
@@ -9914,9 +9914,9 @@
       "opp": "OTT",
       "line": 1.5,
       "open_line": 1.5,
-      "over": "+110",
+      "over": "-110",
       "over_open": "+110",
-      "under": "-150",
+      "under": "-125",
       "under_open": "-150",
       "updated": "2026-11-01T10:23Z",
       "player_id": 8481605,
@@ -9935,11 +9935,11 @@
        "6.5": 0.0008,
        "7.5": 0.0002
       },
-      "mkt_over": 0.4425,
-      "edge_over": -0.0463,
-      "edge_under": 0.0463,
+      "mkt_over": 0.4853,
+      "edge_over": -0.0892,
+      "edge_under": 0.0892,
       "lean": "Under",
-      "edge": 0.0463,
+      "edge": 0.0892,
       "strong": true
      }
     ],
