@@ -1,6 +1,6 @@
 {
  "date": "2026-11-01",
- "generated": "2026-11-01T22:49:30Z",
+ "generated": "2026-11-01T22:59:38Z",
  "data_through": "2026-10-31",
  "picks_enabled": false,
  "params": {
@@ -2622,7 +2622,7 @@
    "home_name": "Capitals",
    "start_utc": "2026-11-01T20:30:00Z",
    "state": "in",
-   "detail": "8:20 - 3rd",
+   "detail": "3:45 - 3rd",
    "frozen": true,
    "goal_factor": {
     "MIN": 1.041,
@@ -4794,7 +4794,7 @@
    "home_name": "Flyers",
    "start_utc": "2026-11-01T21:00:00Z",
    "state": "in",
-   "detail": "End of 2nd",
+   "detail": "20:00 - 3rd",
    "frozen": true,
    "goal_factor": {
     "UTA": 0.982,
