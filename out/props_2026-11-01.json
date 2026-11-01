@@ -1,6 +1,6 @@
 {
  "date": "2026-11-01",
- "generated": "2026-11-01T23:30:02Z",
+ "generated": "2026-11-01T23:40:10Z",
  "data_through": "2026-10-31",
  "picks_enabled": false,
  "params": {
@@ -4769,8 +4769,8 @@
    "away_name": "Mammoth",
    "home_name": "Flyers",
    "start_utc": "2026-11-01T21:00:00Z",
-   "state": "in",
-   "detail": "4:00 - 3rd",
+   "state": "post",
+   "detail": "Final",
    "frozen": true,
    "goal_factor": {
     "UTA": 0.982,
@@ -7175,7 +7175,7 @@
    "home_name": "Rangers",
    "start_utc": "2026-11-01T23:00:00Z",
    "state": "in",
-   "detail": "7:35 - 1st",
+   "detail": "1:52 - 1st",
    "frozen": true,
    "goal_factor": {
     "EDM": 0.897,
