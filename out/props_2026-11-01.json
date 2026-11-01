@@ -1,6 +1,6 @@
 {
  "date": "2026-11-01",
- "generated": "2026-11-01T21:02:13Z",
+ "generated": "2026-11-01T21:18:19Z",
  "data_through": "2026-10-31",
  "picks_enabled": false,
  "params": {
@@ -11,13 +11,13 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 106,
-  "checked": 102,
-  "first_is_over": 102,
+  "pairs": 67,
+  "checked": 64,
+  "first_is_over": 64,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 213,
+ "lines": 138,
  "unmatched": [
   {
    "espn_id": "3069614",
@@ -44,7 +44,7 @@
    "why": "athlete not on either team's ESPN roster"
   }
  ],
- "unmatched_rate": 0.0141,
+ "unmatched_rate": 0.0217,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -2614,7 +2614,7 @@
    "home_name": "Capitals",
    "start_utc": "2026-11-01T20:30:00Z",
    "state": "in",
-   "detail": "7:04 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "MIN": 1.041,
@@ -4785,9 +4785,9 @@
    "away_name": "Mammoth",
    "home_name": "Flyers",
    "start_utc": "2026-11-01T21:00:00Z",
-   "state": "pre",
-   "detail": "11/1 - 4:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "14:18 - 1st",
+   "frozen": true,
    "goal_factor": {
     "UTA": 0.982,
     "PHI": 0.973
