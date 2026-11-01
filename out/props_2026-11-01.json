@@ -1,6 +1,6 @@
 {
  "date": "2026-11-01",
- "generated": "2026-11-01T23:09:45Z",
+ "generated": "2026-11-01T23:19:53Z",
  "data_through": "2026-10-31",
  "picks_enabled": false,
  "params": {
@@ -26,17 +26,9 @@
    "market": "saves",
    "game": "OTT@ANA",
    "why": "no MoneyPuck goalie match"
-  },
-  {
-   "espn_id": "4565245",
-   "name": null,
-   "team": null,
-   "market": "goal",
-   "game": "OTT@ANA",
-   "why": "athlete not on either team's ESPN roster"
   }
  ],
- "unmatched_rate": 0.0294,
+ "unmatched_rate": 0.0147,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -2605,8 +2597,8 @@
    "away_name": "Wild",
    "home_name": "Capitals",
    "start_utc": "2026-11-01T20:30:00Z",
-   "state": "in",
-   "detail": "0:02 - 3rd",
+   "state": "post",
+   "detail": "Final",
    "frozen": true,
    "goal_factor": {
     "MIN": 1.041,
@@ -4778,7 +4770,7 @@
    "home_name": "Flyers",
    "start_utc": "2026-11-01T21:00:00Z",
    "state": "in",
-   "detail": "14:20 - 3rd",
+   "detail": "8:05 - 3rd",
    "frozen": true,
    "goal_factor": {
     "UTA": 0.982,
@@ -7183,7 +7175,7 @@
    "home_name": "Rangers",
    "start_utc": "2026-11-01T23:00:00Z",
    "state": "in",
-   "detail": "19:23 - 1st",
+   "detail": "11:49 - 1st",
    "frozen": true,
    "goal_factor": {
     "EDM": 0.897,
@@ -10659,6 +10651,35 @@
       "mkt_over": 0.2,
       "vig_included": true,
       "edge_over": -0.0459,
+      "edge_under": null,
+      "lean": null,
+      "edge": null,
+      "strong": false
+     },
+     {
+      "espn_id": "4565245",
+      "player": "Philip Tomasino",
+      "team": "OTT",
+      "opp": "ANA",
+      "line": 0.5,
+      "open_line": 0.5,
+      "over": "+500",
+      "over_open": "+550",
+      "under": null,
+      "under_open": null,
+      "updated": "2026-11-01T06:49Z",
+      "player_id": 8481577,
+      "pos": "F",
+      "proj_toi": 12.86,
+      "games_weight": 26.8,
+      "mean": 0.158,
+      "p_over": 0.1464,
+      "curve": {
+       "0.5": 0.1464
+      },
+      "mkt_over": 0.1667,
+      "vig_included": true,
+      "edge_over": -0.0203,
       "edge_under": null,
       "lean": null,
       "edge": null,
