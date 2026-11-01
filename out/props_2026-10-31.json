@@ -1,6 +1,6 @@
 {
  "date": "2026-10-31",
- "generated": "2026-11-01T00:30:35Z",
+ "generated": "2026-11-01T00:40:44Z",
  "data_through": "2026-10-30",
  "picks_enabled": false,
  "params": {
@@ -13759,7 +13759,7 @@
    "home_name": "Canadiens",
    "start_utc": "2026-10-31T23:00:00Z",
    "state": "in",
-   "detail": "13:14 - 2nd",
+   "detail": "7:44 - 2nd",
    "frozen": true,
    "goal_factor": {
     "PIT": 1.063,
@@ -16447,7 +16447,7 @@
    "home_name": "Canucks",
    "start_utc": "2026-10-31T23:00:00Z",
    "state": "in",
-   "detail": "7:26 - 2nd",
+   "detail": "2:17 - 2nd",
    "frozen": true,
    "goal_factor": {
     "TOR": 1.15,
@@ -18786,7 +18786,7 @@
    "home_name": "Stars",
    "start_utc": "2026-11-01T00:00:00Z",
    "state": "in",
-   "detail": "8:58 - 1st",
+   "detail": "4:15 - 1st",
    "frozen": true,
    "goal_factor": {
     "CBJ": 0.906,
