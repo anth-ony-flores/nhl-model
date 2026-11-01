@@ -1,7 +1,7 @@
 {
  "day": "2026-11-01",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-01 13:31",
+ "fetched": "2026-11-01 13:41",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -1141,25 +1141,14 @@
    "players": [
     {
      "name": "John Marino",
-     "status": "Out",
+     "status": "Injured Reserve",
      "playerId": 8478507,
      "position": "D",
      "value": 0.0364,
      "regular": true,
      "applied": true,
-     "note": "out",
-     "date": "2026-10-24"
-    },
-    {
-     "name": "Michael Carcone",
-     "status": "Injured Reserve",
-     "playerId": 8479619,
-     "position": "L",
-     "value": 0.0213,
-     "regular": false,
-     "applied": false,
-     "note": "Carcone (upper body) was placed on injured reserve by the Mammoth on Tuesday.",
-     "date": "2026-10-20"
+     "note": "ir",
+     "date": "2026-11-01"
     },
     {
      "name": "Maveric Lamoureux",
