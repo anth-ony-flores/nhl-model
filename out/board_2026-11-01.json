@@ -1,7 +1,7 @@
 {
  "date": "2026-11-01",
  "data_through": "2026-10-31",
- "generated": "2026-11-01 07:11 MST",
+ "generated": "2026-11-01 09:00 MST",
  "league_xg60": 3.007,
  "b2b_effect": {
   "own_xg": -0.234,
@@ -592,17 +592,6 @@
      "applied": false,
      "note": "day-to-day",
      "date": "2026-10-31"
-    },
-    {
-     "name": "Eeli Tolvanen",
-     "status": "Day-To-Day",
-     "playerId": 8480009,
-     "position": "R",
-     "value": -0.0732,
-     "regular": true,
-     "applied": false,
-     "note": "Tolvanen didn't participate in Friday's practice session due to personal reasons, Vince Z. Mercogliano of The Athletic reports.",
-     "date": "2026-10-30"
     },
     {
      "name": "Adam Sykora",

@@ -1,7 +1,7 @@
 {
  "day": "2026-11-01",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-01 07:11",
+ "fetched": "2026-11-01 09:00",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -741,17 +741,6 @@
      "applied": false,
      "note": "day-to-day",
      "date": "2026-10-31"
-    },
-    {
-     "name": "Eeli Tolvanen",
-     "status": "Day-To-Day",
-     "playerId": 8480009,
-     "position": "R",
-     "value": -0.0732,
-     "regular": true,
-     "applied": false,
-     "note": "Tolvanen didn't participate in Friday's practice session due to personal reasons, Vince Z. Mercogliano of The Athletic reports.",
-     "date": "2026-10-30"
     },
     {
      "name": "Adam Sykora",
