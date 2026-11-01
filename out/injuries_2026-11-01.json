@@ -1,11 +1,11 @@
 {
  "day": "2026-11-01",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-01 13:01",
+ "fetched": "2026-11-01 13:11",
  "k": 1.0,
  "teams": {
   "ANA": {
-   "missing_value": -0.0623,
+   "missing_value": 0,
    "players": [
     {
      "name": "Troy Terry",
@@ -17,17 +17,6 @@
      "applied": false,
      "note": "Although Terry's (hip) return doesn't appear to be imminent, he is getting close to playing, Derek Lee of The Hockey News reports Saturday.",
      "date": "2026-10-31"
-    },
-    {
-     "name": "Pavel Mintyukov",
-     "status": "Injured Reserve",
-     "playerId": 8483490,
-     "position": "D",
-     "value": -0.0623,
-     "regular": true,
-     "applied": true,
-     "note": "Mintyukov (lower body) was put on injured reserve Thursday.",
-     "date": "2026-10-23"
     },
     {
      "name": "Ian Moore",
