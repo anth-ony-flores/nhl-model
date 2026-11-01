@@ -1,7 +1,7 @@
 {
  "day": "2026-11-01",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-01 11:30",
+ "fetched": "2026-11-01 11:40",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -1289,8 +1289,19 @@
    ]
   },
   "WPG": {
-   "missing_value": 0,
+   "missing_value": -0.0477,
    "players": [
+    {
+     "name": "Cole Koepke",
+     "status": "Out",
+     "playerId": 8481043,
+     "position": "L",
+     "value": -0.0477,
+     "regular": true,
+     "applied": true,
+     "note": "Koepke (undisclosed) was unavailable for Sunday's game against Carolina, according to Mike McIntyre of the Winnipeg Free Press.",
+     "date": "2026-11-01"
+    },
     {
      "name": "Vladislav Namestnikov",
      "status": "Injured Reserve",
