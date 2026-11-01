@@ -1,6 +1,6 @@
 {
  "date": "2026-11-01",
- "generated": "2026-11-01T23:19:53Z",
+ "generated": "2026-11-01T23:30:02Z",
  "data_through": "2026-10-31",
  "picks_enabled": false,
  "params": {
@@ -4770,7 +4770,7 @@
    "home_name": "Flyers",
    "start_utc": "2026-11-01T21:00:00Z",
    "state": "in",
-   "detail": "8:05 - 3rd",
+   "detail": "4:00 - 3rd",
    "frozen": true,
    "goal_factor": {
     "UTA": 0.982,
@@ -7175,7 +7175,7 @@
    "home_name": "Rangers",
    "start_utc": "2026-11-01T23:00:00Z",
    "state": "in",
-   "detail": "11:49 - 1st",
+   "detail": "7:35 - 1st",
    "frozen": true,
    "goal_factor": {
     "EDM": 0.897,
