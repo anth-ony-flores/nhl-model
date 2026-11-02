@@ -1,12 +1,23 @@
 {
  "day": "2026-11-02",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-02 07:32",
+ "fetched": "2026-11-02 15:00",
  "k": 1.0,
  "teams": {
   "ANA": {
-   "missing_value": 0,
+   "missing_value": 0.0447,
    "players": [
+    {
+     "name": "A.J. Greer",
+     "status": "Injured Reserve",
+     "playerId": 8478421,
+     "position": "L",
+     "value": 0.0447,
+     "regular": true,
+     "applied": true,
+     "note": "Greer (upper body) was placed on injured reserve Monday.",
+     "date": "2026-11-02"
+    },
     {
      "name": "Troy Terry",
      "status": "Injured Reserve",
@@ -43,29 +54,29 @@
    ]
   },
   "BUF": {
-   "missing_value": 0,
+   "missing_value": 0.0207,
    "players": [
     {
-     "name": "Jiri Kulich",
+     "name": "Zach Benson",
      "status": "Day-To-Day",
-     "playerId": 8483468,
-     "position": "C",
-     "value": 0.0304,
-     "regular": false,
+     "playerId": 8484145,
+     "position": "L",
+     "value": 0.1426,
+     "regular": true,
      "applied": false,
      "note": "day-to-day",
-     "date": "2026-11-01"
+     "date": "2026-11-02"
     },
     {
      "name": "Konsta Helenius",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8484797,
      "position": "C",
      "value": 0.0207,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-01"
+     "applied": true,
+     "note": "Helenius (upper body) is week-to-week, according to Matthew Fairburn of The Athletic on Monday.",
+     "date": "2026-11-02"
     },
     {
      "name": "Justin Danforth",
@@ -205,31 +216,20 @@
    "players": [
     {
      "name": "Bowen Byram",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8481524,
      "position": "D",
      "value": -0.0565,
      "regular": false,
      "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-01"
+     "note": "out",
+     "date": "2026-11-02"
     }
    ]
   },
   "COL": {
    "missing_value": -0.0146,
    "players": [
-    {
-     "name": "Logan O'Connor",
-     "status": "Day-To-Day",
-     "playerId": 8481186,
-     "position": "R",
-     "value": -0.0021,
-     "regular": false,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-01"
-    },
     {
      "name": "Josh Manson",
      "status": "Out",
@@ -258,17 +258,6 @@
    "missing_value": -0.0042,
    "players": [
     {
-     "name": "Radek Faksa",
-     "status": "Day-To-Day",
-     "playerId": 8476889,
-     "position": "C",
-     "value": -0.0224,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-01"
-    },
-    {
      "name": "Kyle Capobianco",
      "status": "Injured Reserve",
      "playerId": 8478476,
@@ -293,18 +282,18 @@
    ]
   },
   "DET": {
-   "missing_value": 0.0063,
+   "missing_value": -0.0213,
    "players": [
     {
      "name": "Albert Johansson",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8481607,
      "position": "D",
      "value": -0.0276,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-01"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-02"
     },
     {
      "name": "Dylan Larkin",
@@ -570,8 +559,8 @@
      "value": -0.0547,
      "regular": true,
      "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-01"
+     "note": "Dach (illness) won't participate in Monday's practice.",
+     "date": "2026-11-02"
     },
     {
      "name": "Mike Matheson",
@@ -622,6 +611,17 @@
   "NJD": {
    "missing_value": 0,
    "players": [
+    {
+     "name": "Evan Rodrigues",
+     "status": "Day-To-Day",
+     "playerId": 8478542,
+     "position": "C",
+     "value": 0.0088,
+     "regular": true,
+     "applied": false,
+     "note": "Rodrigues (illness) is questionable for Tuesday's matchup against Edmonton, per Amanda Stein of the Devils' official site.",
+     "date": "2026-11-02"
+    },
     {
      "name": "Anthony Mantha",
      "status": "Day-To-Day",
@@ -759,17 +759,6 @@
      "date": "2026-10-31"
     },
     {
-     "name": "Hayden Hodgson",
-     "status": "Suspension",
-     "playerId": 8478173,
-     "position": "R",
-     "value": -0.0375,
-     "regular": false,
-     "applied": false,
-     "note": "suspension",
-     "date": "2026-10-31"
-    },
-    {
      "name": "William Eklund",
      "status": "Injured Reserve",
      "playerId": 8482667,
@@ -813,15 +802,26 @@
    "missing_value": -0.0271,
    "players": [
     {
-     "name": "Justin Brazeau",
-     "status": "Out",
-     "playerId": 8479638,
-     "position": "R",
-     "value": -0.0272,
-     "regular": false,
+     "name": "Evgeni Malkin",
+     "status": "Day-To-Day",
+     "playerId": 8471215,
+     "position": "C",
+     "value": 0.0262,
+     "regular": true,
      "applied": false,
-     "note": "out",
-     "date": "2026-10-28"
+     "note": "day-to-day",
+     "date": "2026-11-02"
+    },
+    {
+     "name": "Kaedan Korczak",
+     "status": "Day-To-Day",
+     "playerId": 8481527,
+     "position": "D",
+     "value": 0.0675,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-02"
     },
     {
      "name": "Elmer Soderblom",
@@ -831,8 +831,8 @@
      "value": 0.0144,
      "regular": true,
      "applied": true,
-     "note": "ir",
-     "date": "2026-10-28"
+     "note": "Soderblom (upper body) is week-to-week, per Penguins PR on Monday.",
+     "date": "2026-11-02"
     },
     {
      "name": "Bryan Rust",
@@ -938,6 +938,17 @@
    "missing_value": 0,
    "players": [
     {
+     "name": "Logan Mailloux",
+     "status": "Injured Reserve",
+     "playerId": 8482733,
+     "position": "D",
+     "value": -0.0983,
+     "regular": false,
+     "applied": false,
+     "note": "The Blues assigned Mailloux (hand) to AHL Springfield for a conditioning assignment Monday.",
+     "date": "2026-11-02"
+    },
+    {
      "name": "Colton Parayko",
      "status": "Day-To-Day",
      "playerId": 8476892,
@@ -991,33 +1002,22 @@
      "applied": false,
      "note": "Tucker had arthroscopic knee surgery and will be re-assessed in six weeks, the team announced Wednesday.",
      "date": "2026-09-30"
-    },
-    {
-     "name": "Logan Mailloux",
-     "status": "Injured Reserve",
-     "playerId": 8482733,
-     "position": "D",
-     "value": -0.0983,
-     "regular": false,
-     "applied": false,
-     "note": "ir",
-     "date": "2026-09-28"
     }
    ]
   },
   "TBL": {
-   "missing_value": 0,
+   "missing_value": -0.0865,
    "players": [
     {
      "name": "Zemgus Girgensons",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8476878,
      "position": "C",
      "value": -0.0865,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-01"
+     "applied": true,
+     "note": "Girgensons (lower body) won't play against Detroit on Tuesday, per Lightning reporter Gabby Shirley.",
+     "date": "2026-11-02"
     },
     {
      "name": "Erik Cernak",
@@ -1248,11 +1248,11 @@
    "missing_value": 0,
    "players": [
     {
-     "name": "Cole Koepke",
+     "name": "Dawson Mercer",
      "status": "Day-To-Day",
-     "playerId": 8481043,
-     "position": "L",
-     "value": -0.0477,
+     "playerId": 8482110,
+     "position": "C",
+     "value": 0.0254,
      "regular": true,
      "applied": false,
      "note": "day-to-day",

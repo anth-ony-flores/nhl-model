@@ -1,7 +1,7 @@
 {
  "date": "2026-11-02",
  "data_through": "2026-11-01",
- "generated": "2026-11-02 07:32 MST",
+ "generated": "2026-11-02 15:00 MST",
  "league_xg60": 3.009,
  "b2b_effect": {
   "own_xg": -0.229,
@@ -211,14 +211,14 @@
    "inj_away": [
     {
      "name": "Albert Johansson",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8481607,
      "position": "D",
      "value": -0.0276,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-01"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-02"
     },
     {
      "name": "Dylan Larkin",
@@ -266,16 +266,16 @@
     }
    ],
    "inj_adj_home": 0,
-   "inj_adj_away": 0.006,
-   "xg_home": 3.045,
-   "xg_away": 2.851,
-   "proj_home": 3.2,
-   "proj_away": 2.85,
-   "p_home": 0.5607,
-   "p_away": 0.4393,
-   "p_ot": 0.2452,
-   "fair_ml_home": -128,
-   "fair_ml_away": 128,
+   "inj_adj_away": -0.021,
+   "xg_home": 3.031,
+   "xg_away": 2.865,
+   "proj_home": 3.18,
+   "proj_away": 2.86,
+   "p_home": 0.5562,
+   "p_away": 0.4438,
+   "p_ot": 0.2456,
+   "fair_ml_home": -125,
+   "fair_ml_away": 125,
    "exp_total": 6.04,
    "totals": {
     "4.5": {
@@ -283,35 +283,35 @@
      "under": 0.2611
     },
     "5.0": {
-     "over": 0.5505,
+     "over": 0.5504,
      "under": 0.2611
     },
     "5.5": {
-     "over": 0.5505,
-     "under": 0.4495
+     "over": 0.5504,
+     "under": 0.4496
     },
     "6.0": {
      "over": 0.4079,
-     "under": 0.4495
+     "under": 0.4496
     },
     "6.5": {
      "over": 0.4079,
      "under": 0.5921
     },
     "7.0": {
-     "over": 0.2468,
+     "over": 0.2467,
      "under": 0.5921
     },
     "7.5": {
-     "over": 0.2468,
-     "under": 0.7532
+     "over": 0.2467,
+     "under": 0.7533
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3487,
-    "away_+1.5": 0.6513,
-    "away_-1.5": 0.2523,
-    "home_+1.5": 0.7477
+    "home_-1.5": 0.3449,
+    "away_+1.5": 0.6551,
+    "away_-1.5": 0.2556,
+    "home_+1.5": 0.7444
    }
   },
   {
@@ -363,28 +363,17 @@
    "inj_home": [
     {
      "name": "Bowen Byram",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8481524,
      "position": "D",
      "value": -0.0565,
      "regular": false,
      "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-01"
+     "note": "out",
+     "date": "2026-11-02"
     }
    ],
    "inj_away": [
-    {
-     "name": "Logan O'Connor",
-     "status": "Day-To-Day",
-     "playerId": 8481186,
-     "position": "R",
-     "value": -0.0021,
-     "regular": false,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-01"
-    },
     {
      "name": "Josh Manson",
      "status": "Out",
