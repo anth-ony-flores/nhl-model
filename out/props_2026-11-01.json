@@ -1,6 +1,6 @@
 {
  "date": "2026-11-01",
- "generated": "2026-11-02T00:30:51Z",
+ "generated": "2026-11-02T00:40:59Z",
  "data_through": "2026-10-31",
  "picks_enabled": false,
  "params": {
@@ -7175,7 +7175,7 @@
    "home_name": "Rangers",
    "start_utc": "2026-11-01T23:00:00Z",
    "state": "in",
-   "detail": "6:08 - 2nd",
+   "detail": "0:34 - 2nd",
    "frozen": true,
    "goal_factor": {
     "EDM": 0.897,
