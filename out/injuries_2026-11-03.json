@@ -1,7 +1,7 @@
 {
  "day": "2026-11-03",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-03 07:37",
+ "fetched": "2026-11-03 15:00",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -73,15 +73,15 @@
    "missing_value": 0.0207,
    "players": [
     {
-     "name": "Zach Benson",
+     "name": "Jiri Kulich",
      "status": "Day-To-Day",
-     "playerId": 8484145,
-     "position": "L",
-     "value": 0.1426,
-     "regular": true,
+     "playerId": 8483468,
+     "position": "C",
+     "value": 0.0304,
+     "regular": false,
      "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-02"
+     "note": "Kulich (concussion) participated in Tuesday's practice and is close to being ready to return, according to Rachel Lenzi of The Buffalo News.",
+     "date": "2026-11-03"
     },
     {
      "name": "Konsta Helenius",
@@ -194,14 +194,14 @@
    "players": [
     {
      "name": "Taylor Hall",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8475791,
      "position": "L",
      "value": 0.0429,
      "regular": false,
      "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-02"
+     "note": "Hall (upper body) isn't expected to play against Nashville on Tuesday, per Walt Ruff of the Hurricanes' official site.",
+     "date": "2026-11-03"
     },
     {
      "name": "Alexander Nikishin",
@@ -231,6 +231,17 @@
    "missing_value": 0.0094,
    "players": [
     {
+     "name": "Bowen Byram",
+     "status": "Injured Reserve",
+     "playerId": 8481524,
+     "position": "D",
+     "value": -0.0565,
+     "regular": false,
+     "applied": false,
+     "note": "Byram (upper body) was placed on injured reserve Tuesday.",
+     "date": "2026-11-03"
+    },
+    {
      "name": "Patrick Kane",
      "status": "Out",
      "playerId": 8474141,
@@ -240,17 +251,6 @@
      "applied": true,
      "note": "Head coach Jeff Blashill said after Monday's 5-2 loss to the Avalanche that Kane has an upper-body injury and will miss at least the next couple of games, Ben Pope of the Chicago Sun-Times reports.",
      "date": "2026-11-03"
-    },
-    {
-     "name": "Bowen Byram",
-     "status": "Out",
-     "playerId": 8481524,
-     "position": "D",
-     "value": -0.0565,
-     "regular": false,
-     "applied": false,
-     "note": "out",
-     "date": "2026-11-02"
     }
    ]
   },
@@ -369,18 +369,18 @@
    ]
   },
   "EDM": {
-   "missing_value": 0.1308,
+   "missing_value": 0.0677,
    "players": [
     {
      "name": "Isaac Howard",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8483455,
      "position": "L",
      "value": -0.0631,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-02"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-03"
     },
     {
      "name": "Zach Hyman",
@@ -576,18 +576,18 @@
    ]
   },
   "MTL": {
-   "missing_value": 0.1042,
+   "missing_value": 0.0495,
    "players": [
     {
      "name": "Kirby Dach",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8481523,
      "position": "C",
      "value": -0.0547,
      "regular": true,
-     "applied": false,
-     "note": "Dach (illness) won't participate in Monday's practice.",
-     "date": "2026-11-02"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-03"
     },
     {
      "name": "Mike Matheson",
@@ -638,28 +638,6 @@
   "NJD": {
    "missing_value": 0,
    "players": [
-    {
-     "name": "Evan Rodrigues",
-     "status": "Day-To-Day",
-     "playerId": 8478542,
-     "position": "C",
-     "value": 0.0088,
-     "regular": true,
-     "applied": false,
-     "note": "Rodrigues (illness) is questionable for Tuesday's matchup against Edmonton, per Amanda Stein of the Devils' official site.",
-     "date": "2026-11-02"
-    },
-    {
-     "name": "Anthony Mantha",
-     "status": "Day-To-Day",
-     "playerId": 8477511,
-     "position": "R",
-     "value": 0.0015,
-     "regular": true,
-     "applied": false,
-     "note": "Mantha (undisclosed) didn't finish Friday's game versus the Golden Knights, and head coach Sheldon Keefe didn't have an update on the winger's status in his postgame comments, Amanda Stein of the Devi",
-     "date": "2026-10-31"
-    },
     {
      "name": "Seamus Casey",
      "status": "Injured Reserve",
@@ -734,18 +712,18 @@
    ]
   },
   "NYR": {
-   "missing_value": 0,
+   "missing_value": -0.0336,
    "players": [
     {
      "name": "Sean Durzi",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8480434,
      "position": "D",
      "value": -0.0336,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-02"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-03"
     },
     {
      "name": "Adam Sykora",
@@ -826,29 +804,18 @@
    ]
   },
   "PIT": {
-   "missing_value": -0.0271,
+   "missing_value": -0.0009,
    "players": [
     {
      "name": "Evgeni Malkin",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8471215,
      "position": "C",
      "value": 0.0262,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-02"
-    },
-    {
-     "name": "Kaedan Korczak",
-     "status": "Day-To-Day",
-     "playerId": 8481527,
-     "position": "D",
-     "value": 0.0675,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-02"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-03"
     },
     {
      "name": "Elmer Soderblom",
@@ -927,6 +894,17 @@
    "missing_value": 0.0686,
    "players": [
     {
+     "name": "Curtis Douglas",
+     "status": "Day-To-Day",
+     "playerId": 8480876,
+     "position": "C",
+     "value": 0.0241,
+     "regular": false,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-03"
+    },
+    {
      "name": "Jared McCann",
      "status": "Injured Reserve",
      "playerId": 8477955,
@@ -962,8 +940,19 @@
    ]
   },
   "STL": {
-   "missing_value": 0,
+   "missing_value": 0.0233,
    "players": [
+    {
+     "name": "Colton Parayko",
+     "status": "Out",
+     "playerId": 8476892,
+     "position": "D",
+     "value": 0.0233,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-03"
+    },
     {
      "name": "Logan Mailloux",
      "status": "Injured Reserve",
@@ -974,28 +963,6 @@
      "applied": false,
      "note": "The Blues assigned Mailloux (hand) to AHL Springfield for a conditioning assignment Monday.",
      "date": "2026-11-02"
-    },
-    {
-     "name": "Colton Parayko",
-     "status": "Day-To-Day",
-     "playerId": 8476892,
-     "position": "D",
-     "value": 0.0233,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-01"
-    },
-    {
-     "name": "Ross Johnston",
-     "status": "Injured Reserve",
-     "playerId": 8477527,
-     "position": "L",
-     "value": -0.0442,
-     "regular": false,
-     "applied": false,
-     "note": "ir",
-     "date": "2026-10-19"
     },
     {
      "name": "Torey Krug",
@@ -1047,17 +1014,6 @@
      "date": "2026-11-02"
     },
     {
-     "name": "Erik Cernak",
-     "status": "Day-To-Day",
-     "playerId": 8478416,
-     "position": "D",
-     "value": -0.0247,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-01"
-    },
-    {
      "name": "Yanni Gourde",
      "status": "Injured Reserve",
      "playerId": 8476826,
@@ -1073,6 +1029,17 @@
   "TOR": {
    "missing_value": 0.0922,
    "players": [
+    {
+     "name": "John Tavares",
+     "status": "Out",
+     "playerId": 8475166,
+     "position": "C",
+     "value": 0.0302,
+     "regular": false,
+     "applied": false,
+     "note": "out",
+     "date": "2026-11-03"
+    },
     {
      "name": "Kirill Marchenko",
      "status": "Injured Reserve",
@@ -1116,17 +1083,6 @@
      "applied": false,
      "note": "ir",
      "date": "2026-10-23"
-    },
-    {
-     "name": "John Tavares",
-     "status": "Injured Reserve",
-     "playerId": 8475166,
-     "position": "C",
-     "value": 0.0302,
-     "regular": false,
-     "applied": false,
-     "note": "ir",
-     "date": "2026-10-17"
     },
     {
      "name": "Max Domi",
@@ -1201,8 +1157,8 @@
      "value": 0.0139,
      "regular": true,
      "applied": true,
-     "note": "ir",
-     "date": "2026-10-30"
+     "note": "Chytil (upper body) won't travel with the Canucks during their upcoming two-game road trip, per Jeff Paterson of CanucksArmy.com.",
+     "date": "2026-11-03"
     },
     {
      "name": "Akil Thomas",
@@ -1274,17 +1230,6 @@
   "WPG": {
    "missing_value": 0,
    "players": [
-    {
-     "name": "Dawson Mercer",
-     "status": "Day-To-Day",
-     "playerId": 8482110,
-     "position": "C",
-     "value": 0.0254,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-02"
-    },
     {
      "name": "Vladislav Namestnikov",
      "status": "Injured Reserve",
