@@ -1,7 +1,7 @@
 {
  "day": "2026-11-02",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-02 18:53",
+ "fetched": "2026-11-02 19:03",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -125,18 +125,18 @@
    ]
   },
   "CGY": {
-   "missing_value": 0,
+   "missing_value": -0.0528,
    "players": [
     {
      "name": "Brennan Othmann",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8482747,
      "position": "L",
      "value": -0.0528,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-01"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-03"
     },
     {
      "name": "Connor Zary",
