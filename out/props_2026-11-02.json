@@ -1,6 +1,6 @@
 {
  "date": "2026-11-02",
- "generated": "2026-11-03T00:42:17Z",
+ "generated": "2026-11-03T00:52:25Z",
  "data_through": "2026-11-01",
  "picks_enabled": false,
  "params": {
@@ -65,7 +65,7 @@
    "home_name": "Bruins",
    "start_utc": "2026-11-03T00:00:00Z",
    "state": "in",
-   "detail": "2:39 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "VGK": 1.025,
