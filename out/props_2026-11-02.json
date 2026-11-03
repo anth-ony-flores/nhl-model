@@ -1,6 +1,6 @@
 {
  "date": "2026-11-02",
- "generated": "2026-11-03T00:01:39Z",
+ "generated": "2026-11-03T00:11:46Z",
  "data_through": "2026-11-01",
  "picks_enabled": false,
  "params": {
@@ -11,22 +11,14 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 159,
-  "checked": 157,
-  "first_is_over": 157,
+  "pairs": 82,
+  "checked": 81,
+  "first_is_over": 81,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 303,
+ "lines": 154,
  "unmatched": [
-  {
-   "espn_id": "4419658",
-   "name": "John Leonard",
-   "team": "DET",
-   "market": "goal",
-   "game": "DET@FLA",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  },
   {
    "espn_id": "4874893",
    "name": "William Stromgren",
@@ -36,7 +28,7 @@
    "why": "no MoneyPuck skater match (no recent games?)"
   }
  ],
- "unmatched_rate": 0.0066,
+ "unmatched_rate": 0.0065,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -72,9 +64,9 @@
    "away_name": "Golden Knights",
    "home_name": "Bruins",
    "start_utc": "2026-11-03T00:00:00Z",
-   "state": "pre",
-   "detail": "11/2 - 7:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "17:57 - 1st",
+   "frozen": true,
    "goal_factor": {
     "VGK": 1.025,
     "BOS": 0.885
@@ -2519,9 +2511,9 @@
    "away_name": "Red Wings",
    "home_name": "Panthers",
    "start_utc": "2026-11-03T00:00:00Z",
-   "state": "pre",
-   "detail": "11/2 - 7:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "18:08 - 1st",
+   "frozen": true,
    "goal_factor": {
     "DET": 0.97,
     "FLA": 0.984
@@ -5263,9 +5255,9 @@
       "opp": "COL",
       "line": 1.5,
       "open_line": 1.5,
-      "over": "-150",
+      "over": "-155",
       "over_open": "-135",
-      "under": "+110",
+      "under": "+115",
       "under_open": "+100",
       "updated": "2026-11-02T12:35Z",
       "player_id": 8474141,
@@ -5284,11 +5276,11 @@
        "6.5": 0.0086,
        "7.5": 0.0026
       },
-      "mkt_over": 0.5575,
-      "edge_over": 0.0619,
-      "edge_under": -0.0619,
+      "mkt_over": 0.5665,
+      "edge_over": 0.0529,
+      "edge_under": -0.0529,
       "lean": "Over",
-      "edge": 0.0619,
+      "edge": 0.0529,
       "strong": true
      },
      {
@@ -5300,7 +5292,7 @@
       "open_line": 1.5,
       "over": "+100",
       "over_open": "+100",
-      "under": "-135",
+      "under": "-140",
       "under_open": "-140",
       "updated": "2026-11-02T12:33Z",
       "player_id": 8483493,
@@ -5319,11 +5311,11 @@
        "6.5": 0.0038,
        "7.5": 0.001
       },
-      "mkt_over": 0.4653,
-      "edge_over": 0.0681,
-      "edge_under": -0.0681,
+      "mkt_over": 0.4615,
+      "edge_over": 0.0719,
+      "edge_under": -0.0719,
       "lean": "Over",
-      "edge": 0.0681,
+      "edge": 0.0719,
       "strong": true
      },
      {
@@ -5436,9 +5428,9 @@
       "opp": "CHI",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "-240",
+      "over": "-230",
       "over_open": "-240",
-      "under": "+175",
+      "under": "+170",
       "under_open": "+175",
       "updated": "2026-11-02T12:55Z",
       "player_id": 8480039,
@@ -5453,11 +5445,11 @@
        "2.5": 0.1367,
        "3.5": 0.0405
       },
-      "mkt_over": 0.66,
-      "edge_over": 0.06,
-      "edge_under": -0.06,
+      "mkt_over": 0.653,
+      "edge_over": 0.067,
+      "edge_under": -0.067,
       "lean": "Over",
-      "edge": 0.06,
+      "edge": 0.067,
       "strong": true
      },
      {
@@ -5467,9 +5459,9 @@
       "opp": "CHI",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "-205",
+      "over": "-220",
       "over_open": "-190",
-      "under": "+150",
+      "under": "+160",
       "under_open": "+140",
       "updated": "2026-11-02T12:55Z",
       "player_id": 8480069,
@@ -5484,11 +5476,11 @@
        "2.5": 0.1123,
        "3.5": 0.0306
       },
-      "mkt_over": 0.6269,
-      "edge_over": 0.0602,
-      "edge_under": -0.0602,
+      "mkt_over": 0.6413,
+      "edge_over": 0.0458,
+      "edge_under": -0.0458,
       "lean": "Over",
-      "edge": 0.0602,
+      "edge": 0.0458,
       "strong": true
      },
      {
@@ -5622,9 +5614,9 @@
       "opp": "CHI",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+110",
+      "over": "+115",
       "over_open": "+110",
-      "under": "-150",
+      "under": "-155",
       "under_open": "-145",
       "updated": "2026-11-02T12:55Z",
       "player_id": 8478038,
@@ -5639,12 +5631,12 @@
        "2.5": 0.0261,
        "3.5": 0.004
       },
-      "mkt_over": 0.4425,
-      "edge_over": 0.0244,
-      "edge_under": -0.0244,
+      "mkt_over": 0.4335,
+      "edge_over": 0.0334,
+      "edge_under": -0.0334,
       "lean": "Over",
-      "edge": 0.0244,
-      "strong": false
+      "edge": 0.0334,
+      "strong": true
      },
      {
       "espn_id": "5835",
@@ -5746,9 +5738,9 @@
       "opp": "COL",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "-215",
+      "over": "-225",
       "over_open": "-205",
-      "under": "+160",
+      "under": "+165",
       "under_open": "+150",
       "updated": "2026-11-02T12:14Z",
       "player_id": 8484144,
@@ -5763,11 +5755,11 @@
        "2.5": 0.0644,
        "3.5": 0.0139
       },
-      "mkt_over": 0.6396,
-      "edge_over": -0.0423,
-      "edge_under": 0.0423,
+      "mkt_over": 0.6472,
+      "edge_over": -0.05,
+      "edge_under": 0.05,
       "lean": "Under",
-      "edge": 0.0423,
+      "edge": 0.05,
       "strong": true
      },
      {
@@ -5870,9 +5862,9 @@
       "opp": "COL",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+145",
+      "over": "+150",
       "over_open": "+155",
-      "under": "-195",
+      "under": "-205",
       "under_open": "-215",
       "updated": "2026-11-02T12:16Z",
       "player_id": 8483493,
@@ -5887,11 +5879,11 @@
        "2.5": 0.0172,
        "3.5": 0.0022
       },
-      "mkt_over": 0.3818,
-      "edge_over": 0.033,
-      "edge_under": -0.033,
+      "mkt_over": 0.3731,
+      "edge_over": 0.0416,
+      "edge_under": -0.0416,
       "lean": "Over",
-      "edge": 0.033,
+      "edge": 0.0416,
       "strong": true
      },
      {
