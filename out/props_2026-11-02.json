@@ -1,6 +1,6 @@
 {
  "date": "2026-11-02",
- "generated": "2026-11-03T01:02:32Z",
+ "generated": "2026-11-03T01:12:39Z",
  "data_through": "2026-11-01",
  "picks_enabled": false,
  "params": {
@@ -11,13 +11,13 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 82,
-  "checked": 81,
-  "first_is_over": 81,
+  "pairs": 46,
+  "checked": 46,
+  "first_is_over": 46,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 154,
+ "lines": 82,
  "unmatched": [
   {
    "espn_id": "4874893",
@@ -28,7 +28,7 @@
    "why": "no MoneyPuck skater match (no recent games?)"
   }
  ],
- "unmatched_rate": 0.0065,
+ "unmatched_rate": 0.0122,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -65,7 +65,7 @@
    "home_name": "Bruins",
    "start_utc": "2026-11-03T00:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "17:11 - 2nd",
    "frozen": true,
    "goal_factor": {
     "VGK": 1.025,
@@ -2512,7 +2512,7 @@
    "home_name": "Panthers",
    "start_utc": "2026-11-03T00:00:00Z",
    "state": "in",
-   "detail": "19:09 - 2nd",
+   "detail": "12:05 - 2nd",
    "frozen": true,
    "goal_factor": {
     "DET": 0.97,
@@ -4782,9 +4782,9 @@
    "away_name": "Avalanche",
    "home_name": "Blackhawks",
    "start_utc": "2026-11-03T01:00:00Z",
-   "state": "pre",
-   "detail": "11/2 - 8:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "17:58 - 1st",
+   "frozen": true,
    "goal_factor": {
     "COL": 1.116,
     "CHI": 0.941
