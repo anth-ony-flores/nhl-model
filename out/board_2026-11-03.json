@@ -1,7 +1,7 @@
 {
  "date": "2026-11-03",
  "data_through": "2026-11-02",
- "generated": "2026-11-03 16:41 MST",
+ "generated": "2026-11-03 16:51 MST",
  "league_xg60": 3.007,
  "b2b_effect": {
   "own_xg": -0.227,
@@ -136,14 +136,14 @@
    "inj_away": [
     {
      "name": "Kailer Yamamoto",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8479977,
      "position": "R",
      "value": 0.088,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-02"
+     "applied": true,
+     "note": "Yamamoto (upper body) won't play against Toronto on Tuesday.",
+     "date": "2026-11-03"
     },
     {
      "name": "John Marino",
@@ -169,52 +169,52 @@
     }
    ],
    "inj_adj_home": 0.092,
-   "inj_adj_away": 0,
-   "xg_home": 2.672,
-   "xg_away": 3.486,
-   "proj_home": 3.05,
-   "proj_away": 3.54,
-   "p_home": 0.4195,
-   "p_away": 0.5805,
-   "p_ot": 0.2315,
-   "fair_ml_home": 138,
-   "fair_ml_away": -138,
-   "exp_total": 6.59,
+   "inj_adj_away": 0.088,
+   "xg_home": 2.716,
+   "xg_away": 3.442,
+   "proj_home": 3.1,
+   "proj_away": 3.5,
+   "p_home": 0.4339,
+   "p_away": 0.5661,
+   "p_ot": 0.2329,
+   "fair_ml_home": 130,
+   "fair_ml_away": -130,
+   "exp_total": 6.6,
    "totals": {
     "4.5": {
-     "over": 0.8027,
-     "under": 0.1973
+     "over": 0.8034,
+     "under": 0.1966
     },
     "5.0": {
-     "over": 0.6369,
-     "under": 0.1973
+     "over": 0.6378,
+     "under": 0.1966
     },
     "5.5": {
-     "over": 0.6369,
-     "under": 0.3631
+     "over": 0.6378,
+     "under": 0.3622
     },
     "6.0": {
-     "over": 0.497,
-     "under": 0.3631
+     "over": 0.4982,
+     "under": 0.3622
     },
     "6.5": {
-     "over": 0.497,
-     "under": 0.503
+     "over": 0.4982,
+     "under": 0.5018
     },
     "7.0": {
-     "over": 0.3267,
-     "under": 0.503
+     "over": 0.3277,
+     "under": 0.5018
     },
     "7.5": {
-     "over": 0.3267,
-     "under": 0.6733
+     "over": 0.3277,
+     "under": 0.6723
     }
    },
    "puck_line": {
-    "home_-1.5": 0.2451,
-    "away_+1.5": 0.7549,
-    "away_-1.5": 0.3757,
-    "home_+1.5": 0.6243
+    "home_-1.5": 0.2558,
+    "away_+1.5": 0.7442,
+    "away_-1.5": 0.363,
+    "home_+1.5": 0.637
    }
   },
   {
