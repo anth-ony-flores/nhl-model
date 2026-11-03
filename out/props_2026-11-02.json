@@ -1,6 +1,6 @@
 {
  "date": "2026-11-02",
- "generated": "2026-11-03T00:22:00Z",
+ "generated": "2026-11-03T00:32:11Z",
  "data_through": "2026-11-01",
  "picks_enabled": false,
  "params": {
@@ -65,7 +65,7 @@
    "home_name": "Bruins",
    "start_utc": "2026-11-03T00:00:00Z",
    "state": "in",
-   "detail": "12:51 - 1st",
+   "detail": "8:07 - 1st",
    "frozen": true,
    "goal_factor": {
     "VGK": 1.025,
@@ -2512,7 +2512,7 @@
    "home_name": "Panthers",
    "start_utc": "2026-11-03T00:00:00Z",
    "state": "in",
-   "detail": "11:19 - 1st",
+   "detail": "5:41 - 1st",
    "frozen": true,
    "goal_factor": {
     "DET": 0.97,
