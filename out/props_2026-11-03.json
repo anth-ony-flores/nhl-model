@@ -1,6 +1,6 @@
 {
  "date": "2026-11-03",
- "generated": "2026-11-04T01:02:51Z",
+ "generated": "2026-11-04T01:12:59Z",
  "data_through": "2026-11-02",
  "picks_enabled": false,
  "params": {
@@ -11,30 +11,14 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 76,
-  "checked": 75,
-  "first_is_over": 75,
+  "pairs": 33,
+  "checked": 32,
+  "first_is_over": 32,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 148,
+ "lines": 69,
  "unmatched": [
-  {
-   "espn_id": "5080144",
-   "name": "Shane Wright",
-   "team": "NSH",
-   "market": "pts",
-   "game": "CAR@NSH",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  },
-  {
-   "espn_id": "5080144",
-   "name": "Shane Wright",
-   "team": "NSH",
-   "market": "goal",
-   "game": "CAR@NSH",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  },
   {
    "espn_id": "5149221",
    "name": "Nico Myatovic",
@@ -44,7 +28,7 @@
    "why": "no MoneyPuck skater match (no recent games?)"
   }
  ],
- "unmatched_rate": 0.0203,
+ "unmatched_rate": 0.0145,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -81,7 +65,7 @@
    "home_name": "Maple Leafs",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "15:54 - 2nd",
    "frozen": true,
    "goal_factor": {
     "UTA": 1.091,
@@ -2579,7 +2563,7 @@
    "home_name": "Canadiens",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "16:57 - 2nd",
    "frozen": true,
    "goal_factor": {
     "WPG": 1.083,
@@ -4910,7 +4894,7 @@
    "home_name": "Lightning",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "14:25 - 2nd",
    "frozen": true,
    "goal_factor": {
     "DET": 0.853,
@@ -7218,7 +7202,7 @@
    "home_name": "Rangers",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "16:42 - 2nd",
    "frozen": true,
    "goal_factor": {
     "STL": 1.02,
@@ -9594,7 +9578,7 @@
    "home_name": "Flyers",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "20:00 - 2nd",
+   "detail": "14:19 - 2nd",
    "frozen": true,
    "goal_factor": {
     "MIN": 1.002,
@@ -12115,7 +12099,7 @@
    "home_name": "Penguins",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "20:00 - 2nd",
+   "detail": "15:39 - 2nd",
    "frozen": true,
    "goal_factor": {
     "VGK": 0.982,
@@ -14685,7 +14669,7 @@
    "home_name": "Capitals",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "19:11 - 2nd",
+   "detail": "14:14 - 2nd",
    "frozen": true,
    "goal_factor": {
     "DAL": 1.055,
@@ -17152,7 +17136,7 @@
    "home_name": "Blue Jackets",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "20:00 - 2nd",
+   "detail": "14:12 - 2nd",
    "frozen": true,
    "goal_factor": {
     "COL": 0.956,
@@ -19697,7 +19681,7 @@
    "home_name": "Devils",
    "start_utc": "2026-11-04T00:30:00Z",
    "state": "in",
-   "detail": "6:32 - 1st",
+   "detail": "1:00 - 1st",
    "frozen": true,
    "goal_factor": {
     "EDM": 0.865,
@@ -22031,9 +22015,9 @@
    "away_name": "Hurricanes",
    "home_name": "Predators",
    "start_utc": "2026-11-04T01:00:00Z",
-   "state": "pre",
-   "detail": "11/3 - 8:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "19:31 - 1st",
+   "frozen": true,
    "goal_factor": {
     "CAR": 1.023,
     "NSH": 0.871
