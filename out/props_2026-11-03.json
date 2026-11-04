@@ -1,6 +1,6 @@
 {
  "date": "2026-11-03",
- "generated": "2026-11-04T00:52:42Z",
+ "generated": "2026-11-04T01:02:51Z",
  "data_through": "2026-11-02",
  "picks_enabled": false,
  "params": {
@@ -9594,7 +9594,7 @@
    "home_name": "Flyers",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "20:00 - 2nd",
    "frozen": true,
    "goal_factor": {
     "MIN": 1.002,
@@ -12115,7 +12115,7 @@
    "home_name": "Penguins",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "20:00 - 2nd",
    "frozen": true,
    "goal_factor": {
     "VGK": 0.982,
@@ -14685,7 +14685,7 @@
    "home_name": "Capitals",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "19:11 - 2nd",
    "frozen": true,
    "goal_factor": {
     "DAL": 1.055,
@@ -17152,7 +17152,7 @@
    "home_name": "Blue Jackets",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "20:00 - 2nd",
    "frozen": true,
    "goal_factor": {
     "COL": 0.956,
@@ -19697,7 +19697,7 @@
    "home_name": "Devils",
    "start_utc": "2026-11-04T00:30:00Z",
    "state": "in",
-   "detail": "11:06 - 1st",
+   "detail": "6:32 - 1st",
    "frozen": true,
    "goal_factor": {
     "EDM": 0.865,
