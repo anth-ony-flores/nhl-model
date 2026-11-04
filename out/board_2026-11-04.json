@@ -1,7 +1,7 @@
 {
  "date": "2026-11-04",
  "data_through": "2026-11-03",
- "generated": "2026-11-04 16:00 MST",
+ "generated": "2026-11-04 16:10 MST",
  "league_xg60": 3.009,
  "b2b_effect": {
   "own_xg": -0.235,
@@ -635,13 +635,13 @@
    "inj_away": [
     {
      "name": "Brennan Othmann",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8482747,
      "position": "L",
      "value": -0.0528,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
+     "applied": true,
+     "note": "out",
      "date": "2026-11-04"
     },
     {
@@ -679,16 +679,16 @@
     }
    ],
    "inj_adj_home": 0.069,
-   "inj_adj_away": 0,
-   "xg_home": 2.877,
-   "xg_away": 2.82,
-   "proj_home": 2.97,
-   "proj_away": 2.9,
-   "p_home": 0.5127,
-   "p_away": 0.4873,
-   "p_ot": 0.252,
-   "fair_ml_home": -105,
-   "fair_ml_away": 105,
+   "inj_adj_away": -0.053,
+   "xg_home": 2.85,
+   "xg_away": 2.847,
+   "proj_home": 2.94,
+   "proj_away": 2.92,
+   "p_home": 0.5039,
+   "p_away": 0.4961,
+   "p_ot": 0.2521,
+   "fair_ml_home": -102,
+   "fair_ml_away": 102,
    "exp_total": 5.87,
    "totals": {
     "4.5": {
@@ -721,10 +721,10 @@
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3057,
-    "away_+1.5": 0.6943,
-    "away_-1.5": 0.2858,
-    "home_+1.5": 0.7142
+    "home_-1.5": 0.2987,
+    "away_+1.5": 0.7013,
+    "away_-1.5": 0.2926,
+    "home_+1.5": 0.7074
    }
   }
  ],
