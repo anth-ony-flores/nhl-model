@@ -1,6 +1,6 @@
 {
  "date": "2026-11-03",
- "generated": "2026-11-04T01:23:08Z",
+ "generated": "2026-11-04T01:33:16Z",
  "data_through": "2026-11-02",
  "picks_enabled": false,
  "params": {
@@ -65,7 +65,7 @@
    "home_name": "Maple Leafs",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "9:31 - 2nd",
+   "detail": "6:03 - 2nd",
    "frozen": true,
    "goal_factor": {
     "UTA": 1.091,
@@ -2563,7 +2563,7 @@
    "home_name": "Canadiens",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "11:01 - 2nd",
+   "detail": "8:01 - 2nd",
    "frozen": true,
    "goal_factor": {
     "WPG": 1.083,
@@ -4894,7 +4894,7 @@
    "home_name": "Lightning",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "9:54 - 2nd",
+   "detail": "5:50 - 2nd",
    "frozen": true,
    "goal_factor": {
     "DET": 0.853,
@@ -7202,7 +7202,7 @@
    "home_name": "Rangers",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "12:11 - 2nd",
+   "detail": "8:04 - 2nd",
    "frozen": true,
    "goal_factor": {
     "STL": 1.02,
@@ -9578,7 +9578,7 @@
    "home_name": "Flyers",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "8:44 - 2nd",
+   "detail": "2:32 - 2nd",
    "frozen": true,
    "goal_factor": {
     "MIN": 1.002,
@@ -12099,7 +12099,7 @@
    "home_name": "Penguins",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "10:21 - 2nd",
+   "detail": "5:23 - 2nd",
    "frozen": true,
    "goal_factor": {
     "VGK": 0.982,
@@ -14669,7 +14669,7 @@
    "home_name": "Capitals",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "9:36 - 2nd",
+   "detail": "4:05 - 2nd",
    "frozen": true,
    "goal_factor": {
     "DAL": 1.055,
@@ -17136,7 +17136,7 @@
    "home_name": "Blue Jackets",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "9:31 - 2nd",
+   "detail": "4:16 - 2nd",
    "frozen": true,
    "goal_factor": {
     "COL": 0.956,
@@ -19681,7 +19681,7 @@
    "home_name": "Devils",
    "start_utc": "2026-11-04T00:30:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "20:00 - 2nd",
    "frozen": true,
    "goal_factor": {
     "EDM": 0.865,
@@ -22016,7 +22016,7 @@
    "home_name": "Predators",
    "start_utc": "2026-11-04T01:00:00Z",
    "state": "in",
-   "detail": "13:43 - 1st",
+   "detail": "7:46 - 1st",
    "frozen": true,
    "goal_factor": {
     "CAR": 1.023,
