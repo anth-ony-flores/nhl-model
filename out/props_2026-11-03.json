@@ -1,6 +1,6 @@
 {
  "date": "2026-11-03",
- "generated": "2026-11-04T01:12:59Z",
+ "generated": "2026-11-04T01:23:08Z",
  "data_through": "2026-11-02",
  "picks_enabled": false,
  "params": {
@@ -11,13 +11,13 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 33,
-  "checked": 32,
-  "first_is_over": 32,
+  "pairs": 34,
+  "checked": 33,
+  "first_is_over": 33,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 69,
+ "lines": 70,
  "unmatched": [
   {
    "espn_id": "5149221",
@@ -28,7 +28,7 @@
    "why": "no MoneyPuck skater match (no recent games?)"
   }
  ],
- "unmatched_rate": 0.0145,
+ "unmatched_rate": 0.0143,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -65,7 +65,7 @@
    "home_name": "Maple Leafs",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "15:54 - 2nd",
+   "detail": "9:31 - 2nd",
    "frozen": true,
    "goal_factor": {
     "UTA": 1.091,
@@ -2563,7 +2563,7 @@
    "home_name": "Canadiens",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "16:57 - 2nd",
+   "detail": "11:01 - 2nd",
    "frozen": true,
    "goal_factor": {
     "WPG": 1.083,
@@ -4894,7 +4894,7 @@
    "home_name": "Lightning",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "14:25 - 2nd",
+   "detail": "9:54 - 2nd",
    "frozen": true,
    "goal_factor": {
     "DET": 0.853,
@@ -7202,7 +7202,7 @@
    "home_name": "Rangers",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "16:42 - 2nd",
+   "detail": "12:11 - 2nd",
    "frozen": true,
    "goal_factor": {
     "STL": 1.02,
@@ -9578,7 +9578,7 @@
    "home_name": "Flyers",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "14:19 - 2nd",
+   "detail": "8:44 - 2nd",
    "frozen": true,
    "goal_factor": {
     "MIN": 1.002,
@@ -12099,7 +12099,7 @@
    "home_name": "Penguins",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "15:39 - 2nd",
+   "detail": "10:21 - 2nd",
    "frozen": true,
    "goal_factor": {
     "VGK": 0.982,
@@ -14669,7 +14669,7 @@
    "home_name": "Capitals",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "14:14 - 2nd",
+   "detail": "9:36 - 2nd",
    "frozen": true,
    "goal_factor": {
     "DAL": 1.055,
@@ -17136,7 +17136,7 @@
    "home_name": "Blue Jackets",
    "start_utc": "2026-11-04T00:00:00Z",
    "state": "in",
-   "detail": "14:12 - 2nd",
+   "detail": "9:31 - 2nd",
    "frozen": true,
    "goal_factor": {
     "COL": 0.956,
@@ -19681,7 +19681,7 @@
    "home_name": "Devils",
    "start_utc": "2026-11-04T00:30:00Z",
    "state": "in",
-   "detail": "1:00 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "EDM": 0.865,
@@ -22016,7 +22016,7 @@
    "home_name": "Predators",
    "start_utc": "2026-11-04T01:00:00Z",
    "state": "in",
-   "detail": "19:31 - 1st",
+   "detail": "13:43 - 1st",
    "frozen": true,
    "goal_factor": {
     "CAR": 1.023,
@@ -25213,6 +25213,37 @@
       "strong": true
      },
      {
+      "espn_id": "4755684",
+      "player": "Judd Caulfield",
+      "team": "ANA",
+      "opp": "VAN",
+      "line": 0.5,
+      "open_line": 0.5,
+      "over": "+120",
+      "over_open": "+120",
+      "under": "-160",
+      "under_open": "-160",
+      "updated": "2026-11-04T04:08Z",
+      "player_id": 8481538,
+      "pos": "F",
+      "proj_toi": 12.91,
+      "games_weight": 10.9,
+      "mean": 0.617,
+      "p_over": 0.4603,
+      "curve": {
+       "0.5": 0.4603,
+       "1.5": 0.1275,
+       "2.5": 0.0248,
+       "3.5": 0.0037
+      },
+      "mkt_over": 0.4248,
+      "edge_over": 0.0355,
+      "edge_under": -0.0355,
+      "lean": "Over",
+      "edge": 0.0355,
+      "strong": true
+     },
+     {
       "espn_id": "5080220",
       "player": "Tristan Luneau",
       "team": "ANA",
@@ -25531,7 +25562,7 @@
       "opp": "VAN",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+115",
+      "over": "+110",
       "over_open": "+125",
       "under": null,
       "under_open": null,
@@ -25545,9 +25576,9 @@
       "curve": {
        "0.5": 0.4076
       },
-      "mkt_over": 0.4651,
+      "mkt_over": 0.4762,
       "vig_included": true,
-      "edge_over": -0.0575,
+      "edge_over": -0.0686,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -25560,7 +25591,7 @@
       "opp": "VAN",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+145",
+      "over": "+150",
       "over_open": "+160",
       "under": null,
       "under_open": null,
@@ -25574,9 +25605,9 @@
       "curve": {
        "0.5": 0.3394
       },
-      "mkt_over": 0.4082,
+      "mkt_over": 0.4,
       "vig_included": true,
-      "edge_over": -0.0688,
+      "edge_over": -0.0606,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -25618,7 +25649,7 @@
       "opp": "VAN",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+210",
+      "over": "+215",
       "over_open": "+230",
       "under": null,
       "under_open": null,
@@ -25632,9 +25663,9 @@
       "curve": {
        "0.5": 0.2831
       },
-      "mkt_over": 0.3226,
+      "mkt_over": 0.3175,
       "vig_included": true,
-      "edge_over": -0.0395,
+      "edge_over": -0.0343,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -25647,7 +25678,7 @@
       "opp": "VAN",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+280",
+      "over": "+285",
       "over_open": "+280",
       "under": null,
       "under_open": null,
@@ -25661,9 +25692,9 @@
       "curve": {
        "0.5": 0.2588
       },
-      "mkt_over": 0.2632,
+      "mkt_over": 0.2597,
       "vig_included": true,
-      "edge_over": -0.0044,
+      "edge_over": -0.001,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -25734,7 +25765,7 @@
       "opp": "VAN",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+400",
+      "over": "+390",
       "over_open": "+425",
       "under": null,
       "under_open": null,
@@ -25748,9 +25779,9 @@
       "curve": {
        "0.5": 0.1786
       },
-      "mkt_over": 0.2,
+      "mkt_over": 0.2041,
       "vig_included": true,
-      "edge_over": -0.0214,
+      "edge_over": -0.0255,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -25966,7 +25997,7 @@
       "opp": "VAN",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+1100",
+      "over": "+1200",
       "over_open": "+1300",
       "under": null,
       "under_open": null,
@@ -25980,9 +26011,9 @@
       "curve": {
        "0.5": 0.0384
       },
-      "mkt_over": 0.0833,
+      "mkt_over": 0.0769,
       "vig_included": true,
-      "edge_over": -0.0449,
+      "edge_over": -0.0385,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -26430,7 +26461,7 @@
       "opp": "ANA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+1900",
+      "over": "+2000",
       "over_open": "+2500",
       "under": null,
       "under_open": null,
@@ -26444,12 +26475,12 @@
       "curve": {
        "0.5": 0.0668
       },
-      "mkt_over": 0.05,
+      "mkt_over": 0.0476,
       "vig_included": true,
-      "edge_over": 0.0168,
+      "edge_over": 0.0191,
       "edge_under": null,
       "lean": "Yes",
-      "edge": 0.0168,
+      "edge": 0.0191,
       "strong": false
      },
      {
