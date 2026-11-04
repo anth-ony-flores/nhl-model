@@ -1,7 +1,7 @@
 {
  "day": "2026-11-03",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-03 18:53",
+ "fetched": "2026-11-03 19:03",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -284,6 +284,17 @@
   "DAL": {
    "missing_value": -0.0042,
    "players": [
+    {
+     "name": "Miro Heiskanen",
+     "status": "Day-To-Day",
+     "playerId": 8480036,
+     "position": "D",
+     "value": 0.121,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-04"
+    },
     {
      "name": "Kyle Capobianco",
      "status": "Injured Reserve",
@@ -1147,8 +1158,19 @@
    ]
   },
   "VAN": {
-   "missing_value": 0.0139,
+   "missing_value": 0.007,
    "players": [
+    {
+     "name": "Tom Willander",
+     "status": "Out",
+     "playerId": 8484240,
+     "position": "D",
+     "value": -0.0069,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-04"
+    },
     {
      "name": "Filip Chytil",
      "status": "Injured Reserve",
