@@ -1,7 +1,7 @@
 {
  "day": "2026-11-04",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-04 07:33",
+ "fetched": "2026-11-04 15:30",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -73,17 +73,6 @@
    "missing_value": 0.0207,
    "players": [
     {
-     "name": "Jiri Kulich",
-     "status": "Day-To-Day",
-     "playerId": 8483468,
-     "position": "C",
-     "value": 0.0304,
-     "regular": false,
-     "applied": false,
-     "note": "Kulich (concussion) participated in Tuesday's practice and is close to being ready to return, according to Rachel Lenzi of The Buffalo News.",
-     "date": "2026-11-03"
-    },
-    {
      "name": "Konsta Helenius",
      "status": "Out",
      "playerId": 8484797,
@@ -117,17 +106,6 @@
      "date": "2026-10-13"
     },
     {
-     "name": "Conor Timmins",
-     "status": "Injured Reserve",
-     "playerId": 8479982,
-     "position": "D",
-     "value": -0.0411,
-     "regular": false,
-     "applied": false,
-     "note": "Timmins (lower body) doesn't have a timeline for his return yet, according to Heather Engel of NHL.com on Tuesday.",
-     "date": "2026-09-29"
-    },
-    {
      "name": "Jack Rathbone",
      "status": "Injured Reserve",
      "playerId": 8480056,
@@ -141,18 +119,18 @@
    ]
   },
   "CGY": {
-   "missing_value": -0.0528,
+   "missing_value": 0,
    "players": [
     {
      "name": "Brennan Othmann",
-     "status": "Out",
+     "status": "Day-To-Day",
      "playerId": 8482747,
      "position": "L",
      "value": -0.0528,
      "regular": true,
-     "applied": true,
-     "note": "out",
-     "date": "2026-11-03"
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-04"
     },
     {
      "name": "Connor Zary",
@@ -194,14 +172,14 @@
    "players": [
     {
      "name": "Taylor Hall",
-     "status": "Out",
+     "status": "Day-To-Day",
      "playerId": 8475791,
      "position": "L",
      "value": 0.0429,
      "regular": false,
      "applied": false,
-     "note": "Hall (upper body) isn't expected to play against Nashville on Tuesday, per Walt Ruff of the Hurricanes' official site.",
-     "date": "2026-11-03"
+     "note": "day-to-day",
+     "date": "2026-11-04"
     },
     {
      "name": "Alexander Nikishin",
@@ -292,7 +270,7 @@
      "value": 0.1155,
      "regular": true,
      "applied": false,
-     "note": "day-to-day",
+     "note": "The Stars announced Wednesday that Heiskanen (upper body) is considered day-to-day, Mike Heika of the Stars' official site reports.",
      "date": "2026-11-04"
     },
     {
@@ -324,14 +302,14 @@
    "players": [
     {
      "name": "Albert Johansson",
-     "status": "Out",
+     "status": "Injured Reserve",
      "playerId": 8481607,
      "position": "D",
      "value": -0.0276,
      "regular": true,
      "applied": true,
-     "note": "out",
-     "date": "2026-11-02"
+     "note": "The Red Wings placed Johansson (undisclosed) on injured reserve Wednesday, retroactive to Oct. 24.",
+     "date": "2026-11-04"
     },
     {
      "name": "Dylan Larkin",
@@ -587,18 +565,40 @@
    ]
   },
   "MTL": {
-   "missing_value": -0.0547,
+   "missing_value": 0,
    "players": [
     {
+     "name": "Ivan Demidov",
+     "status": "Injured Reserve",
+     "playerId": 8484984,
+     "position": "R",
+     "value": -0.0089,
+     "regular": false,
+     "applied": false,
+     "note": "Demidov (foot) skated Tuesday and could resume training with the team next week, Patrick Friolet of RDS reports.",
+     "date": "2026-11-04"
+    },
+    {
+     "name": "Nick Suzuki",
+     "status": "Day-To-Day",
+     "playerId": 8480018,
+     "position": "C",
+     "value": 0.1042,
+     "regular": false,
+     "applied": false,
+     "note": "Suzuki (hand) is questionable for Thursday's game against Utah, per Stu Cowan of The Montreal Gazette.",
+     "date": "2026-11-04"
+    },
+    {
      "name": "Kirby Dach",
-     "status": "Out",
+     "status": "Day-To-Day",
      "playerId": 8481523,
      "position": "C",
      "value": -0.0547,
      "regular": true,
-     "applied": true,
-     "note": "out",
-     "date": "2026-11-03"
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-04"
     },
     {
      "name": "Mike Matheson",
@@ -612,28 +612,6 @@
      "date": "2026-10-31"
     },
     {
-     "name": "Nick Suzuki",
-     "status": "Out",
-     "playerId": 8480018,
-     "position": "C",
-     "value": 0.1042,
-     "regular": false,
-     "applied": false,
-     "note": "out",
-     "date": "2026-10-22"
-    },
-    {
-     "name": "Ivan Demidov",
-     "status": "Injured Reserve",
-     "playerId": 8484984,
-     "position": "R",
-     "value": -0.0089,
-     "regular": false,
-     "applied": false,
-     "note": "Demidov (lower body) was placed on injured reserve by the Canadiens on Tuesday, per the NHL media site.",
-     "date": "2026-10-06"
-    },
-    {
      "name": "Lucas Condotta",
      "status": "Injured Reserve",
      "playerId": 8483549,
@@ -643,6 +621,22 @@
      "applied": false,
      "note": "ir-nr",
      "date": "2026-09-29"
+    }
+   ]
+  },
+  "NSH": {
+   "missing_value": 0,
+   "players": [
+    {
+     "name": "Jonathan Marchessault",
+     "status": "Day-To-Day",
+     "playerId": 8476539,
+     "position": "R",
+     "value": -0.1315,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-04"
     }
    ]
   },
@@ -665,6 +659,17 @@
   "NYI": {
    "missing_value": -0.0916,
    "players": [
+    {
+     "name": "Mathew Barzal",
+     "status": "Injured Reserve",
+     "playerId": 8478445,
+     "position": "C",
+     "value": 0.1357,
+     "regular": false,
+     "applied": false,
+     "note": "Barzal (knee) practiced Wednesday, but he wore a no-contact jersey, and there's still no timetable for his return, per Stefen Rosner of NHL.com.",
+     "date": "2026-11-04"
+    },
     {
      "name": "Ryan Pulock",
      "status": "Out",
@@ -708,33 +713,22 @@
      "applied": false,
      "note": "ir",
      "date": "2026-10-19"
-    },
-    {
-     "name": "Mathew Barzal",
-     "status": "Injured Reserve",
-     "playerId": 8478445,
-     "position": "C",
-     "value": 0.1357,
-     "regular": false,
-     "applied": false,
-     "note": "Barzal (knee) will not join the Islanders for their two-game road trip, Andrew Gross of Newsday reports Thursday.",
-     "date": "2026-10-15"
     }
    ]
   },
   "NYR": {
-   "missing_value": -0.0336,
+   "missing_value": 0,
    "players": [
     {
      "name": "Sean Durzi",
-     "status": "Out",
+     "status": "Day-To-Day",
      "playerId": 8480434,
      "position": "D",
      "value": -0.0336,
      "regular": true,
-     "applied": true,
-     "note": "out",
-     "date": "2026-11-03"
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-04"
     },
     {
      "name": "Adam Sykora",
@@ -750,8 +744,19 @@
    ]
   },
   "OTT": {
-   "missing_value": -0.0334,
+   "missing_value": -0.102,
    "players": [
+    {
+     "name": "Tyler Kleven",
+     "status": "Out",
+     "playerId": 8482095,
+     "position": "D",
+     "value": -0.0686,
+     "regular": true,
+     "applied": true,
+     "note": "Kleven (illness) won't play Wednesday in Buffalo, per Jackson Starr of the Senators' official site.",
+     "date": "2026-11-04"
+    },
     {
      "name": "Andre Burakovsky",
      "status": "Injured Reserve",
@@ -815,18 +820,18 @@
    ]
   },
   "PIT": {
-   "missing_value": -0.0009,
+   "missing_value": -0.0271,
    "players": [
     {
      "name": "Evgeni Malkin",
-     "status": "Out",
+     "status": "Day-To-Day",
      "playerId": 8471215,
      "position": "C",
      "value": 0.0262,
      "regular": true,
-     "applied": true,
-     "note": "out",
-     "date": "2026-11-03"
+     "applied": false,
+     "note": "Malkin (lower body) took contact during Wednesday's practice, and he might be good to play Thursday versus Boston, per Wes Crosby of NHL.com.",
+     "date": "2026-11-04"
     },
     {
      "name": "Elmer Soderblom",
@@ -951,18 +956,18 @@
    ]
   },
   "STL": {
-   "missing_value": 0.0233,
+   "missing_value": 0,
    "players": [
     {
      "name": "Colton Parayko",
-     "status": "Out",
+     "status": "Day-To-Day",
      "playerId": 8476892,
      "position": "D",
      "value": 0.0233,
      "regular": true,
-     "applied": true,
-     "note": "out",
-     "date": "2026-11-03"
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-04"
     },
     {
      "name": "Logan Mailloux",
@@ -1011,19 +1016,8 @@
    ]
   },
   "TBL": {
-   "missing_value": -0.0865,
+   "missing_value": 0,
    "players": [
-    {
-     "name": "Zemgus Girgensons",
-     "status": "Out",
-     "playerId": 8476878,
-     "position": "C",
-     "value": -0.0865,
-     "regular": true,
-     "applied": true,
-     "note": "Girgensons (lower body) won't play against Detroit on Tuesday, per Lightning reporter Gabby Shirley.",
-     "date": "2026-11-02"
-    },
     {
      "name": "Yanni Gourde",
      "status": "Injured Reserve",
@@ -1032,8 +1026,19 @@
      "value": -0.0074,
      "regular": false,
      "applied": false,
-     "note": "Gourde (hip) was placed on the injured non-roster list Monday.",
-     "date": "2026-09-28"
+     "note": "Gourde (hip) will miss Thursday's game against Chicago, but he might be available at some point during the upcoming four-game road trip, per Benjamin Pierce of the Lightning's official site.",
+     "date": "2026-11-04"
+    },
+    {
+     "name": "Zemgus Girgensons",
+     "status": "Day-To-Day",
+     "playerId": 8476878,
+     "position": "C",
+     "value": -0.0865,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-04"
     }
    ]
   },
@@ -1042,14 +1047,14 @@
    "players": [
     {
      "name": "John Tavares",
-     "status": "Out",
+     "status": "Injured Reserve",
      "playerId": 8475166,
      "position": "C",
      "value": 0.0302,
      "regular": false,
      "applied": false,
-     "note": "out",
-     "date": "2026-11-03"
+     "note": "ir",
+     "date": "2026-11-04"
     },
     {
      "name": "Kirill Marchenko",
@@ -1120,18 +1125,18 @@
    ]
   },
   "UTA": {
-   "missing_value": 0.088,
+   "missing_value": 0,
    "players": [
     {
      "name": "Kailer Yamamoto",
-     "status": "Out",
+     "status": "Day-To-Day",
      "playerId": 8479977,
      "position": "R",
      "value": 0.088,
      "regular": true,
-     "applied": true,
-     "note": "Yamamoto (upper body) won't play against Toronto on Tuesday.",
-     "date": "2026-11-03"
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-04"
     },
     {
      "name": "John Marino",
@@ -1158,17 +1163,17 @@
    ]
   },
   "VAN": {
-   "missing_value": 0.007,
+   "missing_value": 0.0139,
    "players": [
     {
      "name": "Tom Willander",
-     "status": "Out",
+     "status": "Day-To-Day",
      "playerId": 8484240,
      "position": "D",
      "value": -0.0069,
      "regular": true,
-     "applied": true,
-     "note": "out",
+     "applied": false,
+     "note": "day-to-day",
      "date": "2026-11-04"
     },
     {
@@ -1253,6 +1258,17 @@
    "missing_value": 0,
    "players": [
     {
+     "name": "Josh Morrissey",
+     "status": "Injured Reserve",
+     "playerId": 8477504,
+     "position": "D",
+     "value": 0.1337,
+     "regular": false,
+     "applied": false,
+     "note": "Morrissey (wrist) won't play Thursday versus Vancouver, but he hasn't been ruled out for Sunday against Tampa Bay, per Danielle Bain of TSN.",
+     "date": "2026-11-04"
+    },
+    {
      "name": "Vladislav Namestnikov",
      "status": "Injured Reserve",
      "playerId": 8476480,
@@ -1273,17 +1289,6 @@
      "applied": false,
      "note": "Bjugstad (pectoral), Dawson Mercer, Nico Daws, Alexander Command and a pair of draft picks were traded to the Jets from the Devils on Friday in exchange for Connor Hellebuyck.",
      "date": "2026-10-23"
-    },
-    {
-     "name": "Josh Morrissey",
-     "status": "Injured Reserve",
-     "playerId": 8477504,
-     "position": "D",
-     "value": 0.1337,
-     "regular": false,
-     "applied": false,
-     "note": "Morrissey (wrist) was placed on injured reserve Monday.",
-     "date": "2026-10-19"
     }
    ]
   }
