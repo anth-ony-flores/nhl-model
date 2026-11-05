@@ -1,7 +1,7 @@
 {
  "date": "2026-11-05",
  "data_through": "2026-11-04",
- "generated": "2026-11-05 07:31 MST",
+ "generated": "2026-11-05 15:00 MST",
  "league_xg60": 3.007,
  "b2b_effect": {
   "own_xg": -0.234,
@@ -64,28 +64,6 @@
      "regular": false,
      "applied": false,
      "note": "Demidov (foot) skated Tuesday and could resume training with the team next week, Patrick Friolet of RDS reports.",
-     "date": "2026-11-04"
-    },
-    {
-     "name": "Nick Suzuki",
-     "status": "Day-To-Day",
-     "playerId": 8480018,
-     "position": "C",
-     "value": 0.1042,
-     "regular": false,
-     "applied": false,
-     "note": "Suzuki (hand) is questionable for Thursday's game against Utah, per Stu Cowan of The Montreal Gazette.",
-     "date": "2026-11-04"
-    },
-    {
-     "name": "Kirby Dach",
-     "status": "Day-To-Day",
-     "playerId": 8481523,
-     "position": "C",
-     "value": -0.0547,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
      "date": "2026-11-04"
     },
     {
@@ -248,6 +226,28 @@
    },
    "inj_home": [
     {
+     "name": "Marco Kasper",
+     "status": "Injured Reserve",
+     "playerId": 8483464,
+     "position": "C",
+     "value": 0.0485,
+     "regular": false,
+     "applied": false,
+     "note": "Head coach Todd McLellan said Thursday that he expects Kasper (upper body) to return at some point during the Red Wings' upcoming four-game road trip, Max Bultman of The Athletic reports.",
+     "date": "2026-11-05"
+    },
+    {
+     "name": "Mason Appleton",
+     "status": "Injured Reserve",
+     "playerId": 8478891,
+     "position": "C",
+     "value": -0.0346,
+     "regular": false,
+     "applied": false,
+     "note": "Head coach Todd McLellan stated that Appleton (undisclosed) is expected to return to the lineup during the Red Wings' upcoming four-game road trip, per Max Bultman of The Athletic.",
+     "date": "2026-11-05"
+    },
+    {
      "name": "Albert Johansson",
      "status": "Injured Reserve",
      "playerId": 8481607,
@@ -255,8 +255,8 @@
      "value": -0.0276,
      "regular": true,
      "applied": true,
-     "note": "The Red Wings placed Johansson (undisclosed) on injured reserve Wednesday, retroactive to Oct. 24.",
-     "date": "2026-11-04"
+     "note": "Head coach Todd McLellan stated Thursday that Johansson (undisclosed) is expected to be sidelined through the team's upcoming four-game road trip, per Max Bultman of The Athletic.",
+     "date": "2026-11-05"
     },
     {
      "name": "Dylan Larkin",
@@ -268,28 +268,6 @@
      "applied": true,
      "note": "ir-nr",
      "date": "2026-10-31"
-    },
-    {
-     "name": "Mason Appleton",
-     "status": "Injured Reserve",
-     "playerId": 8478891,
-     "position": "C",
-     "value": -0.0346,
-     "regular": false,
-     "applied": false,
-     "note": "Head coach Todd McLellan said Friday that Appleton (undisclosed) is still 10 days to two weeks away from returning to game action, Ansar Khan of MLive.com reports.",
-     "date": "2026-10-30"
-    },
-    {
-     "name": "Marco Kasper",
-     "status": "Injured Reserve",
-     "playerId": 8483464,
-     "position": "C",
-     "value": 0.0485,
-     "regular": false,
-     "applied": false,
-     "note": "Head coach Todd McLellan said Friday that Kasper (upper body) is still 10 days to two weeks away from returning to game action, Ansar Khan of MLive.com reports.",
-     "date": "2026-10-30"
     },
     {
      "name": "Simon Edvinsson",
@@ -573,17 +551,6 @@
     }
    ],
    "inj_away": [
-    {
-     "name": "Colton Parayko",
-     "status": "Day-To-Day",
-     "playerId": 8476892,
-     "position": "D",
-     "value": 0.0233,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-04"
-    },
     {
      "name": "Logan Mailloux",
      "status": "Injured Reserve",
@@ -914,14 +881,14 @@
    "inj_home": [
     {
      "name": "Sean Durzi",
-     "status": "Day-To-Day",
+     "status": "Injured Reserve",
      "playerId": 8480434,
      "position": "D",
      "value": -0.0336,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-04"
+     "applied": true,
+     "note": "Durzi (undisclosed) was put on injured reserve Thursday, per Mollie Walker of the New York Post.",
+     "date": "2026-11-05"
     },
     {
      "name": "Adam Sykora",
@@ -959,17 +926,17 @@
      "date": "2026-10-10"
     }
    ],
-   "inj_adj_home": 0,
+   "inj_adj_home": -0.034,
    "inj_adj_away": 0,
-   "xg_home": 2.959,
-   "xg_away": 2.767,
-   "proj_home": 3.05,
-   "proj_away": 2.77,
-   "p_home": 0.5489,
-   "p_away": 0.4511,
-   "p_ot": 0.2516,
-   "fair_ml_home": -122,
-   "fair_ml_away": 122,
+   "xg_home": 2.976,
+   "xg_away": 2.75,
+   "proj_home": 3.06,
+   "proj_away": 2.76,
+   "p_home": 0.5544,
+   "p_away": 0.4456,
+   "p_ot": 0.2512,
+   "fair_ml_home": -124,
+   "fair_ml_away": 124,
    "exp_total": 5.82,
    "totals": {
     "4.5": {
@@ -985,16 +952,16 @@
      "under": 0.4879
     },
     "6.0": {
-     "over": 0.3706,
+     "over": 0.3705,
      "under": 0.4879
     },
     "6.5": {
-     "over": 0.3706,
-     "under": 0.6294
+     "over": 0.3705,
+     "under": 0.6295
     },
     "7.0": {
      "over": 0.2157,
-     "under": 0.6294
+     "under": 0.6295
     },
     "7.5": {
      "over": 0.2157,
@@ -1002,10 +969,10 @@
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3344,
-    "away_+1.5": 0.6656,
-    "away_-1.5": 0.2577,
-    "home_+1.5": 0.7423
+    "home_-1.5": 0.3391,
+    "away_+1.5": 0.6609,
+    "away_-1.5": 0.2536,
+    "home_+1.5": 0.7464
    }
   },
   {
@@ -1055,17 +1022,6 @@
     ]
    },
    "inj_home": [
-    {
-     "name": "Evgeni Malkin",
-     "status": "Day-To-Day",
-     "playerId": 8471215,
-     "position": "C",
-     "value": 0.0262,
-     "regular": true,
-     "applied": false,
-     "note": "Malkin (lower body) took contact during Wednesday's practice, and he might be good to play Thursday versus Boston, per Wes Crosby of NHL.com.",
-     "date": "2026-11-04"
-    },
     {
      "name": "Elmer Soderblom",
      "status": "Injured Reserve",
@@ -1223,14 +1179,25 @@
    "inj_away": [
     {
      "name": "Miro Heiskanen",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8480036,
      "position": "D",
      "value": 0.1155,
      "regular": true,
-     "applied": false,
-     "note": "The Stars announced Wednesday that Heiskanen (upper body) is considered day-to-day, Mike Heika of the Stars' official site reports.",
-     "date": "2026-11-04"
+     "applied": true,
+     "note": "Heiskanen (upper body) will not play in Thursday's road clash against the Blue Jackets, per Mike Heika of the Stars' official site.",
+     "date": "2026-11-05"
+    },
+    {
+     "name": "Sam Steel",
+     "status": "Out",
+     "playerId": 8479351,
+     "position": "C",
+     "value": -0.01,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-05"
     },
     {
      "name": "Kyle Capobianco",
@@ -1256,52 +1223,52 @@
     }
    ],
    "inj_adj_home": 0.0,
-   "inj_adj_away": -0.004,
-   "xg_home": 2.581,
-   "xg_away": 2.925,
-   "proj_home": 2.7,
-   "proj_away": 2.86,
-   "p_home": 0.4708,
-   "p_away": 0.5292,
-   "p_ot": 0.2594,
-   "fair_ml_home": 112,
-   "fair_ml_away": -112,
-   "exp_total": 5.56,
+   "inj_adj_away": 0.101,
+   "xg_home": 2.634,
+   "xg_away": 2.873,
+   "proj_home": 2.75,
+   "proj_away": 2.81,
+   "p_home": 0.4886,
+   "p_away": 0.5114,
+   "p_ot": 0.2598,
+   "fair_ml_home": 105,
+   "fair_ml_away": -105,
+   "exp_total": 5.57,
    "totals": {
     "4.5": {
-     "over": 0.6708,
-     "under": 0.3292
+     "over": 0.6714,
+     "under": 0.3286
     },
     "5.0": {
-     "over": 0.4668,
-     "under": 0.3292
+     "over": 0.4675,
+     "under": 0.3286
     },
     "5.5": {
-     "over": 0.4668,
-     "under": 0.5332
+     "over": 0.4675,
+     "under": 0.5325
     },
     "6.0": {
-     "over": 0.3282,
-     "under": 0.5332
+     "over": 0.3289,
+     "under": 0.5325
     },
     "6.5": {
-     "over": 0.3282,
-     "under": 0.6718
+     "over": 0.3289,
+     "under": 0.6711
     },
     "7.0": {
-     "over": 0.1823,
-     "under": 0.6718
+     "over": 0.1827,
+     "under": 0.6711
     },
     "7.5": {
-     "over": 0.1823,
-     "under": 0.8177
+     "over": 0.1827,
+     "under": 0.8173
     }
    },
    "puck_line": {
-    "home_-1.5": 0.2679,
-    "away_+1.5": 0.7321,
-    "away_-1.5": 0.3132,
-    "home_+1.5": 0.6868
+    "home_-1.5": 0.2815,
+    "away_+1.5": 0.7185,
+    "away_-1.5": 0.2991,
+    "home_+1.5": 0.7009
    }
   },
   {

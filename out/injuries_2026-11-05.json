@@ -1,7 +1,7 @@
 {
  "day": "2026-11-05",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-05 07:31",
+ "fetched": "2026-11-05 15:00",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -260,18 +260,29 @@
    ]
   },
   "DAL": {
-   "missing_value": -0.0042,
+   "missing_value": 0.1013,
    "players": [
     {
      "name": "Miro Heiskanen",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8480036,
      "position": "D",
      "value": 0.1155,
      "regular": true,
-     "applied": false,
-     "note": "The Stars announced Wednesday that Heiskanen (upper body) is considered day-to-day, Mike Heika of the Stars' official site reports.",
-     "date": "2026-11-04"
+     "applied": true,
+     "note": "Heiskanen (upper body) will not play in Thursday's road clash against the Blue Jackets, per Mike Heika of the Stars' official site.",
+     "date": "2026-11-05"
+    },
+    {
+     "name": "Sam Steel",
+     "status": "Out",
+     "playerId": 8479351,
+     "position": "C",
+     "value": -0.01,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-05"
     },
     {
      "name": "Kyle Capobianco",
@@ -301,6 +312,28 @@
    "missing_value": -0.0213,
    "players": [
     {
+     "name": "Marco Kasper",
+     "status": "Injured Reserve",
+     "playerId": 8483464,
+     "position": "C",
+     "value": 0.0485,
+     "regular": false,
+     "applied": false,
+     "note": "Head coach Todd McLellan said Thursday that he expects Kasper (upper body) to return at some point during the Red Wings' upcoming four-game road trip, Max Bultman of The Athletic reports.",
+     "date": "2026-11-05"
+    },
+    {
+     "name": "Mason Appleton",
+     "status": "Injured Reserve",
+     "playerId": 8478891,
+     "position": "C",
+     "value": -0.0346,
+     "regular": false,
+     "applied": false,
+     "note": "Head coach Todd McLellan stated that Appleton (undisclosed) is expected to return to the lineup during the Red Wings' upcoming four-game road trip, per Max Bultman of The Athletic.",
+     "date": "2026-11-05"
+    },
+    {
      "name": "Albert Johansson",
      "status": "Injured Reserve",
      "playerId": 8481607,
@@ -308,8 +341,8 @@
      "value": -0.0276,
      "regular": true,
      "applied": true,
-     "note": "The Red Wings placed Johansson (undisclosed) on injured reserve Wednesday, retroactive to Oct. 24.",
-     "date": "2026-11-04"
+     "note": "Head coach Todd McLellan stated Thursday that Johansson (undisclosed) is expected to be sidelined through the team's upcoming four-game road trip, per Max Bultman of The Athletic.",
+     "date": "2026-11-05"
     },
     {
      "name": "Dylan Larkin",
@@ -321,28 +354,6 @@
      "applied": true,
      "note": "ir-nr",
      "date": "2026-10-31"
-    },
-    {
-     "name": "Mason Appleton",
-     "status": "Injured Reserve",
-     "playerId": 8478891,
-     "position": "C",
-     "value": -0.0346,
-     "regular": false,
-     "applied": false,
-     "note": "Head coach Todd McLellan said Friday that Appleton (undisclosed) is still 10 days to two weeks away from returning to game action, Ansar Khan of MLive.com reports.",
-     "date": "2026-10-30"
-    },
-    {
-     "name": "Marco Kasper",
-     "status": "Injured Reserve",
-     "playerId": 8483464,
-     "position": "C",
-     "value": 0.0485,
-     "regular": false,
-     "applied": false,
-     "note": "Head coach Todd McLellan said Friday that Kasper (upper body) is still 10 days to two weeks away from returning to game action, Ansar Khan of MLive.com reports.",
-     "date": "2026-10-30"
     },
     {
      "name": "Simon Edvinsson",
@@ -508,28 +519,6 @@
    "missing_value": 0,
    "players": [
     {
-     "name": "Jared Spurgeon",
-     "status": "Injured Reserve",
-     "playerId": 8474716,
-     "position": "D",
-     "value": 0.0991,
-     "regular": false,
-     "applied": false,
-     "note": "ir",
-     "date": "2026-10-29"
-    },
-    {
-     "name": "Brock Faber",
-     "status": "Injured Reserve",
-     "playerId": 8482122,
-     "position": "D",
-     "value": 0.068,
-     "regular": false,
-     "applied": false,
-     "note": "Faber (skull) has cleared his return to play protocol and could resume skating within a few days, per Michael Russo of The Athletic.",
-     "date": "2026-10-29"
-    },
-    {
      "name": "Marcus Foligno",
      "status": "Injured Reserve",
      "playerId": 8475220,
@@ -537,8 +526,8 @@
      "value": 0.0547,
      "regular": false,
      "applied": false,
-     "note": "ir",
-     "date": "2026-10-12"
+     "note": "Foligno (upper body) will travel with the Wild during the team's upcoming three-game road trip, per Joe Smith of The Athletic.",
+     "date": "2026-11-05"
     },
     {
      "name": "Nick Foligno",
@@ -548,8 +537,30 @@
      "value": 0.0382,
      "regular": false,
      "applied": false,
-     "note": "ir",
-     "date": "2026-10-09"
+     "note": "Foligno (upper body) will travel with the Wild during the team's upcoming three-game road trip, per Joe Smith of The Athletic.",
+     "date": "2026-11-05"
+    },
+    {
+     "name": "Jared Spurgeon",
+     "status": "Injured Reserve",
+     "playerId": 8474716,
+     "position": "D",
+     "value": 0.0991,
+     "regular": false,
+     "applied": false,
+     "note": "Spurgeon (lower body) is expected to travel with the team for its upcoming three-game road trip starting Tuesday against Montreal, Joe Smith of The Athletic reports.",
+     "date": "2026-11-05"
+    },
+    {
+     "name": "Brock Faber",
+     "status": "Injured Reserve",
+     "playerId": 8482122,
+     "position": "D",
+     "value": 0.068,
+     "regular": false,
+     "applied": false,
+     "note": "Faber (skull) skated with his teammates for the first time Thursday, Joe Smith of The Athletic reports.",
+     "date": "2026-11-05"
     }
    ]
   },
@@ -565,28 +576,6 @@
      "regular": false,
      "applied": false,
      "note": "Demidov (foot) skated Tuesday and could resume training with the team next week, Patrick Friolet of RDS reports.",
-     "date": "2026-11-04"
-    },
-    {
-     "name": "Nick Suzuki",
-     "status": "Day-To-Day",
-     "playerId": 8480018,
-     "position": "C",
-     "value": 0.1042,
-     "regular": false,
-     "applied": false,
-     "note": "Suzuki (hand) is questionable for Thursday's game against Utah, per Stu Cowan of The Montreal Gazette.",
-     "date": "2026-11-04"
-    },
-    {
-     "name": "Kirby Dach",
-     "status": "Day-To-Day",
-     "playerId": 8481523,
-     "position": "C",
-     "value": -0.0547,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
      "date": "2026-11-04"
     },
     {
@@ -706,18 +695,18 @@
    ]
   },
   "NYR": {
-   "missing_value": 0,
+   "missing_value": -0.0336,
    "players": [
     {
      "name": "Sean Durzi",
-     "status": "Day-To-Day",
+     "status": "Injured Reserve",
      "playerId": 8480434,
      "position": "D",
      "value": -0.0336,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-04"
+     "applied": true,
+     "note": "Durzi (undisclosed) was put on injured reserve Thursday, per Mollie Walker of the New York Post.",
+     "date": "2026-11-05"
     },
     {
      "name": "Adam Sykora",
@@ -822,17 +811,6 @@
   "PIT": {
    "missing_value": -0.0271,
    "players": [
-    {
-     "name": "Evgeni Malkin",
-     "status": "Day-To-Day",
-     "playerId": 8471215,
-     "position": "C",
-     "value": 0.0262,
-     "regular": true,
-     "applied": false,
-     "note": "Malkin (lower body) took contact during Wednesday's practice, and he might be good to play Thursday versus Boston, per Wes Crosby of NHL.com.",
-     "date": "2026-11-04"
-    },
     {
      "name": "Elmer Soderblom",
      "status": "Injured Reserve",
@@ -958,17 +936,6 @@
   "STL": {
    "missing_value": 0,
    "players": [
-    {
-     "name": "Colton Parayko",
-     "status": "Day-To-Day",
-     "playerId": 8476892,
-     "position": "D",
-     "value": 0.0233,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-04"
-    },
     {
      "name": "Logan Mailloux",
      "status": "Injured Reserve",
