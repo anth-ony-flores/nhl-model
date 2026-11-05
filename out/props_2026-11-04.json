@@ -1,6 +1,6 @@
 {
  "date": "2026-11-04",
- "generated": "2026-11-05T01:20:25Z",
+ "generated": "2026-11-05T01:30:35Z",
  "data_through": "2026-11-03",
  "picks_enabled": false,
  "params": {
@@ -105,7 +105,7 @@
    "home_name": "Sabres",
    "start_utc": "2026-11-05T00:30:00Z",
    "state": "in",
-   "detail": "0:29 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "OTT": 1.046,
@@ -2601,7 +2601,7 @@
    "home_name": "Panthers",
    "start_utc": "2026-11-05T00:30:00Z",
    "state": "in",
-   "detail": "0:13 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "CHI": 0.998,
