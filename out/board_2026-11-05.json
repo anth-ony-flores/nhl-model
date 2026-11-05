@@ -1,7 +1,7 @@
 {
  "date": "2026-11-05",
  "data_through": "2026-11-04",
- "generated": "2026-11-05 16:31 MST",
+ "generated": "2026-11-05 16:42 MST",
  "league_xg60": 3.007,
  "b2b_effect": {
   "own_xg": -0.234,
@@ -92,14 +92,14 @@
    "inj_away": [
     {
      "name": "Kailer Yamamoto",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8479977,
      "position": "R",
      "value": 0.088,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-04"
+     "applied": true,
+     "note": "Yamamoto (upper body) won't play Thursday versus the Canadiens.",
+     "date": "2026-11-05"
     },
     {
      "name": "John Marino",
@@ -125,52 +125,52 @@
     }
    ],
    "inj_adj_home": 0,
-   "inj_adj_away": 0,
-   "xg_home": 2.845,
-   "xg_away": 3.407,
-   "proj_home": 3.16,
-   "proj_away": 3.11,
-   "p_home": 0.5095,
-   "p_away": 0.4905,
-   "p_ot": 0.2427,
-   "fair_ml_home": -104,
-   "fair_ml_away": 104,
+   "inj_adj_away": 0.088,
+   "xg_home": 2.889,
+   "xg_away": 3.363,
+   "proj_home": 3.21,
+   "proj_away": 3.07,
+   "p_home": 0.5235,
+   "p_away": 0.4765,
+   "p_ot": 0.2422,
+   "fair_ml_home": -110,
+   "fair_ml_away": 110,
    "exp_total": 6.27,
    "totals": {
     "4.5": {
-     "over": 0.7667,
-     "under": 0.2333
+     "over": 0.7677,
+     "under": 0.2323
     },
     "5.0": {
-     "over": 0.5868,
-     "under": 0.2333
+     "over": 0.588,
+     "under": 0.2323
     },
     "5.5": {
-     "over": 0.5868,
-     "under": 0.4132
+     "over": 0.588,
+     "under": 0.412
     },
     "6.0": {
-     "over": 0.4449,
-     "under": 0.4132
+     "over": 0.4461,
+     "under": 0.412
     },
     "6.5": {
-     "over": 0.4449,
-     "under": 0.5551
+     "over": 0.4461,
+     "under": 0.5539
     },
     "7.0": {
-     "over": 0.2786,
-     "under": 0.5551
+     "over": 0.2797,
+     "under": 0.5539
     },
     "7.5": {
-     "over": 0.2786,
-     "under": 0.7214
+     "over": 0.2797,
+     "under": 0.7203
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3099,
-    "away_+1.5": 0.6901,
-    "away_-1.5": 0.2947,
-    "home_+1.5": 0.7053
+    "home_-1.5": 0.3214,
+    "away_+1.5": 0.6786,
+    "away_-1.5": 0.2839,
+    "home_+1.5": 0.7161
    }
   },
   {
