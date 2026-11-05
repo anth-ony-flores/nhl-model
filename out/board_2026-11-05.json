@@ -1,7 +1,7 @@
 {
  "date": "2026-11-05",
  "data_through": "2026-11-04",
- "generated": "2026-11-05 16:42 MST",
+ "generated": "2026-11-05 16:52 MST",
  "league_xg60": 3.007,
  "b2b_effect": {
   "own_xg": -0.234,
@@ -400,17 +400,6 @@
      "applied": false,
      "note": "Gourde (hip) will miss Thursday's game against Chicago, but he might be available at some point during the upcoming four-game road trip, per Benjamin Pierce of the Lightning's official site.",
      "date": "2026-11-04"
-    },
-    {
-     "name": "Zemgus Girgensons",
-     "status": "Day-To-Day",
-     "playerId": 8476878,
-     "position": "C",
-     "value": -0.0865,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-04"
     }
    ],
    "inj_away": [
@@ -749,17 +738,6 @@
     }
    ],
    "inj_away": [
-    {
-     "name": "Taylor Hall",
-     "status": "Day-To-Day",
-     "playerId": 8475791,
-     "position": "L",
-     "value": 0.0429,
-     "regular": false,
-     "applied": false,
-     "note": "Hall (upper body) is expected to be a game-time decision Thursday versus the Islanders, per Brian Compton of NHL.com.",
-     "date": "2026-11-05"
-    },
     {
      "name": "Alexander Nikishin",
      "status": "Out",
