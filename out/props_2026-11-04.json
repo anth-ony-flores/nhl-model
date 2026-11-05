@@ -1,6 +1,6 @@
 {
  "date": "2026-11-04",
- "generated": "2026-11-05T00:32:06Z",
+ "generated": "2026-11-05T01:00:05Z",
  "data_through": "2026-11-03",
  "picks_enabled": false,
  "params": {
@@ -11,30 +11,14 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 165,
-  "checked": 161,
-  "first_is_over": 161,
+  "pairs": 88,
+  "checked": 87,
+  "first_is_over": 87,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 309,
+ "lines": 160,
  "unmatched": [
-  {
-   "espn_id": "3149697",
-   "name": "Sammy Blais",
-   "team": "OTT",
-   "market": "goal",
-   "game": "OTT@BUF",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  },
-  {
-   "espn_id": "5090524",
-   "name": "Dillon Boucher",
-   "team": "CHI",
-   "market": "goal",
-   "game": "CHI@FLA",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  },
   {
    "espn_id": "5104190",
    "name": null,
@@ -84,7 +68,7 @@
    "why": "no MoneyPuck skater match (no recent games?)"
   }
  ],
- "unmatched_rate": 0.0259,
+ "unmatched_rate": 0.0375,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -120,9 +104,9 @@
    "away_name": "Senators",
    "home_name": "Sabres",
    "start_utc": "2026-11-05T00:30:00Z",
-   "state": "pre",
-   "detail": "11/4 - 7:30 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "9:58 - 1st",
+   "frozen": true,
    "goal_factor": {
     "OTT": 1.046,
     "BUF": 0.915
@@ -2616,9 +2600,9 @@
    "away_name": "Blackhawks",
    "home_name": "Panthers",
    "start_utc": "2026-11-05T00:30:00Z",
-   "state": "pre",
-   "detail": "11/4 - 7:30 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "9:03 - 1st",
+   "frozen": true,
    "goal_factor": {
     "CHI": 0.998,
     "FLA": 1.101
@@ -7691,9 +7675,9 @@
       "opp": "SEA",
       "line": 1.5,
       "open_line": 1.5,
-      "over": "-105",
+      "over": "-110",
       "over_open": "-105",
-      "under": "-130",
+      "under": "-125",
       "under_open": "-130",
       "updated": "2026-11-04T23:12Z",
       "player_id": 8483495,
@@ -7712,11 +7696,11 @@
        "6.5": 0.0014,
        "7.5": 0.0003
       },
-      "mkt_over": 0.4754,
-      "edge_over": -0.0361,
-      "edge_under": 0.0361,
+      "mkt_over": 0.4853,
+      "edge_over": -0.046,
+      "edge_under": 0.046,
       "lean": "Under",
-      "edge": 0.0361,
+      "edge": 0.046,
       "strong": true
      },
      {
@@ -7794,19 +7778,19 @@
       "player": "Jordan Eberle",
       "team": "SEA",
       "opp": "CGY",
-      "line": 1.5,
+      "line": 2.5,
       "open_line": 2.5,
-      "over": "-195",
+      "over": "+140",
       "over_open": "+125",
-      "under": "+145",
+      "under": "-185",
       "under_open": "-170",
-      "updated": "2026-11-05T01:15Z",
+      "updated": "2026-11-05T03:43Z",
       "player_id": 8474586,
       "pos": "F",
       "proj_toi": 17.55,
       "games_weight": 41.1,
       "mean": 2.148,
-      "p_over": 0.6227,
+      "p_over": 0.362,
       "curve": {
        "0.5": 0.8744,
        "1.5": 0.6227,
@@ -7817,11 +7801,11 @@
        "6.5": 0.0089,
        "7.5": 0.0027
       },
-      "mkt_over": 0.6182,
-      "edge_over": 0.0045,
-      "edge_under": -0.0045,
-      "lean": "Over",
-      "edge": 0.0045,
+      "mkt_over": 0.3909,
+      "edge_over": -0.029,
+      "edge_under": 0.029,
+      "lean": "Under",
+      "edge": 0.029,
       "strong": false
      },
      {
@@ -8008,9 +7992,9 @@
       "opp": "SEA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "-145",
+      "over": "-140",
       "over_open": "-155",
-      "under": "+105",
+      "under": "+100",
       "under_open": "+115",
       "updated": "2026-11-04T12:28Z",
       "player_id": 8482679,
@@ -8025,11 +8009,11 @@
        "2.5": 0.0421,
        "3.5": 0.0077
       },
-      "mkt_over": 0.5482,
-      "edge_over": -0.0149,
-      "edge_under": 0.0149,
+      "mkt_over": 0.5385,
+      "edge_over": -0.0052,
+      "edge_under": 0.0052,
       "lean": "Under",
-      "edge": 0.0149,
+      "edge": 0.0052,
       "strong": false
      },
      {
@@ -8039,9 +8023,9 @@
       "opp": "SEA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "-120",
+      "over": "-140",
       "over_open": "-125",
-      "under": "-110",
+      "under": "+105",
       "under_open": "-110",
       "updated": "2026-11-04T12:28Z",
       "player_id": 8480797,
@@ -8056,11 +8040,11 @@
        "2.5": 0.0285,
        "3.5": 0.0045
       },
-      "mkt_over": 0.5101,
-      "edge_over": -0.0315,
-      "edge_under": 0.0315,
+      "mkt_over": 0.5446,
+      "edge_over": -0.0659,
+      "edge_under": 0.0659,
       "lean": "Under",
-      "edge": 0.0315,
+      "edge": 0.0659,
       "strong": true
      },
      {
@@ -8070,7 +8054,7 @@
       "opp": "SEA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "-125",
+      "over": "-120",
       "over_open": "-130",
       "under": "-110",
       "under_open": "-105",
@@ -8087,11 +8071,11 @@
        "2.5": 0.0231,
        "3.5": 0.0034
       },
-      "mkt_over": 0.5147,
-      "edge_over": -0.0637,
-      "edge_under": 0.0637,
+      "mkt_over": 0.5101,
+      "edge_over": -0.0591,
+      "edge_under": 0.0591,
       "lean": "Under",
-      "edge": 0.0637,
+      "edge": 0.0591,
       "strong": true
      },
      {
@@ -8101,9 +8085,9 @@
       "opp": "SEA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+100",
+      "over": "+105",
       "over_open": "+100",
-      "under": "-135",
+      "under": "-140",
       "under_open": "-135",
       "updated": "2026-11-04T12:28Z",
       "player_id": 8480028,
@@ -8118,12 +8102,12 @@
        "2.5": 0.0198,
        "3.5": 0.0027
       },
-      "mkt_over": 0.4653,
-      "edge_over": -0.0336,
-      "edge_under": 0.0336,
+      "mkt_over": 0.4554,
+      "edge_over": -0.0237,
+      "edge_under": 0.0237,
       "lean": "Under",
-      "edge": 0.0336,
-      "strong": true
+      "edge": 0.0237,
+      "strong": false
      },
      {
       "espn_id": "3797",
@@ -8132,9 +8116,9 @@
       "opp": "SEA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+125",
+      "over": "+130",
       "over_open": "+125",
-      "under": "-165",
+      "under": "-175",
       "under_open": "-170",
       "updated": "2026-11-04T12:28Z",
       "player_id": 8474150,
@@ -8149,11 +8133,11 @@
        "2.5": 0.0176,
        "3.5": 0.0023
       },
-      "mkt_over": 0.4165,
-      "edge_over": 0.0009,
-      "edge_under": -0.0009,
+      "mkt_over": 0.4059,
+      "edge_over": 0.0115,
+      "edge_under": -0.0115,
       "lean": "Over",
-      "edge": 0.0009,
+      "edge": 0.0115,
       "strong": false
      },
      {
@@ -8287,9 +8271,9 @@
       "opp": "SEA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+140",
+      "over": "+145",
       "over_open": "+145",
-      "under": "-190",
+      "under": "-200",
       "under_open": "-195",
       "updated": "2026-11-04T12:30Z",
       "player_id": 8484768,
@@ -8304,11 +8288,11 @@
        "2.5": 0.0051,
        "3.5": 0.0004
       },
-      "mkt_over": 0.3887,
-      "edge_over": -0.1006,
-      "edge_under": 0.1006,
+      "mkt_over": 0.3797,
+      "edge_over": -0.0916,
+      "edge_under": 0.0916,
       "lean": "Under",
-      "edge": 0.1006,
+      "edge": 0.0916,
       "strong": true
      },
      {
@@ -8349,9 +8333,9 @@
       "opp": "CGY",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "-130",
+      "over": "-140",
       "over_open": "-110",
-      "under": "-105",
+      "under": "+105",
       "under_open": "-125",
       "updated": "2026-11-04T21:22Z",
       "player_id": 8476905,
@@ -8366,12 +8350,12 @@
        "2.5": 0.0341,
        "3.5": 0.0057
       },
-      "mkt_over": 0.5246,
-      "edge_over": -0.0216,
-      "edge_under": 0.0216,
+      "mkt_over": 0.5446,
+      "edge_over": -0.0415,
+      "edge_under": 0.0415,
       "lean": "Under",
-      "edge": 0.0216,
-      "strong": false
+      "edge": 0.0415,
+      "strong": true
      },
      {
       "espn_id": "4565223",
@@ -8630,7 +8614,7 @@
       "opp": "SEA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+255",
+      "over": "+230",
       "over_open": "+240",
       "under": null,
       "under_open": null,
@@ -8644,9 +8628,9 @@
       "curve": {
        "0.5": 0.2369
       },
-      "mkt_over": 0.2817,
+      "mkt_over": 0.303,
       "vig_included": true,
-      "edge_over": -0.0448,
+      "edge_over": -0.0662,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8659,7 +8643,7 @@
       "opp": "SEA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+260",
+      "over": "+265",
       "over_open": "+275",
       "under": null,
       "under_open": null,
@@ -8673,9 +8657,9 @@
       "curve": {
        "0.5": 0.2303
       },
-      "mkt_over": 0.2778,
+      "mkt_over": 0.274,
       "vig_included": true,
-      "edge_over": -0.0475,
+      "edge_over": -0.0437,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8688,7 +8672,7 @@
       "opp": "SEA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+255",
+      "over": "+265",
       "over_open": "+235",
       "under": null,
       "under_open": null,
@@ -8702,9 +8686,9 @@
       "curve": {
        "0.5": 0.2189
       },
-      "mkt_over": 0.2817,
+      "mkt_over": 0.274,
       "vig_included": true,
-      "edge_over": -0.0628,
+      "edge_over": -0.0551,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8717,7 +8701,7 @@
       "opp": "SEA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+370",
+      "over": "+380",
       "over_open": "+390",
       "under": null,
       "under_open": null,
@@ -8731,12 +8715,12 @@
       "curve": {
        "0.5": 0.2118
       },
-      "mkt_over": 0.2128,
+      "mkt_over": 0.2083,
       "vig_included": true,
-      "edge_over": -0.001,
+      "edge_over": 0.0034,
       "edge_under": null,
-      "lean": null,
-      "edge": null,
+      "lean": "Yes",
+      "edge": 0.0034,
       "strong": false
      },
      {
@@ -8746,7 +8730,7 @@
       "opp": "SEA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+255",
+      "over": "+265",
       "over_open": "+240",
       "under": null,
       "under_open": null,
@@ -8760,9 +8744,9 @@
       "curve": {
        "0.5": 0.1971
       },
-      "mkt_over": 0.2817,
+      "mkt_over": 0.274,
       "vig_included": true,
-      "edge_over": -0.0846,
+      "edge_over": -0.0769,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8775,7 +8759,7 @@
       "opp": "SEA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+380",
+      "over": "+370",
       "over_open": "+330",
       "under": null,
       "under_open": null,
@@ -8789,9 +8773,9 @@
       "curve": {
        "0.5": 0.1967
       },
-      "mkt_over": 0.2083,
+      "mkt_over": 0.2128,
       "vig_included": true,
-      "edge_over": -0.0117,
+      "edge_over": -0.0161,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8804,7 +8788,7 @@
       "opp": "SEA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+390",
+      "over": "+400",
       "over_open": "+370",
       "under": null,
       "under_open": null,
@@ -8818,9 +8802,9 @@
       "curve": {
        "0.5": 0.1883
       },
-      "mkt_over": 0.2041,
+      "mkt_over": 0.2,
       "vig_included": true,
-      "edge_over": -0.0158,
+      "edge_over": -0.0117,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8862,7 +8846,7 @@
       "opp": "SEA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+750",
+      "over": "+800",
       "over_open": "+750",
       "under": null,
       "under_open": null,
@@ -8876,13 +8860,13 @@
       "curve": {
        "0.5": 0.1454
       },
-      "mkt_over": 0.1176,
+      "mkt_over": 0.1111,
       "vig_included": true,
-      "edge_over": 0.0277,
+      "edge_over": 0.0343,
       "edge_under": null,
       "lean": "Yes",
-      "edge": 0.0277,
-      "strong": false
+      "edge": 0.0343,
+      "strong": true
      },
      {
       "espn_id": "4392883",
@@ -9094,7 +9078,7 @@
       "opp": "SEA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+1300",
+      "over": "+1400",
       "over_open": "+1300",
       "under": null,
       "under_open": null,
@@ -9108,9 +9092,9 @@
       "curve": {
        "0.5": 0.0467
       },
-      "mkt_over": 0.0714,
+      "mkt_over": 0.0667,
       "vig_included": true,
-      "edge_over": -0.0247,
+      "edge_over": -0.0199,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -9239,7 +9223,7 @@
       "opp": "CGY",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+250",
+      "over": "+245",
       "over_open": "+245",
       "under": null,
       "under_open": null,
@@ -9253,9 +9237,9 @@
       "curve": {
        "0.5": 0.2237
       },
-      "mkt_over": 0.2857,
+      "mkt_over": 0.2899,
       "vig_included": true,
-      "edge_over": -0.062,
+      "edge_over": -0.0662,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -9297,7 +9281,7 @@
       "opp": "CGY",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+400",
+      "over": "+390",
       "over_open": "+390",
       "under": null,
       "under_open": null,
@@ -9311,9 +9295,9 @@
       "curve": {
        "0.5": 0.169
       },
-      "mkt_over": 0.2,
+      "mkt_over": 0.2041,
       "vig_included": true,
-      "edge_over": -0.031,
+      "edge_over": -0.035,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -9384,7 +9368,7 @@
       "opp": "CGY",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+330",
+      "over": "+320",
       "over_open": "+330",
       "under": null,
       "under_open": null,
@@ -9398,9 +9382,9 @@
       "curve": {
        "0.5": 0.1453
       },
-      "mkt_over": 0.2326,
+      "mkt_over": 0.2381,
       "vig_included": true,
-      "edge_over": -0.0873,
+      "edge_over": -0.0928,
       "edge_under": null,
       "lean": null,
       "edge": null,
