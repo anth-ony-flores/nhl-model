@@ -1,7 +1,7 @@
 {
  "day": "2026-11-05",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-05 16:00",
+ "fetched": "2026-11-05 16:11",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -54,18 +54,18 @@
    ]
   },
   "BOS": {
-   "missing_value": 0,
+   "missing_value": 0.0026,
    "players": [
     {
      "name": "Matthew Poitras",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8483505,
      "position": "C",
      "value": 0.0026,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-03"
+     "applied": true,
+     "note": "Poitras (nose) won't play Thursday in Pittsburgh, per Kevin Paul Dupont of The Boston Globe.",
+     "date": "2026-11-05"
     }
    ]
   },
