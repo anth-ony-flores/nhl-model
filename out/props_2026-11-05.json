@@ -1,6 +1,6 @@
 {
  "date": "2026-11-05",
- "generated": "2026-11-06T00:32:52Z",
+ "generated": "2026-11-06T00:43:01Z",
  "data_through": "2026-11-04",
  "picks_enabled": false,
  "params": {
@@ -56,7 +56,7 @@
    "home_name": "Canadiens",
    "start_utc": "2026-11-06T00:00:00Z",
    "state": "in",
-   "detail": "7:19 - 1st",
+   "detail": "3:50 - 1st",
    "frozen": true,
    "goal_factor": {
     "UTA": 1.058,
@@ -2331,7 +2331,7 @@
    "home_name": "Red Wings",
    "start_utc": "2026-11-06T00:00:00Z",
    "state": "in",
-   "detail": "7:28 - 1st",
+   "detail": "3:02 - 1st",
    "frozen": true,
    "goal_factor": {
     "VGK": 1.002,
@@ -4670,7 +4670,7 @@
    "home_name": "Lightning",
    "start_utc": "2026-11-06T00:00:00Z",
    "state": "in",
-   "detail": "7:09 - 1st",
+   "detail": "1:11 - 1st",
    "frozen": true,
    "goal_factor": {
     "CHI": 0.867,
@@ -6714,7 +6714,7 @@
    "home_name": "Devils",
    "start_utc": "2026-11-06T00:00:00Z",
    "state": "in",
-   "detail": "6:34 - 1st",
+   "detail": "0:38 - 1st",
    "frozen": true,
    "goal_factor": {
     "STL": 0.88,
@@ -9084,7 +9084,7 @@
    "home_name": "Islanders",
    "start_utc": "2026-11-06T00:00:00Z",
    "state": "in",
-   "detail": "6:03 - 1st",
+   "detail": "1:45 - 1st",
    "frozen": true,
    "goal_factor": {
     "CAR": 1.026,
@@ -11322,7 +11322,7 @@
    "home_name": "Rangers",
    "start_utc": "2026-11-06T00:00:00Z",
    "state": "in",
-   "detail": "5:22 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "PHI": 1.028,
@@ -13797,7 +13797,7 @@
    "home_name": "Penguins",
    "start_utc": "2026-11-06T00:00:00Z",
    "state": "in",
-   "detail": "8:07 - 1st",
+   "detail": "4:37 - 1st",
    "frozen": true,
    "goal_factor": {
     "BOS": 1.058,
@@ -16070,7 +16070,7 @@
    "home_name": "Blue Jackets",
    "start_utc": "2026-11-06T00:00:00Z",
    "state": "in",
-   "detail": "8:23 - 1st",
+   "detail": "1:47 - 1st",
    "frozen": true,
    "goal_factor": {
     "DAL": 0.994,
@@ -18180,7 +18180,7 @@
    "home_name": "Jets",
    "start_utc": "2026-11-06T00:00:00Z",
    "state": "in",
-   "detail": "8:29 - 1st",
+   "detail": "3:16 - 1st",
    "frozen": true,
    "goal_factor": {
     "VAN": 1.049,
@@ -20824,9 +20824,9 @@
       "opp": "ANA",
       "line": 1.5,
       "open_line": 1.5,
-      "over": "-120",
+      "over": "-115",
       "over_open": "-115",
-      "under": "-110",
+      "under": "-115",
       "under_open": "-120",
       "updated": "2026-11-05T19:46Z",
       "player_id": 8482703,
@@ -20845,11 +20845,11 @@
        "6.5": 0.0004,
        "7.5": 0.0001
       },
-      "mkt_over": 0.5101,
-      "edge_over": -0.1637,
-      "edge_under": 0.1637,
+      "mkt_over": 0.5,
+      "edge_over": -0.1535,
+      "edge_under": 0.1535,
       "lean": "Under",
-      "edge": 0.1637,
+      "edge": 0.1535,
       "strong": true
      },
      {
@@ -22440,9 +22440,9 @@
       "opp": "EDM",
       "line": 25.5,
       "open_line": 27.5,
-      "over": "-125",
+      "over": "-110",
       "over_open": "-110",
-      "under": "-105",
+      "under": "-125",
       "under_open": "-120",
       "updated": "2026-11-06T00:19Z",
       "player_id": 8476316,
@@ -22483,11 +22483,11 @@
        "40.5": 0.0033,
        "41.5": 0.0022
       },
-      "mkt_over": 0.5203,
-      "edge_over": -0.1712,
-      "edge_under": 0.1712,
+      "mkt_over": 0.4853,
+      "edge_over": -0.1362,
+      "edge_under": 0.1362,
       "lean": "Under",
-      "edge": 0.1712,
+      "edge": 0.1362,
       "strong": true
      },
      {
