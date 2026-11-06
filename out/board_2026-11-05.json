@@ -1,7 +1,7 @@
 {
  "date": "2026-11-05",
  "data_through": "2026-11-04",
- "generated": "2026-11-05 19:14 MST",
+ "generated": "2026-11-05 19:24 MST",
  "league_xg60": 3.007,
  "b2b_effect": {
   "own_xg": -0.234,
@@ -1718,21 +1718,9 @@
      "date": "2026-10-23"
     }
    ],
-   "inj_away": [
-    {
-     "name": "Jonathan Marchessault",
-     "status": "Day-To-Day",
-     "playerId": 8476539,
-     "position": "R",
-     "value": -0.1315,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-04"
-    }
-   ],
+   "inj_away": [],
    "inj_adj_home": -0.015,
-   "inj_adj_away": 0,
+   "inj_adj_away": 0.0,
    "xg_home": 3.431,
    "xg_away": 2.753,
    "proj_home": 3.69,

@@ -1,7 +1,7 @@
 {
  "day": "2026-11-05",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-05 19:14",
+ "fetched": "2026-11-05 19:24",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -588,22 +588,6 @@
      "applied": false,
      "note": "ir-nr",
      "date": "2026-09-29"
-    }
-   ]
-  },
-  "NSH": {
-   "missing_value": 0,
-   "players": [
-    {
-     "name": "Jonathan Marchessault",
-     "status": "Day-To-Day",
-     "playerId": 8476539,
-     "position": "R",
-     "value": -0.1315,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-04"
     }
    ]
   },
