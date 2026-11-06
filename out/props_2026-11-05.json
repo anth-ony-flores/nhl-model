@@ -1,6 +1,6 @@
 {
  "date": "2026-11-05",
- "generated": "2026-11-06T01:33:44Z",
+ "generated": "2026-11-06T01:43:52Z",
  "data_through": "2026-11-04",
  "picks_enabled": false,
  "params": {
@@ -56,7 +56,7 @@
    "home_name": "Canadiens",
    "start_utc": "2026-11-06T00:00:00Z",
    "state": "in",
-   "detail": "8:31 - 2nd",
+   "detail": "3:37 - 2nd",
    "frozen": true,
    "goal_factor": {
     "UTA": 1.058,
@@ -2331,7 +2331,7 @@
    "home_name": "Red Wings",
    "start_utc": "2026-11-06T00:00:00Z",
    "state": "in",
-   "detail": "4:12 - 2nd",
+   "detail": "End of 2nd",
    "frozen": true,
    "goal_factor": {
     "VGK": 1.002,
@@ -4670,7 +4670,7 @@
    "home_name": "Lightning",
    "start_utc": "2026-11-06T00:00:00Z",
    "state": "in",
-   "detail": "7:21 - 2nd",
+   "detail": "4:56 - 2nd",
    "frozen": true,
    "goal_factor": {
     "CHI": 0.867,
@@ -6714,7 +6714,7 @@
    "home_name": "Devils",
    "start_utc": "2026-11-06T00:00:00Z",
    "state": "in",
-   "detail": "4:43 - 2nd",
+   "detail": "0:45 - 2nd",
    "frozen": true,
    "goal_factor": {
     "STL": 0.88,
@@ -9084,7 +9084,7 @@
    "home_name": "Islanders",
    "start_utc": "2026-11-06T00:00:00Z",
    "state": "in",
-   "detail": "4:45 - 2nd",
+   "detail": "0:34 - 2nd",
    "frozen": true,
    "goal_factor": {
     "CAR": 1.026,
@@ -11322,7 +11322,7 @@
    "home_name": "Rangers",
    "start_utc": "2026-11-06T00:00:00Z",
    "state": "in",
-   "detail": "2:15 - 2nd",
+   "detail": "End of 2nd",
    "frozen": true,
    "goal_factor": {
     "PHI": 1.028,
@@ -13797,7 +13797,7 @@
    "home_name": "Penguins",
    "start_utc": "2026-11-06T00:00:00Z",
    "state": "in",
-   "detail": "4:14 - 2nd",
+   "detail": "End of 2nd",
    "frozen": true,
    "goal_factor": {
     "BOS": 1.058,
@@ -16070,7 +16070,7 @@
    "home_name": "Blue Jackets",
    "start_utc": "2026-11-06T00:00:00Z",
    "state": "in",
-   "detail": "3:48 - 2nd",
+   "detail": "End of 2nd",
    "frozen": true,
    "goal_factor": {
     "DAL": 0.994,
@@ -18180,7 +18180,7 @@
    "home_name": "Jets",
    "start_utc": "2026-11-06T00:00:00Z",
    "state": "in",
-   "detail": "5:41 - 2nd",
+   "detail": "End of 2nd",
    "frozen": true,
    "goal_factor": {
     "VAN": 1.049,
@@ -20282,7 +20282,7 @@
    "home_name": "Oilers",
    "start_utc": "2026-11-06T01:00:00Z",
    "state": "in",
-   "detail": "6:39 - 1st",
+   "detail": "3:22 - 1st",
    "frozen": true,
    "goal_factor": {
     "ANA": 0.935,
