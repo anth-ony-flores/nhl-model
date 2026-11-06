@@ -1,7 +1,7 @@
 {
  "day": "2026-11-05",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-05 17:02",
+ "fetched": "2026-11-05 17:12",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -362,14 +362,14 @@
    "players": [
     {
      "name": "Isaac Howard",
-     "status": "Out",
+     "status": "Injured Reserve",
      "playerId": 8483455,
      "position": "L",
      "value": -0.0631,
      "regular": true,
      "applied": true,
-     "note": "out",
-     "date": "2026-11-03"
+     "note": "ir",
+     "date": "2026-11-06"
     },
     {
      "name": "Zach Hyman",

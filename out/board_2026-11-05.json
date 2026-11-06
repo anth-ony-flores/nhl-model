@@ -1,7 +1,7 @@
 {
  "date": "2026-11-05",
  "data_through": "2026-11-04",
- "generated": "2026-11-05 17:02 MST",
+ "generated": "2026-11-05 17:12 MST",
  "league_xg60": 3.007,
  "b2b_effect": {
   "own_xg": -0.234,
@@ -1498,14 +1498,14 @@
    "inj_home": [
     {
      "name": "Isaac Howard",
-     "status": "Out",
+     "status": "Injured Reserve",
      "playerId": 8483455,
      "position": "L",
      "value": -0.0631,
      "regular": true,
      "applied": true,
-     "note": "out",
-     "date": "2026-11-03"
+     "note": "ir",
+     "date": "2026-11-06"
     },
     {
      "name": "Zach Hyman",

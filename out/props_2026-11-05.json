@@ -1,6 +1,6 @@
 {
  "date": "2026-11-05",
- "generated": "2026-11-06T00:02:26Z",
+ "generated": "2026-11-06T00:12:35Z",
  "data_through": "2026-11-04",
  "picks_enabled": false,
  "params": {
@@ -11,13 +11,13 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 381,
-  "checked": 372,
-  "first_is_over": 372,
+  "pairs": 72,
+  "checked": 71,
+  "first_is_over": 71,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 776,
+ "lines": 144,
  "unmatched": [],
  "unmatched_rate": 0.0,
  "strong": 0.03,
@@ -55,9 +55,9 @@
    "away_name": "Mammoth",
    "home_name": "Canadiens",
    "start_utc": "2026-11-06T00:00:00Z",
-   "state": "pre",
-   "detail": "11/5 - 7:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "20:00 - 1st",
+   "frozen": true,
    "goal_factor": {
     "UTA": 1.058,
     "MTL": 0.947
@@ -2330,9 +2330,9 @@
    "away_name": "Golden Knights",
    "home_name": "Red Wings",
    "start_utc": "2026-11-06T00:00:00Z",
-   "state": "pre",
-   "detail": "11/5 - 7:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "18:54 - 1st",
+   "frozen": true,
    "goal_factor": {
     "VGK": 1.002,
     "DET": 0.889
@@ -4669,9 +4669,9 @@
    "away_name": "Blackhawks",
    "home_name": "Lightning",
    "start_utc": "2026-11-06T00:00:00Z",
-   "state": "pre",
-   "detail": "11/5 - 7:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "20:00 - 1st",
+   "frozen": true,
    "goal_factor": {
     "CHI": 0.867,
     "TBL": 1.147
@@ -6713,9 +6713,9 @@
    "away_name": "Blues",
    "home_name": "Devils",
    "start_utc": "2026-11-06T00:00:00Z",
-   "state": "pre",
-   "detail": "11/5 - 7:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "17:15 - 1st",
+   "frozen": true,
    "goal_factor": {
     "STL": 0.88,
     "NJD": 0.998
@@ -9083,9 +9083,9 @@
    "away_name": "Hurricanes",
    "home_name": "Islanders",
    "start_utc": "2026-11-06T00:00:00Z",
-   "state": "pre",
-   "detail": "11/5 - 7:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "18:03 - 1st",
+   "frozen": true,
    "goal_factor": {
     "CAR": 1.026,
     "NYI": 0.883
@@ -11321,9 +11321,9 @@
    "away_name": "Flyers",
    "home_name": "Rangers",
    "start_utc": "2026-11-06T00:00:00Z",
-   "state": "pre",
-   "detail": "11/5 - 7:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "16:57 - 1st",
+   "frozen": true,
    "goal_factor": {
     "PHI": 1.028,
     "NYR": 1.003
@@ -13796,9 +13796,9 @@
    "away_name": "Bruins",
    "home_name": "Penguins",
    "start_utc": "2026-11-06T00:00:00Z",
-   "state": "pre",
-   "detail": "11/5 - 7:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "18:00 - 1st",
+   "frozen": true,
    "goal_factor": {
     "BOS": 1.058,
     "PIT": 1.036
@@ -16069,9 +16069,9 @@
    "away_name": "Stars",
    "home_name": "Blue Jackets",
    "start_utc": "2026-11-06T00:00:00Z",
-   "state": "pre",
-   "detail": "11/5 - 7:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "18:07 - 1st",
+   "frozen": true,
    "goal_factor": {
     "DAL": 0.994,
     "CBJ": 0.928
@@ -18179,9 +18179,9 @@
    "away_name": "Canucks",
    "home_name": "Jets",
    "start_utc": "2026-11-06T00:00:00Z",
-   "state": "pre",
-   "detail": "11/5 - 8:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "17:45 - 1st",
+   "frozen": true,
    "goal_factor": {
     "VAN": 1.049,
     "WPG": 1.161
@@ -20579,9 +20579,9 @@
       "opp": "ANA",
       "line": 3.5,
       "open_line": 3.5,
-      "over": "+120",
+      "over": "+115",
       "over_open": "+100",
-      "under": "-165",
+      "under": "-155",
       "under_open": "-135",
       "updated": "2026-11-05T19:34Z",
       "player_id": 8478402,
@@ -20600,12 +20600,12 @@
        "6.5": 0.0532,
        "7.5": 0.0224
       },
-      "mkt_over": 0.422,
-      "edge_over": -0.0275,
-      "edge_under": 0.0275,
+      "mkt_over": 0.4335,
+      "edge_over": -0.039,
+      "edge_under": 0.039,
       "lean": "Under",
-      "edge": 0.0275,
-      "strong": false
+      "edge": 0.039,
+      "strong": true
      },
      {
       "espn_id": "3114727",
@@ -20614,9 +20614,9 @@
       "opp": "ANA",
       "line": 3.5,
       "open_line": 3.5,
-      "over": "+100",
+      "over": "+115",
       "over_open": "-115",
-      "under": "-135",
+      "under": "-155",
       "under_open": "-120",
       "updated": "2026-11-05T19:34Z",
       "player_id": 8477934,
@@ -20635,11 +20635,11 @@
        "6.5": 0.0411,
        "7.5": 0.0164
       },
-      "mkt_over": 0.4653,
-      "edge_over": -0.1122,
-      "edge_under": 0.1122,
+      "mkt_over": 0.4335,
+      "edge_over": -0.0803,
+      "edge_under": 0.0803,
       "lean": "Under",
-      "edge": 0.1122,
+      "edge": 0.0803,
       "strong": true
      },
      {
@@ -20649,7 +20649,7 @@
       "opp": "ANA",
       "line": 2.5,
       "open_line": 3.5,
-      "over": "-140",
+      "over": "-145",
       "over_open": "+125",
       "under": "+105",
       "under_open": "-170",
@@ -20670,11 +20670,11 @@
        "6.5": 0.0226,
        "7.5": 0.008
       },
-      "mkt_over": 0.5446,
-      "edge_over": -0.065,
-      "edge_under": 0.065,
+      "mkt_over": 0.5482,
+      "edge_over": -0.0686,
+      "edge_under": 0.0686,
       "lean": "Under",
-      "edge": 0.065,
+      "edge": 0.0686,
       "strong": true
      },
      {
@@ -21175,9 +21175,9 @@
       "opp": "ANA",
       "line": 1.5,
       "open_line": 1.5,
-      "over": "+145",
+      "over": "+150",
       "over_open": "+140",
-      "under": "-200",
+      "under": "-205",
       "under_open": "-185",
       "updated": "2026-11-05T12:03Z",
       "player_id": 8480803,
@@ -21192,11 +21192,11 @@
        "2.5": 0.1545,
        "3.5": 0.0482
       },
-      "mkt_over": 0.3797,
-      "edge_over": 0.011,
-      "edge_under": -0.011,
+      "mkt_over": 0.3731,
+      "edge_over": 0.0177,
+      "edge_under": -0.0177,
       "lean": "Over",
-      "edge": 0.011,
+      "edge": 0.0177,
       "strong": false
      },
      {
