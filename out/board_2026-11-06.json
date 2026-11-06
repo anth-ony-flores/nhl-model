@@ -1,7 +1,7 @@
 {
  "date": "2026-11-06",
  "data_through": "2026-11-05",
- "generated": "2026-11-06 07:31 MST",
+ "generated": "2026-11-06 15:00 MST",
  "league_xg60": 3.011,
  "b2b_effect": {
   "own_xg": -0.239,
@@ -87,17 +87,6 @@
      "applied": false,
      "note": "Grzelcyk (lower body) suffered a \"flare-up\" and could be out for at least \"a few days,\" head coach Lindy Ruff told Rachel Lenzi of The Buffalo News on Tuesday.",
      "date": "2026-10-13"
-    },
-    {
-     "name": "Jack Rathbone",
-     "status": "Injured Reserve",
-     "playerId": 8480056,
-     "position": "D",
-     "value": 0.0221,
-     "regular": false,
-     "applied": false,
-     "note": "ir-nr",
-     "date": "2026-09-28"
     }
    ],
    "inj_away": [],
@@ -198,17 +187,6 @@
    },
    "inj_home": [
     {
-     "name": "Marcus Foligno",
-     "status": "Injured Reserve",
-     "playerId": 8475220,
-     "position": "L",
-     "value": 0.0547,
-     "regular": false,
-     "applied": false,
-     "note": "Foligno (upper body) will travel with the Wild during the team's upcoming three-game road trip, per Joe Smith of The Athletic.",
-     "date": "2026-11-05"
-    },
-    {
      "name": "Nick Foligno",
      "status": "Injured Reserve",
      "playerId": 8473422,
@@ -216,8 +194,19 @@
      "value": 0.0382,
      "regular": false,
      "applied": false,
-     "note": "Foligno (upper body) will travel with the Wild during the team's upcoming three-game road trip, per Joe Smith of The Athletic.",
-     "date": "2026-11-05"
+     "note": "Foligno (upper body) might be available to face the Lightning on Saturday, Michael Russo of The Athletic reports.",
+     "date": "2026-11-06"
+    },
+    {
+     "name": "Marcus Foligno",
+     "status": "Injured Reserve",
+     "playerId": 8475220,
+     "position": "L",
+     "value": 0.0547,
+     "regular": false,
+     "applied": false,
+     "note": "Foligno (lower body) has been ruled out for Friday's game against the Sharks but could play in Saturday's matchup against the Lightning, Michael Russo of The Athletic reports.",
+     "date": "2026-11-06"
     },
     {
      "name": "Jared Spurgeon",
@@ -373,15 +362,26 @@
    },
    "inj_home": [
     {
+     "name": "Jonathan Huberdeau",
+     "status": "Injured Reserve",
+     "playerId": 8476456,
+     "position": "L",
+     "value": 0.0285,
+     "regular": false,
+     "applied": false,
+     "note": "Huberdeau (hip) took the ice in a regular jersey Friday, Pat Steinberg of QR Calgary 770 AM reports.",
+     "date": "2026-11-06"
+    },
+    {
      "name": "Brennan Othmann",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8482747,
      "position": "L",
      "value": -0.0528,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-05"
+     "applied": true,
+     "note": "Othmann (upper body) is not expected to be back in the lineup versus the Ducks on Friday, Pat Steinberg of QR Calgary 770 AM reports.",
+     "date": "2026-11-06"
     },
     {
      "name": "Connor Zary",
@@ -393,17 +393,6 @@
      "applied": false,
      "note": "out",
      "date": "2026-10-30"
-    },
-    {
-     "name": "Jonathan Huberdeau",
-     "status": "Injured Reserve",
-     "playerId": 8476456,
-     "position": "L",
-     "value": 0.0285,
-     "regular": false,
-     "applied": false,
-     "note": "Huberdeau (hip) skated with his teammates Saturday, but he isn't close to returning, Pat Steinberg of QR Calgary 770 AM reports.",
-     "date": "2026-10-24"
     },
     {
      "name": "Samuel Honzek",
@@ -463,53 +452,53 @@
      "date": "2026-10-13"
     }
    ],
-   "inj_adj_home": 0,
+   "inj_adj_home": -0.053,
    "inj_adj_away": 0.045,
-   "xg_home": 3.092,
-   "xg_away": 3.014,
-   "proj_home": 3.33,
-   "proj_away": 2.89,
-   "p_home": 0.5753,
-   "p_away": 0.4247,
-   "p_ot": 0.24,
-   "fair_ml_home": -135,
-   "fair_ml_away": 135,
+   "xg_home": 3.118,
+   "xg_away": 2.987,
+   "proj_home": 3.35,
+   "proj_away": 2.86,
+   "p_home": 0.5836,
+   "p_away": 0.4164,
+   "p_ot": 0.239,
+   "fair_ml_home": -140,
+   "fair_ml_away": 140,
    "exp_total": 6.21,
    "totals": {
     "4.5": {
-     "over": 0.7601,
-     "under": 0.2399
+     "over": 0.7603,
+     "under": 0.2397
     },
     "5.0": {
-     "over": 0.5783,
-     "under": 0.2399
+     "over": 0.5787,
+     "under": 0.2397
     },
     "5.5": {
-     "over": 0.5783,
-     "under": 0.4217
+     "over": 0.5787,
+     "under": 0.4213
     },
     "6.0": {
-     "over": 0.4357,
-     "under": 0.4217
+     "over": 0.4359,
+     "under": 0.4213
     },
     "6.5": {
-     "over": 0.4357,
-     "under": 0.5643
+     "over": 0.4359,
+     "under": 0.5641
     },
     "7.0": {
-     "over": 0.2709,
-     "under": 0.5643
+     "over": 0.2712,
+     "under": 0.5641
     },
     "7.5": {
-     "over": 0.2709,
-     "under": 0.7291
+     "over": 0.2712,
+     "under": 0.7288
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3645,
-    "away_+1.5": 0.6355,
-    "away_-1.5": 0.2441,
-    "home_+1.5": 0.7559
+    "home_-1.5": 0.3719,
+    "away_+1.5": 0.6281,
+    "away_-1.5": 0.2381,
+    "home_+1.5": 0.7619
    }
   }
  ],

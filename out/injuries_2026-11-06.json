@@ -1,7 +1,7 @@
 {
  "day": "2026-11-06",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-06 07:31",
+ "fetched": "2026-11-06 15:00",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -115,33 +115,33 @@
      "applied": false,
      "note": "Grzelcyk (lower body) suffered a \"flare-up\" and could be out for at least \"a few days,\" head coach Lindy Ruff told Rachel Lenzi of The Buffalo News on Tuesday.",
      "date": "2026-10-13"
-    },
-    {
-     "name": "Jack Rathbone",
-     "status": "Injured Reserve",
-     "playerId": 8480056,
-     "position": "D",
-     "value": 0.0221,
-     "regular": false,
-     "applied": false,
-     "note": "ir-nr",
-     "date": "2026-09-28"
     }
    ]
   },
   "CGY": {
-   "missing_value": 0,
+   "missing_value": -0.0528,
    "players": [
     {
+     "name": "Jonathan Huberdeau",
+     "status": "Injured Reserve",
+     "playerId": 8476456,
+     "position": "L",
+     "value": 0.0285,
+     "regular": false,
+     "applied": false,
+     "note": "Huberdeau (hip) took the ice in a regular jersey Friday, Pat Steinberg of QR Calgary 770 AM reports.",
+     "date": "2026-11-06"
+    },
+    {
      "name": "Brennan Othmann",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8482747,
      "position": "L",
      "value": -0.0528,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-05"
+     "applied": true,
+     "note": "Othmann (upper body) is not expected to be back in the lineup versus the Ducks on Friday, Pat Steinberg of QR Calgary 770 AM reports.",
+     "date": "2026-11-06"
     },
     {
      "name": "Connor Zary",
@@ -153,17 +153,6 @@
      "applied": false,
      "note": "out",
      "date": "2026-10-30"
-    },
-    {
-     "name": "Jonathan Huberdeau",
-     "status": "Injured Reserve",
-     "playerId": 8476456,
-     "position": "L",
-     "value": 0.0285,
-     "regular": false,
-     "applied": false,
-     "note": "Huberdeau (hip) skated with his teammates Saturday, but he isn't close to returning, Pat Steinberg of QR Calgary 770 AM reports.",
-     "date": "2026-10-24"
     },
     {
      "name": "Samuel Honzek",
@@ -260,25 +249,25 @@
    ]
   },
   "DAL": {
-   "missing_value": 0,
+   "missing_value": 0.1155,
    "players": [
+    {
+     "name": "Miro Heiskanen",
+     "status": "Out",
+     "playerId": 8480036,
+     "position": "D",
+     "value": 0.1155,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-06"
+    },
     {
      "name": "Sam Steel",
      "status": "Day-To-Day",
      "playerId": 8479351,
      "position": "C",
      "value": -0.01,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-06"
-    },
-    {
-     "name": "Miro Heiskanen",
-     "status": "Day-To-Day",
-     "playerId": 8480036,
-     "position": "D",
-     "value": 0.1155,
      "regular": true,
      "applied": false,
      "note": "day-to-day",
@@ -312,6 +301,17 @@
    "missing_value": 0.0063,
    "players": [
     {
+     "name": "Albert Johansson",
+     "status": "Injured Reserve",
+     "playerId": 8481607,
+     "position": "D",
+     "value": -0.0276,
+     "regular": false,
+     "applied": false,
+     "note": "Johansson (undisclosed) will be with the Red Wings for their upcoming four-game road trip, Ansar Khan of MLive.com reports Friday.",
+     "date": "2026-11-06"
+    },
+    {
      "name": "Marco Kasper",
      "status": "Injured Reserve",
      "playerId": 8483464,
@@ -331,17 +331,6 @@
      "regular": false,
      "applied": false,
      "note": "Head coach Todd McLellan stated that Appleton (undisclosed) is expected to return to the lineup during the Red Wings' upcoming four-game road trip, per Max Bultman of The Athletic.",
-     "date": "2026-11-05"
-    },
-    {
-     "name": "Albert Johansson",
-     "status": "Injured Reserve",
-     "playerId": 8481607,
-     "position": "D",
-     "value": -0.0276,
-     "regular": false,
-     "applied": false,
-     "note": "Head coach Todd McLellan stated Thursday that Johansson (undisclosed) is expected to be sidelined through the team's upcoming four-game road trip, per Max Bultman of The Athletic.",
      "date": "2026-11-05"
     },
     {
@@ -439,8 +428,8 @@
      "value": -0.0695,
      "regular": false,
      "applied": false,
-     "note": "Marchand (leg) has started skating and is tentatively three weeks away from returning, per George Richards.",
-     "date": "2026-10-29"
+     "note": "Head coach Paul Maurice said Friday that Marchand (knee) will travel with the Panthers during their upcoming three-game road trip, Jameson Olive of the Panthers' official site reports.",
+     "date": "2026-11-06"
     },
     {
      "name": "Aleksander Barkov",
@@ -450,8 +439,8 @@
      "value": 0.082,
      "regular": false,
      "applied": false,
-     "note": "Barkov (lower body) resumed skating Wednesday, George Richards of Florida Hockey Now reports.",
-     "date": "2026-10-29"
+     "note": "Head coach Paul Maurice said Friday that Barkov (knee) will travel with the Panthers during their upcoming three-game road trip, Jameson Olive of the Panthers' official site reports.",
+     "date": "2026-11-06"
     },
     {
      "name": "Jonah Gadjovich",
@@ -469,6 +458,17 @@
   "LAK": {
    "missing_value": 0,
    "players": [
+    {
+     "name": "Alex Turcotte",
+     "status": "Injured Reserve",
+     "playerId": 8481532,
+     "position": "C",
+     "value": 0.0408,
+     "regular": false,
+     "applied": false,
+     "note": "Turcotte (undisclosed) has been upgraded to day-to-day according to head coach Peter Laviolette, per Zach Dooley of the Kings' official site on Friday.",
+     "date": "2026-11-06"
+    },
     {
      "name": "Mats Zuccarello",
      "status": "Injured Reserve",
@@ -492,17 +492,6 @@
      "date": "2026-10-29"
     },
     {
-     "name": "Alex Turcotte",
-     "status": "Injured Reserve",
-     "playerId": 8481532,
-     "position": "C",
-     "value": 0.0408,
-     "regular": false,
-     "applied": false,
-     "note": "ir",
-     "date": "2026-10-10"
-    },
-    {
      "name": "Jan Jenik",
      "status": "Injured Reserve",
      "playerId": 8480890,
@@ -519,17 +508,6 @@
    "missing_value": 0,
    "players": [
     {
-     "name": "Marcus Foligno",
-     "status": "Injured Reserve",
-     "playerId": 8475220,
-     "position": "L",
-     "value": 0.0547,
-     "regular": false,
-     "applied": false,
-     "note": "Foligno (upper body) will travel with the Wild during the team's upcoming three-game road trip, per Joe Smith of The Athletic.",
-     "date": "2026-11-05"
-    },
-    {
      "name": "Nick Foligno",
      "status": "Injured Reserve",
      "playerId": 8473422,
@@ -537,8 +515,19 @@
      "value": 0.0382,
      "regular": false,
      "applied": false,
-     "note": "Foligno (upper body) will travel with the Wild during the team's upcoming three-game road trip, per Joe Smith of The Athletic.",
-     "date": "2026-11-05"
+     "note": "Foligno (upper body) might be available to face the Lightning on Saturday, Michael Russo of The Athletic reports.",
+     "date": "2026-11-06"
+    },
+    {
+     "name": "Marcus Foligno",
+     "status": "Injured Reserve",
+     "playerId": 8475220,
+     "position": "L",
+     "value": 0.0547,
+     "regular": false,
+     "applied": false,
+     "note": "Foligno (lower body) has been ruled out for Friday's game against the Sharks but could play in Saturday's matchup against the Lightning, Michael Russo of The Athletic reports.",
+     "date": "2026-11-06"
     },
     {
      "name": "Jared Spurgeon",
@@ -722,29 +711,18 @@
    ]
   },
   "OTT": {
-   "missing_value": -0.0334,
+   "missing_value": -0.0617,
    "players": [
     {
-     "name": "Tyler Kleven",
-     "status": "Day-To-Day",
-     "playerId": 8482095,
-     "position": "D",
-     "value": -0.0686,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-05"
-    },
-    {
      "name": "Ridly Greig",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8482092,
      "position": "C",
      "value": -0.0283,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-05"
+     "applied": true,
+     "note": "Greig (lower body) won't play in Saturday's game against the Mammoth, TSN 1200 Ottawa reports.",
+     "date": "2026-11-06"
     },
     {
      "name": "Andre Burakovsky",
@@ -944,8 +922,8 @@
      "value": -0.0983,
      "regular": false,
      "applied": false,
-     "note": "The Blues assigned Mailloux (hand) to AHL Springfield for a conditioning assignment Monday.",
-     "date": "2026-11-02"
+     "note": "Mailloux (hand) has completed his conditioning assignment with AHL Springfield and rejoined the Blues, the team announced Friday.",
+     "date": "2026-11-06"
     },
     {
      "name": "Torey Krug",
