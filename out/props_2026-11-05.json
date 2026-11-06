@@ -1,6 +1,6 @@
 {
  "date": "2026-11-05",
- "generated": "2026-11-06T00:22:43Z",
+ "generated": "2026-11-06T00:32:52Z",
  "data_through": "2026-11-04",
  "picks_enabled": false,
  "params": {
@@ -56,7 +56,7 @@
    "home_name": "Canadiens",
    "start_utc": "2026-11-06T00:00:00Z",
    "state": "in",
-   "detail": "13:44 - 1st",
+   "detail": "7:19 - 1st",
    "frozen": true,
    "goal_factor": {
     "UTA": 1.058,
@@ -2331,7 +2331,7 @@
    "home_name": "Red Wings",
    "start_utc": "2026-11-06T00:00:00Z",
    "state": "in",
-   "detail": "12:42 - 1st",
+   "detail": "7:28 - 1st",
    "frozen": true,
    "goal_factor": {
     "VGK": 1.002,
@@ -4670,7 +4670,7 @@
    "home_name": "Lightning",
    "start_utc": "2026-11-06T00:00:00Z",
    "state": "in",
-   "detail": "13:46 - 1st",
+   "detail": "7:09 - 1st",
    "frozen": true,
    "goal_factor": {
     "CHI": 0.867,
@@ -6714,7 +6714,7 @@
    "home_name": "Devils",
    "start_utc": "2026-11-06T00:00:00Z",
    "state": "in",
-   "detail": "12:47 - 1st",
+   "detail": "6:34 - 1st",
    "frozen": true,
    "goal_factor": {
     "STL": 0.88,
@@ -9084,7 +9084,7 @@
    "home_name": "Islanders",
    "start_utc": "2026-11-06T00:00:00Z",
    "state": "in",
-   "detail": "13:14 - 1st",
+   "detail": "6:03 - 1st",
    "frozen": true,
    "goal_factor": {
     "CAR": 1.026,
@@ -11322,7 +11322,7 @@
    "home_name": "Rangers",
    "start_utc": "2026-11-06T00:00:00Z",
    "state": "in",
-   "detail": "11:02 - 1st",
+   "detail": "5:22 - 1st",
    "frozen": true,
    "goal_factor": {
     "PHI": 1.028,
@@ -13797,7 +13797,7 @@
    "home_name": "Penguins",
    "start_utc": "2026-11-06T00:00:00Z",
    "state": "in",
-   "detail": "10:56 - 1st",
+   "detail": "8:07 - 1st",
    "frozen": true,
    "goal_factor": {
     "BOS": 1.058,
@@ -16070,7 +16070,7 @@
    "home_name": "Blue Jackets",
    "start_utc": "2026-11-06T00:00:00Z",
    "state": "in",
-   "detail": "12:40 - 1st",
+   "detail": "8:23 - 1st",
    "frozen": true,
    "goal_factor": {
     "DAL": 0.994,
@@ -18180,7 +18180,7 @@
    "home_name": "Jets",
    "start_utc": "2026-11-06T00:00:00Z",
    "state": "in",
-   "detail": "11:46 - 1st",
+   "detail": "8:29 - 1st",
    "frozen": true,
    "goal_factor": {
     "VAN": 1.049,
@@ -21206,9 +21206,9 @@
       "opp": "ANA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "-150",
+      "over": "-165",
       "over_open": "-165",
-      "under": "+110",
+      "under": "+120",
       "under_open": "+125",
       "updated": "2026-11-05T19:34Z",
       "player_id": 8476454,
@@ -21223,11 +21223,11 @@
        "2.5": 0.0528,
        "3.5": 0.0106
       },
-      "mkt_over": 0.5575,
-      "edge_over": 0.0093,
-      "edge_under": -0.0093,
-      "lean": "Over",
-      "edge": 0.0093,
+      "mkt_over": 0.578,
+      "edge_over": -0.0112,
+      "edge_under": 0.0112,
+      "lean": "Under",
+      "edge": 0.0112,
       "strong": false
      },
      {
@@ -21299,9 +21299,9 @@
       "opp": "ANA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "-120",
+      "over": "-115",
       "over_open": "+120",
-      "under": "-115",
+      "under": "-120",
       "under_open": "-165",
       "updated": "2026-11-05T19:34Z",
       "player_id": 8477953,
@@ -21316,11 +21316,11 @@
        "2.5": 0.0106,
        "3.5": 0.0012
       },
-      "mkt_over": 0.5049,
-      "edge_over": -0.1451,
-      "edge_under": 0.1451,
+      "mkt_over": 0.4951,
+      "edge_over": -0.1353,
+      "edge_under": 0.1353,
       "lean": "Under",
-      "edge": 0.1451,
+      "edge": 0.1353,
       "strong": true
      },
      {
@@ -21361,9 +21361,9 @@
       "opp": "ANA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+170",
+      "over": "+175",
       "over_open": "+190",
-      "under": "-235",
+      "under": "-240",
       "under_open": "-260",
       "updated": "2026-11-05T19:46Z",
       "player_id": 8482703,
@@ -21378,11 +21378,11 @@
        "2.5": 0.0042,
        "3.5": 0.0003
       },
-      "mkt_over": 0.3455,
-      "edge_over": -0.0734,
-      "edge_under": 0.0734,
+      "mkt_over": 0.34,
+      "edge_over": -0.0678,
+      "edge_under": 0.0678,
       "lean": "Under",
-      "edge": 0.0734,
+      "edge": 0.0678,
       "strong": true
      }
     ],
@@ -21481,7 +21481,7 @@
       "opp": "EDM",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+290",
+      "over": "+285",
       "over_open": "+265",
       "under": null,
       "under_open": null,
@@ -21495,9 +21495,9 @@
       "curve": {
        "0.5": 0.2432
       },
-      "mkt_over": 0.2564,
+      "mkt_over": 0.2597,
       "vig_included": true,
-      "edge_over": -0.0132,
+      "edge_over": -0.0165,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -21887,7 +21887,7 @@
       "opp": "EDM",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+1500",
+      "over": "+1600",
       "over_open": "+1500",
       "under": null,
       "under_open": null,
@@ -21901,9 +21901,9 @@
       "curve": {
        "0.5": 0.0132
       },
-      "mkt_over": 0.0625,
+      "mkt_over": 0.0588,
       "vig_included": true,
-      "edge_over": -0.0493,
+      "edge_over": -0.0457,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -21974,7 +21974,7 @@
       "opp": "ANA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+225",
+      "over": "+195",
       "over_open": "+190",
       "under": null,
       "under_open": null,
@@ -21988,9 +21988,9 @@
       "curve": {
        "0.5": 0.2791
       },
-      "mkt_over": 0.3077,
+      "mkt_over": 0.339,
       "vig_included": true,
-      "edge_over": -0.0286,
+      "edge_over": -0.0599,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -22032,7 +22032,7 @@
       "opp": "ANA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+270",
+      "over": "+275",
       "over_open": "+250",
       "under": null,
       "under_open": null,
@@ -22046,9 +22046,9 @@
       "curve": {
        "0.5": 0.2429
       },
-      "mkt_over": 0.2703,
+      "mkt_over": 0.2667,
       "vig_included": true,
-      "edge_over": -0.0274,
+      "edge_over": -0.0238,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -22061,7 +22061,7 @@
       "opp": "ANA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+265",
+      "over": "+275",
       "over_open": "+300",
       "under": null,
       "under_open": null,
@@ -22075,9 +22075,9 @@
       "curve": {
        "0.5": 0.1689
       },
-      "mkt_over": 0.274,
+      "mkt_over": 0.2667,
       "vig_included": true,
-      "edge_over": -0.1051,
+      "edge_over": -0.0978,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -22351,7 +22351,7 @@
       "opp": "ANA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+1100",
+      "over": "+1200",
       "over_open": "+1000",
       "under": null,
       "under_open": null,
@@ -22365,9 +22365,9 @@
       "curve": {
        "0.5": 0.0667
       },
-      "mkt_over": 0.0833,
+      "mkt_over": 0.0769,
       "vig_included": true,
-      "edge_over": -0.0166,
+      "edge_over": -0.0102,
       "edge_under": null,
       "lean": null,
       "edge": null,
