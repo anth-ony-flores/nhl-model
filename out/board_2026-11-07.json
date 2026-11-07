@@ -1,7 +1,7 @@
 {
  "date": "2026-11-07",
  "data_through": "2026-11-06",
- "generated": "2026-11-07 07:15 MST",
+ "generated": "2026-11-07 08:31 MST",
  "league_xg60": 3.01,
  "b2b_effect": {
   "own_xg": -0.228,
@@ -795,14 +795,14 @@
    "inj_away": [
     {
      "name": "Kailer Yamamoto",
-     "status": "Day-To-Day",
+     "status": "Injured Reserve",
      "playerId": 8479977,
      "position": "R",
      "value": 0.088,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-06"
+     "applied": true,
+     "note": "Yamamoto (upper body) was placed on injured reserve Friday.",
+     "date": "2026-11-07"
     },
     {
      "name": "Nate Schmidt",
@@ -839,52 +839,52 @@
     }
    ],
    "inj_adj_home": -0.062,
-   "inj_adj_away": 0,
-   "xg_home": 3.041,
-   "xg_away": 2.993,
-   "proj_home": 3.31,
-   "proj_away": 3.33,
-   "p_home": 0.496,
-   "p_away": 0.504,
-   "p_ot": 0.2349,
-   "fair_ml_home": 102,
-   "fair_ml_away": -102,
-   "exp_total": 6.65,
+   "inj_adj_away": 0.088,
+   "xg_home": 3.085,
+   "xg_away": 2.949,
+   "proj_home": 3.35,
+   "proj_away": 3.29,
+   "p_home": 0.5108,
+   "p_away": 0.4892,
+   "p_ot": 0.2348,
+   "fair_ml_home": -104,
+   "fair_ml_away": 104,
+   "exp_total": 6.64,
    "totals": {
     "4.5": {
-     "over": 0.8085,
-     "under": 0.1915
+     "over": 0.8084,
+     "under": 0.1916
     },
     "5.0": {
-     "over": 0.6448,
-     "under": 0.1915
+     "over": 0.6447,
+     "under": 0.1916
     },
     "5.5": {
-     "over": 0.6448,
-     "under": 0.3552
+     "over": 0.6447,
+     "under": 0.3553
     },
     "6.0": {
-     "over": 0.5062,
-     "under": 0.3552
+     "over": 0.506,
+     "under": 0.3553
     },
     "6.5": {
-     "over": 0.5062,
-     "under": 0.4938
+     "over": 0.506,
+     "under": 0.494
     },
     "7.0": {
-     "over": 0.3349,
-     "under": 0.4938
+     "over": 0.3347,
+     "under": 0.494
     },
     "7.5": {
-     "over": 0.3349,
-     "under": 0.6651
+     "over": 0.3347,
+     "under": 0.6653
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3047,
-    "away_+1.5": 0.6953,
-    "away_-1.5": 0.3112,
-    "home_+1.5": 0.6888
+    "home_-1.5": 0.3168,
+    "away_+1.5": 0.6832,
+    "away_-1.5": 0.2992,
+    "home_+1.5": 0.7008
    }
   },
   {
@@ -1106,14 +1106,14 @@
    "inj_home": [
     {
      "name": "Alexander Nikishin",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8482100,
      "position": "D",
      "value": -0.003,
      "regular": false,
      "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-06"
+     "note": "out",
+     "date": "2026-11-07"
     },
     {
      "name": "Jordan Staal",

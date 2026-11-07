@@ -1,7 +1,7 @@
 {
  "day": "2026-11-07",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-07 07:15",
+ "fetched": "2026-11-07 08:31",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -54,25 +54,25 @@
    ]
   },
   "BOS": {
-   "missing_value": 0,
+   "missing_value": 0.0108,
    "players": [
+    {
+     "name": "James Hagens",
+     "status": "Injured Reserve",
+     "playerId": 8485395,
+     "position": "C",
+     "value": 0.0108,
+     "regular": true,
+     "applied": true,
+     "note": "Hagens (back) was put on injured reserve Saturday.",
+     "date": "2026-11-07"
+    },
     {
      "name": "Matthew Poitras",
      "status": "Day-To-Day",
      "playerId": 8483505,
      "position": "C",
      "value": 0.0026,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-06"
-    },
-    {
-     "name": "James Hagens",
-     "status": "Day-To-Day",
-     "playerId": 8485395,
-     "position": "C",
-     "value": 0.0108,
      "regular": true,
      "applied": false,
      "note": "day-to-day",
@@ -183,14 +183,14 @@
    "players": [
     {
      "name": "Alexander Nikishin",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8482100,
      "position": "D",
      "value": -0.003,
      "regular": false,
      "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-06"
+     "note": "out",
+     "date": "2026-11-07"
     },
     {
      "name": "Jordan Staal",
@@ -1108,18 +1108,18 @@
    ]
   },
   "UTA": {
-   "missing_value": 0,
+   "missing_value": 0.088,
    "players": [
     {
      "name": "Kailer Yamamoto",
-     "status": "Day-To-Day",
+     "status": "Injured Reserve",
      "playerId": 8479977,
      "position": "R",
      "value": 0.088,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-06"
+     "applied": true,
+     "note": "Yamamoto (upper body) was placed on injured reserve Friday.",
+     "date": "2026-11-07"
     },
     {
      "name": "Nate Schmidt",
