@@ -1,6 +1,6 @@
 {
  "date": "2026-11-07",
- "generated": "2026-11-07T17:53:43Z",
+ "generated": "2026-11-07T18:03:52Z",
  "data_through": "2026-11-06",
  "picks_enabled": false,
  "params": {
@@ -73,7 +73,7 @@
    "home_name": "Capitals",
    "start_utc": "2026-11-07T17:30:00Z",
    "state": "in",
-   "detail": "11:51 - 1st",
+   "detail": "8:28 - 1st",
    "frozen": true,
    "goal_factor": {
     "FLA": 1.045,
