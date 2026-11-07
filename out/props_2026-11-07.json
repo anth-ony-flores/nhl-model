@@ -1,6 +1,6 @@
 {
  "date": "2026-11-07",
- "generated": "2026-11-07T17:33:25Z",
+ "generated": "2026-11-07T17:43:34Z",
  "data_through": "2026-11-06",
  "picks_enabled": false,
  "params": {
@@ -11,13 +11,13 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 419,
-  "checked": 412,
-  "first_is_over": 412,
+  "pairs": 379,
+  "checked": 373,
+  "first_is_over": 373,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 847,
+ "lines": 771,
  "unmatched": [
   {
    "espn_id": "3571762",
@@ -36,7 +36,7 @@
    "why": "no MoneyPuck skater match (no recent games?)"
   }
  ],
- "unmatched_rate": 0.0024,
+ "unmatched_rate": 0.0026,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -72,9 +72,9 @@
    "away_name": "Panthers",
    "home_name": "Capitals",
    "start_utc": "2026-11-07T17:30:00Z",
-   "state": "pre",
-   "detail": "11/7 - 12:30 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "16:58 - 1st",
+   "frozen": true,
    "goal_factor": {
     "FLA": 1.045,
     "WSH": 0.997
