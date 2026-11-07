@@ -1,7 +1,7 @@
 {
  "date": "2026-11-07",
  "data_through": "2026-11-06",
- "generated": "2026-11-07 09:32 MST",
+ "generated": "2026-11-07 09:42 MST",
  "league_xg60": 3.01,
  "b2b_effect": {
   "own_xg": -0.228,
@@ -1104,17 +1104,6 @@
     ]
    },
    "inj_home": [
-    {
-     "name": "Alexander Nikishin",
-     "status": "Day-To-Day",
-     "playerId": 8482100,
-     "position": "D",
-     "value": -0.003,
-     "regular": false,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-07"
-    },
     {
      "name": "Jordan Staal",
      "status": "Injured Reserve",
