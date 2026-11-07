@@ -1,7 +1,7 @@
 {
  "date": "2026-11-07",
  "data_through": "2026-11-06",
- "generated": "2026-11-07 09:22 MST",
+ "generated": "2026-11-07 09:32 MST",
  "league_xg60": 3.01,
  "b2b_effect": {
   "own_xg": -0.228,
@@ -1106,13 +1106,13 @@
    "inj_home": [
     {
      "name": "Alexander Nikishin",
-     "status": "Out",
+     "status": "Day-To-Day",
      "playerId": 8482100,
      "position": "D",
      "value": -0.003,
      "regular": false,
      "applied": false,
-     "note": "out",
+     "note": "day-to-day",
      "date": "2026-11-07"
     },
     {
