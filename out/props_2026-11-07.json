@@ -1,6 +1,6 @@
 {
  "date": "2026-11-07",
- "generated": "2026-11-07T22:40:22Z",
+ "generated": "2026-11-07T22:50:31Z",
  "data_through": "2026-11-06",
  "picks_enabled": false,
  "params": {
@@ -4712,7 +4712,7 @@
    "home_name": "Kraken",
    "start_utc": "2026-11-07T22:00:00Z",
    "state": "in",
-   "detail": "4:30 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "NYR": 1.062,
@@ -25649,9 +25649,9 @@
       "opp": "EDM",
       "line": 1.5,
       "open_line": 1.5,
-      "over": "-170",
+      "over": "-175",
       "over_open": "-150",
-      "under": "+125",
+      "under": "+130",
       "under_open": "+110",
       "updated": "2026-11-07T12:39Z",
       "player_id": 8478444,
@@ -25670,12 +25670,12 @@
        "6.5": 0.0048,
        "7.5": 0.0013
       },
-      "mkt_over": 0.5862,
-      "edge_over": -0.0269,
-      "edge_under": 0.0269,
+      "mkt_over": 0.5941,
+      "edge_over": -0.0348,
+      "edge_under": 0.0348,
       "lean": "Under",
-      "edge": 0.0269,
-      "strong": false
+      "edge": 0.0348,
+      "strong": true
      },
      {
       "espn_id": "4063607",
@@ -26034,9 +26034,9 @@
       "opp": "VAN",
       "line": 1.5,
       "open_line": 1.5,
-      "over": "-145",
+      "over": "-120",
       "over_open": "-120",
-      "under": "+105",
+      "under": "-115",
       "under_open": "-115",
       "updated": "2026-11-07T16:44Z",
       "player_id": 8475218,
@@ -26055,11 +26055,11 @@
        "6.5": 0.0015,
        "7.5": 0.0003
       },
-      "mkt_over": 0.5482,
-      "edge_over": -0.1025,
-      "edge_under": 0.1025,
+      "mkt_over": 0.5049,
+      "edge_over": -0.0592,
+      "edge_under": 0.0592,
       "lean": "Under",
-      "edge": 0.1025,
+      "edge": 0.0592,
       "strong": true
      },
      {
