@@ -1,6 +1,6 @@
 {
  "date": "2026-11-06",
- "generated": "2026-11-07T00:12:04Z",
+ "generated": "2026-11-07T00:22:13Z",
  "data_through": "2026-11-05",
  "picks_enabled": false,
  "params": {
@@ -11,40 +11,15 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 113,
-  "checked": 110,
-  "first_is_over": 110,
+  "pairs": 71,
+  "checked": 68,
+  "first_is_over": 68,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 221,
- "unmatched": [
-  {
-   "espn_id": "3939658",
-   "name": "Steven Lorentz",
-   "team": "CBJ",
-   "market": "goal",
-   "game": "CBJ@BUF",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  },
-  {
-   "espn_id": "4233868",
-   "name": "Conor Timmins",
-   "team": "BUF",
-   "market": "goal",
-   "game": "CBJ@BUF",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  },
-  {
-   "espn_id": "5275582",
-   "name": "Jack Williams",
-   "team": "CBJ",
-   "market": "goal",
-   "game": "CBJ@BUF",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  }
- ],
- "unmatched_rate": 0.0136,
+ "lines": 143,
+ "unmatched": [],
+ "unmatched_rate": 0.0,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -80,9 +55,9 @@
    "away_name": "Blue Jackets",
    "home_name": "Sabres",
    "start_utc": "2026-11-07T00:00:00Z",
-   "state": "pre",
-   "detail": "11/6 - 7:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "15:29 - 1st",
+   "frozen": true,
    "goal_factor": {
     "CBJ": 0.959,
     "BUF": 1.029
