@@ -1,6 +1,6 @@
 {
  "date": "2026-11-07",
- "generated": "2026-11-07T22:20:05Z",
+ "generated": "2026-11-07T22:30:13Z",
  "data_through": "2026-11-06",
  "picks_enabled": false,
  "params": {
@@ -4712,7 +4712,7 @@
    "home_name": "Kraken",
    "start_utc": "2026-11-07T22:00:00Z",
    "state": "in",
-   "detail": "12:45 - 1st",
+   "detail": "9:52 - 1st",
    "frozen": true,
    "goal_factor": {
     "NYR": 1.062,
