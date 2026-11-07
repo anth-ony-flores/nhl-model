@@ -1,7 +1,7 @@
 {
  "date": "2026-11-07",
  "data_through": "2026-11-06",
- "generated": "2026-11-07 11:03 MST",
+ "generated": "2026-11-07 13:00 MST",
  "league_xg60": 3.01,
  "b2b_effect": {
   "own_xg": -0.228,
@@ -615,6 +615,17 @@
    ],
    "inj_away": [
     {
+     "name": "Josh Anderson",
+     "status": "Out",
+     "playerId": 8476981,
+     "position": "R",
+     "value": -0.0547,
+     "regular": true,
+     "applied": true,
+     "note": "Anderson (personal) won't play against Toronto on Saturday, Renaud Lavoie of TVA Sports reports.",
+     "date": "2026-11-07"
+    },
+    {
      "name": "Ivan Demidov",
      "status": "Injured Reserve",
      "playerId": 8484984,
@@ -649,16 +660,16 @@
     }
    ],
    "inj_adj_home": 0.07,
-   "inj_adj_away": 0,
-   "xg_home": 3.019,
-   "xg_away": 3.379,
-   "proj_home": 3.0,
-   "proj_away": 3.43,
-   "p_home": 0.4283,
-   "p_away": 0.5717,
-   "p_ot": 0.2356,
-   "fair_ml_home": 133,
-   "fair_ml_away": -133,
+   "inj_adj_away": -0.055,
+   "xg_home": 2.992,
+   "xg_away": 3.406,
+   "proj_home": 2.98,
+   "proj_away": 3.46,
+   "p_home": 0.4199,
+   "p_away": 0.5801,
+   "p_ot": 0.2348,
+   "fair_ml_home": 138,
+   "fair_ml_away": -138,
    "exp_total": 6.43,
    "totals": {
     "4.5": {
@@ -666,24 +677,24 @@
      "under": 0.2141
     },
     "5.0": {
-     "over": 0.6134,
+     "over": 0.6133,
      "under": 0.2141
     },
     "5.5": {
-     "over": 0.6134,
-     "under": 0.3866
+     "over": 0.6133,
+     "under": 0.3867
     },
     "6.0": {
-     "over": 0.4721,
-     "under": 0.3866
+     "over": 0.4719,
+     "under": 0.3867
     },
     "6.5": {
-     "over": 0.4721,
-     "under": 0.5279
+     "over": 0.4719,
+     "under": 0.5281
     },
     "7.0": {
      "over": 0.3034,
-     "under": 0.5279
+     "under": 0.5281
     },
     "7.5": {
      "over": 0.3034,
@@ -691,10 +702,10 @@
     }
    },
    "puck_line": {
-    "home_-1.5": 0.2496,
-    "away_+1.5": 0.7504,
-    "away_-1.5": 0.3652,
-    "home_+1.5": 0.6348
+    "home_-1.5": 0.2434,
+    "away_+1.5": 0.7566,
+    "away_-1.5": 0.3727,
+    "home_+1.5": 0.6273
    }
   },
   {
@@ -1250,17 +1261,6 @@
      "date": "2026-11-06"
     },
     {
-     "name": "Sam Steel",
-     "status": "Day-To-Day",
-     "playerId": 8479351,
-     "position": "C",
-     "value": -0.01,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-06"
-    },
-    {
      "name": "Kyle Capobianco",
      "status": "Injured Reserve",
      "playerId": 8478476,
@@ -1413,28 +1413,6 @@
      "applied": false,
      "note": "McCarron (undisclosed) didn't finish Friday's 4-1 win over the Sharks and is questionable for Saturday's game against Tampa Bay, according to Michael Russo of The Athletic.",
      "date": "2026-11-07"
-    },
-    {
-     "name": "Nick Foligno",
-     "status": "Injured Reserve",
-     "playerId": 8473422,
-     "position": "L",
-     "value": 0.0382,
-     "regular": false,
-     "applied": false,
-     "note": "Foligno (upper body) might be available to face the Lightning on Saturday, Michael Russo of The Athletic reports.",
-     "date": "2026-11-06"
-    },
-    {
-     "name": "Marcus Foligno",
-     "status": "Injured Reserve",
-     "playerId": 8475220,
-     "position": "L",
-     "value": 0.0547,
-     "regular": false,
-     "applied": false,
-     "note": "Foligno (lower body) has been ruled out for Friday's game against the Sharks but could play in Saturday's matchup against the Lightning, Michael Russo of The Athletic reports.",
-     "date": "2026-11-06"
     },
     {
      "name": "Jared Spurgeon",
@@ -1750,17 +1728,6 @@
    },
    "inj_home": [
     {
-     "name": "Alex Turcotte",
-     "status": "Injured Reserve",
-     "playerId": 8481532,
-     "position": "C",
-     "value": 0.0408,
-     "regular": false,
-     "applied": false,
-     "note": "Turcotte (undisclosed) has been upgraded to day-to-day according to head coach Peter Laviolette, per Zach Dooley of the Kings' official site on Friday.",
-     "date": "2026-11-06"
-    },
-    {
      "name": "Mats Zuccarello",
      "status": "Injured Reserve",
      "playerId": 8475692,
@@ -1953,17 +1920,6 @@
      "date": "2026-11-06"
     },
     {
-     "name": "Zach Hyman",
-     "status": "Injured Reserve",
-     "playerId": 8475786,
-     "position": "L",
-     "value": 0.1308,
-     "regular": true,
-     "applied": true,
-     "note": "ir",
-     "date": "2026-10-28"
-    },
-    {
      "name": "Alec Regula",
      "status": "Injured Reserve",
      "playerId": 8480831,
@@ -2043,53 +1999,53 @@
      "date": "2026-09-29"
     }
    ],
-   "inj_adj_home": 0.068,
+   "inj_adj_home": -0.063,
    "inj_adj_away": 0.014,
-   "xg_home": 3.361,
-   "xg_away": 2.382,
-   "proj_home": 3.95,
-   "proj_away": 2.56,
-   "p_home": 0.7202,
-   "p_away": 0.2798,
-   "p_ot": 0.2035,
-   "fair_ml_home": -257,
-   "fair_ml_away": 257,
+   "xg_home": 3.426,
+   "xg_away": 2.316,
+   "proj_home": 4.02,
+   "proj_away": 2.49,
+   "p_home": 0.7396,
+   "p_away": 0.2604,
+   "p_ot": 0.1971,
+   "fair_ml_home": -284,
+   "fair_ml_away": 284,
    "exp_total": 6.51,
    "totals": {
     "4.5": {
-     "over": 0.7938,
-     "under": 0.2062
+     "over": 0.7934,
+     "under": 0.2066
     },
     "5.0": {
-     "over": 0.6276,
-     "under": 0.2062
+     "over": 0.6279,
+     "under": 0.2066
     },
     "5.5": {
-     "over": 0.6276,
-     "under": 0.3724
+     "over": 0.6279,
+     "under": 0.3721
     },
     "6.0": {
-     "over": 0.4831,
-     "under": 0.3724
+     "over": 0.4825,
+     "under": 0.3721
     },
     "6.5": {
-     "over": 0.4831,
-     "under": 0.5169
+     "over": 0.4825,
+     "under": 0.5175
     },
     "7.0": {
-     "over": 0.3169,
-     "under": 0.5169
+     "over": 0.317,
+     "under": 0.5175
     },
     "7.5": {
-     "over": 0.3169,
-     "under": 0.6831
+     "over": 0.317,
+     "under": 0.683
     }
    },
    "puck_line": {
-    "home_-1.5": 0.5129,
-    "away_+1.5": 0.4871,
-    "away_-1.5": 0.1494,
-    "home_+1.5": 0.8506
+    "home_-1.5": 0.5346,
+    "away_+1.5": 0.4654,
+    "away_-1.5": 0.1373,
+    "home_+1.5": 0.8627
    }
   }
  ],

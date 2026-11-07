@@ -1,7 +1,7 @@
 {
  "day": "2026-11-07",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-07 11:03",
+ "fetched": "2026-11-07 13:00",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -290,17 +290,6 @@
      "date": "2026-11-06"
     },
     {
-     "name": "Sam Steel",
-     "status": "Day-To-Day",
-     "playerId": 8479351,
-     "position": "C",
-     "value": -0.01,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-06"
-    },
-    {
      "name": "Kyle Capobianco",
      "status": "Injured Reserve",
      "playerId": 8478476,
@@ -385,7 +374,7 @@
    ]
   },
   "EDM": {
-   "missing_value": 0.0677,
+   "missing_value": -0.0631,
    "players": [
     {
      "name": "Isaac Howard",
@@ -397,17 +386,6 @@
      "applied": true,
      "note": "ir",
      "date": "2026-11-06"
-    },
-    {
-     "name": "Zach Hyman",
-     "status": "Injured Reserve",
-     "playerId": 8475786,
-     "position": "L",
-     "value": 0.1308,
-     "regular": true,
-     "applied": true,
-     "note": "ir",
-     "date": "2026-10-28"
     },
     {
      "name": "Alec Regula",
@@ -445,8 +423,19 @@
    ]
   },
   "FLA": {
-   "missing_value": -0.0072,
+   "missing_value": 0.0708,
    "players": [
+    {
+     "name": "Sandis Vilmanis",
+     "status": "Out",
+     "playerId": 8483771,
+     "position": "L",
+     "value": 0.078,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-07"
+    },
     {
      "name": "Anton Lundell",
      "status": "Out",
@@ -497,17 +486,6 @@
    "missing_value": 0,
    "players": [
     {
-     "name": "Alex Turcotte",
-     "status": "Injured Reserve",
-     "playerId": 8481532,
-     "position": "C",
-     "value": 0.0408,
-     "regular": false,
-     "applied": false,
-     "note": "Turcotte (undisclosed) has been upgraded to day-to-day according to head coach Peter Laviolette, per Zach Dooley of the Kings' official site on Friday.",
-     "date": "2026-11-06"
-    },
-    {
      "name": "Mats Zuccarello",
      "status": "Injured Reserve",
      "playerId": 8475692,
@@ -557,28 +535,6 @@
      "date": "2026-11-07"
     },
     {
-     "name": "Nick Foligno",
-     "status": "Injured Reserve",
-     "playerId": 8473422,
-     "position": "L",
-     "value": 0.0382,
-     "regular": false,
-     "applied": false,
-     "note": "Foligno (upper body) might be available to face the Lightning on Saturday, Michael Russo of The Athletic reports.",
-     "date": "2026-11-06"
-    },
-    {
-     "name": "Marcus Foligno",
-     "status": "Injured Reserve",
-     "playerId": 8475220,
-     "position": "L",
-     "value": 0.0547,
-     "regular": false,
-     "applied": false,
-     "note": "Foligno (lower body) has been ruled out for Friday's game against the Sharks but could play in Saturday's matchup against the Lightning, Michael Russo of The Athletic reports.",
-     "date": "2026-11-06"
-    },
-    {
      "name": "Jared Spurgeon",
      "status": "Injured Reserve",
      "playerId": 8474716,
@@ -603,8 +559,19 @@
    ]
   },
   "MTL": {
-   "missing_value": 0,
+   "missing_value": -0.0547,
    "players": [
+    {
+     "name": "Josh Anderson",
+     "status": "Out",
+     "playerId": 8476981,
+     "position": "R",
+     "value": -0.0547,
+     "regular": true,
+     "applied": true,
+     "note": "Anderson (personal) won't play against Toronto on Saturday, Renaud Lavoie of TVA Sports reports.",
+     "date": "2026-11-07"
+    },
     {
      "name": "Ivan Demidov",
      "status": "Injured Reserve",
@@ -1232,7 +1199,7 @@
      "value": 0.0138,
      "regular": true,
      "applied": true,
-     "note": "out",
+     "note": "Salomonsson (personal) is out indefinitely, according to Ken Wiebe of The Winnipeg Free Press on Saturday.",
      "date": "2026-11-07"
     },
     {
