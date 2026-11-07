@@ -1,7 +1,7 @@
 {
  "day": "2026-11-07",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-07 09:42",
+ "fetched": "2026-11-07 09:52",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -1240,6 +1240,17 @@
   "WPG": {
    "missing_value": 0,
    "players": [
+    {
+     "name": "Elias Salomonsson",
+     "status": "Day-To-Day",
+     "playerId": 8483510,
+     "position": "D",
+     "value": 0.0138,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-07"
+    },
     {
      "name": "Haydn Fleury",
      "status": "Day-To-Day",
