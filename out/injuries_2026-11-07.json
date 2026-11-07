@@ -1,7 +1,7 @@
 {
  "day": "2026-11-07",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-07 14:11",
+ "fetched": "2026-11-07 14:19",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -433,7 +433,7 @@
      "value": 0.078,
      "regular": true,
      "applied": true,
-     "note": "out",
+     "note": "Vilmanis (undisclosed) will probably miss a few games, according to George Richards of Florida Hockey Now on Saturday.",
      "date": "2026-11-07"
     },
     {
