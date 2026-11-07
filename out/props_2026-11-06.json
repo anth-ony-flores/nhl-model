@@ -1,6 +1,6 @@
 {
  "date": "2026-11-06",
- "generated": "2026-11-07T00:32:23Z",
+ "generated": "2026-11-07T00:42:32Z",
  "data_through": "2026-11-05",
  "picks_enabled": false,
  "params": {
@@ -56,7 +56,7 @@
    "home_name": "Sabres",
    "start_utc": "2026-11-07T00:00:00Z",
    "state": "in",
-   "detail": "9:25 - 1st",
+   "detail": "3:46 - 1st",
    "frozen": true,
    "goal_factor": {
     "CBJ": 0.959,
