@@ -1,7 +1,7 @@
 {
  "day": "2026-11-07",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-07 10:43",
+ "fetched": "2026-11-07 10:53",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -64,7 +64,7 @@
      "value": 0.0108,
      "regular": true,
      "applied": true,
-     "note": "Hagens (back) was put on injured reserve Saturday.",
+     "note": "Head coach Marco Sturm announced Saturday that Hagens (back) is expected to miss multiple weeks, per Jack Studley of Boston Hockey Now.",
      "date": "2026-11-07"
     },
     {
@@ -964,17 +964,6 @@
    "missing_value": 0,
    "players": [
     {
-     "name": "Mason McTavish",
-     "status": "Day-To-Day",
-     "playerId": 8482745,
-     "position": "C",
-     "value": 0.0116,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-07"
-    },
-    {
      "name": "Logan Mailloux",
      "status": "Injured Reserve",
      "playerId": 8482733,
@@ -1249,17 +1238,17 @@
    ]
   },
   "WPG": {
-   "missing_value": 0,
+   "missing_value": 0.0138,
    "players": [
     {
      "name": "Elias Salomonsson",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8483510,
      "position": "D",
      "value": 0.0138,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
+     "applied": true,
+     "note": "out",
      "date": "2026-11-07"
     },
     {
