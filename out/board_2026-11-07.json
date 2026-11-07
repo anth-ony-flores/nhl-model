@@ -1,7 +1,7 @@
 {
  "date": "2026-11-07",
  "data_through": "2026-11-06",
- "generated": "2026-11-07 09:52 MST",
+ "generated": "2026-11-07 10:02 MST",
  "league_xg60": 3.01,
  "b2b_effect": {
   "own_xg": -0.228,
@@ -238,6 +238,17 @@
     }
    ],
    "inj_away": [
+    {
+     "name": "Mason McTavish",
+     "status": "Day-To-Day",
+     "playerId": 8482745,
+     "position": "C",
+     "value": 0.0116,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-07"
+    },
     {
      "name": "Logan Mailloux",
      "status": "Injured Reserve",
