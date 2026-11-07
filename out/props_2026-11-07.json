@@ -1,6 +1,6 @@
 {
  "date": "2026-11-07",
- "generated": "2026-11-07T20:10:14Z",
+ "generated": "2026-11-07T20:20:23Z",
  "data_through": "2026-11-06",
  "picks_enabled": false,
  "params": {
@@ -12,8 +12,8 @@
  },
  "side_check": {
   "pairs": 367,
-  "checked": 355,
-  "first_is_over": 355,
+  "checked": 356,
+  "first_is_over": 356,
   "mismatch": 0,
   "mismatches": []
  },
@@ -80,8 +80,8 @@
    "away_name": "Panthers",
    "home_name": "Capitals",
    "start_utc": "2026-11-07T17:30:00Z",
-   "state": "in",
-   "detail": "0:45 - 3rd",
+   "state": "post",
+   "detail": "Final",
    "frozen": true,
    "goal_factor": {
     "FLA": 1.045,
@@ -2513,7 +2513,7 @@
    "home_name": "Predators",
    "start_utc": "2026-11-07T18:00:00Z",
    "state": "in",
-   "detail": "14:53 - 3rd",
+   "detail": "9:41 - 3rd",
    "frozen": true,
    "goal_factor": {
     "STL": 1.04,
@@ -17136,9 +17136,9 @@
       "opp": "DAL",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+135",
+      "over": "+125",
       "over_open": "+130",
-      "under": "-180",
+      "under": "-170",
       "under_open": "-175",
       "updated": "2026-11-07T12:51Z",
       "player_id": 8475726,
@@ -17153,12 +17153,12 @@
        "2.5": 0.0127,
        "3.5": 0.0015
       },
-      "mkt_over": 0.3983,
-      "edge_over": -0.0192,
-      "edge_under": 0.0192,
+      "mkt_over": 0.4138,
+      "edge_over": -0.0347,
+      "edge_under": 0.0347,
       "lean": "Under",
-      "edge": 0.0192,
-      "strong": false
+      "edge": 0.0347,
+      "strong": true
      },
      {
       "espn_id": "5361709",
@@ -17167,9 +17167,9 @@
       "opp": "DAL",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+105",
+      "over": "+115",
       "over_open": "+105",
-      "under": "-145",
+      "under": "-155",
       "under_open": "-145",
       "updated": "2026-11-07T12:51Z",
       "player_id": 8486103,
@@ -17184,11 +17184,11 @@
        "2.5": 0.0101,
        "3.5": 0.0011
       },
-      "mkt_over": 0.4518,
-      "edge_over": -0.0977,
-      "edge_under": 0.0977,
+      "mkt_over": 0.4335,
+      "edge_over": -0.0794,
+      "edge_under": 0.0794,
       "lean": "Under",
-      "edge": 0.0977,
+      "edge": 0.0794,
       "strong": true
      },
      {
@@ -17198,9 +17198,9 @@
       "opp": "DAL",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+165",
+      "over": "+175",
       "over_open": "+155",
-      "under": "-225",
+      "under": "-235",
       "under_open": "-210",
       "updated": "2026-11-07T12:51Z",
       "player_id": 8480748,
@@ -17215,11 +17215,11 @@
        "2.5": 0.01,
        "3.5": 0.0011
       },
-      "mkt_over": 0.3528,
-      "edge_over": 0.0002,
-      "edge_under": -0.0002,
-      "lean": null,
-      "edge": null,
+      "mkt_over": 0.3414,
+      "edge_over": 0.0116,
+      "edge_under": -0.0116,
+      "lean": "Over",
+      "edge": 0.0116,
       "strong": false
      },
      {
@@ -20977,13 +20977,13 @@
       "player": "Calvin Pickard",
       "team": "MIN",
       "opp": "TBL",
-      "line": 24.5,
+      "line": 23.5,
       "open_line": 24.5,
-      "over": "+100",
+      "over": "-135",
       "over_open": "-105",
-      "under": "-135",
+      "under": "+100",
       "under_open": "-130",
-      "updated": "2026-11-07T22:25Z",
+      "updated": "2026-11-07T23:13Z",
       "player_id": 8475717,
       "pos": "G",
       "starter": true,
@@ -20991,7 +20991,7 @@
       "proj_sa": 27.3,
       "proj_sv": 0.8875,
       "mean": 24.2,
-      "p_over": 0.4793,
+      "p_over": 0.546,
       "curve": {
        "14.5": 0.9381,
        "15.5": 0.9192,
@@ -21022,11 +21022,11 @@
        "40.5": 0.0059,
        "41.5": 0.0039
       },
-      "mkt_over": 0.4653,
-      "edge_over": 0.0139,
-      "edge_under": -0.0139,
+      "mkt_over": 0.5347,
+      "edge_over": 0.0113,
+      "edge_under": -0.0113,
       "lean": "Over",
-      "edge": 0.0139,
+      "edge": 0.0113,
       "strong": false
      }
     ]
@@ -21548,9 +21548,9 @@
       "opp": "DET",
       "line": 1.5,
       "open_line": 1.5,
-      "over": "-110",
+      "over": "-105",
       "over_open": "+110",
-      "under": "-125",
+      "under": "-130",
       "under_open": "-150",
       "updated": "2026-11-07T11:30Z",
       "player_id": 8478038,
@@ -21569,11 +21569,11 @@
        "6.5": 0.0028,
        "7.5": 0.0007
       },
-      "mkt_over": 0.4853,
-      "edge_over": 0.0191,
-      "edge_under": -0.0191,
+      "mkt_over": 0.4754,
+      "edge_over": 0.029,
+      "edge_under": -0.029,
       "lean": "Over",
-      "edge": 0.0191,
+      "edge": 0.029,
       "strong": false
      },
      {
