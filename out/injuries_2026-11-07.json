@@ -1,7 +1,7 @@
 {
  "day": "2026-11-07",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-07 15:09",
+ "fetched": "2026-11-07 15:20",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -684,8 +684,19 @@
    ]
   },
   "NYR": {
-   "missing_value": -0.0336,
+   "missing_value": -0.0859,
    "players": [
+    {
+     "name": "Alberts Smits",
+     "status": "Out",
+     "playerId": 8485957,
+     "position": "D",
+     "value": -0.0523,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-07"
+    },
     {
      "name": "Sean Durzi",
      "status": "Injured Reserve",
