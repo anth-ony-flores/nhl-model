@@ -1,6 +1,6 @@
 {
  "date": "2026-11-07",
- "generated": "2026-11-08T00:22:01Z",
+ "generated": "2026-11-08T00:32:10Z",
  "data_through": "2026-11-06",
  "picks_enabled": false,
  "params": {
@@ -4704,7 +4704,7 @@
    "home_name": "Kraken",
    "start_utc": "2026-11-07T22:00:00Z",
    "state": "in",
-   "detail": "8:20 - 3rd",
+   "detail": "2:54 - 3rd",
    "frozen": true,
    "goal_factor": {
     "NYR": 1.062,
@@ -7114,7 +7114,7 @@
    "home_name": "Maple Leafs",
    "start_utc": "2026-11-08T00:00:00Z",
    "state": "in",
-   "detail": "14:17 - 1st",
+   "detail": "7:56 - 1st",
    "frozen": true,
    "goal_factor": {
     "MTL": 1.105,
@@ -9449,7 +9449,7 @@
    "home_name": "Senators",
    "start_utc": "2026-11-08T00:00:00Z",
    "state": "in",
-   "detail": "18:37 - 1st",
+   "detail": "13:56 - 1st",
    "frozen": true,
    "goal_factor": {
     "UTA": 0.923,
@@ -11885,7 +11885,7 @@
    "home_name": "Islanders",
    "start_utc": "2026-11-08T00:00:00Z",
    "state": "in",
-   "detail": "13:55 - 1st",
+   "detail": "8:31 - 1st",
    "frozen": true,
    "goal_factor": {
     "NJD": 1.051,
