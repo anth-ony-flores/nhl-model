@@ -1,6 +1,6 @@
 {
  "date": "2026-11-07",
- "generated": "2026-11-08T02:23:52Z",
+ "generated": "2026-11-08T02:34:01Z",
  "data_through": "2026-11-06",
  "picks_enabled": false,
  "params": {
@@ -7105,7 +7105,7 @@
    "home_name": "Maple Leafs",
    "start_utc": "2026-11-08T00:00:00Z",
    "state": "in",
-   "detail": "9:48 - 3rd",
+   "detail": "4:28 - 3rd",
    "frozen": true,
    "goal_factor": {
     "MTL": 1.105,
@@ -9440,7 +9440,7 @@
    "home_name": "Senators",
    "start_utc": "2026-11-08T00:00:00Z",
    "state": "in",
-   "detail": "12:03 - 3rd",
+   "detail": "7:01 - 3rd",
    "frozen": true,
    "goal_factor": {
     "UTA": 0.923,
@@ -11876,7 +11876,7 @@
    "home_name": "Islanders",
    "start_utc": "2026-11-08T00:00:00Z",
    "state": "in",
-   "detail": "12:57 - 3rd",
+   "detail": "8:31 - 3rd",
    "frozen": true,
    "goal_factor": {
     "NJD": 1.051,
@@ -14279,7 +14279,7 @@
    "home_name": "Hurricanes",
    "start_utc": "2026-11-08T01:00:00Z",
    "state": "in",
-   "detail": "8:28 - 2nd",
+   "detail": "1:40 - 2nd",
    "frozen": true,
    "goal_factor": {
     "CHI": 0.888,
@@ -16563,7 +16563,7 @@
    "home_name": "Stars",
    "start_utc": "2026-11-08T01:00:00Z",
    "state": "in",
-   "detail": "10:13 - 2nd",
+   "detail": "5:30 - 2nd",
    "frozen": true,
    "goal_factor": {
     "SJS": 0.837,
@@ -18902,7 +18902,7 @@
    "home_name": "Wild",
    "start_utc": "2026-11-08T01:00:00Z",
    "state": "in",
-   "detail": "11:59 - 2nd",
+   "detail": "6:35 - 2nd",
    "frozen": true,
    "goal_factor": {
     "TBL": 0.969,
@@ -21140,7 +21140,7 @@
    "home_name": "Avalanche",
    "start_utc": "2026-11-08T02:00:00Z",
    "state": "in",
-   "detail": "12:39 - 1st",
+   "detail": "6:41 - 1st",
    "frozen": true,
    "goal_factor": {
     "DET": 0.943,
@@ -23423,7 +23423,7 @@
    "home_name": "Kings",
    "start_utc": "2026-11-08T02:00:00Z",
    "state": "in",
-   "detail": "14:08 - 1st",
+   "detail": "9:21 - 1st",
    "frozen": true,
    "goal_factor": {
     "PIT": 0.971,
