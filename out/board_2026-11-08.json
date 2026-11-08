@@ -1,7 +1,7 @@
 {
  "date": "2026-11-08",
  "data_through": "2026-11-07",
- "generated": "2026-11-08 10:00 MST",
+ "generated": "2026-11-08 10:11 MST",
  "league_xg60": 3.015,
  "b2b_effect": {
   "own_xg": -0.238,
@@ -70,17 +70,6 @@
      "applied": true,
      "note": "Head coach Marco Sturm announced Saturday that Hagens (back) is expected to miss multiple weeks, per Jack Studley of Boston Hockey Now.",
      "date": "2026-11-07"
-    },
-    {
-     "name": "Matthew Poitras",
-     "status": "Day-To-Day",
-     "playerId": 8483505,
-     "position": "C",
-     "value": 0.0026,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-06"
     }
    ],
    "inj_away": [
