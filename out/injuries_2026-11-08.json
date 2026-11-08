@@ -1,7 +1,7 @@
 {
  "day": "2026-11-08",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-08 15:30",
+ "fetched": "2026-11-08 15:40",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -979,22 +979,6 @@
      "applied": false,
      "note": "Tucker had arthroscopic knee surgery and will be re-assessed in six weeks, the team announced Wednesday.",
      "date": "2026-09-30"
-    }
-   ]
-  },
-  "TBL": {
-   "missing_value": 0,
-   "players": [
-    {
-     "name": "Yanni Gourde",
-     "status": "Injured Reserve",
-     "playerId": 8476826,
-     "position": "C",
-     "value": -0.0074,
-     "regular": false,
-     "applied": false,
-     "note": "Gourde (hip) will miss Thursday's game against Chicago, but he might be available at some point during the upcoming four-game road trip, per Benjamin Pierce of the Lightning's official site.",
-     "date": "2026-11-04"
     }
    ]
   },

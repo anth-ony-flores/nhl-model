@@ -1,7 +1,7 @@
 {
  "date": "2026-11-08",
  "data_through": "2026-11-07",
- "generated": "2026-11-08 15:30 MST",
+ "generated": "2026-11-08 15:40 MST",
  "league_xg60": 3.015,
  "b2b_effect": {
   "own_xg": -0.238,
@@ -420,21 +420,9 @@
      "date": "2026-10-23"
     }
    ],
-   "inj_away": [
-    {
-     "name": "Yanni Gourde",
-     "status": "Injured Reserve",
-     "playerId": 8476826,
-     "position": "C",
-     "value": -0.0074,
-     "regular": false,
-     "applied": false,
-     "note": "Gourde (hip) will miss Thursday's game against Chicago, but he might be available at some point during the upcoming four-game road trip, per Benjamin Pierce of the Lightning's official site.",
-     "date": "2026-11-04"
-    }
-   ],
+   "inj_away": [],
    "inj_adj_home": 0.014,
-   "inj_adj_away": 0,
+   "inj_adj_away": 0.0,
    "xg_home": 2.798,
    "xg_away": 3.111,
    "proj_home": 2.77,
