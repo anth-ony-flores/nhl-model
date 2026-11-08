@@ -1,7 +1,7 @@
 {
  "day": "2026-11-07",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-07 19:44",
+ "fetched": "2026-11-07 19:54",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -1119,18 +1119,18 @@
    ]
   },
   "VAN": {
-   "missing_value": 0.0139,
+   "missing_value": 0.007,
    "players": [
     {
      "name": "Tom Willander",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8484240,
      "position": "D",
      "value": -0.0069,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-06"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-08"
     },
     {
      "name": "Filip Chytil",
