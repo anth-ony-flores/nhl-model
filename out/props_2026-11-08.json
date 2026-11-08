@@ -1,6 +1,6 @@
 {
  "date": "2026-11-08",
- "generated": "2026-11-08T20:31:54Z",
+ "generated": "2026-11-08T21:00:05Z",
  "data_through": "2026-11-07",
  "picks_enabled": false,
  "params": {
@@ -11,13 +11,13 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 188,
-  "checked": 184,
-  "first_is_over": 184,
+  "pairs": 144,
+  "checked": 142,
+  "first_is_over": 142,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 368,
+ "lines": 288,
  "unmatched": [],
  "unmatched_rate": 0.0,
  "strong": 0.03,
@@ -56,7 +56,7 @@
    "home_name": "Bruins",
    "start_utc": "2026-11-08T18:00:00Z",
    "state": "in",
-   "detail": "17:54 - 3rd",
+   "detail": "4:49 - 3rd",
    "frozen": true,
    "goal_factor": {
     "FLA": 0.908,
@@ -2268,9 +2268,9 @@
    "away_name": "Golden Knights",
    "home_name": "Sabres",
    "start_utc": "2026-11-08T20:30:00Z",
-   "state": "pre",
-   "detail": "11/8 - 3:30 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "6:36 - 1st",
+   "frozen": true,
    "goal_factor": {
     "VGK": 1.027,
     "BUF": 0.871
