@@ -1,7 +1,7 @@
 {
  "date": "2026-11-08",
  "data_through": "2026-11-07",
- "generated": "2026-11-08 11:01 MST",
+ "generated": "2026-11-08 11:30 MST",
  "league_xg60": 3.015,
  "b2b_effect": {
   "own_xg": -0.238,
@@ -726,6 +726,17 @@
    },
    "inj_home": [
     {
+     "name": "Brennan Othmann",
+     "status": "Out",
+     "playerId": 8482747,
+     "position": "L",
+     "value": -0.0528,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-08"
+    },
+    {
      "name": "Kevin Bahl",
      "status": "Injured Reserve",
      "playerId": 8480860,
@@ -735,17 +746,6 @@
      "applied": true,
      "note": "Bahl will undergo surgery for a ruptured Achilles tendon and won't play again in the 2026-27 season, the Flames announced Sunday.",
      "date": "2026-11-08"
-    },
-    {
-     "name": "Brennan Othmann",
-     "status": "Day-To-Day",
-     "playerId": 8482747,
-     "position": "L",
-     "value": -0.0528,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-07"
     },
     {
      "name": "Jonathan Huberdeau",
@@ -805,53 +805,53 @@
      "date": "2026-10-10"
     }
    ],
-   "inj_adj_home": -0.071,
+   "inj_adj_home": -0.123,
    "inj_adj_away": 0,
-   "xg_home": 2.65,
-   "xg_away": 2.892,
-   "proj_home": 2.82,
-   "proj_away": 2.72,
-   "p_home": 0.5191,
-   "p_away": 0.4809,
-   "p_ot": 0.2602,
-   "fair_ml_home": -108,
-   "fair_ml_away": 108,
-   "exp_total": 5.54,
+   "xg_home": 2.676,
+   "xg_away": 2.866,
+   "proj_home": 2.85,
+   "proj_away": 2.7,
+   "p_home": 0.528,
+   "p_away": 0.472,
+   "p_ot": 0.2598,
+   "fair_ml_home": -112,
+   "fair_ml_away": 112,
+   "exp_total": 5.55,
    "totals": {
     "4.5": {
-     "over": 0.6681,
-     "under": 0.3319
+     "over": 0.6685,
+     "under": 0.3315
     },
     "5.0": {
-     "over": 0.4636,
-     "under": 0.3319
+     "over": 0.4641,
+     "under": 0.3315
     },
     "5.5": {
-     "over": 0.4636,
-     "under": 0.5364
+     "over": 0.4641,
+     "under": 0.5359
     },
     "6.0": {
-     "over": 0.3253,
-     "under": 0.5364
+     "over": 0.3258,
+     "under": 0.5359
     },
     "6.5": {
-     "over": 0.3253,
-     "under": 0.6747
+     "over": 0.3258,
+     "under": 0.6742
     },
     "7.0": {
-     "over": 0.18,
-     "under": 0.6747
+     "over": 0.1804,
+     "under": 0.6742
     },
     "7.5": {
-     "over": 0.18,
-     "under": 0.82
+     "over": 0.1804,
+     "under": 0.8196
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3048,
-    "away_+1.5": 0.6952,
-    "away_-1.5": 0.2752,
-    "home_+1.5": 0.7248
+    "home_-1.5": 0.3119,
+    "away_+1.5": 0.6881,
+    "away_-1.5": 0.2686,
+    "home_+1.5": 0.7314
    }
   },
   {

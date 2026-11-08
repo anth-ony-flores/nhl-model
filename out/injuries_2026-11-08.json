@@ -1,7 +1,7 @@
 {
  "day": "2026-11-08",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-08 11:01",
+ "fetched": "2026-11-08 11:30",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -108,8 +108,19 @@
    ]
   },
   "CGY": {
-   "missing_value": -0.0706,
+   "missing_value": -0.1234,
    "players": [
+    {
+     "name": "Brennan Othmann",
+     "status": "Out",
+     "playerId": 8482747,
+     "position": "L",
+     "value": -0.0528,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-08"
+    },
     {
      "name": "Kevin Bahl",
      "status": "Injured Reserve",
@@ -120,17 +131,6 @@
      "applied": true,
      "note": "Bahl will undergo surgery for a ruptured Achilles tendon and won't play again in the 2026-27 season, the Flames announced Sunday.",
      "date": "2026-11-08"
-    },
-    {
-     "name": "Brennan Othmann",
-     "status": "Day-To-Day",
-     "playerId": 8482747,
-     "position": "L",
-     "value": -0.0528,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-07"
     },
     {
      "name": "Jonathan Huberdeau",
@@ -245,22 +245,6 @@
      "applied": false,
      "note": "ir-lt",
      "date": "2026-10-23"
-    }
-   ]
-  },
-  "CBJ": {
-   "missing_value": 0,
-   "players": [
-    {
-     "name": "Dmitri Voronkov",
-     "status": "Day-To-Day",
-     "playerId": 8481716,
-     "position": "L",
-     "value": 0.0662,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-07"
     }
    ]
   },
