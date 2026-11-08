@@ -1,7 +1,7 @@
 {
  "day": "2026-11-07",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-07 17:01",
+ "fetched": "2026-11-07 17:11",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -521,17 +521,17 @@
    ]
   },
   "MIN": {
-   "missing_value": 0,
+   "missing_value": -0.0209,
    "players": [
     {
      "name": "Michael McCarron",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8477446,
      "position": "C",
      "value": -0.0209,
      "regular": true,
-     "applied": false,
-     "note": "McCarron (undisclosed) didn't finish Friday's 4-1 win over the Sharks and is questionable for Saturday's game against Tampa Bay, according to Michael Russo of The Athletic.",
+     "applied": true,
+     "note": "out",
      "date": "2026-11-07"
     },
     {
@@ -1204,14 +1204,14 @@
    "players": [
     {
      "name": "Elias Salomonsson",
-     "status": "Out",
+     "status": "Injured Reserve",
      "playerId": 8483510,
      "position": "D",
      "value": 0.0138,
      "regular": true,
      "applied": true,
-     "note": "Salomonsson (personal) is out indefinitely, according to Ken Wiebe of The Winnipeg Free Press on Saturday.",
-     "date": "2026-11-07"
+     "note": "ir-nr",
+     "date": "2026-11-08"
     },
     {
      "name": "Haydn Fleury",
