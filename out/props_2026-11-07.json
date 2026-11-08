@@ -1,6 +1,6 @@
 {
  "date": "2026-11-07",
- "generated": "2026-11-08T00:11:52Z",
+ "generated": "2026-11-08T00:22:01Z",
  "data_through": "2026-11-06",
  "picks_enabled": false,
  "params": {
@@ -11,13 +11,13 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 289,
-  "checked": 282,
-  "first_is_over": 282,
+  "pairs": 213,
+  "checked": 209,
+  "first_is_over": 209,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 576,
+ "lines": 428,
  "unmatched": [
   {
    "espn_id": "4915850",
@@ -28,7 +28,7 @@
    "why": "no MoneyPuck skater match (no recent games?)"
   }
  ],
- "unmatched_rate": 0.0017,
+ "unmatched_rate": 0.0023,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -4704,7 +4704,7 @@
    "home_name": "Kraken",
    "start_utc": "2026-11-07T22:00:00Z",
    "state": "in",
-   "detail": "12:34 - 3rd",
+   "detail": "8:20 - 3rd",
    "frozen": true,
    "goal_factor": {
     "NYR": 1.062,
@@ -7113,9 +7113,9 @@
    "away_name": "Canadiens",
    "home_name": "Maple Leafs",
    "start_utc": "2026-11-08T00:00:00Z",
-   "state": "pre",
-   "detail": "11/7 - 7:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "14:17 - 1st",
+   "frozen": true,
    "goal_factor": {
     "MTL": 1.105,
     "TOR": 1.059
@@ -9448,9 +9448,9 @@
    "away_name": "Mammoth",
    "home_name": "Senators",
    "start_utc": "2026-11-08T00:00:00Z",
-   "state": "pre",
-   "detail": "11/7 - 7:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "18:37 - 1st",
+   "frozen": true,
    "goal_factor": {
     "UTA": 0.923,
     "OTT": 0.975
@@ -11885,7 +11885,7 @@
    "home_name": "Islanders",
    "start_utc": "2026-11-08T00:00:00Z",
    "state": "in",
-   "detail": "19:13 - 1st",
+   "detail": "13:55 - 1st",
    "frozen": true,
    "goal_factor": {
     "NJD": 1.051,
@@ -16793,6 +16793,41 @@
       "strong": false
      },
      {
+      "espn_id": "5291934",
+      "player": "Michael Misa",
+      "team": "SJS",
+      "opp": "DAL",
+      "line": 1.5,
+      "open_line": 1.5,
+      "over": "+120",
+      "over_open": "+120",
+      "under": "-160",
+      "under_open": "-160",
+      "updated": "2026-11-08T02:59Z",
+      "player_id": 8485402,
+      "pos": "F",
+      "proj_toi": 13.64,
+      "games_weight": 31.7,
+      "mean": 1.132,
+      "p_over": 0.3117,
+      "curve": {
+       "0.5": 0.6708,
+       "1.5": 0.3117,
+       "2.5": 0.1094,
+       "3.5": 0.0309,
+       "4.5": 0.0073,
+       "5.5": 0.0015,
+       "6.5": 0.0003,
+       "7.5": 0.0
+      },
+      "mkt_over": 0.4248,
+      "edge_over": -0.1131,
+      "edge_under": 0.1131,
+      "lean": "Under",
+      "edge": 0.1131,
+      "strong": true
+     },
+     {
       "espn_id": "4233875",
       "player": "Jason Robertson",
       "team": "DAL",
@@ -17428,30 +17463,30 @@
       "player": "Wyatt Johnston",
       "team": "DAL",
       "opp": "SJS",
-      "line": 1.5,
+      "line": 0.5,
       "open_line": 1.5,
-      "over": "+180",
+      "over": "-250",
       "over_open": "+175",
-      "under": "-245",
+      "under": "+180",
       "under_open": "-240",
-      "updated": "2026-11-08T02:14Z",
+      "updated": "2026-11-08T02:15Z",
       "player_id": 8482740,
       "pos": "F",
       "proj_toi": 19.73,
       "games_weight": 41.7,
       "mean": 1.15,
-      "p_over": 0.3192,
+      "p_over": 0.6833,
       "curve": {
        "0.5": 0.6833,
        "1.5": 0.3192,
        "2.5": 0.1098,
        "3.5": 0.0296
       },
-      "mkt_over": 0.3346,
-      "edge_over": -0.0155,
-      "edge_under": 0.0155,
-      "lean": "Under",
-      "edge": 0.0155,
+      "mkt_over": 0.6667,
+      "edge_over": 0.0166,
+      "edge_under": -0.0166,
+      "lean": "Over",
+      "edge": 0.0166,
       "strong": false
      },
      {

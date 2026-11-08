@@ -1,7 +1,7 @@
 {
  "day": "2026-11-07",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-07 17:11",
+ "fetched": "2026-11-07 17:21",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -426,6 +426,17 @@
    "missing_value": 0.0708,
    "players": [
     {
+     "name": "Anton Lundell",
+     "status": "Out",
+     "playerId": 8482113,
+     "position": "C",
+     "value": -0.0072,
+     "regular": true,
+     "applied": true,
+     "note": "Lundell (undisclosed) is considered questionable to play Sunday versus the Bruins, George Richards of Florida Hockey Now reports.",
+     "date": "2026-11-08"
+    },
+    {
      "name": "Sandis Vilmanis",
      "status": "Out",
      "playerId": 8483771,
@@ -434,17 +445,6 @@
      "regular": true,
      "applied": true,
      "note": "Vilmanis (undisclosed) will probably miss a few games, according to George Richards of Florida Hockey Now on Saturday.",
-     "date": "2026-11-07"
-    },
-    {
-     "name": "Anton Lundell",
-     "status": "Out",
-     "playerId": 8482113,
-     "position": "C",
-     "value": -0.0072,
-     "regular": true,
-     "applied": true,
-     "note": "Lundell (undisclosed) won't play against Washington on Saturday, Rob Darragh of the Panthers' official site reports.",
      "date": "2026-11-07"
     },
     {
