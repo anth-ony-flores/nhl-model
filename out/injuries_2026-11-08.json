@@ -1,7 +1,7 @@
 {
  "day": "2026-11-08",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-08 16:21",
+ "fetched": "2026-11-08 16:31",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -809,8 +809,19 @@
    ]
   },
   "PIT": {
-   "missing_value": 0,
+   "missing_value": 0.0686,
    "players": [
+    {
+     "name": "Ville Koivunen",
+     "status": "Out",
+     "playerId": 8482758,
+     "position": "R",
+     "value": 0.0686,
+     "regular": true,
+     "applied": true,
+     "note": "Koivunen has been ruled out for Sunday's game against the Ducks due to a lower-body injury.",
+     "date": "2026-11-08"
+    },
     {
      "name": "Elmer Soderblom",
      "status": "Injured Reserve",
