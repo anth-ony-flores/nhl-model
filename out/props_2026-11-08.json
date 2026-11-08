@@ -1,6 +1,6 @@
 {
  "date": "2026-11-08",
- "generated": "2026-11-08T21:50:18Z",
+ "generated": "2026-11-08T22:00:26Z",
  "data_through": "2026-11-07",
  "picks_enabled": false,
  "params": {
@@ -2269,7 +2269,7 @@
    "home_name": "Sabres",
    "start_utc": "2026-11-08T20:30:00Z",
    "state": "in",
-   "detail": "8:55 - 2nd",
+   "detail": "5:02 - 2nd",
    "frozen": true,
    "goal_factor": {
     "VGK": 1.027,
@@ -4862,9 +4862,9 @@
       "opp": "WPG",
       "line": 2.5,
       "open_line": 2.5,
-      "over": "-125",
+      "over": "-130",
       "over_open": "-120",
-      "under": "-110",
+      "under": "-105",
       "under_open": "-115",
       "updated": "2026-11-08T09:54Z",
       "player_id": 8479542,
@@ -4883,11 +4883,11 @@
        "6.5": 0.0493,
        "7.5": 0.0205
       },
-      "mkt_over": 0.5147,
-      "edge_over": 0.0803,
-      "edge_under": -0.0803,
+      "mkt_over": 0.5246,
+      "edge_over": 0.0704,
+      "edge_under": -0.0704,
       "lean": "Over",
-      "edge": 0.0803,
+      "edge": 0.0704,
       "strong": true
      },
      {
@@ -4967,7 +4967,7 @@
       "opp": "WPG",
       "line": 1.5,
       "open_line": 1.5,
-      "over": "-150",
+      "over": "-145",
       "over_open": "-175",
       "under": "+110",
       "under_open": "+130",
@@ -4988,11 +4988,11 @@
        "6.5": 0.0091,
        "7.5": 0.0027
       },
-      "mkt_over": 0.5575,
-      "edge_over": 0.0672,
-      "edge_under": -0.0672,
+      "mkt_over": 0.5541,
+      "edge_over": 0.0706,
+      "edge_under": -0.0706,
       "lean": "Over",
-      "edge": 0.0672,
+      "edge": 0.0706,
       "strong": true
      },
      {
@@ -5037,9 +5037,9 @@
       "opp": "WPG",
       "line": 1.5,
       "open_line": 1.5,
-      "over": "+105",
+      "over": "+115",
       "over_open": "-110",
-      "under": "-145",
+      "under": "-155",
       "under_open": "-125",
       "updated": "2026-11-08T09:52Z",
       "player_id": 8478519,
@@ -5058,11 +5058,11 @@
        "6.5": 0.0029,
        "7.5": 0.0007
       },
-      "mkt_over": 0.4518,
-      "edge_over": 0.0558,
-      "edge_under": -0.0558,
+      "mkt_over": 0.4335,
+      "edge_over": 0.0742,
+      "edge_under": -0.0742,
       "lean": "Over",
-      "edge": 0.0558,
+      "edge": 0.0742,
       "strong": true
      },
      {
@@ -6919,8 +6919,8 @@
    "detail": "11/8 - 7:00 PM EST",
    "frozen": false,
    "goal_factor": {
-    "NJD": 1.065,
-    "TOR": 0.838
+    "NJD": 1.077,
+    "TOR": 0.824
    },
    "home_goalie": "Anthony Stolarz",
    "away_goalie": "Connor Hellebuyck",
@@ -7609,19 +7609,19 @@
       "pos": "F",
       "proj_toi": 20.97,
       "games_weight": 41.1,
-      "mean": 1.373,
-      "p_over": 0.3988,
+      "mean": 1.389,
+      "p_over": 0.4043,
       "curve": {
-       "0.5": 0.7467,
-       "1.5": 0.3988,
-       "2.5": 0.16,
-       "3.5": 0.0507
+       "0.5": 0.7506,
+       "1.5": 0.4043,
+       "2.5": 0.1638,
+       "3.5": 0.0525
       },
       "mkt_over": 0.3528,
-      "edge_over": 0.0461,
-      "edge_under": -0.0461,
+      "edge_over": 0.0515,
+      "edge_under": -0.0515,
       "lean": "Over",
-      "edge": 0.0461,
+      "edge": 0.0515,
       "strong": true
      },
      {
@@ -7640,19 +7640,19 @@
       "pos": "F",
       "proj_toi": 18.28,
       "games_weight": 42.5,
-      "mean": 0.993,
-      "p_over": 0.6296,
+      "mean": 1.004,
+      "p_over": 0.6338,
       "curve": {
-       "0.5": 0.6296,
-       "1.5": 0.2617,
-       "2.5": 0.0791,
-       "3.5": 0.0186
+       "0.5": 0.6338,
+       "1.5": 0.2659,
+       "2.5": 0.0811,
+       "3.5": 0.0193
       },
       "mkt_over": 0.5941,
-      "edge_over": 0.0355,
-      "edge_under": -0.0355,
+      "edge_over": 0.0397,
+      "edge_under": -0.0397,
       "lean": "Over",
-      "edge": 0.0355,
+      "edge": 0.0397,
       "strong": true
      },
      {
@@ -7671,19 +7671,19 @@
       "pos": "F",
       "proj_toi": 19.64,
       "games_weight": 42.5,
-      "mean": 0.85,
-      "p_over": 0.5726,
+      "mean": 0.86,
+      "p_over": 0.5768,
       "curve": {
-       "0.5": 0.5726,
-       "1.5": 0.2093,
-       "2.5": 0.0549,
-       "3.5": 0.0111
+       "0.5": 0.5768,
+       "1.5": 0.2129,
+       "2.5": 0.0564,
+       "3.5": 0.0116
       },
       "mkt_over": 0.5575,
-      "edge_over": 0.0151,
-      "edge_under": -0.0151,
+      "edge_over": 0.0192,
+      "edge_under": -0.0192,
       "lean": "Over",
-      "edge": 0.0151,
+      "edge": 0.0192,
       "strong": false
      },
      {
@@ -7702,19 +7702,19 @@
       "pos": "F",
       "proj_toi": 16.46,
       "games_weight": 41.4,
-      "mean": 0.737,
-      "p_over": 0.5214,
+      "mean": 0.745,
+      "p_over": 0.5254,
       "curve": {
-       "0.5": 0.5214,
-       "1.5": 0.1687,
-       "2.5": 0.0388,
-       "3.5": 0.0069
+       "0.5": 0.5254,
+       "1.5": 0.1717,
+       "2.5": 0.0399,
+       "3.5": 0.0071
       },
       "mkt_over": 0.4653,
-      "edge_over": 0.0561,
-      "edge_under": -0.0561,
+      "edge_over": 0.0601,
+      "edge_under": -0.0601,
       "lean": "Over",
-      "edge": 0.0561,
+      "edge": 0.0601,
       "strong": true
      },
      {
@@ -7733,19 +7733,19 @@
       "pos": "F",
       "proj_toi": 14.51,
       "games_weight": 41.4,
-      "mean": 0.676,
-      "p_over": 0.4912,
+      "mean": 0.683,
+      "p_over": 0.4951,
       "curve": {
-       "0.5": 0.4912,
-       "1.5": 0.1474,
-       "2.5": 0.0312,
-       "3.5": 0.0051
+       "0.5": 0.4951,
+       "1.5": 0.15,
+       "2.5": 0.0321,
+       "3.5": 0.0053
       },
       "mkt_over": 0.4335,
-      "edge_over": 0.0577,
-      "edge_under": -0.0577,
+      "edge_over": 0.0616,
+      "edge_under": -0.0616,
       "lean": "Over",
-      "edge": 0.0577,
+      "edge": 0.0616,
       "strong": true
      },
      {
@@ -7764,19 +7764,19 @@
       "pos": "F",
       "proj_toi": 17.64,
       "games_weight": 42.3,
-      "mean": 0.617,
-      "p_over": 0.4603,
+      "mean": 0.624,
+      "p_over": 0.464,
       "curve": {
-       "0.5": 0.4603,
-       "1.5": 0.1274,
-       "2.5": 0.0248,
-       "3.5": 0.0037
+       "0.5": 0.464,
+       "1.5": 0.1298,
+       "2.5": 0.0255,
+       "3.5": 0.0038
       },
       "mkt_over": 0.4518,
-      "edge_over": 0.0084,
-      "edge_under": -0.0084,
+      "edge_over": 0.0122,
+      "edge_under": -0.0122,
       "lean": "Over",
-      "edge": 0.0084,
+      "edge": 0.0122,
       "strong": false
      },
      {
@@ -7795,19 +7795,19 @@
       "pos": "F",
       "proj_toi": 16.62,
       "games_weight": 39.7,
-      "mean": 0.607,
-      "p_over": 0.455,
+      "mean": 0.614,
+      "p_over": 0.4587,
       "curve": {
-       "0.5": 0.455,
-       "1.5": 0.1242,
-       "2.5": 0.0238,
-       "3.5": 0.0035
+       "0.5": 0.4587,
+       "1.5": 0.1265,
+       "2.5": 0.0245,
+       "3.5": 0.0036
       },
       "mkt_over": 0.3797,
-      "edge_over": 0.0752,
-      "edge_under": -0.0752,
+      "edge_over": 0.079,
+      "edge_under": -0.079,
       "lean": "Over",
-      "edge": 0.0752,
+      "edge": 0.079,
       "strong": true
      },
      {
@@ -7826,19 +7826,19 @@
       "pos": "D",
       "proj_toi": 20.96,
       "games_weight": 41.9,
-      "mean": 0.605,
-      "p_over": 0.454,
+      "mean": 0.612,
+      "p_over": 0.4578,
       "curve": {
-       "0.5": 0.454,
-       "1.5": 0.1236,
-       "2.5": 0.0236,
-       "3.5": 0.0035
+       "0.5": 0.4578,
+       "1.5": 0.1259,
+       "2.5": 0.0243,
+       "3.5": 0.0036
       },
       "mkt_over": 0.4059,
-      "edge_over": 0.0481,
-      "edge_under": -0.0481,
+      "edge_over": 0.0519,
+      "edge_under": -0.0519,
       "lean": "Over",
-      "edge": 0.0481,
+      "edge": 0.0519,
       "strong": true
      },
      {
@@ -7857,19 +7857,19 @@
       "pos": "D",
       "proj_toi": 23.32,
       "games_weight": 41.5,
-      "mean": 0.601,
-      "p_over": 0.4519,
+      "mean": 0.608,
+      "p_over": 0.4556,
       "curve": {
-       "0.5": 0.4519,
-       "1.5": 0.1223,
-       "2.5": 0.0232,
-       "3.5": 0.0034
+       "0.5": 0.4556,
+       "1.5": 0.1246,
+       "2.5": 0.0239,
+       "3.5": 0.0035
       },
       "mkt_over": 0.4951,
-      "edge_over": -0.0432,
-      "edge_under": 0.0432,
+      "edge_over": -0.0395,
+      "edge_under": 0.0395,
       "lean": "Under",
-      "edge": 0.0432,
+      "edge": 0.0395,
       "strong": true
      },
      {
@@ -7888,19 +7888,19 @@
       "pos": "F",
       "proj_toi": 15.42,
       "games_weight": 35.5,
-      "mean": 0.597,
-      "p_over": 0.4493,
+      "mean": 0.603,
+      "p_over": 0.453,
       "curve": {
-       "0.5": 0.4493,
-       "1.5": 0.1208,
-       "2.5": 0.0228,
-       "3.5": 0.0033
+       "0.5": 0.453,
+       "1.5": 0.123,
+       "2.5": 0.0235,
+       "3.5": 0.0034
       },
       "mkt_over": 0.4518,
-      "edge_over": -0.0025,
-      "edge_under": 0.0025,
-      "lean": "Under",
-      "edge": 0.0025,
+      "edge_over": 0.0012,
+      "edge_under": -0.0012,
+      "lean": "Over",
+      "edge": 0.0012,
       "strong": false
      },
      {
@@ -7919,19 +7919,19 @@
       "pos": "F",
       "proj_toi": 16.02,
       "games_weight": 41.9,
-      "mean": 0.484,
-      "p_over": 0.3836,
+      "mean": 0.489,
+      "p_over": 0.387,
       "curve": {
-       "0.5": 0.3836,
-       "1.5": 0.0854,
-       "2.5": 0.0132,
+       "0.5": 0.387,
+       "1.5": 0.087,
+       "2.5": 0.0136,
        "3.5": 0.0016
       },
       "mkt_over": 0.3731,
-      "edge_over": 0.0105,
-      "edge_under": -0.0105,
+      "edge_over": 0.0139,
+      "edge_under": -0.0139,
       "lean": "Over",
-      "edge": 0.0105,
+      "edge": 0.0139,
       "strong": false
      },
      {
@@ -7950,19 +7950,19 @@
       "pos": "F",
       "proj_toi": 20.55,
       "games_weight": 41.4,
-      "mean": 0.964,
-      "p_over": 0.6186,
+      "mean": 0.948,
+      "p_over": 0.6126,
       "curve": {
-       "0.5": 0.6186,
-       "1.5": 0.251,
-       "2.5": 0.0738,
-       "3.5": 0.0169
+       "0.5": 0.6126,
+       "1.5": 0.2452,
+       "2.5": 0.071,
+       "3.5": 0.016
       },
       "mkt_over": 0.6487,
-      "edge_over": -0.0301,
-      "edge_under": 0.0301,
+      "edge_over": -0.0362,
+      "edge_under": 0.0362,
       "lean": "Under",
-      "edge": 0.0301,
+      "edge": 0.0362,
       "strong": true
      },
      {
@@ -7981,19 +7981,19 @@
       "pos": "F",
       "proj_toi": 19.76,
       "games_weight": 41.9,
-      "mean": 0.894,
-      "p_over": 0.591,
+      "mean": 0.879,
+      "p_over": 0.5849,
       "curve": {
-       "0.5": 0.591,
-       "1.5": 0.2253,
-       "2.5": 0.0619,
-       "3.5": 0.0132
+       "0.5": 0.5849,
+       "1.5": 0.2199,
+       "2.5": 0.0595,
+       "3.5": 0.0125
       },
       "mkt_over": 0.6413,
-      "edge_over": -0.0503,
-      "edge_under": 0.0503,
+      "edge_over": -0.0563,
+      "edge_under": 0.0563,
       "lean": "Under",
-      "edge": 0.0503,
+      "edge": 0.0563,
       "strong": true
      },
      {
@@ -8012,19 +8012,19 @@
       "pos": "F",
       "proj_toi": 17.98,
       "games_weight": 39.8,
-      "mean": 0.747,
-      "p_over": 0.5262,
+      "mean": 0.735,
+      "p_over": 0.5203,
       "curve": {
-       "0.5": 0.5262,
-       "1.5": 0.1723,
-       "2.5": 0.0401,
-       "3.5": 0.0072
+       "0.5": 0.5203,
+       "1.5": 0.1679,
+       "2.5": 0.0385,
+       "3.5": 0.0068
       },
       "mkt_over": 0.5665,
-      "edge_over": -0.0403,
-      "edge_under": 0.0403,
+      "edge_over": -0.0462,
+      "edge_under": 0.0462,
       "lean": "Under",
-      "edge": 0.0403,
+      "edge": 0.0462,
       "strong": true
      },
      {
@@ -8043,20 +8043,20 @@
       "pos": "D",
       "proj_toi": 22.63,
       "games_weight": 42.2,
-      "mean": 0.617,
-      "p_over": 0.4603,
+      "mean": 0.607,
+      "p_over": 0.4548,
       "curve": {
-       "0.5": 0.4603,
-       "1.5": 0.1274,
-       "2.5": 0.0248,
-       "3.5": 0.0037
+       "0.5": 0.4548,
+       "1.5": 0.1241,
+       "2.5": 0.0238,
+       "3.5": 0.0035
       },
       "mkt_over": 0.4853,
-      "edge_over": -0.025,
-      "edge_under": 0.025,
+      "edge_over": -0.0305,
+      "edge_under": 0.0305,
       "lean": "Under",
-      "edge": 0.025,
-      "strong": false
+      "edge": 0.0305,
+      "strong": true
      },
      {
       "espn_id": "3904098",
@@ -8074,19 +8074,19 @@
       "pos": "F",
       "proj_toi": 15.87,
       "games_weight": 42.1,
-      "mean": 0.538,
-      "p_over": 0.4161,
+      "mean": 0.529,
+      "p_over": 0.4109,
       "curve": {
-       "0.5": 0.4161,
-       "1.5": 0.1019,
-       "2.5": 0.0174,
-       "3.5": 0.0023
+       "0.5": 0.4109,
+       "1.5": 0.0992,
+       "2.5": 0.0167,
+       "3.5": 0.0021
       },
       "mkt_over": 0.5147,
-      "edge_over": -0.0986,
-      "edge_under": 0.0986,
+      "edge_over": -0.1038,
+      "edge_under": 0.1038,
       "lean": "Under",
-      "edge": 0.0986,
+      "edge": 0.1038,
       "strong": true
      },
      {
@@ -8105,20 +8105,20 @@
       "pos": "F",
       "proj_toi": 15.32,
       "games_weight": 35.9,
-      "mean": 0.47,
-      "p_over": 0.3749,
+      "mean": 0.462,
+      "p_over": 0.3701,
       "curve": {
-       "0.5": 0.3749,
-       "1.5": 0.0812,
-       "2.5": 0.0122,
-       "3.5": 0.0014
+       "0.5": 0.3701,
+       "1.5": 0.0789,
+       "2.5": 0.0117,
+       "3.5": 0.0013
       },
       "mkt_over": 0.4035,
-      "edge_over": -0.0286,
-      "edge_under": 0.0286,
+      "edge_over": -0.0334,
+      "edge_under": 0.0334,
       "lean": "Under",
-      "edge": 0.0286,
-      "strong": false
+      "edge": 0.0334,
+      "strong": true
      },
      {
       "espn_id": "5342529",
@@ -8136,19 +8136,19 @@
       "pos": "F",
       "proj_toi": 13.91,
       "games_weight": 15.6,
-      "mean": 0.465,
-      "p_over": 0.3719,
+      "mean": 0.457,
+      "p_over": 0.3671,
       "curve": {
-       "0.5": 0.3719,
-       "1.5": 0.0798,
-       "2.5": 0.0119,
+       "0.5": 0.3671,
+       "1.5": 0.0776,
+       "2.5": 0.0114,
        "3.5": 0.0013
       },
       "mkt_over": 0.396,
-      "edge_over": -0.0241,
-      "edge_under": 0.0241,
+      "edge_over": -0.0289,
+      "edge_under": 0.0289,
       "lean": "Under",
-      "edge": 0.0241,
+      "edge": 0.0289,
       "strong": false
      }
     ],
@@ -8169,14 +8169,14 @@
       "pos": "F",
       "proj_toi": 20.97,
       "games_weight": 41.1,
-      "mean": 0.509,
-      "p_over": 0.3987,
+      "mean": 0.515,
+      "p_over": 0.4022,
       "curve": {
-       "0.5": 0.3987
+       "0.5": 0.4022
       },
       "mkt_over": 0.4255,
       "vig_included": true,
-      "edge_over": -0.0268,
+      "edge_over": -0.0233,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8198,17 +8198,17 @@
       "pos": "F",
       "proj_toi": 19.64,
       "games_weight": 42.5,
-      "mean": 0.414,
-      "p_over": 0.3393,
+      "mean": 0.419,
+      "p_over": 0.3424,
       "curve": {
-       "0.5": 0.3393
+       "0.5": 0.3424
       },
       "mkt_over": 0.339,
       "vig_included": true,
-      "edge_over": 0.0003,
+      "edge_over": 0.0034,
       "edge_under": null,
-      "lean": null,
-      "edge": null,
+      "lean": "Yes",
+      "edge": 0.0034,
       "strong": false
      },
      {
@@ -8227,17 +8227,17 @@
       "pos": "F",
       "proj_toi": 17.64,
       "games_weight": 42.3,
-      "mean": 0.338,
-      "p_over": 0.2868,
+      "mean": 0.342,
+      "p_over": 0.2896,
       "curve": {
-       "0.5": 0.2868
+       "0.5": 0.2896
       },
       "mkt_over": 0.2778,
       "vig_included": true,
-      "edge_over": 0.0091,
+      "edge_over": 0.0118,
       "edge_under": null,
       "lean": "Yes",
-      "edge": 0.0091,
+      "edge": 0.0118,
       "strong": false
      },
      {
@@ -8256,17 +8256,17 @@
       "pos": "F",
       "proj_toi": 14.51,
       "games_weight": 41.4,
-      "mean": 0.305,
-      "p_over": 0.2625,
+      "mean": 0.308,
+      "p_over": 0.2651,
       "curve": {
-       "0.5": 0.2625
+       "0.5": 0.2651
       },
       "mkt_over": 0.2632,
       "vig_included": true,
-      "edge_over": -0.0006,
+      "edge_over": 0.0019,
       "edge_under": null,
-      "lean": null,
-      "edge": null,
+      "lean": "Yes",
+      "edge": 0.0019,
       "strong": false
      },
      {
@@ -8285,14 +8285,14 @@
       "pos": "F",
       "proj_toi": 15.42,
       "games_weight": 35.5,
-      "mean": 0.287,
-      "p_over": 0.2495,
+      "mean": 0.29,
+      "p_over": 0.2519,
       "curve": {
-       "0.5": 0.2495
+       "0.5": 0.2519
       },
       "mkt_over": 0.2778,
       "vig_included": true,
-      "edge_over": -0.0283,
+      "edge_over": -0.0259,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8314,14 +8314,14 @@
       "pos": "F",
       "proj_toi": 18.28,
       "games_weight": 42.5,
-      "mean": 0.277,
-      "p_over": 0.2416,
+      "mean": 0.28,
+      "p_over": 0.244,
       "curve": {
-       "0.5": 0.2416
+       "0.5": 0.244
       },
       "mkt_over": 0.2597,
       "vig_included": true,
-      "edge_over": -0.0182,
+      "edge_over": -0.0158,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8343,17 +8343,17 @@
       "pos": "F",
       "proj_toi": 16.62,
       "games_weight": 39.7,
-      "mean": 0.269,
-      "p_over": 0.2358,
+      "mean": 0.272,
+      "p_over": 0.2381,
       "curve": {
-       "0.5": 0.2358
+       "0.5": 0.2381
       },
       "mkt_over": 0.2128,
       "vig_included": true,
-      "edge_over": 0.023,
+      "edge_over": 0.0253,
       "edge_under": null,
       "lean": "Yes",
-      "edge": 0.023,
+      "edge": 0.0253,
       "strong": false
      },
      {
@@ -8372,17 +8372,17 @@
       "pos": "F",
       "proj_toi": 16.46,
       "games_weight": 41.4,
-      "mean": 0.243,
-      "p_over": 0.2154,
+      "mean": 0.245,
+      "p_over": 0.2176,
       "curve": {
-       "0.5": 0.2154
+       "0.5": 0.2176
       },
       "mkt_over": 0.2041,
       "vig_included": true,
-      "edge_over": 0.0113,
+      "edge_over": 0.0135,
       "edge_under": null,
       "lean": "Yes",
-      "edge": 0.0113,
+      "edge": 0.0135,
       "strong": false
      },
      {
@@ -8401,14 +8401,14 @@
       "pos": "F",
       "proj_toi": 16.02,
       "games_weight": 41.9,
-      "mean": 0.189,
-      "p_over": 0.1718,
+      "mean": 0.191,
+      "p_over": 0.1736,
       "curve": {
-       "0.5": 0.1718
+       "0.5": 0.1736
       },
       "mkt_over": 0.1739,
       "vig_included": true,
-      "edge_over": -0.0021,
+      "edge_over": -0.0003,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8430,17 +8430,17 @@
       "pos": "F",
       "proj_toi": 13.1,
       "games_weight": 41.6,
-      "mean": 0.183,
-      "p_over": 0.1674,
+      "mean": 0.185,
+      "p_over": 0.1691,
       "curve": {
-       "0.5": 0.1674
+       "0.5": 0.1691
       },
       "mkt_over": 0.1176,
       "vig_included": true,
-      "edge_over": 0.0498,
+      "edge_over": 0.0515,
       "edge_under": null,
       "lean": "Yes",
-      "edge": 0.0498,
+      "edge": 0.0515,
       "strong": true
      },
      {
@@ -8459,14 +8459,14 @@
       "pos": "D",
       "proj_toi": 23.32,
       "games_weight": 41.5,
-      "mean": 0.171,
-      "p_over": 0.157,
+      "mean": 0.173,
+      "p_over": 0.1587,
       "curve": {
-       "0.5": 0.157
+       "0.5": 0.1587
       },
       "mkt_over": 0.2041,
       "vig_included": true,
-      "edge_over": -0.0471,
+      "edge_over": -0.0454,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8488,14 +8488,14 @@
       "pos": "F",
       "proj_toi": 12.23,
       "games_weight": 41.4,
-      "mean": 0.159,
-      "p_over": 0.1473,
+      "mean": 0.161,
+      "p_over": 0.1488,
       "curve": {
-       "0.5": 0.1473
+       "0.5": 0.1488
       },
       "mkt_over": 0.1667,
       "vig_included": true,
-      "edge_over": -0.0194,
+      "edge_over": -0.0178,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8517,17 +8517,17 @@
       "pos": "D",
       "proj_toi": 20.96,
       "games_weight": 41.9,
-      "mean": 0.157,
-      "p_over": 0.1449,
+      "mean": 0.158,
+      "p_over": 0.1465,
       "curve": {
-       "0.5": 0.1449
+       "0.5": 0.1465
       },
       "mkt_over": 0.1333,
       "vig_included": true,
-      "edge_over": 0.0116,
+      "edge_over": 0.0131,
       "edge_under": null,
       "lean": "Yes",
-      "edge": 0.0116,
+      "edge": 0.0131,
       "strong": false
      },
      {
@@ -8546,14 +8546,14 @@
       "pos": "F",
       "proj_toi": 11.16,
       "games_weight": 13.3,
-      "mean": 0.106,
-      "p_over": 0.1005,
+      "mean": 0.107,
+      "p_over": 0.1015,
       "curve": {
-       "0.5": 0.1005
+       "0.5": 0.1015
       },
       "mkt_over": 0.1333,
       "vig_included": true,
-      "edge_over": -0.0329,
+      "edge_over": -0.0318,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8576,13 +8576,13 @@
       "proj_toi": 20.78,
       "games_weight": 39.2,
       "mean": 0.054,
-      "p_over": 0.0522,
+      "p_over": 0.0528,
       "curve": {
-       "0.5": 0.0522
+       "0.5": 0.0528
       },
       "mkt_over": 0.0588,
       "vig_included": true,
-      "edge_over": -0.0066,
+      "edge_over": -0.006,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8605,13 +8605,42 @@
       "proj_toi": 14.95,
       "games_weight": 35.6,
       "mean": 0.054,
-      "p_over": 0.0524,
+      "p_over": 0.053,
       "curve": {
-       "0.5": 0.0524
+       "0.5": 0.053
       },
       "mkt_over": 0.0526,
       "vig_included": true,
-      "edge_over": -0.0002,
+      "edge_over": 0.0003,
+      "edge_under": null,
+      "lean": null,
+      "edge": null,
+      "strong": false
+     },
+     {
+      "espn_id": "4587933",
+      "player": "Johnathan Kovacevic",
+      "team": "NJD",
+      "opp": "TOR",
+      "line": 0.5,
+      "open_line": 0.5,
+      "over": "+2200",
+      "over_open": "+2200",
+      "under": null,
+      "under_open": null,
+      "updated": "2026-11-08T09:00Z",
+      "player_id": 8480192,
+      "pos": "D",
+      "proj_toi": 17.71,
+      "games_weight": 36.8,
+      "mean": 0.028,
+      "p_over": 0.0272,
+      "curve": {
+       "0.5": 0.0272
+      },
+      "mkt_over": 0.0435,
+      "vig_included": true,
+      "edge_over": -0.0163,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8634,42 +8663,13 @@
       "proj_toi": 19.41,
       "games_weight": 42.2,
       "mean": 0.027,
-      "p_over": 0.0265,
+      "p_over": 0.0268,
       "curve": {
-       "0.5": 0.0265
+       "0.5": 0.0268
       },
       "mkt_over": 0.0435,
       "vig_included": true,
-      "edge_over": -0.017,
-      "edge_under": null,
-      "lean": null,
-      "edge": null,
-      "strong": false
-     },
-     {
-      "espn_id": "4587933",
-      "player": "Johnathan Kovacevic",
-      "team": "NJD",
-      "opp": "TOR",
-      "line": 0.5,
-      "open_line": 0.5,
-      "over": "+2200",
-      "over_open": "+2200",
-      "under": null,
-      "under_open": null,
-      "updated": "2026-11-08T09:00Z",
-      "player_id": 8480192,
-      "pos": "D",
-      "proj_toi": 17.71,
-      "games_weight": 36.8,
-      "mean": 0.027,
-      "p_over": 0.0269,
-      "curve": {
-       "0.5": 0.0269
-      },
-      "mkt_over": 0.0435,
-      "vig_included": true,
-      "edge_over": -0.0166,
+      "edge_over": -0.0167,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8691,14 +8691,14 @@
       "pos": "F",
       "proj_toi": 20.55,
       "games_weight": 41.4,
-      "mean": 0.419,
-      "p_over": 0.3426,
+      "mean": 0.413,
+      "p_over": 0.3381,
       "curve": {
-       "0.5": 0.3426
+       "0.5": 0.3381
       },
       "mkt_over": 0.4167,
       "vig_included": true,
-      "edge_over": -0.0741,
+      "edge_over": -0.0786,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8720,14 +8720,14 @@
       "pos": "F",
       "proj_toi": 19.76,
       "games_weight": 41.9,
-      "mean": 0.366,
-      "p_over": 0.3062,
+      "mean": 0.36,
+      "p_over": 0.302,
       "curve": {
-       "0.5": 0.3062
+       "0.5": 0.302
       },
       "mkt_over": 0.3774,
       "vig_included": true,
-      "edge_over": -0.0712,
+      "edge_over": -0.0753,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8749,14 +8749,14 @@
       "pos": "F",
       "proj_toi": 17.98,
       "games_weight": 39.8,
-      "mean": 0.329,
-      "p_over": 0.2804,
+      "mean": 0.324,
+      "p_over": 0.2765,
       "curve": {
-       "0.5": 0.2804
+       "0.5": 0.2765
       },
       "mkt_over": 0.3175,
       "vig_included": true,
-      "edge_over": -0.0371,
+      "edge_over": -0.0409,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8778,14 +8778,14 @@
       "pos": "F",
       "proj_toi": 15.87,
       "games_weight": 42.1,
-      "mean": 0.245,
-      "p_over": 0.217,
+      "mean": 0.241,
+      "p_over": 0.2138,
       "curve": {
-       "0.5": 0.217
+       "0.5": 0.2138
       },
       "mkt_over": 0.303,
       "vig_included": true,
-      "edge_over": -0.0861,
+      "edge_over": -0.0892,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8807,14 +8807,14 @@
       "pos": "F",
       "proj_toi": 13.91,
       "games_weight": 15.6,
-      "mean": 0.217,
-      "p_over": 0.1951,
+      "mean": 0.213,
+      "p_over": 0.1922,
       "curve": {
-       "0.5": 0.1951
+       "0.5": 0.1922
       },
       "mkt_over": 0.2128,
       "vig_included": true,
-      "edge_over": -0.0177,
+      "edge_over": -0.0205,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8836,14 +8836,14 @@
       "pos": "F",
       "proj_toi": 15.32,
       "games_weight": 35.9,
-      "mean": 0.176,
-      "p_over": 0.1617,
+      "mean": 0.174,
+      "p_over": 0.1593,
       "curve": {
-       "0.5": 0.1617
+       "0.5": 0.1593
       },
       "mkt_over": 0.1905,
       "vig_included": true,
-      "edge_over": -0.0288,
+      "edge_over": -0.0312,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8865,14 +8865,14 @@
       "pos": "F",
       "proj_toi": 15.08,
       "games_weight": 40.9,
-      "mean": 0.153,
-      "p_over": 0.1417,
+      "mean": 0.15,
+      "p_over": 0.1395,
       "curve": {
-       "0.5": 0.1417
+       "0.5": 0.1395
       },
       "mkt_over": 0.1739,
       "vig_included": true,
-      "edge_over": -0.0322,
+      "edge_over": -0.0344,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8894,14 +8894,14 @@
       "pos": "F",
       "proj_toi": 12.37,
       "games_weight": 35.6,
-      "mean": 0.143,
-      "p_over": 0.1333,
+      "mean": 0.141,
+      "p_over": 0.1312,
       "curve": {
-       "0.5": 0.1333
+       "0.5": 0.1312
       },
       "mkt_over": 0.1333,
       "vig_included": true,
-      "edge_over": -0.0001,
+      "edge_over": -0.0021,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8923,17 +8923,17 @@
       "pos": "F",
       "proj_toi": 14.57,
       "games_weight": 39.5,
-      "mean": 0.132,
-      "p_over": 0.1235,
+      "mean": 0.13,
+      "p_over": 0.1216,
       "curve": {
-       "0.5": 0.1235
+       "0.5": 0.1216
       },
       "mkt_over": 0.1176,
       "vig_included": true,
-      "edge_over": 0.0058,
+      "edge_over": 0.0039,
       "edge_under": null,
       "lean": "Yes",
-      "edge": 0.0058,
+      "edge": 0.0039,
       "strong": false
      },
      {
@@ -8952,14 +8952,14 @@
       "pos": "D",
       "proj_toi": 22.63,
       "games_weight": 42.2,
-      "mean": 0.128,
-      "p_over": 0.1202,
+      "mean": 0.126,
+      "p_over": 0.1183,
       "curve": {
-       "0.5": 0.1202
+       "0.5": 0.1183
       },
       "mkt_over": 0.1429,
       "vig_included": true,
-      "edge_over": -0.0227,
+      "edge_over": -0.0245,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -8981,17 +8981,17 @@
       "pos": "F",
       "proj_toi": 13.84,
       "games_weight": 41.9,
-      "mean": 0.101,
-      "p_over": 0.096,
+      "mean": 0.099,
+      "p_over": 0.0945,
       "curve": {
-       "0.5": 0.096
+       "0.5": 0.0945
       },
       "mkt_over": 0.0909,
       "vig_included": true,
-      "edge_over": 0.0051,
+      "edge_over": 0.0036,
       "edge_under": null,
       "lean": "Yes",
-      "edge": 0.0051,
+      "edge": 0.0036,
       "strong": false
      },
      {
@@ -9010,17 +9010,17 @@
       "pos": "F",
       "proj_toi": 8.04,
       "games_weight": 27.4,
-      "mean": 0.089,
-      "p_over": 0.085,
+      "mean": 0.087,
+      "p_over": 0.0836,
       "curve": {
-       "0.5": 0.085
+       "0.5": 0.0836
       },
       "mkt_over": 0.0833,
       "vig_included": true,
-      "edge_over": 0.0016,
+      "edge_over": 0.0003,
       "edge_under": null,
-      "lean": "Yes",
-      "edge": 0.0016,
+      "lean": null,
+      "edge": null,
       "strong": false
      },
      {
@@ -9039,14 +9039,14 @@
       "pos": "F",
       "proj_toi": 11.47,
       "games_weight": 42.8,
-      "mean": 0.07,
-      "p_over": 0.0674,
+      "mean": 0.069,
+      "p_over": 0.0664,
       "curve": {
-       "0.5": 0.0674
+       "0.5": 0.0664
       },
       "mkt_over": 0.0909,
       "vig_included": true,
-      "edge_over": -0.0235,
+      "edge_over": -0.0246,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -9068,14 +9068,14 @@
       "pos": "D",
       "proj_toi": 18.51,
       "games_weight": 41.6,
-      "mean": 0.05,
-      "p_over": 0.0487,
+      "mean": 0.049,
+      "p_over": 0.0479,
       "curve": {
-       "0.5": 0.0487
+       "0.5": 0.0479
       },
       "mkt_over": 0.0588,
       "vig_included": true,
-      "edge_over": -0.0102,
+      "edge_over": -0.0109,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -9098,13 +9098,13 @@
       "proj_toi": 19.55,
       "games_weight": 42.6,
       "mean": 0.047,
-      "p_over": 0.0463,
+      "p_over": 0.0455,
       "curve": {
-       "0.5": 0.0463
+       "0.5": 0.0455
       },
       "mkt_over": 0.0833,
       "vig_included": true,
-      "edge_over": -0.0371,
+      "edge_over": -0.0378,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -9126,14 +9126,14 @@
       "pos": "D",
       "proj_toi": 21.42,
       "games_weight": 42.6,
-      "mean": 0.038,
-      "p_over": 0.0369,
+      "mean": 0.037,
+      "p_over": 0.0363,
       "curve": {
-       "0.5": 0.0369
+       "0.5": 0.0363
       },
       "mkt_over": 0.0476,
       "vig_included": true,
-      "edge_over": -0.0108,
+      "edge_over": -0.0114,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -9156,13 +9156,13 @@
       "proj_toi": 13.57,
       "games_weight": 19.7,
       "mean": 0.037,
-      "p_over": 0.0365,
+      "p_over": 0.0359,
       "curve": {
-       "0.5": 0.0365
+       "0.5": 0.0359
       },
       "mkt_over": 0.0556,
       "vig_included": true,
-      "edge_over": -0.019,
+      "edge_over": -0.0196,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -9184,14 +9184,14 @@
       "pos": "D",
       "proj_toi": 18.88,
       "games_weight": 32.6,
-      "mean": 0.021,
-      "p_over": 0.0204,
+      "mean": 0.02,
+      "p_over": 0.0201,
       "curve": {
-       "0.5": 0.0204
+       "0.5": 0.0201
       },
       "mkt_over": 0.0556,
       "vig_included": true,
-      "edge_over": -0.0351,
+      "edge_over": -0.0355,
       "edge_under": null,
       "lean": null,
       "edge": null,

@@ -1,7 +1,7 @@
 {
  "date": "2026-11-08",
  "data_through": "2026-11-07",
- "generated": "2026-11-08 14:50 MST",
+ "generated": "2026-11-08 15:00 MST",
  "league_xg60": 3.015,
  "b2b_effect": {
   "own_xg": -0.238,
@@ -536,13 +536,13 @@
    "inj_home": [
     {
      "name": "Morgan Rielly",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8476853,
      "position": "D",
      "value": 0.0786,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
+     "applied": true,
+     "note": "out",
      "date": "2026-11-08"
     },
     {
@@ -625,53 +625,53 @@
      "date": "2026-10-02"
     }
    ],
-   "inj_adj_home": 0.07,
+   "inj_adj_home": 0.148,
    "inj_adj_away": 0,
-   "xg_home": 2.38,
-   "xg_away": 3.429,
-   "proj_home": 2.6,
-   "proj_away": 3.26,
-   "p_home": 0.3848,
-   "p_away": 0.6152,
-   "p_ot": 0.2429,
-   "fair_ml_home": 160,
-   "fair_ml_away": -160,
-   "exp_total": 5.85,
+   "xg_home": 2.341,
+   "xg_away": 3.468,
+   "proj_home": 2.56,
+   "proj_away": 3.29,
+   "p_home": 0.3722,
+   "p_away": 0.6278,
+   "p_ot": 0.2408,
+   "fair_ml_home": 169,
+   "fair_ml_away": -169,
+   "exp_total": 5.84,
    "totals": {
     "4.5": {
-     "over": 0.7129,
-     "under": 0.2871
+     "over": 0.7117,
+     "under": 0.2883
     },
     "5.0": {
-     "over": 0.5185,
-     "under": 0.2871
+     "over": 0.5173,
+     "under": 0.2883
     },
     "5.5": {
-     "over": 0.5185,
-     "under": 0.4815
+     "over": 0.5173,
+     "under": 0.4827
     },
     "6.0": {
-     "over": 0.3756,
-     "under": 0.4815
+     "over": 0.3741,
+     "under": 0.4827
     },
     "6.5": {
-     "over": 0.3756,
-     "under": 0.6244
+     "over": 0.3741,
+     "under": 0.6259
     },
     "7.0": {
-     "over": 0.2206,
-     "under": 0.6244
+     "over": 0.2196,
+     "under": 0.6259
     },
     "7.5": {
-     "over": 0.2206,
-     "under": 0.7794
+     "over": 0.2196,
+     "under": 0.7804
     }
    },
    "puck_line": {
-    "home_-1.5": 0.2112,
-    "away_+1.5": 0.7888,
-    "away_-1.5": 0.3934,
-    "home_+1.5": 0.6066
+    "home_-1.5": 0.2025,
+    "away_+1.5": 0.7975,
+    "away_-1.5": 0.405,
+    "home_+1.5": 0.595
    }
   },
   {
