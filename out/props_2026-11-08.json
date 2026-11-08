@@ -1,6 +1,6 @@
 {
  "date": "2026-11-08",
- "generated": "2026-11-08T20:01:25Z",
+ "generated": "2026-11-08T20:11:34Z",
  "data_through": "2026-11-07",
  "picks_enabled": false,
  "params": {
@@ -11,13 +11,13 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 186,
-  "checked": 183,
-  "first_is_over": 183,
+  "pairs": 187,
+  "checked": 184,
+  "first_is_over": 184,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 366,
+ "lines": 367,
  "unmatched": [],
  "unmatched_rate": 0.0,
  "strong": 0.03,
@@ -56,7 +56,7 @@
    "home_name": "Bruins",
    "start_utc": "2026-11-08T18:00:00Z",
    "state": "in",
-   "detail": "2:51 - 2nd",
+   "detail": "End of 2nd",
    "frozen": true,
    "goal_factor": {
     "FLA": 0.908,
@@ -5015,9 +5015,9 @@
       "opp": "WPG",
       "line": 1.5,
       "open_line": 1.5,
-      "over": "+120",
+      "over": "+125",
       "over_open": "+120",
-      "under": "-165",
+      "under": "-170",
       "under_open": "-165",
       "updated": "2026-11-08T18:58Z",
       "player_id": 8475167,
@@ -5036,11 +5036,11 @@
        "6.5": 0.0018,
        "7.5": 0.0004
       },
-      "mkt_over": 0.422,
-      "edge_over": 0.0408,
-      "edge_under": -0.0408,
+      "mkt_over": 0.4138,
+      "edge_over": 0.049,
+      "edge_under": -0.049,
       "lean": "Over",
-      "edge": 0.0408,
+      "edge": 0.049,
       "strong": true
      },
      {
@@ -5624,6 +5624,37 @@
       "strong": true
      },
      {
+      "espn_id": "3988847",
+      "player": "Neal Pionk",
+      "team": "WPG",
+      "opp": "TBL",
+      "line": 0.5,
+      "open_line": 0.5,
+      "over": "+100",
+      "over_open": "+100",
+      "under": "-135",
+      "under_open": "-135",
+      "updated": "2026-11-08T23:02Z",
+      "player_id": 8480145,
+      "pos": "D",
+      "proj_toi": 22.93,
+      "games_weight": 40.5,
+      "mean": 0.43,
+      "p_over": 0.3492,
+      "curve": {
+       "0.5": 0.3492,
+       "1.5": 0.0697,
+       "2.5": 0.0096,
+       "3.5": 0.001
+      },
+      "mkt_over": 0.4653,
+      "edge_over": -0.1161,
+      "edge_under": 0.1161,
+      "lean": "Under",
+      "edge": 0.1161,
+      "strong": true
+     },
+     {
       "espn_id": "2590861",
       "player": "Dylan DeMelo",
       "team": "WPG",
@@ -5663,7 +5694,7 @@
       "opp": "WPG",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+180",
+      "over": "+185",
       "over_open": "+180",
       "under": null,
       "under_open": null,
@@ -5677,12 +5708,12 @@
       "curve": {
        "0.5": 0.367
       },
-      "mkt_over": 0.3571,
+      "mkt_over": 0.3509,
       "vig_included": true,
-      "edge_over": 0.0099,
+      "edge_over": 0.0162,
       "edge_under": null,
       "lean": "Yes",
-      "edge": 0.0099,
+      "edge": 0.0162,
       "strong": false
      },
      {
@@ -5808,7 +5839,7 @@
       "opp": "WPG",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+450",
+      "over": "+425",
       "over_open": "+475",
       "under": null,
       "under_open": null,
@@ -5822,12 +5853,12 @@
       "curve": {
        "0.5": 0.1956
       },
-      "mkt_over": 0.1818,
+      "mkt_over": 0.1905,
       "vig_included": true,
-      "edge_over": 0.0138,
+      "edge_over": 0.0052,
       "edge_under": null,
       "lean": "Yes",
-      "edge": 0.0138,
+      "edge": 0.0052,
       "strong": false
      },
      {
@@ -5953,7 +5984,7 @@
       "opp": "WPG",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+475",
+      "over": "+450",
       "over_open": "+500",
       "under": null,
       "under_open": null,
@@ -5967,9 +5998,9 @@
       "curve": {
        "0.5": 0.1108
       },
-      "mkt_over": 0.1739,
+      "mkt_over": 0.1818,
       "vig_included": true,
-      "edge_over": -0.0631,
+      "edge_over": -0.071,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -6040,7 +6071,7 @@
       "opp": "WPG",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+1100",
+      "over": "+1000",
       "over_open": "+1000",
       "under": null,
       "under_open": null,
@@ -6054,12 +6085,12 @@
       "curve": {
        "0.5": 0.0877
       },
-      "mkt_over": 0.0833,
+      "mkt_over": 0.0909,
       "vig_included": true,
-      "edge_over": 0.0044,
+      "edge_over": -0.0032,
       "edge_under": null,
-      "lean": "Yes",
-      "edge": 0.0044,
+      "lean": null,
+      "edge": null,
       "strong": false
      },
      {
@@ -6243,7 +6274,7 @@
       "opp": "TBL",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+230",
+      "over": "+235",
       "over_open": "+235",
       "under": null,
       "under_open": null,
@@ -6257,9 +6288,9 @@
       "curve": {
        "0.5": 0.2482
       },
-      "mkt_over": 0.303,
+      "mkt_over": 0.2985,
       "vig_included": true,
-      "edge_over": -0.0549,
+      "edge_over": -0.0504,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -6272,7 +6303,7 @@
       "opp": "TBL",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+220",
+      "over": "+225",
       "over_open": "+230",
       "under": null,
       "under_open": null,
@@ -6286,9 +6317,9 @@
       "curve": {
        "0.5": 0.2415
       },
-      "mkt_over": 0.3125,
+      "mkt_over": 0.3077,
       "vig_included": true,
-      "edge_over": -0.071,
+      "edge_over": -0.0662,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -6359,7 +6390,7 @@
       "opp": "TBL",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+550",
+      "over": "+600",
       "over_open": "+650",
       "under": null,
       "under_open": null,
@@ -6373,9 +6404,9 @@
       "curve": {
        "0.5": 0.1408
       },
-      "mkt_over": 0.1538,
+      "mkt_over": 0.1429,
       "vig_included": true,
-      "edge_over": -0.0131,
+      "edge_over": -0.0021,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -6388,7 +6419,7 @@
       "opp": "TBL",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+600",
+      "over": "+650",
       "over_open": "+650",
       "under": null,
       "under_open": null,
@@ -6402,9 +6433,9 @@
       "curve": {
        "0.5": 0.1267
       },
-      "mkt_over": 0.1429,
+      "mkt_over": 0.1333,
       "vig_included": true,
-      "edge_over": -0.0162,
+      "edge_over": -0.0066,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -6417,7 +6448,7 @@
       "opp": "TBL",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+700",
+      "over": "+750",
       "over_open": "+800",
       "under": null,
       "under_open": null,
@@ -6431,12 +6462,12 @@
       "curve": {
        "0.5": 0.1248
       },
-      "mkt_over": 0.125,
+      "mkt_over": 0.1176,
       "vig_included": true,
-      "edge_over": -0.0002,
+      "edge_over": 0.0071,
       "edge_under": null,
-      "lean": null,
-      "edge": null,
+      "lean": "Yes",
+      "edge": 0.0071,
       "strong": false
      },
      {
@@ -6475,7 +6506,7 @@
       "opp": "TBL",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+750",
+      "over": "+800",
       "over_open": "+700",
       "under": null,
       "under_open": null,
@@ -6489,9 +6520,9 @@
       "curve": {
        "0.5": 0.1049
       },
-      "mkt_over": 0.1176,
+      "mkt_over": 0.1111,
       "vig_included": true,
-      "edge_over": -0.0128,
+      "edge_over": -0.0062,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -6533,7 +6564,7 @@
       "opp": "TBL",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+1100",
+      "over": "+1200",
       "over_open": "+1000",
       "under": null,
       "under_open": null,
@@ -6547,9 +6578,9 @@
       "curve": {
        "0.5": 0.0711
       },
-      "mkt_over": 0.0833,
+      "mkt_over": 0.0769,
       "vig_included": true,
-      "edge_over": -0.0123,
+      "edge_over": -0.0058,
       "edge_under": null,
       "lean": null,
       "edge": null,
