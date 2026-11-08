@@ -1,6 +1,6 @@
 {
  "date": "2026-11-08",
- "generated": "2026-11-08T21:40:10Z",
+ "generated": "2026-11-08T21:50:18Z",
  "data_through": "2026-11-07",
  "picks_enabled": false,
  "params": {
@@ -2269,7 +2269,7 @@
    "home_name": "Sabres",
    "start_utc": "2026-11-08T20:30:00Z",
    "state": "in",
-   "detail": "13:37 - 2nd",
+   "detail": "8:55 - 2nd",
    "frozen": true,
    "goal_factor": {
     "VGK": 1.027,
