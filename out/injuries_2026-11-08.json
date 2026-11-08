@@ -1,7 +1,7 @@
 {
  "day": "2026-11-08",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-08 10:41",
+ "fetched": "2026-11-08 10:51",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -251,17 +251,6 @@
   "CBJ": {
    "missing_value": 0,
    "players": [
-    {
-     "name": "Sean Monahan",
-     "status": "Day-To-Day",
-     "playerId": 8477497,
-     "position": "C",
-     "value": -0.0078,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-07"
-    },
     {
      "name": "Dmitri Voronkov",
      "status": "Day-To-Day",
