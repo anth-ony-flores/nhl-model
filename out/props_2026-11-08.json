@@ -1,6 +1,6 @@
 {
  "date": "2026-11-08",
- "generated": "2026-11-08T21:30:03Z",
+ "generated": "2026-11-08T21:40:10Z",
  "data_through": "2026-11-07",
  "picks_enabled": false,
  "params": {
@@ -2269,7 +2269,7 @@
    "home_name": "Sabres",
    "start_utc": "2026-11-08T20:30:00Z",
    "state": "in",
-   "detail": "20:00 - 2nd",
+   "detail": "13:37 - 2nd",
    "frozen": true,
    "goal_factor": {
     "VGK": 1.027,
@@ -4862,9 +4862,9 @@
       "opp": "WPG",
       "line": 2.5,
       "open_line": 2.5,
-      "over": "-115",
+      "over": "-125",
       "over_open": "-120",
-      "under": "-120",
+      "under": "-110",
       "under_open": "-115",
       "updated": "2026-11-08T09:54Z",
       "player_id": 8479542,
@@ -4883,11 +4883,11 @@
        "6.5": 0.0493,
        "7.5": 0.0205
       },
-      "mkt_over": 0.4951,
-      "edge_over": 0.0999,
-      "edge_under": -0.0999,
+      "mkt_over": 0.5147,
+      "edge_over": 0.0803,
+      "edge_under": -0.0803,
       "lean": "Over",
-      "edge": 0.0999,
+      "edge": 0.0803,
       "strong": true
      },
      {
@@ -5107,9 +5107,9 @@
       "opp": "WPG",
       "line": 1.5,
       "open_line": 1.5,
-      "over": "+110",
+      "over": "+115",
       "over_open": "-110",
-      "under": "-150",
+      "under": "-155",
       "under_open": "-125",
       "updated": "2026-11-08T09:54Z",
       "player_id": 8480426,
@@ -5128,11 +5128,11 @@
        "6.5": 0.0007,
        "7.5": 0.0001
       },
-      "mkt_over": 0.4425,
-      "edge_over": -0.0628,
-      "edge_under": 0.0628,
+      "mkt_over": 0.4335,
+      "edge_over": -0.0538,
+      "edge_under": 0.0538,
       "lean": "Under",
-      "edge": 0.0628,
+      "edge": 0.0538,
       "strong": true
      },
      {
