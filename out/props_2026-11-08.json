@@ -1,6 +1,6 @@
 {
  "date": "2026-11-08",
- "generated": "2026-11-08T22:20:40Z",
+ "generated": "2026-11-08T22:30:47Z",
  "data_through": "2026-11-07",
  "picks_enabled": false,
  "params": {
@@ -2278,7 +2278,7 @@
    "home_name": "Sabres",
    "start_utc": "2026-11-08T20:30:00Z",
    "state": "in",
-   "detail": "End of 2nd",
+   "detail": "18:31 - 3rd",
    "frozen": true,
    "goal_factor": {
     "VGK": 1.027,
@@ -5083,7 +5083,7 @@
       "open_line": 1.5,
       "over": "+125",
       "over_open": "+120",
-      "under": "-170",
+      "under": "-175",
       "under_open": "-165",
       "updated": "2026-11-08T18:58Z",
       "player_id": 8475167,
@@ -5102,11 +5102,11 @@
        "6.5": 0.0018,
        "7.5": 0.0004
       },
-      "mkt_over": 0.4138,
-      "edge_over": 0.049,
-      "edge_under": -0.049,
+      "mkt_over": 0.4112,
+      "edge_over": 0.0516,
+      "edge_under": -0.0516,
       "lean": "Over",
-      "edge": 0.049,
+      "edge": 0.0516,
       "strong": true
      },
      {
@@ -12042,9 +12042,9 @@
       "opp": "PIT",
       "line": 3.5,
       "open_line": 4.5,
-      "over": "-150",
+      "over": "-155",
       "over_open": "+110",
-      "under": "+110",
+      "under": "+115",
       "under_open": "-145",
       "updated": "2026-11-08T20:56Z",
       "player_id": 8483445,
@@ -12063,11 +12063,11 @@
        "6.5": 0.0691,
        "7.5": 0.0308
       },
-      "mkt_over": 0.5575,
-      "edge_over": -0.1175,
-      "edge_under": 0.1175,
+      "mkt_over": 0.5665,
+      "edge_over": -0.1265,
+      "edge_under": 0.1265,
       "lean": "Under",
-      "edge": 0.1175,
+      "edge": 0.1265,
       "strong": true
      },
      {
@@ -13903,7 +13903,7 @@
       "opp": "ANA",
       "line": 24.5,
       "open_line": 24.5,
-      "over": "-115",
+      "over": "-120",
       "over_open": "-115",
       "under": "-115",
       "under_open": "-115",
@@ -13946,11 +13946,11 @@
        "40.5": 0.0036,
        "41.5": 0.0023
       },
-      "mkt_over": 0.5,
-      "edge_over": -0.0788,
-      "edge_under": 0.0788,
+      "mkt_over": 0.5049,
+      "edge_over": -0.0837,
+      "edge_under": 0.0837,
       "lean": "Under",
-      "edge": 0.0788,
+      "edge": 0.0837,
       "strong": true
      }
     ]
