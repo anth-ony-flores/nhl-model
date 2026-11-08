@@ -1,6 +1,6 @@
 {
  "date": "2026-11-08",
- "generated": "2026-11-08T23:11:16Z",
+ "generated": "2026-11-08T23:21:23Z",
  "data_through": "2026-11-07",
  "picks_enabled": false,
  "params": {
@@ -4854,7 +4854,7 @@
    "home_name": "Jets",
    "start_utc": "2026-11-08T23:00:00Z",
    "state": "in",
-   "detail": "18:26 - 1st",
+   "detail": "13:14 - 1st",
    "frozen": true,
    "goal_factor": {
     "TBL": 0.947,
@@ -7018,9 +7018,9 @@
       "opp": "TOR",
       "line": 2.5,
       "open_line": 1.5,
-      "over": "+140",
+      "over": "+120",
       "over_open": "-180",
-      "under": "-195",
+      "under": "-165",
       "under_open": "+135",
       "updated": "2026-11-08T17:20Z",
       "player_id": 8480002,
@@ -7039,11 +7039,11 @@
        "6.5": 0.0249,
        "7.5": 0.009
       },
-      "mkt_over": 0.3866,
-      "edge_over": 0.1064,
-      "edge_under": -0.1064,
+      "mkt_over": 0.422,
+      "edge_over": 0.0711,
+      "edge_under": -0.0711,
       "lean": "Over",
-      "edge": 0.1064,
+      "edge": 0.0711,
       "strong": true
      },
      {
