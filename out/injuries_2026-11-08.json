@@ -1,7 +1,7 @@
 {
  "day": "2026-11-08",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-08 10:51",
+ "fetched": "2026-11-08 11:01",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -436,17 +436,6 @@
   "FLA": {
    "missing_value": 0.0852,
    "players": [
-    {
-     "name": "Anton Lundell",
-     "status": "Day-To-Day",
-     "playerId": 8482113,
-     "position": "C",
-     "value": -0.0072,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-08"
-    },
     {
      "name": "Sandis Vilmanis",
      "status": "Out",
