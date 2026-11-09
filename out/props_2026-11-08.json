@@ -1,6 +1,6 @@
 {
  "date": "2026-11-08",
- "generated": "2026-11-09T00:42:19Z",
+ "generated": "2026-11-09T00:52:26Z",
  "data_through": "2026-11-07",
  "picks_enabled": false,
  "params": {
@@ -6887,7 +6887,7 @@
    "home_name": "Maple Leafs",
    "start_utc": "2026-11-09T00:00:00Z",
    "state": "in",
-   "detail": "7:04 - 1st",
+   "detail": "2:02 - 1st",
    "frozen": true,
    "goal_factor": {
     "NJD": 1.078,
@@ -9201,7 +9201,7 @@
    "home_name": "Flames",
    "start_utc": "2026-11-09T00:00:00Z",
    "state": "in",
-   "detail": "4:02 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "PHI": 1.068,
