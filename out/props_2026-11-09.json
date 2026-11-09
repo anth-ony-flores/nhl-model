@@ -1,6 +1,6 @@
 {
  "date": "2026-11-09",
- "generated": "2026-11-09T23:20:19Z",
+ "generated": "2026-11-09T23:30:27Z",
  "data_through": "2026-11-08",
  "picks_enabled": false,
  "params": {
@@ -4712,9 +4712,9 @@
       "opp": "SJS",
       "line": 2.5,
       "open_line": 2.5,
-      "over": "-160",
+      "over": "-170",
       "over_open": "-180",
-      "under": "+120",
+      "under": "+125",
       "under_open": "+130",
       "updated": "2026-11-09T22:41Z",
       "player_id": 8477500,
@@ -4733,12 +4733,12 @@
        "6.5": 0.0534,
        "7.5": 0.0226
       },
-      "mkt_over": 0.5752,
-      "edge_over": 0.0324,
-      "edge_under": -0.0324,
+      "mkt_over": 0.5862,
+      "edge_over": 0.0214,
+      "edge_under": -0.0214,
       "lean": "Over",
-      "edge": 0.0324,
-      "strong": true
+      "edge": 0.0214,
+      "strong": false
      },
      {
       "espn_id": "5291933",
@@ -4782,9 +4782,9 @@
       "opp": "SJS",
       "line": 2.5,
       "open_line": 2.5,
-      "over": "+120",
+      "over": "+125",
       "over_open": "+125",
-      "under": "-165",
+      "under": "-170",
       "under_open": "-165",
       "updated": "2026-11-09T13:32Z",
       "player_id": 8475151,
@@ -4803,11 +4803,11 @@
        "6.5": 0.0141,
        "7.5": 0.0046
       },
-      "mkt_over": 0.422,
-      "edge_over": -0.0046,
-      "edge_under": 0.0046,
-      "lean": "Under",
-      "edge": 0.0046,
+      "mkt_over": 0.4138,
+      "edge_over": 0.0035,
+      "edge_under": -0.0035,
+      "lean": "Over",
+      "edge": 0.0035,
       "strong": false
      },
      {
@@ -4922,7 +4922,7 @@
       "opp": "SJS",
       "line": 1.5,
       "open_line": 1.5,
-      "over": "-150",
+      "over": "-145",
       "over_open": "-165",
       "under": "+110",
       "under_open": "+125",
@@ -4943,11 +4943,11 @@
        "6.5": 0.0018,
        "7.5": 0.0004
       },
-      "mkt_over": 0.5575,
-      "edge_over": -0.0921,
-      "edge_under": 0.0921,
+      "mkt_over": 0.5541,
+      "edge_over": -0.0887,
+      "edge_under": 0.0887,
       "lean": "Under",
-      "edge": 0.0921,
+      "edge": 0.0887,
       "strong": true
      },
      {
@@ -7216,9 +7216,9 @@
       "opp": "NYI",
       "line": 24.5,
       "open_line": 23.5,
-      "over": "-115",
+      "over": "-110",
       "over_open": "-135",
-      "under": "-115",
+      "under": "-125",
       "under_open": "+100",
       "updated": "2026-11-09T22:44Z",
       "player_id": 8482137,
@@ -7259,11 +7259,11 @@
        "40.5": 0.0062,
        "41.5": 0.0041
       },
-      "mkt_over": 0.5,
-      "edge_over": -0.0152,
-      "edge_under": 0.0152,
-      "lean": "Under",
-      "edge": 0.0152,
+      "mkt_over": 0.4853,
+      "edge_over": -0.0005,
+      "edge_under": 0.0005,
+      "lean": null,
+      "edge": null,
       "strong": false
      }
     ]
