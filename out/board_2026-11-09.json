@@ -1,7 +1,7 @@
 {
  "date": "2026-11-09",
  "data_through": "2026-11-08",
- "generated": "2026-11-09 07:31 MST",
+ "generated": "2026-11-09 16:00 MST",
  "league_xg60": 3.019,
  "b2b_effect": {
   "own_xg": -0.251,
@@ -67,25 +67,14 @@
    "inj_home": [
     {
      "name": "Colton Dach",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8482703,
      "position": "C",
      "value": -0.0392,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-08"
-    },
-    {
-     "name": "Ryan Nugent-Hopkins",
-     "status": "Day-To-Day",
-     "playerId": 8476454,
-     "position": "C",
-     "value": -0.0006,
-     "regular": true,
-     "applied": false,
-     "note": "Nugent-Hopkins took a puck to the side of the head in Saturday's game versus the Canucks, Derek Van Diest of NHL.com reports. Per the Sportsnet broadcast, the forward will not finish the game.",
-     "date": "2026-11-08"
+     "applied": true,
+     "note": "Dach (illness) won't play against the Rangers on Monday.",
+     "date": "2026-11-09"
     },
     {
      "name": "Isaac Howard",
@@ -135,14 +124,14 @@
    "inj_away": [
     {
      "name": "Alberts Smits",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8485957,
      "position": "D",
      "value": -0.0523,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-08"
+     "applied": true,
+     "note": "Smits (upper body) is week-to-week, according to Peter Baugh of The Athletic on Monday.",
+     "date": "2026-11-09"
     },
     {
      "name": "Sean Durzi",
@@ -167,17 +156,17 @@
      "date": "2026-09-29"
     }
    ],
-   "inj_adj_home": -0.063,
-   "inj_adj_away": -0.034,
-   "xg_home": 3.011,
-   "xg_away": 2.827,
-   "proj_home": 3.31,
-   "proj_away": 2.98,
-   "p_home": 0.5557,
-   "p_away": 0.4443,
-   "p_ot": 0.24,
-   "fair_ml_home": -125,
-   "fair_ml_away": 125,
+   "inj_adj_home": -0.102,
+   "inj_adj_away": -0.086,
+   "xg_home": 3.005,
+   "xg_away": 2.834,
+   "proj_home": 3.3,
+   "proj_away": 2.99,
+   "p_home": 0.5535,
+   "p_away": 0.4465,
+   "p_ot": 0.2402,
+   "fair_ml_home": -124,
+   "fair_ml_away": 124,
    "exp_total": 6.29,
    "totals": {
     "4.5": {
@@ -185,16 +174,16 @@
      "under": 0.2302
     },
     "5.0": {
-     "over": 0.5912,
+     "over": 0.5911,
      "under": 0.2302
     },
     "5.5": {
-     "over": 0.5912,
-     "under": 0.4088
+     "over": 0.5911,
+     "under": 0.4089
     },
     "6.0": {
      "over": 0.4491,
-     "under": 0.4088
+     "under": 0.4089
     },
     "6.5": {
      "over": 0.4491,
@@ -210,10 +199,10 @@
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3489,
-    "away_+1.5": 0.6511,
-    "away_-1.5": 0.2596,
-    "home_+1.5": 0.7404
+    "home_-1.5": 0.347,
+    "away_+1.5": 0.653,
+    "away_-1.5": 0.2612,
+    "home_+1.5": 0.7388
    }
   },
   {
@@ -264,17 +253,6 @@
    },
    "inj_home": [
     {
-     "name": "Tom Willander",
-     "status": "Day-To-Day",
-     "playerId": 8484240,
-     "position": "D",
-     "value": -0.0069,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-08"
-    },
-    {
      "name": "Filip Chytil",
      "status": "Injured Reserve",
      "playerId": 8480078,
@@ -282,8 +260,19 @@
      "value": 0.0139,
      "regular": true,
      "applied": true,
-     "note": "Chytil (upper body) won't travel with the Canucks during their upcoming two-game road trip, per Jeff Paterson of CanucksArmy.com.",
-     "date": "2026-11-03"
+     "note": "Chytil (shoulder) will not be in action versus the Flyers on Monday, Canucks play-by-play announcer Brendan Batchelor reports.",
+     "date": "2026-11-09"
+    },
+    {
+     "name": "Tom Willander",
+     "status": "Out",
+     "playerId": 8484240,
+     "position": "D",
+     "value": -0.0069,
+     "regular": true,
+     "applied": true,
+     "note": "Willander (lower body) has been ruled out for Monday's game against the Flyers, Canucks play-by-play announcer Brendan Batchelor reports.",
+     "date": "2026-11-09"
     },
     {
      "name": "Akil Thomas",
@@ -310,6 +299,17 @@
    ],
    "inj_away": [
     {
+     "name": "Erik Gustafsson",
+     "status": "Day-To-Day",
+     "playerId": 8476979,
+     "position": "D",
+     "value": 0.0746,
+     "regular": false,
+     "applied": false,
+     "note": "Head coach Peter Laviolette said Monday that Gustafsson is considered day-to-day due to an undisclosed injury, Alexander Legget of MayorsManor.com reports.",
+     "date": "2026-11-09"
+    },
+    {
      "name": "Rasmus Ristolainen",
      "status": "Injured Reserve",
      "playerId": 8477499,
@@ -332,14 +332,14 @@
      "date": "2026-10-10"
     }
    ],
-   "inj_adj_home": 0.014,
+   "inj_adj_home": 0.007,
    "inj_adj_away": 0,
-   "xg_home": 2.663,
-   "xg_away": 2.888,
-   "proj_home": 2.89,
+   "xg_home": 2.667,
+   "xg_away": 2.884,
+   "proj_home": 2.9,
    "proj_away": 3.08,
-   "p_home": 0.467,
-   "p_away": 0.533,
+   "p_home": 0.4682,
+   "p_away": 0.5318,
    "p_ot": 0.2488,
    "fair_ml_home": 114,
    "fair_ml_away": -114,
@@ -350,16 +350,16 @@
      "under": 0.2703
     },
     "5.0": {
-     "over": 0.5384,
+     "over": 0.5385,
      "under": 0.2703
     },
     "5.5": {
-     "over": 0.5384,
-     "under": 0.4616
+     "over": 0.5385,
+     "under": 0.4615
     },
     "6.0": {
      "over": 0.3963,
-     "under": 0.4616
+     "under": 0.4615
     },
     "6.5": {
      "over": 0.3963,
@@ -375,10 +375,10 @@
     }
    },
    "puck_line": {
-    "home_-1.5": 0.2719,
-    "away_+1.5": 0.7281,
-    "away_-1.5": 0.3241,
-    "home_+1.5": 0.6759
+    "home_-1.5": 0.2728,
+    "away_+1.5": 0.7272,
+    "away_-1.5": 0.3231,
+    "home_+1.5": 0.6769
    }
   },
   {
@@ -438,20 +438,20 @@
      "applied": false,
      "note": "ir",
      "date": "2026-10-28"
-    },
-    {
-     "name": "Alexander Wennberg",
-     "status": "Injured Reserve",
-     "playerId": 8477505,
-     "position": "C",
-     "value": -0.0044,
-     "regular": false,
-     "applied": false,
-     "note": "ir",
-     "date": "2026-10-28"
     }
    ],
    "inj_away": [
+    {
+     "name": "Matias Maccelli",
+     "status": "Injured Reserve",
+     "playerId": 8481711,
+     "position": "L",
+     "value": 0.0526,
+     "regular": false,
+     "applied": false,
+     "note": "Maccelli (lower body) is day-to-day, according to Andrew Gross of Newsday on Monday.",
+     "date": "2026-11-09"
+    },
     {
      "name": "Mathew Barzal",
      "status": "Injured Reserve",
@@ -460,8 +460,8 @@
      "value": 0.1357,
      "regular": false,
      "applied": false,
-     "note": "Barzal (knee) practiced Wednesday, but he wore a no-contact jersey, and there's still no timetable for his return, per Stefen Rosner of NHL.com.",
-     "date": "2026-11-04"
+     "note": "Barzal (knee) won't be in the lineup against the Sharks on Monday but has been upgraded to day-to-day, Andrew Gross of Newsday reports.",
+     "date": "2026-11-09"
     },
     {
      "name": "Ryan Pulock",
@@ -473,17 +473,6 @@
      "applied": true,
      "note": "out",
      "date": "2026-11-01"
-    },
-    {
-     "name": "Matias Maccelli",
-     "status": "Injured Reserve",
-     "playerId": 8481711,
-     "position": "L",
-     "value": 0.0526,
-     "regular": false,
-     "applied": false,
-     "note": "Maccelli (lower body) was placed on injured reserve Monday.",
-     "date": "2026-10-26"
     },
     {
      "name": "Calum Ritchie",
