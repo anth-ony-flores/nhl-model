@@ -1,7 +1,7 @@
 {
  "day": "2026-11-08",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-08 17:11",
+ "fetched": "2026-11-08 17:22",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -994,8 +994,19 @@
    ]
   },
   "TOR": {
-   "missing_value": 0.1483,
+   "missing_value": 0.1552,
    "players": [
+    {
+     "name": "Jack Roslovic",
+     "status": "Out",
+     "playerId": 8478458,
+     "position": "C",
+     "value": 0.0069,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-09"
+    },
     {
      "name": "Morgan Rielly",
      "status": "Out",

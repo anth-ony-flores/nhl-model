@@ -1,6 +1,6 @@
 {
  "date": "2026-11-08",
- "generated": "2026-11-09T00:11:58Z",
+ "generated": "2026-11-09T00:22:05Z",
  "data_through": "2026-11-07",
  "picks_enabled": false,
  "params": {
@@ -11,22 +11,14 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 71,
-  "checked": 69,
-  "first_is_over": 69,
+  "pairs": 34,
+  "checked": 33,
+  "first_is_over": 33,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 143,
+ "lines": 70,
  "unmatched": [
-  {
-   "espn_id": "5136696",
-   "name": "Cole McWard",
-   "team": "TOR",
-   "market": "goal",
-   "game": "NJD@TOR",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  },
   {
    "espn_id": "5080158",
    "name": null,
@@ -36,7 +28,7 @@
    "why": "athlete not on either team's ESPN roster"
   }
  ],
- "unmatched_rate": 0.014,
+ "unmatched_rate": 0.0143,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -4862,7 +4854,7 @@
    "home_name": "Jets",
    "start_utc": "2026-11-08T23:00:00Z",
    "state": "in",
-   "detail": "15:22 - 2nd",
+   "detail": "9:32 - 2nd",
    "frozen": true,
    "goal_factor": {
     "TBL": 0.947,
@@ -6903,9 +6895,9 @@
    "away_name": "Devils",
    "home_name": "Maple Leafs",
    "start_utc": "2026-11-09T00:00:00Z",
-   "state": "pre",
-   "detail": "11/8 - 7:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "18:39 - 1st",
+   "frozen": true,
    "goal_factor": {
     "NJD": 1.078,
     "TOR": 0.824
@@ -9218,7 +9210,7 @@
    "home_name": "Flames",
    "start_utc": "2026-11-09T00:00:00Z",
    "state": "in",
-   "detail": "20:00 - 1st",
+   "detail": "13:31 - 1st",
    "frozen": true,
    "goal_factor": {
     "PHI": 1.068,
