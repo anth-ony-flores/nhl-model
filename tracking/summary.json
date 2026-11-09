@@ -1,151 +1,151 @@
 {
- "updated": "2026-11-07",
- "games": 109,
+ "updated": "2026-11-08",
+ "games": 115,
  "record": {
   "su": {
-   "w": 70,
-   "l": 39,
+   "w": 75,
+   "l": 40,
    "p": 0,
-   "pct": 0.6422
+   "pct": 0.6522
   },
   "ml": {
-   "w": 37,
+   "w": 43,
    "l": 70,
    "p": 0,
-   "pct": 0.3458,
-   "units": -34.91,
-   "roi": -0.3262
+   "pct": 0.3805,
+   "units": -29.61,
+   "roi": -0.262
   },
   "pl": {
-   "w": 51,
+   "w": 57,
    "l": 55,
    "p": 0,
-   "pct": 0.4811,
-   "units": -19.7,
-   "roi": -0.1858
+   "pct": 0.5089,
+   "units": -11.73,
+   "roi": -0.1047
   },
   "tot": {
-   "w": 52,
-   "l": 57,
+   "w": 54,
+   "l": 61,
    "p": 0,
-   "pct": 0.4771,
-   "units": -9.43,
-   "roi": -0.0865
+   "pct": 0.4696,
+   "units": -11.69,
+   "roi": -0.1016
   }
  },
  "strong": {
   "ml": {
-   "w": 20,
+   "w": 24,
    "l": 28,
    "p": 0,
-   "pct": 0.4167,
-   "units": -8.22,
-   "roi": -0.1713
+   "pct": 0.4615,
+   "units": -5.11,
+   "roi": -0.0982
   },
   "pl": {
-   "w": 23,
+   "w": 26,
    "l": 22,
    "p": 0,
-   "pct": 0.5111,
-   "units": -3.78,
-   "roi": -0.084
+   "pct": 0.5417,
+   "units": 0.15,
+   "roi": 0.0031
   },
   "tot": {
-   "w": 36,
-   "l": 44,
+   "w": 38,
+   "l": 47,
    "p": 0,
-   "pct": 0.45,
-   "units": -10.98,
-   "roi": -0.1373
+   "pct": 0.4471,
+   "units": -12.24,
+   "roi": -0.144
   }
  },
  "last7": {
   "su": {
-   "w": 32,
-   "l": 18,
+   "w": 35,
+   "l": 16,
    "p": 0,
-   "pct": 0.64
+   "pct": 0.6863
   },
   "ml": {
-   "w": 19,
-   "l": 30,
+   "w": 23,
+   "l": 27,
    "p": 0,
-   "pct": 0.3878,
-   "units": -12.46,
-   "roi": -0.2543
+   "pct": 0.46,
+   "units": -5.93,
+   "roi": -0.1186
   },
   "pl": {
-   "w": 23,
-   "l": 25,
+   "w": 28,
+   "l": 22,
    "p": 0,
-   "pct": 0.4792,
-   "units": -8.05,
-   "roi": -0.1677
+   "pct": 0.56,
+   "units": 2.38,
+   "roi": 0.0476
   },
   "tot": {
    "w": 24,
-   "l": 26,
+   "l": 27,
    "p": 0,
-   "pct": 0.48,
-   "units": -3.42,
-   "roi": -0.0683
+   "pct": 0.4706,
+   "units": -4.4,
+   "roi": -0.0863
   }
  },
  "logloss": {
-  "games": 109,
-  "model": 0.6414,
-  "market": 0.626
+  "games": 115,
+  "model": 0.6385,
+  "market": 0.6282
  },
  "rules": "One pick per market per game. Graded against DraftKings closing lines from ESPN's public feed; 1 unit risked per pick at the closing odds. Strong edge = 3.0 points or more.",
  "clv": {
   "ml": {
-   "n": 107,
-   "avg_pts": -0.4,
-   "beat_close_pct": 0.3832
+   "n": 113,
+   "avg_pts": -0.38,
+   "beat_close_pct": 0.3894
   },
   "pl": {
-   "n": 98,
-   "avg_pts": -0.41,
-   "beat_close_pct": 0.398
+   "n": 103,
+   "avg_pts": -0.38,
+   "beat_close_pct": 0.4078
   },
   "tot": {
-   "n": 97,
+   "n": 102,
    "avg_pts": -1.27,
-   "beat_close_pct": 0.2268
+   "beat_close_pct": 0.2255
   }
  },
  "clv_strong": {
   "ml": {
-   "n": 48,
-   "avg_pts": -0.56,
-   "beat_close_pct": 0.4375
+   "n": 52,
+   "avg_pts": -0.45,
+   "beat_close_pct": 0.4423
   },
   "pl": {
-   "n": 41,
-   "avg_pts": -0.33,
-   "beat_close_pct": 0.3659
+   "n": 44,
+   "avg_pts": -0.3,
+   "beat_close_pct": 0.3864
   },
   "tot": {
-   "n": 71,
-   "avg_pts": -1.51,
-   "beat_close_pct": 0.2113
+   "n": 75,
+   "avg_pts": -1.43,
+   "beat_close_pct": 0.2133
   }
  },
  "all_picks": {
-  "w": 140,
-  "l": 182,
+  "w": 154,
+  "l": 186,
   "p": 0,
-  "pct": 0.4348,
-  "units": -64.04,
-  "roi": -0.1989
+  "pct": 0.4529,
+  "units": -53.03,
+  "roi": -0.156
  },
  "strong_all": {
-  "w": 79,
-  "l": 94,
+  "w": 88,
+  "l": 97,
   "p": 0,
-  "pct": 0.4566,
-  "units": -22.98,
-  "roi": -0.1328
+  "pct": 0.4757,
+  "units": -17.2,
+  "roi": -0.093
  },
  "names": {
   "su": "Straight up",
