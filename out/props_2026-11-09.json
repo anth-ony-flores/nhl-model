@@ -1,6 +1,6 @@
 {
  "date": "2026-11-09",
- "generated": "2026-11-10T02:42:52Z",
+ "generated": "2026-11-10T02:52:59Z",
  "data_through": "2026-11-08",
  "picks_enabled": false,
  "params": {
@@ -56,7 +56,7 @@
    "home_name": "Oilers",
    "start_utc": "2026-11-10T01:00:00Z",
    "state": "in",
-   "detail": "1:00 - 2nd",
+   "detail": "End of 2nd",
    "frozen": true,
    "goal_factor": {
     "NYR": 0.936,
@@ -2461,7 +2461,7 @@
    "home_name": "Canucks",
    "start_utc": "2026-11-10T02:30:00Z",
    "state": "in",
-   "detail": "20:00 - 1st",
+   "detail": "14:33 - 1st",
    "frozen": true,
    "goal_factor": {
     "PHI": 1.069,
