@@ -1,6 +1,6 @@
 {
  "date": "2026-11-09",
- "generated": "2026-11-10T01:21:52Z",
+ "generated": "2026-11-10T01:32:00Z",
  "data_through": "2026-11-08",
  "picks_enabled": false,
  "params": {
@@ -56,7 +56,7 @@
    "home_name": "Oilers",
    "start_utc": "2026-11-10T01:00:00Z",
    "state": "in",
-   "detail": "11:27 - 1st",
+   "detail": "6:04 - 1st",
    "frozen": true,
    "goal_factor": {
     "NYR": 0.936,
