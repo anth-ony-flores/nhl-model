@@ -1,6 +1,6 @@
 {
  "date": "2026-11-09",
- "generated": "2026-11-10T01:52:15Z",
+ "generated": "2026-11-10T02:02:23Z",
  "data_through": "2026-11-08",
  "picks_enabled": false,
  "params": {
@@ -12,8 +12,8 @@
  },
  "side_check": {
   "pairs": 80,
-  "checked": 78,
-  "first_is_over": 78,
+  "checked": 79,
+  "first_is_over": 79,
   "mismatch": 0,
   "mismatches": []
  },
@@ -56,7 +56,7 @@
    "home_name": "Oilers",
    "start_utc": "2026-11-10T01:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "19:30 - 2nd",
    "frozen": true,
    "goal_factor": {
     "NYR": 0.936,
@@ -4813,9 +4813,9 @@
       "opp": "SJS",
       "line": 2.5,
       "open_line": 2.5,
-      "over": "+125",
+      "over": "+130",
       "over_open": "+125",
-      "under": "-170",
+      "under": "-180",
       "under_open": "-165",
       "updated": "2026-11-09T13:32Z",
       "player_id": 8475151,
@@ -4834,11 +4834,11 @@
        "6.5": 0.0141,
        "7.5": 0.0046
       },
-      "mkt_over": 0.4138,
-      "edge_over": 0.0035,
-      "edge_under": -0.0035,
+      "mkt_over": 0.4035,
+      "edge_over": 0.0139,
+      "edge_under": -0.0139,
       "lean": "Over",
-      "edge": 0.0035,
+      "edge": 0.0139,
       "strong": false
      },
      {
@@ -7245,11 +7245,11 @@
       "player": "Yaroslav Askarov",
       "team": "SJS",
       "opp": "NYI",
-      "line": 24.5,
+      "line": 23.5,
       "open_line": 23.5,
-      "over": "-110",
+      "over": "-135",
       "over_open": "-135",
-      "under": "-125",
+      "under": "+100",
       "under_open": "+100",
       "updated": "2026-11-09T22:44Z",
       "player_id": 8482137,
@@ -7259,7 +7259,7 @@
       "proj_sa": 27.4,
       "proj_sv": 0.8876,
       "mean": 24.28,
-      "p_over": 0.4848,
+      "p_over": 0.5513,
       "curve": {
        "14.5": 0.939,
        "15.5": 0.9205,
@@ -7290,11 +7290,11 @@
        "40.5": 0.0062,
        "41.5": 0.0041
       },
-      "mkt_over": 0.4853,
-      "edge_over": -0.0005,
-      "edge_under": 0.0005,
-      "lean": null,
-      "edge": null,
+      "mkt_over": 0.5347,
+      "edge_over": 0.0167,
+      "edge_under": -0.0167,
+      "lean": "Over",
+      "edge": 0.0167,
       "strong": false
      }
     ]
