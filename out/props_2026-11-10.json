@@ -1,6 +1,6 @@
 {
  "date": "2026-11-10",
- "generated": "2026-11-10T22:20:24Z",
+ "generated": "2026-11-10T22:30:33Z",
  "data_through": "2026-11-09",
  "picks_enabled": false,
  "params": {
@@ -14660,9 +14660,9 @@
       "opp": "LAK",
       "line": 1.5,
       "open_line": 1.5,
-      "over": "+115",
+      "over": "+135",
       "over_open": "+110",
-      "under": "-155",
+      "under": "-180",
       "under_open": "-145",
       "updated": "2026-11-10T18:52Z",
       "player_id": 8482482,
@@ -14681,11 +14681,11 @@
        "6.5": 0.0003,
        "7.5": 0.0001
       },
-      "mkt_over": 0.4335,
-      "edge_over": -0.1096,
-      "edge_under": 0.1096,
+      "mkt_over": 0.3983,
+      "edge_over": -0.0744,
+      "edge_under": 0.0744,
       "lean": "Under",
-      "edge": 0.1096,
+      "edge": 0.0744,
       "strong": true
      },
      {
@@ -14734,7 +14734,7 @@
       "over_open": "+130",
       "under": "+130",
       "under_open": "-175",
-      "updated": "2026-11-11T00:49Z",
+      "updated": "2026-11-11T01:15Z",
       "player_id": 8478550,
       "pos": "F",
       "proj_toi": 20.87,
@@ -16676,9 +16676,9 @@
       "opp": "NSH",
       "line": 24.5,
       "open_line": 24.5,
-      "over": "-115",
+      "over": "-105",
       "over_open": "-125",
-      "under": "-115",
+      "under": "-125",
       "under_open": "-110",
       "updated": "2026-11-10T23:06Z",
       "player_id": 8476341,
@@ -16719,11 +16719,11 @@
        "40.5": 0.0027,
        "41.5": 0.0017
       },
-      "mkt_over": 0.5,
-      "edge_over": -0.1098,
-      "edge_under": 0.1098,
+      "mkt_over": 0.4797,
+      "edge_over": -0.0895,
+      "edge_under": 0.0895,
       "lean": "Under",
-      "edge": 0.1098,
+      "edge": 0.0895,
       "strong": true
      }
     ]

@@ -1,7 +1,7 @@
 {
  "day": "2026-11-10",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-10 15:20",
+ "fetched": "2026-11-10 15:30",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -649,14 +649,14 @@
    "players": [
     {
      "name": "Alberts Smits",
-     "status": "Out",
+     "status": "Injured Reserve",
      "playerId": 8485957,
      "position": "D",
      "value": -0.0523,
      "regular": true,
      "applied": true,
-     "note": "Smits (upper body) is week-to-week, according to Peter Baugh of The Athletic on Monday.",
-     "date": "2026-11-09"
+     "note": "ir",
+     "date": "2026-11-10"
     },
     {
      "name": "Sean Durzi",
