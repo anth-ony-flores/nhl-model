@@ -1,7 +1,7 @@
 {
  "date": "2026-11-10",
  "data_through": "2026-11-09",
- "generated": "2026-11-10 16:41 MST",
+ "generated": "2026-11-10 16:51 MST",
  "league_xg60": 3.019,
  "b2b_effect": {
   "own_xg": -0.245,
@@ -264,17 +264,6 @@
     ]
    },
    "inj_home": [
-    {
-     "name": "Jake Evans",
-     "status": "Day-To-Day",
-     "playerId": 8478133,
-     "position": "C",
-     "value": 0.0173,
-     "regular": true,
-     "applied": false,
-     "note": "Evans (hand) is expected to be a game-time decision for Tuesday's home clash against the Wild, per Eric Engels of Sportsnet.",
-     "date": "2026-11-10"
-    },
     {
      "name": "Ivan Demidov",
      "status": "Injured Reserve",
