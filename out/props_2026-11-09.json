@@ -1,6 +1,6 @@
 {
  "date": "2026-11-09",
- "generated": "2026-11-09T23:50:43Z",
+ "generated": "2026-11-10T00:00:50Z",
  "data_through": "2026-11-08",
  "picks_enabled": false,
  "params": {
@@ -178,9 +178,9 @@
       "opp": "EDM",
       "line": 1.5,
       "open_line": 1.5,
-      "over": "-140",
+      "over": "-155",
       "over_open": "-150",
-      "under": "+105",
+      "under": "+115",
       "under_open": "+110",
       "updated": "2026-11-09T11:14Z",
       "player_id": 8476468,
@@ -199,11 +199,11 @@
        "6.5": 0.0048,
        "7.5": 0.0013
       },
-      "mkt_over": 0.5446,
-      "edge_over": 0.0136,
-      "edge_under": -0.0136,
-      "lean": "Over",
-      "edge": 0.0136,
+      "mkt_over": 0.5665,
+      "edge_over": -0.0083,
+      "edge_under": 0.0083,
+      "lean": "Under",
+      "edge": 0.0083,
       "strong": false
      },
      {
@@ -386,11 +386,11 @@
       "player": "Connor McDavid",
       "team": "EDM",
       "opp": "NYR",
-      "line": 3.5,
+      "line": 2.5,
       "open_line": 3.5,
-      "over": "+130",
+      "over": "-180",
       "over_open": "+125",
-      "under": "-175",
+      "under": "+130",
       "under_open": "-170",
       "updated": "2026-11-10T01:50Z",
       "player_id": 8478402,
@@ -398,7 +398,7 @@
       "proj_toi": 23.0,
       "games_weight": 42.7,
       "mean": 3.226,
-      "p_over": 0.4006,
+      "p_over": 0.6126,
       "curve": {
        "0.5": 0.9533,
        "1.5": 0.8173,
@@ -409,11 +409,11 @@
        "6.5": 0.0551,
        "7.5": 0.0234
       },
-      "mkt_over": 0.4059,
-      "edge_over": -0.0053,
-      "edge_under": 0.0053,
-      "lean": "Under",
-      "edge": 0.0053,
+      "mkt_over": 0.5965,
+      "edge_over": 0.016,
+      "edge_under": -0.016,
+      "lean": "Over",
+      "edge": 0.016,
       "strong": false
      },
      {
