@@ -1,7 +1,7 @@
 {
  "day": "2026-11-10",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-10 15:30",
+ "fetched": "2026-11-10 15:40",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -468,17 +468,6 @@
   "MIN": {
    "missing_value": 0,
    "players": [
-    {
-     "name": "Michael McCarron",
-     "status": "Day-To-Day",
-     "playerId": 8477446,
-     "position": "C",
-     "value": -0.0209,
-     "regular": true,
-     "applied": false,
-     "note": "McCarron (upper body) could be an option versus the Canadiens on Tuesday, Joe Smith of The Athletic reports.",
-     "date": "2026-11-09"
-    },
     {
      "name": "Brock Faber",
      "status": "Injured Reserve",

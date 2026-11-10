@@ -1,7 +1,7 @@
 {
  "date": "2026-11-10",
  "data_through": "2026-11-09",
- "generated": "2026-11-10 15:30 MST",
+ "generated": "2026-11-10 15:40 MST",
  "league_xg60": 3.019,
  "b2b_effect": {
   "own_xg": -0.245,
@@ -310,17 +310,6 @@
     }
    ],
    "inj_away": [
-    {
-     "name": "Michael McCarron",
-     "status": "Day-To-Day",
-     "playerId": 8477446,
-     "position": "C",
-     "value": -0.0209,
-     "regular": true,
-     "applied": false,
-     "note": "McCarron (upper body) could be an option versus the Canadiens on Tuesday, Joe Smith of The Athletic reports.",
-     "date": "2026-11-09"
-    },
     {
      "name": "Brock Faber",
      "status": "Injured Reserve",
