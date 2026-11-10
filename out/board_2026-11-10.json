@@ -1,7 +1,7 @@
 {
  "date": "2026-11-10",
  "data_through": "2026-11-09",
- "generated": "2026-11-10 07:28 MST",
+ "generated": "2026-11-10 15:00 MST",
  "league_xg60": 3.019,
  "b2b_effect": {
   "own_xg": -0.245,
@@ -57,36 +57,25 @@
    "inj_home": [
     {
      "name": "Morgan Rielly",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8476853,
      "position": "D",
      "value": 0.0786,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-09"
+     "applied": true,
+     "note": "Rielly (lower body) has been deemed day-to-day and will not play in Tuesday's home clash against the Avalanche, per David Alter of The Hockey News.",
+     "date": "2026-11-10"
     },
     {
      "name": "Colton Sissons",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8476925,
      "position": "C",
      "value": -0.024,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-09"
-    },
-    {
-     "name": "Jack Roslovic",
-     "status": "Day-To-Day",
-     "playerId": 8478458,
-     "position": "C",
-     "value": 0.0069,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-09"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-10"
     },
     {
      "name": "Kirill Marchenko",
@@ -179,53 +168,53 @@
      "date": "2026-10-23"
     }
    ],
-   "inj_adj_home": 0.07,
+   "inj_adj_home": 0.124,
    "inj_adj_away": -0.015,
-   "xg_home": 2.586,
-   "xg_away": 3.585,
-   "proj_home": 2.76,
-   "proj_away": 3.65,
-   "p_home": 0.3531,
-   "p_away": 0.6469,
-   "p_ot": 0.2246,
-   "fair_ml_home": 183,
-   "fair_ml_away": -183,
+   "xg_home": 2.558,
+   "xg_away": 3.612,
+   "proj_home": 2.73,
+   "proj_away": 3.68,
+   "p_home": 0.3447,
+   "p_away": 0.6553,
+   "p_ot": 0.2228,
+   "fair_ml_home": 190,
+   "fair_ml_away": -190,
    "exp_total": 6.41,
    "totals": {
     "4.5": {
-     "over": 0.7833,
-     "under": 0.2167
+     "over": 0.7828,
+     "under": 0.2172
     },
     "5.0": {
-     "over": 0.6109,
-     "under": 0.2167
+     "over": 0.6105,
+     "under": 0.2172
     },
     "5.5": {
-     "over": 0.6109,
-     "under": 0.3891
+     "over": 0.6105,
+     "under": 0.3895
     },
     "6.0": {
-     "over": 0.4679,
-     "under": 0.3891
+     "over": 0.4673,
+     "under": 0.3895
     },
     "6.5": {
-     "over": 0.4679,
-     "under": 0.5321
+     "over": 0.4673,
+     "under": 0.5327
     },
     "7.0": {
-     "over": 0.3009,
-     "under": 0.5321
+     "over": 0.3005,
+     "under": 0.5327
     },
     "7.5": {
-     "over": 0.3009,
-     "under": 0.6991
+     "over": 0.3005,
+     "under": 0.6995
     }
    },
    "puck_line": {
-    "home_-1.5": 0.1962,
-    "away_+1.5": 0.8038,
-    "away_-1.5": 0.4349,
-    "home_+1.5": 0.5651
+    "home_-1.5": 0.1906,
+    "away_+1.5": 0.8094,
+    "away_-1.5": 0.4431,
+    "home_+1.5": 0.5569
    }
   },
   {
@@ -283,19 +272,8 @@
      "value": 0.0173,
      "regular": true,
      "applied": false,
-     "note": "Evans sustained a hand injury during Monday's practice session, per Sportsnet.",
-     "date": "2026-11-09"
-    },
-    {
-     "name": "Josh Anderson",
-     "status": "Day-To-Day",
-     "playerId": 8476981,
-     "position": "R",
-     "value": -0.0547,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-08"
+     "note": "Evans (hand) is expected to be a game-time decision for Tuesday's home clash against the Wild, per Eric Engels of Sportsnet.",
+     "date": "2026-11-10"
     },
     {
      "name": "Ivan Demidov",
@@ -342,17 +320,6 @@
      "applied": false,
      "note": "McCarron (upper body) could be an option versus the Canadiens on Tuesday, Joe Smith of The Athletic reports.",
      "date": "2026-11-09"
-    },
-    {
-     "name": "Jared Spurgeon",
-     "status": "Injured Reserve",
-     "playerId": 8474716,
-     "position": "D",
-     "value": 0.0991,
-     "regular": false,
-     "applied": false,
-     "note": "Spurgeon (lower body) is expected to travel with the team for its upcoming three-game road trip starting Tuesday against Montreal, Joe Smith of The Athletic reports.",
-     "date": "2026-11-05"
     },
     {
      "name": "Brock Faber",
@@ -631,17 +598,6 @@
     ]
    },
    "inj_home": [
-    {
-     "name": "Josh Morrissey",
-     "status": "Injured Reserve",
-     "playerId": 8477504,
-     "position": "D",
-     "value": 0.1337,
-     "regular": false,
-     "applied": false,
-     "note": "Morrissey (wrist) won't play against Tampa Bay on Sunday, Mike McIntyre of the Winnipeg Free Press reports.",
-     "date": "2026-11-08"
-    },
     {
      "name": "Elias Salomonsson",
      "status": "Injured Reserve",
@@ -995,28 +951,6 @@
      "date": "2026-11-06"
     },
     {
-     "name": "Marco Kasper",
-     "status": "Injured Reserve",
-     "playerId": 8483464,
-     "position": "C",
-     "value": 0.0485,
-     "regular": false,
-     "applied": false,
-     "note": "Head coach Todd McLellan said Thursday that he expects Kasper (upper body) to return at some point during the Red Wings' upcoming four-game road trip, Max Bultman of The Athletic reports.",
-     "date": "2026-11-05"
-    },
-    {
-     "name": "Mason Appleton",
-     "status": "Injured Reserve",
-     "playerId": 8478891,
-     "position": "C",
-     "value": -0.0346,
-     "regular": false,
-     "applied": false,
-     "note": "Head coach Todd McLellan stated that Appleton (undisclosed) is expected to return to the lineup during the Red Wings' upcoming four-game road trip, per Max Bultman of The Athletic.",
-     "date": "2026-11-05"
-    },
-    {
      "name": "Dylan Larkin",
      "status": "Injured Reserve",
      "playerId": 8477946,
@@ -1136,17 +1070,6 @@
    },
    "inj_home": [
     {
-     "name": "Mats Zuccarello",
-     "status": "Injured Reserve",
-     "playerId": 8475692,
-     "position": "R",
-     "value": 0.011,
-     "regular": false,
-     "applied": false,
-     "note": "Zuccarello (upper body) is regarded as week-to-week, Zach Dooley of the Kings' official site reports Thursday.",
-     "date": "2026-10-29"
-    },
-    {
      "name": "Kevin Fiala",
      "status": "Injured Reserve",
      "playerId": 8477942,
@@ -1154,19 +1077,8 @@
      "value": 0.0711,
      "regular": false,
      "applied": false,
-     "note": "Head coach Peter Laviolette said Thursday that Fiala (lower leg) remains on a week-to-week timeline, Zach Dooley of the Kings' official site reports.",
-     "date": "2026-10-29"
-    },
-    {
-     "name": "Jan Jenik",
-     "status": "Injured Reserve",
-     "playerId": 8480890,
-     "position": "C",
-     "value": -0.0308,
-     "regular": false,
-     "applied": false,
-     "note": "Jenik (undisclosed) was placed on non-roster injured reserve by Los Angeles on Thursday, per Zach Dooley of LA Kings Insider.",
-     "date": "2026-09-24"
+     "note": "Fiala (lower leg) should play Thursday against the Islanders or Saturday against Calgary, according to Emily Kaplan of ESPN.",
+     "date": "2026-11-10"
     }
    ],
    "inj_away": [
