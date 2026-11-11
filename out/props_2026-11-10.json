@@ -1,6 +1,6 @@
 {
  "date": "2026-11-10",
- "generated": "2026-11-11T00:32:31Z",
+ "generated": "2026-11-11T00:42:40Z",
  "data_through": "2026-11-09",
  "picks_enabled": false,
  "params": {
@@ -11,22 +11,14 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 121,
-  "checked": 120,
-  "first_is_over": 120,
+  "pairs": 80,
+  "checked": 79,
+  "first_is_over": 79,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 228,
+ "lines": 152,
  "unmatched": [
-  {
-   "espn_id": "4997013",
-   "name": "Jack Devine",
-   "team": "FLA",
-   "market": "goal",
-   "game": "FLA@CBJ",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  },
   {
    "espn_id": "4874748",
    "name": "Logan Mailloux",
@@ -36,7 +28,7 @@
    "why": "no MoneyPuck skater match (no recent games?)"
   }
  ],
- "unmatched_rate": 0.0088,
+ "unmatched_rate": 0.0066,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -73,7 +65,7 @@
    "home_name": "Maple Leafs",
    "start_utc": "2026-11-11T00:00:00Z",
    "state": "in",
-   "detail": "8:37 - 1st",
+   "detail": "2:28 - 1st",
    "frozen": true,
    "goal_factor": {
     "COL": 1.103,
@@ -2449,7 +2441,7 @@
    "home_name": "Canadiens",
    "start_utc": "2026-11-11T00:00:00Z",
    "state": "in",
-   "detail": "14:11 - 1st",
+   "detail": "9:14 - 1st",
    "frozen": true,
    "goal_factor": {
     "MIN": 1.07,
@@ -4780,7 +4772,7 @@
    "home_name": "Senators",
    "start_utc": "2026-11-11T00:00:00Z",
    "state": "in",
-   "detail": "6:15 - 1st",
+   "detail": "2:15 - 1st",
    "frozen": true,
    "goal_factor": {
     "WSH": 0.956,
@@ -7282,7 +7274,7 @@
    "home_name": "Jets",
    "start_utc": "2026-11-11T00:00:00Z",
    "state": "in",
-   "detail": "6:46 - 1st",
+   "detail": "1:53 - 1st",
    "frozen": true,
    "goal_factor": {
     "NJD": 1.02,
@@ -9616,9 +9608,9 @@
    "away_name": "Panthers",
    "home_name": "Blue Jackets",
    "start_utc": "2026-11-11T00:30:00Z",
-   "state": "pre",
-   "detail": "11/10 - 7:30 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "16:45 - 1st",
+   "frozen": true,
    "goal_factor": {
     "FLA": 0.996,
     "CBJ": 1.022
