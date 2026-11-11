@@ -1,6 +1,6 @@
 {
  "date": "2026-11-10",
- "generated": "2026-11-11T01:02:58Z",
+ "generated": "2026-11-11T01:13:06Z",
  "data_through": "2026-11-09",
  "picks_enabled": false,
  "params": {
@@ -11,24 +11,15 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 80,
-  "checked": 79,
-  "first_is_over": 79,
+  "pairs": 37,
+  "checked": 36,
+  "first_is_over": 36,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 152,
- "unmatched": [
-  {
-   "espn_id": "4874748",
-   "name": "Logan Mailloux",
-   "team": "STL",
-   "market": "goal",
-   "game": "DET@STL",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  }
- ],
- "unmatched_rate": 0.0066,
+ "lines": 73,
+ "unmatched": [],
+ "unmatched_rate": 0.0,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -65,7 +56,7 @@
    "home_name": "Maple Leafs",
    "start_utc": "2026-11-11T00:00:00Z",
    "state": "in",
-   "detail": "20:00 - 2nd",
+   "detail": "13:42 - 2nd",
    "frozen": true,
    "goal_factor": {
     "COL": 1.103,
@@ -4772,7 +4763,7 @@
    "home_name": "Senators",
    "start_utc": "2026-11-11T00:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "14:46 - 2nd",
    "frozen": true,
    "goal_factor": {
     "WSH": 0.956,
@@ -7274,7 +7265,7 @@
    "home_name": "Jets",
    "start_utc": "2026-11-11T00:00:00Z",
    "state": "in",
-   "detail": "20:00 - 2nd",
+   "detail": "15:31 - 2nd",
    "frozen": true,
    "goal_factor": {
     "NJD": 1.02,
@@ -9609,7 +9600,7 @@
    "home_name": "Blue Jackets",
    "start_utc": "2026-11-11T00:30:00Z",
    "state": "in",
-   "detail": "4:05 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "FLA": 0.996,
@@ -12025,9 +12016,9 @@
    "away_name": "Red Wings",
    "home_name": "Blues",
    "start_utc": "2026-11-11T01:00:00Z",
-   "state": "pre",
-   "detail": "11/10 - 8:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "20:00 - 1st",
+   "frozen": true,
    "goal_factor": {
     "DET": 1.002,
     "STL": 1.021
