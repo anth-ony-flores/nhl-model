@@ -1,6 +1,6 @@
 {
  "date": "2026-11-11",
- "generated": "2026-11-11T22:20:22Z",
+ "generated": "2026-11-11T22:30:29Z",
  "data_through": "2026-11-10",
  "picks_enabled": false,
  "params": {
@@ -12,8 +12,8 @@
  },
  "side_check": {
   "pairs": 235,
-  "checked": 228,
-  "first_is_over": 228,
+  "checked": 229,
+  "first_is_over": 229,
   "mismatch": 0,
   "mismatches": []
  },
@@ -4932,9 +4932,9 @@
       "opp": "EDM",
       "line": 1.5,
       "open_line": 1.5,
-      "over": "-130",
+      "over": "-135",
       "over_open": "-170",
-      "under": "-105",
+      "under": "+100",
       "under_open": "+125",
       "updated": "2026-11-11T20:48Z",
       "player_id": 8481533,
@@ -4953,12 +4953,12 @@
        "6.5": 0.0051,
        "7.5": 0.0014
       },
-      "mkt_over": 0.5246,
-      "edge_over": 0.0392,
-      "edge_under": -0.0392,
+      "mkt_over": 0.5347,
+      "edge_over": 0.0291,
+      "edge_under": -0.0291,
       "lean": "Over",
-      "edge": 0.0392,
-      "strong": true
+      "edge": 0.0291,
+      "strong": false
      },
      {
       "espn_id": "4697406",
@@ -5949,7 +5949,7 @@
       "opp": "EDM",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+215",
+      "over": "+220",
       "over_open": "+235",
       "under": null,
       "under_open": null,
@@ -5963,9 +5963,9 @@
       "curve": {
        "0.5": 0.2449
       },
-      "mkt_over": 0.3175,
+      "mkt_over": 0.3125,
       "vig_included": true,
-      "edge_over": -0.0726,
+      "edge_over": -0.0676,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -6007,7 +6007,7 @@
       "opp": "EDM",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+320",
+      "over": "+310",
       "over_open": "+360",
       "under": null,
       "under_open": null,
@@ -6021,9 +6021,9 @@
       "curve": {
        "0.5": 0.2331
       },
-      "mkt_over": 0.2381,
+      "mkt_over": 0.2439,
       "vig_included": true,
-      "edge_over": -0.005,
+      "edge_over": -0.0108,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -6355,7 +6355,7 @@
       "opp": "EDM",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+1700",
+      "over": "+1800",
       "over_open": "+2000",
       "under": null,
       "under_open": null,
@@ -6369,12 +6369,12 @@
       "curve": {
        "0.5": 0.0731
       },
-      "mkt_over": 0.0556,
+      "mkt_over": 0.0526,
       "vig_included": true,
-      "edge_over": 0.0175,
+      "edge_over": 0.0204,
       "edge_under": null,
       "lean": "Yes",
-      "edge": 0.0175,
+      "edge": 0.0204,
       "strong": false
      },
      {
@@ -6616,7 +6616,7 @@
       "opp": "PHI",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+310",
+      "over": "+280",
       "over_open": "+285",
       "under": null,
       "under_open": null,
@@ -6630,9 +6630,9 @@
       "curve": {
        "0.5": 0.221
       },
-      "mkt_over": 0.2439,
+      "mkt_over": 0.2632,
       "vig_included": true,
-      "edge_over": -0.0229,
+      "edge_over": -0.0421,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -6761,7 +6761,7 @@
       "opp": "PHI",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+800",
+      "over": "+850",
       "over_open": "+950",
       "under": null,
       "under_open": null,
@@ -6775,9 +6775,9 @@
       "curve": {
        "0.5": 0.0927
       },
-      "mkt_over": 0.1111,
+      "mkt_over": 0.1053,
       "vig_included": true,
-      "edge_over": -0.0184,
+      "edge_over": -0.0125,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -6819,7 +6819,7 @@
       "opp": "PHI",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+850",
+      "over": "+800",
       "over_open": "+750",
       "under": null,
       "under_open": null,
@@ -6833,9 +6833,9 @@
       "curve": {
        "0.5": 0.0882
       },
-      "mkt_over": 0.1053,
+      "mkt_over": 0.1111,
       "vig_included": true,
-      "edge_over": -0.017,
+      "edge_over": -0.0229,
       "edge_under": null,
       "lean": null,
       "edge": null,
