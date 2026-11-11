@@ -1,6 +1,6 @@
 {
  "date": "2026-11-10",
- "generated": "2026-11-11T01:43:32Z",
+ "generated": "2026-11-11T01:53:41Z",
  "data_through": "2026-11-09",
  "picks_enabled": false,
  "params": {
@@ -2432,7 +2432,7 @@
    "home_name": "Canadiens",
    "start_utc": "2026-11-11T00:00:00Z",
    "state": "in",
-   "detail": "6:04 - 2nd",
+   "detail": "1:52 - 2nd",
    "frozen": true,
    "goal_factor": {
     "MIN": 1.07,
@@ -9600,7 +9600,7 @@
    "home_name": "Blue Jackets",
    "start_utc": "2026-11-11T00:30:00Z",
    "state": "in",
-   "detail": "13:55 - 2nd",
+   "detail": "9:28 - 2nd",
    "frozen": true,
    "goal_factor": {
     "FLA": 0.996,
@@ -12017,7 +12017,7 @@
    "home_name": "Blues",
    "start_utc": "2026-11-11T01:00:00Z",
    "state": "in",
-   "detail": "2:37 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "DET": 1.002,
