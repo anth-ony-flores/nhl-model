@@ -1,7 +1,7 @@
 {
  "day": "2026-11-11",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-11 15:40",
+ "fetched": "2026-11-11 15:50",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -1092,17 +1092,6 @@
      "applied": true,
      "note": "out",
      "date": "2026-11-10"
-    },
-    {
-     "name": "Parker Wotherspoon",
-     "status": "Injured Reserve",
-     "playerId": 8478450,
-     "position": "D",
-     "value": -0.0578,
-     "regular": false,
-     "applied": false,
-     "note": "ir",
-     "date": "2026-10-21"
     }
    ]
   },
