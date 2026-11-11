@@ -1,22 +1,22 @@
 {
  "day": "2026-11-11",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-11 07:30",
+ "fetched": "2026-11-11 15:00",
  "k": 1.0,
  "teams": {
   "ANA": {
    "missing_value": 0.0447,
    "players": [
     {
-     "name": "Troy Terry",
+     "name": "Ian Moore",
      "status": "Injured Reserve",
-     "playerId": 8478873,
-     "position": "R",
-     "value": 0.069,
+     "playerId": 8482178,
+     "position": "D",
+     "value": 0.0056,
      "regular": false,
      "applied": false,
-     "note": "Terry (hip) will likely make his 2026-27 debut against Nashville on Wednesday, according to Eric Stephens of The Athletic.",
-     "date": "2026-11-10"
+     "note": "Moore (lower body) might be an option to play by the end of the week, Derek Lee of The Hockey News reports Wednesday.",
+     "date": "2026-11-11"
     },
     {
      "name": "A.J. Greer",
@@ -28,17 +28,6 @@
      "applied": true,
      "note": "Greer (upper body) was placed on injured reserve Monday.",
      "date": "2026-11-02"
-    },
-    {
-     "name": "Ian Moore",
-     "status": "Injured Reserve",
-     "playerId": 8482178,
-     "position": "D",
-     "value": 0.0056,
-     "regular": false,
-     "applied": false,
-     "note": "Head coach Joel Quenneville said Friday that Moore (lower body) is still \"a ways from skating,\" Patrick Present of The Hockey News reports.",
-     "date": "2026-10-16"
     },
     {
      "name": "Ryan Poehling",
@@ -142,17 +131,6 @@
      "applied": false,
      "note": "out",
      "date": "2026-10-30"
-    },
-    {
-     "name": "Samuel Honzek",
-     "status": "Injured Reserve",
-     "playerId": 8484180,
-     "position": "L",
-     "value": 0.0106,
-     "regular": false,
-     "applied": false,
-     "note": "ir",
-     "date": "2026-10-20"
     }
    ]
   },
@@ -238,18 +216,18 @@
    ]
   },
   "DAL": {
-   "missing_value": 0,
+   "missing_value": 0.114,
    "players": [
     {
      "name": "Miro Heiskanen",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8480036,
      "position": "D",
      "value": 0.114,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-08"
+     "applied": true,
+     "note": "Heiskanen (upper body) has been ruled out for Thursday's game against the Jets, Stars TV host Brien Rea reports.",
+     "date": "2026-11-11"
     },
     {
      "name": "Kyle Capobianco",
@@ -411,30 +389,46 @@
     }
    ]
   },
+  "LAK": {
+   "missing_value": 0,
+   "players": [
+    {
+     "name": "Drew Doughty",
+     "status": "Day-To-Day",
+     "playerId": 8474563,
+     "position": "D",
+     "value": 0.0123,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-11"
+    },
+    {
+     "name": "Kevin Fiala",
+     "status": "Injured Reserve",
+     "playerId": 8477942,
+     "position": "L",
+     "value": 0.0711,
+     "regular": false,
+     "applied": false,
+     "note": "Fiala (lower leg) should play Thursday against the Islanders or Saturday against Calgary, according to Emily Kaplan of ESPN.",
+     "date": "2026-11-10"
+    }
+   ]
+  },
   "PHI": {
    "missing_value": 0,
    "players": [
     {
      "name": "Erik Gustafsson",
-     "status": "Out",
+     "status": "Day-To-Day",
      "playerId": 8476979,
      "position": "D",
      "value": 0.0749,
      "regular": false,
      "applied": false,
-     "note": "out",
-     "date": "2026-11-10"
-    },
-    {
-     "name": "Rasmus Ristolainen",
-     "status": "Injured Reserve",
-     "playerId": 8477499,
-     "position": "D",
-     "value": 0.0089,
-     "regular": false,
-     "applied": false,
-     "note": "Ristolainen (hand) was placed on injured reserve, retroactive to Oct. 24, on Tuesday.",
-     "date": "2026-10-27"
+     "note": "day-to-day",
+     "date": "2026-11-11"
     },
     {
      "name": "Nikita Grebenkin",
@@ -449,22 +443,6 @@
     }
    ]
   },
-  "LAK": {
-   "missing_value": 0,
-   "players": [
-    {
-     "name": "Kevin Fiala",
-     "status": "Injured Reserve",
-     "playerId": 8477942,
-     "position": "L",
-     "value": 0.0711,
-     "regular": false,
-     "applied": false,
-     "note": "Fiala (lower leg) should play Thursday against the Islanders or Saturday against Calgary, according to Emily Kaplan of ESPN.",
-     "date": "2026-11-10"
-    }
-   ]
-  },
   "MIN": {
    "missing_value": 0,
    "players": [
@@ -476,14 +454,25 @@
      "value": 0.068,
      "regular": false,
      "applied": false,
-     "note": "Faber (skull) skated with his teammates for the first time Thursday, Joe Smith of The Athletic reports.",
-     "date": "2026-11-05"
+     "note": "Faber (skull) has told the Wild that he's ready to play and expects to return for Saturday's game against the Bruins, Michael Russo of The Athletic reports Wednesday.",
+     "date": "2026-11-11"
     }
    ]
   },
   "MTL": {
    "missing_value": 0,
    "players": [
+    {
+     "name": "Mike Matheson",
+     "status": "Day-To-Day",
+     "playerId": 8476875,
+     "position": "D",
+     "value": -0.1422,
+     "regular": false,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-11"
+    },
     {
      "name": "Ivan Demidov",
      "status": "Injured Reserve",
@@ -494,17 +483,6 @@
      "applied": false,
      "note": "Demidov (foot) skated Tuesday and could resume training with the team next week, Patrick Friolet of RDS reports.",
      "date": "2026-11-04"
-    },
-    {
-     "name": "Mike Matheson",
-     "status": "Out",
-     "playerId": 8476875,
-     "position": "D",
-     "value": -0.1422,
-     "regular": false,
-     "applied": false,
-     "note": "Matheson (lower body) is expected to miss two weeks, Renaud Lavoie of TVA Sports reports Saturday.",
-     "date": "2026-10-31"
     },
     {
      "name": "Lucas Condotta",
@@ -520,17 +498,17 @@
    ]
   },
   "NSH": {
-   "missing_value": -0.1318,
+   "missing_value": 0,
    "players": [
     {
      "name": "Jonathan Marchessault",
-     "status": "Out",
+     "status": "Day-To-Day",
      "playerId": 8476539,
      "position": "R",
      "value": -0.1318,
      "regular": true,
-     "applied": true,
-     "note": "out",
+     "applied": false,
+     "note": "day-to-day",
      "date": "2026-11-11"
     }
    ]
@@ -672,17 +650,17 @@
    ]
   },
   "OTT": {
-   "missing_value": 0,
+   "missing_value": -0.0578,
    "players": [
     {
      "name": "Nick Cousins",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8476393,
      "position": "C",
      "value": -0.0578,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
+     "applied": true,
+     "note": "out",
      "date": "2026-11-11"
     },
     {
@@ -900,18 +878,29 @@
    ]
   },
   "TOR": {
-   "missing_value": 0.0554,
+   "missing_value": -0.0238,
    "players": [
     {
+     "name": "Zack MacEwen",
+     "status": "Day-To-Day",
+     "playerId": 8479772,
+     "position": "R",
+     "value": 0.0028,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-11"
+    },
+    {
      "name": "Morgan Rielly",
-     "status": "Out",
+     "status": "Day-To-Day",
      "playerId": 8476853,
      "position": "D",
      "value": 0.0792,
      "regular": true,
-     "applied": true,
-     "note": "Rielly (lower body) has been deemed day-to-day and will not play in Tuesday's home clash against the Avalanche, per David Alter of The Hockey News.",
-     "date": "2026-11-10"
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-11"
     },
     {
      "name": "Colton Sissons",

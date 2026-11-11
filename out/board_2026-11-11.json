@@ -1,7 +1,7 @@
 {
  "date": "2026-11-11",
  "data_through": "2026-11-10",
- "generated": "2026-11-11 07:30 MST",
+ "generated": "2026-11-11 15:00 MST",
  "league_xg60": 3.016,
  "b2b_effect": {
   "own_xg": -0.243,
@@ -240,17 +240,6 @@
      "applied": false,
      "note": "out",
      "date": "2026-10-30"
-    },
-    {
-     "name": "Samuel Honzek",
-     "status": "Injured Reserve",
-     "playerId": 8484180,
-     "position": "L",
-     "value": 0.0106,
-     "regular": false,
-     "applied": false,
-     "note": "ir",
-     "date": "2026-10-20"
     }
    ],
    "inj_away": [
@@ -437,25 +426,14 @@
    "inj_away": [
     {
      "name": "Erik Gustafsson",
-     "status": "Out",
+     "status": "Day-To-Day",
      "playerId": 8476979,
      "position": "D",
      "value": 0.0749,
      "regular": false,
      "applied": false,
-     "note": "out",
-     "date": "2026-11-10"
-    },
-    {
-     "name": "Rasmus Ristolainen",
-     "status": "Injured Reserve",
-     "playerId": 8477499,
-     "position": "D",
-     "value": 0.0089,
-     "regular": false,
-     "applied": false,
-     "note": "Ristolainen (hand) was placed on injured reserve, retroactive to Oct. 24, on Tuesday.",
-     "date": "2026-10-27"
+     "note": "day-to-day",
+     "date": "2026-11-11"
     },
     {
      "name": "Nikita Grebenkin",
@@ -747,15 +725,15 @@
    },
    "inj_home": [
     {
-     "name": "Troy Terry",
+     "name": "Ian Moore",
      "status": "Injured Reserve",
-     "playerId": 8478873,
-     "position": "R",
-     "value": 0.069,
+     "playerId": 8482178,
+     "position": "D",
+     "value": 0.0056,
      "regular": false,
      "applied": false,
-     "note": "Terry (hip) will likely make his 2026-27 debut against Nashville on Wednesday, according to Eric Stephens of The Athletic.",
-     "date": "2026-11-10"
+     "note": "Moore (lower body) might be an option to play by the end of the week, Derek Lee of The Hockey News reports Wednesday.",
+     "date": "2026-11-11"
     },
     {
      "name": "A.J. Greer",
@@ -767,17 +745,6 @@
      "applied": true,
      "note": "Greer (upper body) was placed on injured reserve Monday.",
      "date": "2026-11-02"
-    },
-    {
-     "name": "Ian Moore",
-     "status": "Injured Reserve",
-     "playerId": 8482178,
-     "position": "D",
-     "value": 0.0056,
-     "regular": false,
-     "applied": false,
-     "note": "Head coach Joel Quenneville said Friday that Moore (lower body) is still \"a ways from skating,\" Patrick Present of The Hockey News reports.",
-     "date": "2026-10-16"
     },
     {
      "name": "Ryan Poehling",
@@ -794,52 +761,52 @@
    "inj_away": [
     {
      "name": "Jonathan Marchessault",
-     "status": "Out",
+     "status": "Day-To-Day",
      "playerId": 8476539,
      "position": "R",
      "value": -0.1318,
      "regular": true,
-     "applied": true,
-     "note": "out",
+     "applied": false,
+     "note": "day-to-day",
      "date": "2026-11-11"
     }
    ],
    "inj_adj_home": 0.045,
-   "inj_adj_away": -0.132,
-   "xg_home": 3.217,
-   "xg_away": 3.132,
-   "proj_home": 3.33,
-   "proj_away": 3.22,
-   "p_home": 0.5189,
-   "p_away": 0.4811,
-   "p_ot": 0.2366,
-   "fair_ml_home": -108,
-   "fair_ml_away": 108,
+   "inj_adj_away": 0,
+   "xg_home": 3.283,
+   "xg_away": 3.066,
+   "proj_home": 3.39,
+   "proj_away": 3.15,
+   "p_home": 0.5397,
+   "p_away": 0.4603,
+   "p_ot": 0.2357,
+   "fair_ml_home": -117,
+   "fair_ml_away": 117,
    "exp_total": 6.55,
    "totals": {
     "4.5": {
-     "over": 0.7985,
-     "under": 0.2015
+     "over": 0.7984,
+     "under": 0.2016
     },
     "5.0": {
      "over": 0.6306,
-     "under": 0.2015
+     "under": 0.2016
     },
     "5.5": {
      "over": 0.6306,
      "under": 0.3694
     },
     "6.0": {
-     "over": 0.4908,
+     "over": 0.4907,
      "under": 0.3694
     },
     "6.5": {
-     "over": 0.4908,
-     "under": 0.5092
+     "over": 0.4907,
+     "under": 0.5093
     },
     "7.0": {
      "over": 0.3204,
-     "under": 0.5092
+     "under": 0.5093
     },
     "7.5": {
      "over": 0.3204,
@@ -847,10 +814,10 @@
     }
    },
    "puck_line": {
-    "home_-1.5": 0.322,
-    "away_+1.5": 0.678,
-    "away_-1.5": 0.2915,
-    "home_+1.5": 0.7085
+    "home_-1.5": 0.3395,
+    "away_+1.5": 0.6605,
+    "away_-1.5": 0.2752,
+    "home_+1.5": 0.7248
    }
   },
   {
