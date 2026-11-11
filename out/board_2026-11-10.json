@@ -1,7 +1,7 @@
 {
  "date": "2026-11-10",
  "data_through": "2026-11-09",
- "generated": "2026-11-10 19:44 MST",
+ "generated": "2026-11-10 19:54 MST",
  "league_xg60": 3.019,
  "b2b_effect": {
   "own_xg": -0.245,
@@ -1068,63 +1068,63 @@
    "inj_away": [
     {
      "name": "Jonathan Marchessault",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8476539,
      "position": "R",
      "value": -0.1315,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-08"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-11"
     }
    ],
    "inj_adj_home": 0,
-   "inj_adj_away": 0,
-   "xg_home": 2.981,
-   "xg_away": 2.855,
-   "proj_home": 3.09,
-   "proj_away": 2.97,
-   "p_home": 0.5201,
-   "p_away": 0.4799,
-   "p_ot": 0.2473,
-   "fair_ml_home": -108,
-   "fair_ml_away": 108,
+   "inj_adj_away": -0.132,
+   "xg_home": 2.915,
+   "xg_away": 2.921,
+   "proj_home": 3.02,
+   "proj_away": 3.03,
+   "p_home": 0.4983,
+   "p_away": 0.5017,
+   "p_ot": 0.2475,
+   "fair_ml_home": 101,
+   "fair_ml_away": -101,
    "exp_total": 6.06,
    "totals": {
     "4.5": {
-     "over": 0.7406,
-     "under": 0.2594
+     "over": 0.7407,
+     "under": 0.2593
     },
     "5.0": {
      "over": 0.5524,
-     "under": 0.2594
+     "under": 0.2593
     },
     "5.5": {
      "over": 0.5524,
      "under": 0.4476
     },
     "6.0": {
-     "over": 0.4101,
+     "over": 0.4102,
      "under": 0.4476
     },
     "6.5": {
-     "over": 0.4101,
-     "under": 0.5899
+     "over": 0.4102,
+     "under": 0.5898
     },
     "7.0": {
-     "over": 0.2484,
-     "under": 0.5899
+     "over": 0.2485,
+     "under": 0.5898
     },
     "7.5": {
-     "over": 0.2484,
-     "under": 0.7516
+     "over": 0.2485,
+     "under": 0.7515
     }
    },
    "puck_line": {
-    "home_-1.5": 0.315,
-    "away_+1.5": 0.685,
-    "away_-1.5": 0.2831,
-    "home_+1.5": 0.7169
+    "home_-1.5": 0.2975,
+    "away_+1.5": 0.7025,
+    "away_-1.5": 0.3002,
+    "home_+1.5": 0.6998
    }
   }
  ],
