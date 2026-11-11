@@ -1,6 +1,6 @@
 {
  "date": "2026-11-10",
- "generated": "2026-11-11T00:12:12Z",
+ "generated": "2026-11-11T00:22:22Z",
  "data_through": "2026-11-09",
  "picks_enabled": false,
  "params": {
@@ -11,13 +11,13 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 158,
-  "checked": 156,
-  "first_is_over": 156,
+  "pairs": 121,
+  "checked": 120,
+  "first_is_over": 120,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 301,
+ "lines": 228,
  "unmatched": [
   {
    "espn_id": "4997013",
@@ -36,7 +36,7 @@
    "why": "no MoneyPuck skater match (no recent games?)"
   }
  ],
- "unmatched_rate": 0.0066,
+ "unmatched_rate": 0.0088,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -73,7 +73,7 @@
    "home_name": "Maple Leafs",
    "start_utc": "2026-11-11T00:00:00Z",
    "state": "in",
-   "detail": "20:00 - 1st",
+   "detail": "14:40 - 1st",
    "frozen": true,
    "goal_factor": {
     "COL": 1.103,
@@ -2448,9 +2448,9 @@
    "away_name": "Wild",
    "home_name": "Canadiens",
    "start_utc": "2026-11-11T00:00:00Z",
-   "state": "pre",
-   "detail": "11/10 - 7:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "20:00 - 1st",
+   "frozen": true,
    "goal_factor": {
     "MIN": 1.07,
     "MTL": 0.939
@@ -4780,7 +4780,7 @@
    "home_name": "Senators",
    "start_utc": "2026-11-11T00:00:00Z",
    "state": "in",
-   "detail": "17:32 - 1st",
+   "detail": "12:56 - 1st",
    "frozen": true,
    "goal_factor": {
     "WSH": 0.956,
@@ -7282,7 +7282,7 @@
    "home_name": "Jets",
    "start_utc": "2026-11-11T00:00:00Z",
    "state": "in",
-   "detail": "19:07 - 1st",
+   "detail": "13:00 - 1st",
    "frozen": true,
    "goal_factor": {
     "NJD": 1.02,
