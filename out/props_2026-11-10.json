@@ -1,6 +1,6 @@
 {
  "date": "2026-11-10",
- "generated": "2026-11-11T02:13:58Z",
+ "generated": "2026-11-11T02:24:07Z",
  "data_through": "2026-11-09",
  "picks_enabled": false,
  "params": {
@@ -56,7 +56,7 @@
    "home_name": "Maple Leafs",
    "start_utc": "2026-11-11T00:00:00Z",
    "state": "in",
-   "detail": "12:27 - 3rd",
+   "detail": "7:29 - 3rd",
    "frozen": true,
    "goal_factor": {
     "COL": 1.103,
@@ -2432,7 +2432,7 @@
    "home_name": "Canadiens",
    "start_utc": "2026-11-11T00:00:00Z",
    "state": "in",
-   "detail": "20:00 - 3rd",
+   "detail": "12:40 - 3rd",
    "frozen": true,
    "goal_factor": {
     "MIN": 1.07,
@@ -4763,7 +4763,7 @@
    "home_name": "Senators",
    "start_utc": "2026-11-11T00:00:00Z",
    "state": "in",
-   "detail": "12:46 - 3rd",
+   "detail": "6:49 - 3rd",
    "frozen": true,
    "goal_factor": {
     "WSH": 0.956,
@@ -7265,7 +7265,7 @@
    "home_name": "Jets",
    "start_utc": "2026-11-11T00:00:00Z",
    "state": "in",
-   "detail": "10:41 - 3rd",
+   "detail": "5:42 - 3rd",
    "frozen": true,
    "goal_factor": {
     "NJD": 1.02,
@@ -12017,7 +12017,7 @@
    "home_name": "Blues",
    "start_utc": "2026-11-11T01:00:00Z",
    "state": "in",
-   "detail": "16:18 - 2nd",
+   "detail": "11:07 - 2nd",
    "frozen": true,
    "goal_factor": {
     "DET": 1.002,
