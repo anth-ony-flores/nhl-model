@@ -1,6 +1,6 @@
 {
  "date": "2026-11-11",
- "generated": "2026-11-11T23:00:53Z",
+ "generated": "2026-11-11T23:11:00Z",
  "data_through": "2026-11-10",
  "picks_enabled": false,
  "params": {
@@ -12,8 +12,8 @@
  },
  "side_check": {
   "pairs": 236,
-  "checked": 229,
-  "first_is_over": 229,
+  "checked": 230,
+  "first_is_over": 230,
   "mismatch": 0,
   "mismatches": []
  },
@@ -10284,9 +10284,9 @@
       "opp": "ANA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "-230",
+      "over": "-225",
       "over_open": "-215",
-      "under": "+170",
+      "under": "+165",
       "under_open": "+155",
       "updated": "2026-11-11T11:44Z",
       "player_id": 8476887,
@@ -10301,11 +10301,11 @@
        "2.5": 0.0875,
        "3.5": 0.0214
       },
-      "mkt_over": 0.653,
-      "edge_over": -0.007,
-      "edge_under": 0.007,
+      "mkt_over": 0.6472,
+      "edge_over": -0.0013,
+      "edge_under": 0.0013,
       "lean": "Under",
-      "edge": 0.007,
+      "edge": 0.0013,
       "strong": false
      },
      {
@@ -11983,13 +11983,13 @@
       "player": "Justus Annunen",
       "team": "NSH",
       "opp": "ANA",
-      "line": 26.5,
+      "line": 27.5,
       "open_line": 27.5,
-      "over": "-130",
+      "over": "-105",
       "over_open": "-110",
-      "under": "-105",
+      "under": "-130",
       "under_open": "-115",
-      "updated": "2026-11-12T00:49Z",
+      "updated": "2026-11-12T02:02Z",
       "player_id": 8481020,
       "pos": "G",
       "starter": true,
@@ -11997,7 +11997,7 @@
       "proj_sa": 28.0,
       "proj_sv": 0.8914,
       "mean": 25.0,
-      "p_over": 0.4031,
+      "p_over": 0.342,
       "curve": {
        "14.5": 0.9465,
        "15.5": 0.9307,
@@ -12028,11 +12028,11 @@
        "40.5": 0.0091,
        "41.5": 0.0062
       },
-      "mkt_over": 0.5246,
-      "edge_over": -0.1215,
-      "edge_under": 0.1215,
+      "mkt_over": 0.4754,
+      "edge_over": -0.1334,
+      "edge_under": 0.1334,
       "lean": "Under",
-      "edge": 0.1215,
+      "edge": 0.1334,
       "strong": true
      },
      {

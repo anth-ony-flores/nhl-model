@@ -1,12 +1,23 @@
 {
  "day": "2026-11-11",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-11 16:00",
+ "fetched": "2026-11-11 16:10",
  "k": 1.0,
  "teams": {
   "ANA": {
    "missing_value": 0.0447,
    "players": [
+    {
+     "name": "Ryan Poehling",
+     "status": "Injured Reserve",
+     "playerId": 8480068,
+     "position": "C",
+     "value": -0.0613,
+     "regular": false,
+     "applied": false,
+     "note": "Poehling (lower body) was placed on long-term injured reserve by the Ducks on Wednesday.",
+     "date": "2026-11-11"
+    },
     {
      "name": "Ian Moore",
      "status": "Injured Reserve",
@@ -28,17 +39,6 @@
      "applied": true,
      "note": "Greer (upper body) was placed on injured reserve Monday.",
      "date": "2026-11-02"
-    },
-    {
-     "name": "Ryan Poehling",
-     "status": "Injured Reserve",
-     "playerId": 8480068,
-     "position": "C",
-     "value": -0.0613,
-     "regular": false,
-     "applied": false,
-     "note": "Poehling (knee) is expected to miss 6-8 weeks with an MCL sprain.",
-     "date": "2026-10-13"
     }
    ]
   },
