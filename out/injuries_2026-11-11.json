@@ -1,7 +1,7 @@
 {
  "day": "2026-11-11",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-11 18:12",
+ "fetched": "2026-11-11 18:22",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -982,18 +982,18 @@
    ]
   },
   "UTA": {
-   "missing_value": 0.1597,
+   "missing_value": 0.0901,
    "players": [
     {
      "name": "Dylan Guenther",
-     "status": "Day-To-Day",
+     "status": "Injured Reserve",
      "playerId": 8482699,
      "position": "R",
      "value": -0.0696,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-10"
+     "applied": true,
+     "note": "ir",
+     "date": "2026-11-12"
     },
     {
      "name": "Nate Schmidt",

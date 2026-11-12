@@ -1,7 +1,7 @@
 {
  "date": "2026-11-11",
  "data_through": "2026-11-10",
- "generated": "2026-11-11 18:12 MST",
+ "generated": "2026-11-11 18:22 MST",
  "league_xg60": 3.016,
  "b2b_effect": {
   "own_xg": -0.243,
@@ -560,14 +560,14 @@
    "inj_away": [
     {
      "name": "Dylan Guenther",
-     "status": "Day-To-Day",
+     "status": "Injured Reserve",
      "playerId": 8482699,
      "position": "R",
      "value": -0.0696,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-10"
+     "applied": true,
+     "note": "ir",
+     "date": "2026-11-12"
     },
     {
      "name": "Nate Schmidt",
@@ -615,16 +615,16 @@
     }
    ],
    "inj_adj_home": 0.014,
-   "inj_adj_away": 0.16,
-   "xg_home": 3.031,
-   "xg_away": 2.81,
-   "proj_home": 3.32,
-   "proj_away": 2.95,
-   "p_home": 0.5629,
-   "p_away": 0.4371,
-   "p_ot": 0.2401,
-   "fair_ml_home": -129,
-   "fair_ml_away": 129,
+   "inj_adj_away": 0.09,
+   "xg_home": 2.996,
+   "xg_away": 2.845,
+   "proj_home": 3.28,
+   "proj_away": 2.98,
+   "p_home": 0.5512,
+   "p_away": 0.4488,
+   "p_ot": 0.2411,
+   "fair_ml_home": -123,
+   "fair_ml_away": 123,
    "exp_total": 6.26,
    "totals": {
     "4.5": {
@@ -632,35 +632,35 @@
      "under": 0.2338
     },
     "5.0": {
-     "over": 0.5863,
+     "over": 0.5862,
      "under": 0.2338
     },
     "5.5": {
-     "over": 0.5863,
-     "under": 0.4137
+     "over": 0.5862,
+     "under": 0.4138
     },
     "6.0": {
-     "over": 0.4441,
-     "under": 0.4137
+     "over": 0.444,
+     "under": 0.4138
     },
     "6.5": {
-     "over": 0.4441,
-     "under": 0.5559
+     "over": 0.444,
+     "under": 0.556
     },
     "7.0": {
-     "over": 0.2781,
-     "under": 0.5559
+     "over": 0.278,
+     "under": 0.556
     },
     "7.5": {
-     "over": 0.2781,
-     "under": 0.7219
+     "over": 0.278,
+     "under": 0.722
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3546,
-    "away_+1.5": 0.6454,
-    "away_-1.5": 0.2538,
-    "home_+1.5": 0.7462
+    "home_-1.5": 0.3445,
+    "away_+1.5": 0.6555,
+    "away_-1.5": 0.2625,
+    "home_+1.5": 0.7375
    }
   },
   {
