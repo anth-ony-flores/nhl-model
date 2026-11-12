@@ -1,6 +1,6 @@
 {
  "date": "2026-11-11",
- "generated": "2026-11-12T02:23:19Z",
+ "generated": "2026-11-12T02:33:27Z",
  "data_through": "2026-11-10",
  "picks_enabled": false,
  "params": {
@@ -81,7 +81,7 @@
    "home_name": "Sabres",
    "start_utc": "2026-11-12T00:00:00Z",
    "state": "in",
-   "detail": "12:06 - 3rd",
+   "detail": "6:38 - 3rd",
    "frozen": true,
    "goal_factor": {
     "TBL": 1.023,
@@ -4860,7 +4860,7 @@
    "home_name": "Oilers",
    "start_utc": "2026-11-12T02:00:00Z",
    "state": "in",
-   "detail": "13:56 - 1st",
+   "detail": "10:02 - 1st",
    "frozen": true,
    "goal_factor": {
     "PHI": 0.942,
