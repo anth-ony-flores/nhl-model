@@ -1,7 +1,7 @@
 {
  "day": "2026-11-12",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-12 16:41",
+ "fetched": "2026-11-12 16:51",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -829,17 +829,17 @@
    ]
   },
   "TOR": {
-   "missing_value": -0.0238,
+   "missing_value": 0.0554,
    "players": [
     {
-     "name": "Zack MacEwen",
-     "status": "Day-To-Day",
-     "playerId": 8479772,
-     "position": "R",
-     "value": 0.0028,
+     "name": "Morgan Rielly",
+     "status": "Out",
+     "playerId": 8476853,
+     "position": "D",
+     "value": 0.0792,
      "regular": true,
-     "applied": false,
-     "note": "MacEwen (wrist) is a game-time decision for Thursday's home clash against the Wild, per Andre Leal of The Hockey News.",
+     "applied": true,
+     "note": "out",
      "date": "2026-11-12"
     },
     {
@@ -852,17 +852,6 @@
      "applied": true,
      "note": "ir",
      "date": "2026-11-12"
-    },
-    {
-     "name": "Morgan Rielly",
-     "status": "Day-To-Day",
-     "playerId": 8476853,
-     "position": "D",
-     "value": 0.0792,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-11"
     },
     {
      "name": "Kirill Marchenko",

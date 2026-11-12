@@ -1,7 +1,7 @@
 {
  "date": "2026-11-12",
  "data_through": "2026-11-11",
- "generated": "2026-11-12 16:41 MST",
+ "generated": "2026-11-12 16:51 MST",
  "league_xg60": 3.016,
  "b2b_effect": {
   "own_xg": -0.243,
@@ -343,14 +343,14 @@
    },
    "inj_home": [
     {
-     "name": "Zack MacEwen",
-     "status": "Day-To-Day",
-     "playerId": 8479772,
-     "position": "R",
-     "value": 0.0028,
+     "name": "Morgan Rielly",
+     "status": "Out",
+     "playerId": 8476853,
+     "position": "D",
+     "value": 0.0792,
      "regular": true,
-     "applied": false,
-     "note": "MacEwen (wrist) is a game-time decision for Thursday's home clash against the Wild, per Andre Leal of The Hockey News.",
+     "applied": true,
+     "note": "out",
      "date": "2026-11-12"
     },
     {
@@ -363,17 +363,6 @@
      "applied": true,
      "note": "ir",
      "date": "2026-11-12"
-    },
-    {
-     "name": "Morgan Rielly",
-     "status": "Day-To-Day",
-     "playerId": 8476853,
-     "position": "D",
-     "value": 0.0792,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-11"
     },
     {
      "name": "Kirill Marchenko",
@@ -455,53 +444,53 @@
      "date": "2026-11-11"
     }
    ],
-   "inj_adj_home": -0.024,
+   "inj_adj_home": 0.055,
    "inj_adj_away": 0,
-   "xg_home": 2.655,
-   "xg_away": 3.533,
-   "proj_home": 2.6,
-   "proj_away": 3.55,
-   "p_home": 0.3411,
-   "p_away": 0.6589,
-   "p_ot": 0.2274,
-   "fair_ml_home": 193,
-   "fair_ml_away": -193,
+   "xg_home": 2.615,
+   "xg_away": 3.572,
+   "proj_home": 2.56,
+   "proj_away": 3.58,
+   "p_home": 0.3295,
+   "p_away": 0.6705,
+   "p_ot": 0.2247,
+   "fair_ml_home": 204,
+   "fair_ml_away": -204,
    "exp_total": 6.15,
    "totals": {
     "4.5": {
-     "over": 0.7519,
-     "under": 0.2481
+     "over": 0.7515,
+     "under": 0.2485
     },
     "5.0": {
-     "over": 0.5692,
-     "under": 0.2481
+     "over": 0.5691,
+     "under": 0.2485
     },
     "5.5": {
-     "over": 0.5692,
-     "under": 0.4308
+     "over": 0.5691,
+     "under": 0.4309
     },
     "6.0": {
-     "over": 0.4245,
-     "under": 0.4308
+     "over": 0.4239,
+     "under": 0.4309
     },
     "6.5": {
-     "over": 0.4245,
-     "under": 0.5755
+     "over": 0.4239,
+     "under": 0.5761
     },
     "7.0": {
-     "over": 0.2626,
-     "under": 0.5755
+     "over": 0.2624,
+     "under": 0.5761
     },
     "7.5": {
-     "over": 0.2626,
-     "under": 0.7374
+     "over": 0.2624,
+     "under": 0.7376
     }
    },
    "puck_line": {
-    "home_-1.5": 0.1854,
-    "away_+1.5": 0.8146,
-    "away_-1.5": 0.4414,
-    "home_+1.5": 0.5586
+    "home_-1.5": 0.1778,
+    "away_+1.5": 0.8222,
+    "away_-1.5": 0.453,
+    "home_+1.5": 0.547
    }
   },
   {
