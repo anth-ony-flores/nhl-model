@@ -1,7 +1,7 @@
 {
  "date": "2026-11-11",
  "data_through": "2026-11-10",
- "generated": "2026-11-11 18:32 MST",
+ "generated": "2026-11-11 18:42 MST",
  "league_xg60": 3.016,
  "b2b_effect": {
   "own_xg": -0.243,
@@ -559,6 +559,17 @@
    ],
    "inj_away": [
     {
+     "name": "Nate Schmidt",
+     "status": "Injured Reserve",
+     "playerId": 8477220,
+     "position": "D",
+     "value": 0.0716,
+     "regular": true,
+     "applied": true,
+     "note": "ir",
+     "date": "2026-11-12"
+    },
+    {
      "name": "Dylan Guenther",
      "status": "Injured Reserve",
      "playerId": 8482699,
@@ -568,28 +579,6 @@
      "applied": true,
      "note": "ir",
      "date": "2026-11-12"
-    },
-    {
-     "name": "Nate Schmidt",
-     "status": "Out",
-     "playerId": 8477220,
-     "position": "D",
-     "value": 0.0716,
-     "regular": true,
-     "applied": true,
-     "note": "Schmidt (upper body) has no timeline for his return to the lineup, per Brogan Houston of the Deseret News on Monday.",
-     "date": "2026-11-09"
-    },
-    {
-     "name": "Kailer Yamamoto",
-     "status": "Injured Reserve",
-     "playerId": 8479977,
-     "position": "R",
-     "value": 0.0881,
-     "regular": true,
-     "applied": true,
-     "note": "Yamamoto (upper body) was placed on injured reserve Friday.",
-     "date": "2026-11-07"
     },
     {
      "name": "John Marino",
@@ -615,52 +604,52 @@
     }
    ],
    "inj_adj_home": 0.014,
-   "inj_adj_away": 0.09,
-   "xg_home": 2.996,
-   "xg_away": 2.845,
-   "proj_home": 3.28,
-   "proj_away": 2.98,
-   "p_home": 0.5512,
-   "p_away": 0.4488,
-   "p_ot": 0.2411,
-   "fair_ml_home": -123,
-   "fair_ml_away": 123,
+   "inj_adj_away": 0.002,
+   "xg_home": 2.952,
+   "xg_away": 2.889,
+   "proj_home": 3.24,
+   "proj_away": 3.02,
+   "p_home": 0.5364,
+   "p_away": 0.4636,
+   "p_ot": 0.242,
+   "fair_ml_home": -116,
+   "fair_ml_away": 116,
    "exp_total": 6.26,
    "totals": {
     "4.5": {
-     "over": 0.7662,
-     "under": 0.2338
+     "over": 0.7661,
+     "under": 0.2339
     },
     "5.0": {
-     "over": 0.5862,
-     "under": 0.2338
+     "over": 0.586,
+     "under": 0.2339
     },
     "5.5": {
-     "over": 0.5862,
-     "under": 0.4138
+     "over": 0.586,
+     "under": 0.414
     },
     "6.0": {
      "over": 0.444,
-     "under": 0.4138
+     "under": 0.414
     },
     "6.5": {
      "over": 0.444,
      "under": 0.556
     },
     "7.0": {
-     "over": 0.278,
+     "over": 0.2779,
      "under": 0.556
     },
     "7.5": {
-     "over": 0.278,
-     "under": 0.722
+     "over": 0.2779,
+     "under": 0.7221
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3445,
-    "away_+1.5": 0.6555,
-    "away_-1.5": 0.2625,
-    "home_+1.5": 0.7375
+    "home_-1.5": 0.332,
+    "away_+1.5": 0.668,
+    "away_-1.5": 0.2737,
+    "home_+1.5": 0.7263
    }
   },
   {

@@ -1,7 +1,7 @@
 {
  "day": "2026-11-11",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-11 18:32",
+ "fetched": "2026-11-11 18:42",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -982,8 +982,19 @@
    ]
   },
   "UTA": {
-   "missing_value": 0.0901,
+   "missing_value": 0.002,
    "players": [
+    {
+     "name": "Nate Schmidt",
+     "status": "Injured Reserve",
+     "playerId": 8477220,
+     "position": "D",
+     "value": 0.0716,
+     "regular": true,
+     "applied": true,
+     "note": "ir",
+     "date": "2026-11-12"
+    },
     {
      "name": "Dylan Guenther",
      "status": "Injured Reserve",
@@ -994,28 +1005,6 @@
      "applied": true,
      "note": "ir",
      "date": "2026-11-12"
-    },
-    {
-     "name": "Nate Schmidt",
-     "status": "Out",
-     "playerId": 8477220,
-     "position": "D",
-     "value": 0.0716,
-     "regular": true,
-     "applied": true,
-     "note": "Schmidt (upper body) has no timeline for his return to the lineup, per Brogan Houston of the Deseret News on Monday.",
-     "date": "2026-11-09"
-    },
-    {
-     "name": "Kailer Yamamoto",
-     "status": "Injured Reserve",
-     "playerId": 8479977,
-     "position": "R",
-     "value": 0.0881,
-     "regular": true,
-     "applied": true,
-     "note": "Yamamoto (upper body) was placed on injured reserve Friday.",
-     "date": "2026-11-07"
     },
     {
      "name": "John Marino",
