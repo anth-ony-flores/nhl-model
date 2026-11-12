@@ -1,7 +1,7 @@
 {
  "date": "2026-11-12",
  "data_through": "2026-11-11",
- "generated": "2026-11-12 07:31 MST",
+ "generated": "2026-11-12 08:55 MST",
  "league_xg60": 3.016,
  "b2b_effect": {
   "own_xg": -0.243,
@@ -56,6 +56,17 @@
    },
    "inj_home": [
     {
+     "name": "Jacob Melanson",
+     "status": "Injured Reserve",
+     "playerId": 8482874,
+     "position": "R",
+     "value": 0.0298,
+     "regular": false,
+     "applied": false,
+     "note": "Melanson (chest) was sporting a regular jersey during Thursday's game-day skate, Sound of Hockey reports.",
+     "date": "2026-11-12"
+    },
+    {
      "name": "Curtis Douglas",
      "status": "Injured Reserve",
      "playerId": 8480876,
@@ -78,17 +89,6 @@
      "date": "2026-10-25"
     },
     {
-     "name": "Jacob Melanson",
-     "status": "Injured Reserve",
-     "playerId": 8482874,
-     "position": "R",
-     "value": 0.0298,
-     "regular": false,
-     "applied": false,
-     "note": "Melanson's upper-body injury was diagnosed Saturday as an anterior mediastinum hematoma with vascular pseudo aneurysm. He will continue to be evaluated and is out indefinitely.",
-     "date": "2026-10-10"
-    },
-    {
      "name": "Ryan Lindgren",
      "status": "Injured Reserve",
      "playerId": 8479324,
@@ -101,17 +101,6 @@
     }
    ],
    "inj_away": [
-    {
-     "name": "William Carrier",
-     "status": "Day-To-Day",
-     "playerId": 8477478,
-     "position": "L",
-     "value": 0.052,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-08"
-    },
     {
      "name": "Jordan Staal",
      "status": "Injured Reserve",
@@ -364,6 +353,17 @@
    },
    "inj_home": [
     {
+     "name": "Colton Sissons",
+     "status": "Injured Reserve",
+     "playerId": 8476925,
+     "position": "C",
+     "value": -0.0238,
+     "regular": true,
+     "applied": true,
+     "note": "ir",
+     "date": "2026-11-12"
+    },
+    {
      "name": "Zack MacEwen",
      "status": "Day-To-Day",
      "playerId": 8479772,
@@ -384,17 +384,6 @@
      "applied": false,
      "note": "day-to-day",
      "date": "2026-11-11"
-    },
-    {
-     "name": "Colton Sissons",
-     "status": "Out",
-     "playerId": 8476925,
-     "position": "C",
-     "value": -0.0238,
-     "regular": true,
-     "applied": true,
-     "note": "out",
-     "date": "2026-11-10"
     },
     {
      "name": "Kirill Marchenko",
