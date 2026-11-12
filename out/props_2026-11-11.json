@@ -1,6 +1,6 @@
 {
  "date": "2026-11-11",
- "generated": "2026-11-12T00:42:06Z",
+ "generated": "2026-11-12T00:52:13Z",
  "data_through": "2026-11-10",
  "picks_enabled": false,
  "params": {
@@ -11,22 +11,14 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 201,
-  "checked": 195,
-  "first_is_over": 195,
+  "pairs": 157,
+  "checked": 152,
+  "first_is_over": 152,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 381,
+ "lines": 301,
  "unmatched": [
-  {
-   "espn_id": "3942352",
-   "name": "Glenn Gawdin",
-   "team": "NYR",
-   "market": "goal",
-   "game": "NYR@CGY",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  },
   {
    "espn_id": "3942905",
    "name": "Troy Terry",
@@ -52,7 +44,7 @@
    "why": "no MoneyPuck skater match (no recent games?)"
   }
  ],
- "unmatched_rate": 0.0105,
+ "unmatched_rate": 0.01,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -89,7 +81,7 @@
    "home_name": "Sabres",
    "start_utc": "2026-11-12T00:00:00Z",
    "state": "in",
-   "detail": "1:11 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "TBL": 1.023,
@@ -2332,9 +2324,9 @@
    "away_name": "Rangers",
    "home_name": "Flames",
    "start_utc": "2026-11-12T00:30:00Z",
-   "state": "pre",
-   "detail": "11/11 - 7:30 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "18:39 - 1st",
+   "frozen": true,
    "goal_factor": {
     "NYR": 1.08,
     "CGY": 0.988
