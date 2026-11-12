@@ -1,7 +1,7 @@
 {
  "date": "2026-11-11",
  "data_through": "2026-11-10",
- "generated": "2026-11-11 19:13 MST",
+ "generated": "2026-11-11 19:23 MST",
  "league_xg60": 3.016,
  "b2b_effect": {
   "own_xg": -0.243,
@@ -560,6 +560,17 @@
    ],
    "inj_away": [
     {
+     "name": "Logan Cooley",
+     "status": "Out",
+     "playerId": 8483431,
+     "position": "C",
+     "value": -0.0073,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-12"
+    },
+    {
      "name": "Nate Schmidt",
      "status": "Injured Reserve",
      "playerId": 8477220,
@@ -605,16 +616,16 @@
     }
    ],
    "inj_adj_home": 0.014,
-   "inj_adj_away": 0.002,
-   "xg_home": 2.952,
-   "xg_away": 2.889,
-   "proj_home": 3.24,
-   "proj_away": 3.02,
-   "p_home": 0.5364,
-   "p_away": 0.4636,
+   "inj_adj_away": -0.005,
+   "xg_home": 2.948,
+   "xg_away": 2.893,
+   "proj_home": 3.23,
+   "proj_away": 3.03,
+   "p_home": 0.5352,
+   "p_away": 0.4648,
    "p_ot": 0.242,
-   "fair_ml_home": -116,
-   "fair_ml_away": 116,
+   "fair_ml_home": -115,
+   "fair_ml_away": 115,
    "exp_total": 6.26,
    "totals": {
     "4.5": {
@@ -622,35 +633,35 @@
      "under": 0.2339
     },
     "5.0": {
-     "over": 0.586,
+     "over": 0.5859,
      "under": 0.2339
     },
     "5.5": {
-     "over": 0.586,
-     "under": 0.414
+     "over": 0.5859,
+     "under": 0.4141
     },
     "6.0": {
-     "over": 0.444,
-     "under": 0.414
+     "over": 0.4439,
+     "under": 0.4141
     },
     "6.5": {
-     "over": 0.444,
-     "under": 0.556
+     "over": 0.4439,
+     "under": 0.5561
     },
     "7.0": {
-     "over": 0.2779,
-     "under": 0.556
+     "over": 0.2778,
+     "under": 0.5561
     },
     "7.5": {
-     "over": 0.2779,
-     "under": 0.7221
+     "over": 0.2778,
+     "under": 0.7222
     }
    },
    "puck_line": {
-    "home_-1.5": 0.332,
-    "away_+1.5": 0.668,
-    "away_-1.5": 0.2737,
-    "home_+1.5": 0.7263
+    "home_-1.5": 0.331,
+    "away_+1.5": 0.669,
+    "away_-1.5": 0.2746,
+    "home_+1.5": 0.7254
    }
   },
   {
