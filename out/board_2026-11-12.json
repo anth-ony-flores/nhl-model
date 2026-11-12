@@ -1,7 +1,7 @@
 {
  "date": "2026-11-12",
  "data_through": "2026-11-11",
- "generated": "2026-11-12 16:11 MST",
+ "generated": "2026-11-12 16:21 MST",
  "league_xg60": 3.016,
  "b2b_effect": {
   "own_xg": -0.243,
@@ -893,6 +893,17 @@
    "inj_home": [],
    "inj_away": [
     {
+     "name": "Anthony Cirelli",
+     "status": "Out",
+     "playerId": 8478519,
+     "position": "C",
+     "value": 0.1119,
+     "regular": true,
+     "applied": true,
+     "note": "Cirelli (undisclosed) will miss Thursday's game versus the Blue Jackets, Mark Scheig of The Hockey Writers reports.",
+     "date": "2026-11-12"
+    },
+    {
      "name": "Erik Cernak",
      "status": "Out",
      "playerId": 8478416,
@@ -916,52 +927,52 @@
     }
    ],
    "inj_adj_home": 0.0,
-   "inj_adj_away": 0.021,
-   "xg_home": 2.837,
-   "xg_away": 3.048,
-   "proj_home": 2.93,
-   "proj_away": 3.15,
-   "p_home": 0.4618,
-   "p_away": 0.5382,
-   "p_ot": 0.2459,
-   "fair_ml_home": 117,
-   "fair_ml_away": -117,
+   "inj_adj_away": 0.132,
+   "xg_home": 2.893,
+   "xg_away": 2.992,
+   "proj_home": 2.98,
+   "proj_away": 3.1,
+   "p_home": 0.4803,
+   "p_away": 0.5197,
+   "p_ot": 0.2467,
+   "fair_ml_home": 108,
+   "fair_ml_away": -108,
    "exp_total": 6.08,
    "totals": {
     "4.5": {
-     "over": 0.7438,
-     "under": 0.2562
+     "over": 0.7439,
+     "under": 0.2561
     },
     "5.0": {
-     "over": 0.5566,
-     "under": 0.2562
+     "over": 0.5567,
+     "under": 0.2561
     },
     "5.5": {
-     "over": 0.5566,
-     "under": 0.4434
+     "over": 0.5567,
+     "under": 0.4433
     },
     "6.0": {
-     "over": 0.4142,
-     "under": 0.4434
+     "over": 0.4144,
+     "under": 0.4433
     },
     "6.5": {
-     "over": 0.4142,
-     "under": 0.5858
+     "over": 0.4144,
+     "under": 0.5856
     },
     "7.0": {
-     "over": 0.252,
-     "under": 0.5858
+     "over": 0.2521,
+     "under": 0.5856
     },
     "7.5": {
-     "over": 0.252,
-     "under": 0.748
+     "over": 0.2521,
+     "under": 0.7479
     }
    },
    "puck_line": {
-    "home_-1.5": 0.2697,
-    "away_+1.5": 0.7303,
-    "away_-1.5": 0.3303,
-    "home_+1.5": 0.6697
+    "home_-1.5": 0.2838,
+    "away_+1.5": 0.7162,
+    "away_-1.5": 0.3151,
+    "home_+1.5": 0.6849
    }
   },
   {
