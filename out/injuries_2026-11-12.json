@@ -1,7 +1,7 @@
 {
  "day": "2026-11-12",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-12 09:56",
+ "fetched": "2026-11-12 15:00",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -63,14 +63,14 @@
    "players": [
     {
      "name": "Konsta Helenius",
-     "status": "Out",
+     "status": "Injured Reserve",
      "playerId": 8484797,
      "position": "C",
      "value": 0.0207,
      "regular": false,
      "applied": false,
-     "note": "Helenius (upper body) is week-to-week, according to Matthew Fairburn of The Athletic on Monday.",
-     "date": "2026-11-02"
+     "note": "ir",
+     "date": "2026-11-12"
     },
     {
      "name": "Justin Danforth",
@@ -151,19 +151,8 @@
    ]
   },
   "CHI": {
-   "missing_value": 0.0087,
+   "missing_value": 0,
    "players": [
-    {
-     "name": "Patrick Kane",
-     "status": "Injured Reserve",
-     "playerId": 8474141,
-     "position": "R",
-     "value": 0.0087,
-     "regular": true,
-     "applied": true,
-     "note": "Kane (upper body) was placed on injured reserve Sunday.",
-     "date": "2026-11-09"
-    },
     {
      "name": "Bowen Byram",
      "status": "Injured Reserve",
@@ -367,46 +356,19 @@
     }
    ]
   },
-  "LAK": {
-   "missing_value": 0,
-   "players": [
-    {
-     "name": "Drew Doughty",
-     "status": "Day-To-Day",
-     "playerId": 8474563,
-     "position": "D",
-     "value": 0.0123,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-11"
-    },
-    {
-     "name": "Kevin Fiala",
-     "status": "Injured Reserve",
-     "playerId": 8477942,
-     "position": "L",
-     "value": 0.0711,
-     "regular": false,
-     "applied": false,
-     "note": "Fiala (lower leg) should play Thursday against the Islanders or Saturday against Calgary, according to Emily Kaplan of ESPN.",
-     "date": "2026-11-10"
-    }
-   ]
-  },
   "PHI": {
    "missing_value": 0,
    "players": [
     {
      "name": "Erik Gustafsson",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8476979,
      "position": "D",
      "value": 0.0749,
      "regular": false,
      "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-11"
+     "note": "out",
+     "date": "2026-11-12"
     },
     {
      "name": "Noel Acciari",
@@ -452,17 +414,6 @@
    "missing_value": 0,
    "players": [
     {
-     "name": "Mike Matheson",
-     "status": "Day-To-Day",
-     "playerId": 8476875,
-     "position": "D",
-     "value": -0.1422,
-     "regular": false,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-11"
-    },
-    {
      "name": "Ivan Demidov",
      "status": "Injured Reserve",
      "playerId": 8484984,
@@ -487,24 +438,46 @@
    ]
   },
   "NSH": {
-   "missing_value": -0.1318,
+   "missing_value": 0,
    "players": [
     {
      "name": "Jonathan Marchessault",
-     "status": "Out",
+     "status": "Day-To-Day",
      "playerId": 8476539,
      "position": "R",
      "value": -0.1318,
      "regular": true,
-     "applied": true,
-     "note": "out",
+     "applied": false,
+     "note": "day-to-day",
      "date": "2026-11-12"
     }
    ]
   },
   "NJD": {
-   "missing_value": -0.0032,
+   "missing_value": 0.0149,
    "players": [
+    {
+     "name": "Johnathan Kovacevic",
+     "status": "Out",
+     "playerId": 8480192,
+     "position": "D",
+     "value": -0.002,
+     "regular": true,
+     "applied": true,
+     "note": "Kovacevic (undisclosed) is undergoing imaging Thursday and won't play in the Devils' home matchup against the Capitals, Kristy Flannery of The Hockey News reports.",
+     "date": "2026-11-12"
+    },
+    {
+     "name": "Brett Pesce",
+     "status": "Out",
+     "playerId": 8477488,
+     "position": "D",
+     "value": 0.0201,
+     "regular": true,
+     "applied": true,
+     "note": "Pesce has been ruled out for Thursday's game against Washington due to an illness, Kristy Flannery of The Hockey News reports.",
+     "date": "2026-11-12"
+    },
     {
      "name": "Anthony Mantha",
      "status": "Injured Reserve",
@@ -514,17 +487,6 @@
      "regular": true,
      "applied": true,
      "note": "Mantha (throat) was placed on long-term injured reserve by the Devils on Wednesday, retroactive to Nov. 7.",
-     "date": "2026-11-11"
-    },
-    {
-     "name": "Johnathan Kovacevic",
-     "status": "Day-To-Day",
-     "playerId": 8480192,
-     "position": "D",
-     "value": -0.002,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
      "date": "2026-11-11"
     },
     {
@@ -541,18 +503,18 @@
    ]
   },
   "NYI": {
-   "missing_value": -0.0915,
+   "missing_value": -0.0261,
    "players": [
     {
-     "name": "Matias Maccelli",
-     "status": "Injured Reserve",
-     "playerId": 8481711,
-     "position": "L",
-     "value": 0.0526,
-     "regular": false,
-     "applied": false,
-     "note": "Maccelli (lower body) is day-to-day, according to Andrew Gross of Newsday on Monday.",
-     "date": "2026-11-09"
+     "name": "Jean-Gabriel Pageau",
+     "status": "Out",
+     "playerId": 8476419,
+     "position": "C",
+     "value": -0.0261,
+     "regular": true,
+     "applied": true,
+     "note": "Pageau is dealing with a lower-body injury and will be sidelined against the Kings on Thursday.",
+     "date": "2026-11-12"
     },
     {
      "name": "Mathew Barzal",
@@ -564,17 +526,6 @@
      "applied": false,
      "note": "Barzal (knee) won't be in the lineup against the Sharks on Monday but has been upgraded to day-to-day, Andrew Gross of Newsday reports.",
      "date": "2026-11-09"
-    },
-    {
-     "name": "Ryan Pulock",
-     "status": "Out",
-     "playerId": 8477506,
-     "position": "D",
-     "value": -0.0915,
-     "regular": true,
-     "applied": true,
-     "note": "out",
-     "date": "2026-11-01"
     },
     {
      "name": "Calum Ritchie",
@@ -870,6 +821,17 @@
    "missing_value": -0.0238,
    "players": [
     {
+     "name": "Zack MacEwen",
+     "status": "Day-To-Day",
+     "playerId": 8479772,
+     "position": "R",
+     "value": 0.0028,
+     "regular": true,
+     "applied": false,
+     "note": "MacEwen (wrist) is a game-time decision for Thursday's home clash against the Wild, per Andre Leal of The Hockey News.",
+     "date": "2026-11-12"
+    },
+    {
      "name": "Colton Sissons",
      "status": "Injured Reserve",
      "playerId": 8476925,
@@ -879,17 +841,6 @@
      "applied": true,
      "note": "ir",
      "date": "2026-11-12"
-    },
-    {
-     "name": "Zack MacEwen",
-     "status": "Day-To-Day",
-     "playerId": 8479772,
-     "position": "R",
-     "value": 0.0028,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-11"
     },
     {
      "name": "Morgan Rielly",
@@ -971,17 +922,28 @@
    ]
   },
   "UTA": {
-   "missing_value": 0.002,
+   "missing_value": -0.0053,
    "players": [
     {
+     "name": "Nate Schmidt",
+     "status": "Injured Reserve",
+     "playerId": 8477220,
+     "position": "D",
+     "value": 0.0716,
+     "regular": true,
+     "applied": true,
+     "note": "The Mammoth announced Thursday that Schmidt (upper body) is considered week-to-week, Cole Bagley of KSL Sports reports.",
+     "date": "2026-11-12"
+    },
+    {
      "name": "Logan Cooley",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8483431,
      "position": "C",
      "value": -0.0073,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
+     "applied": true,
+     "note": "Cooley (upper body) will miss Thursday's game against St. Louis, per Cole Bagley of KSL Sports.",
      "date": "2026-11-12"
     },
     {
@@ -992,18 +954,7 @@
      "value": -0.0559,
      "regular": true,
      "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-12"
-    },
-    {
-     "name": "Nate Schmidt",
-     "status": "Injured Reserve",
-     "playerId": 8477220,
-     "position": "D",
-     "value": 0.0716,
-     "regular": true,
-     "applied": true,
-     "note": "ir",
+     "note": "Schmaltz (lower body) is considered a game-time decision for Thursday's matchup against St. Louis, Cole Bagley of KSL Sports reports.",
      "date": "2026-11-12"
     },
     {
