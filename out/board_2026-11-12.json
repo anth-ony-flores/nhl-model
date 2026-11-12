@@ -1,7 +1,7 @@
 {
  "date": "2026-11-12",
  "data_through": "2026-11-11",
- "generated": "2026-11-12 09:05 MST",
+ "generated": "2026-11-12 09:15 MST",
  "league_xg60": 3.016,
  "b2b_effect": {
   "own_xg": -0.243,
@@ -1021,17 +1021,6 @@
    },
    "inj_home": [
     {
-     "name": "Sandis Vilmanis",
-     "status": "Out",
-     "playerId": 8483771,
-     "position": "L",
-     "value": 0.0853,
-     "regular": true,
-     "applied": true,
-     "note": "Vilmanis (undisclosed) will probably miss a few games, according to George Richards of Florida Hockey Now on Saturday.",
-     "date": "2026-11-07"
-    },
-    {
      "name": "Brad Marchand",
      "status": "Injured Reserve",
      "playerId": 8473419,
@@ -1100,53 +1089,53 @@
      "date": "2026-10-14"
     }
    ],
-   "inj_adj_home": 0.085,
+   "inj_adj_home": 0,
    "inj_adj_away": 0,
-   "xg_home": 3.135,
-   "xg_away": 2.962,
-   "proj_home": 3.26,
-   "proj_away": 2.91,
-   "p_home": 0.5602,
-   "p_away": 0.4398,
-   "p_ot": 0.2423,
-   "fair_ml_home": -127,
-   "fair_ml_away": 127,
+   "xg_home": 3.178,
+   "xg_away": 2.919,
+   "proj_home": 3.3,
+   "proj_away": 2.87,
+   "p_home": 0.5738,
+   "p_away": 0.4262,
+   "p_ot": 0.241,
+   "fair_ml_home": -135,
+   "fair_ml_away": 135,
    "exp_total": 6.18,
    "totals": {
     "4.5": {
-     "over": 0.7556,
-     "under": 0.2444
+     "over": 0.7557,
+     "under": 0.2443
     },
     "5.0": {
-     "over": 0.5723,
-     "under": 0.2444
+     "over": 0.5725,
+     "under": 0.2443
     },
     "5.5": {
-     "over": 0.5723,
-     "under": 0.4277
+     "over": 0.5725,
+     "under": 0.4275
     },
     "6.0": {
      "over": 0.4298,
-     "under": 0.4277
+     "under": 0.4275
     },
     "6.5": {
      "over": 0.4298,
      "under": 0.5702
     },
     "7.0": {
-     "over": 0.2656,
+     "over": 0.2657,
      "under": 0.5702
     },
     "7.5": {
-     "over": 0.2656,
-     "under": 0.7344
+     "over": 0.2657,
+     "under": 0.7343
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3507,
-    "away_+1.5": 0.6493,
-    "away_-1.5": 0.2546,
-    "home_+1.5": 0.7454
+    "home_-1.5": 0.3625,
+    "away_+1.5": 0.6375,
+    "away_-1.5": 0.2447,
+    "home_+1.5": 0.7553
    }
   },
   {
