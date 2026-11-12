@@ -1,6 +1,6 @@
 {
  "date": "2026-11-11",
- "generated": "2026-11-12T01:02:21Z",
+ "generated": "2026-11-12T01:12:28Z",
  "data_through": "2026-11-10",
  "picks_enabled": false,
  "params": {
@@ -81,7 +81,7 @@
    "home_name": "Sabres",
    "start_utc": "2026-11-12T00:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "15:27 - 2nd",
    "frozen": true,
    "goal_factor": {
     "TBL": 1.023,
@@ -2325,7 +2325,7 @@
    "home_name": "Flames",
    "start_utc": "2026-11-12T00:30:00Z",
    "state": "in",
-   "detail": "11:57 - 1st",
+   "detail": "7:46 - 1st",
    "frozen": true,
    "goal_factor": {
     "NYR": 1.08,
