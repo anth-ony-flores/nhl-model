@@ -1,6 +1,6 @@
 {
  "date": "2026-11-11",
- "generated": "2026-11-12T02:43:34Z",
+ "generated": "2026-11-12T02:53:41Z",
  "data_through": "2026-11-10",
  "picks_enabled": false,
  "params": {
@@ -11,13 +11,13 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 102,
-  "checked": 100,
-  "first_is_over": 100,
+  "pairs": 77,
+  "checked": 75,
+  "first_is_over": 75,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 209,
+ "lines": 149,
  "unmatched": [
   {
    "espn_id": "3942905",
@@ -44,7 +44,7 @@
    "why": "no MoneyPuck skater match (no recent games?)"
   }
  ],
- "unmatched_rate": 0.0144,
+ "unmatched_rate": 0.0201,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -80,8 +80,8 @@
    "away_name": "Lightning",
    "home_name": "Sabres",
    "start_utc": "2026-11-12T00:00:00Z",
-   "state": "in",
-   "detail": "1:41 - 3rd",
+   "state": "post",
+   "detail": "Final",
    "frozen": true,
    "goal_factor": {
     "TBL": 1.023,
@@ -2325,7 +2325,7 @@
    "home_name": "Flames",
    "start_utc": "2026-11-12T00:30:00Z",
    "state": "in",
-   "detail": "18:37 - 3rd",
+   "detail": "12:12 - 3rd",
    "frozen": true,
    "goal_factor": {
     "NYR": 1.08,
@@ -4860,7 +4860,7 @@
    "home_name": "Oilers",
    "start_utc": "2026-11-12T02:00:00Z",
    "state": "in",
-   "detail": "3:08 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "PHI": 0.942,
@@ -7128,9 +7128,9 @@
    "away_name": "Mammoth",
    "home_name": "Golden Knights",
    "start_utc": "2026-11-12T02:30:00Z",
-   "state": "pre",
-   "detail": "11/11 - 9:30 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "16:53 - 1st",
+   "frozen": true,
    "goal_factor": {
     "UTA": 0.91,
     "VGK": 0.951

@@ -1,7 +1,7 @@
 {
  "date": "2026-11-11",
  "data_through": "2026-11-10",
- "generated": "2026-11-11 19:43 MST",
+ "generated": "2026-11-11 19:53 MST",
  "league_xg60": 3.016,
  "b2b_effect": {
   "own_xg": -0.243,
@@ -873,17 +873,6 @@
     }
    ],
    "inj_away": [
-    {
-     "name": "Ville Koivunen",
-     "status": "Day-To-Day",
-     "playerId": 8482758,
-     "position": "R",
-     "value": 0.0678,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-09"
-    },
     {
      "name": "Elmer Soderblom",
      "status": "Injured Reserve",
