@@ -1,6 +1,6 @@
 {
  "date": "2026-11-12",
- "generated": "2026-11-13T01:43:17Z",
+ "generated": "2026-11-13T01:53:26Z",
  "data_through": "2026-11-11",
  "picks_enabled": false,
  "params": {
@@ -7277,7 +7277,7 @@
    "home_name": "Senators",
    "start_utc": "2026-11-13T00:00:00Z",
    "state": "in",
-   "detail": "1:52 - 2nd",
+   "detail": "End of 2nd",
    "frozen": true,
    "goal_factor": {
     "COL": 0.924,
@@ -12173,7 +12173,7 @@
    "home_name": "Blue Jackets",
    "start_utc": "2026-11-13T00:00:00Z",
    "state": "in",
-   "detail": "0:46 - 2nd",
+   "detail": "End of 2nd",
    "frozen": true,
    "goal_factor": {
     "TBL": 0.92,
@@ -14516,7 +14516,7 @@
    "home_name": "Panthers",
    "start_utc": "2026-11-13T00:30:00Z",
    "state": "in",
-   "detail": "15:06 - 2nd",
+   "detail": "12:02 - 2nd",
    "frozen": true,
    "goal_factor": {
     "DET": 0.998,
@@ -16789,7 +16789,7 @@
    "home_name": "Blackhawks",
    "start_utc": "2026-11-13T01:00:00Z",
    "state": "in",
-   "detail": "2:14 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "BUF": 1.017,
@@ -19107,7 +19107,7 @@
    "home_name": "Stars",
    "start_utc": "2026-11-13T01:00:00Z",
    "state": "in",
-   "detail": "3:21 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "WPG": 0.935,
@@ -21304,9 +21304,9 @@
       "opp": "UTA",
       "line": 2.5,
       "open_line": 2.5,
-      "over": "+110",
+      "over": "+105",
       "over_open": "+110",
-      "under": "-150",
+      "under": "-145",
       "under_open": "-145",
       "updated": "2026-11-12T12:09Z",
       "player_id": 8483516,
@@ -21325,11 +21325,11 @@
        "6.5": 0.011,
        "7.5": 0.0034
       },
-      "mkt_over": 0.4425,
-      "edge_over": -0.0554,
-      "edge_under": 0.0554,
+      "mkt_over": 0.4518,
+      "edge_over": -0.0648,
+      "edge_under": 0.0648,
       "lean": "Under",
-      "edge": 0.0554,
+      "edge": 0.0648,
       "strong": true
      },
      {
@@ -21479,9 +21479,9 @@
       "opp": "UTA",
       "line": 1.5,
       "open_line": 1.5,
-      "over": "-135",
+      "over": "-130",
       "over_open": "-140",
-      "under": "+100",
+      "under": "-105",
       "under_open": "+105",
       "updated": "2026-11-12T12:13Z",
       "player_id": 8481598,
@@ -21500,11 +21500,11 @@
        "6.5": 0.0013,
        "7.5": 0.0003
       },
-      "mkt_over": 0.5347,
-      "edge_over": -0.104,
-      "edge_under": 0.104,
+      "mkt_over": 0.5246,
+      "edge_over": -0.0939,
+      "edge_under": 0.0939,
       "lean": "Under",
-      "edge": 0.104,
+      "edge": 0.0939,
       "strong": true
      },
      {
@@ -21737,9 +21737,9 @@
       "opp": "UTA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "-105",
+      "over": "-110",
       "over_open": "-105",
-      "under": "-125",
+      "under": "-120",
       "under_open": "-125",
       "updated": "2026-11-12T12:15Z",
       "player_id": 8481598,
@@ -21754,11 +21754,11 @@
        "2.5": 0.0197,
        "3.5": 0.0027
       },
-      "mkt_over": 0.4797,
-      "edge_over": -0.0489,
-      "edge_under": 0.0489,
+      "mkt_over": 0.4899,
+      "edge_over": -0.0591,
+      "edge_under": 0.0591,
       "lean": "Under",
-      "edge": 0.0489,
+      "edge": 0.0591,
       "strong": true
      },
      {
@@ -21768,9 +21768,9 @@
       "opp": "UTA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "-105",
+      "over": "-110",
       "over_open": "-110",
-      "under": "-130",
+      "under": "-125",
       "under_open": "-120",
       "updated": "2026-11-12T12:14Z",
       "player_id": 8482089,
@@ -21785,11 +21785,11 @@
        "2.5": 0.0169,
        "3.5": 0.0022
       },
-      "mkt_over": 0.4754,
-      "edge_over": -0.0628,
-      "edge_under": 0.0628,
+      "mkt_over": 0.4853,
+      "edge_over": -0.0727,
+      "edge_under": 0.0727,
       "lean": "Under",
-      "edge": 0.0628,
+      "edge": 0.0727,
       "strong": true
      }
     ],

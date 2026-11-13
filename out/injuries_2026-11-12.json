@@ -1,7 +1,7 @@
 {
  "day": "2026-11-12",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-12 18:43",
+ "fetched": "2026-11-12 18:53",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -196,6 +196,17 @@
   "DAL": {
    "missing_value": 0.114,
    "players": [
+    {
+     "name": "Lian Bichsel",
+     "status": "Day-To-Day",
+     "playerId": 8483425,
+     "position": "D",
+     "value": -0.0882,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-13"
+    },
     {
      "name": "Miro Heiskanen",
      "status": "Out",
