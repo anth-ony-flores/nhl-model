@@ -1,6 +1,6 @@
 {
  "date": "2026-11-12",
- "generated": "2026-11-13T01:02:44Z",
+ "generated": "2026-11-13T01:12:53Z",
  "data_through": "2026-11-11",
  "picks_enabled": false,
  "params": {
@@ -11,13 +11,13 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 137,
-  "checked": 133,
-  "first_is_over": 133,
+  "pairs": 69,
+  "checked": 66,
+  "first_is_over": 66,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 279,
+ "lines": 140,
  "unmatched": [
   {
    "espn_id": "3114743",
@@ -44,7 +44,7 @@
    "why": "no MoneyPuck skater match (no recent games?)"
   }
  ],
- "unmatched_rate": 0.0108,
+ "unmatched_rate": 0.0214,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -2917,7 +2917,7 @@
    "home_name": "Bruins",
    "start_utc": "2026-11-13T00:00:00Z",
    "state": "in",
-   "detail": "20:00 - 2nd",
+   "detail": "13:39 - 2nd",
    "frozen": true,
    "goal_factor": {
     "MTL": 1.012,
@@ -5062,7 +5062,7 @@
    "home_name": "Maple Leafs",
    "start_utc": "2026-11-13T00:00:00Z",
    "state": "in",
-   "detail": "20:00 - 2nd",
+   "detail": "14:04 - 2nd",
    "frozen": true,
    "goal_factor": {
     "MIN": 1.086,
@@ -7277,7 +7277,7 @@
    "home_name": "Senators",
    "start_utc": "2026-11-13T00:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "15:23 - 2nd",
    "frozen": true,
    "goal_factor": {
     "COL": 0.924,
@@ -9849,7 +9849,7 @@
    "home_name": "Devils",
    "start_utc": "2026-11-13T00:00:00Z",
    "state": "in",
-   "detail": "19:46 - 2nd",
+   "detail": "13:15 - 2nd",
    "frozen": true,
    "goal_factor": {
     "WSH": 0.929,
@@ -12173,7 +12173,7 @@
    "home_name": "Blue Jackets",
    "start_utc": "2026-11-13T00:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "16:59 - 2nd",
    "frozen": true,
    "goal_factor": {
     "TBL": 0.92,
@@ -14516,7 +14516,7 @@
    "home_name": "Panthers",
    "start_utc": "2026-11-13T00:30:00Z",
    "state": "in",
-   "detail": "6:46 - 1st",
+   "detail": "2:16 - 1st",
    "frozen": true,
    "goal_factor": {
     "DET": 0.998,
@@ -16788,9 +16788,9 @@
    "away_name": "Sabres",
    "home_name": "Blackhawks",
    "start_utc": "2026-11-13T01:00:00Z",
-   "state": "pre",
-   "detail": "11/12 - 8:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "17:31 - 1st",
+   "frozen": true,
    "goal_factor": {
     "BUF": 1.017,
     "CHI": 1.114
@@ -19106,9 +19106,9 @@
    "away_name": "Jets",
    "home_name": "Stars",
    "start_utc": "2026-11-13T01:00:00Z",
-   "state": "pre",
-   "detail": "11/12 - 8:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "18:01 - 1st",
+   "frozen": true,
    "goal_factor": {
     "WPG": 0.935,
     "DAL": 0.973
@@ -22180,9 +22180,9 @@
       "opp": "STL",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "-150",
+      "over": "-145",
       "over_open": "-165",
-      "under": "+110",
+      "under": "+105",
       "under_open": "+125",
       "updated": "2026-11-12T22:19Z",
       "player_id": 8479410,
@@ -22197,11 +22197,11 @@
        "2.5": 0.0439,
        "3.5": 0.0082
       },
-      "mkt_over": 0.5575,
-      "edge_over": -0.0183,
-      "edge_under": 0.0183,
+      "mkt_over": 0.5482,
+      "edge_over": -0.0089,
+      "edge_under": 0.0089,
       "lean": "Under",
-      "edge": 0.0183,
+      "edge": 0.0089,
       "strong": false
      },
      {
@@ -22397,9 +22397,9 @@
       "opp": "STL",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+245",
+      "over": "+255",
       "over_open": "+200",
-      "under": "-340",
+      "under": "-360",
       "under_open": "-280",
       "updated": "2026-11-12T22:19Z",
       "player_id": 8479619,
@@ -22414,11 +22414,11 @@
        "2.5": 0.0049,
        "3.5": 0.0004
       },
-      "mkt_over": 0.2728,
-      "edge_over": 0.0118,
-      "edge_under": -0.0118,
+      "mkt_over": 0.2647,
+      "edge_over": 0.0199,
+      "edge_under": -0.0199,
       "lean": "Over",
-      "edge": 0.0118,
+      "edge": 0.0199,
       "strong": false
      },
      {
