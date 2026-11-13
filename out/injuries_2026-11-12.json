@@ -1,7 +1,7 @@
 {
  "day": "2026-11-12",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-12 19:13",
+ "fetched": "2026-11-12 19:23",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -169,6 +169,28 @@
   "COL": {
    "missing_value": 0,
    "players": [
+    {
+     "name": "Cale Makar",
+     "status": "Day-To-Day",
+     "playerId": 8480069,
+     "position": "D",
+     "value": 0.0504,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-13"
+    },
+    {
+     "name": "Nathan MacKinnon",
+     "status": "Day-To-Day",
+     "playerId": 8477492,
+     "position": "C",
+     "value": 0.092,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-13"
+    },
     {
      "name": "Josh Manson",
      "status": "Injured Reserve",
@@ -1087,6 +1109,17 @@
   "WPG": {
    "missing_value": 0.0112,
    "players": [
+    {
+     "name": "Dylan DeMelo",
+     "status": "Day-To-Day",
+     "playerId": 8476331,
+     "position": "D",
+     "value": 0.0576,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-13"
+    },
     {
      "name": "Elias Salomonsson",
      "status": "Injured Reserve",
