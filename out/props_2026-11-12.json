@@ -1,6 +1,6 @@
 {
  "date": "2026-11-12",
- "generated": "2026-11-13T02:34:01Z",
+ "generated": "2026-11-13T02:44:09Z",
  "data_through": "2026-11-11",
  "picks_enabled": false,
  "params": {
@@ -2916,8 +2916,8 @@
    "away_name": "Canadiens",
    "home_name": "Bruins",
    "start_utc": "2026-11-13T00:00:00Z",
-   "state": "in",
-   "detail": "2:36 - 3rd",
+   "state": "post",
+   "detail": "Final",
    "frozen": true,
    "goal_factor": {
     "MTL": 1.012,
@@ -5061,8 +5061,8 @@
    "away_name": "Wild",
    "home_name": "Maple Leafs",
    "start_utc": "2026-11-13T00:00:00Z",
-   "state": "in",
-   "detail": "3:38 - 3rd",
+   "state": "post",
+   "detail": "Final",
    "frozen": true,
    "goal_factor": {
     "MIN": 1.086,
@@ -7277,7 +7277,7 @@
    "home_name": "Senators",
    "start_utc": "2026-11-13T00:00:00Z",
    "state": "in",
-   "detail": "5:36 - 3rd",
+   "detail": "0:29 - 3rd",
    "frozen": true,
    "goal_factor": {
     "COL": 0.924,
@@ -9848,8 +9848,8 @@
    "away_name": "Capitals",
    "home_name": "Devils",
    "start_utc": "2026-11-13T00:00:00Z",
-   "state": "in",
-   "detail": "2:53 - 3rd",
+   "state": "post",
+   "detail": "Final",
    "frozen": true,
    "goal_factor": {
     "WSH": 0.929,
@@ -12172,8 +12172,8 @@
    "away_name": "Lightning",
    "home_name": "Blue Jackets",
    "start_utc": "2026-11-13T00:00:00Z",
-   "state": "in",
-   "detail": "3:52 - 3rd",
+   "state": "post",
+   "detail": "Final",
    "frozen": true,
    "goal_factor": {
     "TBL": 0.92,
@@ -14516,7 +14516,7 @@
    "home_name": "Panthers",
    "start_utc": "2026-11-13T00:30:00Z",
    "state": "in",
-   "detail": "18:28 - 3rd",
+   "detail": "13:09 - 3rd",
    "frozen": true,
    "goal_factor": {
     "DET": 0.998,
@@ -16789,7 +16789,7 @@
    "home_name": "Blackhawks",
    "start_utc": "2026-11-13T01:00:00Z",
    "state": "in",
-   "detail": "2:38 - 2nd",
+   "detail": "End of 2nd",
    "frozen": true,
    "goal_factor": {
     "BUF": 1.017,
@@ -19107,7 +19107,7 @@
    "home_name": "Stars",
    "start_utc": "2026-11-13T01:00:00Z",
    "state": "in",
-   "detail": "7:58 - 2nd",
+   "detail": "3:06 - 2nd",
    "frozen": true,
    "goal_factor": {
     "WPG": 0.935,
@@ -21252,7 +21252,7 @@
    "home_name": "Mammoth",
    "start_utc": "2026-11-13T02:00:00Z",
    "state": "in",
-   "detail": "7:50 - 1st",
+   "detail": "4:02 - 1st",
    "frozen": true,
    "goal_factor": {
     "STL": 1.019,
