@@ -1,6 +1,6 @@
 {
  "date": "2026-11-12",
- "generated": "2026-11-13T02:23:51Z",
+ "generated": "2026-11-13T02:34:01Z",
  "data_through": "2026-11-11",
  "picks_enabled": false,
  "params": {
@@ -11,13 +11,13 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 31,
-  "checked": 29,
-  "first_is_over": 29,
+  "pairs": 32,
+  "checked": 30,
+  "first_is_over": 30,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 66,
+ "lines": 67,
  "unmatched": [
   {
    "espn_id": "3114743",
@@ -44,7 +44,7 @@
    "why": "no MoneyPuck skater match (no recent games?)"
   }
  ],
- "unmatched_rate": 0.0455,
+ "unmatched_rate": 0.0448,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -2917,7 +2917,7 @@
    "home_name": "Bruins",
    "start_utc": "2026-11-13T00:00:00Z",
    "state": "in",
-   "detail": "9:01 - 3rd",
+   "detail": "2:36 - 3rd",
    "frozen": true,
    "goal_factor": {
     "MTL": 1.012,
@@ -5062,7 +5062,7 @@
    "home_name": "Maple Leafs",
    "start_utc": "2026-11-13T00:00:00Z",
    "state": "in",
-   "detail": "9:14 - 3rd",
+   "detail": "3:38 - 3rd",
    "frozen": true,
    "goal_factor": {
     "MIN": 1.086,
@@ -7277,7 +7277,7 @@
    "home_name": "Senators",
    "start_utc": "2026-11-13T00:00:00Z",
    "state": "in",
-   "detail": "11:10 - 3rd",
+   "detail": "5:36 - 3rd",
    "frozen": true,
    "goal_factor": {
     "COL": 0.924,
@@ -9849,7 +9849,7 @@
    "home_name": "Devils",
    "start_utc": "2026-11-13T00:00:00Z",
    "state": "in",
-   "detail": "8:36 - 3rd",
+   "detail": "2:53 - 3rd",
    "frozen": true,
    "goal_factor": {
     "WSH": 0.929,
@@ -12173,7 +12173,7 @@
    "home_name": "Blue Jackets",
    "start_utc": "2026-11-13T00:00:00Z",
    "state": "in",
-   "detail": "8:43 - 3rd",
+   "detail": "3:52 - 3rd",
    "frozen": true,
    "goal_factor": {
     "TBL": 0.92,
@@ -14516,7 +14516,7 @@
    "home_name": "Panthers",
    "start_utc": "2026-11-13T00:30:00Z",
    "state": "in",
-   "detail": "End of 2nd",
+   "detail": "18:28 - 3rd",
    "frozen": true,
    "goal_factor": {
     "DET": 0.998,
@@ -16789,7 +16789,7 @@
    "home_name": "Blackhawks",
    "start_utc": "2026-11-13T01:00:00Z",
    "state": "in",
-   "detail": "10:04 - 2nd",
+   "detail": "2:38 - 2nd",
    "frozen": true,
    "goal_factor": {
     "BUF": 1.017,
@@ -19107,7 +19107,7 @@
    "home_name": "Stars",
    "start_utc": "2026-11-13T01:00:00Z",
    "state": "in",
-   "detail": "12:54 - 2nd",
+   "detail": "7:58 - 2nd",
    "frozen": true,
    "goal_factor": {
     "WPG": 0.935,
@@ -21252,7 +21252,7 @@
    "home_name": "Mammoth",
    "start_utc": "2026-11-13T02:00:00Z",
    "state": "in",
-   "detail": "13:53 - 1st",
+   "detail": "7:50 - 1st",
    "frozen": true,
    "goal_factor": {
     "STL": 1.019,
@@ -22775,7 +22775,7 @@
       "opp": "NYI",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "-130",
+      "over": "-125",
       "over_open": "-130",
       "under": "-105",
       "under_open": "-105",
@@ -22792,11 +22792,11 @@
        "2.5": 0.0378,
        "3.5": 0.0066
       },
-      "mkt_over": 0.5246,
-      "edge_over": -0.0068,
-      "edge_under": 0.0068,
+      "mkt_over": 0.5203,
+      "edge_over": -0.0025,
+      "edge_under": 0.0025,
       "lean": "Under",
-      "edge": 0.0068,
+      "edge": 0.0025,
       "strong": false
      },
      {
@@ -22806,9 +22806,9 @@
       "opp": "NYI",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "-130",
+      "over": "-125",
       "over_open": "-130",
-      "under": "-105",
+      "under": "-110",
       "under_open": "+100",
       "updated": "2026-11-12T21:59Z",
       "player_id": 8482124,
@@ -22823,12 +22823,43 @@
        "2.5": 0.027,
        "3.5": 0.0041
       },
-      "mkt_over": 0.5246,
-      "edge_over": -0.0534,
-      "edge_under": 0.0534,
+      "mkt_over": 0.5147,
+      "edge_over": -0.0435,
+      "edge_under": 0.0435,
       "lean": "Under",
-      "edge": 0.0534,
+      "edge": 0.0435,
       "strong": true
+     },
+     {
+      "espn_id": "4874722",
+      "player": "Brandt Clarke",
+      "team": "LAK",
+      "opp": "NYI",
+      "line": 0.5,
+      "open_line": 0.5,
+      "over": "+125",
+      "over_open": "+135",
+      "under": "-165",
+      "under_open": "-185",
+      "updated": "2026-11-13T05:17Z",
+      "player_id": 8482730,
+      "pos": "D",
+      "proj_toi": 19.42,
+      "games_weight": 41.7,
+      "mean": 0.554,
+      "p_over": 0.4252,
+      "curve": {
+       "0.5": 0.4252,
+       "1.5": 0.1069,
+       "2.5": 0.0188,
+       "3.5": 0.0025
+      },
+      "mkt_over": 0.4165,
+      "edge_over": 0.0087,
+      "edge_under": -0.0087,
+      "lean": "Over",
+      "edge": 0.0087,
+      "strong": false
      }
     ],
     "goal": [
