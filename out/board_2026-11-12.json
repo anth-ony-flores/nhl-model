@@ -1,7 +1,7 @@
 {
  "date": "2026-11-12",
  "data_through": "2026-11-11",
- "generated": "2026-11-12 18:33 MST",
+ "generated": "2026-11-12 18:43 MST",
  "league_xg60": 3.016,
  "b2b_effect": {
   "own_xg": -0.243,
@@ -1508,6 +1508,17 @@
    },
    "inj_home": [
     {
+     "name": "Nick Schmaltz",
+     "status": "Out",
+     "playerId": 8477951,
+     "position": "C",
+     "value": -0.0559,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-13"
+    },
+    {
      "name": "Nate Schmidt",
      "status": "Injured Reserve",
      "playerId": 8477220,
@@ -1527,17 +1538,6 @@
      "regular": true,
      "applied": true,
      "note": "Cooley (upper body) will miss Thursday's game against St. Louis, per Cole Bagley of KSL Sports.",
-     "date": "2026-11-12"
-    },
-    {
-     "name": "Nick Schmaltz",
-     "status": "Day-To-Day",
-     "playerId": 8477951,
-     "position": "C",
-     "value": -0.0559,
-     "regular": true,
-     "applied": false,
-     "note": "Schmaltz (lower body) is considered a game-time decision for Thursday's matchup against St. Louis, Cole Bagley of KSL Sports reports.",
      "date": "2026-11-12"
     },
     {
@@ -1609,53 +1609,53 @@
      "date": "2026-09-30"
     }
    ],
-   "inj_adj_home": -0.005,
+   "inj_adj_home": -0.061,
    "inj_adj_away": 0,
-   "xg_home": 2.893,
-   "xg_away": 2.92,
-   "proj_home": 2.89,
-   "proj_away": 3.09,
-   "p_home": 0.4641,
-   "p_away": 0.5359,
-   "p_ot": 0.2484,
-   "fair_ml_home": 115,
-   "fair_ml_away": -115,
+   "xg_home": 2.921,
+   "xg_away": 2.892,
+   "proj_home": 2.91,
+   "proj_away": 3.07,
+   "p_home": 0.4733,
+   "p_away": 0.5267,
+   "p_ot": 0.2489,
+   "fair_ml_home": 111,
+   "fair_ml_away": -111,
    "exp_total": 5.98,
    "totals": {
     "4.5": {
-     "over": 0.7306,
-     "under": 0.2694
+     "over": 0.7305,
+     "under": 0.2695
     },
     "5.0": {
-     "over": 0.5396,
-     "under": 0.2694
+     "over": 0.5394,
+     "under": 0.2695
     },
     "5.5": {
-     "over": 0.5396,
-     "under": 0.4604
+     "over": 0.5394,
+     "under": 0.4606
     },
     "6.0": {
-     "over": 0.3974,
-     "under": 0.4604
+     "over": 0.3972,
+     "under": 0.4606
     },
     "6.5": {
-     "over": 0.3974,
-     "under": 0.6026
+     "over": 0.3972,
+     "under": 0.6028
     },
     "7.0": {
-     "over": 0.2377,
-     "under": 0.6026
+     "over": 0.2376,
+     "under": 0.6028
     },
     "7.5": {
-     "over": 0.2377,
-     "under": 0.7623
+     "over": 0.2376,
+     "under": 0.7624
     }
    },
    "puck_line": {
-    "home_-1.5": 0.2698,
-    "away_+1.5": 0.7302,
-    "away_-1.5": 0.3266,
-    "home_+1.5": 0.6734
+    "home_-1.5": 0.2769,
+    "away_+1.5": 0.7231,
+    "away_-1.5": 0.319,
+    "home_+1.5": 0.681
    }
   },
   {

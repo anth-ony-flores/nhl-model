@@ -1,7 +1,7 @@
 {
  "day": "2026-11-12",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-12 18:33",
+ "fetched": "2026-11-12 18:43",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -922,8 +922,19 @@
    ]
   },
   "UTA": {
-   "missing_value": -0.0053,
+   "missing_value": -0.0612,
    "players": [
+    {
+     "name": "Nick Schmaltz",
+     "status": "Out",
+     "playerId": 8477951,
+     "position": "C",
+     "value": -0.0559,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-13"
+    },
     {
      "name": "Nate Schmidt",
      "status": "Injured Reserve",
@@ -944,17 +955,6 @@
      "regular": true,
      "applied": true,
      "note": "Cooley (upper body) will miss Thursday's game against St. Louis, per Cole Bagley of KSL Sports.",
-     "date": "2026-11-12"
-    },
-    {
-     "name": "Nick Schmaltz",
-     "status": "Day-To-Day",
-     "playerId": 8477951,
-     "position": "C",
-     "value": -0.0559,
-     "regular": true,
-     "applied": false,
-     "note": "Schmaltz (lower body) is considered a game-time decision for Thursday's matchup against St. Louis, Cole Bagley of KSL Sports reports.",
      "date": "2026-11-12"
     },
     {
