@@ -1,7 +1,7 @@
 {
  "day": "2026-11-14",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-14 10:51",
+ "fetched": "2026-11-14 11:01",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -151,8 +151,19 @@
    ]
   },
   "COL": {
-   "missing_value": 0.0828,
+   "missing_value": 0.1406,
    "players": [
+    {
+     "name": "Cale Makar",
+     "status": "Out",
+     "playerId": 8480069,
+     "position": "D",
+     "value": 0.0578,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-14"
+    },
     {
      "name": "Nathan MacKinnon",
      "status": "Out",
@@ -163,17 +174,6 @@
      "applied": true,
      "note": "MacKinnon (lower body) will miss at least one month, per Corey Masisak of The Denver Post on Saturday.",
      "date": "2026-11-14"
-    },
-    {
-     "name": "Cale Makar",
-     "status": "Day-To-Day",
-     "playerId": 8480069,
-     "position": "D",
-     "value": 0.0578,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-13"
     },
     {
      "name": "Josh Manson",

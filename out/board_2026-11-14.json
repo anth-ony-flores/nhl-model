@@ -1,7 +1,7 @@
 {
  "date": "2026-11-14",
  "data_through": "2026-11-13",
- "generated": "2026-11-14 10:51 MST",
+ "generated": "2026-11-14 11:01 MST",
  "league_xg60": 3.015,
  "b2b_effect": {
   "own_xg": -0.251,
@@ -137,7 +137,8 @@
     "away_+1.5": 0.4449,
     "away_-1.5": 0.1199,
     "home_+1.5": 0.8801
-   }
+   },
+   "frozen": true
   },
   {
    "id": 2026020312,
@@ -748,6 +749,17 @@
    ],
    "inj_away": [
     {
+     "name": "Cale Makar",
+     "status": "Out",
+     "playerId": 8480069,
+     "position": "D",
+     "value": 0.0578,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-14"
+    },
+    {
      "name": "Nathan MacKinnon",
      "status": "Out",
      "playerId": 8477492,
@@ -757,17 +769,6 @@
      "applied": true,
      "note": "MacKinnon (lower body) will miss at least one month, per Corey Masisak of The Denver Post on Saturday.",
      "date": "2026-11-14"
-    },
-    {
-     "name": "Cale Makar",
-     "status": "Day-To-Day",
-     "playerId": 8480069,
-     "position": "D",
-     "value": 0.0578,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-13"
     },
     {
      "name": "Josh Manson",
@@ -793,52 +794,52 @@
     }
    ],
    "inj_adj_home": -0.025,
-   "inj_adj_away": 0.083,
-   "xg_home": 2.924,
-   "xg_away": 3.43,
-   "proj_home": 3.07,
-   "proj_away": 3.09,
-   "p_home": 0.4952,
-   "p_away": 0.5048,
+   "inj_adj_away": 0.141,
+   "xg_home": 2.953,
+   "xg_away": 3.401,
+   "proj_home": 3.09,
+   "proj_away": 3.07,
+   "p_home": 0.5042,
+   "p_away": 0.4958,
    "p_ot": 0.2451,
-   "fair_ml_home": 102,
-   "fair_ml_away": -102,
+   "fair_ml_home": -102,
+   "fair_ml_away": 102,
    "exp_total": 6.16,
    "totals": {
     "4.5": {
-     "over": 0.7539,
-     "under": 0.2461
+     "over": 0.7543,
+     "under": 0.2457
     },
     "5.0": {
-     "over": 0.5696,
-     "under": 0.2461
+     "over": 0.5702,
+     "under": 0.2457
     },
     "5.5": {
-     "over": 0.5696,
-     "under": 0.4304
+     "over": 0.5702,
+     "under": 0.4298
     },
     "6.0": {
-     "over": 0.4274,
-     "under": 0.4304
+     "over": 0.4281,
+     "under": 0.4298
     },
     "6.5": {
-     "over": 0.4274,
-     "under": 0.5726
+     "over": 0.4281,
+     "under": 0.5719
     },
     "7.0": {
-     "over": 0.2633,
-     "under": 0.5726
+     "over": 0.2638,
+     "under": 0.5719
     },
     "7.5": {
-     "over": 0.2633,
-     "under": 0.7367
+     "over": 0.2638,
+     "under": 0.7362
     }
    },
    "puck_line": {
-    "home_-1.5": 0.2968,
-    "away_+1.5": 0.7032,
-    "away_-1.5": 0.3044,
-    "home_+1.5": 0.6956
+    "home_-1.5": 0.304,
+    "away_+1.5": 0.696,
+    "away_-1.5": 0.2973,
+    "home_+1.5": 0.7027
    }
   },
   {
