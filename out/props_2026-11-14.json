@@ -1,6 +1,6 @@
 {
  "date": "2026-11-14",
- "generated": "2026-11-14T18:30:05Z",
+ "generated": "2026-11-14T18:40:13Z",
  "data_through": "2026-11-13",
  "picks_enabled": false,
  "params": {
@@ -89,7 +89,7 @@
    "home_name": "Hurricanes",
    "start_utc": "2026-11-14T18:00:00Z",
    "state": "in",
-   "detail": "11:49 - 1st",
+   "detail": "5:59 - 1st",
    "frozen": true,
    "goal_factor": {
     "SEA": 0.868,
@@ -20836,9 +20836,9 @@
       "opp": "FLA",
       "line": 2.5,
       "open_line": 2.5,
-      "over": "+125",
+      "over": "+120",
       "over_open": "+140",
-      "under": "-175",
+      "under": "-165",
       "under_open": "-195",
       "updated": "2026-11-14T20:10Z",
       "player_id": 8482077,
@@ -20857,11 +20857,11 @@
        "6.5": 0.0164,
        "7.5": 0.0055
       },
-      "mkt_over": 0.4112,
-      "edge_over": 0.025,
-      "edge_under": -0.025,
+      "mkt_over": 0.422,
+      "edge_over": 0.0143,
+      "edge_under": -0.0143,
       "lean": "Over",
-      "edge": 0.025,
+      "edge": 0.0143,
       "strong": false
      },
      {
@@ -20871,9 +20871,9 @@
       "opp": "FLA",
       "line": 2.5,
       "open_line": 2.5,
-      "over": "-110",
+      "over": "+100",
       "over_open": "+105",
-      "under": "-120",
+      "under": "-135",
       "under_open": "-140",
       "updated": "2026-11-14T20:10Z",
       "player_id": 8483516,
@@ -20892,11 +20892,11 @@
        "6.5": 0.0104,
        "7.5": 0.0032
       },
-      "mkt_over": 0.4899,
-      "edge_over": -0.1096,
-      "edge_under": 0.1096,
+      "mkt_over": 0.4653,
+      "edge_over": -0.0851,
+      "edge_under": 0.0851,
       "lean": "Under",
-      "edge": 0.1096,
+      "edge": 0.0851,
       "strong": true
      },
      {
