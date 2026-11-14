@@ -1,7 +1,7 @@
 {
  "day": "2026-11-14",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-14 12:20",
+ "fetched": "2026-11-14 12:30",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -377,17 +377,6 @@
      "date": "2026-11-13"
     },
     {
-     "name": "Noel Acciari",
-     "status": "Day-To-Day",
-     "playerId": 8478569,
-     "position": "C",
-     "value": -0.0164,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-12"
-    },
-    {
      "name": "Nikita Grebenkin",
      "status": "Injured Reserve",
      "playerId": 8483733,
@@ -538,17 +527,6 @@
      "applied": false,
      "note": "day-to-day",
      "date": "2026-11-13"
-    },
-    {
-     "name": "Mathew Barzal",
-     "status": "Injured Reserve",
-     "playerId": 8478445,
-     "position": "C",
-     "value": 0.1357,
-     "regular": false,
-     "applied": false,
-     "note": "Barzal (knee) won't be in the lineup against the Sharks on Monday but has been upgraded to day-to-day, Andrew Gross of Newsday reports.",
-     "date": "2026-11-09"
     },
     {
      "name": "Calum Ritchie",
