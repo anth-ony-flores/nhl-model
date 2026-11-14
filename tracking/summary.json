@@ -1,36 +1,36 @@
 {
- "updated": "2026-11-12",
- "games": 142,
+ "updated": "2026-11-13",
+ "games": 144,
  "record": {
   "su": {
-   "w": 93,
-   "l": 49,
+   "w": 94,
+   "l": 50,
    "p": 0,
-   "pct": 0.6549
+   "pct": 0.6528
   },
   "ml": {
-   "w": 57,
+   "w": 59,
    "l": 83,
    "p": 0,
-   "pct": 0.4071,
-   "units": -30.08,
-   "roi": -0.2148
+   "pct": 0.4155,
+   "units": -28.17,
+   "roi": -0.1984
   },
   "pl": {
-   "w": 71,
-   "l": 68,
+   "w": 72,
+   "l": 69,
    "p": 0,
-   "pct": 0.5108,
-   "units": -14.67,
-   "roi": -0.1055
+   "pct": 0.5106,
+   "units": -15.11,
+   "roi": -0.1072
   },
   "tot": {
-   "w": 72,
+   "w": 74,
    "l": 70,
    "p": 0,
-   "pct": 0.507,
-   "units": -3.45,
-   "roi": -0.0243
+   "pct": 0.5139,
+   "units": -1.84,
+   "roi": -0.0128
   }
  },
  "strong": {
@@ -51,67 +51,67 @@
    "roi": 0.0757
   },
   "tot": {
-   "w": 48,
+   "w": 49,
    "l": 54,
    "p": 0,
-   "pct": 0.4706,
-   "units": -10.22,
-   "roi": -0.1002
+   "pct": 0.4757,
+   "units": -9.45,
+   "roi": -0.0918
   }
  },
  "last7": {
   "su": {
-   "w": 35,
+   "w": 34,
    "l": 13,
    "p": 0,
-   "pct": 0.7292
+   "pct": 0.7234
   },
   "ml": {
-   "w": 26,
-   "l": 22,
+   "w": 27,
+   "l": 20,
    "p": 0,
-   "pct": 0.5417,
-   "units": 0.21,
-   "roi": 0.0045
+   "pct": 0.5745,
+   "units": 3.77,
+   "roi": 0.0802
   },
   "pl": {
    "w": 25,
-   "l": 23,
-   "p": 0,
-   "pct": 0.5208,
-   "units": -0.19,
-   "roi": -0.0039
-  },
-  "tot": {
-   "w": 26,
    "l": 22,
    "p": 0,
-   "pct": 0.5417,
-   "units": 3.0,
-   "roi": 0.0626
+   "pct": 0.5319,
+   "units": 0.52,
+   "roi": 0.0111
+  },
+  "tot": {
+   "w": 27,
+   "l": 20,
+   "p": 0,
+   "pct": 0.5745,
+   "units": 5.71,
+   "roi": 0.1215
   }
  },
  "logloss": {
-  "games": 142,
-  "model": 0.6395,
-  "market": 0.6292
+  "games": 144,
+  "model": 0.6397,
+  "market": 0.6299
  },
  "rules": "One pick per market per game. Graded against DraftKings closing lines from ESPN's public feed; 1 unit risked per pick at the closing odds. Strong edge = 3.0 points or more.",
  "clv": {
   "ml": {
-   "n": 140,
-   "avg_pts": -0.38,
-   "beat_close_pct": 0.4
+   "n": 142,
+   "avg_pts": -0.34,
+   "beat_close_pct": 0.4085
   },
   "pl": {
-   "n": 125,
-   "avg_pts": -0.29,
-   "beat_close_pct": 0.408
+   "n": 127,
+   "avg_pts": -0.27,
+   "beat_close_pct": 0.4094
   },
   "tot": {
-   "n": 124,
-   "avg_pts": -1.26,
-   "beat_close_pct": 0.2419
+   "n": 126,
+   "avg_pts": -1.25,
+   "beat_close_pct": 0.246
   }
  },
  "clv_strong": {
@@ -126,26 +126,26 @@
    "beat_close_pct": 0.3962
   },
   "tot": {
-   "n": 89,
-   "avg_pts": -1.42,
-   "beat_close_pct": 0.2472
+   "n": 90,
+   "avg_pts": -1.4,
+   "beat_close_pct": 0.2556
   }
  },
  "all_picks": {
-  "w": 200,
-  "l": 221,
+  "w": 205,
+  "l": 222,
   "p": 0,
-  "pct": 0.4751,
-  "units": -48.2,
-  "roi": -0.1145
+  "pct": 0.4801,
+  "units": -45.12,
+  "roi": -0.1057
  },
  "strong_all": {
-  "w": 112,
+  "w": 113,
   "l": 115,
   "p": 0,
-  "pct": 0.4934,
-  "units": -13.14,
-  "roi": -0.0579
+  "pct": 0.4956,
+  "units": -12.37,
+  "roi": -0.0543
  },
  "names": {
   "su": "Straight up",
