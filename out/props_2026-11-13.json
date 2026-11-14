@@ -1,6 +1,6 @@
 {
  "date": "2026-11-13",
- "generated": "2026-11-14T01:10:52Z",
+ "generated": "2026-11-14T01:20:59Z",
  "data_through": "2026-11-12",
  "picks_enabled": false,
  "params": {
@@ -3287,9 +3287,9 @@
       "opp": "NSH",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "-110",
+      "over": "-105",
       "over_open": "+100",
-      "under": "-120",
+      "under": "-125",
       "under_open": "-140",
       "updated": "2026-11-13T12:19Z",
       "player_id": 8478109,
@@ -3304,11 +3304,11 @@
        "2.5": 0.0147,
        "3.5": 0.0018
       },
-      "mkt_over": 0.4899,
-      "edge_over": -0.0942,
-      "edge_under": 0.0942,
+      "mkt_over": 0.4797,
+      "edge_over": -0.084,
+      "edge_under": 0.084,
       "lean": "Under",
-      "edge": 0.0942,
+      "edge": 0.084,
       "strong": true
      },
      {
