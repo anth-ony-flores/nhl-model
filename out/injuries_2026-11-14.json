@@ -1,7 +1,7 @@
 {
  "day": "2026-11-14",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-14 16:10",
+ "fetched": "2026-11-14 16:21",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -822,6 +822,17 @@
    "missing_value": 0.1324,
    "players": [
     {
+     "name": "Erik Cernak",
+     "status": "Out",
+     "playerId": 8478416,
+     "position": "D",
+     "value": -0.0093,
+     "regular": true,
+     "applied": true,
+     "note": "Cernak (upper body) won't play against Detroit on Saturday, per Diandra Loux of The Hockey News.",
+     "date": "2026-11-14"
+    },
+    {
      "name": "Anthony Cirelli",
      "status": "Out",
      "playerId": 8478519,
@@ -830,17 +841,6 @@
      "regular": true,
      "applied": true,
      "note": "Cirelli (lower body) is set to miss Saturday's game against Detroit, per Diandra Loux of The Hockey News.",
-     "date": "2026-11-14"
-    },
-    {
-     "name": "Erik Cernak",
-     "status": "Out",
-     "playerId": 8478416,
-     "position": "D",
-     "value": -0.0093,
-     "regular": true,
-     "applied": true,
-     "note": "out",
      "date": "2026-11-14"
     },
     {
