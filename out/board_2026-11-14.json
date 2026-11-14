@@ -1,7 +1,7 @@
 {
  "date": "2026-11-14",
  "data_through": "2026-11-13",
- "generated": "2026-11-14 12:30 MST",
+ "generated": "2026-11-14 12:41 MST",
  "league_xg60": 3.015,
  "b2b_effect": {
   "own_xg": -0.251,
@@ -2248,7 +2248,19 @@
      }
     ]
    },
-   "inj_home": [],
+   "inj_home": [
+    {
+     "name": "Artemi Panarin",
+     "status": "Out",
+     "playerId": 8478550,
+     "position": "L",
+     "value": 0.1398,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-14"
+    }
+   ],
    "inj_away": [
     {
      "name": "Jonathan Huberdeau",
@@ -2284,53 +2296,53 @@
      "date": "2026-10-30"
     }
    ],
-   "inj_adj_home": 0.0,
+   "inj_adj_home": 0.14,
    "inj_adj_away": -0.07,
-   "xg_home": 3.073,
-   "xg_away": 2.528,
-   "proj_home": 2.99,
-   "proj_away": 2.69,
-   "p_home": 0.5545,
-   "p_away": 0.4455,
-   "p_ot": 0.2549,
-   "fair_ml_home": -124,
-   "fair_ml_away": 124,
-   "exp_total": 5.67,
+   "xg_home": 3.003,
+   "xg_away": 2.598,
+   "proj_home": 2.93,
+   "proj_away": 2.75,
+   "p_home": 0.531,
+   "p_away": 0.469,
+   "p_ot": 0.2562,
+   "fair_ml_home": -113,
+   "fair_ml_away": 113,
+   "exp_total": 5.68,
    "totals": {
     "4.5": {
-     "over": 0.6874,
-     "under": 0.3126
+     "over": 0.6885,
+     "under": 0.3115
     },
     "5.0": {
-     "over": 0.4866,
-     "under": 0.3126
+     "over": 0.4878,
+     "under": 0.3115
     },
     "5.5": {
-     "over": 0.4866,
-     "under": 0.5134
+     "over": 0.4878,
+     "under": 0.5122
     },
     "6.0": {
-     "over": 0.3463,
-     "under": 0.5134
+     "over": 0.3476,
+     "under": 0.5122
     },
     "6.5": {
-     "over": 0.3463,
-     "under": 0.6537
+     "over": 0.3476,
+     "under": 0.6524
     },
     "7.0": {
-     "over": 0.1965,
-     "under": 0.6537
+     "over": 0.1973,
+     "under": 0.6524
     },
     "7.5": {
-     "over": 0.1965,
-     "under": 0.8035
+     "over": 0.1973,
+     "under": 0.8027
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3362,
-    "away_+1.5": 0.6638,
-    "away_-1.5": 0.2512,
-    "home_+1.5": 0.7488
+    "home_-1.5": 0.317,
+    "away_+1.5": 0.683,
+    "away_-1.5": 0.2686,
+    "home_+1.5": 0.7314
    }
   }
  ],
