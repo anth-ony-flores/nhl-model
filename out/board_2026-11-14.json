@@ -1,7 +1,7 @@
 {
  "date": "2026-11-14",
  "data_through": "2026-11-13",
- "generated": "2026-11-14 15:50 MST",
+ "generated": "2026-11-14 16:00 MST",
  "league_xg60": 3.015,
  "b2b_effect": {
   "own_xg": -0.251,
@@ -896,26 +896,26 @@
    },
    "inj_home": [
     {
-     "name": "Erik Cernak",
-     "status": "Day-To-Day",
-     "playerId": 8478416,
-     "position": "D",
-     "value": -0.0093,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-13"
-    },
-    {
      "name": "Anthony Cirelli",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8478519,
      "position": "C",
      "value": 0.1119,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-13"
+     "applied": true,
+     "note": "Cirelli (lower body) is set to miss Saturday's game against Detroit, per Diandra Loux of The Hockey News.",
+     "date": "2026-11-14"
+    },
+    {
+     "name": "Erik Cernak",
+     "status": "Out",
+     "playerId": 8478416,
+     "position": "D",
+     "value": -0.0093,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-14"
     },
     {
      "name": "Brayden Point",
@@ -964,53 +964,53 @@
      "date": "2026-10-14"
     }
    ],
-   "inj_adj_home": 0.03,
+   "inj_adj_home": 0.132,
    "inj_adj_away": 0,
-   "xg_home": 3.276,
-   "xg_away": 2.769,
-   "proj_home": 3.54,
-   "proj_away": 2.58,
-   "p_home": 0.6604,
-   "p_away": 0.3396,
-   "p_ot": 0.2278,
-   "fair_ml_home": -194,
-   "fair_ml_away": 194,
+   "xg_home": 3.224,
+   "xg_away": 2.82,
+   "proj_home": 3.49,
+   "proj_away": 2.63,
+   "p_home": 0.645,
+   "p_away": 0.355,
+   "p_ot": 0.2312,
+   "fair_ml_home": -182,
+   "fair_ml_away": 182,
    "exp_total": 6.12,
    "totals": {
     "4.5": {
-     "over": 0.748,
-     "under": 0.252
+     "over": 0.7477,
+     "under": 0.2523
     },
     "5.0": {
-     "over": 0.5641,
-     "under": 0.252
+     "over": 0.5634,
+     "under": 0.2523
     },
     "5.5": {
-     "over": 0.5641,
-     "under": 0.4359
+     "over": 0.5634,
+     "under": 0.4366
     },
     "6.0": {
-     "over": 0.4193,
-     "under": 0.4359
+     "over": 0.419,
+     "under": 0.4366
     },
     "6.5": {
-     "over": 0.4193,
-     "under": 0.5807
+     "over": 0.419,
+     "under": 0.581
     },
     "7.0": {
-     "over": 0.2582,
-     "under": 0.5807
+     "over": 0.2576,
+     "under": 0.581
     },
     "7.5": {
-     "over": 0.2582,
-     "under": 0.7418
+     "over": 0.2576,
+     "under": 0.7424
     }
    },
    "puck_line": {
-    "home_-1.5": 0.4423,
-    "away_+1.5": 0.5577,
-    "away_-1.5": 0.1841,
-    "home_+1.5": 0.8159
+    "home_-1.5": 0.4271,
+    "away_+1.5": 0.5729,
+    "away_-1.5": 0.1943,
+    "home_+1.5": 0.8057
    }
   },
   {

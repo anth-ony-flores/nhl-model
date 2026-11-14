@@ -1,7 +1,7 @@
 {
  "day": "2026-11-14",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-14 15:50",
+ "fetched": "2026-11-14 16:00",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -819,29 +819,29 @@
    ]
   },
   "TBL": {
-   "missing_value": 0.0298,
+   "missing_value": 0.1324,
    "players": [
     {
-     "name": "Erik Cernak",
-     "status": "Day-To-Day",
-     "playerId": 8478416,
-     "position": "D",
-     "value": -0.0093,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-13"
-    },
-    {
      "name": "Anthony Cirelli",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8478519,
      "position": "C",
      "value": 0.1119,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-13"
+     "applied": true,
+     "note": "Cirelli (lower body) is set to miss Saturday's game against Detroit, per Diandra Loux of The Hockey News.",
+     "date": "2026-11-14"
+    },
+    {
+     "name": "Erik Cernak",
+     "status": "Out",
+     "playerId": 8478416,
+     "position": "D",
+     "value": -0.0093,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-14"
     },
     {
      "name": "Brayden Point",
