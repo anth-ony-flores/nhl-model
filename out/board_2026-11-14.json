@@ -1,7 +1,7 @@
 {
  "date": "2026-11-14",
  "data_through": "2026-11-13",
- "generated": "2026-11-14 10:01 MST",
+ "generated": "2026-11-14 10:11 MST",
  "league_xg60": 3.015,
  "b2b_effect": {
   "own_xg": -0.251,
@@ -737,22 +737,22 @@
    ],
    "inj_away": [
     {
+     "name": "Nathan MacKinnon",
+     "status": "Out",
+     "playerId": 8477492,
+     "position": "C",
+     "value": 0.0828,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-14"
+    },
+    {
      "name": "Cale Makar",
      "status": "Day-To-Day",
      "playerId": 8480069,
      "position": "D",
      "value": 0.0578,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-13"
-    },
-    {
-     "name": "Nathan MacKinnon",
-     "status": "Day-To-Day",
-     "playerId": 8477492,
-     "position": "C",
-     "value": 0.0828,
      "regular": true,
      "applied": false,
      "note": "day-to-day",
@@ -782,52 +782,52 @@
     }
    ],
    "inj_adj_home": -0.025,
-   "inj_adj_away": 0,
-   "xg_home": 2.883,
-   "xg_away": 3.472,
-   "proj_home": 3.03,
-   "proj_away": 3.13,
-   "p_home": 0.4824,
-   "p_away": 0.5176,
+   "inj_adj_away": 0.083,
+   "xg_home": 2.924,
+   "xg_away": 3.43,
+   "proj_home": 3.07,
+   "proj_away": 3.09,
+   "p_home": 0.4952,
+   "p_away": 0.5048,
    "p_ot": 0.2451,
-   "fair_ml_home": 107,
-   "fair_ml_away": -107,
-   "exp_total": 6.15,
+   "fair_ml_home": 102,
+   "fair_ml_away": -102,
+   "exp_total": 6.16,
    "totals": {
     "4.5": {
-     "over": 0.7531,
-     "under": 0.2469
+     "over": 0.7539,
+     "under": 0.2461
     },
     "5.0": {
-     "over": 0.5687,
-     "under": 0.2469
+     "over": 0.5696,
+     "under": 0.2461
     },
     "5.5": {
-     "over": 0.5687,
-     "under": 0.4313
+     "over": 0.5696,
+     "under": 0.4304
     },
     "6.0": {
-     "over": 0.4264,
-     "under": 0.4313
+     "over": 0.4274,
+     "under": 0.4304
     },
     "6.5": {
-     "over": 0.4264,
-     "under": 0.5736
+     "over": 0.4274,
+     "under": 0.5726
     },
     "7.0": {
-     "over": 0.2624,
-     "under": 0.5736
+     "over": 0.2633,
+     "under": 0.5726
     },
     "7.5": {
-     "over": 0.2624,
-     "under": 0.7376
+     "over": 0.2633,
+     "under": 0.7367
     }
    },
    "puck_line": {
-    "home_-1.5": 0.2866,
-    "away_+1.5": 0.7134,
-    "away_-1.5": 0.3147,
-    "home_+1.5": 0.6853
+    "home_-1.5": 0.2968,
+    "away_+1.5": 0.7032,
+    "away_-1.5": 0.3044,
+    "home_+1.5": 0.6956
    }
   },
   {
