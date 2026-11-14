@@ -1,0 +1,1181 @@
+{
+ "day": "2026-11-14",
+ "source": "ESPN injuries feed",
+ "fetched": "2026-11-14 07:16",
+ "k": 1.0,
+ "teams": {
+  "ANA": {
+   "missing_value": 0.0447,
+   "players": [
+    {
+     "name": "Ryan Poehling",
+     "status": "Injured Reserve",
+     "playerId": 8480068,
+     "position": "C",
+     "value": -0.0613,
+     "regular": false,
+     "applied": false,
+     "note": "Poehling (lower body) was placed on long-term injured reserve by the Ducks on Wednesday.",
+     "date": "2026-11-11"
+    },
+    {
+     "name": "Ian Moore",
+     "status": "Injured Reserve",
+     "playerId": 8482178,
+     "position": "D",
+     "value": 0.0056,
+     "regular": false,
+     "applied": false,
+     "note": "Moore (lower body) might be an option to play by the end of the week, Derek Lee of The Hockey News reports Wednesday.",
+     "date": "2026-11-11"
+    },
+    {
+     "name": "A.J. Greer",
+     "status": "Injured Reserve",
+     "playerId": 8478421,
+     "position": "L",
+     "value": 0.0447,
+     "regular": true,
+     "applied": true,
+     "note": "Greer (upper body) was placed on injured reserve Monday.",
+     "date": "2026-11-02"
+    }
+   ]
+  },
+  "BOS": {
+   "missing_value": 0.0121,
+   "players": [
+    {
+     "name": "James Hagens",
+     "status": "Injured Reserve",
+     "playerId": 8485395,
+     "position": "C",
+     "value": 0.0121,
+     "regular": true,
+     "applied": true,
+     "note": "Head coach Marco Sturm announced Saturday that Hagens (back) is expected to miss multiple weeks, per Jack Studley of Boston Hockey Now.",
+     "date": "2026-11-07"
+    }
+   ]
+  },
+  "BUF": {
+   "missing_value": 0,
+   "players": [
+    {
+     "name": "Konsta Helenius",
+     "status": "Injured Reserve",
+     "playerId": 8484797,
+     "position": "C",
+     "value": 0.0207,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-11-12"
+    },
+    {
+     "name": "Justin Danforth",
+     "status": "Injured Reserve",
+     "playerId": 8479941,
+     "position": "R",
+     "value": -0.0039,
+     "regular": false,
+     "applied": false,
+     "note": "Danforth (upper body) was placed on injured reserve Thursday, per the NHL media site.",
+     "date": "2026-10-29"
+    },
+    {
+     "name": "Matt Grzelcyk",
+     "status": "Injured Reserve",
+     "playerId": 8476891,
+     "position": "D",
+     "value": -0.0025,
+     "regular": false,
+     "applied": false,
+     "note": "Grzelcyk (lower body) suffered a \"flare-up\" and could be out for at least \"a few days,\" head coach Lindy Ruff told Rachel Lenzi of The Buffalo News on Tuesday.",
+     "date": "2026-10-13"
+    }
+   ]
+  },
+  "CGY": {
+   "missing_value": -0.0696,
+   "players": [
+    {
+     "name": "Jonathan Huberdeau",
+     "status": "Injured Reserve",
+     "playerId": 8476456,
+     "position": "L",
+     "value": 0.0285,
+     "regular": false,
+     "applied": false,
+     "note": "Huberdeau (hip) won't travel with the Flames during their upcoming three-game road trip, Pat Steinberg of QR Calgary 770 AM reports Friday.",
+     "date": "2026-11-13"
+    },
+    {
+     "name": "Kevin Bahl",
+     "status": "Injured Reserve",
+     "playerId": 8480860,
+     "position": "D",
+     "value": -0.0696,
+     "regular": true,
+     "applied": true,
+     "note": "Bahl will undergo surgery for a ruptured Achilles tendon and won't play again in the 2026-27 season, the Flames announced Sunday.",
+     "date": "2026-11-08"
+    },
+    {
+     "name": "Connor Zary",
+     "status": "Out",
+     "playerId": 8482074,
+     "position": "C",
+     "value": 0.022,
+     "regular": false,
+     "applied": false,
+     "note": "out",
+     "date": "2026-10-30"
+    }
+   ]
+  },
+  "CAR": {
+   "missing_value": 0,
+   "players": [
+    {
+     "name": "Jordan Staal",
+     "status": "Injured Reserve",
+     "playerId": 8473533,
+     "position": "C",
+     "value": -0.0364,
+     "regular": false,
+     "applied": false,
+     "note": "Staal (calf) will be a game-time decision versus the Kraken on Saturday after head coach Rod Brind'Amour told reporters, \"So, we'll find out probably tomorrow after you know gets through the morning, ",
+     "date": "2026-11-13"
+    }
+   ]
+  },
+  "CHI": {
+   "missing_value": 0,
+   "players": [
+    {
+     "name": "Bowen Byram",
+     "status": "Injured Reserve",
+     "playerId": 8481524,
+     "position": "D",
+     "value": -0.0565,
+     "regular": false,
+     "applied": false,
+     "note": "Byram (upper body) was placed on injured reserve Tuesday.",
+     "date": "2026-11-03"
+    }
+   ]
+  },
+  "COL": {
+   "missing_value": 0,
+   "players": [
+    {
+     "name": "Cale Makar",
+     "status": "Day-To-Day",
+     "playerId": 8480069,
+     "position": "D",
+     "value": 0.0578,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-13"
+    },
+    {
+     "name": "Nathan MacKinnon",
+     "status": "Day-To-Day",
+     "playerId": 8477492,
+     "position": "C",
+     "value": 0.0828,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-13"
+    },
+    {
+     "name": "Josh Manson",
+     "status": "Injured Reserve",
+     "playerId": 8476312,
+     "position": "D",
+     "value": -0.0146,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-11-09"
+    },
+    {
+     "name": "Zachary L'Heureux",
+     "status": "Injured Reserve",
+     "playerId": 8482742,
+     "position": "L",
+     "value": 0.0577,
+     "regular": false,
+     "applied": false,
+     "note": "ir-lt",
+     "date": "2026-10-23"
+    }
+   ]
+  },
+  "DAL": {
+   "missing_value": 0.0287,
+   "players": [
+    {
+     "name": "Lian Bichsel",
+     "status": "Out",
+     "playerId": 8483425,
+     "position": "D",
+     "value": -0.0853,
+     "regular": true,
+     "applied": true,
+     "note": "Head coach Glen Gulutzan said Friday that Bichsel (lower body) will be out for \"a couple weeks,\" Stars TV host Brien Rea reports.",
+     "date": "2026-11-13"
+    },
+    {
+     "name": "Miro Heiskanen",
+     "status": "Out",
+     "playerId": 8480036,
+     "position": "D",
+     "value": 0.114,
+     "regular": true,
+     "applied": true,
+     "note": "Heiskanen (upper body) has been ruled out against the Sabres on Saturday, Stars TV host Brien Rea reports.",
+     "date": "2026-11-13"
+    },
+    {
+     "name": "Kyle Capobianco",
+     "status": "Injured Reserve",
+     "playerId": 8478476,
+     "position": "D",
+     "value": -0.0042,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-10-31"
+    }
+   ]
+  },
+  "DET": {
+   "missing_value": 0,
+   "players": [
+    {
+     "name": "Albert Johansson",
+     "status": "Injured Reserve",
+     "playerId": 8481607,
+     "position": "D",
+     "value": -0.0276,
+     "regular": false,
+     "applied": false,
+     "note": "Johansson (undisclosed) will be with the Red Wings for their upcoming four-game road trip, Ansar Khan of MLive.com reports Friday.",
+     "date": "2026-11-06"
+    },
+    {
+     "name": "Dylan Larkin",
+     "status": "Injured Reserve",
+     "playerId": 8477946,
+     "position": "C",
+     "value": 0.0063,
+     "regular": false,
+     "applied": false,
+     "note": "ir-nr",
+     "date": "2026-10-31"
+    },
+    {
+     "name": "Simon Edvinsson",
+     "status": "Injured Reserve",
+     "playerId": 8482762,
+     "position": "D",
+     "value": 0.1158,
+     "regular": false,
+     "applied": false,
+     "note": "Edvinsson (contract dispute) is on the Red Wings' injured, non-roster list, per the NHL media site Wednesday.",
+     "date": "2026-10-14"
+    }
+   ]
+  },
+  "EDM": {
+   "missing_value": 0,
+   "players": [
+    {
+     "name": "Isaac Howard",
+     "status": "Injured Reserve",
+     "playerId": 8483455,
+     "position": "L",
+     "value": -0.0628,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-11-06"
+    },
+    {
+     "name": "Alec Regula",
+     "status": "Injured Reserve",
+     "playerId": 8480831,
+     "position": "D",
+     "value": -0.0291,
+     "regular": false,
+     "applied": false,
+     "note": "Regula (undisclosed) was designated for long-term injured reserve Thursday.",
+     "date": "2026-10-01"
+    },
+    {
+     "name": "Matt Savoie",
+     "status": "Injured Reserve",
+     "playerId": 8483512,
+     "position": "C",
+     "value": -0.0361,
+     "regular": false,
+     "applied": false,
+     "note": "Savoie (lower body) was shifted to long-term injured reserve Thursday.",
+     "date": "2026-10-01"
+    },
+    {
+     "name": "Mattias Janmark",
+     "status": "Injured Reserve",
+     "playerId": 8477406,
+     "position": "C",
+     "value": -0.0944,
+     "regular": false,
+     "applied": false,
+     "note": "Janmark (undisclosed) does not have a timetable for his return from injury.",
+     "date": "2026-09-29"
+    }
+   ]
+  },
+  "FLA": {
+   "missing_value": 0,
+   "players": [
+    {
+     "name": "Brad Marchand",
+     "status": "Injured Reserve",
+     "playerId": 8473419,
+     "position": "L",
+     "value": -0.0695,
+     "regular": false,
+     "applied": false,
+     "note": "Head coach Paul Maurice said Friday that Marchand (knee) will travel with the Panthers during their upcoming three-game road trip, Jameson Olive of the Panthers' official site reports.",
+     "date": "2026-11-06"
+    },
+    {
+     "name": "Aleksander Barkov",
+     "status": "Injured Reserve",
+     "playerId": 8477493,
+     "position": "C",
+     "value": 0.082,
+     "regular": false,
+     "applied": false,
+     "note": "Head coach Paul Maurice said Friday that Barkov (knee) will travel with the Panthers during their upcoming three-game road trip, Jameson Olive of the Panthers' official site reports.",
+     "date": "2026-11-06"
+    },
+    {
+     "name": "Jonah Gadjovich",
+     "status": "Injured Reserve",
+     "playerId": 8479981,
+     "position": "L",
+     "value": -0.0089,
+     "regular": false,
+     "applied": false,
+     "note": "Gadjovich (upper body) is out indefinitely, the team announced Thursday.",
+     "date": "2026-09-17"
+    }
+   ]
+  },
+  "PHI": {
+   "missing_value": 0,
+   "players": [
+    {
+     "name": "Erik Gustafsson",
+     "status": "Day-To-Day",
+     "playerId": 8476979,
+     "position": "D",
+     "value": 0.0749,
+     "regular": false,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-13"
+    },
+    {
+     "name": "Noel Acciari",
+     "status": "Day-To-Day",
+     "playerId": 8478569,
+     "position": "C",
+     "value": -0.0164,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-12"
+    },
+    {
+     "name": "Nikita Grebenkin",
+     "status": "Injured Reserve",
+     "playerId": 8483733,
+     "position": "R",
+     "value": -0.043,
+     "regular": false,
+     "applied": false,
+     "note": "Grebenkin (back) underwent successful surgery and is expected to miss at least four months.",
+     "date": "2026-10-10"
+    }
+   ]
+  },
+  "MIN": {
+   "missing_value": 0,
+   "players": [
+    {
+     "name": "Joel Eriksson Ek",
+     "status": "Day-To-Day",
+     "playerId": 8478493,
+     "position": "C",
+     "value": 0.0585,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-13"
+    },
+    {
+     "name": "Brock Faber",
+     "status": "Injured Reserve",
+     "playerId": 8482122,
+     "position": "D",
+     "value": 0.068,
+     "regular": false,
+     "applied": false,
+     "note": "Faber (skull) has told the Wild that he's ready to play and expects to return for Saturday's game against the Bruins, Michael Russo of The Athletic reports Wednesday.",
+     "date": "2026-11-11"
+    }
+   ]
+  },
+  "MTL": {
+   "missing_value": 0,
+   "players": [
+    {
+     "name": "Chris Kreider",
+     "status": "Day-To-Day",
+     "playerId": 8475184,
+     "position": "L",
+     "value": -0.0246,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-13"
+    },
+    {
+     "name": "Ivan Demidov",
+     "status": "Injured Reserve",
+     "playerId": 8484984,
+     "position": "R",
+     "value": -0.0089,
+     "regular": false,
+     "applied": false,
+     "note": "Demidov (foot) skated Tuesday and could resume training with the team next week, Patrick Friolet of RDS reports.",
+     "date": "2026-11-04"
+    },
+    {
+     "name": "Lucas Condotta",
+     "status": "Injured Reserve",
+     "playerId": 8483549,
+     "position": "L",
+     "value": 0.0059,
+     "regular": false,
+     "applied": false,
+     "note": "ir-nr",
+     "date": "2026-09-29"
+    }
+   ]
+  },
+  "NSH": {
+   "missing_value": 0,
+   "players": [
+    {
+     "name": "Jonathan Marchessault",
+     "status": "Out",
+     "playerId": 8476539,
+     "position": "R",
+     "value": -0.1318,
+     "regular": false,
+     "applied": false,
+     "note": "out",
+     "date": "2026-11-13"
+    }
+   ]
+  },
+  "NJD": {
+   "missing_value": -0.0052,
+   "players": [
+    {
+     "name": "Seamus Casey",
+     "status": "Injured Reserve",
+     "playerId": 8483429,
+     "position": "D",
+     "value": -0.0524,
+     "regular": false,
+     "applied": false,
+     "note": "Casey (knee) was moved to long-term injured reserve on Friday, per PuckPedia.",
+     "date": "2026-11-13"
+    },
+    {
+     "name": "Johnathan Kovacevic",
+     "status": "Injured Reserve",
+     "playerId": 8480192,
+     "position": "D",
+     "value": -0.002,
+     "regular": true,
+     "applied": true,
+     "note": "The Devils placed Kovacevic (ankle) on injured reserve Friday, retroactive to Nov. 10.",
+     "date": "2026-11-13"
+    },
+    {
+     "name": "Brett Pesce",
+     "status": "Day-To-Day",
+     "playerId": 8477488,
+     "position": "D",
+     "value": 0.0201,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-13"
+    },
+    {
+     "name": "Anthony Mantha",
+     "status": "Injured Reserve",
+     "playerId": 8477511,
+     "position": "R",
+     "value": -0.0032,
+     "regular": true,
+     "applied": true,
+     "note": "Mantha (throat) was placed on long-term injured reserve by the Devils on Wednesday, retroactive to Nov. 7.",
+     "date": "2026-11-11"
+    }
+   ]
+  },
+  "NYI": {
+   "missing_value": 0,
+   "players": [
+    {
+     "name": "Jean-Gabriel Pageau",
+     "status": "Day-To-Day",
+     "playerId": 8476419,
+     "position": "C",
+     "value": -0.0261,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-13"
+    },
+    {
+     "name": "Mathew Barzal",
+     "status": "Injured Reserve",
+     "playerId": 8478445,
+     "position": "C",
+     "value": 0.1357,
+     "regular": false,
+     "applied": false,
+     "note": "Barzal (knee) won't be in the lineup against the Sharks on Monday but has been upgraded to day-to-day, Andrew Gross of Newsday reports.",
+     "date": "2026-11-09"
+    },
+    {
+     "name": "Calum Ritchie",
+     "status": "Injured Reserve",
+     "playerId": 8484221,
+     "position": "C",
+     "value": -0.0677,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-10-26"
+    },
+    {
+     "name": "Alexander Romanov",
+     "status": "Injured Reserve",
+     "playerId": 8481014,
+     "position": "D",
+     "value": -0.1824,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-10-19"
+    }
+   ]
+  },
+  "NYR": {
+   "missing_value": -0.0538,
+   "players": [
+    {
+     "name": "Alberts Smits",
+     "status": "Injured Reserve",
+     "playerId": 8485957,
+     "position": "D",
+     "value": -0.0538,
+     "regular": true,
+     "applied": true,
+     "note": "ir",
+     "date": "2026-11-10"
+    },
+    {
+     "name": "Sean Durzi",
+     "status": "Injured Reserve",
+     "playerId": 8480434,
+     "position": "D",
+     "value": -0.0336,
+     "regular": false,
+     "applied": false,
+     "note": "Durzi (undisclosed) was put on injured reserve Thursday, per Mollie Walker of the New York Post.",
+     "date": "2026-11-05"
+    },
+    {
+     "name": "Adam Sykora",
+     "status": "Injured Reserve",
+     "playerId": 8483669,
+     "position": "L",
+     "value": -0.0802,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-09-29"
+    }
+   ]
+  },
+  "OTT": {
+   "missing_value": -0.0578,
+   "players": [
+    {
+     "name": "Nick Cousins",
+     "status": "Out",
+     "playerId": 8476393,
+     "position": "C",
+     "value": -0.0578,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-11"
+    },
+    {
+     "name": "Andre Burakovsky",
+     "status": "Injured Reserve",
+     "playerId": 8477444,
+     "position": "L",
+     "value": -0.0175,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-10-31"
+    },
+    {
+     "name": "Warren Foegele",
+     "status": "Injured Reserve",
+     "playerId": 8477998,
+     "position": "L",
+     "value": -0.016,
+     "regular": false,
+     "applied": false,
+     "note": "Foegele (knee) will miss 3-4 weeks, Jackson Starr of the Senators' official site reports Saturday.",
+     "date": "2026-10-31"
+    },
+    {
+     "name": "William Eklund",
+     "status": "Injured Reserve",
+     "playerId": 8482667,
+     "position": "L",
+     "value": 0.0839,
+     "regular": false,
+     "applied": false,
+     "note": "Eklund had surgery to repair a torn ankle tendon and will be out 10-12 weeks, Bruce Garrioch of Postmedia reports Thursday.",
+     "date": "2026-10-15"
+    }
+   ]
+  },
+  "PIT": {
+   "missing_value": 0,
+   "players": [
+    {
+     "name": "Elmer Soderblom",
+     "status": "Injured Reserve",
+     "playerId": 8481725,
+     "position": "L",
+     "value": 0.0144,
+     "regular": false,
+     "applied": false,
+     "note": "Soderblom (upper body) is week-to-week, per Penguins PR on Monday.",
+     "date": "2026-11-02"
+    },
+    {
+     "name": "Bryan Rust",
+     "status": "Injured Reserve",
+     "playerId": 8475810,
+     "position": "R",
+     "value": -0.0415,
+     "regular": false,
+     "applied": false,
+     "note": "Rust (lower body) will be re-evaluated in six weeks, Michelle Crechiolo of the Penguins' official site reports Thursday.",
+     "date": "2026-10-22"
+    },
+    {
+     "name": "Trevor van Riemsdyk",
+     "status": "Injured Reserve",
+     "playerId": 8477845,
+     "position": "D",
+     "value": -0.0026,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-10-12"
+    },
+    {
+     "name": "Ryan Graves",
+     "status": "Injured Reserve",
+     "playerId": 8477435,
+     "position": "D",
+     "value": 0.0175,
+     "regular": false,
+     "applied": false,
+     "note": "Graves (lower body) is out indefinitely and was placed on injured reserve Sunday.",
+     "date": "2026-09-27"
+    }
+   ]
+  },
+  "SJS": {
+   "missing_value": 0,
+   "players": [
+    {
+     "name": "Alexander Wennberg",
+     "status": "Day-To-Day",
+     "playerId": 8477505,
+     "position": "C",
+     "value": -0.0166,
+     "regular": false,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-13"
+    },
+    {
+     "name": "Igor Chernyshov",
+     "status": "Injured Reserve",
+     "playerId": 8484994,
+     "position": "L",
+     "value": 0.0349,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-10-28"
+    }
+   ]
+  },
+  "SEA": {
+   "missing_value": 0,
+   "players": [
+    {
+     "name": "Jacob Melanson",
+     "status": "Injured Reserve",
+     "playerId": 8482874,
+     "position": "R",
+     "value": 0.0298,
+     "regular": false,
+     "applied": false,
+     "note": "Melanson (chest) will be a game-time call for Saturday's clash with the Hurricanes, Tom Gulitti of NHL.com reports.",
+     "date": "2026-11-13"
+    },
+    {
+     "name": "Ryan Lindgren",
+     "status": "Injured Reserve",
+     "playerId": 8479324,
+     "position": "D",
+     "value": -0.0766,
+     "regular": false,
+     "applied": false,
+     "note": "Lindgren (upper body) will be a game-time decision ahead of Saturday's matchup with Carolina, Tom Gulitti of NHL.com reports.",
+     "date": "2026-11-13"
+    },
+    {
+     "name": "Curtis Douglas",
+     "status": "Injured Reserve",
+     "playerId": 8480876,
+     "position": "C",
+     "value": 0.0241,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-11-05"
+    },
+    {
+     "name": "Jared McCann",
+     "status": "Injured Reserve",
+     "playerId": 8477955,
+     "position": "L",
+     "value": 0.0686,
+     "regular": false,
+     "applied": false,
+     "note": "McCann (lower body) will be out for approximately 10 weeks, the team announced Sunday.",
+     "date": "2026-10-25"
+    }
+   ]
+  },
+  "STL": {
+   "missing_value": 0,
+   "players": [
+    {
+     "name": "Torey Krug",
+     "status": "Injured Reserve",
+     "playerId": 8476792,
+     "position": "D",
+     "value": 0.0022,
+     "regular": false,
+     "applied": false,
+     "note": "Krug (ankle) was placed on long-term injured reserve by the Blues on Monday, per PuckPedia.",
+     "date": "2026-10-13"
+    },
+    {
+     "name": "Dillon Dube",
+     "status": "Injured Reserve",
+     "playerId": 8479346,
+     "position": "C",
+     "value": -0.0926,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-10-10"
+    },
+    {
+     "name": "Tyler Tucker",
+     "status": "Injured Reserve",
+     "playerId": 8481006,
+     "position": "D",
+     "value": 0.0615,
+     "regular": false,
+     "applied": false,
+     "note": "Tucker had arthroscopic knee surgery and will be re-assessed in six weeks, the team announced Wednesday.",
+     "date": "2026-09-30"
+    }
+   ]
+  },
+  "TBL": {
+   "missing_value": 0.0298,
+   "players": [
+    {
+     "name": "Erik Cernak",
+     "status": "Day-To-Day",
+     "playerId": 8478416,
+     "position": "D",
+     "value": -0.0093,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-13"
+    },
+    {
+     "name": "Anthony Cirelli",
+     "status": "Day-To-Day",
+     "playerId": 8478519,
+     "position": "C",
+     "value": 0.1119,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-13"
+    },
+    {
+     "name": "Brayden Point",
+     "status": "Injured Reserve",
+     "playerId": 8478010,
+     "position": "C",
+     "value": 0.0298,
+     "regular": true,
+     "applied": true,
+     "note": "ir",
+     "date": "2026-11-10"
+    }
+   ]
+  },
+  "TOR": {
+   "missing_value": -0.0238,
+   "players": [
+    {
+     "name": "Morgan Rielly",
+     "status": "Day-To-Day",
+     "playerId": 8476853,
+     "position": "D",
+     "value": 0.0792,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-13"
+    },
+    {
+     "name": "Colton Sissons",
+     "status": "Injured Reserve",
+     "playerId": 8476925,
+     "position": "C",
+     "value": -0.0238,
+     "regular": true,
+     "applied": true,
+     "note": "ir",
+     "date": "2026-11-12"
+    },
+    {
+     "name": "Kirill Marchenko",
+     "status": "Injured Reserve",
+     "playerId": 8480893,
+     "position": "R",
+     "value": 0.0697,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-10-29"
+    },
+    {
+     "name": "Miles Wood",
+     "status": "Injured Reserve",
+     "playerId": 8477425,
+     "position": "L",
+     "value": -0.0671,
+     "regular": false,
+     "applied": false,
+     "note": "Wood (undisclosed) was transferred to long-term injured reserve Wednesday, David Alter of The Hockey News reports.",
+     "date": "2026-10-29"
+    },
+    {
+     "name": "Nick Blankenburg",
+     "status": "Injured Reserve",
+     "playerId": 8483565,
+     "position": "D",
+     "value": 0.0225,
+     "regular": false,
+     "applied": false,
+     "note": "Blankenburg (undisclosed) was placed on injured reserve by the Maple Leafs on Friday, David Alter of The Hockey News reports.",
+     "date": "2026-10-23"
+    },
+    {
+     "name": "Marshall Rifai",
+     "status": "Injured Reserve",
+     "playerId": 8483546,
+     "position": "D",
+     "value": -0.0296,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-10-23"
+    },
+    {
+     "name": "Max Domi",
+     "status": "Injured Reserve",
+     "playerId": 8477503,
+     "position": "C",
+     "value": -0.0632,
+     "regular": false,
+     "applied": false,
+     "note": "Domi (back) was transferred from the non-roster list to long-term injured reserve Wednesday, per PuckPedia.",
+     "date": "2026-09-30"
+    },
+    {
+     "name": "William Villeneuve",
+     "status": "Injured Reserve",
+     "playerId": 8482174,
+     "position": "D",
+     "value": -0.0028,
+     "regular": false,
+     "applied": false,
+     "note": "ir-nr",
+     "date": "2026-09-29"
+    }
+   ]
+  },
+  "UTA": {
+   "missing_value": -0.0053,
+   "players": [
+    {
+     "name": "Logan Cooley",
+     "status": "Out",
+     "playerId": 8483431,
+     "position": "C",
+     "value": -0.0073,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-13"
+    },
+    {
+     "name": "Nick Schmaltz",
+     "status": "Day-To-Day",
+     "playerId": 8477951,
+     "position": "C",
+     "value": -0.0559,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-13"
+    },
+    {
+     "name": "Nate Schmidt",
+     "status": "Injured Reserve",
+     "playerId": 8477220,
+     "position": "D",
+     "value": 0.0716,
+     "regular": true,
+     "applied": true,
+     "note": "The Mammoth announced Thursday that Schmidt (upper body) is considered week-to-week, Cole Bagley of KSL Sports reports.",
+     "date": "2026-11-12"
+    },
+    {
+     "name": "Dylan Guenther",
+     "status": "Injured Reserve",
+     "playerId": 8482699,
+     "position": "R",
+     "value": -0.0696,
+     "regular": true,
+     "applied": true,
+     "note": "ir",
+     "date": "2026-11-12"
+    },
+    {
+     "name": "John Marino",
+     "status": "Injured Reserve",
+     "playerId": 8478507,
+     "position": "D",
+     "value": 0.0364,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-11-01"
+    },
+    {
+     "name": "Maveric Lamoureux",
+     "status": "Injured Reserve",
+     "playerId": 8483472,
+     "position": "D",
+     "value": -0.0012,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-09-28"
+    }
+   ]
+  },
+  "VAN": {
+   "missing_value": -0.0674,
+   "players": [
+    {
+     "name": "Guillaume Brisebois",
+     "status": "Injured Reserve",
+     "playerId": 8478465,
+     "position": "D",
+     "value": -0.0674,
+     "regular": true,
+     "applied": true,
+     "note": "ir",
+     "date": "2026-11-13"
+    },
+    {
+     "name": "Mackenzie MacEachern",
+     "status": "Injured Reserve",
+     "playerId": 8476907,
+     "position": "L",
+     "value": -0.0023,
+     "regular": false,
+     "applied": false,
+     "note": "ir-nr",
+     "date": "2026-09-29"
+    }
+   ]
+  },
+  "VGK": {
+   "missing_value": 0.0141,
+   "players": [
+    {
+     "name": "Noah Hanifin",
+     "status": "Out",
+     "playerId": 8478396,
+     "position": "D",
+     "value": 0.0141,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-10"
+    }
+   ]
+  },
+  "WSH": {
+   "missing_value": 0,
+   "players": [
+    {
+     "name": "Rasmus Sandin",
+     "status": "Injured Reserve",
+     "playerId": 8480873,
+     "position": "D",
+     "value": -0.0198,
+     "regular": false,
+     "applied": false,
+     "note": "Sandin (knee) will be with the Capitals for their two-game road trip, Tarik El-Bashir of Monumental Sports Network reports Monday.",
+     "date": "2026-11-09"
+    },
+    {
+     "name": "Vincent Desharnais",
+     "status": "Injured Reserve",
+     "playerId": 8479576,
+     "position": "D",
+     "value": 0.0276,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-10-23"
+    }
+   ]
+  },
+  "WPG": {
+   "missing_value": 0.0392,
+   "players": [
+    {
+     "name": "Isak Rosen",
+     "status": "Out",
+     "playerId": 8482765,
+     "position": "R",
+     "value": -0.0298,
+     "regular": true,
+     "applied": true,
+     "note": "Rosen (undisclosed) has been ruled out for Saturday's game against the Blackhawks, Ken Wiebe of The Winnipeg Free Press reports.",
+     "date": "2026-11-13"
+    },
+    {
+     "name": "Dylan DeMelo",
+     "status": "Injured Reserve",
+     "playerId": 8476331,
+     "position": "D",
+     "value": 0.0578,
+     "regular": true,
+     "applied": true,
+     "note": "DeMelo (lower body) was placed on injured reserve Friday.",
+     "date": "2026-11-13"
+    },
+    {
+     "name": "Elias Salomonsson",
+     "status": "Injured Reserve",
+     "playerId": 8483510,
+     "position": "D",
+     "value": 0.0112,
+     "regular": true,
+     "applied": true,
+     "note": "ir-nr",
+     "date": "2026-11-08"
+    },
+    {
+     "name": "Vladislav Namestnikov",
+     "status": "Injured Reserve",
+     "playerId": 8476480,
+     "position": "C",
+     "value": -0.0097,
+     "regular": false,
+     "applied": false,
+     "note": "ir",
+     "date": "2026-10-23"
+    },
+    {
+     "name": "Nick Bjugstad",
+     "status": "Injured Reserve",
+     "playerId": 8475760,
+     "position": "C",
+     "value": -0.0609,
+     "regular": false,
+     "applied": false,
+     "note": "Bjugstad (pectoral), Dawson Mercer, Nico Daws, Alexander Command and a pair of draft picks were traded to the Jets from the Devils on Friday in exchange for Connor Hellebuyck.",
+     "date": "2026-10-23"
+    }
+   ]
+  }
+ }
+}
