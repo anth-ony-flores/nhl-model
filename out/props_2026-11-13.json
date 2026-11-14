@@ -1,6 +1,6 @@
 {
  "date": "2026-11-13",
- "generated": "2026-11-14T01:41:13Z",
+ "generated": "2026-11-14T01:51:19Z",
  "data_through": "2026-11-12",
  "picks_enabled": false,
  "params": {
@@ -12,8 +12,8 @@
  },
  "side_check": {
   "pairs": 70,
-  "checked": 67,
-  "first_is_over": 67,
+  "checked": 66,
+  "first_is_over": 66,
   "mismatch": 0,
   "mismatches": []
  },
@@ -2425,19 +2425,19 @@
       "player": "Mavrik Bourque",
       "team": "NSH",
       "opp": "VGK",
-      "line": 2.5,
+      "line": 1.5,
       "open_line": 1.5,
-      "over": "+140",
+      "over": "-195",
       "over_open": "-160",
-      "under": "-195",
+      "under": "+145",
       "under_open": "+120",
-      "updated": "2026-11-14T02:36Z",
+      "updated": "2026-11-14T03:40Z",
       "player_id": 8482145,
       "pos": "F",
       "proj_toi": 15.8,
       "games_weight": 41.0,
       "mean": 1.706,
-      "p_over": 0.2463,
+      "p_over": 0.5025,
       "curve": {
        "0.5": 0.8097,
        "1.5": 0.5025,
@@ -2448,11 +2448,11 @@
        "6.5": 0.0027,
        "7.5": 0.0007
       },
-      "mkt_over": 0.3866,
-      "edge_over": -0.1403,
-      "edge_under": 0.1403,
+      "mkt_over": 0.6182,
+      "edge_over": -0.1158,
+      "edge_under": 0.1158,
       "lean": "Under",
-      "edge": 0.1403,
+      "edge": 0.1158,
       "strong": true
      },
      {
@@ -4514,13 +4514,13 @@
       "player": "Adin Hill",
       "team": "VGK",
       "opp": "NSH",
-      "line": 23.5,
+      "line": 22.5,
       "open_line": 23.5,
-      "over": "-105",
+      "over": "-125",
       "over_open": "-110",
-      "under": "-130",
+      "under": "-105",
       "under_open": "-125",
-      "updated": "2026-11-13T22:11Z",
+      "updated": "2026-11-14T04:35Z",
       "player_id": 8478499,
       "pos": "G",
       "starter": false,
@@ -4528,7 +4528,7 @@
       "proj_sa": 24.3,
       "proj_sv": 0.8903,
       "mean": 21.59,
-      "p_over": 0.364,
+      "p_over": 0.4324,
       "curve": {
        "14.5": 0.8939,
        "15.5": 0.8598,
@@ -4559,11 +4559,11 @@
        "40.5": 0.0011,
        "41.5": 0.0007
       },
-      "mkt_over": 0.4754,
-      "edge_over": -0.1114,
-      "edge_under": 0.1114,
+      "mkt_over": 0.5203,
+      "edge_over": -0.0879,
+      "edge_under": 0.0879,
       "lean": "Under",
-      "edge": 0.1114,
+      "edge": 0.0879,
       "strong": true
      }
     ]
