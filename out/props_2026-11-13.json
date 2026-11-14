@@ -1,6 +1,6 @@
 {
  "date": "2026-11-13",
- "generated": "2026-11-14T02:01:26Z",
+ "generated": "2026-11-14T02:11:33Z",
  "data_through": "2026-11-12",
  "picks_enabled": false,
  "params": {
@@ -11,24 +11,15 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 70,
-  "checked": 66,
-  "first_is_over": 66,
+  "pairs": 35,
+  "checked": 33,
+  "first_is_over": 33,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 142,
- "unmatched": [
-  {
-   "espn_id": "4587571",
-   "name": null,
-   "team": null,
-   "market": "goal",
-   "game": "NYR@VAN",
-   "why": "athlete not on either team's ESPN roster"
-  }
- ],
- "unmatched_rate": 0.007,
+ "lines": 71,
+ "unmatched": [],
+ "unmatched_rate": 0.0,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -64,9 +55,9 @@
    "away_name": "Rangers",
    "home_name": "Canucks",
    "start_utc": "2026-11-14T02:00:00Z",
-   "state": "pre",
-   "detail": "11/13 - 9:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "20:00 - 1st",
+   "frozen": true,
    "goal_factor": {
     "NYR": 1.14,
     "VAN": 1.008
