@@ -1,7 +1,7 @@
 {
  "date": "2026-11-13",
  "data_through": "2026-11-12",
- "generated": "2026-11-13 07:29 MST",
+ "generated": "2026-11-13 17:00 MST",
  "league_xg60": 3.013,
  "b2b_effect": {
   "own_xg": -0.25,
@@ -61,26 +61,15 @@
    },
    "inj_home": [
     {
-     "name": "Tom Willander",
-     "status": "Day-To-Day",
-     "playerId": 8484240,
-     "position": "D",
-     "value": -0.0069,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-10"
-    },
-    {
-     "name": "Filip Chytil",
+     "name": "Guillaume Brisebois",
      "status": "Injured Reserve",
-     "playerId": 8480078,
-     "position": "C",
-     "value": 0.0139,
+     "playerId": 8478465,
+     "position": "D",
+     "value": -0.0674,
      "regular": true,
      "applied": true,
-     "note": "Chytil (shoulder) will not be in action versus the Flyers on Monday, Canucks play-by-play announcer Brendan Batchelor reports.",
-     "date": "2026-11-09"
+     "note": "ir",
+     "date": "2026-11-13"
     },
     {
      "name": "Mackenzie MacEachern",
@@ -129,53 +118,53 @@
      "date": "2026-09-29"
     }
    ],
-   "inj_adj_home": 0.014,
+   "inj_adj_home": -0.067,
    "inj_adj_away": -0.054,
-   "xg_home": 2.485,
-   "xg_away": 3.507,
-   "proj_home": 2.67,
-   "proj_away": 3.7,
-   "p_home": 0.3301,
-   "p_away": 0.6699,
-   "p_ot": 0.2204,
-   "fair_ml_home": 203,
-   "fair_ml_away": -203,
+   "xg_home": 2.525,
+   "xg_away": 3.467,
+   "proj_home": 2.71,
+   "proj_away": 3.66,
+   "p_home": 0.3427,
+   "p_away": 0.6573,
+   "p_ot": 0.2232,
+   "fair_ml_home": 192,
+   "fair_ml_away": -192,
    "exp_total": 6.37,
    "totals": {
     "4.5": {
-     "over": 0.7777,
-     "under": 0.2223
+     "over": 0.7782,
+     "under": 0.2218
     },
     "5.0": {
-     "over": 0.6039,
-     "under": 0.2223
+     "over": 0.6043,
+     "under": 0.2218
     },
     "5.5": {
-     "over": 0.6039,
-     "under": 0.3961
+     "over": 0.6043,
+     "under": 0.3957
     },
     "6.0": {
-     "over": 0.4598,
-     "under": 0.3961
+     "over": 0.4607,
+     "under": 0.3957
     },
     "6.5": {
-     "over": 0.4598,
-     "under": 0.5402
+     "over": 0.4607,
+     "under": 0.5393
     },
     "7.0": {
-     "over": 0.2941,
-     "under": 0.5402
+     "over": 0.2946,
+     "under": 0.5393
     },
     "7.5": {
-     "over": 0.2941,
-     "under": 0.7059
+     "over": 0.2946,
+     "under": 0.7054
     }
    },
    "puck_line": {
-    "home_-1.5": 0.1804,
-    "away_+1.5": 0.8196,
-    "away_-1.5": 0.4568,
-    "home_+1.5": 0.5432
+    "home_-1.5": 0.1888,
+    "away_+1.5": 0.8112,
+    "away_-1.5": 0.4443,
+    "home_+1.5": 0.5557
    }
   },
   {
@@ -240,52 +229,52 @@
    "inj_away": [
     {
      "name": "Jonathan Marchessault",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8476539,
      "position": "R",
      "value": -0.1318,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-12"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-13"
     }
    ],
    "inj_adj_home": 0.014,
-   "inj_adj_away": 0,
-   "xg_home": 3.193,
-   "xg_away": 2.681,
-   "proj_home": 3.33,
-   "proj_away": 2.71,
-   "p_home": 0.6076,
-   "p_away": 0.3924,
-   "p_ot": 0.2398,
-   "fair_ml_home": -155,
-   "fair_ml_away": 155,
-   "exp_total": 6.03,
+   "inj_adj_away": -0.132,
+   "xg_home": 3.127,
+   "xg_away": 2.747,
+   "proj_home": 3.27,
+   "proj_away": 2.77,
+   "p_home": 0.5864,
+   "p_away": 0.4136,
+   "p_ot": 0.2427,
+   "fair_ml_home": -142,
+   "fair_ml_away": 142,
+   "exp_total": 6.04,
    "totals": {
     "4.5": {
-     "over": 0.7375,
-     "under": 0.2625
+     "over": 0.7377,
+     "under": 0.2623
     },
     "5.0": {
      "over": 0.5493,
-     "under": 0.2625
+     "under": 0.2623
     },
     "5.5": {
      "over": 0.5493,
      "under": 0.4507
     },
     "6.0": {
-     "over": 0.4059,
+     "over": 0.4063,
      "under": 0.4507
     },
     "6.5": {
-     "over": 0.4059,
-     "under": 0.5941
+     "over": 0.4063,
+     "under": 0.5937
     },
     "7.0": {
      "over": 0.2457,
-     "under": 0.5941
+     "under": 0.5937
     },
     "7.5": {
      "over": 0.2457,
@@ -293,10 +282,10 @@
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3902,
-    "away_+1.5": 0.6098,
-    "away_-1.5": 0.2187,
-    "home_+1.5": 0.7813
+    "home_-1.5": 0.3711,
+    "away_+1.5": 0.6289,
+    "away_-1.5": 0.2336,
+    "home_+1.5": 0.7664
    }
   }
  ],
