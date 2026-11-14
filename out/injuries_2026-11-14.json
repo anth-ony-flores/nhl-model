@@ -1,7 +1,7 @@
 {
  "day": "2026-11-14",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-14 09:00",
+ "fetched": "2026-11-14 09:10",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -428,18 +428,18 @@
    ]
   },
   "MTL": {
-   "missing_value": 0,
+   "missing_value": -0.0246,
    "players": [
     {
      "name": "Chris Kreider",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8475184,
      "position": "L",
      "value": -0.0246,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-13"
+     "applied": true,
+     "note": "Kreider (lower body) will be out for approximately 6-8 weeks, the Canadiens announced Saturday.",
+     "date": "2026-11-14"
     },
     {
      "name": "Ivan Demidov",

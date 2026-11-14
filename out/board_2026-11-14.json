@@ -1,7 +1,7 @@
 {
  "date": "2026-11-14",
  "data_through": "2026-11-13",
- "generated": "2026-11-14 09:00 MST",
+ "generated": "2026-11-14 09:10 MST",
  "league_xg60": 3.015,
  "b2b_effect": {
   "own_xg": -0.251,
@@ -726,14 +726,14 @@
    "inj_home": [
     {
      "name": "Chris Kreider",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8475184,
      "position": "L",
      "value": -0.0246,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-13"
+     "applied": true,
+     "note": "Kreider (lower body) will be out for approximately 6-8 weeks, the Canadiens announced Saturday.",
+     "date": "2026-11-14"
     },
     {
      "name": "Ivan Demidov",
@@ -804,53 +804,53 @@
      "date": "2026-10-23"
     }
    ],
-   "inj_adj_home": 0,
+   "inj_adj_home": -0.025,
    "inj_adj_away": 0,
-   "xg_home": 2.871,
-   "xg_away": 3.484,
-   "proj_home": 3.01,
-   "proj_away": 3.14,
-   "p_home": 0.4786,
-   "p_away": 0.5214,
-   "p_ot": 0.245,
-   "fair_ml_home": 109,
-   "fair_ml_away": -109,
+   "xg_home": 2.883,
+   "xg_away": 3.472,
+   "proj_home": 3.03,
+   "proj_away": 3.13,
+   "p_home": 0.4824,
+   "p_away": 0.5176,
+   "p_ot": 0.2451,
+   "fair_ml_home": 107,
+   "fair_ml_away": -107,
    "exp_total": 6.15,
    "totals": {
     "4.5": {
-     "over": 0.7529,
-     "under": 0.2471
+     "over": 0.7531,
+     "under": 0.2469
     },
     "5.0": {
-     "over": 0.5684,
-     "under": 0.2471
+     "over": 0.5687,
+     "under": 0.2469
     },
     "5.5": {
-     "over": 0.5684,
-     "under": 0.4316
+     "over": 0.5687,
+     "under": 0.4313
     },
     "6.0": {
-     "over": 0.4261,
-     "under": 0.4316
+     "over": 0.4264,
+     "under": 0.4313
     },
     "6.5": {
-     "over": 0.4261,
-     "under": 0.5739
+     "over": 0.4264,
+     "under": 0.5736
     },
     "7.0": {
-     "over": 0.2622,
-     "under": 0.5739
+     "over": 0.2624,
+     "under": 0.5736
     },
     "7.5": {
-     "over": 0.2622,
-     "under": 0.7378
+     "over": 0.2624,
+     "under": 0.7376
     }
    },
    "puck_line": {
-    "home_-1.5": 0.2836,
-    "away_+1.5": 0.7164,
-    "away_-1.5": 0.3177,
-    "home_+1.5": 0.6823
+    "home_-1.5": 0.2866,
+    "away_+1.5": 0.7134,
+    "away_-1.5": 0.3147,
+    "home_+1.5": 0.6853
    }
   },
   {
