@@ -1,7 +1,7 @@
 {
  "date": "2026-11-14",
  "data_through": "2026-11-13",
- "generated": "2026-11-14 10:11 MST",
+ "generated": "2026-11-14 10:21 MST",
  "league_xg60": 3.015,
  "b2b_effect": {
   "own_xg": -0.251,
@@ -701,6 +701,17 @@
     ]
    },
    "inj_home": [
+    {
+     "name": "Mike Matheson",
+     "status": "Day-To-Day",
+     "playerId": 8476875,
+     "position": "D",
+     "value": -0.1224,
+     "regular": false,
+     "applied": false,
+     "note": "Matheson (undisclosed) is considered a game-time decision for Saturday's home clash against the Avalanche, per Renaud Lavoie of TVA Sports.",
+     "date": "2026-11-14"
+    },
     {
      "name": "Chris Kreider",
      "status": "Out",
