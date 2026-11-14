@@ -1,7 +1,7 @@
 {
  "date": "2026-11-14",
  "data_through": "2026-11-13",
- "generated": "2026-11-14 07:16 MST",
+ "generated": "2026-11-14 09:00 MST",
  "league_xg60": 3.015,
  "b2b_effect": {
   "own_xg": -0.251,
@@ -54,19 +54,7 @@
      }
     ]
    },
-   "inj_home": [
-    {
-     "name": "Jordan Staal",
-     "status": "Injured Reserve",
-     "playerId": 8473533,
-     "position": "C",
-     "value": -0.0364,
-     "regular": false,
-     "applied": false,
-     "note": "Staal (calf) will be a game-time decision versus the Kraken on Saturday after head coach Rod Brind'Amour told reporters, \"So, we'll find out probably tomorrow after you know gets through the morning, ",
-     "date": "2026-11-13"
-    }
-   ],
+   "inj_home": [],
    "inj_away": [
     {
      "name": "Jacob Melanson",
@@ -77,17 +65,6 @@
      "regular": false,
      "applied": false,
      "note": "Melanson (chest) will be a game-time call for Saturday's clash with the Hurricanes, Tom Gulitti of NHL.com reports.",
-     "date": "2026-11-13"
-    },
-    {
-     "name": "Ryan Lindgren",
-     "status": "Injured Reserve",
-     "playerId": 8479324,
-     "position": "D",
-     "value": -0.0766,
-     "regular": false,
-     "applied": false,
-     "note": "Lindgren (upper body) will be a game-time decision ahead of Saturday's matchup with Carolina, Tom Gulitti of NHL.com reports.",
      "date": "2026-11-13"
     },
     {
@@ -113,7 +90,7 @@
      "date": "2026-10-25"
     }
    ],
-   "inj_adj_home": 0,
+   "inj_adj_home": 0.0,
    "inj_adj_away": 0,
    "xg_home": 3.671,
    "xg_away": 2.293,
@@ -1757,15 +1734,26 @@
    },
    "inj_home": [
     {
+     "name": "Kyle Capobianco",
+     "status": "Injured Reserve",
+     "playerId": 8478476,
+     "position": "D",
+     "value": -0.0042,
+     "regular": false,
+     "applied": false,
+     "note": "Capobianco (leg) was moved to long-term injured reserve Saturday.",
+     "date": "2026-11-14"
+    },
+    {
      "name": "Lian Bichsel",
-     "status": "Out",
+     "status": "Injured Reserve",
      "playerId": 8483425,
      "position": "D",
      "value": -0.0853,
      "regular": true,
      "applied": true,
-     "note": "Head coach Glen Gulutzan said Friday that Bichsel (lower body) will be out for \"a couple weeks,\" Stars TV host Brien Rea reports.",
-     "date": "2026-11-13"
+     "note": "Bichsel (lower body) was placed on injured reserve Saturday.",
+     "date": "2026-11-14"
     },
     {
      "name": "Miro Heiskanen",
@@ -1777,17 +1765,6 @@
      "applied": true,
      "note": "Heiskanen (upper body) has been ruled out against the Sabres on Saturday, Stars TV host Brien Rea reports.",
      "date": "2026-11-13"
-    },
-    {
-     "name": "Kyle Capobianco",
-     "status": "Injured Reserve",
-     "playerId": 8478476,
-     "position": "D",
-     "value": -0.0042,
-     "regular": false,
-     "applied": false,
-     "note": "ir",
-     "date": "2026-10-31"
     }
    ],
    "inj_away": [
