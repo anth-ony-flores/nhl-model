@@ -1,7 +1,7 @@
 {
  "day": "2026-11-13",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-13 17:00",
+ "fetched": "2026-11-13 17:10",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -512,6 +512,17 @@
    "missing_value": -0.0052,
    "players": [
     {
+     "name": "Seamus Casey",
+     "status": "Injured Reserve",
+     "playerId": 8483429,
+     "position": "D",
+     "value": -0.0524,
+     "regular": false,
+     "applied": false,
+     "note": "Casey (knee) was moved to long-term injured reserve on Friday, per PuckPedia.",
+     "date": "2026-11-13"
+    },
+    {
      "name": "Johnathan Kovacevic",
      "status": "Injured Reserve",
      "playerId": 8480192,
@@ -543,17 +554,6 @@
      "applied": true,
      "note": "Mantha (throat) was placed on long-term injured reserve by the Devils on Wednesday, retroactive to Nov. 7.",
      "date": "2026-11-11"
-    },
-    {
-     "name": "Seamus Casey",
-     "status": "Injured Reserve",
-     "playerId": 8483429,
-     "position": "D",
-     "value": -0.0524,
-     "regular": false,
-     "applied": false,
-     "note": "Casey will be out of action for 6-8 weeks after undergoing a knee procedure, Kristy Flannery of The Hockey News reports Friday.",
-     "date": "2026-10-02"
     }
    ]
   },
