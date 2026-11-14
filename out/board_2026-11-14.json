@@ -1,7 +1,7 @@
 {
  "date": "2026-11-14",
  "data_through": "2026-11-13",
- "generated": "2026-11-14 13:01 MST",
+ "generated": "2026-11-14 13:11 MST",
  "league_xg60": 3.015,
  "b2b_effect": {
   "own_xg": -0.251,
@@ -1957,14 +1957,14 @@
    "inj_away": [
     {
      "name": "Alexander Wennberg",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8477505,
      "position": "C",
      "value": -0.0166,
      "regular": false,
      "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-13"
+     "note": "out",
+     "date": "2026-11-14"
     },
     {
      "name": "Igor Chernyshov",

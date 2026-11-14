@@ -1,7 +1,7 @@
 {
  "day": "2026-11-14",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-14 13:01",
+ "fetched": "2026-11-14 13:11",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -709,14 +709,14 @@
    "players": [
     {
      "name": "Alexander Wennberg",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8477505,
      "position": "C",
      "value": -0.0166,
      "regular": false,
      "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-13"
+     "note": "out",
+     "date": "2026-11-14"
     },
     {
      "name": "Igor Chernyshov",
