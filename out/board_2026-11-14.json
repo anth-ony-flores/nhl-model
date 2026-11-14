@@ -1,7 +1,7 @@
 {
  "date": "2026-11-14",
  "data_through": "2026-11-13",
- "generated": "2026-11-14 13:31 MST",
+ "generated": "2026-11-14 15:00 MST",
  "league_xg60": 3.015,
  "b2b_effect": {
   "own_xg": -0.251,
@@ -1431,14 +1431,14 @@
    "inj_away": [
     {
      "name": "Erik Gustafsson",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8476979,
      "position": "D",
      "value": 0.0749,
      "regular": false,
      "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-13"
+     "note": "out",
+     "date": "2026-11-14"
     },
     {
      "name": "Nikita Grebenkin",
@@ -1755,6 +1755,17 @@
      "applied": true,
      "note": "Bichsel (lower body) was placed on injured reserve Saturday.",
      "date": "2026-11-14"
+    },
+    {
+     "name": "Matt Duchene",
+     "status": "Injured Reserve",
+     "playerId": 8475168,
+     "position": "C",
+     "value": -0.0583,
+     "regular": false,
+     "applied": false,
+     "note": "Duchene will be out for approximately three months after undergoing surgery to repair a core injury, the team announced Monday.",
+     "date": "2026-10-12"
     }
    ],
    "inj_away": [
