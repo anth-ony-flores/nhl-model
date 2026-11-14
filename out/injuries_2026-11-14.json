@@ -1,7 +1,7 @@
 {
  "day": "2026-11-14",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-14 09:40",
+ "fetched": "2026-11-14 09:50",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -397,33 +397,6 @@
      "applied": false,
      "note": "Grebenkin (back) underwent successful surgery and is expected to miss at least four months.",
      "date": "2026-10-10"
-    }
-   ]
-  },
-  "MIN": {
-   "missing_value": 0,
-   "players": [
-    {
-     "name": "Joel Eriksson Ek",
-     "status": "Day-To-Day",
-     "playerId": 8478493,
-     "position": "C",
-     "value": 0.0585,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-13"
-    },
-    {
-     "name": "Brock Faber",
-     "status": "Injured Reserve",
-     "playerId": 8482122,
-     "position": "D",
-     "value": 0.068,
-     "regular": false,
-     "applied": false,
-     "note": "Faber (skull) has told the Wild that he's ready to play and expects to return for Saturday's game against the Bruins, Michael Russo of The Athletic reports Wednesday.",
-     "date": "2026-11-11"
     }
    ]
   },
