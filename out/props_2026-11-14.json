@@ -1,6 +1,6 @@
 {
  "date": "2026-11-14",
- "generated": "2026-11-14T20:11:35Z",
+ "generated": "2026-11-14T20:21:44Z",
  "data_through": "2026-11-13",
  "picks_enabled": false,
  "params": {
@@ -113,7 +113,7 @@
    "home_name": "Hurricanes",
    "start_utc": "2026-11-14T18:00:00Z",
    "state": "in",
-   "detail": "16:28 - 3rd",
+   "detail": "10:58 - 3rd",
    "frozen": true,
    "goal_factor": {
     "SEA": 0.868,
