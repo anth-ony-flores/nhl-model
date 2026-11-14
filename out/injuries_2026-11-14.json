@@ -1,7 +1,7 @@
 {
  "day": "2026-11-14",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-14 11:01",
+ "fetched": "2026-11-14 11:30",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -203,6 +203,17 @@
    "missing_value": 0.0287,
    "players": [
     {
+     "name": "Miro Heiskanen",
+     "status": "Out",
+     "playerId": 8480036,
+     "position": "D",
+     "value": 0.114,
+     "regular": true,
+     "applied": true,
+     "note": "Heiskanen (upper body) is doubtful for Sunday's matchup against Florida, per Mike Heika of the Stars' official site.",
+     "date": "2026-11-14"
+    },
+    {
      "name": "Kyle Capobianco",
      "status": "Injured Reserve",
      "playerId": 8478476,
@@ -223,17 +234,6 @@
      "applied": true,
      "note": "Bichsel (lower body) was placed on injured reserve Saturday.",
      "date": "2026-11-14"
-    },
-    {
-     "name": "Miro Heiskanen",
-     "status": "Out",
-     "playerId": 8480036,
-     "position": "D",
-     "value": 0.114,
-     "regular": true,
-     "applied": true,
-     "note": "Heiskanen (upper body) has been ruled out against the Sabres on Saturday, Stars TV host Brien Rea reports.",
-     "date": "2026-11-13"
     }
    ]
   },
@@ -466,8 +466,30 @@
    ]
   },
   "NJD": {
-   "missing_value": -0.0052,
+   "missing_value": 0.0149,
    "players": [
+    {
+     "name": "Vladislav Kolyachonok",
+     "status": "Out",
+     "playerId": 8481609,
+     "position": "D",
+     "value": 0.0941,
+     "regular": false,
+     "applied": false,
+     "note": "out",
+     "date": "2026-11-14"
+    },
+    {
+     "name": "Brett Pesce",
+     "status": "Out",
+     "playerId": 8477488,
+     "position": "D",
+     "value": 0.0201,
+     "regular": true,
+     "applied": true,
+     "note": "Pesce (illness) won't play against Washington on Saturday, Amanda Stein of the Devils' official site reports.",
+     "date": "2026-11-14"
+    },
     {
      "name": "Seamus Casey",
      "status": "Injured Reserve",
@@ -488,17 +510,6 @@
      "regular": true,
      "applied": true,
      "note": "The Devils placed Kovacevic (ankle) on injured reserve Friday, retroactive to Nov. 10.",
-     "date": "2026-11-13"
-    },
-    {
-     "name": "Brett Pesce",
-     "status": "Day-To-Day",
-     "playerId": 8477488,
-     "position": "D",
-     "value": 0.0201,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
      "date": "2026-11-13"
     },
     {

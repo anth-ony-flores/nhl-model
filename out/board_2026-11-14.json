@@ -1,7 +1,7 @@
 {
  "date": "2026-11-14",
  "data_through": "2026-11-13",
- "generated": "2026-11-14 11:01 MST",
+ "generated": "2026-11-14 11:30 MST",
  "league_xg60": 3.015,
  "b2b_effect": {
   "own_xg": -0.251,
@@ -1276,6 +1276,28 @@
    ],
    "inj_away": [
     {
+     "name": "Vladislav Kolyachonok",
+     "status": "Out",
+     "playerId": 8481609,
+     "position": "D",
+     "value": 0.0941,
+     "regular": false,
+     "applied": false,
+     "note": "out",
+     "date": "2026-11-14"
+    },
+    {
+     "name": "Brett Pesce",
+     "status": "Out",
+     "playerId": 8477488,
+     "position": "D",
+     "value": 0.0201,
+     "regular": true,
+     "applied": true,
+     "note": "Pesce (illness) won't play against Washington on Saturday, Amanda Stein of the Devils' official site reports.",
+     "date": "2026-11-14"
+    },
+    {
      "name": "Seamus Casey",
      "status": "Injured Reserve",
      "playerId": 8483429,
@@ -1298,17 +1320,6 @@
      "date": "2026-11-13"
     },
     {
-     "name": "Brett Pesce",
-     "status": "Day-To-Day",
-     "playerId": 8477488,
-     "position": "D",
-     "value": 0.0201,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-13"
-    },
-    {
      "name": "Anthony Mantha",
      "status": "Injured Reserve",
      "playerId": 8477511,
@@ -1321,52 +1332,52 @@
     }
    ],
    "inj_adj_home": 0,
-   "inj_adj_away": -0.005,
-   "xg_home": 2.89,
-   "xg_away": 3.35,
-   "proj_home": 2.98,
-   "proj_away": 3.11,
-   "p_home": 0.477,
-   "p_away": 0.523,
-   "p_ot": 0.2463,
-   "fair_ml_home": 110,
-   "fair_ml_away": -110,
+   "inj_adj_away": 0.015,
+   "xg_home": 2.9,
+   "xg_away": 3.34,
+   "proj_home": 2.99,
+   "proj_away": 3.1,
+   "p_home": 0.4801,
+   "p_away": 0.5199,
+   "p_ot": 0.2464,
+   "fair_ml_home": 108,
+   "fair_ml_away": -108,
    "exp_total": 6.09,
    "totals": {
     "4.5": {
-     "over": 0.7453,
-     "under": 0.2547
+     "over": 0.7454,
+     "under": 0.2546
     },
     "5.0": {
-     "over": 0.5584,
-     "under": 0.2547
+     "over": 0.5586,
+     "under": 0.2546
     },
     "5.5": {
-     "over": 0.5584,
-     "under": 0.4416
+     "over": 0.5586,
+     "under": 0.4414
     },
     "6.0": {
-     "over": 0.4161,
-     "under": 0.4416
+     "over": 0.4163,
+     "under": 0.4414
     },
     "6.5": {
-     "over": 0.4161,
-     "under": 0.5839
+     "over": 0.4163,
+     "under": 0.5837
     },
     "7.0": {
-     "over": 0.2536,
-     "under": 0.5839
+     "over": 0.2537,
+     "under": 0.5837
     },
     "7.5": {
-     "over": 0.2536,
-     "under": 0.7464
+     "over": 0.2537,
+     "under": 0.7463
     }
    },
    "puck_line": {
-    "home_-1.5": 0.2814,
-    "away_+1.5": 0.7186,
-    "away_-1.5": 0.318,
-    "home_+1.5": 0.682
+    "home_-1.5": 0.2839,
+    "away_+1.5": 0.7161,
+    "away_-1.5": 0.3155,
+    "home_+1.5": 0.6845
    }
   },
   {
@@ -1723,6 +1734,17 @@
    },
    "inj_home": [
     {
+     "name": "Miro Heiskanen",
+     "status": "Out",
+     "playerId": 8480036,
+     "position": "D",
+     "value": 0.114,
+     "regular": true,
+     "applied": true,
+     "note": "Heiskanen (upper body) is doubtful for Sunday's matchup against Florida, per Mike Heika of the Stars' official site.",
+     "date": "2026-11-14"
+    },
+    {
      "name": "Kyle Capobianco",
      "status": "Injured Reserve",
      "playerId": 8478476,
@@ -1743,17 +1765,6 @@
      "applied": true,
      "note": "Bichsel (lower body) was placed on injured reserve Saturday.",
      "date": "2026-11-14"
-    },
-    {
-     "name": "Miro Heiskanen",
-     "status": "Out",
-     "playerId": 8480036,
-     "position": "D",
-     "value": 0.114,
-     "regular": true,
-     "applied": true,
-     "note": "Heiskanen (upper body) has been ruled out against the Sabres on Saturday, Stars TV host Brien Rea reports.",
-     "date": "2026-11-13"
     }
    ],
    "inj_away": [
