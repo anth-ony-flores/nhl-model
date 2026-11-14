@@ -1,6 +1,6 @@
 {
  "date": "2026-11-14",
- "generated": "2026-11-14T23:21:06Z",
+ "generated": "2026-11-14T23:31:14Z",
  "data_through": "2026-11-13",
  "picks_enabled": false,
  "params": {
@@ -2810,8 +2810,8 @@
    "away_name": "Jets",
    "home_name": "Blackhawks",
    "start_utc": "2026-11-14T20:30:00Z",
-   "state": "in",
-   "detail": "In SO",
+   "state": "post",
+   "detail": "Final/SO",
    "frozen": true,
    "goal_factor": {
     "WPG": 1.105,
