@@ -1,7 +1,7 @@
 {
  "day": "2026-11-14",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-14 17:21",
+ "fetched": "2026-11-14 17:31",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -701,17 +701,6 @@
      "applied": false,
      "note": "Rust (lower body) will be re-evaluated in six weeks, Michelle Crechiolo of the Penguins' official site reports Thursday.",
      "date": "2026-10-22"
-    },
-    {
-     "name": "Trevor van Riemsdyk",
-     "status": "Injured Reserve",
-     "playerId": 8477845,
-     "position": "D",
-     "value": -0.0026,
-     "regular": false,
-     "applied": false,
-     "note": "ir",
-     "date": "2026-10-12"
     },
     {
      "name": "Ryan Graves",
