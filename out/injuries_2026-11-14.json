@@ -1,7 +1,7 @@
 {
  "day": "2026-11-14",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-14 17:11",
+ "fetched": "2026-11-14 17:21",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -137,6 +137,17 @@
   "CHI": {
    "missing_value": 0,
    "players": [
+    {
+     "name": "Tyler Bertuzzi",
+     "status": "Day-To-Day",
+     "playerId": 8477479,
+     "position": "L",
+     "value": 0.0391,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-15"
+    },
     {
      "name": "Bowen Byram",
      "status": "Injured Reserve",

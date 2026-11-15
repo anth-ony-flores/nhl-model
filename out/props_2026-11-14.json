@@ -1,6 +1,6 @@
 {
  "date": "2026-11-14",
- "generated": "2026-11-15T00:11:45Z",
+ "generated": "2026-11-15T00:21:53Z",
  "data_through": "2026-11-13",
  "picks_enabled": false,
  "params": {
@@ -11,22 +11,14 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 237,
-  "checked": 231,
-  "first_is_over": 231,
+  "pairs": 136,
+  "checked": 133,
+  "first_is_over": 133,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 488,
+ "lines": 279,
  "unmatched": [
-  {
-   "espn_id": "5188419",
-   "name": "Alex Gagne",
-   "team": "COL",
-   "market": "goal",
-   "game": "COL@MTL",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  },
   {
    "espn_id": "3042255",
    "name": "Kyle Burroughs",
@@ -44,7 +36,7 @@
    "why": "no MoneyPuck skater match (no recent games?)"
   }
  ],
- "unmatched_rate": 0.0061,
+ "unmatched_rate": 0.0072,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -5083,7 +5075,7 @@
    "home_name": "Bruins",
    "start_utc": "2026-11-15T00:00:00Z",
    "state": "in",
-   "detail": "18:04 - 1st",
+   "detail": "12:37 - 1st",
    "frozen": true,
    "goal_factor": {
     "MIN": 1.019,
@@ -7473,9 +7465,9 @@
    "away_name": "Oilers",
    "home_name": "Maple Leafs",
    "start_utc": "2026-11-15T00:00:00Z",
-   "state": "pre",
-   "detail": "11/14 - 7:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "15:00 - 1st",
+   "frozen": true,
    "goal_factor": {
     "EDM": 1.065,
     "TOR": 0.951
@@ -9720,9 +9712,9 @@
    "away_name": "Avalanche",
    "home_name": "Canadiens",
    "start_utc": "2026-11-15T00:00:00Z",
-   "state": "pre",
-   "detail": "11/14 - 7:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "19:11 - 1st",
+   "frozen": true,
    "goal_factor": {
     "COL": 1.04,
     "MTL": 0.952
@@ -11798,7 +11790,7 @@
    "home_name": "Lightning",
    "start_utc": "2026-11-15T00:00:00Z",
    "state": "in",
-   "detail": "18:47 - 1st",
+   "detail": "11:35 - 1st",
    "frozen": true,
    "goal_factor": {
     "DET": 0.965,
@@ -13911,9 +13903,9 @@
    "away_name": "Senators",
    "home_name": "Penguins",
    "start_utc": "2026-11-15T00:00:00Z",
-   "state": "pre",
-   "detail": "11/14 - 7:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "20:00 - 1st",
+   "frozen": true,
    "goal_factor": {
     "OTT": 1.063,
     "PIT": 0.918
@@ -16216,7 +16208,7 @@
    "home_name": "Capitals",
    "start_utc": "2026-11-15T00:00:00Z",
    "state": "in",
-   "detail": "18:50 - 1st",
+   "detail": "13:41 - 1st",
    "frozen": true,
    "goal_factor": {
     "NJD": 1.045,
@@ -18693,7 +18685,7 @@
    "home_name": "Blue Jackets",
    "start_utc": "2026-11-15T00:00:00Z",
    "state": "in",
-   "detail": "18:21 - 1st",
+   "detail": "12:01 - 1st",
    "frozen": true,
    "goal_factor": {
     "PHI": 1.037,
@@ -20900,7 +20892,7 @@
    "home_name": "Blues",
    "start_utc": "2026-11-15T00:00:00Z",
    "state": "in",
-   "detail": "20:00 - 1st",
+   "detail": "14:42 - 1st",
    "frozen": true,
    "goal_factor": {
     "FLA": 0.979,
