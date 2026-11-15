@@ -1,7 +1,7 @@
 {
  "day": "2026-11-15",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-15 16:20",
+ "fetched": "2026-11-15 16:30",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -303,8 +303,19 @@
    ]
   },
   "EDM": {
-   "missing_value": 0,
+   "missing_value": 0.0091,
    "players": [
+    {
+     "name": "Ryan Nugent-Hopkins",
+     "status": "Out",
+     "playerId": 8476454,
+     "position": "C",
+     "value": 0.0091,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-15"
+    },
     {
      "name": "Isaac Howard",
      "status": "Injured Reserve",
