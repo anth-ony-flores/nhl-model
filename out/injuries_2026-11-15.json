@@ -1,7 +1,7 @@
 {
  "day": "2026-11-15",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-15 07:18",
+ "fetched": "2026-11-15 15:30",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -16,17 +16,6 @@
      "regular": false,
      "applied": false,
      "note": "Poehling (lower body) was placed on long-term injured reserve by the Ducks on Wednesday.",
-     "date": "2026-11-11"
-    },
-    {
-     "name": "Ian Moore",
-     "status": "Injured Reserve",
-     "playerId": 8482178,
-     "position": "D",
-     "value": 0.0056,
-     "regular": false,
-     "applied": false,
-     "note": "Moore (lower body) might be an option to play by the end of the week, Derek Lee of The Hockey News reports Wednesday.",
      "date": "2026-11-11"
     },
     {
@@ -207,6 +196,22 @@
      "applied": false,
      "note": "ir-lt",
      "date": "2026-10-23"
+    }
+   ]
+  },
+  "CBJ": {
+   "missing_value": 0,
+   "players": [
+    {
+     "name": "Sean Monahan",
+     "status": "Day-To-Day",
+     "playerId": 8477497,
+     "position": "C",
+     "value": -0.0135,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-15"
     }
    ]
   },
@@ -428,29 +433,40 @@
    ]
   },
   "MTL": {
-   "missing_value": -0.0246,
+   "missing_value": -0.0739,
    "players": [
     {
      "name": "Mike Matheson",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8476875,
      "position": "D",
      "value": -0.1224,
      "regular": false,
      "applied": false,
-     "note": "day-to-day",
+     "note": "Matheson (lower body) will not travel for the Canadiens' upcoming three-game road trip, per Renaud Lavoie of TVA Sports.",
+     "date": "2026-11-15"
+    },
+    {
+     "name": "Josh Anderson",
+     "status": "Injured Reserve",
+     "playerId": 8476981,
+     "position": "R",
+     "value": -0.0493,
+     "regular": true,
+     "applied": true,
+     "note": "ir",
      "date": "2026-11-15"
     },
     {
      "name": "Chris Kreider",
-     "status": "Out",
+     "status": "Injured Reserve",
      "playerId": 8475184,
      "position": "L",
      "value": -0.0246,
      "regular": true,
      "applied": true,
-     "note": "Kreider (lower body) will be out for approximately 6-8 weeks, the Canadiens announced Saturday.",
-     "date": "2026-11-14"
+     "note": "ir",
+     "date": "2026-11-15"
     },
     {
      "name": "Ivan Demidov",
@@ -553,8 +569,19 @@
    ]
   },
   "NYI": {
-   "missing_value": -0.0261,
+   "missing_value": 0,
    "players": [
+    {
+     "name": "Jean-Gabriel Pageau",
+     "status": "Day-To-Day",
+     "playerId": 8476419,
+     "position": "C",
+     "value": -0.0261,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-15"
+    },
     {
      "name": "Bo Horvat",
      "status": "Day-To-Day",
@@ -575,17 +602,6 @@
      "regular": true,
      "applied": false,
      "note": "Stanley (lower body) won't return to Saturday's game versus the Ducks.",
-     "date": "2026-11-15"
-    },
-    {
-     "name": "Jean-Gabriel Pageau",
-     "status": "Out",
-     "playerId": 8476419,
-     "position": "C",
-     "value": -0.0261,
-     "regular": true,
-     "applied": true,
-     "note": "Pageau (lower body) won't play Saturday versus the Ducks, Andrew Gross of Newsday reports.",
      "date": "2026-11-15"
     },
     {
@@ -817,14 +833,14 @@
    "missing_value": 0,
    "players": [
     {
-     "name": "Aleksanteri Kaskimaki",
+     "name": "Jake Neighbours",
      "status": "Day-To-Day",
-     "playerId": 8483463,
-     "position": "C",
-     "value": 0.0042,
+     "playerId": 8482089,
+     "position": "L",
+     "value": -0.0324,
      "regular": true,
      "applied": false,
-     "note": "Kaskimaki sustained an undisclosed injury near the end of Saturday's game versus the Panthers, Lou Korac of NHL.com reports.",
+     "note": "Neighbours (upper body) is day-to-day, per Lou Korac of NHL.com on Sunday.",
      "date": "2026-11-15"
     },
     {
@@ -835,7 +851,18 @@
      "value": -0.039,
      "regular": true,
      "applied": false,
-     "note": "day-to-day",
+     "note": "Broberg (lower body) is day-to-day, according to Lou Korac of NHL.com on Sunday.",
+     "date": "2026-11-15"
+    },
+    {
+     "name": "Aleksanteri Kaskimaki",
+     "status": "Day-To-Day",
+     "playerId": 8483463,
+     "position": "C",
+     "value": 0.0042,
+     "regular": true,
+     "applied": false,
+     "note": "Kaskimaki sustained an undisclosed injury near the end of Saturday's game versus the Panthers, Lou Korac of NHL.com reports.",
      "date": "2026-11-15"
     },
     {
@@ -1005,8 +1032,19 @@
    ]
   },
   "UTA": {
-   "missing_value": -0.0612,
+   "missing_value": -0.0539,
    "players": [
+    {
+     "name": "Logan Cooley",
+     "status": "Day-To-Day",
+     "playerId": 8483431,
+     "position": "C",
+     "value": -0.0073,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-15"
+    },
     {
      "name": "Nick Schmaltz",
      "status": "Out",
@@ -1017,17 +1055,6 @@
      "applied": true,
      "note": "Schmaltz (lower body) isn't expected to play against San Jose on Saturday, and it's unclear when he will be ready to return, Brogan Houston of the Deseret News reports.",
      "date": "2026-11-14"
-    },
-    {
-     "name": "Logan Cooley",
-     "status": "Out",
-     "playerId": 8483431,
-     "position": "C",
-     "value": -0.0073,
-     "regular": true,
-     "applied": true,
-     "note": "out",
-     "date": "2026-11-13"
     },
     {
      "name": "Nate Schmidt",

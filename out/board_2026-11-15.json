@@ -1,7 +1,7 @@
 {
  "date": "2026-11-15",
  "data_through": "2026-11-14",
- "generated": "2026-11-15 07:18 MST",
+ "generated": "2026-11-15 15:30 MST",
  "league_xg60": 3.011,
  "b2b_effect": {
   "own_xg": -0.249,
@@ -420,17 +420,6 @@
      "regular": false,
      "applied": false,
      "note": "Poehling (lower body) was placed on long-term injured reserve by the Ducks on Wednesday.",
-     "date": "2026-11-11"
-    },
-    {
-     "name": "Ian Moore",
-     "status": "Injured Reserve",
-     "playerId": 8482178,
-     "position": "D",
-     "value": 0.0056,
-     "regular": false,
-     "applied": false,
-     "note": "Moore (lower body) might be an option to play by the end of the week, Derek Lee of The Hockey News reports Wednesday.",
      "date": "2026-11-11"
     },
     {
