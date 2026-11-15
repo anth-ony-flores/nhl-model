@@ -1,6 +1,6 @@
 {
  "date": "2026-11-14",
- "generated": "2026-11-15T00:42:09Z",
+ "generated": "2026-11-15T00:52:16Z",
  "data_through": "2026-11-13",
  "picks_enabled": false,
  "params": {
@@ -5075,7 +5075,7 @@
    "home_name": "Bruins",
    "start_utc": "2026-11-15T00:00:00Z",
    "state": "in",
-   "detail": "3:17 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "MIN": 1.019,
@@ -7466,7 +7466,7 @@
    "home_name": "Maple Leafs",
    "start_utc": "2026-11-15T00:00:00Z",
    "state": "in",
-   "detail": "5:20 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "EDM": 1.065,
@@ -9713,7 +9713,7 @@
    "home_name": "Canadiens",
    "start_utc": "2026-11-15T00:00:00Z",
    "state": "in",
-   "detail": "8:13 - 1st",
+   "detail": "2:04 - 1st",
    "frozen": true,
    "goal_factor": {
     "COL": 1.04,
@@ -11790,7 +11790,7 @@
    "home_name": "Lightning",
    "start_utc": "2026-11-15T00:00:00Z",
    "state": "in",
-   "detail": "0:06 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "DET": 0.965,
@@ -13904,7 +13904,7 @@
    "home_name": "Penguins",
    "start_utc": "2026-11-15T00:00:00Z",
    "state": "in",
-   "detail": "9:40 - 1st",
+   "detail": "4:21 - 1st",
    "frozen": true,
    "goal_factor": {
     "OTT": 1.063,
@@ -16208,7 +16208,7 @@
    "home_name": "Capitals",
    "start_utc": "2026-11-15T00:00:00Z",
    "state": "in",
-   "detail": "3:10 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "NJD": 1.045,
@@ -18685,7 +18685,7 @@
    "home_name": "Blue Jackets",
    "start_utc": "2026-11-15T00:00:00Z",
    "state": "in",
-   "detail": "1:19 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "PHI": 1.037,
@@ -20892,7 +20892,7 @@
    "home_name": "Blues",
    "start_utc": "2026-11-15T00:00:00Z",
    "state": "in",
-   "detail": "5:09 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "FLA": 0.979,
@@ -23953,9 +23953,9 @@
       "opp": "DAL",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+220",
+      "over": "+215",
       "over_open": "+220",
-      "under": "-310",
+      "under": "-300",
       "under_open": "-310",
       "updated": "2026-11-14T20:53Z",
       "player_id": 8480807,
@@ -23970,11 +23970,11 @@
        "2.5": 0.0109,
        "3.5": 0.0012
       },
-      "mkt_over": 0.2924,
-      "edge_over": 0.0698,
-      "edge_under": -0.0698,
+      "mkt_over": 0.2974,
+      "edge_over": 0.0648,
+      "edge_under": -0.0648,
       "lean": "Over",
-      "edge": 0.0698,
+      "edge": 0.0648,
       "strong": true
      },
      {
@@ -24015,9 +24015,9 @@
       "opp": "BUF",
       "line": 1.5,
       "open_line": 1.5,
-      "over": "+170",
+      "over": "+175",
       "over_open": "+165",
-      "under": "-230",
+      "under": "-240",
       "under_open": "-230",
       "updated": "2026-11-14T19:51Z",
       "player_id": 8478420,
@@ -24032,11 +24032,11 @@
        "2.5": 0.099,
        "3.5": 0.0255
       },
-      "mkt_over": 0.347,
-      "edge_over": -0.0471,
-      "edge_under": 0.0471,
+      "mkt_over": 0.34,
+      "edge_over": -0.0401,
+      "edge_under": 0.0401,
       "lean": "Under",
-      "edge": 0.0471,
+      "edge": 0.0401,
       "strong": true
      },
      {
