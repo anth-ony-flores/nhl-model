@@ -1,7 +1,7 @@
 {
  "day": "2026-11-14",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-14 19:43",
+ "fetched": "2026-11-14 19:53",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -563,7 +563,7 @@
      "value": -0.0261,
      "regular": true,
      "applied": true,
-     "note": "out",
+     "note": "Pageau (lower body) won't play Saturday versus the Ducks, Andrew Gross of Newsday reports.",
      "date": "2026-11-15"
     },
     {
