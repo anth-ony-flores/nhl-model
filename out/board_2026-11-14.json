@@ -1,7 +1,7 @@
 {
  "date": "2026-11-14",
  "data_through": "2026-11-13",
- "generated": "2026-11-14 19:33 MST",
+ "generated": "2026-11-14 19:43 MST",
  "league_xg60": 3.015,
  "b2b_effect": {
   "own_xg": -0.251,
@@ -2138,14 +2138,14 @@
    "inj_away": [
     {
      "name": "Jean-Gabriel Pageau",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8476419,
      "position": "C",
      "value": -0.0261,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-13"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-15"
     },
     {
      "name": "Calum Ritchie",
@@ -2171,52 +2171,52 @@
     }
    ],
    "inj_adj_home": 0.045,
-   "inj_adj_away": 0,
-   "xg_home": 3.37,
-   "xg_away": 3.22,
-   "proj_home": 3.26,
-   "proj_away": 3.24,
-   "p_home": 0.5032,
-   "p_away": 0.4968,
+   "inj_adj_away": -0.026,
+   "xg_home": 3.357,
+   "xg_away": 3.233,
+   "proj_home": 3.25,
+   "proj_away": 3.26,
+   "p_home": 0.4992,
+   "p_away": 0.5008,
    "p_ot": 0.2377,
-   "fair_ml_home": -101,
-   "fair_ml_away": 101,
+   "fair_ml_home": 100,
+   "fair_ml_away": -100,
    "exp_total": 6.51,
    "totals": {
     "4.5": {
-     "over": 0.7939,
-     "under": 0.2061
+     "over": 0.794,
+     "under": 0.206
     },
     "5.0": {
-     "over": 0.6241,
-     "under": 0.2061
+     "over": 0.6242,
+     "under": 0.206
     },
     "5.5": {
-     "over": 0.6241,
-     "under": 0.3759
+     "over": 0.6242,
+     "under": 0.3758
     },
     "6.0": {
-     "over": 0.4839,
-     "under": 0.3759
+     "over": 0.484,
+     "under": 0.3758
     },
     "6.5": {
-     "over": 0.4839,
-     "under": 0.5161
+     "over": 0.484,
+     "under": 0.516
     },
     "7.0": {
-     "over": 0.314,
-     "under": 0.5161
+     "over": 0.3141,
+     "under": 0.516
     },
     "7.5": {
-     "over": 0.314,
-     "under": 0.686
+     "over": 0.3141,
+     "under": 0.6859
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3085,
-    "away_+1.5": 0.6915,
-    "away_-1.5": 0.3033,
-    "home_+1.5": 0.6967
+    "home_-1.5": 0.3053,
+    "away_+1.5": 0.6947,
+    "away_-1.5": 0.3066,
+    "home_+1.5": 0.6934
    }
   },
   {

@@ -1,7 +1,7 @@
 {
  "day": "2026-11-14",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-14 19:33",
+ "fetched": "2026-11-14 19:43",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -553,18 +553,18 @@
    ]
   },
   "NYI": {
-   "missing_value": 0,
+   "missing_value": -0.0261,
    "players": [
     {
      "name": "Jean-Gabriel Pageau",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8476419,
      "position": "C",
      "value": -0.0261,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-13"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-15"
     },
     {
      "name": "Calum Ritchie",
@@ -794,6 +794,17 @@
   "STL": {
    "missing_value": 0,
    "players": [
+    {
+     "name": "Philip Broberg",
+     "status": "Day-To-Day",
+     "playerId": 8481598,
+     "position": "D",
+     "value": -0.026,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-15"
+    },
     {
      "name": "Torey Krug",
      "status": "Injured Reserve",
