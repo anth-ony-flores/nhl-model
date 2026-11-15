@@ -1,6 +1,6 @@
 {
  "date": "2026-11-14",
- "generated": "2026-11-15T02:03:10Z",
+ "generated": "2026-11-15T02:13:18Z",
  "data_through": "2026-11-13",
  "picks_enabled": false,
  "params": {
@@ -11,13 +11,13 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 102,
-  "checked": 99,
-  "first_is_over": 99,
+  "pairs": 69,
+  "checked": 66,
+  "first_is_over": 66,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 209,
+ "lines": 141,
  "unmatched": [
   {
    "espn_id": "3899946",
@@ -28,7 +28,7 @@
    "why": "no MoneyPuck skater match (no recent games?)"
   }
  ],
- "unmatched_rate": 0.0048,
+ "unmatched_rate": 0.0071,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -5067,7 +5067,7 @@
    "home_name": "Bruins",
    "start_utc": "2026-11-15T00:00:00Z",
    "state": "in",
-   "detail": "End of 2nd",
+   "detail": "15:15 - 3rd",
    "frozen": true,
    "goal_factor": {
     "MIN": 1.019,
@@ -7458,7 +7458,7 @@
    "home_name": "Maple Leafs",
    "start_utc": "2026-11-15T00:00:00Z",
    "state": "in",
-   "detail": "20:00 - 3rd",
+   "detail": "17:09 - 3rd",
    "frozen": true,
    "goal_factor": {
     "EDM": 1.065,
@@ -11782,7 +11782,7 @@
    "home_name": "Lightning",
    "start_utc": "2026-11-15T00:00:00Z",
    "state": "in",
-   "detail": "16:44 - 3rd",
+   "detail": "11:00 - 3rd",
    "frozen": true,
    "goal_factor": {
     "DET": 0.965,
@@ -16200,7 +16200,7 @@
    "home_name": "Capitals",
    "start_utc": "2026-11-15T00:00:00Z",
    "state": "in",
-   "detail": "End of 2nd",
+   "detail": "17:11 - 3rd",
    "frozen": true,
    "goal_factor": {
     "NJD": 1.045,
@@ -18677,7 +18677,7 @@
    "home_name": "Blue Jackets",
    "start_utc": "2026-11-15T00:00:00Z",
    "state": "in",
-   "detail": "18:34 - 3rd",
+   "detail": "13:19 - 3rd",
    "frozen": true,
    "goal_factor": {
     "PHI": 1.037,
@@ -20884,7 +20884,7 @@
    "home_name": "Blues",
    "start_utc": "2026-11-15T00:00:00Z",
    "state": "in",
-   "detail": "20:00 - 3rd",
+   "detail": "12:19 - 3rd",
    "frozen": true,
    "goal_factor": {
     "FLA": 0.979,
@@ -23192,7 +23192,7 @@
    "home_name": "Stars",
    "start_utc": "2026-11-15T01:00:00Z",
    "state": "in",
-   "detail": "20:00 - 2nd",
+   "detail": "14:08 - 2nd",
    "frozen": true,
    "goal_factor": {
     "BUF": 0.925,
@@ -25392,9 +25392,9 @@
    "away_name": "Sharks",
    "home_name": "Mammoth",
    "start_utc": "2026-11-15T02:00:00Z",
-   "state": "pre",
-   "detail": "11/14 - 9:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "17:15 - 1st",
+   "frozen": true,
    "goal_factor": {
     "SJS": 0.959,
     "UTA": 1.146
