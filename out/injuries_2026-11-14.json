@@ -1,7 +1,7 @@
 {
  "day": "2026-11-14",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-14 16:51",
+ "fetched": "2026-11-14 17:01",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -857,18 +857,18 @@
    ]
   },
   "TOR": {
-   "missing_value": -0.0238,
+   "missing_value": 0.0554,
    "players": [
     {
      "name": "Morgan Rielly",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8476853,
      "position": "D",
      "value": 0.0792,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-13"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-14"
     },
     {
      "name": "Colton Sissons",
