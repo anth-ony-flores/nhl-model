@@ -1,7 +1,7 @@
 {
  "date": "2026-11-15",
  "data_through": "2026-11-14",
- "generated": "2026-11-15 15:30 MST",
+ "generated": "2026-11-15 15:40 MST",
  "league_xg60": 3.011,
  "b2b_effect": {
   "own_xg": -0.249,
@@ -72,6 +72,17 @@
      "date": "2026-11-15"
     },
     {
+     "name": "Denver Barkey",
+     "status": "Out",
+     "playerId": 8484142,
+     "position": "C",
+     "value": 0.0649,
+     "regular": true,
+     "applied": true,
+     "note": "Barkey (illness) won't play against Edmonton on Sunday, per Adam Kimelman of NHL.com.",
+     "date": "2026-11-15"
+    },
+    {
      "name": "Nikita Grebenkin",
      "status": "Injured Reserve",
      "playerId": 8483733,
@@ -129,53 +140,53 @@
      "date": "2026-09-29"
     }
    ],
-   "inj_adj_home": 0,
+   "inj_adj_home": 0.065,
    "inj_adj_away": 0,
-   "xg_home": 2.413,
-   "xg_away": 2.689,
-   "proj_home": 2.65,
-   "proj_away": 2.79,
-   "p_home": 0.4744,
-   "p_away": 0.5256,
-   "p_ot": 0.2628,
-   "fair_ml_home": 111,
-   "fair_ml_away": -111,
+   "xg_home": 2.38,
+   "xg_away": 2.721,
+   "proj_home": 2.62,
+   "proj_away": 2.82,
+   "p_home": 0.4626,
+   "p_away": 0.5374,
+   "p_ot": 0.2623,
+   "fair_ml_home": 116,
+   "fair_ml_away": -116,
    "exp_total": 5.44,
    "totals": {
     "4.5": {
-     "over": 0.6523,
-     "under": 0.3477
+     "over": 0.6519,
+     "under": 0.3481
     },
     "5.0": {
-     "over": 0.4455,
-     "under": 0.3477
+     "over": 0.4451,
+     "under": 0.3481
     },
     "5.5": {
-     "over": 0.4455,
-     "under": 0.5545
+     "over": 0.4451,
+     "under": 0.5549
     },
     "6.0": {
-     "over": 0.3088,
-     "under": 0.5545
+     "over": 0.3084,
+     "under": 0.5549
     },
     "6.5": {
-     "over": 0.3088,
-     "under": 0.6912
+     "over": 0.3084,
+     "under": 0.6916
     },
     "7.0": {
-     "over": 0.1676,
-     "under": 0.6912
+     "over": 0.1673,
+     "under": 0.6916
     },
     "7.5": {
-     "over": 0.1676,
-     "under": 0.8324
+     "over": 0.1673,
+     "under": 0.8327
     }
    },
    "puck_line": {
-    "home_-1.5": 0.2684,
-    "away_+1.5": 0.7316,
-    "away_-1.5": 0.3079,
-    "home_+1.5": 0.6921
+    "home_-1.5": 0.2597,
+    "away_+1.5": 0.7403,
+    "away_-1.5": 0.3173,
+    "home_+1.5": 0.6827
    }
   },
   {

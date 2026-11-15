@@ -1,7 +1,7 @@
 {
  "day": "2026-11-15",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-15 15:30",
+ "fetched": "2026-11-15 15:40",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -406,7 +406,7 @@
    ]
   },
   "PHI": {
-   "missing_value": 0,
+   "missing_value": 0.0649,
    "players": [
     {
      "name": "Erik Gustafsson",
@@ -417,6 +417,17 @@
      "regular": false,
      "applied": false,
      "note": "day-to-day",
+     "date": "2026-11-15"
+    },
+    {
+     "name": "Denver Barkey",
+     "status": "Out",
+     "playerId": 8484142,
+     "position": "C",
+     "value": 0.0649,
+     "regular": true,
+     "applied": true,
+     "note": "Barkey (illness) won't play against Edmonton on Sunday, per Adam Kimelman of NHL.com.",
      "date": "2026-11-15"
     },
     {
@@ -443,7 +454,7 @@
      "value": -0.1224,
      "regular": false,
      "applied": false,
-     "note": "Matheson (lower body) will not travel for the Canadiens' upcoming three-game road trip, per Renaud Lavoie of TVA Sports.",
+     "note": "Matheson (lower body) will miss approximately 2-3 weeks, the Canadiens announced Sunday.",
      "date": "2026-11-15"
     },
     {
@@ -454,7 +465,7 @@
      "value": -0.0493,
      "regular": true,
      "applied": true,
-     "note": "ir",
+     "note": "Anderson (lower body) will be out for approximately 3-4 weeks, per Renaud Lavoie of TVA Sports on Sunday.",
      "date": "2026-11-15"
     },
     {
