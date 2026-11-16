@@ -1,6 +1,6 @@
 {
  "date": "2026-11-15",
- "generated": "2026-11-16T01:22:25Z",
+ "generated": "2026-11-16T01:32:33Z",
  "data_through": "2026-11-14",
  "picks_enabled": false,
  "params": {
@@ -2418,7 +2418,7 @@
    "home_name": "Stars",
    "start_utc": "2026-11-16T01:00:00Z",
    "state": "in",
-   "detail": "11:19 - 1st",
+   "detail": "5:34 - 1st",
    "frozen": true,
    "goal_factor": {
     "FLA": 0.892,
@@ -4625,7 +4625,7 @@
    "home_name": "Ducks",
    "start_utc": "2026-11-16T01:00:00Z",
    "state": "in",
-   "detail": "12:54 - 1st",
+   "detail": "7:20 - 1st",
    "frozen": true,
    "goal_factor": {
     "CGY": 1.067,
