@@ -1,6 +1,6 @@
 {
  "date": "2026-11-16",
- "generated": "2026-11-16T23:10:33Z",
+ "generated": "2026-11-16T23:20:40Z",
  "data_through": "2026-11-15",
  "picks_enabled": false,
  "params": {
@@ -12,8 +12,8 @@
  },
  "side_check": {
   "pairs": 78,
-  "checked": 75,
-  "first_is_over": 75,
+  "checked": 76,
+  "first_is_over": 76,
   "mismatch": 0,
   "mismatches": []
  },
@@ -2892,19 +2892,19 @@
       "player": "Michael Carcone",
       "team": "UTA",
       "opp": "VAN",
-      "line": 1.5,
+      "line": 2.5,
       "open_line": 2.5,
-      "over": "-195",
+      "over": "+145",
       "over_open": "+140",
-      "under": "+140",
+      "under": "-195",
       "under_open": "-190",
-      "updated": "2026-11-17T01:59Z",
+      "updated": "2026-11-17T02:14Z",
       "player_id": 8479619,
       "pos": "F",
       "proj_toi": 12.6,
       "games_weight": 40.4,
       "mean": 1.913,
-      "p_over": 0.562,
+      "p_over": 0.3005,
       "curve": {
        "0.5": 0.8435,
        "1.5": 0.562,
@@ -2915,11 +2915,11 @@
        "6.5": 0.005,
        "7.5": 0.0013
       },
-      "mkt_over": 0.6134,
-      "edge_over": -0.0513,
-      "edge_under": 0.0513,
+      "mkt_over": 0.3818,
+      "edge_over": -0.0813,
+      "edge_under": 0.0813,
       "lean": "Under",
-      "edge": 0.0513,
+      "edge": 0.0813,
       "strong": true
      },
      {
@@ -4768,13 +4768,13 @@
       "player": "Karel Vejmelka",
       "team": "UTA",
       "opp": "VAN",
-      "line": 18.5,
+      "line": 19.5,
       "open_line": 18.5,
-      "over": "-130",
+      "over": "-110",
       "over_open": "+100",
-      "under": "-105",
+      "under": "-125",
       "under_open": "-135",
-      "updated": "2026-11-17T01:43Z",
+      "updated": "2026-11-17T02:14Z",
       "player_id": 8478872,
       "pos": "G",
       "starter": true,
@@ -4782,7 +4782,7 @@
       "proj_sa": 22.0,
       "proj_sv": 0.8896,
       "mean": 19.56,
-      "p_over": 0.5756,
+      "p_over": 0.4996,
       "curve": {
        "14.5": 0.8305,
        "15.5": 0.7785,
@@ -4813,12 +4813,12 @@
        "40.5": 0.0002,
        "41.5": 0.0001
       },
-      "mkt_over": 0.5246,
-      "edge_over": 0.051,
-      "edge_under": -0.051,
+      "mkt_over": 0.4853,
+      "edge_over": 0.0143,
+      "edge_under": -0.0143,
       "lean": "Over",
-      "edge": 0.051,
-      "strong": true
+      "edge": 0.0143,
+      "strong": false
      }
     ]
    }
