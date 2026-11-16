@@ -1,7 +1,7 @@
 {
  "date": "2026-11-15",
  "data_through": "2026-11-14",
- "generated": "2026-11-15 17:01 MST",
+ "generated": "2026-11-15 17:11 MST",
  "league_xg60": 3.011,
  "b2b_effect": {
   "own_xg": -0.249,
@@ -720,6 +720,17 @@
    },
    "inj_home": [
     {
+     "name": "Igor Chernyshov",
+     "status": "Injured Reserve",
+     "playerId": 8484994,
+     "position": "L",
+     "value": 0.0349,
+     "regular": false,
+     "applied": false,
+     "note": "Head coach Ryan Warsofsky said Sunday that Chernyshov (upper body) is not close to returning to game action, per Curtis Pashelka of The San Jose Mercury News.",
+     "date": "2026-11-15"
+    },
+    {
      "name": "Alexander Wennberg",
      "status": "Out",
      "playerId": 8477505,
@@ -729,17 +740,6 @@
      "applied": false,
      "note": "out",
      "date": "2026-11-15"
-    },
-    {
-     "name": "Igor Chernyshov",
-     "status": "Injured Reserve",
-     "playerId": 8484994,
-     "position": "L",
-     "value": 0.0349,
-     "regular": false,
-     "applied": false,
-     "note": "ir",
-     "date": "2026-10-28"
     }
    ],
    "inj_away": [

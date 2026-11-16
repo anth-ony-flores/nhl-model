@@ -1,7 +1,7 @@
 {
  "day": "2026-11-15",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-15 17:01",
+ "fetched": "2026-11-15 17:11",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -790,6 +790,17 @@
    "missing_value": 0,
    "players": [
     {
+     "name": "Igor Chernyshov",
+     "status": "Injured Reserve",
+     "playerId": 8484994,
+     "position": "L",
+     "value": 0.0349,
+     "regular": false,
+     "applied": false,
+     "note": "Head coach Ryan Warsofsky said Sunday that Chernyshov (upper body) is not close to returning to game action, per Curtis Pashelka of The San Jose Mercury News.",
+     "date": "2026-11-15"
+    },
+    {
      "name": "Alexander Wennberg",
      "status": "Out",
      "playerId": 8477505,
@@ -799,17 +810,6 @@
      "applied": false,
      "note": "out",
      "date": "2026-11-15"
-    },
-    {
-     "name": "Igor Chernyshov",
-     "status": "Injured Reserve",
-     "playerId": 8484994,
-     "position": "L",
-     "value": 0.0349,
-     "regular": false,
-     "applied": false,
-     "note": "ir",
-     "date": "2026-10-28"
     }
    ]
   },
