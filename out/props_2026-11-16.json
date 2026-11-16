@@ -1,6 +1,6 @@
 {
  "date": "2026-11-16",
- "generated": "2026-11-16T23:30:48Z",
+ "generated": "2026-11-16T23:40:55Z",
  "data_through": "2026-11-15",
  "picks_enabled": false,
  "params": {
@@ -2892,19 +2892,19 @@
       "player": "Michael Carcone",
       "team": "UTA",
       "opp": "VAN",
-      "line": 2.5,
+      "line": 1.5,
       "open_line": 2.5,
-      "over": "+145",
+      "over": "-195",
       "over_open": "+140",
-      "under": "-195",
+      "under": "+140",
       "under_open": "-190",
-      "updated": "2026-11-17T02:14Z",
+      "updated": "2026-11-17T02:26Z",
       "player_id": 8479619,
       "pos": "F",
       "proj_toi": 12.6,
       "games_weight": 40.4,
       "mean": 1.913,
-      "p_over": 0.3005,
+      "p_over": 0.562,
       "curve": {
        "0.5": 0.8435,
        "1.5": 0.562,
@@ -2915,11 +2915,11 @@
        "6.5": 0.005,
        "7.5": 0.0013
       },
-      "mkt_over": 0.3818,
-      "edge_over": -0.0813,
-      "edge_under": 0.0813,
+      "mkt_over": 0.6134,
+      "edge_over": -0.0513,
+      "edge_under": 0.0513,
       "lean": "Under",
-      "edge": 0.0813,
+      "edge": 0.0513,
       "strong": true
      },
      {
