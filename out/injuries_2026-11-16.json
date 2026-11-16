@@ -1,7 +1,7 @@
 {
  "day": "2026-11-16",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-16 08:59",
+ "fetched": "2026-11-16 15:30",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -127,17 +127,6 @@
    "missing_value": 0,
    "players": [
     {
-     "name": "Tyler Bertuzzi",
-     "status": "Day-To-Day",
-     "playerId": 8477479,
-     "position": "L",
-     "value": 0.0339,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-15"
-    },
-    {
      "name": "Bowen Byram",
      "status": "Injured Reserve",
      "playerId": 8481524,
@@ -145,8 +134,8 @@
      "value": -0.0565,
      "regular": false,
      "applied": false,
-     "note": "Byram (upper body) was placed on injured reserve Tuesday.",
-     "date": "2026-11-03"
+     "note": "Byram (upper body) has been ruled out for Tuesday's game against the Maple Leafs, CHGO Blackhawks reports.",
+     "date": "2026-11-16"
     }
    ]
   },
@@ -200,18 +189,18 @@
    ]
   },
   "CBJ": {
-   "missing_value": 0,
+   "missing_value": -0.0135,
    "players": [
     {
      "name": "Sean Monahan",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8477497,
      "position": "C",
      "value": -0.0135,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-15"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-16"
     }
    ]
   },
@@ -261,6 +250,17 @@
      "applied": true,
      "note": "Bichsel (lower body) was placed on injured reserve Saturday.",
      "date": "2026-11-14"
+    },
+    {
+     "name": "Matt Duchene",
+     "status": "Injured Reserve",
+     "playerId": 8475168,
+     "position": "C",
+     "value": -0.0583,
+     "regular": false,
+     "applied": false,
+     "note": "Duchene will be out for approximately three months after undergoing surgery to repair a core injury, the team announced Monday.",
+     "date": "2026-10-12"
     }
    ]
   },
@@ -315,17 +315,6 @@
      "applied": false,
      "note": "day-to-day",
      "date": "2026-11-16"
-    },
-    {
-     "name": "Isaac Howard",
-     "status": "Injured Reserve",
-     "playerId": 8483455,
-     "position": "L",
-     "value": -0.0628,
-     "regular": false,
-     "applied": false,
-     "note": "ir",
-     "date": "2026-11-06"
     },
     {
      "name": "Alec Regula",
@@ -401,18 +390,18 @@
    ]
   },
   "LAK": {
-   "missing_value": 0,
+   "missing_value": 0.1398,
    "players": [
     {
      "name": "Artemi Panarin",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8478550,
      "position": "L",
      "value": 0.1398,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-15"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-16"
     }
    ]
   },
@@ -451,6 +440,22 @@
      "applied": false,
      "note": "Grebenkin (back) underwent successful surgery and is expected to miss at least four months.",
      "date": "2026-10-10"
+    }
+   ]
+  },
+  "MIN": {
+   "missing_value": -0.0118,
+   "players": [
+    {
+     "name": "Olli Maatta",
+     "status": "Injured Reserve",
+     "playerId": 8476874,
+     "position": "D",
+     "value": -0.0118,
+     "regular": true,
+     "applied": true,
+     "note": "ir",
+     "date": "2026-11-16"
     }
    ]
   },
@@ -594,6 +599,17 @@
    "missing_value": 0,
    "players": [
     {
+     "name": "Logan Stanley",
+     "status": "Day-To-Day",
+     "playerId": 8479378,
+     "position": "D",
+     "value": -0.0513,
+     "regular": true,
+     "applied": false,
+     "note": "Stanley (lower body) is considered day-to-day ahead of Tuesday's clash with the Blue Jackets, Andrew Gross of Newsday reports.",
+     "date": "2026-11-16"
+    },
+    {
      "name": "Jean-Gabriel Pageau",
      "status": "Day-To-Day",
      "playerId": 8476419,
@@ -602,28 +618,6 @@
      "regular": true,
      "applied": false,
      "note": "day-to-day",
-     "date": "2026-11-15"
-    },
-    {
-     "name": "Bo Horvat",
-     "status": "Day-To-Day",
-     "playerId": 8477500,
-     "position": "C",
-     "value": 0.0301,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-15"
-    },
-    {
-     "name": "Logan Stanley",
-     "status": "Day-To-Day",
-     "playerId": 8479378,
-     "position": "D",
-     "value": -0.0513,
-     "regular": true,
-     "applied": false,
-     "note": "Stanley (lower body) won't return to Saturday's game versus the Ducks.",
      "date": "2026-11-15"
     },
     {
@@ -689,18 +683,29 @@
    ]
   },
   "OTT": {
-   "missing_value": -0.0578,
+   "missing_value": -0.0885,
    "players": [
     {
      "name": "Hayden Hodgson",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8478173,
      "position": "R",
      "value": -0.0307,
      "regular": true,
+     "applied": true,
+     "note": "Hodgson (groin) isn't expected to play against Winnipeg on Tuesday, per TSN 1200 Ottawa.",
+     "date": "2026-11-16"
+    },
+    {
+     "name": "Warren Foegele",
+     "status": "Injured Reserve",
+     "playerId": 8477998,
+     "position": "L",
+     "value": -0.016,
+     "regular": false,
      "applied": false,
-     "note": "Hodgson sustained a groin injury versus the Penguins on Saturday, Bruce Garrioch of Postmedia reports.",
-     "date": "2026-11-15"
+     "note": "Head coach Travis Green said Monday that Foegele (knee) hasn't yet resumed skating, Bruce Garrioch of Postmedia reports.",
+     "date": "2026-11-16"
     },
     {
      "name": "Nick Cousins",
@@ -722,17 +727,6 @@
      "regular": false,
      "applied": false,
      "note": "ir",
-     "date": "2026-10-31"
-    },
-    {
-     "name": "Warren Foegele",
-     "status": "Injured Reserve",
-     "playerId": 8477998,
-     "position": "L",
-     "value": -0.016,
-     "regular": false,
-     "applied": false,
-     "note": "Foegele (knee) will miss 3-4 weeks, Jackson Starr of the Senators' official site reports Saturday.",
      "date": "2026-10-31"
     },
     {
@@ -866,26 +860,15 @@
    "missing_value": 0,
    "players": [
     {
-     "name": "Jake Neighbours",
+     "name": "Ross Johnston",
      "status": "Day-To-Day",
-     "playerId": 8482089,
+     "playerId": 8477527,
      "position": "L",
-     "value": -0.0324,
+     "value": -0.0452,
      "regular": true,
      "applied": false,
-     "note": "Neighbours (upper body) is day-to-day, per Lou Korac of NHL.com on Sunday.",
-     "date": "2026-11-15"
-    },
-    {
-     "name": "Philip Broberg",
-     "status": "Day-To-Day",
-     "playerId": 8481598,
-     "position": "D",
-     "value": -0.039,
-     "regular": true,
-     "applied": false,
-     "note": "Broberg (lower body) is day-to-day, according to Lou Korac of NHL.com on Sunday.",
-     "date": "2026-11-15"
+     "note": "Johnston didn't practice Monday due to personal reasons, and his status for Tuesday's game against the Ducks is uncertain, Lou Korac of NHL.com reports.",
+     "date": "2026-11-16"
     },
     {
      "name": "Aleksanteri Kaskimaki",
