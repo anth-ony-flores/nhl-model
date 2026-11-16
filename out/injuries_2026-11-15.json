@@ -1,7 +1,7 @@
 {
  "day": "2026-11-15",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-15 18:42",
+ "fetched": "2026-11-15 18:52",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -519,14 +519,14 @@
    "players": [
     {
      "name": "Jonathan Marchessault",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8476539,
      "position": "R",
      "value": -0.1318,
      "regular": false,
      "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-14"
+     "note": "out",
+     "date": "2026-11-16"
     }
    ]
   },
