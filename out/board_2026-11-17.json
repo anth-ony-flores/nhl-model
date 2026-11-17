@@ -1,7 +1,7 @@
 {
  "date": "2026-11-17",
  "data_through": "2026-11-16",
- "generated": "2026-11-17 15:00 MST",
+ "generated": "2026-11-17 15:10 MST",
  "league_xg60": 3.009,
  "b2b_effect": {
   "own_xg": -0.225,
@@ -879,14 +879,14 @@
    },
    "inj_home": [
     {
-     "name": "Conor Geekie",
-     "status": "Injured Reserve",
-     "playerId": 8483447,
+     "name": "Anthony Cirelli",
+     "status": "Day-To-Day",
+     "playerId": 8478519,
      "position": "C",
-     "value": -0.0848,
+     "value": 0.1119,
      "regular": true,
-     "applied": true,
-     "note": "ir",
+     "applied": false,
+     "note": "Cirelli (lower body) will be a game-time decision for Tuesday's clash with the Capitals, per NHL.com.",
      "date": "2026-11-17"
     },
     {
@@ -897,19 +897,19 @@
      "value": -0.0093,
      "regular": true,
      "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-15"
+     "note": "Cernak (upper body) is considered a game-time decision ahead of Tuesday's matchup with Washington, per NHL.com.",
+     "date": "2026-11-17"
     },
     {
-     "name": "Anthony Cirelli",
-     "status": "Day-To-Day",
-     "playerId": 8478519,
+     "name": "Conor Geekie",
+     "status": "Injured Reserve",
+     "playerId": 8483447,
      "position": "C",
-     "value": 0.1119,
+     "value": -0.0848,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-15"
+     "applied": true,
+     "note": "ir",
+     "date": "2026-11-17"
     }
    ],
    "inj_away": [
