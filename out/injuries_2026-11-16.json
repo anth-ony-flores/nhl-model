@@ -1,7 +1,7 @@
 {
  "day": "2026-11-16",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-16 17:11",
+ "fetched": "2026-11-16 17:21",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -645,8 +645,19 @@
    ]
   },
   "NYR": {
-   "missing_value": -0.0538,
+   "missing_value": -0.0263,
    "players": [
+    {
+     "name": "Pavel Dorofeyev",
+     "status": "Out",
+     "playerId": 8481604,
+     "position": "R",
+     "value": 0.0275,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-17"
+    },
     {
      "name": "Alberts Smits",
      "status": "Injured Reserve",
