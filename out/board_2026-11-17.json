@@ -1,7 +1,7 @@
 {
  "date": "2026-11-17",
  "data_through": "2026-11-16",
- "generated": "2026-11-17 16:11 MST",
+ "generated": "2026-11-17 16:21 MST",
  "league_xg60": 3.009,
  "b2b_effect": {
   "own_xg": -0.225,
@@ -879,14 +879,14 @@
    },
    "inj_home": [
     {
-     "name": "Anthony Cirelli",
-     "status": "Day-To-Day",
-     "playerId": 8478519,
-     "position": "C",
-     "value": 0.1119,
+     "name": "Brandon Hagel",
+     "status": "Out",
+     "playerId": 8479542,
+     "position": "L",
+     "value": 0.2262,
      "regular": true,
-     "applied": false,
-     "note": "Cirelli (lower body) will be a game-time decision for Tuesday's clash with the Capitals, per NHL.com.",
+     "applied": true,
+     "note": "out",
      "date": "2026-11-17"
     },
     {
@@ -936,17 +936,17 @@
      "date": "2026-10-23"
     }
    ],
-   "inj_adj_home": -0.085,
+   "inj_adj_home": 0.141,
    "inj_adj_away": 0,
-   "xg_home": 3.444,
-   "xg_away": 3.009,
-   "proj_home": 3.47,
-   "proj_away": 2.88,
-   "p_home": 0.5989,
-   "p_away": 0.4011,
-   "p_ot": 0.2343,
-   "fair_ml_home": -149,
-   "fair_ml_away": 149,
+   "xg_home": 3.331,
+   "xg_away": 3.122,
+   "proj_home": 3.36,
+   "proj_away": 2.98,
+   "p_home": 0.5648,
+   "p_away": 0.4352,
+   "p_ot": 0.2383,
+   "fair_ml_home": -130,
+   "fair_ml_away": 130,
    "exp_total": 6.34,
    "totals": {
     "4.5": {
@@ -954,35 +954,35 @@
      "under": 0.2247
     },
     "5.0": {
-     "over": 0.5991,
+     "over": 0.5987,
      "under": 0.2247
     },
     "5.5": {
-     "over": 0.5991,
-     "under": 0.4009
+     "over": 0.5987,
+     "under": 0.4013
     },
     "6.0": {
-     "over": 0.4567,
-     "under": 0.4009
+     "over": 0.4568,
+     "under": 0.4013
     },
     "6.5": {
-     "over": 0.4567,
-     "under": 0.5433
+     "over": 0.4568,
+     "under": 0.5432
     },
     "7.0": {
-     "over": 0.2899,
-     "under": 0.5433
+     "over": 0.2895,
+     "under": 0.5432
     },
     "7.5": {
-     "over": 0.2899,
-     "under": 0.7101
+     "over": 0.2895,
+     "under": 0.7105
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3881,
-    "away_+1.5": 0.6119,
-    "away_-1.5": 0.2287,
-    "home_+1.5": 0.7713
+    "home_-1.5": 0.3576,
+    "away_+1.5": 0.6424,
+    "away_-1.5": 0.2535,
+    "home_+1.5": 0.7465
    }
   },
   {
