@@ -1,7 +1,7 @@
 {
  "day": "2026-11-17",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-17 07:33",
+ "fetched": "2026-11-17 15:00",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -96,8 +96,8 @@
      "value": 0.0285,
      "regular": false,
      "applied": false,
-     "note": "Huberdeau (hip) won't travel with the Flames during their upcoming three-game road trip, Pat Steinberg of QR Calgary 770 AM reports Friday.",
-     "date": "2026-11-13"
+     "note": "Huberdeau (hip) was assigned to AHL Calgary on Tuesday on a conditioning loan.",
+     "date": "2026-11-17"
     },
     {
      "name": "Kevin Bahl",
@@ -134,8 +134,8 @@
      "value": -0.0565,
      "regular": false,
      "applied": false,
-     "note": "Byram (upper body) has been ruled out for Tuesday's game against the Maple Leafs, CHGO Blackhawks reports.",
-     "date": "2026-11-16"
+     "note": "Byram (upper body) will not play in the Blackhawks' next two games, per CHGO Blackhawks.",
+     "date": "2026-11-17"
     }
    ]
   },
@@ -205,29 +205,18 @@
    ]
   },
   "DAL": {
-   "missing_value": -0.0853,
+   "missing_value": -0.1347,
    "players": [
     {
      "name": "Tyler Myers",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8474574,
      "position": "D",
      "value": -0.0494,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-16"
-    },
-    {
-     "name": "Miro Heiskanen",
-     "status": "Day-To-Day",
-     "playerId": 8480036,
-     "position": "D",
-     "value": 0.114,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-16"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-17"
     },
     {
      "name": "Kyle Capobianco",
@@ -264,8 +253,19 @@
      "value": -0.0276,
      "regular": false,
      "applied": false,
-     "note": "Johansson (undisclosed) will be with the Red Wings for their upcoming four-game road trip, Ansar Khan of MLive.com reports Friday.",
-     "date": "2026-11-06"
+     "note": "Johansson (undisclosed) is expected to return to the lineup either Wednesday or Saturday, per Ansar Khan of MLive.com.",
+     "date": "2026-11-17"
+    },
+    {
+     "name": "William Wallinder",
+     "status": "Day-To-Day",
+     "playerId": 8482171,
+     "position": "D",
+     "value": -0.013,
+     "regular": true,
+     "applied": false,
+     "note": "Wallinder (upper body) is day-to-day, per Ansar Khan of MLive.com on Tuesday.",
+     "date": "2026-11-17"
     },
     {
      "name": "Dylan Larkin",
@@ -292,18 +292,18 @@
    ]
   },
   "EDM": {
-   "missing_value": 0,
+   "missing_value": 0.0091,
    "players": [
     {
      "name": "Ryan Nugent-Hopkins",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8476454,
      "position": "C",
      "value": 0.0091,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-16"
+     "applied": true,
+     "note": "Nugent-Hopkins (undisclosed) isn't expected to play against Florida on Tuesday, per Oilers play-by-play announcer Jack Michaels.",
+     "date": "2026-11-17"
     },
     {
      "name": "Alec Regula",
@@ -394,44 +394,6 @@
     }
    ]
   },
-  "PHI": {
-   "missing_value": 0,
-   "players": [
-    {
-     "name": "Erik Gustafsson",
-     "status": "Day-To-Day",
-     "playerId": 8476979,
-     "position": "D",
-     "value": 0.0749,
-     "regular": false,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-15"
-    },
-    {
-     "name": "Denver Barkey",
-     "status": "Day-To-Day",
-     "playerId": 8484142,
-     "position": "C",
-     "value": 0.0649,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-16"
-    },
-    {
-     "name": "Nikita Grebenkin",
-     "status": "Injured Reserve",
-     "playerId": 8483733,
-     "position": "R",
-     "value": -0.043,
-     "regular": false,
-     "applied": false,
-     "note": "Grebenkin (back) underwent successful surgery and is expected to miss at least four months.",
-     "date": "2026-10-10"
-    }
-   ]
-  },
   "MIN": {
    "missing_value": -0.0118,
    "players": [
@@ -451,6 +413,17 @@
   "MTL": {
    "missing_value": -0.0739,
    "players": [
+    {
+     "name": "Alexandre Texier",
+     "status": "Day-To-Day",
+     "playerId": 8480074,
+     "position": "L",
+     "value": 0.0344,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-17"
+    },
     {
      "name": "Mike Matheson",
      "status": "Out",
@@ -508,46 +481,30 @@
     }
    ]
   },
-  "NSH": {
-   "missing_value": 0,
-   "players": [
-    {
-     "name": "Jonathan Marchessault",
-     "status": "Day-To-Day",
-     "playerId": 8476539,
-     "position": "R",
-     "value": -0.1318,
-     "regular": false,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-16"
-    }
-   ]
-  },
   "NJD": {
    "missing_value": -0.0052,
    "players": [
     {
-     "name": "Brett Pesce",
-     "status": "Day-To-Day",
-     "playerId": 8477488,
-     "position": "D",
-     "value": 0.0201,
+     "name": "Anthony Mantha",
+     "status": "Injured Reserve",
+     "playerId": 8477511,
+     "position": "R",
+     "value": -0.0032,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-15"
+     "applied": true,
+     "note": "Mantha (neck) is expected to miss about one month after undergoing surgery, per Kristy Flannery of The Hockey News.",
+     "date": "2026-11-17"
     },
     {
-     "name": "Vladislav Kolyachonok",
-     "status": "Day-To-Day",
-     "playerId": 8481609,
+     "name": "Johnathan Kovacevic",
+     "status": "Injured Reserve",
+     "playerId": 8480192,
      "position": "D",
-     "value": 0.0941,
-     "regular": false,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-15"
+     "value": -0.002,
+     "regular": true,
+     "applied": true,
+     "note": "Kovacevic (ankle) is expected to be sidelined for 4-6 weeks, per Kristy Flannery of The Hockey News.",
+     "date": "2026-11-17"
     },
     {
      "name": "Seamus Casey",
@@ -559,44 +516,22 @@
      "applied": false,
      "note": "Casey (knee) was moved to long-term injured reserve on Friday, per PuckPedia.",
      "date": "2026-11-13"
-    },
-    {
-     "name": "Johnathan Kovacevic",
-     "status": "Injured Reserve",
-     "playerId": 8480192,
-     "position": "D",
-     "value": -0.002,
-     "regular": true,
-     "applied": true,
-     "note": "The Devils placed Kovacevic (ankle) on injured reserve Friday, retroactive to Nov. 10.",
-     "date": "2026-11-13"
-    },
-    {
-     "name": "Anthony Mantha",
-     "status": "Injured Reserve",
-     "playerId": 8477511,
-     "position": "R",
-     "value": -0.0032,
-     "regular": true,
-     "applied": true,
-     "note": "Mantha (throat) was placed on long-term injured reserve by the Devils on Wednesday, retroactive to Nov. 7.",
-     "date": "2026-11-11"
     }
    ]
   },
   "NYI": {
-   "missing_value": 0,
+   "missing_value": -0.0513,
    "players": [
     {
      "name": "Logan Stanley",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8479378,
      "position": "D",
      "value": -0.0513,
      "regular": true,
-     "applied": false,
-     "note": "Stanley (lower body) is considered day-to-day ahead of Tuesday's clash with the Blue Jackets, Andrew Gross of Newsday reports.",
-     "date": "2026-11-16"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-17"
     },
     {
      "name": "Jean-Gabriel Pageau",
@@ -606,8 +541,8 @@
      "value": -0.0261,
      "regular": true,
      "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-15"
+     "note": "Pageau (lower body) will be a game-time decision ahead of Tuesday's matchup with Columbus, Stefen Rosner of NHL.com reports.",
+     "date": "2026-11-17"
     },
     {
      "name": "Calum Ritchie",
@@ -742,6 +677,22 @@
     }
    ]
   },
+  "PHI": {
+   "missing_value": 0,
+   "players": [
+    {
+     "name": "Nikita Grebenkin",
+     "status": "Injured Reserve",
+     "playerId": 8483733,
+     "position": "R",
+     "value": -0.043,
+     "regular": false,
+     "applied": false,
+     "note": "Grebenkin (back) underwent successful surgery and is expected to miss at least four months.",
+     "date": "2026-10-10"
+    }
+   ]
+  },
   "PIT": {
    "missing_value": 0,
    "players": [
@@ -781,29 +732,18 @@
    ]
   },
   "SJS": {
-   "missing_value": 0,
+   "missing_value": 0.0037,
    "players": [
     {
-     "name": "Alexander Wennberg",
-     "status": "Day-To-Day",
-     "playerId": 8477505,
-     "position": "C",
-     "value": -0.0166,
-     "regular": false,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-16"
-    },
-    {
      "name": "Kiefer Sherwood",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8480748,
      "position": "L",
      "value": 0.0037,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-16"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-17"
     },
     {
      "name": "Igor Chernyshov",
@@ -857,29 +797,18 @@
    ]
   },
   "STL": {
-   "missing_value": 0,
+   "missing_value": -0.0452,
    "players": [
     {
      "name": "Ross Johnston",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8477527,
      "position": "L",
      "value": -0.0452,
      "regular": true,
-     "applied": false,
-     "note": "Johnston didn't practice Monday due to personal reasons, and his status for Tuesday's game against the Ducks is uncertain, Lou Korac of NHL.com reports.",
-     "date": "2026-11-16"
-    },
-    {
-     "name": "Aleksanteri Kaskimaki",
-     "status": "Day-To-Day",
-     "playerId": 8483463,
-     "position": "C",
-     "value": 0.0042,
-     "regular": true,
-     "applied": false,
-     "note": "Kaskimaki sustained an undisclosed injury near the end of Saturday's game versus the Panthers, Lou Korac of NHL.com reports.",
-     "date": "2026-11-15"
+     "applied": true,
+     "note": "Johnston (upper body) won't play against Anaheim on Tuesday, Lou Korac of NHL.com reports.",
+     "date": "2026-11-17"
     },
     {
      "name": "Torey Krug",
@@ -917,8 +846,19 @@
    ]
   },
   "TBL": {
-   "missing_value": 0.0298,
+   "missing_value": -0.0848,
    "players": [
+    {
+     "name": "Conor Geekie",
+     "status": "Injured Reserve",
+     "playerId": 8483447,
+     "position": "C",
+     "value": -0.0848,
+     "regular": true,
+     "applied": true,
+     "note": "ir",
+     "date": "2026-11-17"
+    },
     {
      "name": "Erik Cernak",
      "status": "Day-To-Day",
@@ -940,34 +880,12 @@
      "applied": false,
      "note": "day-to-day",
      "date": "2026-11-15"
-    },
-    {
-     "name": "Brayden Point",
-     "status": "Injured Reserve",
-     "playerId": 8478010,
-     "position": "C",
-     "value": 0.0298,
-     "regular": true,
-     "applied": true,
-     "note": "ir",
-     "date": "2026-11-10"
     }
    ]
   },
   "TOR": {
    "missing_value": -0.0238,
    "players": [
-    {
-     "name": "Morgan Rielly",
-     "status": "Day-To-Day",
-     "playerId": 8476853,
-     "position": "D",
-     "value": 0.0792,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-15"
-    },
     {
      "name": "Colton Sissons",
      "status": "Injured Reserve",
@@ -1178,18 +1096,18 @@
    ]
   },
   "WPG": {
-   "missing_value": 0.069,
+   "missing_value": 0.0392,
    "players": [
     {
      "name": "Isak Rosen",
-     "status": "Day-To-Day",
+     "status": "Injured Reserve",
      "playerId": 8482765,
      "position": "R",
      "value": -0.0298,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-15"
+     "applied": true,
+     "note": "ir",
+     "date": "2026-11-17"
     },
     {
      "name": "Dylan DeMelo",

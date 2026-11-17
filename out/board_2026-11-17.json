@@ -1,7 +1,7 @@
 {
  "date": "2026-11-17",
  "data_through": "2026-11-16",
- "generated": "2026-11-17 07:34 MST",
+ "generated": "2026-11-17 15:00 MST",
  "league_xg60": 3.009,
  "b2b_effect": {
   "own_xg": -0.225,
@@ -218,14 +218,14 @@
    "inj_away": [
     {
      "name": "Ryan Nugent-Hopkins",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8476454,
      "position": "C",
      "value": 0.0091,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-16"
+     "applied": true,
+     "note": "Nugent-Hopkins (undisclosed) isn't expected to play against Florida on Tuesday, per Oilers play-by-play announcer Jack Michaels.",
+     "date": "2026-11-17"
     },
     {
      "name": "Alec Regula",
@@ -262,16 +262,16 @@
     }
    ],
    "inj_adj_home": 0,
-   "inj_adj_away": 0,
-   "xg_home": 2.942,
-   "xg_away": 2.788,
-   "proj_home": 3.11,
+   "inj_adj_away": 0.009,
+   "xg_home": 2.947,
+   "xg_away": 2.784,
+   "proj_home": 3.12,
    "proj_away": 3.01,
-   "p_home": 0.5176,
-   "p_away": 0.4824,
+   "p_home": 0.5191,
+   "p_away": 0.4809,
    "p_ot": 0.2457,
-   "fair_ml_home": -107,
-   "fair_ml_away": 107,
+   "fair_ml_home": -108,
+   "fair_ml_away": 108,
    "exp_total": 6.13,
    "totals": {
     "4.5": {
@@ -287,16 +287,16 @@
      "under": 0.436
     },
     "6.0": {
-     "over": 0.4218,
+     "over": 0.4217,
      "under": 0.436
     },
     "6.5": {
-     "over": 0.4218,
-     "under": 0.5782
+     "over": 0.4217,
+     "under": 0.5783
     },
     "7.0": {
      "over": 0.2584,
-     "under": 0.5782
+     "under": 0.5783
     },
     "7.5": {
      "over": 0.2584,
@@ -304,10 +304,10 @@
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3141,
-    "away_+1.5": 0.6859,
-    "away_-1.5": 0.2862,
-    "home_+1.5": 0.7138
+    "home_-1.5": 0.3154,
+    "away_+1.5": 0.6846,
+    "away_-1.5": 0.285,
+    "home_+1.5": 0.715
    }
   },
   {
@@ -359,14 +359,14 @@
    "inj_home": [
     {
      "name": "Logan Stanley",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8479378,
      "position": "D",
      "value": -0.0513,
      "regular": true,
-     "applied": false,
-     "note": "Stanley (lower body) is considered day-to-day ahead of Tuesday's clash with the Blue Jackets, Andrew Gross of Newsday reports.",
-     "date": "2026-11-16"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-17"
     },
     {
      "name": "Jean-Gabriel Pageau",
@@ -376,8 +376,8 @@
      "value": -0.0261,
      "regular": true,
      "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-15"
+     "note": "Pageau (lower body) will be a game-time decision ahead of Tuesday's matchup with Columbus, Stefen Rosner of NHL.com reports.",
+     "date": "2026-11-17"
     },
     {
      "name": "Calum Ritchie",
@@ -415,53 +415,53 @@
      "date": "2026-11-16"
     }
    ],
-   "inj_adj_home": 0,
+   "inj_adj_home": -0.051,
    "inj_adj_away": -0.013,
-   "xg_home": 2.895,
-   "xg_away": 3.05,
-   "proj_home": 3.08,
-   "proj_away": 2.78,
-   "p_home": 0.554,
-   "p_away": 0.446,
-   "p_ot": 0.2501,
-   "fair_ml_home": -124,
-   "fair_ml_away": 124,
-   "exp_total": 5.86,
+   "xg_home": 2.921,
+   "xg_away": 3.024,
+   "proj_home": 3.11,
+   "proj_away": 2.76,
+   "p_home": 0.5622,
+   "p_away": 0.4378,
+   "p_ot": 0.2493,
+   "fair_ml_home": -128,
+   "fair_ml_away": 128,
+   "exp_total": 5.87,
    "totals": {
     "4.5": {
-     "over": 0.7148,
-     "under": 0.2852
+     "over": 0.7151,
+     "under": 0.2849
     },
     "5.0": {
-     "over": 0.5199,
-     "under": 0.2852
+     "over": 0.5205,
+     "under": 0.2849
     },
     "5.5": {
-     "over": 0.5199,
-     "under": 0.4801
+     "over": 0.5205,
+     "under": 0.4795
     },
     "6.0": {
-     "over": 0.378,
-     "under": 0.4801
+     "over": 0.3785,
+     "under": 0.4795
     },
     "6.5": {
-     "over": 0.378,
-     "under": 0.622
+     "over": 0.3785,
+     "under": 0.6215
     },
     "7.0": {
-     "over": 0.2218,
-     "under": 0.622
+     "over": 0.2223,
+     "under": 0.6215
     },
     "7.5": {
-     "over": 0.2218,
-     "under": 0.7782
+     "over": 0.2223,
+     "under": 0.7777
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3396,
-    "away_+1.5": 0.6604,
-    "away_-1.5": 0.2546,
-    "home_+1.5": 0.7454
+    "home_-1.5": 0.3466,
+    "away_+1.5": 0.6534,
+    "away_-1.5": 0.2487,
+    "home_+1.5": 0.7513
    }
   },
   {
@@ -516,28 +516,6 @@
     ]
    },
    "inj_home": [
-    {
-     "name": "Erik Gustafsson",
-     "status": "Day-To-Day",
-     "playerId": 8476979,
-     "position": "D",
-     "value": 0.0749,
-     "regular": false,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-15"
-    },
-    {
-     "name": "Denver Barkey",
-     "status": "Day-To-Day",
-     "playerId": 8484142,
-     "position": "C",
-     "value": 0.0649,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-16"
-    },
     {
      "name": "Nikita Grebenkin",
      "status": "Injured Reserve",
@@ -693,14 +671,14 @@
    "inj_home": [
     {
      "name": "Isak Rosen",
-     "status": "Day-To-Day",
+     "status": "Injured Reserve",
      "playerId": 8482765,
      "position": "R",
      "value": -0.0298,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-15"
+     "applied": true,
+     "note": "ir",
+     "date": "2026-11-17"
     },
     {
      "name": "Dylan DeMelo",
@@ -804,53 +782,53 @@
      "date": "2026-10-15"
     }
    ],
-   "inj_adj_home": 0.069,
+   "inj_adj_home": 0.039,
    "inj_adj_away": -0.088,
-   "xg_home": 2.647,
-   "xg_away": 3.214,
-   "proj_home": 3.05,
-   "proj_away": 3.26,
-   "p_home": 0.4644,
-   "p_away": 0.5356,
-   "p_ot": 0.2409,
-   "fair_ml_home": 115,
-   "fair_ml_away": -115,
-   "exp_total": 6.31,
+   "xg_home": 2.662,
+   "xg_away": 3.199,
+   "proj_home": 3.07,
+   "proj_away": 3.25,
+   "p_home": 0.4695,
+   "p_away": 0.5305,
+   "p_ot": 0.2411,
+   "fair_ml_home": 113,
+   "fair_ml_away": -113,
+   "exp_total": 6.32,
    "totals": {
     "4.5": {
-     "over": 0.7722,
-     "under": 0.2278
+     "over": 0.7724,
+     "under": 0.2276
     },
     "5.0": {
-     "over": 0.5942,
-     "under": 0.2278
+     "over": 0.5945,
+     "under": 0.2276
     },
     "5.5": {
-     "over": 0.5942,
-     "under": 0.4058
+     "over": 0.5945,
+     "under": 0.4055
     },
     "6.0": {
-     "over": 0.4524,
-     "under": 0.4058
+     "over": 0.4528,
+     "under": 0.4055
     },
     "6.5": {
-     "over": 0.4524,
-     "under": 0.5476
+     "over": 0.4528,
+     "under": 0.5472
     },
     "7.0": {
-     "over": 0.2854,
-     "under": 0.5476
+     "over": 0.2857,
+     "under": 0.5472
     },
     "7.5": {
-     "over": 0.2854,
-     "under": 0.7146
+     "over": 0.2857,
+     "under": 0.7143
     }
    },
    "puck_line": {
-    "home_-1.5": 0.2751,
-    "away_+1.5": 0.7249,
-    "away_-1.5": 0.3321,
-    "home_+1.5": 0.6679
+    "home_-1.5": 0.279,
+    "away_+1.5": 0.721,
+    "away_-1.5": 0.3279,
+    "home_+1.5": 0.6721
    }
   },
   {
@@ -901,6 +879,17 @@
    },
    "inj_home": [
     {
+     "name": "Conor Geekie",
+     "status": "Injured Reserve",
+     "playerId": 8483447,
+     "position": "C",
+     "value": -0.0848,
+     "regular": true,
+     "applied": true,
+     "note": "ir",
+     "date": "2026-11-17"
+    },
+    {
      "name": "Erik Cernak",
      "status": "Day-To-Day",
      "playerId": 8478416,
@@ -921,17 +910,6 @@
      "applied": false,
      "note": "day-to-day",
      "date": "2026-11-15"
-    },
-    {
-     "name": "Brayden Point",
-     "status": "Injured Reserve",
-     "playerId": 8478010,
-     "position": "C",
-     "value": 0.0298,
-     "regular": true,
-     "applied": true,
-     "note": "ir",
-     "date": "2026-11-10"
     }
    ],
    "inj_away": [
@@ -958,53 +936,53 @@
      "date": "2026-10-23"
     }
    ],
-   "inj_adj_home": 0.03,
+   "inj_adj_home": -0.085,
    "inj_adj_away": 0,
-   "xg_home": 3.387,
-   "xg_away": 3.066,
-   "proj_home": 3.41,
-   "proj_away": 2.93,
-   "p_home": 0.5817,
-   "p_away": 0.4183,
-   "p_ot": 0.2365,
-   "fair_ml_home": -139,
-   "fair_ml_away": 139,
+   "xg_home": 3.444,
+   "xg_away": 3.009,
+   "proj_home": 3.47,
+   "proj_away": 2.88,
+   "p_home": 0.5989,
+   "p_away": 0.4011,
+   "p_ot": 0.2343,
+   "fair_ml_home": -149,
+   "fair_ml_away": 149,
    "exp_total": 6.34,
    "totals": {
     "4.5": {
-     "over": 0.7754,
-     "under": 0.2246
+     "over": 0.7753,
+     "under": 0.2247
     },
     "5.0": {
-     "over": 0.5989,
-     "under": 0.2246
+     "over": 0.5991,
+     "under": 0.2247
     },
     "5.5": {
-     "over": 0.5989,
-     "under": 0.4011
+     "over": 0.5991,
+     "under": 0.4009
     },
     "6.0": {
-     "over": 0.4568,
-     "under": 0.4011
+     "over": 0.4567,
+     "under": 0.4009
     },
     "6.5": {
-     "over": 0.4568,
-     "under": 0.5432
+     "over": 0.4567,
+     "under": 0.5433
     },
     "7.0": {
-     "over": 0.2897,
-     "under": 0.5432
+     "over": 0.2899,
+     "under": 0.5433
     },
     "7.5": {
-     "over": 0.2897,
-     "under": 0.7103
+     "over": 0.2899,
+     "under": 0.7101
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3725,
-    "away_+1.5": 0.6275,
-    "away_-1.5": 0.2411,
-    "home_+1.5": 0.7589
+    "home_-1.5": 0.3881,
+    "away_+1.5": 0.6119,
+    "away_-1.5": 0.2287,
+    "home_+1.5": 0.7713
    }
   },
   {
@@ -1062,22 +1040,11 @@
      "value": -0.0565,
      "regular": false,
      "applied": false,
-     "note": "Byram (upper body) has been ruled out for Tuesday's game against the Maple Leafs, CHGO Blackhawks reports.",
-     "date": "2026-11-16"
+     "note": "Byram (upper body) will not play in the Blackhawks' next two games, per CHGO Blackhawks.",
+     "date": "2026-11-17"
     }
    ],
    "inj_away": [
-    {
-     "name": "Morgan Rielly",
-     "status": "Day-To-Day",
-     "playerId": 8476853,
-     "position": "D",
-     "value": 0.0792,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-15"
-    },
     {
      "name": "Colton Sissons",
      "status": "Injured Reserve",
@@ -1259,25 +1226,14 @@
    "inj_home": [
     {
      "name": "Ross Johnston",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8477527,
      "position": "L",
      "value": -0.0452,
      "regular": true,
-     "applied": false,
-     "note": "Johnston didn't practice Monday due to personal reasons, and his status for Tuesday's game against the Ducks is uncertain, Lou Korac of NHL.com reports.",
-     "date": "2026-11-16"
-    },
-    {
-     "name": "Aleksanteri Kaskimaki",
-     "status": "Day-To-Day",
-     "playerId": 8483463,
-     "position": "C",
-     "value": 0.0042,
-     "regular": true,
-     "applied": false,
-     "note": "Kaskimaki sustained an undisclosed injury near the end of Saturday's game versus the Panthers, Lou Korac of NHL.com reports.",
-     "date": "2026-11-15"
+     "applied": true,
+     "note": "Johnston (upper body) won't play against Anaheim on Tuesday, Lou Korac of NHL.com reports.",
+     "date": "2026-11-17"
     },
     {
      "name": "Torey Krug",
@@ -1337,53 +1293,53 @@
      "date": "2026-11-02"
     }
    ],
-   "inj_adj_home": 0,
+   "inj_adj_home": -0.045,
    "inj_adj_away": 0,
-   "xg_home": 3.124,
-   "xg_away": 3.087,
-   "proj_home": 3.39,
-   "proj_away": 2.9,
-   "p_home": 0.5824,
-   "p_away": 0.4176,
-   "p_ot": 0.2376,
-   "fair_ml_home": -139,
-   "fair_ml_away": 139,
-   "exp_total": 6.28,
+   "xg_home": 3.146,
+   "xg_away": 3.064,
+   "proj_home": 3.41,
+   "proj_away": 2.88,
+   "p_home": 0.5894,
+   "p_away": 0.4106,
+   "p_ot": 0.2368,
+   "fair_ml_home": -144,
+   "fair_ml_away": 144,
+   "exp_total": 6.29,
    "totals": {
     "4.5": {
-     "over": 0.7687,
-     "under": 0.2313
+     "over": 0.7689,
+     "under": 0.2311
     },
     "5.0": {
-     "over": 0.59,
-     "under": 0.2313
+     "over": 0.5904,
+     "under": 0.2311
     },
     "5.5": {
-     "over": 0.59,
-     "under": 0.41
+     "over": 0.5904,
+     "under": 0.4096
     },
     "6.0": {
-     "over": 0.4475,
-     "under": 0.41
+     "over": 0.4478,
+     "under": 0.4096
     },
     "6.5": {
-     "over": 0.4475,
-     "under": 0.5525
+     "over": 0.4478,
+     "under": 0.5522
     },
     "7.0": {
-     "over": 0.2814,
-     "under": 0.5525
+     "over": 0.2818,
+     "under": 0.5522
     },
     "7.5": {
-     "over": 0.2814,
-     "under": 0.7186
+     "over": 0.2818,
+     "under": 0.7182
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3721,
-    "away_+1.5": 0.6279,
-    "away_-1.5": 0.2398,
-    "home_+1.5": 0.7602
+    "home_-1.5": 0.3785,
+    "away_+1.5": 0.6215,
+    "away_-1.5": 0.2348,
+    "home_+1.5": 0.7652
    }
   },
   {
@@ -1445,21 +1401,9 @@
      "date": "2026-11-16"
     }
    ],
-   "inj_away": [
-    {
-     "name": "Jonathan Marchessault",
-     "status": "Day-To-Day",
-     "playerId": 8476539,
-     "position": "R",
-     "value": -0.1318,
-     "regular": false,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-16"
-    }
-   ],
+   "inj_away": [],
    "inj_adj_home": -0.012,
-   "inj_adj_away": 0,
+   "inj_adj_away": 0.0,
    "xg_home": 3.377,
    "xg_away": 2.829,
    "proj_home": 3.5,
@@ -1569,25 +1513,14 @@
    "inj_away": [
     {
      "name": "Tyler Myers",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8474574,
      "position": "D",
      "value": -0.0494,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-16"
-    },
-    {
-     "name": "Miro Heiskanen",
-     "status": "Day-To-Day",
-     "playerId": 8480036,
-     "position": "D",
-     "value": 0.114,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-16"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-17"
     },
     {
      "name": "Kyle Capobianco",
@@ -1613,16 +1546,16 @@
     }
    ],
    "inj_adj_home": 0.014,
-   "inj_adj_away": -0.085,
-   "xg_home": 2.821,
-   "xg_away": 2.667,
-   "proj_home": 2.94,
-   "proj_away": 2.75,
-   "p_home": 0.5334,
-   "p_away": 0.4666,
-   "p_ot": 0.2557,
-   "fair_ml_home": -114,
-   "fair_ml_away": 114,
+   "inj_adj_away": -0.135,
+   "xg_home": 2.796,
+   "xg_away": 2.692,
+   "proj_home": 2.92,
+   "proj_away": 2.78,
+   "p_home": 0.5249,
+   "p_away": 0.4751,
+   "p_ot": 0.2561,
+   "fair_ml_home": -110,
+   "fair_ml_away": 110,
    "exp_total": 5.69,
    "totals": {
     "4.5": {
@@ -1638,16 +1571,16 @@
      "under": 0.5101
     },
     "6.0": {
-     "over": 0.3496,
+     "over": 0.3497,
      "under": 0.5101
     },
     "6.5": {
-     "over": 0.3496,
-     "under": 0.6504
+     "over": 0.3497,
+     "under": 0.6503
     },
     "7.0": {
      "over": 0.1989,
-     "under": 0.6504
+     "under": 0.6503
     },
     "7.5": {
      "over": 0.1989,
@@ -1655,10 +1588,10 @@
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3192,
-    "away_+1.5": 0.6808,
-    "away_-1.5": 0.267,
-    "home_+1.5": 0.733
+    "home_-1.5": 0.3123,
+    "away_+1.5": 0.6877,
+    "away_-1.5": 0.2734,
+    "home_+1.5": 0.7266
    }
   },
   {
@@ -1714,26 +1647,15 @@
    },
    "inj_home": [
     {
-     "name": "Alexander Wennberg",
-     "status": "Day-To-Day",
-     "playerId": 8477505,
-     "position": "C",
-     "value": -0.0166,
-     "regular": false,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-16"
-    },
-    {
      "name": "Kiefer Sherwood",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8480748,
      "position": "L",
      "value": 0.0037,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-16"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-17"
     },
     {
      "name": "Igor Chernyshov",
@@ -1756,8 +1678,8 @@
      "value": 0.0285,
      "regular": false,
      "applied": false,
-     "note": "Huberdeau (hip) won't travel with the Flames during their upcoming three-game road trip, Pat Steinberg of QR Calgary 770 AM reports Friday.",
-     "date": "2026-11-13"
+     "note": "Huberdeau (hip) was assigned to AHL Calgary on Tuesday on a conditioning loan.",
+     "date": "2026-11-17"
     },
     {
      "name": "Kevin Bahl",
@@ -1782,14 +1704,14 @@
      "date": "2026-10-30"
     }
    ],
-   "inj_adj_home": 0,
+   "inj_adj_home": 0.004,
    "inj_adj_away": -0.07,
-   "xg_home": 3.045,
-   "xg_away": 3.056,
+   "xg_home": 3.043,
+   "xg_away": 3.058,
    "proj_home": 3.29,
-   "proj_away": 3.12,
-   "p_home": 0.5286,
-   "p_away": 0.4714,
+   "proj_away": 3.13,
+   "p_home": 0.528,
+   "p_away": 0.472,
    "p_ot": 0.239,
    "fair_ml_home": -112,
    "fair_ml_away": 112,
@@ -1825,10 +1747,10 @@
     }
    },
    "puck_line": {
-    "home_-1.5": 0.328,
-    "away_+1.5": 0.672,
-    "away_-1.5": 0.282,
-    "home_+1.5": 0.718
+    "home_-1.5": 0.3275,
+    "away_+1.5": 0.6725,
+    "away_-1.5": 0.2825,
+    "home_+1.5": 0.7175
    }
   }
  ],
