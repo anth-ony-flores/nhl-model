@@ -1,7 +1,7 @@
 {
  "date": "2026-11-17",
  "data_through": "2026-11-16",
- "generated": "2026-11-17 16:31 MST",
+ "generated": "2026-11-17 16:41 MST",
  "league_xg60": 3.009,
  "b2b_effect": {
   "own_xg": -0.225,
@@ -886,18 +886,7 @@
      "value": 0.2262,
      "regular": true,
      "applied": true,
-     "note": "out",
-     "date": "2026-11-17"
-    },
-    {
-     "name": "Erik Cernak",
-     "status": "Day-To-Day",
-     "playerId": 8478416,
-     "position": "D",
-     "value": -0.0093,
-     "regular": true,
-     "applied": false,
-     "note": "Cernak (upper body) is considered a game-time decision ahead of Tuesday's matchup with Washington, per NHL.com.",
+     "note": "Hagel (undisclosed) won't play against Washington on Tuesday, Benjamin Pierce of the Lightning's official site reports.",
      "date": "2026-11-17"
     },
     {
