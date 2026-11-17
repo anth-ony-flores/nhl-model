@@ -1,6 +1,6 @@
 {
  "date": "2026-11-16",
- "generated": "2026-11-17T01:52:30Z",
+ "generated": "2026-11-17T02:02:37Z",
  "data_through": "2026-11-15",
  "picks_enabled": false,
  "params": {
@@ -56,7 +56,7 @@
    "home_name": "Rangers",
    "start_utc": "2026-11-17T00:30:00Z",
    "state": "in",
-   "detail": "16:10 - 2nd",
+   "detail": "10:13 - 2nd",
    "frozen": true,
    "goal_factor": {
     "MTL": 1.01,
