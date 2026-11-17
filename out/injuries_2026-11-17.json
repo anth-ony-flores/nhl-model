@@ -1,7 +1,7 @@
 {
  "day": "2026-11-17",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-17 16:41",
+ "fetched": "2026-11-17 16:51",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -520,8 +520,19 @@
    ]
   },
   "NYI": {
-   "missing_value": -0.0513,
+   "missing_value": -0.0774,
    "players": [
+    {
+     "name": "Jean-Gabriel Pageau",
+     "status": "Out",
+     "playerId": 8476419,
+     "position": "C",
+     "value": -0.0261,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-17"
+    },
     {
      "name": "Logan Stanley",
      "status": "Out",
@@ -531,17 +542,6 @@
      "regular": true,
      "applied": true,
      "note": "out",
-     "date": "2026-11-17"
-    },
-    {
-     "name": "Jean-Gabriel Pageau",
-     "status": "Day-To-Day",
-     "playerId": 8476419,
-     "position": "C",
-     "value": -0.0261,
-     "regular": true,
-     "applied": false,
-     "note": "Pageau (lower body) will be a game-time decision ahead of Tuesday's matchup with Columbus, Stefen Rosner of NHL.com reports.",
      "date": "2026-11-17"
     },
     {

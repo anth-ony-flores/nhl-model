@@ -1,7 +1,7 @@
 {
  "date": "2026-11-17",
  "data_through": "2026-11-16",
- "generated": "2026-11-17 16:41 MST",
+ "generated": "2026-11-17 16:51 MST",
  "league_xg60": 3.009,
  "b2b_effect": {
   "own_xg": -0.225,
@@ -358,6 +358,17 @@
    },
    "inj_home": [
     {
+     "name": "Jean-Gabriel Pageau",
+     "status": "Out",
+     "playerId": 8476419,
+     "position": "C",
+     "value": -0.0261,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-17"
+    },
+    {
      "name": "Logan Stanley",
      "status": "Out",
      "playerId": 8479378,
@@ -366,17 +377,6 @@
      "regular": true,
      "applied": true,
      "note": "out",
-     "date": "2026-11-17"
-    },
-    {
-     "name": "Jean-Gabriel Pageau",
-     "status": "Day-To-Day",
-     "playerId": 8476419,
-     "position": "C",
-     "value": -0.0261,
-     "regular": true,
-     "applied": false,
-     "note": "Pageau (lower body) will be a game-time decision ahead of Tuesday's matchup with Columbus, Stefen Rosner of NHL.com reports.",
      "date": "2026-11-17"
     },
     {
@@ -415,53 +415,53 @@
      "date": "2026-11-16"
     }
    ],
-   "inj_adj_home": -0.051,
+   "inj_adj_home": -0.077,
    "inj_adj_away": -0.013,
-   "xg_home": 2.921,
-   "xg_away": 3.024,
-   "proj_home": 3.11,
-   "proj_away": 2.76,
-   "p_home": 0.5622,
-   "p_away": 0.4378,
-   "p_ot": 0.2493,
-   "fair_ml_home": -128,
-   "fair_ml_away": 128,
+   "xg_home": 2.934,
+   "xg_away": 3.011,
+   "proj_home": 3.12,
+   "proj_away": 2.75,
+   "p_home": 0.5663,
+   "p_away": 0.4337,
+   "p_ot": 0.2489,
+   "fair_ml_home": -131,
+   "fair_ml_away": 131,
    "exp_total": 5.87,
    "totals": {
     "4.5": {
-     "over": 0.7151,
-     "under": 0.2849
+     "over": 0.7153,
+     "under": 0.2847
     },
     "5.0": {
-     "over": 0.5205,
-     "under": 0.2849
+     "over": 0.5207,
+     "under": 0.2847
     },
     "5.5": {
-     "over": 0.5205,
-     "under": 0.4795
+     "over": 0.5207,
+     "under": 0.4793
     },
     "6.0": {
-     "over": 0.3785,
-     "under": 0.4795
+     "over": 0.3787,
+     "under": 0.4793
     },
     "6.5": {
-     "over": 0.3785,
-     "under": 0.6215
+     "over": 0.3787,
+     "under": 0.6213
     },
     "7.0": {
-     "over": 0.2223,
-     "under": 0.6215
+     "over": 0.2225,
+     "under": 0.6213
     },
     "7.5": {
-     "over": 0.2223,
-     "under": 0.7777
+     "over": 0.2225,
+     "under": 0.7775
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3466,
-    "away_+1.5": 0.6534,
-    "away_-1.5": 0.2487,
-    "home_+1.5": 0.7513
+    "home_-1.5": 0.3502,
+    "away_+1.5": 0.6498,
+    "away_-1.5": 0.2457,
+    "home_+1.5": 0.7543
    }
   },
   {
