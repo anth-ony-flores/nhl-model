@@ -1,7 +1,7 @@
 {
  "day": "2026-11-16",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-16 19:12",
+ "fetched": "2026-11-16 19:22",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -1061,17 +1061,6 @@
   "UTA": {
    "missing_value": -0.0539,
    "players": [
-    {
-     "name": "Logan Cooley",
-     "status": "Day-To-Day",
-     "playerId": 8483431,
-     "position": "C",
-     "value": -0.0073,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-15"
-    },
     {
      "name": "Nick Schmaltz",
      "status": "Out",

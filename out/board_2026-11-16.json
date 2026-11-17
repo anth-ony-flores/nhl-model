@@ -1,7 +1,7 @@
 {
  "date": "2026-11-16",
  "data_through": "2026-11-15",
- "generated": "2026-11-16 19:12 MST",
+ "generated": "2026-11-16 19:22 MST",
  "league_xg60": 3.01,
  "b2b_effect": {
   "own_xg": -0.231,
@@ -259,17 +259,6 @@
     ]
    },
    "inj_home": [
-    {
-     "name": "Logan Cooley",
-     "status": "Day-To-Day",
-     "playerId": 8483431,
-     "position": "C",
-     "value": -0.0073,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-15"
-    },
     {
      "name": "Nick Schmaltz",
      "status": "Out",
