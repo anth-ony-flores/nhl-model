@@ -1,7 +1,7 @@
 {
  "day": "2026-11-17",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-17 19:23",
+ "fetched": "2026-11-17 19:33",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -859,6 +859,17 @@
   "TBL": {
    "missing_value": 0.1414,
    "players": [
+    {
+     "name": "Zemgus Girgensons",
+     "status": "Day-To-Day",
+     "playerId": 8476878,
+     "position": "C",
+     "value": -0.0784,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-18"
+    },
     {
      "name": "Brandon Hagel",
      "status": "Out",
