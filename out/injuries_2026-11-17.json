@@ -1,12 +1,23 @@
 {
  "day": "2026-11-17",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-17 17:52",
+ "fetched": "2026-11-17 18:02",
  "k": 1.0,
  "teams": {
   "ANA": {
-   "missing_value": 0,
+   "missing_value": 0.0398,
    "players": [
+    {
+     "name": "Beckett Sennecke",
+     "status": "Out",
+     "playerId": 8484762,
+     "position": "R",
+     "value": 0.0398,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-18"
+    },
     {
      "name": "Ryan Poehling",
      "status": "Injured Reserve",
