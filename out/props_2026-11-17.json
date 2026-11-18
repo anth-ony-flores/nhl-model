@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "generated": "2026-11-18T02:33:54Z",
+ "generated": "2026-11-18T02:44:02Z",
  "data_through": "2026-11-16",
  "picks_enabled": false,
  "params": {
@@ -55,8 +55,8 @@
    "away_name": "Kings",
    "home_name": "Bruins",
    "start_utc": "2026-11-18T00:00:00Z",
-   "state": "in",
-   "detail": "3:41 - 3rd",
+   "state": "post",
+   "detail": "Final",
    "frozen": true,
    "goal_factor": {
     "LAK": 0.982,
@@ -2460,8 +2460,8 @@
    "away_name": "Oilers",
    "home_name": "Panthers",
    "start_utc": "2026-11-18T00:00:00Z",
-   "state": "in",
-   "detail": "End of 3rd",
+   "state": "post",
+   "detail": "Final",
    "frozen": true,
    "goal_factor": {
     "EDM": 0.957,
@@ -4733,8 +4733,8 @@
    "away_name": "Blue Jackets",
    "home_name": "Islanders",
    "start_utc": "2026-11-18T00:00:00Z",
-   "state": "in",
-   "detail": "2:08 - 3rd",
+   "state": "post",
+   "detail": "Final",
    "frozen": true,
    "goal_factor": {
     "CBJ": 1.069,
@@ -9691,8 +9691,8 @@
    "away_name": "Senators",
    "home_name": "Jets",
    "start_utc": "2026-11-18T00:00:00Z",
-   "state": "in",
-   "detail": "0:21 - 3rd",
+   "state": "post",
+   "detail": "Final",
    "frozen": true,
    "goal_factor": {
     "OTT": 1.023,
@@ -11971,7 +11971,7 @@
    "home_name": "Lightning",
    "start_utc": "2026-11-18T00:30:00Z",
    "state": "in",
-   "detail": "19:07 - 3rd",
+   "detail": "12:48 - 3rd",
    "frozen": true,
    "goal_factor": {
     "WSH": 0.987,
@@ -14279,7 +14279,7 @@
    "home_name": "Blackhawks",
    "start_utc": "2026-11-18T00:30:00Z",
    "state": "in",
-   "detail": "20:00 - 3rd",
+   "detail": "12:19 - 3rd",
    "frozen": true,
    "goal_factor": {
     "TOR": 1.114,
@@ -16579,7 +16579,7 @@
    "home_name": "Blues",
    "start_utc": "2026-11-18T01:00:00Z",
    "state": "in",
-   "detail": "6:23 - 2nd",
+   "detail": "1:43 - 2nd",
    "frozen": true,
    "goal_factor": {
     "ANA": 0.96,
@@ -17411,7 +17411,7 @@
    "home_name": "Wild",
    "start_utc": "2026-11-18T01:00:00Z",
    "state": "in",
-   "detail": "6:15 - 2nd",
+   "detail": "1:13 - 2nd",
    "frozen": true,
    "goal_factor": {
     "NSH": 0.949,
