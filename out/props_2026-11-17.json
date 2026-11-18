@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "generated": "2026-11-18T00:12:03Z",
+ "generated": "2026-11-18T00:22:11Z",
  "data_through": "2026-11-16",
  "picks_enabled": false,
  "params": {
@@ -56,7 +56,7 @@
    "home_name": "Bruins",
    "start_utc": "2026-11-18T00:00:00Z",
    "state": "in",
-   "detail": "17:05 - 1st",
+   "detail": "9:52 - 1st",
    "frozen": true,
    "goal_factor": {
     "LAK": 0.982,
@@ -2461,7 +2461,7 @@
    "home_name": "Panthers",
    "start_utc": "2026-11-18T00:00:00Z",
    "state": "in",
-   "detail": "18:01 - 1st",
+   "detail": "10:20 - 1st",
    "frozen": true,
    "goal_factor": {
     "EDM": 0.957,
@@ -4734,7 +4734,7 @@
    "home_name": "Islanders",
    "start_utc": "2026-11-18T00:00:00Z",
    "state": "in",
-   "detail": "18:04 - 1st",
+   "detail": "11:53 - 1st",
    "frozen": true,
    "goal_factor": {
     "CBJ": 1.069,
@@ -7122,7 +7122,7 @@
    "home_name": "Flyers",
    "start_utc": "2026-11-18T00:00:00Z",
    "state": "in",
-   "detail": "20:00 - 1st",
+   "detail": "13:59 - 1st",
    "frozen": true,
    "goal_factor": {
     "BUF": 0.977,
@@ -9692,7 +9692,7 @@
    "home_name": "Jets",
    "start_utc": "2026-11-18T00:00:00Z",
    "state": "in",
-   "detail": "17:45 - 1st",
+   "detail": "11:52 - 1st",
    "frozen": true,
    "goal_factor": {
     "OTT": 1.023,
