@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "generated": "2026-11-18T01:43:15Z",
+ "generated": "2026-11-18T01:53:22Z",
  "data_through": "2026-11-16",
  "picks_enabled": false,
  "params": {
@@ -11971,7 +11971,7 @@
    "home_name": "Lightning",
    "start_utc": "2026-11-18T00:30:00Z",
    "state": "in",
-   "detail": "15:54 - 2nd",
+   "detail": "12:30 - 2nd",
    "frozen": true,
    "goal_factor": {
     "WSH": 0.987,
@@ -14279,7 +14279,7 @@
    "home_name": "Blackhawks",
    "start_utc": "2026-11-18T00:30:00Z",
    "state": "in",
-   "detail": "13:44 - 2nd",
+   "detail": "9:02 - 2nd",
    "frozen": true,
    "goal_factor": {
     "TOR": 1.114,
@@ -16579,7 +16579,7 @@
    "home_name": "Blues",
    "start_utc": "2026-11-18T01:00:00Z",
    "state": "in",
-   "detail": "1:31 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "ANA": 0.96,
@@ -17411,7 +17411,7 @@
    "home_name": "Wild",
    "start_utc": "2026-11-18T01:00:00Z",
    "state": "in",
-   "detail": "1:21 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "NSH": 0.949,
