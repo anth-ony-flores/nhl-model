@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "generated": "2026-11-18T02:03:31Z",
+ "generated": "2026-11-18T02:13:39Z",
  "data_through": "2026-11-16",
  "picks_enabled": false,
  "params": {
@@ -56,7 +56,7 @@
    "home_name": "Bruins",
    "start_utc": "2026-11-18T00:00:00Z",
    "state": "in",
-   "detail": "17:52 - 3rd",
+   "detail": "13:38 - 3rd",
    "frozen": true,
    "goal_factor": {
     "LAK": 0.982,
@@ -2461,7 +2461,7 @@
    "home_name": "Panthers",
    "start_utc": "2026-11-18T00:00:00Z",
    "state": "in",
-   "detail": "15:45 - 3rd",
+   "detail": "9:50 - 3rd",
    "frozen": true,
    "goal_factor": {
     "EDM": 0.957,
@@ -4734,7 +4734,7 @@
    "home_name": "Islanders",
    "start_utc": "2026-11-18T00:00:00Z",
    "state": "in",
-   "detail": "14:49 - 3rd",
+   "detail": "12:32 - 3rd",
    "frozen": true,
    "goal_factor": {
     "CBJ": 1.069,
@@ -7122,7 +7122,7 @@
    "home_name": "Flyers",
    "start_utc": "2026-11-18T00:00:00Z",
    "state": "in",
-   "detail": "16:31 - 3rd",
+   "detail": "9:46 - 3rd",
    "frozen": true,
    "goal_factor": {
     "BUF": 0.977,
@@ -9692,7 +9692,7 @@
    "home_name": "Jets",
    "start_utc": "2026-11-18T00:00:00Z",
    "state": "in",
-   "detail": "17:38 - 3rd",
+   "detail": "12:52 - 3rd",
    "frozen": true,
    "goal_factor": {
     "OTT": 1.023,
@@ -11971,7 +11971,7 @@
    "home_name": "Lightning",
    "start_utc": "2026-11-18T00:30:00Z",
    "state": "in",
-   "detail": "6:06 - 2nd",
+   "detail": "0:23 - 2nd",
    "frozen": true,
    "goal_factor": {
     "WSH": 0.987,
@@ -14279,7 +14279,7 @@
    "home_name": "Blackhawks",
    "start_utc": "2026-11-18T00:30:00Z",
    "state": "in",
-   "detail": "5:11 - 2nd",
+   "detail": "1:09 - 2nd",
    "frozen": true,
    "goal_factor": {
     "TOR": 1.114,
@@ -16579,7 +16579,7 @@
    "home_name": "Blues",
    "start_utc": "2026-11-18T01:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "15:19 - 2nd",
    "frozen": true,
    "goal_factor": {
     "ANA": 0.96,
@@ -17411,7 +17411,7 @@
    "home_name": "Wild",
    "start_utc": "2026-11-18T01:00:00Z",
    "state": "in",
-   "detail": "20:00 - 2nd",
+   "detail": "17:11 - 2nd",
    "frozen": true,
    "goal_factor": {
     "NSH": 0.949,
