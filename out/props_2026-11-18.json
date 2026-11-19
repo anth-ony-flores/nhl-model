@@ -1,6 +1,6 @@
 {
  "date": "2026-11-18",
- "generated": "2026-11-19T00:32:03Z",
+ "generated": "2026-11-19T01:00:05Z",
  "data_through": "2026-11-17",
  "picks_enabled": false,
  "params": {
@@ -11,32 +11,15 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 140,
-  "checked": 138,
-  "first_is_over": 138,
+  "pairs": 58,
+  "checked": 57,
+  "first_is_over": 57,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 248,
- "unmatched": [
-  {
-   "espn_id": "4352798",
-   "name": "Jacob Bernard-Docker",
-   "team": "DET",
-   "market": "goal",
-   "game": "BOS@DET",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  },
-  {
-   "espn_id": "4697654",
-   "name": "Brett Berard",
-   "team": "MTL",
-   "market": "goal",
-   "game": "MTL@NJD",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  }
- ],
- "unmatched_rate": 0.0081,
+ "lines": 94,
+ "unmatched": [],
+ "unmatched_rate": 0.0,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -72,9 +55,9 @@
    "away_name": "Bruins",
    "home_name": "Red Wings",
    "start_utc": "2026-11-19T00:30:00Z",
-   "state": "pre",
-   "detail": "11/18 - 7:30 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "8:42 - 1st",
+   "frozen": true,
    "goal_factor": {
     "BOS": 0.933,
     "DET": 1.084
@@ -2379,9 +2362,9 @@
    "away_name": "Canadiens",
    "home_name": "Devils",
    "start_utc": "2026-11-19T00:30:00Z",
-   "state": "pre",
-   "detail": "11/18 - 7:30 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "10:10 - 1st",
+   "frozen": true,
    "goal_factor": {
     "MTL": 0.918,
     "NJD": 1.061
