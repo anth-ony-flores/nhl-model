@@ -1,7 +1,7 @@
 {
  "date": "2026-11-19",
  "data_through": "2026-11-18",
- "generated": "2026-11-19 15:00 MST",
+ "generated": "2026-11-19 15:10 MST",
  "league_xg60": 3.014,
  "b2b_effect": {
   "own_xg": -0.22,
@@ -260,36 +260,25 @@
    "inj_home": [
     {
      "name": "Nick Cousins",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8476393,
      "position": "C",
      "value": -0.0578,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-18"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-19"
     },
     {
      "name": "Hayden Hodgson",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8478173,
      "position": "R",
      "value": -0.0307,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-18"
-    },
-    {
-     "name": "Thomas Chabot",
-     "status": "Day-To-Day",
-     "playerId": 8478469,
-     "position": "D",
-     "value": 0.0282,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-18"
+     "applied": true,
+     "note": "Hodgson (groin) is slated to miss Thursday's game against Philadelphia.",
+     "date": "2026-11-19"
     },
     {
      "name": "Warren Foegele",
@@ -338,53 +327,53 @@
      "date": "2026-10-10"
     }
    ],
-   "inj_adj_home": 0,
+   "inj_adj_home": -0.088,
    "inj_adj_away": 0,
-   "xg_home": 3.103,
-   "xg_away": 2.542,
-   "proj_home": 3.27,
-   "proj_away": 2.78,
-   "p_home": 0.5843,
-   "p_away": 0.4157,
-   "p_ot": 0.2426,
-   "fair_ml_home": -141,
-   "fair_ml_away": 141,
+   "xg_home": 3.148,
+   "xg_away": 2.497,
+   "proj_home": 3.31,
+   "proj_away": 2.74,
+   "p_home": 0.5992,
+   "p_away": 0.4008,
+   "p_ot": 0.2408,
+   "fair_ml_home": -150,
+   "fair_ml_away": 150,
    "exp_total": 6.05,
    "totals": {
     "4.5": {
-     "over": 0.7398,
-     "under": 0.2602
+     "over": 0.7392,
+     "under": 0.2608
     },
     "5.0": {
-     "over": 0.552,
-     "under": 0.2602
+     "over": 0.5514,
+     "under": 0.2608
     },
     "5.5": {
-     "over": 0.552,
-     "under": 0.448
+     "over": 0.5514,
+     "under": 0.4486
     },
     "6.0": {
-     "over": 0.409,
-     "under": 0.448
+     "over": 0.4082,
+     "under": 0.4486
     },
     "6.5": {
-     "over": 0.409,
-     "under": 0.591
+     "over": 0.4082,
+     "under": 0.5918
     },
     "7.0": {
-     "over": 0.248,
-     "under": 0.591
+     "over": 0.2475,
+     "under": 0.5918
     },
     "7.5": {
-     "over": 0.248,
-     "under": 0.752
+     "over": 0.2475,
+     "under": 0.7525
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3695,
-    "away_+1.5": 0.6305,
-    "away_-1.5": 0.2354,
-    "home_+1.5": 0.7646
+    "home_-1.5": 0.3828,
+    "away_+1.5": 0.6172,
+    "away_-1.5": 0.2248,
+    "home_+1.5": 0.7752
    }
   },
   {
