@@ -1,6 +1,6 @@
 {
  "date": "2026-11-18",
- "generated": "2026-11-19T02:51:50Z",
+ "generated": "2026-11-19T03:02:09Z",
  "data_through": "2026-11-17",
  "picks_enabled": false,
  "params": {
@@ -56,7 +56,7 @@
    "home_name": "Red Wings",
    "start_utc": "2026-11-19T00:30:00Z",
    "state": "in",
-   "detail": "8:44 - 3rd",
+   "detail": "3:16 - 3rd",
    "frozen": true,
    "goal_factor": {
     "BOS": 0.933,
@@ -2363,7 +2363,7 @@
    "home_name": "Devils",
    "start_utc": "2026-11-19T00:30:00Z",
    "state": "in",
-   "detail": "12:01 - 3rd",
+   "detail": "7:12 - 3rd",
    "frozen": true,
    "goal_factor": {
     "MTL": 0.918,
