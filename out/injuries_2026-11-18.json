@@ -1,7 +1,7 @@
 {
  "day": "2026-11-18",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-18 17:11",
+ "fetched": "2026-11-18 17:21",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -447,17 +447,6 @@
    "missing_value": -0.0739,
    "players": [
     {
-     "name": "Alexandre Texier",
-     "status": "Day-To-Day",
-     "playerId": 8480074,
-     "position": "L",
-     "value": 0.0344,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-17"
-    },
-    {
      "name": "Mike Matheson",
      "status": "Out",
      "playerId": 8476875,
@@ -517,17 +506,6 @@
   "NJD": {
    "missing_value": -0.0052,
    "players": [
-    {
-     "name": "Jonas Siegenthaler",
-     "status": "Day-To-Day",
-     "playerId": 8478399,
-     "position": "D",
-     "value": -0.0163,
-     "regular": true,
-     "applied": false,
-     "note": "Siegenthaler is dealing with an illness that could put his availability against the Habs on Wednesday in doubt, Amanda Stein of the Devils' official site reports.",
-     "date": "2026-11-18"
-    },
     {
      "name": "Anthony Mantha",
      "status": "Injured Reserve",
