@@ -1,7 +1,7 @@
 {
  "date": "2026-11-19",
  "data_through": "2026-11-18",
- "generated": "2026-11-19 07:31 MST",
+ "generated": "2026-11-19 15:00 MST",
  "league_xg60": 3.014,
  "b2b_effect": {
   "own_xg": -0.22,
@@ -135,6 +135,17 @@
    ],
    "inj_away": [
     {
+     "name": "Trevor Moore",
+     "status": "Out",
+     "playerId": 8479675,
+     "position": "L",
+     "value": -0.0023,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-19"
+    },
+    {
      "name": "Artemi Panarin",
      "status": "Out",
      "playerId": 8478550,
@@ -142,18 +153,18 @@
      "value": 0.1398,
      "regular": true,
      "applied": true,
-     "note": "out",
+     "note": "Panarin (personal), who has been ruled out for Thursday's game against the Maple Leafs, is expected to return Saturday against the Senators, John Hoven of SiriusXM NHL Network Radio reports.",
      "date": "2026-11-19"
     }
    ],
    "inj_adj_home": -0.024,
-   "inj_adj_away": 0.14,
-   "xg_home": 2.716,
-   "xg_away": 3.03,
+   "inj_adj_away": 0.138,
+   "xg_home": 2.715,
+   "xg_away": 3.031,
    "proj_home": 3.1,
    "proj_away": 3.07,
-   "p_home": 0.5059,
-   "p_away": 0.4941,
+   "p_home": 0.5055,
+   "p_away": 0.4945,
    "p_ot": 0.245,
    "fair_ml_home": -102,
    "fair_ml_away": 102,
@@ -172,16 +183,16 @@
      "under": 0.4292
     },
     "6.0": {
-     "over": 0.4287,
+     "over": 0.4286,
      "under": 0.4292
     },
     "6.5": {
-     "over": 0.4287,
-     "under": 0.5713
+     "over": 0.4286,
+     "under": 0.5714
     },
     "7.0": {
      "over": 0.2643,
-     "under": 0.5713
+     "under": 0.5714
     },
     "7.5": {
      "over": 0.2643,
@@ -189,10 +200,10 @@
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3054,
-    "away_+1.5": 0.6946,
-    "away_-1.5": 0.296,
-    "home_+1.5": 0.704
+    "home_-1.5": 0.3051,
+    "away_+1.5": 0.6949,
+    "away_-1.5": 0.2963,
+    "home_+1.5": 0.7037
    }
   },
   {
@@ -424,6 +435,17 @@
    },
    "inj_home": [
     {
+     "name": "Nick Robertson",
+     "status": "Day-To-Day",
+     "playerId": 8481582,
+     "position": "L",
+     "value": 0.0119,
+     "regular": true,
+     "applied": false,
+     "note": "Robertson left Thursday's morning skate early, raising doubts regarding his availability against St. Louis, Seth Rorabaugh of Tribune-Review Sports reports.",
+     "date": "2026-11-19"
+    },
+    {
      "name": "Elmer Soderblom",
      "status": "Injured Reserve",
      "playerId": 8481725,
@@ -628,6 +650,17 @@
     }
    ],
    "inj_away": [
+    {
+     "name": "Mattias Samuelsson",
+     "status": "Day-To-Day",
+     "playerId": 8480807,
+     "position": "D",
+     "value": -0.0371,
+     "regular": true,
+     "applied": false,
+     "note": "Samuelsson (undisclosed) is considered a game-time decision for Thursday's road clash against the Capitals, per Paul Hamilton of WGR Sports Radio 550.",
+     "date": "2026-11-19"
+    },
     {
      "name": "Konsta Helenius",
      "status": "Injured Reserve",
@@ -912,6 +945,17 @@
    },
    "inj_home": [
     {
+     "name": "Dylan DeMelo",
+     "status": "Injured Reserve",
+     "playerId": 8476331,
+     "position": "D",
+     "value": 0.0578,
+     "regular": true,
+     "applied": true,
+     "note": "DeMelo (lower body) is expected to be out of action for 4-6 weeks, Mitchell Clinton of the Jets' official site reports Thursday.",
+     "date": "2026-11-19"
+    },
+    {
      "name": "Isak Rosen",
      "status": "Injured Reserve",
      "playerId": 8482765,
@@ -921,17 +965,6 @@
      "applied": true,
      "note": "ir",
      "date": "2026-11-17"
-    },
-    {
-     "name": "Dylan DeMelo",
-     "status": "Injured Reserve",
-     "playerId": 8476331,
-     "position": "D",
-     "value": 0.0578,
-     "regular": true,
-     "applied": true,
-     "note": "DeMelo (lower body) was placed on injured reserve Friday.",
-     "date": "2026-11-13"
     },
     {
      "name": "Elias Salomonsson",
@@ -976,8 +1009,8 @@
      "value": -0.0261,
      "regular": true,
      "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-18"
+     "note": "Pageau (lower body) will be a game-time call against the Jets on Thursday, Andrew Gross of Newsday reports.",
+     "date": "2026-11-19"
     },
     {
      "name": "Logan Stanley",
@@ -1105,14 +1138,14 @@
    "inj_home": [
     {
      "name": "Brandon Hagel",
-     "status": "Day-To-Day",
+     "status": "Injured Reserve",
      "playerId": 8479542,
      "position": "L",
      "value": 0.2261,
      "regular": true,
-     "applied": false,
-     "note": "Hagel is considered day-to-day due to his lower-body injury, Eduardo A. Encina of the Tampa Bay Times reports Wednesday.",
-     "date": "2026-11-18"
+     "applied": true,
+     "note": "Hagel (lower body) was placed on injured reserve by the Lightning on Thursday, retroactive to Nov. 15, Eduardo A. Encina of the Tampa Bay Times reports.",
+     "date": "2026-11-19"
     },
     {
      "name": "Zemgus Girgensons",
@@ -1183,17 +1216,17 @@
      "date": "2026-09-29"
     }
    ],
-   "inj_adj_home": -0.085,
+   "inj_adj_home": 0.141,
    "inj_adj_away": 0,
-   "xg_home": 3.094,
-   "xg_away": 2.597,
-   "proj_home": 3.36,
-   "proj_away": 2.64,
-   "p_home": 0.6237,
-   "p_away": 0.3763,
-   "p_ot": 0.2381,
-   "fair_ml_home": -166,
-   "fair_ml_away": 166,
+   "xg_home": 2.981,
+   "xg_away": 2.71,
+   "proj_home": 3.24,
+   "proj_away": 2.75,
+   "p_home": 0.5865,
+   "p_away": 0.4135,
+   "p_ot": 0.2438,
+   "fair_ml_home": -142,
+   "fair_ml_away": 142,
    "exp_total": 5.99,
    "totals": {
     "4.5": {
@@ -1201,35 +1234,35 @@
      "under": 0.2681
     },
     "5.0": {
-     "over": 0.5425,
+     "over": 0.5419,
      "under": 0.2681
     },
     "5.5": {
-     "over": 0.5425,
-     "under": 0.4575
+     "over": 0.5419,
+     "under": 0.4581
     },
     "6.0": {
-     "over": 0.3988,
-     "under": 0.4575
+     "over": 0.399,
+     "under": 0.4581
     },
     "6.5": {
-     "over": 0.3988,
-     "under": 0.6012
+     "over": 0.399,
+     "under": 0.601
     },
     "7.0": {
-     "over": 0.2399,
-     "under": 0.6012
+     "over": 0.2396,
+     "under": 0.601
     },
     "7.5": {
-     "over": 0.2399,
-     "under": 0.7601
+     "over": 0.2396,
+     "under": 0.7604
     }
    },
    "puck_line": {
-    "home_-1.5": 0.4042,
-    "away_+1.5": 0.5958,
-    "away_-1.5": 0.2072,
-    "home_+1.5": 0.7928
+    "home_-1.5": 0.3702,
+    "away_+1.5": 0.6298,
+    "away_-1.5": 0.233,
+    "home_+1.5": 0.767
    }
   },
   {
@@ -1281,14 +1314,14 @@
    "inj_home": [
     {
      "name": "Connor Bedard",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8484144,
      "position": "C",
      "value": -0.0433,
      "regular": true,
-     "applied": false,
-     "note": "Bedard is being evaluated for a shoulder injury, Emily Kaplan of ESPN reports Wednesday.",
-     "date": "2026-11-18"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-19"
     },
     {
      "name": "Bowen Byram",
@@ -1315,53 +1348,53 @@
      "date": "2026-11-16"
     }
    ],
-   "inj_adj_home": 0,
+   "inj_adj_home": -0.043,
    "inj_adj_away": -0.013,
-   "xg_home": 2.702,
-   "xg_away": 3.14,
-   "proj_home": 2.9,
-   "proj_away": 3.11,
-   "p_home": 0.4641,
-   "p_away": 0.5359,
-   "p_ot": 0.2478,
-   "fair_ml_home": 115,
-   "fair_ml_away": -115,
+   "xg_home": 2.724,
+   "xg_away": 3.119,
+   "proj_home": 2.92,
+   "proj_away": 3.09,
+   "p_home": 0.4713,
+   "p_away": 0.5287,
+   "p_ot": 0.248,
+   "fair_ml_home": 112,
+   "fair_ml_away": -112,
    "exp_total": 6.01,
    "totals": {
     "4.5": {
-     "over": 0.7344,
-     "under": 0.2656
+     "over": 0.7347,
+     "under": 0.2653
     },
     "5.0": {
-     "over": 0.5445,
-     "under": 0.2656
+     "over": 0.5448,
+     "under": 0.2653
     },
     "5.5": {
-     "over": 0.5445,
-     "under": 0.4555
+     "over": 0.5448,
+     "under": 0.4552
     },
     "6.0": {
-     "over": 0.4022,
-     "under": 0.4555
+     "over": 0.4026,
+     "under": 0.4552
     },
     "6.5": {
-     "over": 0.4022,
-     "under": 0.5978
+     "over": 0.4026,
+     "under": 0.5974
     },
     "7.0": {
-     "over": 0.2418,
-     "under": 0.5978
+     "over": 0.242,
+     "under": 0.5974
     },
     "7.5": {
-     "over": 0.2418,
-     "under": 0.7582
+     "over": 0.242,
+     "under": 0.758
     }
    },
    "puck_line": {
-    "home_-1.5": 0.2703,
-    "away_+1.5": 0.7297,
-    "away_-1.5": 0.3272,
-    "home_+1.5": 0.6728
+    "home_-1.5": 0.2758,
+    "away_+1.5": 0.7242,
+    "away_-1.5": 0.3213,
+    "home_+1.5": 0.6787
    }
   },
   {
@@ -1452,6 +1485,17 @@
    ],
    "inj_away": [
     {
+     "name": "Yakov Trenin",
+     "status": "Out",
+     "playerId": 8478508,
+     "position": "C",
+     "value": -0.0379,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-19"
+    },
+    {
      "name": "Olli Maatta",
      "status": "Injured Reserve",
      "playerId": 8476874,
@@ -1464,41 +1508,41 @@
     }
    ],
    "inj_adj_home": 0,
-   "inj_adj_away": -0.012,
-   "xg_home": 2.458,
-   "xg_away": 3.56,
-   "proj_home": 2.32,
-   "proj_away": 3.65,
-   "p_home": 0.2786,
-   "p_away": 0.7214,
-   "p_ot": 0.2139,
-   "fair_ml_home": 259,
-   "fair_ml_away": -259,
+   "inj_adj_away": -0.05,
+   "xg_home": 2.439,
+   "xg_away": 3.579,
+   "proj_home": 2.3,
+   "proj_away": 3.67,
+   "p_home": 0.2734,
+   "p_away": 0.7266,
+   "p_ot": 0.2122,
+   "fair_ml_home": 266,
+   "fair_ml_away": -266,
    "exp_total": 5.97,
    "totals": {
     "4.5": {
-     "over": 0.7278,
-     "under": 0.2722
+     "over": 0.7277,
+     "under": 0.2723
     },
     "5.0": {
      "over": 0.5406,
-     "under": 0.2722
+     "under": 0.2723
     },
     "5.5": {
      "over": 0.5406,
      "under": 0.4594
     },
     "6.0": {
-     "over": 0.3934,
+     "over": 0.3932,
      "under": 0.4594
     },
     "6.5": {
-     "over": 0.3934,
-     "under": 0.6066
+     "over": 0.3932,
+     "under": 0.6068
     },
     "7.0": {
      "over": 0.2379,
-     "under": 0.6066
+     "under": 0.6068
     },
     "7.5": {
      "over": 0.2379,
@@ -1506,10 +1550,10 @@
     }
    },
    "puck_line": {
-    "home_-1.5": 0.1441,
-    "away_+1.5": 0.8559,
-    "away_-1.5": 0.5026,
-    "home_+1.5": 0.4974
+    "home_-1.5": 0.1409,
+    "away_+1.5": 0.8591,
+    "away_-1.5": 0.5083,
+    "home_+1.5": 0.4917
    }
   },
   {
@@ -1565,26 +1609,26 @@
    },
    "inj_home": [
     {
-     "name": "Gavin Brindley",
-     "status": "Day-To-Day",
-     "playerId": 8484149,
-     "position": "C",
-     "value": -0.0585,
-     "regular": false,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-19"
-    },
-    {
      "name": "Cale Makar",
-     "status": "Out",
+     "status": "Injured Reserve",
      "playerId": 8480069,
      "position": "D",
      "value": 0.0578,
      "regular": true,
      "applied": true,
-     "note": "out",
-     "date": "2026-11-14"
+     "note": "ir",
+     "date": "2026-11-19"
+    },
+    {
+     "name": "Gavin Brindley",
+     "status": "Out",
+     "playerId": 8484149,
+     "position": "C",
+     "value": -0.0585,
+     "regular": false,
+     "applied": false,
+     "note": "Brindley (upper body) is slated to be unavailable for Thursday's game against the Ducks, AJ Haefele of DNVR Avalanche reports.",
+     "date": "2026-11-19"
     },
     {
      "name": "Nathan MacKinnon",
@@ -1621,17 +1665,6 @@
     }
    ],
    "inj_away": [
-    {
-     "name": "Beckett Sennecke",
-     "status": "Day-To-Day",
-     "playerId": 8484762,
-     "position": "R",
-     "value": 0.0398,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-18"
-    },
     {
      "name": "Ryan Poehling",
      "status": "Injured Reserve",
@@ -1756,17 +1789,6 @@
     ]
    },
    "inj_home": [
-    {
-     "name": "Jacob Melanson",
-     "status": "Injured Reserve",
-     "playerId": 8482874,
-     "position": "R",
-     "value": 0.0298,
-     "regular": false,
-     "applied": false,
-     "note": "Melanson (chest) will be a game-time call for Saturday's clash with the Hurricanes, Tom Gulitti of NHL.com reports.",
-     "date": "2026-11-13"
-    },
     {
      "name": "Curtis Douglas",
      "status": "Injured Reserve",
@@ -1955,6 +1977,17 @@
      "applied": true,
      "note": "Bichsel (lower body) was placed on injured reserve Saturday.",
      "date": "2026-11-14"
+    },
+    {
+     "name": "Matt Duchene",
+     "status": "Injured Reserve",
+     "playerId": 8475168,
+     "position": "C",
+     "value": -0.0583,
+     "regular": false,
+     "applied": false,
+     "note": "Duchene will be out for approximately three months after undergoing surgery to repair a core injury, the team announced Monday.",
+     "date": "2026-10-12"
     }
    ],
    "inj_adj_home": 0.014,
