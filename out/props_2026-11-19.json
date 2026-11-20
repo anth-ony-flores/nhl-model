@@ -1,6 +1,6 @@
 {
  "date": "2026-11-19",
- "generated": "2026-11-20T01:12:41Z",
+ "generated": "2026-11-20T01:22:48Z",
  "data_through": "2026-11-18",
  "picks_enabled": false,
  "params": {
@@ -65,7 +65,7 @@
    "home_name": "Maple Leafs",
    "start_utc": "2026-11-20T00:00:00Z",
    "state": "in",
-   "detail": "16:58 - 2nd",
+   "detail": "11:33 - 2nd",
    "frozen": true,
    "goal_factor": {
     "LAK": 1.038,
@@ -2295,7 +2295,7 @@
    "home_name": "Senators",
    "start_utc": "2026-11-20T00:00:00Z",
    "state": "in",
-   "detail": "15:07 - 2nd",
+   "detail": "9:35 - 2nd",
    "frozen": true,
    "goal_factor": {
     "PHI": 0.887,
@@ -4696,7 +4696,7 @@
    "home_name": "Penguins",
    "start_utc": "2026-11-20T00:00:00Z",
    "state": "in",
-   "detail": "16:20 - 2nd",
+   "detail": "12:23 - 2nd",
    "frozen": true,
    "goal_factor": {
     "STL": 1.056,
@@ -6934,7 +6934,7 @@
    "home_name": "Capitals",
    "start_utc": "2026-11-20T00:00:00Z",
    "state": "in",
-   "detail": "20:00 - 2nd",
+   "detail": "13:24 - 2nd",
    "frozen": true,
    "goal_factor": {
     "BUF": 1.053,
@@ -9599,7 +9599,7 @@
    "home_name": "Hurricanes",
    "start_utc": "2026-11-20T00:00:00Z",
    "state": "in",
-   "detail": "13:43 - 2nd",
+   "detail": "8:19 - 2nd",
    "frozen": true,
    "goal_factor": {
     "MTL": 0.808,
@@ -12008,7 +12008,7 @@
    "home_name": "Jets",
    "start_utc": "2026-11-20T00:00:00Z",
    "state": "in",
-   "detail": "15:59 - 2nd",
+   "detail": "10:41 - 2nd",
    "frozen": true,
    "goal_factor": {
     "NYI": 1.019,
@@ -14316,7 +14316,7 @@
    "home_name": "Lightning",
    "start_utc": "2026-11-20T00:30:00Z",
    "state": "in",
-   "detail": "0:26 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "EDM": 0.909,
@@ -16717,7 +16717,7 @@
    "home_name": "Blackhawks",
    "start_utc": "2026-11-20T01:00:00Z",
    "state": "in",
-   "detail": "19:17 - 1st",
+   "detail": "12:27 - 1st",
    "frozen": true,
    "goal_factor": {
     "CBJ": 1.108,
@@ -19023,7 +19023,7 @@
    "home_name": "Flames",
    "start_utc": "2026-11-20T01:00:00Z",
    "state": "in",
-   "detail": "19:44 - 1st",
+   "detail": "14:05 - 1st",
    "frozen": true,
    "goal_factor": {
     "MIN": 1.075,
