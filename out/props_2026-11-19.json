@@ -1,6 +1,6 @@
 {
  "date": "2026-11-19",
- "generated": "2026-11-20T02:43:49Z",
+ "generated": "2026-11-20T02:53:57Z",
  "data_through": "2026-11-18",
  "picks_enabled": false,
  "params": {
@@ -11,13 +11,13 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 71,
-  "checked": 67,
-  "first_is_over": 67,
+  "pairs": 35,
+  "checked": 34,
+  "first_is_over": 34,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 143,
+ "lines": 71,
  "unmatched": [],
  "unmatched_rate": 0.0,
  "strong": 0.03,
@@ -56,7 +56,7 @@
    "home_name": "Maple Leafs",
    "start_utc": "2026-11-20T00:00:00Z",
    "state": "in",
-   "detail": "5:00 - OT",
+   "detail": "In SO",
    "frozen": true,
    "goal_factor": {
     "LAK": 1.038,
@@ -2285,8 +2285,8 @@
    "away_name": "Flyers",
    "home_name": "Senators",
    "start_utc": "2026-11-20T00:00:00Z",
-   "state": "in",
-   "detail": "End of 3rd",
+   "state": "post",
+   "detail": "Final/OT",
    "frozen": true,
    "goal_factor": {
     "PHI": 0.887,
@@ -6924,8 +6924,8 @@
    "away_name": "Sabres",
    "home_name": "Capitals",
    "start_utc": "2026-11-20T00:00:00Z",
-   "state": "in",
-   "detail": "1:37 - 3rd",
+   "state": "post",
+   "detail": "Final",
    "frozen": true,
    "goal_factor": {
     "BUF": 1.053,
@@ -9589,8 +9589,8 @@
    "away_name": "Canadiens",
    "home_name": "Hurricanes",
    "start_utc": "2026-11-20T00:00:00Z",
-   "state": "in",
-   "detail": "4:40 - OT",
+   "state": "post",
+   "detail": "Final/OT",
    "frozen": true,
    "goal_factor": {
     "MTL": 0.808,
@@ -14307,7 +14307,7 @@
    "home_name": "Lightning",
    "start_utc": "2026-11-20T00:30:00Z",
    "state": "in",
-   "detail": "9:38 - 3rd",
+   "detail": "5:17 - 3rd",
    "frozen": true,
    "goal_factor": {
     "EDM": 0.909,
@@ -19014,7 +19014,7 @@
    "home_name": "Flames",
    "start_utc": "2026-11-20T01:00:00Z",
    "state": "in",
-   "detail": "2:58 - 2nd",
+   "detail": "End of 2nd",
    "frozen": true,
    "goal_factor": {
     "MIN": 1.075,
@@ -21524,7 +21524,7 @@
    "home_name": "Avalanche",
    "start_utc": "2026-11-20T02:00:00Z",
    "state": "in",
-   "detail": "1:05 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "ANA": 0.986,
@@ -23940,9 +23940,9 @@
    "away_name": "Canucks",
    "home_name": "Kraken",
    "start_utc": "2026-11-20T02:40:00Z",
-   "state": "pre",
-   "detail": "11/19 - 9:40 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "17:28 - 1st",
+   "frozen": true,
    "goal_factor": {
     "VAN": 1.086,
     "SEA": 1.208
