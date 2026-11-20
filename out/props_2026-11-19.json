@@ -1,6 +1,6 @@
 {
  "date": "2026-11-19",
- "generated": "2026-11-20T00:42:16Z",
+ "generated": "2026-11-20T00:52:25Z",
  "data_through": "2026-11-18",
  "picks_enabled": false,
  "params": {
@@ -65,7 +65,7 @@
    "home_name": "Maple Leafs",
    "start_utc": "2026-11-20T00:00:00Z",
    "state": "in",
-   "detail": "1:48 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "LAK": 1.038,
@@ -2295,7 +2295,7 @@
    "home_name": "Senators",
    "start_utc": "2026-11-20T00:00:00Z",
    "state": "in",
-   "detail": "1:34 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "PHI": 0.887,
@@ -4696,7 +4696,7 @@
    "home_name": "Penguins",
    "start_utc": "2026-11-20T00:00:00Z",
    "state": "in",
-   "detail": "0:51 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "STL": 1.056,
@@ -6934,7 +6934,7 @@
    "home_name": "Capitals",
    "start_utc": "2026-11-20T00:00:00Z",
    "state": "in",
-   "detail": "6:01 - 1st",
+   "detail": "1:41 - 1st",
    "frozen": true,
    "goal_factor": {
     "BUF": 1.053,
@@ -9599,7 +9599,7 @@
    "home_name": "Hurricanes",
    "start_utc": "2026-11-20T00:00:00Z",
    "state": "in",
-   "detail": "1:03 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "MTL": 0.808,
@@ -12008,7 +12008,7 @@
    "home_name": "Jets",
    "start_utc": "2026-11-20T00:00:00Z",
    "state": "in",
-   "detail": "3:38 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "NYI": 1.019,
@@ -14316,7 +14316,7 @@
    "home_name": "Lightning",
    "start_utc": "2026-11-20T00:30:00Z",
    "state": "in",
-   "detail": "19:16 - 1st",
+   "detail": "12:27 - 1st",
    "frozen": true,
    "goal_factor": {
     "EDM": 0.909,
