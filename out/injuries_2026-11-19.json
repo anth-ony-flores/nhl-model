@@ -1,7 +1,7 @@
 {
  "day": "2026-11-19",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-19 16:51",
+ "fetched": "2026-11-19 17:01",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -50,17 +50,6 @@
   "BUF": {
    "missing_value": 0,
    "players": [
-    {
-     "name": "Mattias Samuelsson",
-     "status": "Day-To-Day",
-     "playerId": 8480807,
-     "position": "D",
-     "value": -0.0371,
-     "regular": true,
-     "applied": false,
-     "note": "Samuelsson (undisclosed) is considered a game-time decision for Thursday's road clash against the Capitals, per Paul Hamilton of WGR Sports Radio 550.",
-     "date": "2026-11-19"
-    },
     {
      "name": "Konsta Helenius",
      "status": "Injured Reserve",
@@ -575,29 +564,18 @@
    ]
   },
   "NYI": {
-   "missing_value": 0,
+   "missing_value": -0.0519,
    "players": [
     {
-     "name": "Jean-Gabriel Pageau",
-     "status": "Day-To-Day",
-     "playerId": 8476419,
-     "position": "C",
-     "value": -0.0261,
-     "regular": true,
-     "applied": false,
-     "note": "Pageau (lower body) will be a game-time call against the Jets on Thursday, Andrew Gross of Newsday reports.",
-     "date": "2026-11-19"
-    },
-    {
      "name": "Logan Stanley",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8479378,
      "position": "D",
      "value": -0.0519,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-18"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-19"
     },
     {
      "name": "Alexander Romanov",
@@ -738,17 +716,17 @@
    ]
   },
   "PIT": {
-   "missing_value": 0,
+   "missing_value": 0.0119,
    "players": [
     {
      "name": "Nick Robertson",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8481582,
      "position": "L",
      "value": 0.0119,
      "regular": true,
-     "applied": false,
-     "note": "Robertson left Thursday's morning skate early, raising doubts regarding his availability against St. Louis, Seth Rorabaugh of Tribune-Review Sports reports.",
+     "applied": true,
+     "note": "out",
      "date": "2026-11-19"
     },
     {
