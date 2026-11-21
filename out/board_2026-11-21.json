@@ -1,7 +1,7 @@
 {
  "date": "2026-11-21",
  "data_through": "2026-11-19",
- "generated": "2026-11-21 10:00 MST",
+ "generated": "2026-11-21 10:10 MST",
  "league_xg60": 3.019,
  "b2b_effect": {
   "own_xg": -0.217,
@@ -1722,17 +1722,6 @@
      "applied": true,
      "note": "ir",
      "date": "2026-11-17"
-    },
-    {
-     "name": "Elias Salomonsson",
-     "status": "Injured Reserve",
-     "playerId": 8483510,
-     "position": "D",
-     "value": 0.0112,
-     "regular": false,
-     "applied": false,
-     "note": "ir-nr",
-     "date": "2026-11-08"
     },
     {
      "name": "Vladislav Namestnikov",
