@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "generated": "2026-11-21T23:15:18Z",
+ "generated": "2026-11-21T23:25:27Z",
  "data_through": "2026-11-19",
  "picks_enabled": false,
  "params": {
@@ -2443,7 +2443,7 @@
    "home_name": "Flames",
    "start_utc": "2026-11-21T20:30:00Z",
    "state": "in",
-   "detail": "4:21 - OT",
+   "detail": "0:14 - OT",
    "frozen": true,
    "goal_factor": {
     "CHI": 1.104,
@@ -4879,7 +4879,7 @@
    "home_name": "Panthers",
    "start_utc": "2026-11-21T23:00:00Z",
    "state": "in",
-   "detail": "16:00 - 1st",
+   "detail": "10:04 - 1st",
    "frozen": true,
    "goal_factor": {
     "BUF": 0.989,
@@ -7427,7 +7427,7 @@
    "home_name": "Predators",
    "start_utc": "2026-11-21T23:00:00Z",
    "state": "in",
-   "detail": "16:02 - 1st",
+   "detail": "11:01 - 1st",
    "frozen": true,
    "goal_factor": {
     "PIT": 1.022,
