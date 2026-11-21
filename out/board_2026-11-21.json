@@ -1,7 +1,7 @@
 {
  "date": "2026-11-21",
  "data_through": "2026-11-19",
- "generated": "2026-11-21 11:30 MST",
+ "generated": "2026-11-21 11:40 MST",
  "league_xg60": 3.019,
  "b2b_effect": {
   "own_xg": -0.217,
@@ -1907,6 +1907,17 @@
    ],
    "inj_away": [
     {
+     "name": "Beckett Sennecke",
+     "status": "Injured Reserve",
+     "playerId": 8484762,
+     "position": "R",
+     "value": 0.0367,
+     "regular": true,
+     "applied": true,
+     "note": "ir",
+     "date": "2026-11-21"
+    },
+    {
      "name": "Ryan Poehling",
      "status": "Injured Reserve",
      "playerId": 8480068,
@@ -1930,52 +1941,52 @@
     }
    ],
    "inj_adj_home": -0.126,
-   "inj_adj_away": 0,
-   "xg_home": 3.563,
-   "xg_away": 2.983,
-   "proj_home": 3.8,
-   "proj_away": 3.17,
-   "p_home": 0.5999,
-   "p_away": 0.4001,
-   "p_ot": 0.2219,
-   "fair_ml_home": -150,
-   "fair_ml_away": 150,
+   "inj_adj_away": 0.037,
+   "xg_home": 3.581,
+   "xg_away": 2.965,
+   "proj_home": 3.82,
+   "proj_away": 3.15,
+   "p_home": 0.6056,
+   "p_away": 0.3944,
+   "p_ot": 0.2212,
+   "fair_ml_home": -154,
+   "fair_ml_away": 154,
    "exp_total": 6.97,
    "totals": {
     "4.5": {
-     "over": 0.8394,
-     "under": 0.1606
+     "over": 0.8393,
+     "under": 0.1607
     },
     "5.0": {
      "over": 0.6911,
-     "under": 0.1606
+     "under": 0.1607
     },
     "5.5": {
      "over": 0.6911,
      "under": 0.3089
     },
     "6.0": {
-     "over": 0.5567,
+     "over": 0.5565,
      "under": 0.3089
     },
     "6.5": {
-     "over": 0.5567,
-     "under": 0.4433
+     "over": 0.5565,
+     "under": 0.4435
     },
     "7.0": {
-     "over": 0.3851,
-     "under": 0.4433
+     "over": 0.385,
+     "under": 0.4435
     },
     "7.5": {
-     "over": 0.3851,
-     "under": 0.6149
+     "over": 0.385,
+     "under": 0.615
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3996,
-    "away_+1.5": 0.6004,
-    "away_-1.5": 0.2352,
-    "home_+1.5": 0.7648
+    "home_-1.5": 0.4049,
+    "away_+1.5": 0.5951,
+    "away_-1.5": 0.2311,
+    "home_+1.5": 0.7689
    }
   },
   {
@@ -2077,6 +2088,17 @@
    ],
    "inj_away": [
     {
+     "name": "Quinn Hughes",
+     "status": "Out",
+     "playerId": 8480800,
+     "position": "D",
+     "value": 0.2169,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-21"
+    },
+    {
      "name": "Yakov Trenin",
      "status": "Day-To-Day",
      "playerId": 8478508,
@@ -2085,17 +2107,6 @@
      "regular": true,
      "applied": false,
      "note": "Trenin (personal) is expected to meet up with the Wild in Vancouver ahead of Saturday's game versus the Canucks, per Michael Russo of The Athletic.",
-     "date": "2026-11-20"
-    },
-    {
-     "name": "Quinn Hughes",
-     "status": "Day-To-Day",
-     "playerId": 8480800,
-     "position": "D",
-     "value": 0.2169,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
      "date": "2026-11-20"
     },
     {
@@ -2111,52 +2122,52 @@
     }
    ],
    "inj_adj_home": 0.073,
-   "inj_adj_away": -0.012,
-   "xg_home": 2.374,
-   "xg_away": 3.929,
-   "proj_home": 2.25,
-   "proj_away": 4.12,
-   "p_home": 0.2128,
-   "p_away": 0.7872,
-   "p_ot": 0.1812,
-   "fair_ml_home": 370,
-   "fair_ml_away": -370,
+   "inj_adj_away": 0.205,
+   "xg_home": 2.482,
+   "xg_away": 3.821,
+   "proj_home": 2.35,
+   "proj_away": 4.01,
+   "p_home": 0.2396,
+   "p_away": 0.7604,
+   "p_ot": 0.1922,
+   "fair_ml_home": 317,
+   "fair_ml_away": -317,
    "exp_total": 6.36,
    "totals": {
     "4.5": {
-     "over": 0.7756,
-     "under": 0.2244
+     "over": 0.7763,
+     "under": 0.2237
     },
     "5.0": {
-     "over": 0.6057,
-     "under": 0.2244
+     "over": 0.6053,
+     "under": 0.2237
     },
     "5.5": {
-     "over": 0.6057,
-     "under": 0.3943
+     "over": 0.6053,
+     "under": 0.3947
     },
     "6.0": {
-     "over": 0.4565,
-     "under": 0.3943
+     "over": 0.4575,
+     "under": 0.3947
     },
     "6.5": {
-     "over": 0.4565,
-     "under": 0.5435
+     "over": 0.4575,
+     "under": 0.5425
     },
     "7.0": {
-     "over": 0.2952,
-     "under": 0.5435
+     "over": 0.295,
+     "under": 0.5425
     },
     "7.5": {
-     "over": 0.2952,
-     "under": 0.7048
+     "over": 0.295,
+     "under": 0.705
     }
    },
    "puck_line": {
-    "home_-1.5": 0.1079,
-    "away_+1.5": 0.8921,
-    "away_-1.5": 0.5878,
-    "home_+1.5": 0.4122
+    "home_-1.5": 0.1237,
+    "away_+1.5": 0.8763,
+    "away_-1.5": 0.5555,
+    "home_+1.5": 0.4445
    }
   },
   {

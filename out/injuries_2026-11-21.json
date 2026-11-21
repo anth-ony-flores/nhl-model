@@ -1,12 +1,23 @@
 {
  "day": "2026-11-21",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-21 11:30",
+ "fetched": "2026-11-21 11:40",
  "k": 1.0,
  "teams": {
   "ANA": {
-   "missing_value": 0,
+   "missing_value": 0.0367,
    "players": [
+    {
+     "name": "Beckett Sennecke",
+     "status": "Injured Reserve",
+     "playerId": 8484762,
+     "position": "R",
+     "value": 0.0367,
+     "regular": true,
+     "applied": true,
+     "note": "ir",
+     "date": "2026-11-21"
+    },
     {
      "name": "Ryan Poehling",
      "status": "Injured Reserve",
@@ -439,8 +450,19 @@
    ]
   },
   "MIN": {
-   "missing_value": -0.0121,
+   "missing_value": 0.2048,
    "players": [
+    {
+     "name": "Quinn Hughes",
+     "status": "Out",
+     "playerId": 8480800,
+     "position": "D",
+     "value": 0.2169,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-21"
+    },
     {
      "name": "Yakov Trenin",
      "status": "Day-To-Day",
@@ -450,17 +472,6 @@
      "regular": true,
      "applied": false,
      "note": "Trenin (personal) is expected to meet up with the Wild in Vancouver ahead of Saturday's game versus the Canucks, per Michael Russo of The Athletic.",
-     "date": "2026-11-20"
-    },
-    {
-     "name": "Quinn Hughes",
-     "status": "Day-To-Day",
-     "playerId": 8480800,
-     "position": "D",
-     "value": 0.2169,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
      "date": "2026-11-20"
     },
     {
