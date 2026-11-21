@@ -1,7 +1,7 @@
 {
  "day": "2026-11-21",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-21 11:40",
+ "fetched": "2026-11-21 11:50",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -15,7 +15,7 @@
      "value": 0.0367,
      "regular": true,
      "applied": true,
-     "note": "ir",
+     "note": "Sennecke (upper body) was placed on injured reserve Saturday.",
      "date": "2026-11-21"
     },
     {
