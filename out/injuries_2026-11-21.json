@@ -1,7 +1,7 @@
 {
  "day": "2026-11-21",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-21 16:35",
+ "fetched": "2026-11-21 16:45",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -614,17 +614,6 @@
      "applied": true,
      "note": "out",
      "date": "2026-11-21"
-    },
-    {
-     "name": "Logan Stanley",
-     "status": "Day-To-Day",
-     "playerId": 8479378,
-     "position": "D",
-     "value": -0.0519,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-20"
     },
     {
      "name": "Alexander Romanov",

@@ -1,7 +1,7 @@
 {
  "date": "2026-11-21",
  "data_through": "2026-11-19",
- "generated": "2026-11-21 16:35 MST",
+ "generated": "2026-11-21 16:45 MST",
  "league_xg60": 3.019,
  "b2b_effect": {
   "own_xg": -0.217,
@@ -1398,17 +1398,6 @@
      "applied": true,
      "note": "out",
      "date": "2026-11-21"
-    },
-    {
-     "name": "Logan Stanley",
-     "status": "Day-To-Day",
-     "playerId": 8479378,
-     "position": "D",
-     "value": -0.0519,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-20"
     },
     {
      "name": "Alexander Romanov",
