@@ -1,7 +1,7 @@
 {
  "day": "2026-11-21",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-21 11:01",
+ "fetched": "2026-11-21 11:30",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -412,29 +412,29 @@
    ]
   },
   "LAK": {
-   "missing_value": 0,
+   "missing_value": 0.1375,
    "players": [
     {
      "name": "Artemi Panarin",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8478550,
      "position": "L",
      "value": 0.1398,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-20"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-21"
     },
     {
      "name": "Trevor Moore",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8479675,
      "position": "L",
      "value": -0.0023,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-20"
+     "applied": true,
+     "note": "Moore (undisclosed) isn't expected to play against Ottawa on Saturday, according to Zach Dooley of LA Kings Insider.",
+     "date": "2026-11-21"
     }
    ]
   },
@@ -1092,8 +1092,19 @@
    ]
   },
   "VAN": {
-   "missing_value": 0.0535,
+   "missing_value": 0.0729,
    "players": [
+    {
+     "name": "Elias Pettersson",
+     "status": "Out",
+     "playerId": 8480012,
+     "position": "C",
+     "value": 0.0194,
+     "regular": true,
+     "applied": true,
+     "note": "Pettersson (upper body) won't play against Minnesota on Saturday, per Dan Murphy of Sportsnet.",
+     "date": "2026-11-21"
+    },
     {
      "name": "Brendan Gallagher",
      "status": "Injured Reserve",
