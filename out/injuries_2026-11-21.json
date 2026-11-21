@@ -1,7 +1,7 @@
 {
  "day": "2026-11-21",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-21 14:23",
+ "fetched": "2026-11-21 14:33",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -131,6 +131,22 @@
      "applied": false,
      "note": "out",
      "date": "2026-10-30"
+    }
+   ]
+  },
+  "CAR": {
+   "missing_value": 0.0059,
+   "players": [
+    {
+     "name": "Nikolaj Ehlers",
+     "status": "Out",
+     "playerId": 8477940,
+     "position": "L",
+     "value": 0.0059,
+     "regular": true,
+     "applied": true,
+     "note": "Ehlers (undisclosed) won't play Sunday against the Rangers, per Chip Alexander of The Raleigh News &amp; Observer.",
+     "date": "2026-11-21"
     }
    ]
   },

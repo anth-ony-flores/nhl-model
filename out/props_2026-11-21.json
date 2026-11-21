@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "generated": "2026-11-21T21:23:38Z",
+ "generated": "2026-11-21T21:33:48Z",
  "data_through": "2026-11-19",
  "picks_enabled": false,
  "params": {
@@ -2443,7 +2443,7 @@
    "home_name": "Flames",
    "start_utc": "2026-11-21T20:30:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "20:00 - 2nd",
    "frozen": true,
    "goal_factor": {
     "CHI": 1.104,
