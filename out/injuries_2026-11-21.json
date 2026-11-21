@@ -1,7 +1,7 @@
 {
  "day": "2026-11-21",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-21 14:20",
+ "fetched": "2026-11-21 14:23",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -272,17 +272,6 @@
      "applied": true,
      "note": "Bichsel (lower body) was placed on injured reserve Saturday.",
      "date": "2026-11-14"
-    },
-    {
-     "name": "Matt Duchene",
-     "status": "Injured Reserve",
-     "playerId": 8475168,
-     "position": "C",
-     "value": -0.0583,
-     "regular": false,
-     "applied": false,
-     "note": "Duchene will be out for approximately three months after undergoing surgery to repair a core injury, the team announced Monday.",
-     "date": "2026-10-12"
     }
    ]
   },
