@@ -1,7 +1,7 @@
 {
  "day": "2026-11-21",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-21 11:50",
+ "fetched": "2026-11-21 12:00",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -460,7 +460,7 @@
      "value": 0.2169,
      "regular": true,
      "applied": true,
-     "note": "out",
+     "note": "Hughes (upper body) will miss the rest of Minnesota's road trip, per Joe Smith of The Athletic on Saturday.",
      "date": "2026-11-21"
     },
     {
