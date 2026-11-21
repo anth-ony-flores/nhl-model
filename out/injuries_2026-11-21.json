@@ -1,7 +1,7 @@
 {
  "day": "2026-11-21",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-21 13:21",
+ "fetched": "2026-11-21 13:31",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -893,6 +893,17 @@
    "missing_value": 0.1412,
    "players": [
     {
+     "name": "Conor Geekie",
+     "status": "Injured Reserve",
+     "playerId": 8483447,
+     "position": "C",
+     "value": -0.0849,
+     "regular": true,
+     "applied": true,
+     "note": "Geekie (upper body) is out indefinitely, according to Eduardo A. Encina of the Tampa Bay Times on Saturday.",
+     "date": "2026-11-21"
+    },
+    {
      "name": "Zemgus Girgensons",
      "status": "Day-To-Day",
      "playerId": 8476878,
@@ -913,17 +924,6 @@
      "applied": true,
      "note": "Hagel (lower body) was placed on injured reserve by the Lightning on Thursday, retroactive to Nov. 15, Eduardo A. Encina of the Tampa Bay Times reports.",
      "date": "2026-11-19"
-    },
-    {
-     "name": "Conor Geekie",
-     "status": "Injured Reserve",
-     "playerId": 8483447,
-     "position": "C",
-     "value": -0.0849,
-     "regular": true,
-     "applied": true,
-     "note": "ir",
-     "date": "2026-11-17"
     }
    ]
   },
