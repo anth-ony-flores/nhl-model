@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "generated": "2026-11-21T17:31:15Z",
+ "generated": "2026-11-21T17:41:23Z",
  "data_through": "2026-11-19",
  "picks_enabled": false,
  "params": {
@@ -11,13 +11,13 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 485,
+  "pairs": 486,
   "checked": 477,
   "first_is_over": 477,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 952,
+ "lines": 953,
  "unmatched": [
   {
    "espn_id": "4352775",
@@ -44,7 +44,7 @@
    "why": "no MoneyPuck skater match (no recent games?)"
   }
  ],
- "unmatched_rate": 0.0032,
+ "unmatched_rate": 0.0031,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -8300,9 +8300,9 @@
       "opp": "BOS",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+145",
+      "over": "+150",
       "over_open": "+130",
-      "under": "-200",
+      "under": "-205",
       "under_open": "-175",
       "updated": "2026-11-21T10:53Z",
       "player_id": 8471214,
@@ -8317,11 +8317,11 @@
        "2.5": 0.0302,
        "3.5": 0.0049
       },
-      "mkt_over": 0.3797,
-      "edge_over": 0.1069,
-      "edge_under": -0.1069,
+      "mkt_over": 0.3731,
+      "edge_over": 0.1136,
+      "edge_under": -0.1136,
       "lean": "Over",
-      "edge": 0.1069,
+      "edge": 0.1136,
       "strong": true
      },
      {
@@ -8331,9 +8331,9 @@
       "opp": "BOS",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+110",
+      "over": "+105",
       "over_open": "+110",
-      "under": "-150",
+      "under": "-145",
       "under_open": "-150",
       "updated": "2026-11-21T10:52Z",
       "player_id": 8476880,
@@ -8348,11 +8348,11 @@
        "2.5": 0.0299,
        "3.5": 0.0048
       },
-      "mkt_over": 0.4425,
-      "edge_over": 0.0426,
-      "edge_under": -0.0426,
+      "mkt_over": 0.4518,
+      "edge_over": 0.0333,
+      "edge_under": -0.0333,
       "lean": "Over",
-      "edge": 0.0426,
+      "edge": 0.0333,
       "strong": true
      },
      {
@@ -17059,9 +17059,9 @@
       "opp": "DET",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "-150",
+      "over": "-155",
       "over_open": "-145",
-      "under": "+110",
+      "under": "+115",
       "under_open": "+105",
       "updated": "2026-11-21T19:53Z",
       "player_id": 8478445,
@@ -17076,11 +17076,11 @@
        "2.5": 0.0716,
        "3.5": 0.0161
       },
-      "mkt_over": 0.5575,
-      "edge_over": 0.0562,
-      "edge_under": -0.0562,
+      "mkt_over": 0.5665,
+      "edge_over": 0.0472,
+      "edge_under": -0.0472,
       "lean": "Over",
-      "edge": 0.0562,
+      "edge": 0.0472,
       "strong": true
      },
      {
@@ -21415,7 +21415,7 @@
       "open_line": 3.5,
       "over": "-110",
       "over_open": "-135",
-      "under": "-125",
+      "under": "-120",
       "under_open": "+100",
       "updated": "2026-11-21T19:32Z",
       "player_id": 8478398,
@@ -21434,11 +21434,11 @@
        "6.5": 0.0663,
        "7.5": 0.0293
       },
-      "mkt_over": 0.4853,
-      "edge_over": -0.0526,
-      "edge_under": 0.0526,
+      "mkt_over": 0.4899,
+      "edge_over": -0.0572,
+      "edge_under": 0.0572,
       "lean": "Under",
-      "edge": 0.0526,
+      "edge": 0.0572,
       "strong": true
      },
      {
@@ -23228,6 +23228,63 @@
      }
     ],
     "saves": [
+     {
+      "espn_id": "4064582",
+      "player": "Carter Hart",
+      "team": "VGK",
+      "opp": "WPG",
+      "line": 22.5,
+      "open_line": 22.5,
+      "over": "-130",
+      "over_open": "-130",
+      "under": "-105",
+      "under_open": "-105",
+      "updated": "2026-11-21T20:34Z",
+      "player_id": 8479394,
+      "pos": "G",
+      "starter": false,
+      "starter_basis": null,
+      "proj_sa": 24.3,
+      "proj_sv": 0.891,
+      "mean": 21.66,
+      "p_over": 0.4371,
+      "curve": {
+       "14.5": 0.8954,
+       "15.5": 0.8619,
+       "16.5": 0.8202,
+       "17.5": 0.7703,
+       "18.5": 0.7126,
+       "19.5": 0.6483,
+       "20.5": 0.5794,
+       "21.5": 0.5082,
+       "22.5": 0.4371,
+       "23.5": 0.3686,
+       "24.5": 0.3047,
+       "25.5": 0.2468,
+       "26.5": 0.196,
+       "27.5": 0.1526,
+       "28.5": 0.1165,
+       "29.5": 0.0872,
+       "30.5": 0.0641,
+       "31.5": 0.0462,
+       "32.5": 0.0327,
+       "33.5": 0.0228,
+       "34.5": 0.0156,
+       "35.5": 0.0105,
+       "36.5": 0.0069,
+       "37.5": 0.0045,
+       "38.5": 0.0029,
+       "39.5": 0.0018,
+       "40.5": 0.0011,
+       "41.5": 0.0007
+      },
+      "mkt_over": 0.5246,
+      "edge_over": -0.0875,
+      "edge_under": 0.0875,
+      "lean": "Under",
+      "edge": 0.0875,
+      "strong": true
+     },
      {
       "espn_id": "4268767",
       "player": "Stuart Skinner",
