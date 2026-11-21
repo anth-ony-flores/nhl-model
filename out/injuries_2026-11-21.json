@@ -1,7 +1,7 @@
 {
  "day": "2026-11-21",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-21 15:44",
+ "fetched": "2026-11-21 15:54",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -153,6 +153,17 @@
   "CHI": {
    "missing_value": -0.0433,
    "players": [
+    {
+     "name": "Anton Frondell",
+     "status": "Day-To-Day",
+     "playerId": 8485391,
+     "position": "C",
+     "value": -0.059,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-21"
+    },
     {
      "name": "Bowen Byram",
      "status": "Injured Reserve",
