@@ -1,7 +1,7 @@
 {
  "day": "2026-11-21",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-21 14:33",
+ "fetched": "2026-11-21 14:43",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -333,6 +333,17 @@
    "missing_value": 0.0091,
    "players": [
     {
+     "name": "Ryan Nugent-Hopkins",
+     "status": "Out",
+     "playerId": 8476454,
+     "position": "C",
+     "value": 0.0091,
+     "regular": true,
+     "applied": true,
+     "note": "Nugent-Hopkins (undisclosed) is slated to return to the lineup against Vegas on Tuesday, Paige Martin of Oilers TV reports.",
+     "date": "2026-11-21"
+    },
+    {
      "name": "Zach Hyman",
      "status": "Day-To-Day",
      "playerId": 8475786,
@@ -341,17 +352,6 @@
      "regular": true,
      "applied": false,
      "note": "day-to-day",
-     "date": "2026-11-21"
-    },
-    {
-     "name": "Ryan Nugent-Hopkins",
-     "status": "Out",
-     "playerId": 8476454,
-     "position": "C",
-     "value": 0.0091,
-     "regular": true,
-     "applied": true,
-     "note": "out",
      "date": "2026-11-21"
     },
     {
