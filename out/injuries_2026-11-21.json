@@ -1,7 +1,7 @@
 {
  "day": "2026-11-21",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-21 12:20",
+ "fetched": "2026-11-21 12:30",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -145,7 +145,7 @@
      "value": -0.0565,
      "regular": false,
      "applied": false,
-     "note": "Byram (upper body) won't play against Calgary on Saturday, Scott Powers of The Athletic reports.",
+     "note": "Byram (upper body) didn't accompany his teammates on Chicago's three-game road trip, per Mark Lazerus of The Athletic on Saturday.",
      "date": "2026-11-21"
     },
     {
@@ -238,18 +238,18 @@
    ]
   },
   "DAL": {
-   "missing_value": -0.0853,
+   "missing_value": -0.1342,
    "players": [
     {
      "name": "Tyler Myers",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8474574,
      "position": "D",
      "value": -0.0489,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-20"
+     "applied": true,
+     "note": "Myers (upper body) will not play in Sunday's home clash against Pittsburgh, per Robert Tiffin of NHL.com.",
+     "date": "2026-11-21"
     },
     {
      "name": "Kyle Capobianco",
