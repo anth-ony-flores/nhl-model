@@ -1,7 +1,7 @@
 {
  "date": "2026-11-21",
  "data_through": "2026-11-19",
- "generated": "2026-11-21 12:00 MST",
+ "generated": "2026-11-21 12:10 MST",
  "league_xg60": 3.019,
  "b2b_effect": {
   "own_xg": -0.217,
@@ -244,6 +244,17 @@
    ],
    "inj_away": [
     {
+     "name": "Bowen Byram",
+     "status": "Injured Reserve",
+     "playerId": 8481524,
+     "position": "D",
+     "value": -0.0565,
+     "regular": false,
+     "applied": false,
+     "note": "Byram (upper body) won't play against Calgary on Saturday, Scott Powers of The Athletic reports.",
+     "date": "2026-11-21"
+    },
+    {
      "name": "Connor Bedard",
      "status": "Out",
      "playerId": 8484144,
@@ -253,17 +264,6 @@
      "applied": true,
      "note": "out",
      "date": "2026-11-19"
-    },
-    {
-     "name": "Bowen Byram",
-     "status": "Injured Reserve",
-     "playerId": 8481524,
-     "position": "D",
-     "value": -0.0565,
-     "regular": false,
-     "applied": false,
-     "note": "Byram (upper body) will not play in the Blackhawks' next two games, per CHGO Blackhawks.",
-     "date": "2026-11-17"
     }
    ],
    "inj_adj_home": 0,
@@ -2241,17 +2241,6 @@
     }
    ],
    "inj_away": [
-    {
-     "name": "Curtis Douglas",
-     "status": "Injured Reserve",
-     "playerId": 8480876,
-     "position": "C",
-     "value": 0.0241,
-     "regular": false,
-     "applied": false,
-     "note": "ir",
-     "date": "2026-11-05"
-    },
     {
      "name": "Jared McCann",
      "status": "Injured Reserve",
