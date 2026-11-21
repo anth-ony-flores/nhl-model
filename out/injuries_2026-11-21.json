@@ -1,7 +1,7 @@
 {
  "day": "2026-11-21",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-21 09:40",
+ "fetched": "2026-11-21 09:50",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -616,6 +616,17 @@
    "missing_value": -0.0434,
    "players": [
     {
+     "name": "Oliver Bjorkstrand",
+     "status": "Injured Reserve",
+     "playerId": 8477416,
+     "position": "R",
+     "value": -0.0171,
+     "regular": true,
+     "applied": true,
+     "note": "Bjorkstrand (upper body) is expected to be sidelined for 2-3 months, Peter Baugh of The Athletic reports Saturday.",
+     "date": "2026-11-21"
+    },
+    {
      "name": "Alberts Smits",
      "status": "Injured Reserve",
      "playerId": 8485957,
@@ -632,17 +643,6 @@
      "playerId": 8481604,
      "position": "R",
      "value": 0.0275,
-     "regular": true,
-     "applied": true,
-     "note": "ir",
-     "date": "2026-11-21"
-    },
-    {
-     "name": "Oliver Bjorkstrand",
-     "status": "Injured Reserve",
-     "playerId": 8477416,
-     "position": "R",
-     "value": -0.0171,
      "regular": true,
      "applied": true,
      "note": "ir",
@@ -863,17 +863,6 @@
      "regular": true,
      "applied": true,
      "note": "out",
-     "date": "2026-11-20"
-    },
-    {
-     "name": "Ross Johnston",
-     "status": "Day-To-Day",
-     "playerId": 8477527,
-     "position": "L",
-     "value": -0.0453,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
      "date": "2026-11-20"
     },
     {
