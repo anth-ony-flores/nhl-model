@@ -1,7 +1,7 @@
 {
  "date": "2026-11-21",
  "data_through": "2026-11-19",
- "generated": "2026-11-21 13:31 MST",
+ "generated": "2026-11-21 14:00 MST",
  "league_xg60": 3.019,
  "b2b_effect": {
   "own_xg": -0.217,
@@ -2087,17 +2087,6 @@
      "applied": true,
      "note": "Hughes (upper body) will miss the rest of Minnesota's road trip, per Joe Smith of The Athletic on Saturday.",
      "date": "2026-11-21"
-    },
-    {
-     "name": "Yakov Trenin",
-     "status": "Day-To-Day",
-     "playerId": 8478508,
-     "position": "C",
-     "value": -0.0379,
-     "regular": true,
-     "applied": false,
-     "note": "Trenin (personal) is expected to meet up with the Wild in Vancouver ahead of Saturday's game versus the Canucks, per Michael Russo of The Athletic.",
-     "date": "2026-11-20"
     },
     {
      "name": "Olli Maatta",
