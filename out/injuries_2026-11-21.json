@@ -1,7 +1,7 @@
 {
  "day": "2026-11-21",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-21 07:22",
+ "fetched": "2026-11-21 09:00",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -272,6 +272,17 @@
      "applied": true,
      "note": "Bichsel (lower body) was placed on injured reserve Saturday.",
      "date": "2026-11-14"
+    },
+    {
+     "name": "Matt Duchene",
+     "status": "Injured Reserve",
+     "playerId": 8475168,
+     "position": "C",
+     "value": -0.0583,
+     "regular": false,
+     "applied": false,
+     "note": "Duchene will be out for approximately three months after undergoing surgery to repair a core injury, the team announced Monday.",
+     "date": "2026-10-12"
     }
    ]
   },
@@ -953,17 +964,6 @@
    "missing_value": -0.0238,
    "players": [
     {
-     "name": "Cole McWard",
-     "status": "Injured Reserve",
-     "playerId": 8484287,
-     "position": "D",
-     "value": -0.0316,
-     "regular": false,
-     "applied": false,
-     "note": "ir",
-     "date": "2026-11-20"
-    },
-    {
      "name": "Kirill Marchenko",
      "status": "Injured Reserve",
      "playerId": 8480893,
@@ -971,8 +971,30 @@
      "value": 0.0697,
      "regular": false,
      "applied": false,
-     "note": "Marchenko (lower body) was on the ice with his teammates for Friday's optional skate, Lance Hornby of The Toronto Sun reports.",
-     "date": "2026-11-20"
+     "note": "Marchenko (lower body) is day-to-day, according to David Alter of The Hockey News on Saturday.",
+     "date": "2026-11-21"
+    },
+    {
+     "name": "Cole McWard",
+     "status": "Injured Reserve",
+     "playerId": 8484287,
+     "position": "D",
+     "value": -0.0316,
+     "regular": false,
+     "applied": false,
+     "note": "McWard (lower body) is considered day-to-day, per David Alter of The Hockey News on Saturday.",
+     "date": "2026-11-21"
+    },
+    {
+     "name": "Nick Blankenburg",
+     "status": "Injured Reserve",
+     "playerId": 8483565,
+     "position": "D",
+     "value": 0.0225,
+     "regular": false,
+     "applied": false,
+     "note": "Blankenburg (upper body) is day-to-day, according to David Alter of The Hockey News on Saturday.",
+     "date": "2026-11-21"
     },
     {
      "name": "Colton Sissons",
@@ -995,17 +1017,6 @@
      "applied": false,
      "note": "Wood (undisclosed) was transferred to long-term injured reserve Wednesday, David Alter of The Hockey News reports.",
      "date": "2026-10-29"
-    },
-    {
-     "name": "Nick Blankenburg",
-     "status": "Injured Reserve",
-     "playerId": 8483565,
-     "position": "D",
-     "value": 0.0225,
-     "regular": false,
-     "applied": false,
-     "note": "Blankenburg (undisclosed) was placed on injured reserve by the Maple Leafs on Friday, David Alter of The Hockey News reports.",
-     "date": "2026-10-23"
     },
     {
      "name": "Marshall Rifai",
