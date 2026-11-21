@@ -1,7 +1,7 @@
 {
  "date": "2026-11-21",
  "data_through": "2026-11-19",
- "generated": "2026-11-21 09:10 MST",
+ "generated": "2026-11-21 09:20 MST",
  "league_xg60": 3.019,
  "b2b_effect": {
   "own_xg": -0.217,
@@ -367,17 +367,6 @@
    },
    "inj_home": [
     {
-     "name": "Jonah Gadjovich",
-     "status": "Injured Reserve",
-     "playerId": 8479981,
-     "position": "L",
-     "value": -0.0089,
-     "regular": false,
-     "applied": false,
-     "note": "Gadjovich (neck) took the ice Thursday in a non-contact sweater, George Richards of Florida Hockey Now reports.",
-     "date": "2026-11-19"
-    },
-    {
      "name": "Brad Marchand",
      "status": "Injured Reserve",
      "playerId": 8473419,
@@ -385,8 +374,8 @@
      "value": -0.0695,
      "regular": false,
      "applied": false,
-     "note": "Head coach Paul Maurice said Friday that Marchand (knee) will travel with the Panthers during their upcoming three-game road trip, Jameson Olive of the Panthers' official site reports.",
-     "date": "2026-11-06"
+     "note": "Marchand (knee) is close to returning to the lineup, but he won't play against Buffalo on Saturday, per Jameson Olive of the Panthers' official site.",
+     "date": "2026-11-21"
     },
     {
      "name": "Aleksander Barkov",
@@ -396,8 +385,19 @@
      "value": 0.082,
      "regular": false,
      "applied": false,
-     "note": "Head coach Paul Maurice said Friday that Barkov (knee) will travel with the Panthers during their upcoming three-game road trip, Jameson Olive of the Panthers' official site reports.",
-     "date": "2026-11-06"
+     "note": "Barkov (knee) won't play against Buffalo on Saturday, but he could return within Florida's next three games, Jameson Olive of the Panthers' official site reports.",
+     "date": "2026-11-21"
+    },
+    {
+     "name": "Jonah Gadjovich",
+     "status": "Injured Reserve",
+     "playerId": 8479981,
+     "position": "L",
+     "value": -0.0089,
+     "regular": false,
+     "applied": false,
+     "note": "Gadjovich (neck) took the ice Thursday in a non-contact sweater, George Richards of Florida Hockey Now reports.",
+     "date": "2026-11-19"
     }
    ],
    "inj_away": [

@@ -1,7 +1,7 @@
 {
  "day": "2026-11-21",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-21 09:10",
+ "fetched": "2026-11-21 09:20",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -377,17 +377,6 @@
    "missing_value": 0,
    "players": [
     {
-     "name": "Jonah Gadjovich",
-     "status": "Injured Reserve",
-     "playerId": 8479981,
-     "position": "L",
-     "value": -0.0089,
-     "regular": false,
-     "applied": false,
-     "note": "Gadjovich (neck) took the ice Thursday in a non-contact sweater, George Richards of Florida Hockey Now reports.",
-     "date": "2026-11-19"
-    },
-    {
      "name": "Brad Marchand",
      "status": "Injured Reserve",
      "playerId": 8473419,
@@ -395,8 +384,8 @@
      "value": -0.0695,
      "regular": false,
      "applied": false,
-     "note": "Head coach Paul Maurice said Friday that Marchand (knee) will travel with the Panthers during their upcoming three-game road trip, Jameson Olive of the Panthers' official site reports.",
-     "date": "2026-11-06"
+     "note": "Marchand (knee) is close to returning to the lineup, but he won't play against Buffalo on Saturday, per Jameson Olive of the Panthers' official site.",
+     "date": "2026-11-21"
     },
     {
      "name": "Aleksander Barkov",
@@ -406,8 +395,19 @@
      "value": 0.082,
      "regular": false,
      "applied": false,
-     "note": "Head coach Paul Maurice said Friday that Barkov (knee) will travel with the Panthers during their upcoming three-game road trip, Jameson Olive of the Panthers' official site reports.",
-     "date": "2026-11-06"
+     "note": "Barkov (knee) won't play against Buffalo on Saturday, but he could return within Florida's next three games, Jameson Olive of the Panthers' official site reports.",
+     "date": "2026-11-21"
+    },
+    {
+     "name": "Jonah Gadjovich",
+     "status": "Injured Reserve",
+     "playerId": 8479981,
+     "position": "L",
+     "value": -0.0089,
+     "regular": false,
+     "applied": false,
+     "note": "Gadjovich (neck) took the ice Thursday in a non-contact sweater, George Richards of Florida Hockey Now reports.",
+     "date": "2026-11-19"
     }
    ]
   },
@@ -613,8 +613,19 @@
    ]
   },
   "NYR": {
-   "missing_value": -0.0709,
+   "missing_value": -0.0434,
    "players": [
+    {
+     "name": "Pavel Dorofeyev",
+     "status": "Injured Reserve",
+     "playerId": 8481604,
+     "position": "R",
+     "value": 0.0275,
+     "regular": true,
+     "applied": true,
+     "note": "ir",
+     "date": "2026-11-21"
+    },
     {
      "name": "Oliver Bjorkstrand",
      "status": "Injured Reserve",
@@ -636,17 +647,6 @@
      "applied": false,
      "note": "Durzi (lower body) will likely be a game-time decision for Sunday's matchup against the Hurricanes, Jim Cerny of NHL.com reports.",
      "date": "2026-11-20"
-    },
-    {
-     "name": "Pavel Dorofeyev",
-     "status": "Day-To-Day",
-     "playerId": 8481604,
-     "position": "R",
-     "value": 0.0275,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-17"
     },
     {
      "name": "Alberts Smits",
