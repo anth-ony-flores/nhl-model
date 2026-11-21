@@ -1,7 +1,7 @@
 {
  "day": "2026-11-21",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-21 12:10",
+ "fetched": "2026-11-21 12:20",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -224,17 +224,6 @@
   "CBJ": {
    "missing_value": -0.0135,
    "players": [
-    {
-     "name": "Mathieu Olivier",
-     "status": "Day-To-Day",
-     "playerId": 8479671,
-     "position": "R",
-     "value": 0.0623,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-20"
-    },
     {
      "name": "Sean Monahan",
      "status": "Out",
@@ -1102,7 +1091,7 @@
      "value": 0.0194,
      "regular": true,
      "applied": true,
-     "note": "Pettersson (upper body) won't play against Minnesota on Saturday, per Dan Murphy of Sportsnet.",
+     "note": "Pettersson (upper body) isn't expected to play against Chicago on Sunday, per Canucks play-by-play announcer Brendan Batchelor.",
      "date": "2026-11-21"
     },
     {
