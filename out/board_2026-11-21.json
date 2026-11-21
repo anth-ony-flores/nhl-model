@@ -1,7 +1,7 @@
 {
  "date": "2026-11-21",
  "data_through": "2026-11-19",
- "generated": "2026-11-21 10:10 MST",
+ "generated": "2026-11-21 10:21 MST",
  "league_xg60": 3.019,
  "b2b_effect": {
   "own_xg": -0.217,
@@ -1396,22 +1396,22 @@
    ],
    "inj_away": [
     {
+     "name": "Ryan Pulock",
+     "status": "Out",
+     "playerId": 8477506,
+     "position": "D",
+     "value": -0.0865,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-21"
+    },
+    {
      "name": "Logan Stanley",
      "status": "Day-To-Day",
      "playerId": 8479378,
      "position": "D",
      "value": -0.0519,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-20"
-    },
-    {
-     "name": "Ryan Pulock",
-     "status": "Day-To-Day",
-     "playerId": 8477506,
-     "position": "D",
-     "value": -0.0865,
      "regular": true,
      "applied": false,
      "note": "day-to-day",
@@ -1430,52 +1430,52 @@
     }
    ],
    "inj_adj_home": 0,
-   "inj_adj_away": 0,
-   "xg_home": 3.075,
-   "xg_away": 2.944,
-   "proj_home": 2.89,
-   "proj_away": 3.0,
-   "p_home": 0.4819,
-   "p_away": 0.5181,
-   "p_ot": 0.2513,
-   "fair_ml_home": 107,
-   "fair_ml_away": -107,
+   "inj_adj_away": -0.086,
+   "xg_home": 3.032,
+   "xg_away": 2.987,
+   "proj_home": 2.86,
+   "proj_away": 3.04,
+   "p_home": 0.4682,
+   "p_away": 0.5318,
+   "p_ot": 0.2508,
+   "fair_ml_home": 114,
+   "fair_ml_away": -114,
    "exp_total": 5.89,
    "totals": {
     "4.5": {
-     "over": 0.7184,
-     "under": 0.2816
+     "over": 0.7187,
+     "under": 0.2813
     },
     "5.0": {
-     "over": 0.5242,
-     "under": 0.2816
+     "over": 0.5246,
+     "under": 0.2813
     },
     "5.5": {
-     "over": 0.5242,
-     "under": 0.4758
+     "over": 0.5246,
+     "under": 0.4754
     },
     "6.0": {
-     "over": 0.3824,
-     "under": 0.4758
+     "over": 0.3828,
+     "under": 0.4754
     },
     "6.5": {
-     "over": 0.3824,
-     "under": 0.6176
+     "over": 0.3828,
+     "under": 0.6172
     },
     "7.0": {
-     "over": 0.2253,
-     "under": 0.6176
+     "over": 0.2256,
+     "under": 0.6172
     },
     "7.5": {
-     "over": 0.2253,
-     "under": 0.7747
+     "over": 0.2256,
+     "under": 0.7744
     }
    },
    "puck_line": {
-    "home_-1.5": 0.282,
-    "away_+1.5": 0.718,
-    "away_-1.5": 0.3104,
-    "home_+1.5": 0.6896
+    "home_-1.5": 0.2715,
+    "away_+1.5": 0.7285,
+    "away_-1.5": 0.3216,
+    "home_+1.5": 0.6784
    }
   },
   {
@@ -2031,14 +2031,14 @@
    "inj_home": [
     {
      "name": "Brendan Gallagher",
-     "status": "Day-To-Day",
+     "status": "Injured Reserve",
      "playerId": 8475848,
      "position": "R",
      "value": 0.0535,
      "regular": true,
-     "applied": false,
-     "note": "Gallagher (lower body) won't return to Thursday's game versus the Kraken.",
-     "date": "2026-11-20"
+     "applied": true,
+     "note": "Gallagher (lower body) was placed on injured reserve Saturday.",
+     "date": "2026-11-21"
     },
     {
      "name": "Guillaume Brisebois",
@@ -2098,42 +2098,42 @@
      "date": "2026-11-16"
     }
    ],
-   "inj_adj_home": 0,
+   "inj_adj_home": 0.053,
    "inj_adj_away": -0.012,
-   "xg_home": 2.41,
-   "xg_away": 3.893,
-   "proj_home": 2.28,
-   "proj_away": 4.08,
-   "p_home": 0.2217,
-   "p_away": 0.7783,
-   "p_ot": 0.1849,
-   "fair_ml_home": 351,
-   "fair_ml_away": -351,
+   "xg_home": 2.384,
+   "xg_away": 3.919,
+   "proj_home": 2.26,
+   "proj_away": 4.11,
+   "p_home": 0.2152,
+   "p_away": 0.7848,
+   "p_ot": 0.1822,
+   "fair_ml_home": 365,
+   "fair_ml_away": -365,
    "exp_total": 6.36,
    "totals": {
     "4.5": {
-     "over": 0.7758,
-     "under": 0.2242
+     "over": 0.7756,
+     "under": 0.2244
     },
     "5.0": {
-     "over": 0.6055,
-     "under": 0.2242
+     "over": 0.6056,
+     "under": 0.2244
     },
     "5.5": {
-     "over": 0.6055,
-     "under": 0.3945
+     "over": 0.6056,
+     "under": 0.3944
     },
     "6.0": {
-     "over": 0.4568,
-     "under": 0.3945
+     "over": 0.4566,
+     "under": 0.3944
     },
     "6.5": {
-     "over": 0.4568,
-     "under": 0.5432
+     "over": 0.4566,
+     "under": 0.5434
     },
     "7.0": {
      "over": 0.2952,
-     "under": 0.5432
+     "under": 0.5434
     },
     "7.5": {
      "over": 0.2952,
@@ -2141,10 +2141,10 @@
     }
    },
    "puck_line": {
-    "home_-1.5": 0.1131,
-    "away_+1.5": 0.8869,
-    "away_-1.5": 0.577,
-    "home_+1.5": 0.423
+    "home_-1.5": 0.1093,
+    "away_+1.5": 0.8907,
+    "away_-1.5": 0.5849,
+    "home_+1.5": 0.4151
    }
   },
   {
