@@ -1,7 +1,7 @@
 {
  "day": "2026-11-21",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-21 09:30",
+ "fetched": "2026-11-21 09:40",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -616,6 +616,17 @@
    "missing_value": -0.0434,
    "players": [
     {
+     "name": "Alberts Smits",
+     "status": "Injured Reserve",
+     "playerId": 8485957,
+     "position": "D",
+     "value": -0.0538,
+     "regular": true,
+     "applied": true,
+     "note": "Smits (upper body) is expected to miss 2-3 months, Peter Baugh of The Athletic reported Saturday.",
+     "date": "2026-11-21"
+    },
+    {
      "name": "Pavel Dorofeyev",
      "status": "Injured Reserve",
      "playerId": 8481604,
@@ -649,17 +660,6 @@
      "date": "2026-11-20"
     },
     {
-     "name": "Alberts Smits",
-     "status": "Injured Reserve",
-     "playerId": 8485957,
-     "position": "D",
-     "value": -0.0538,
-     "regular": true,
-     "applied": true,
-     "note": "ir",
-     "date": "2026-11-10"
-    },
-    {
      "name": "Adam Sykora",
      "status": "Injured Reserve",
      "playerId": 8483669,
@@ -684,17 +684,6 @@
      "regular": false,
      "applied": false,
      "note": "Burakovsky (lower body) was on the ice Friday doing some individual drills, Bruce Garrioch of Postmedia reports.",
-     "date": "2026-11-20"
-    },
-    {
-     "name": "Nick Cousins",
-     "status": "Day-To-Day",
-     "playerId": 8476393,
-     "position": "C",
-     "value": -0.0578,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
      "date": "2026-11-20"
     },
     {
