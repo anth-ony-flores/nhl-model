@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "generated": "2026-11-22T20:00:04Z",
+ "generated": "2026-11-22T20:10:13Z",
  "data_through": "2026-11-21",
  "picks_enabled": false,
  "params": {
@@ -56,7 +56,7 @@
    "home_name": "Rangers",
    "start_utc": "2026-11-22T17:30:00Z",
    "state": "in",
-   "detail": "7:37 - 3rd",
+   "detail": "2:53 - 3rd",
    "frozen": true,
    "goal_factor": {
     "CAR": 0.912,
@@ -2455,9 +2455,9 @@
       "opp": "BUF",
       "line": 2.5,
       "open_line": 2.5,
-      "over": "+140",
+      "over": "+135",
       "over_open": "+115",
-      "under": "-190",
+      "under": "-180",
       "under_open": "-155",
       "updated": "2026-11-22T10:02Z",
       "player_id": 8478010,
@@ -2476,12 +2476,12 @@
        "6.5": 0.0087,
        "7.5": 0.0026
       },
-      "mkt_over": 0.3887,
-      "edge_over": -0.0297,
-      "edge_under": 0.0297,
+      "mkt_over": 0.3983,
+      "edge_over": -0.0392,
+      "edge_under": 0.0392,
       "lean": "Under",
-      "edge": 0.0297,
-      "strong": false
+      "edge": 0.0392,
+      "strong": true
      },
      {
       "espn_id": "3941973",
@@ -2595,9 +2595,9 @@
       "opp": "BUF",
       "line": 1.5,
       "open_line": 1.5,
-      "over": "-120",
+      "over": "-105",
       "over_open": "-120",
-      "under": "-115",
+      "under": "-130",
       "under_open": "-110",
       "updated": "2026-11-22T19:24Z",
       "player_id": 8484770,
@@ -2616,11 +2616,11 @@
        "6.5": 0.0002,
        "7.5": 0.0
       },
-      "mkt_over": 0.5049,
-      "edge_over": -0.2036,
-      "edge_under": 0.2036,
+      "mkt_over": 0.4754,
+      "edge_over": -0.1741,
+      "edge_under": 0.1741,
       "lean": "Under",
-      "edge": 0.2036,
+      "edge": 0.1741,
       "strong": true
      }
     ],
