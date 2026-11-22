@@ -1,7 +1,7 @@
 {
  "date": "2026-11-22",
  "data_through": "2026-11-21",
- "generated": "2026-11-22 08:41 MST",
+ "generated": "2026-11-22 08:51 MST",
  "league_xg60": 3.011,
  "b2b_effect": {
   "own_xg": -0.209,
@@ -92,17 +92,6 @@
      "applied": true,
      "note": "ir",
      "date": "2026-11-21"
-    },
-    {
-     "name": "Sean Durzi",
-     "status": "Injured Reserve",
-     "playerId": 8480434,
-     "position": "D",
-     "value": -0.0336,
-     "regular": false,
-     "applied": false,
-     "note": "Durzi (lower body) will likely be a game-time decision for Sunday's matchup against the Hurricanes, Jim Cerny of NHL.com reports.",
-     "date": "2026-11-20"
     },
     {
      "name": "Adam Sykora",
