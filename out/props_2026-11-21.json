@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "generated": "2026-11-22T00:56:48Z",
+ "generated": "2026-11-22T01:06:56Z",
  "data_through": "2026-11-19",
  "picks_enabled": false,
  "params": {
@@ -4871,7 +4871,7 @@
    "home_name": "Panthers",
    "start_utc": "2026-11-21T23:00:00Z",
    "state": "in",
-   "detail": "End of 2nd",
+   "detail": "18:06 - 3rd",
    "frozen": true,
    "goal_factor": {
     "BUF": 0.989,
@@ -7419,7 +7419,7 @@
    "home_name": "Predators",
    "start_utc": "2026-11-21T23:00:00Z",
    "state": "in",
-   "detail": "End of 2nd",
+   "detail": "17:56 - 3rd",
    "frozen": true,
    "goal_factor": {
     "PIT": 1.022,
@@ -9688,7 +9688,7 @@
    "home_name": "Bruins",
    "start_utc": "2026-11-22T00:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "18:59 - 2nd",
    "frozen": true,
    "goal_factor": {
     "WSH": 1.03,
@@ -14397,7 +14397,7 @@
    "home_name": "Canadiens",
    "start_utc": "2026-11-22T00:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "20:00 - 2nd",
    "frozen": true,
    "goal_factor": {
     "PHI": 1.065,
@@ -18807,7 +18807,7 @@
    "home_name": "Red Wings",
    "start_utc": "2026-11-22T00:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "14:39 - 2nd",
    "frozen": true,
    "goal_factor": {
     "NYI": 1.02,
