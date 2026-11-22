@@ -1,7 +1,7 @@
 {
  "day": "2026-11-22",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-22 14:10",
+ "fetched": "2026-11-22 14:27",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -15,7 +15,7 @@
      "value": 0.0608,
      "regular": true,
      "applied": false,
-     "note": "day-to-day",
+     "note": "Carlsson (upper body) is day-to-day, according to Eric Stephens of The Athletic on Sunday.",
      "date": "2026-11-22"
     },
     {
@@ -927,7 +927,7 @@
      "value": -0.0843,
      "regular": true,
      "applied": true,
-     "note": "out",
+     "note": "Girgensons (upper body) won't play against Buffalo on Sunday, per Benjamin Pierce of the Lightning's official site.",
      "date": "2026-11-22"
     },
     {
