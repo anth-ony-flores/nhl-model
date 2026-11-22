@@ -1,7 +1,7 @@
 {
  "day": "2026-11-22",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-22 15:48",
+ "fetched": "2026-11-22 15:58",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -363,8 +363,19 @@
    ]
   },
   "EDM": {
-   "missing_value": 0.0091,
+   "missing_value": 0.1361,
    "players": [
+    {
+     "name": "Zach Hyman",
+     "status": "Out",
+     "playerId": 8475786,
+     "position": "L",
+     "value": 0.127,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-22"
+    },
     {
      "name": "Ryan Nugent-Hopkins",
      "status": "Out",
@@ -374,17 +385,6 @@
      "regular": true,
      "applied": true,
      "note": "Nugent-Hopkins (undisclosed) is slated to return to the lineup against Vegas on Tuesday, Paige Martin of Oilers TV reports.",
-     "date": "2026-11-21"
-    },
-    {
-     "name": "Zach Hyman",
-     "status": "Day-To-Day",
-     "playerId": 8475786,
-     "position": "L",
-     "value": 0.127,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
      "date": "2026-11-21"
     },
     {
@@ -879,17 +879,17 @@
    ]
   },
   "STL": {
-   "missing_value": 0,
+   "missing_value": -0.0139,
    "players": [
     {
      "name": "Connor McMichael",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8481580,
      "position": "L",
      "value": -0.0139,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
+     "applied": true,
+     "note": "out",
      "date": "2026-11-22"
     },
     {

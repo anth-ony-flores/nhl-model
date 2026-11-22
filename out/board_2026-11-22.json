@@ -1,7 +1,7 @@
 {
  "date": "2026-11-22",
  "data_through": "2026-11-21",
- "generated": "2026-11-22 15:48 MST",
+ "generated": "2026-11-22 15:58 MST",
  "league_xg60": 3.011,
  "b2b_effect": {
   "own_xg": -0.209,
@@ -393,13 +393,13 @@
    "inj_home": [
     {
      "name": "Connor McMichael",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8481580,
      "position": "L",
      "value": -0.0139,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
+     "applied": true,
+     "note": "out",
      "date": "2026-11-22"
     },
     {
@@ -438,6 +438,17 @@
    ],
    "inj_away": [
     {
+     "name": "Zach Hyman",
+     "status": "Out",
+     "playerId": 8475786,
+     "position": "L",
+     "value": 0.127,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-22"
+    },
+    {
      "name": "Ryan Nugent-Hopkins",
      "status": "Out",
      "playerId": 8476454,
@@ -446,17 +457,6 @@
      "regular": true,
      "applied": true,
      "note": "Nugent-Hopkins (undisclosed) is slated to return to the lineup against Vegas on Tuesday, Paige Martin of Oilers TV reports.",
-     "date": "2026-11-21"
-    },
-    {
-     "name": "Zach Hyman",
-     "status": "Day-To-Day",
-     "playerId": 8475786,
-     "position": "L",
-     "value": 0.127,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
      "date": "2026-11-21"
     },
     {
@@ -493,53 +493,53 @@
      "date": "2026-09-29"
     }
    ],
-   "inj_adj_home": 0,
-   "inj_adj_away": 0.009,
-   "xg_home": 2.742,
-   "xg_away": 2.744,
-   "proj_home": 3.06,
-   "proj_away": 2.73,
-   "p_home": 0.5587,
-   "p_away": 0.4413,
-   "p_ot": 0.2517,
-   "fair_ml_home": -127,
-   "fair_ml_away": 127,
-   "exp_total": 5.78,
+   "inj_adj_home": -0.014,
+   "inj_adj_away": 0.136,
+   "xg_home": 2.812,
+   "xg_away": 2.673,
+   "proj_home": 3.13,
+   "proj_away": 2.66,
+   "p_home": 0.5827,
+   "p_away": 0.4173,
+   "p_ot": 0.2491,
+   "fair_ml_home": -140,
+   "fair_ml_away": 140,
+   "exp_total": 5.79,
    "totals": {
     "4.5": {
-     "over": 0.7034,
-     "under": 0.2966
+     "over": 0.7039,
+     "under": 0.2961
     },
     "5.0": {
-     "over": 0.5059,
-     "under": 0.2966
+     "over": 0.5069,
+     "under": 0.2961
     },
     "5.5": {
-     "over": 0.5059,
-     "under": 0.4941
+     "over": 0.5069,
+     "under": 0.4931
     },
     "6.0": {
-     "over": 0.3645,
-     "under": 0.4941
+     "over": 0.3652,
+     "under": 0.4931
     },
     "6.5": {
-     "over": 0.3645,
-     "under": 0.6355
+     "over": 0.3652,
+     "under": 0.6348
     },
     "7.0": {
-     "over": 0.2109,
-     "under": 0.6355
+     "over": 0.2117,
+     "under": 0.6348
     },
     "7.5": {
-     "over": 0.2109,
-     "under": 0.7891
+     "over": 0.2117,
+     "under": 0.7883
     }
    },
    "puck_line": {
-    "home_-1.5": 0.342,
-    "away_+1.5": 0.658,
-    "away_-1.5": 0.2499,
-    "home_+1.5": 0.7501
+    "home_-1.5": 0.3628,
+    "away_+1.5": 0.6372,
+    "away_-1.5": 0.2328,
+    "home_+1.5": 0.7672
    }
   },
   {
