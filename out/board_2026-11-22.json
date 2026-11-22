@@ -1,7 +1,7 @@
 {
  "date": "2026-11-22",
  "data_through": "2026-11-21",
- "generated": "2026-11-22 13:50 MST",
+ "generated": "2026-11-22 14:00 MST",
  "league_xg60": 3.011,
  "b2b_effect": {
   "own_xg": -0.209,
@@ -221,6 +221,17 @@
    },
    "inj_home": [
     {
+     "name": "Zemgus Girgensons",
+     "status": "Out",
+     "playerId": 8476878,
+     "position": "C",
+     "value": -0.0843,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-22"
+    },
+    {
      "name": "Conor Geekie",
      "status": "Injured Reserve",
      "playerId": 8483447,
@@ -230,17 +241,6 @@
      "applied": true,
      "note": "Geekie (upper body) is out indefinitely, according to Eduardo A. Encina of the Tampa Bay Times on Saturday.",
      "date": "2026-11-21"
-    },
-    {
-     "name": "Zemgus Girgensons",
-     "status": "Day-To-Day",
-     "playerId": 8476878,
-     "position": "C",
-     "value": -0.0843,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-20"
     },
     {
      "name": "Brandon Hagel",
@@ -289,53 +289,53 @@
      "date": "2026-10-13"
     }
    ],
-   "inj_adj_home": 0.141,
+   "inj_adj_home": 0.057,
    "inj_adj_away": 0,
-   "xg_home": 3.369,
-   "xg_away": 2.669,
-   "proj_home": 3.65,
-   "proj_away": 2.59,
-   "p_home": 0.6753,
-   "p_away": 0.3247,
-   "p_ot": 0.2217,
-   "fair_ml_home": -208,
-   "fair_ml_away": 208,
+   "xg_home": 3.411,
+   "xg_away": 2.627,
+   "proj_home": 3.69,
+   "proj_away": 2.55,
+   "p_home": 0.6877,
+   "p_away": 0.3123,
+   "p_ot": 0.2184,
+   "fair_ml_home": -220,
+   "fair_ml_away": 220,
    "exp_total": 6.24,
    "totals": {
     "4.5": {
-     "over": 0.7624,
-     "under": 0.2376
+     "over": 0.7623,
+     "under": 0.2377
     },
     "5.0": {
-     "over": 0.5835,
-     "under": 0.2376
+     "over": 0.5838,
+     "under": 0.2377
     },
     "5.5": {
-     "over": 0.5835,
-     "under": 0.4165
+     "over": 0.5838,
+     "under": 0.4162
     },
     "6.0": {
-     "over": 0.4385,
-     "under": 0.4165
+     "over": 0.4384,
+     "under": 0.4162
     },
     "6.5": {
-     "over": 0.4385,
-     "under": 0.5615
+     "over": 0.4384,
+     "under": 0.5616
     },
     "7.0": {
-     "over": 0.2752,
-     "under": 0.5615
+     "over": 0.2755,
+     "under": 0.5616
     },
     "7.5": {
-     "over": 0.2752,
-     "under": 0.7248
+     "over": 0.2755,
+     "under": 0.7245
     }
    },
    "puck_line": {
-    "home_-1.5": 0.4597,
-    "away_+1.5": 0.5403,
-    "away_-1.5": 0.1756,
-    "home_+1.5": 0.8244
+    "home_-1.5": 0.4725,
+    "away_+1.5": 0.5275,
+    "away_-1.5": 0.1676,
+    "home_+1.5": 0.8324
    }
   },
   {
