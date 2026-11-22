@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "generated": "2026-11-22T00:26:21Z",
+ "generated": "2026-11-22T00:36:30Z",
  "data_through": "2026-11-19",
  "picks_enabled": false,
  "params": {
@@ -4871,7 +4871,7 @@
    "home_name": "Panthers",
    "start_utc": "2026-11-21T23:00:00Z",
    "state": "in",
-   "detail": "8:48 - 2nd",
+   "detail": "3:28 - 2nd",
    "frozen": true,
    "goal_factor": {
     "BUF": 0.989,
@@ -7419,7 +7419,7 @@
    "home_name": "Predators",
    "start_utc": "2026-11-21T23:00:00Z",
    "state": "in",
-   "detail": "10:59 - 2nd",
+   "detail": "4:48 - 2nd",
    "frozen": true,
    "goal_factor": {
     "PIT": 1.022,
@@ -9688,7 +9688,7 @@
    "home_name": "Bruins",
    "start_utc": "2026-11-22T00:00:00Z",
    "state": "in",
-   "detail": "9:18 - 1st",
+   "detail": "5:19 - 1st",
    "frozen": true,
    "goal_factor": {
     "WSH": 1.03,
@@ -12155,7 +12155,7 @@
    "home_name": "Maple Leafs",
    "start_utc": "2026-11-22T00:00:00Z",
    "state": "in",
-   "detail": "14:35 - 1st",
+   "detail": "8:27 - 1st",
    "frozen": true,
    "goal_factor": {
     "CBJ": 1.078,
@@ -14397,7 +14397,7 @@
    "home_name": "Canadiens",
    "start_utc": "2026-11-22T00:00:00Z",
    "state": "in",
-   "detail": "11:46 - 1st",
+   "detail": "6:02 - 1st",
    "frozen": true,
    "goal_factor": {
     "PHI": 1.065,
@@ -16604,7 +16604,7 @@
    "home_name": "Senators",
    "start_utc": "2026-11-22T00:00:00Z",
    "state": "in",
-   "detail": "13:32 - 1st",
+   "detail": "8:47 - 1st",
    "frozen": true,
    "goal_factor": {
     "LAK": 0.856,
@@ -18807,7 +18807,7 @@
    "home_name": "Red Wings",
    "start_utc": "2026-11-22T00:00:00Z",
    "state": "in",
-   "detail": "7:54 - 1st",
+   "detail": "1:19 - 1st",
    "frozen": true,
    "goal_factor": {
     "NYI": 1.02,
@@ -21212,7 +21212,7 @@
    "home_name": "Blues",
    "start_utc": "2026-11-22T00:00:00Z",
    "state": "in",
-   "detail": "12:08 - 1st",
+   "detail": "7:49 - 1st",
    "frozen": true,
    "goal_factor": {
     "NJD": 0.983,
@@ -23586,7 +23586,7 @@
    "home_name": "Jets",
    "start_utc": "2026-11-22T00:00:00Z",
    "state": "in",
-   "detail": "12:50 - 1st",
+   "detail": "7:05 - 1st",
    "frozen": true,
    "goal_factor": {
     "VGK": 1.014,
