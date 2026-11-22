@@ -1,7 +1,7 @@
 {
  "day": "2026-11-21",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-21 18:37",
+ "fetched": "2026-11-21 18:47",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -1037,8 +1037,19 @@
    ]
   },
   "UTA": {
-   "missing_value": -0.1255,
+   "missing_value": -0.1181,
    "players": [
+    {
+     "name": "Clayton Keller",
+     "status": "Out",
+     "playerId": 8479343,
+     "position": "R",
+     "value": 0.0074,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-22"
+    },
     {
      "name": "John Marino",
      "status": "Injured Reserve",
