@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "generated": "2026-11-22T23:08:42Z",
+ "generated": "2026-11-22T23:18:50Z",
  "data_through": "2026-11-21",
  "picks_enabled": false,
  "params": {
@@ -2167,7 +2167,7 @@
    "home_name": "Lightning",
    "start_utc": "2026-11-22T22:00:00Z",
    "state": "in",
-   "detail": "19:19 - 2nd",
+   "detail": "12:40 - 2nd",
    "frozen": true,
    "goal_factor": {
     "BUF": 0.861,
