@@ -1,7 +1,7 @@
 {
  "day": "2026-11-22",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-22 10:22",
+ "fetched": "2026-11-22 10:32",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -947,6 +947,28 @@
    "missing_value": 0,
    "players": [
     {
+     "name": "Colton Sissons",
+     "status": "Injured Reserve",
+     "playerId": 8476925,
+     "position": "C",
+     "value": -0.0238,
+     "regular": false,
+     "applied": false,
+     "note": "Sissons (lower body) is day-to-day, per David Alter of The Hockey News on Sunday.",
+     "date": "2026-11-22"
+    },
+    {
+     "name": "Jack Roslovic",
+     "status": "Day-To-Day",
+     "playerId": 8478458,
+     "position": "C",
+     "value": 0.0041,
+     "regular": true,
+     "applied": false,
+     "note": "Roslovic (upper body) is day-to-day, per David Alter of The Hockey News on Sunday.",
+     "date": "2026-11-22"
+    },
+    {
      "name": "Kirill Marchenko",
      "status": "Injured Reserve",
      "playerId": 8480893,
@@ -978,17 +1000,6 @@
      "applied": false,
      "note": "Blankenburg (upper body) is day-to-day, according to David Alter of The Hockey News on Saturday.",
      "date": "2026-11-21"
-    },
-    {
-     "name": "Colton Sissons",
-     "status": "Injured Reserve",
-     "playerId": 8476925,
-     "position": "C",
-     "value": -0.0238,
-     "regular": false,
-     "applied": false,
-     "note": "ir",
-     "date": "2026-11-12"
     },
     {
      "name": "Miles Wood",
