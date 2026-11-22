@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "generated": "2026-11-22T00:06:04Z",
+ "generated": "2026-11-22T00:16:12Z",
  "data_through": "2026-11-19",
  "picks_enabled": false,
  "params": {
@@ -11,13 +11,13 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 368,
-  "checked": 356,
-  "first_is_over": 356,
+  "pairs": 114,
+  "checked": 111,
+  "first_is_over": 111,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 728,
+ "lines": 222,
  "unmatched": [
   {
    "espn_id": "5188640",
@@ -36,7 +36,7 @@
    "why": "no MoneyPuck skater match (no recent games?)"
   }
  ],
- "unmatched_rate": 0.0027,
+ "unmatched_rate": 0.009,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -4871,7 +4871,7 @@
    "home_name": "Panthers",
    "start_utc": "2026-11-21T23:00:00Z",
    "state": "in",
-   "detail": "16:36 - 2nd",
+   "detail": "11:59 - 2nd",
    "frozen": true,
    "goal_factor": {
     "BUF": 0.989,
@@ -7419,7 +7419,7 @@
    "home_name": "Predators",
    "start_utc": "2026-11-21T23:00:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "16:17 - 2nd",
    "frozen": true,
    "goal_factor": {
     "PIT": 1.022,
@@ -9687,9 +9687,9 @@
    "away_name": "Capitals",
    "home_name": "Bruins",
    "start_utc": "2026-11-22T00:00:00Z",
-   "state": "pre",
-   "detail": "11/21 - 7:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "13:36 - 1st",
+   "frozen": true,
    "goal_factor": {
     "WSH": 1.03,
     "BOS": 1.072
@@ -12154,9 +12154,9 @@
    "away_name": "Blue Jackets",
    "home_name": "Maple Leafs",
    "start_utc": "2026-11-22T00:00:00Z",
-   "state": "pre",
-   "detail": "11/21 - 7:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "19:26 - 1st",
+   "frozen": true,
    "goal_factor": {
     "CBJ": 1.078,
     "TOR": 1.033
@@ -14396,9 +14396,9 @@
    "away_name": "Flyers",
    "home_name": "Canadiens",
    "start_utc": "2026-11-22T00:00:00Z",
-   "state": "pre",
-   "detail": "11/21 - 7:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "20:00 - 1st",
+   "frozen": true,
    "goal_factor": {
     "PHI": 1.065,
     "MTL": 0.997
@@ -16603,9 +16603,9 @@
    "away_name": "Kings",
    "home_name": "Senators",
    "start_utc": "2026-11-22T00:00:00Z",
-   "state": "pre",
-   "detail": "11/21 - 7:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "19:43 - 1st",
+   "frozen": true,
    "goal_factor": {
     "LAK": 0.856,
     "OTT": 0.982
@@ -18806,9 +18806,9 @@
    "away_name": "Islanders",
    "home_name": "Red Wings",
    "start_utc": "2026-11-22T00:00:00Z",
-   "state": "pre",
-   "detail": "11/21 - 7:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "12:36 - 1st",
+   "frozen": true,
    "goal_factor": {
     "NYI": 1.02,
     "DET": 1.054
@@ -21211,9 +21211,9 @@
    "away_name": "Devils",
    "home_name": "Blues",
    "start_utc": "2026-11-22T00:00:00Z",
-   "state": "pre",
-   "detail": "11/21 - 7:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "17:20 - 1st",
+   "frozen": true,
    "goal_factor": {
     "NJD": 0.983,
     "STL": 0.934
@@ -23585,9 +23585,9 @@
    "away_name": "Golden Knights",
    "home_name": "Jets",
    "start_utc": "2026-11-22T00:00:00Z",
-   "state": "pre",
-   "detail": "11/21 - 7:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "19:50 - 1st",
+   "frozen": true,
    "goal_factor": {
     "VGK": 1.014,
     "WPG": 0.905

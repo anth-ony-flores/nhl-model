@@ -1,7 +1,7 @@
 {
  "day": "2026-11-21",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-21 17:05",
+ "fetched": "2026-11-21 17:16",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -689,8 +689,19 @@
    ]
   },
   "OTT": {
-   "missing_value": 0,
+   "missing_value": -0.0307,
    "players": [
+    {
+     "name": "Hayden Hodgson",
+     "status": "Out",
+     "playerId": 8478173,
+     "position": "R",
+     "value": -0.0307,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-22"
+    },
     {
      "name": "Andre Burakovsky",
      "status": "Injured Reserve",
@@ -700,17 +711,6 @@
      "regular": false,
      "applied": false,
      "note": "Burakovsky (lower body) was on the ice Friday doing some individual drills, Bruce Garrioch of Postmedia reports.",
-     "date": "2026-11-20"
-    },
-    {
-     "name": "Hayden Hodgson",
-     "status": "Day-To-Day",
-     "playerId": 8478173,
-     "position": "R",
-     "value": -0.0307,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
      "date": "2026-11-20"
     },
     {
