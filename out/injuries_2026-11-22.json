@@ -1,7 +1,7 @@
 {
  "day": "2026-11-22",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-22 07:21",
+ "fetched": "2026-11-22 08:41",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -166,13 +166,13 @@
    "players": [
     {
      "name": "Connor Bedard",
-     "status": "Out",
+     "status": "Injured Reserve",
      "playerId": 8484144,
      "position": "C",
      "value": -0.0433,
      "regular": true,
      "applied": true,
-     "note": "Bedard will undergo surgery on his injured right shoulder in the coming week, Ben Pope of the Chicago Sun-Times reports.",
+     "note": "Bedard (shoulder) was placed on injured reserve Sunday.",
      "date": "2026-11-22"
     },
     {

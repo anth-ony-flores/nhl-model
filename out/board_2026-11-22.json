@@ -1,7 +1,7 @@
 {
  "date": "2026-11-22",
  "data_through": "2026-11-21",
- "generated": "2026-11-22 07:22 MST",
+ "generated": "2026-11-22 08:41 MST",
  "league_xg60": 3.011,
  "b2b_effect": {
   "own_xg": -0.209,
@@ -838,13 +838,13 @@
    "inj_away": [
     {
      "name": "Connor Bedard",
-     "status": "Out",
+     "status": "Injured Reserve",
      "playerId": 8484144,
      "position": "C",
      "value": -0.0433,
      "regular": true,
      "applied": true,
-     "note": "Bedard will undergo surgery on his injured right shoulder in the coming week, Ben Pope of the Chicago Sun-Times reports.",
+     "note": "Bedard (shoulder) was placed on injured reserve Sunday.",
      "date": "2026-11-22"
     },
     {
