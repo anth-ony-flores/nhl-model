@@ -1,7 +1,7 @@
 {
  "date": "2026-11-22",
  "data_through": "2026-11-21",
- "generated": "2026-11-22 10:32 MST",
+ "generated": "2026-11-22 13:00 MST",
  "league_xg60": 3.011,
  "b2b_effect": {
   "own_xg": -0.209,
@@ -826,6 +826,17 @@
     }
    ],
    "inj_away": [
+    {
+     "name": "Wyatt Kaiser",
+     "status": "Suspension",
+     "playerId": 8482176,
+     "position": "D",
+     "value": -0.0373,
+     "regular": true,
+     "applied": false,
+     "note": "Kaiser was suspended for three games by the NHL Department of Player Safety on Sunday for an illegal check to the head against Calgary's Martin Pospisil (upper body) on Saturday.",
+     "date": "2026-11-22"
+    },
     {
      "name": "Connor Bedard",
      "status": "Injured Reserve",
