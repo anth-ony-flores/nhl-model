@@ -1,7 +1,7 @@
 {
  "day": "2026-11-22",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-22 15:17",
+ "fetched": "2026-11-22 15:28",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -765,8 +765,19 @@
    ]
   },
   "PIT": {
-   "missing_value": 0.0543,
+   "missing_value": 0.037,
    "players": [
+    {
+     "name": "Declan Carlile",
+     "status": "Out",
+     "playerId": 8483398,
+     "position": "D",
+     "value": -0.0173,
+     "regular": true,
+     "applied": true,
+     "note": "Carlile (lower body) won't play against Dallas on Sunday, per King Jemison of the Pittsburgh Post-Gazette.",
+     "date": "2026-11-22"
+    },
     {
      "name": "Bryan Rust",
      "status": "Injured Reserve",
