@@ -1,7 +1,7 @@
 {
  "day": "2026-11-21",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-21 17:16",
+ "fetched": "2026-11-21 17:26",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -165,6 +165,17 @@
    "missing_value": -0.0433,
    "players": [
     {
+     "name": "Connor Bedard",
+     "status": "Out",
+     "playerId": 8484144,
+     "position": "C",
+     "value": -0.0433,
+     "regular": true,
+     "applied": true,
+     "note": "Bedard will undergo surgery on his injured right shoulder in the coming week, Ben Pope of the Chicago Sun-Times reports.",
+     "date": "2026-11-22"
+    },
+    {
      "name": "Anton Frondell",
      "status": "Day-To-Day",
      "playerId": 8485391,
@@ -185,17 +196,6 @@
      "applied": false,
      "note": "Byram (upper body) didn't accompany his teammates on Chicago's three-game road trip, per Mark Lazerus of The Athletic on Saturday.",
      "date": "2026-11-21"
-    },
-    {
-     "name": "Connor Bedard",
-     "status": "Out",
-     "playerId": 8484144,
-     "position": "C",
-     "value": -0.0433,
-     "regular": true,
-     "applied": true,
-     "note": "out",
-     "date": "2026-11-19"
     }
    ]
   },
