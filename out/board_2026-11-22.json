@@ -1,7 +1,7 @@
 {
  "date": "2026-11-22",
  "data_through": "2026-11-21",
- "generated": "2026-11-22 16:49 MST",
+ "generated": "2026-11-22 16:59 MST",
  "league_xg60": 3.011,
  "b2b_effect": {
   "own_xg": -0.209,
@@ -839,6 +839,17 @@
    ],
    "inj_away": [
     {
+     "name": "Anton Frondell",
+     "status": "Out",
+     "playerId": 8485391,
+     "position": "C",
+     "value": -0.0757,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-22"
+    },
+    {
      "name": "Wyatt Kaiser",
      "status": "Suspension",
      "playerId": 8482176,
@@ -861,17 +872,6 @@
      "date": "2026-11-22"
     },
     {
-     "name": "Anton Frondell",
-     "status": "Day-To-Day",
-     "playerId": 8485391,
-     "position": "C",
-     "value": -0.0757,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-21"
-    },
-    {
      "name": "Bowen Byram",
      "status": "Injured Reserve",
      "playerId": 8481524,
@@ -884,52 +884,52 @@
     }
    ],
    "inj_adj_home": 0.073,
-   "inj_adj_away": -0.043,
-   "xg_home": 2.779,
-   "xg_away": 3.149,
-   "proj_home": 3.2,
-   "proj_away": 3.62,
-   "p_home": 0.431,
-   "p_away": 0.569,
-   "p_ot": 0.2283,
-   "fair_ml_home": 132,
-   "fair_ml_away": -132,
+   "inj_adj_away": -0.119,
+   "xg_home": 2.741,
+   "xg_away": 3.187,
+   "proj_home": 3.15,
+   "proj_away": 3.66,
+   "p_home": 0.418,
+   "p_away": 0.582,
+   "p_ot": 0.227,
+   "fair_ml_home": 139,
+   "fair_ml_away": -139,
    "exp_total": 6.82,
    "totals": {
     "4.5": {
-     "over": 0.8253,
-     "under": 0.1747
+     "over": 0.8251,
+     "under": 0.1749
     },
     "5.0": {
-     "over": 0.6696,
-     "under": 0.1747
+     "over": 0.6695,
+     "under": 0.1749
     },
     "5.5": {
-     "over": 0.6696,
-     "under": 0.3304
+     "over": 0.6695,
+     "under": 0.3305
     },
     "6.0": {
-     "over": 0.533,
-     "under": 0.3304
+     "over": 0.5327,
+     "under": 0.3305
     },
     "6.5": {
-     "over": 0.533,
-     "under": 0.467
+     "over": 0.5327,
+     "under": 0.4673
     },
     "7.0": {
-     "over": 0.3611,
-     "under": 0.467
+     "over": 0.361,
+     "under": 0.4673
     },
     "7.5": {
-     "over": 0.3611,
-     "under": 0.6389
+     "over": 0.361,
+     "under": 0.639
     }
    },
    "puck_line": {
-    "home_-1.5": 0.2563,
-    "away_+1.5": 0.7437,
-    "away_-1.5": 0.3691,
-    "home_+1.5": 0.6309
+    "home_-1.5": 0.2467,
+    "away_+1.5": 0.7533,
+    "away_-1.5": 0.3807,
+    "home_+1.5": 0.6193
    }
   }
  ],

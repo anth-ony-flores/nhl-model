@@ -1,7 +1,7 @@
 {
  "day": "2026-11-22",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-22 16:49",
+ "fetched": "2026-11-22 16:59",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -162,8 +162,19 @@
    ]
   },
   "CHI": {
-   "missing_value": -0.0433,
+   "missing_value": -0.119,
    "players": [
+    {
+     "name": "Anton Frondell",
+     "status": "Out",
+     "playerId": 8485391,
+     "position": "C",
+     "value": -0.0757,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-22"
+    },
     {
      "name": "Wyatt Kaiser",
      "status": "Suspension",
@@ -185,17 +196,6 @@
      "applied": true,
      "note": "Bedard (shoulder) was placed on injured reserve Sunday.",
      "date": "2026-11-22"
-    },
-    {
-     "name": "Anton Frondell",
-     "status": "Day-To-Day",
-     "playerId": 8485391,
-     "position": "C",
-     "value": -0.0757,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-21"
     },
     {
      "name": "Bowen Byram",
