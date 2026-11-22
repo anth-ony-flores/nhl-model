@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "generated": "2026-11-22T02:17:56Z",
+ "generated": "2026-11-22T02:28:05Z",
  "data_through": "2026-11-19",
  "picks_enabled": false,
  "params": {
@@ -9688,7 +9688,7 @@
    "home_name": "Bruins",
    "start_utc": "2026-11-22T00:00:00Z",
    "state": "in",
-   "detail": "15:15 - 3rd",
+   "detail": "9:42 - 3rd",
    "frozen": true,
    "goal_factor": {
     "WSH": 1.03,
@@ -12155,7 +12155,7 @@
    "home_name": "Maple Leafs",
    "start_utc": "2026-11-22T00:00:00Z",
    "state": "in",
-   "detail": "13:39 - 3rd",
+   "detail": "9:46 - 3rd",
    "frozen": true,
    "goal_factor": {
     "CBJ": 1.078,
@@ -14397,7 +14397,7 @@
    "home_name": "Canadiens",
    "start_utc": "2026-11-22T00:00:00Z",
    "state": "in",
-   "detail": "9:49 - 3rd",
+   "detail": "5:36 - 3rd",
    "frozen": true,
    "goal_factor": {
     "PHI": 1.065,
@@ -16604,7 +16604,7 @@
    "home_name": "Senators",
    "start_utc": "2026-11-22T00:00:00Z",
    "state": "in",
-   "detail": "12:44 - 3rd",
+   "detail": "9:53 - 3rd",
    "frozen": true,
    "goal_factor": {
     "LAK": 0.856,
@@ -18807,7 +18807,7 @@
    "home_name": "Red Wings",
    "start_utc": "2026-11-22T00:00:00Z",
    "state": "in",
-   "detail": "6:39 - 3rd",
+   "detail": "2:52 - 3rd",
    "frozen": true,
    "goal_factor": {
     "NYI": 1.02,
@@ -21212,7 +21212,7 @@
    "home_name": "Blues",
    "start_utc": "2026-11-22T00:00:00Z",
    "state": "in",
-   "detail": "12:55 - 3rd",
+   "detail": "8:39 - 3rd",
    "frozen": true,
    "goal_factor": {
     "NJD": 0.983,
@@ -23586,7 +23586,7 @@
    "home_name": "Jets",
    "start_utc": "2026-11-22T00:00:00Z",
    "state": "in",
-   "detail": "17:41 - 3rd",
+   "detail": "11:22 - 3rd",
    "frozen": true,
    "goal_factor": {
     "VGK": 1.014,
@@ -25894,7 +25894,7 @@
    "home_name": "Mammoth",
    "start_utc": "2026-11-22T02:00:00Z",
    "state": "in",
-   "detail": "15:26 - 1st",
+   "detail": "10:11 - 1st",
    "frozen": true,
    "goal_factor": {
     "ANA": 0.935,
@@ -31188,9 +31188,9 @@
       "opp": "SJS",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "-115",
+      "over": "-120",
       "over_open": "-105",
-      "under": "-120",
+      "under": "-115",
       "under_open": "-130",
       "updated": "2026-11-22T04:36Z",
       "player_id": 8478407,
@@ -31205,11 +31205,11 @@
        "2.5": 0.0241,
        "3.5": 0.0035
       },
-      "mkt_over": 0.4951,
-      "edge_over": -0.0388,
-      "edge_under": 0.0388,
+      "mkt_over": 0.5049,
+      "edge_over": -0.0486,
+      "edge_under": 0.0486,
       "lean": "Under",
-      "edge": 0.0388,
+      "edge": 0.0486,
       "strong": true
      },
      {

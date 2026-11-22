@@ -1,7 +1,7 @@
 {
  "day": "2026-11-21",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-21 19:17",
+ "fetched": "2026-11-21 19:28",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -449,6 +449,33 @@
     }
    ]
   },
+  "PHI": {
+   "missing_value": 0,
+   "players": [
+    {
+     "name": "Erik Gustafsson",
+     "status": "Day-To-Day",
+     "playerId": 8476979,
+     "position": "D",
+     "value": 0.0799,
+     "regular": false,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-22"
+    },
+    {
+     "name": "Nikita Grebenkin",
+     "status": "Injured Reserve",
+     "playerId": 8483733,
+     "position": "R",
+     "value": -0.043,
+     "regular": false,
+     "applied": false,
+     "note": "Grebenkin (back) underwent successful surgery and is expected to miss at least four months.",
+     "date": "2026-10-10"
+    }
+   ]
+  },
   "LAK": {
    "missing_value": 0.1375,
    "players": [
@@ -734,22 +761,6 @@
      "applied": false,
      "note": "Eklund had surgery to repair a torn ankle tendon and will be out 10-12 weeks, Bruce Garrioch of Postmedia reports Thursday.",
      "date": "2026-10-15"
-    }
-   ]
-  },
-  "PHI": {
-   "missing_value": 0,
-   "players": [
-    {
-     "name": "Nikita Grebenkin",
-     "status": "Injured Reserve",
-     "playerId": 8483733,
-     "position": "R",
-     "value": -0.043,
-     "regular": false,
-     "applied": false,
-     "note": "Grebenkin (back) underwent successful surgery and is expected to miss at least four months.",
-     "date": "2026-10-10"
     }
    ]
   },
