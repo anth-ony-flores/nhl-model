@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "generated": "2026-11-23T00:29:47Z",
+ "generated": "2026-11-23T00:39:56Z",
  "data_through": "2026-11-21",
  "picks_enabled": false,
  "params": {
@@ -2157,8 +2157,8 @@
    "away_name": "Sabres",
    "home_name": "Lightning",
    "start_utc": "2026-11-22T22:00:00Z",
-   "state": "in",
-   "detail": "3:29 - 3rd",
+   "state": "post",
+   "detail": "Final",
    "frozen": true,
    "goal_factor": {
     "BUF": 0.861,
@@ -4326,7 +4326,7 @@
    "home_name": "Blues",
    "start_utc": "2026-11-23T00:00:00Z",
    "state": "in",
-   "detail": "6:55 - 1st",
+   "detail": "1:24 - 1st",
    "frozen": true,
    "goal_factor": {
     "EDM": 0.928,
@@ -6465,7 +6465,7 @@
    "home_name": "Stars",
    "start_utc": "2026-11-23T00:00:00Z",
    "state": "in",
-   "detail": "7:22 - 1st",
+   "detail": "2:03 - 1st",
    "frozen": true,
    "goal_factor": {
     "PIT": 0.834,
