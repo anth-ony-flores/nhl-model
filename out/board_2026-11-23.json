@@ -1,7 +1,7 @@
 {
  "date": "2026-11-23",
  "data_through": "2026-11-22",
- "generated": "2026-11-23 07:40 MST",
+ "generated": "2026-11-23 15:00 MST",
  "league_xg60": 3.012,
  "b2b_effect": {
   "own_xg": -0.18,
@@ -256,15 +256,15 @@
    ],
    "inj_away": [
     {
-     "name": "Artemi Panarin",
+     "name": "Joel Edmundson",
      "status": "Day-To-Day",
-     "playerId": 8478550,
-     "position": "L",
-     "value": 0.1398,
+     "playerId": 8476441,
+     "position": "D",
+     "value": -0.0651,
      "regular": true,
      "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-22"
+     "note": "Edmundson will be a game-time call against Montreal on Monday due to an undisclosed injury, Zach Dooley of the Kings' official site reports.",
+     "date": "2026-11-23"
     },
     {
      "name": "Trevor Moore",
@@ -274,8 +274,8 @@
      "value": -0.0023,
      "regular": true,
      "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-22"
+     "note": "Moore (undisclosed) will be a game-time decision versus the Canadiens on Monday, Zach Dooley of the Kings' official site reports.",
+     "date": "2026-11-23"
     }
    ],
    "inj_adj_home": -0.074,
@@ -381,14 +381,14 @@
    "inj_home": [
     {
      "name": "Hayden Hodgson",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8478173,
      "position": "R",
      "value": -0.0307,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-22"
+     "applied": true,
+     "note": "Hodgson (groin) has no timeline in place for his return to the lineup, per Bruce Garrioch of Postmedia on Nov. 14.",
+     "date": "2026-11-23"
     },
     {
      "name": "Andre Burakovsky",
@@ -427,14 +427,14 @@
    "inj_away": [
     {
      "name": "Martin Pospisil",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8481028,
      "position": "C",
      "value": -0.0239,
      "regular": true,
-     "applied": false,
-     "note": "Pospisil (upper body) left Saturday's game against Chicago and won't return, per Pat Steinberg of QR Calgary 770 AM.",
-     "date": "2026-11-21"
+     "applied": true,
+     "note": "Pospisil (upper body) didn't travel with his teammates for the start of Calgary's five-game road trip, per Eric Francis of Sportsnet on Monday.",
+     "date": "2026-11-23"
     },
     {
      "name": "Jonathan Huberdeau",
@@ -459,17 +459,17 @@
      "date": "2026-11-08"
     }
    ],
-   "inj_adj_home": 0,
-   "inj_adj_away": 0,
-   "xg_home": 3.363,
-   "xg_away": 2.318,
+   "inj_adj_home": -0.031,
+   "inj_adj_away": -0.024,
+   "xg_home": 3.366,
+   "xg_away": 2.314,
    "proj_home": 3.68,
-   "proj_away": 2.65,
-   "p_home": 0.6697,
-   "p_away": 0.3303,
-   "p_ot": 0.2212,
-   "fair_ml_home": -203,
-   "fair_ml_away": 203,
+   "proj_away": 2.64,
+   "p_home": 0.6709,
+   "p_away": 0.3291,
+   "p_ot": 0.2209,
+   "fair_ml_home": -204,
+   "fair_ml_away": 204,
    "exp_total": 6.33,
    "totals": {
     "4.5": {
@@ -477,24 +477,24 @@
      "under": 0.2269
     },
     "5.0": {
-     "over": 0.5978,
+     "over": 0.5977,
      "under": 0.2269
     },
     "5.5": {
-     "over": 0.5978,
-     "under": 0.4022
+     "over": 0.5977,
+     "under": 0.4023
     },
     "6.0": {
-     "over": 0.4534,
-     "under": 0.4022
+     "over": 0.4533,
+     "under": 0.4023
     },
     "6.5": {
-     "over": 0.4534,
-     "under": 0.5466
+     "over": 0.4533,
+     "under": 0.5467
     },
     "7.0": {
      "over": 0.2883,
-     "under": 0.5466
+     "under": 0.5467
     },
     "7.5": {
      "over": 0.2883,
@@ -502,10 +502,10 @@
     }
    },
    "puck_line": {
-    "home_-1.5": 0.4559,
-    "away_+1.5": 0.5441,
-    "away_-1.5": 0.1801,
-    "home_+1.5": 0.8199
+    "home_-1.5": 0.457,
+    "away_+1.5": 0.543,
+    "away_-1.5": 0.1794,
+    "home_+1.5": 0.8206
    }
   },
   {
@@ -557,14 +557,14 @@
    "inj_home": [
     {
      "name": "Ryan Pulock",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8477506,
      "position": "D",
      "value": -0.0865,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-22"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-23"
     },
     {
      "name": "Alexander Romanov",
@@ -580,6 +580,17 @@
    ],
    "inj_away": [
     {
+     "name": "Jack Roslovic",
+     "status": "Day-To-Day",
+     "playerId": 8478458,
+     "position": "C",
+     "value": 0.0041,
+     "regular": true,
+     "applied": false,
+     "note": "Roslovic (upper body) will be a game-time decision versus the Islanders on Monday after head coach Jim Hiller told reporters, \"You'll just see tonight. I don't want to get too deep into that right now",
+     "date": "2026-11-23"
+    },
+    {
      "name": "Colton Sissons",
      "status": "Injured Reserve",
      "playerId": 8476925,
@@ -588,17 +599,6 @@
      "regular": false,
      "applied": false,
      "note": "Sissons (lower body) is day-to-day, per David Alter of The Hockey News on Sunday.",
-     "date": "2026-11-22"
-    },
-    {
-     "name": "Jack Roslovic",
-     "status": "Day-To-Day",
-     "playerId": 8478458,
-     "position": "C",
-     "value": 0.0041,
-     "regular": true,
-     "applied": false,
-     "note": "Roslovic (upper body) is day-to-day, per David Alter of The Hockey News on Sunday.",
      "date": "2026-11-22"
     },
     {
@@ -679,53 +679,53 @@
      "date": "2026-09-29"
     }
    ],
-   "inj_adj_home": 0,
+   "inj_adj_home": -0.086,
    "inj_adj_away": 0,
-   "xg_home": 3.121,
-   "xg_away": 2.897,
-   "proj_home": 3.31,
-   "proj_away": 2.77,
-   "p_home": 0.5941,
-   "p_away": 0.4059,
-   "p_ot": 0.2407,
-   "fair_ml_home": -146,
-   "fair_ml_away": 146,
+   "xg_home": 3.164,
+   "xg_away": 2.853,
+   "proj_home": 3.36,
+   "proj_away": 2.73,
+   "p_home": 0.6076,
+   "p_away": 0.3924,
+   "p_ot": 0.2387,
+   "fair_ml_home": -155,
+   "fair_ml_away": 155,
    "exp_total": 6.08,
    "totals": {
     "4.5": {
-     "over": 0.7438,
-     "under": 0.2562
+     "over": 0.7439,
+     "under": 0.2561
     },
     "5.0": {
-     "over": 0.5572,
-     "under": 0.2562
+     "over": 0.5577,
+     "under": 0.2561
     },
     "5.5": {
-     "over": 0.5572,
-     "under": 0.4428
+     "over": 0.5577,
+     "under": 0.4423
     },
     "6.0": {
-     "over": 0.414,
-     "under": 0.4428
+     "over": 0.4142,
+     "under": 0.4423
     },
     "6.5": {
-     "over": 0.414,
-     "under": 0.586
+     "over": 0.4142,
+     "under": 0.5858
     },
     "7.0": {
-     "over": 0.2524,
-     "under": 0.586
+     "over": 0.2528,
+     "under": 0.5858
     },
     "7.5": {
-     "over": 0.2524,
-     "under": 0.7476
+     "over": 0.2528,
+     "under": 0.7472
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3788,
-    "away_+1.5": 0.6212,
-    "away_-1.5": 0.2289,
-    "home_+1.5": 0.7711
+    "home_-1.5": 0.3912,
+    "away_+1.5": 0.6088,
+    "away_-1.5": 0.2194,
+    "home_+1.5": 0.7806
    }
   },
   {
@@ -822,17 +822,6 @@
    ],
    "inj_away": [
     {
-     "name": "Clayton Keller",
-     "status": "Day-To-Day",
-     "playerId": 8479343,
-     "position": "R",
-     "value": 0.0074,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-22"
-    },
-    {
      "name": "John Marino",
      "status": "Injured Reserve",
      "playerId": 8478507,
@@ -840,19 +829,19 @@
      "value": 0.0364,
      "regular": false,
      "applied": false,
-     "note": "Marino (upper body) is day-to-day and close to returning, per Cole Bagley of KSL Sports on Friday.",
-     "date": "2026-11-20"
+     "note": "Marino (upper body) likely won't return during Utah's four-game road trip, per Brogan Houston of the Deseret News on Monday.",
+     "date": "2026-11-23"
     },
     {
-     "name": "Dylan Guenther",
-     "status": "Injured Reserve",
-     "playerId": 8482699,
-     "position": "R",
-     "value": -0.0696,
-     "regular": false,
-     "applied": false,
-     "note": "Guenther (upper body) was upgraded to day-to-day ahead of Saturday's matchup with Anaheim, Cole Bagley of KSL Sports reports.",
-     "date": "2026-11-20"
+     "name": "Michael Carcone",
+     "status": "Out",
+     "playerId": 8479619,
+     "position": "L",
+     "value": 0.0269,
+     "regular": true,
+     "applied": true,
+     "note": "Carcone (upper body) will be out of action for 3-4 months, Catherine Bogart of the Mammoth's official site reports Monday.",
+     "date": "2026-11-23"
     },
     {
      "name": "Nick Schmaltz",
@@ -889,52 +878,52 @@
     }
    ],
    "inj_adj_home": 0.028,
-   "inj_adj_away": -0.056,
-   "xg_home": 2.815,
-   "xg_away": 3.287,
-   "proj_home": 3.09,
-   "proj_away": 3.34,
-   "p_home": 0.4579,
-   "p_away": 0.5421,
-   "p_ot": 0.2381,
-   "fair_ml_home": 118,
-   "fair_ml_away": -118,
+   "inj_adj_away": -0.029,
+   "xg_home": 2.829,
+   "xg_away": 3.273,
+   "proj_home": 3.1,
+   "proj_away": 3.33,
+   "p_home": 0.4623,
+   "p_away": 0.5377,
+   "p_ot": 0.2383,
+   "fair_ml_home": 116,
+   "fair_ml_away": -116,
    "exp_total": 6.43,
    "totals": {
     "4.5": {
-     "over": 0.7855,
-     "under": 0.2145
+     "over": 0.7857,
+     "under": 0.2143
     },
     "5.0": {
-     "over": 0.6125,
-     "under": 0.2145
+     "over": 0.6127,
+     "under": 0.2143
     },
     "5.5": {
-     "over": 0.6125,
-     "under": 0.3875
+     "over": 0.6127,
+     "under": 0.3873
     },
     "6.0": {
-     "over": 0.4715,
-     "under": 0.3875
+     "over": 0.4717,
+     "under": 0.3873
     },
     "6.5": {
-     "over": 0.4715,
-     "under": 0.5285
+     "over": 0.4717,
+     "under": 0.5283
     },
     "7.0": {
-     "over": 0.3027,
-     "under": 0.5285
+     "over": 0.3029,
+     "under": 0.5283
     },
     "7.5": {
-     "over": 0.3027,
-     "under": 0.6973
+     "over": 0.3029,
+     "under": 0.6971
     }
    },
    "puck_line": {
-    "home_-1.5": 0.2718,
-    "away_+1.5": 0.7282,
-    "away_-1.5": 0.3395,
-    "home_+1.5": 0.6605
+    "home_-1.5": 0.2752,
+    "away_+1.5": 0.7248,
+    "away_-1.5": 0.3358,
+    "home_+1.5": 0.6642
    }
   },
   {
@@ -1144,15 +1133,26 @@
    },
    "inj_home": [
     {
-     "name": "Kiefer Sherwood",
+     "name": "Jacob Trouba",
      "status": "Out",
+     "playerId": 8476885,
+     "position": "D",
+     "value": -0.0349,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-23"
+    },
+    {
+     "name": "Kiefer Sherwood",
+     "status": "Injured Reserve",
      "playerId": 8480748,
      "position": "L",
      "value": 0.0045,
      "regular": true,
      "applied": true,
-     "note": "out",
-     "date": "2026-11-17"
+     "note": "Sherwood (upper body) was placed on injured reserve Monday.",
+     "date": "2026-11-23"
     },
     {
      "name": "Igor Chernyshov",
@@ -1169,14 +1169,14 @@
    "inj_away": [
     {
      "name": "Quinn Hughes",
-     "status": "Out",
+     "status": "Injured Reserve",
      "playerId": 8480800,
      "position": "D",
      "value": 0.2169,
      "regular": true,
      "applied": true,
-     "note": "Hughes (upper body) will miss the rest of Minnesota's road trip, per Joe Smith of The Athletic on Saturday.",
-     "date": "2026-11-21"
+     "note": "ir",
+     "date": "2026-11-23"
     },
     {
      "name": "Olli Maatta",
@@ -1190,17 +1190,17 @@
      "date": "2026-11-16"
     }
    ],
-   "inj_adj_home": 0.004,
+   "inj_adj_home": -0.03,
    "inj_adj_away": 0.205,
-   "xg_home": 2.721,
-   "xg_away": 3.546,
-   "proj_home": 2.6,
-   "proj_away": 3.76,
-   "p_home": 0.3106,
-   "p_away": 0.6894,
-   "p_ot": 0.2155,
-   "fair_ml_home": 222,
-   "fair_ml_away": -222,
+   "xg_home": 2.738,
+   "xg_away": 3.528,
+   "proj_home": 2.61,
+   "proj_away": 3.74,
+   "p_home": 0.3156,
+   "p_away": 0.6844,
+   "p_ot": 0.2169,
+   "fair_ml_home": 217,
+   "fair_ml_away": -217,
    "exp_total": 6.36,
    "totals": {
     "4.5": {
@@ -1208,35 +1208,35 @@
      "under": 0.2233
     },
     "5.0": {
-     "over": 0.6031,
+     "over": 0.603,
      "under": 0.2233
     },
     "5.5": {
-     "over": 0.6031,
-     "under": 0.3969
+     "over": 0.603,
+     "under": 0.397
     },
     "6.0": {
-     "over": 0.4583,
-     "under": 0.3969
+     "over": 0.4584,
+     "under": 0.397
     },
     "6.5": {
-     "over": 0.4583,
-     "under": 0.5417
+     "over": 0.4584,
+     "under": 0.5416
     },
     "7.0": {
-     "over": 0.2933,
-     "under": 0.5417
+     "over": 0.2932,
+     "under": 0.5416
     },
     "7.5": {
-     "over": 0.2933,
-     "under": 0.7067
+     "over": 0.2932,
+     "under": 0.7068
     }
    },
    "puck_line": {
-    "home_-1.5": 0.1677,
-    "away_+1.5": 0.8323,
-    "away_-1.5": 0.4767,
-    "home_+1.5": 0.5233
+    "home_-1.5": 0.1709,
+    "away_+1.5": 0.8291,
+    "away_-1.5": 0.4715,
+    "home_+1.5": 0.5285
    }
   }
  ],

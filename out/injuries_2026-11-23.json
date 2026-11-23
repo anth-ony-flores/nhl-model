@@ -1,7 +1,7 @@
 {
  "day": "2026-11-23",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-23 07:40",
+ "fetched": "2026-11-23 15:00",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -108,18 +108,18 @@
    ]
   },
   "CGY": {
-   "missing_value": 0,
+   "missing_value": -0.0239,
    "players": [
     {
      "name": "Martin Pospisil",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8481028,
      "position": "C",
      "value": -0.0239,
      "regular": true,
-     "applied": false,
-     "note": "Pospisil (upper body) left Saturday's game against Chicago and won't return, per Pat Steinberg of QR Calgary 770 AM.",
-     "date": "2026-11-21"
+     "applied": true,
+     "note": "Pospisil (upper body) didn't travel with his teammates for the start of Calgary's five-game road trip, per Eric Francis of Sportsnet on Monday.",
+     "date": "2026-11-23"
     },
     {
      "name": "Jonathan Huberdeau",
@@ -460,33 +460,6 @@
     }
    ]
   },
-  "LAK": {
-   "missing_value": 0,
-   "players": [
-    {
-     "name": "Artemi Panarin",
-     "status": "Day-To-Day",
-     "playerId": 8478550,
-     "position": "L",
-     "value": 0.1398,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-22"
-    },
-    {
-     "name": "Trevor Moore",
-     "status": "Day-To-Day",
-     "playerId": 8479675,
-     "position": "L",
-     "value": -0.0023,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-22"
-    }
-   ]
-  },
   "PHI": {
    "missing_value": 0,
    "players": [
@@ -498,8 +471,8 @@
      "value": 0.0763,
      "regular": false,
      "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-22"
+     "note": "Gustafsson (upper body) is believed to be a game-time decision for Monday's matchup against the Canadiens, Zach Dooley of the Kings' official site reports.",
+     "date": "2026-11-23"
     },
     {
      "name": "Nikita Grebenkin",
@@ -514,19 +487,46 @@
     }
    ]
   },
+  "LAK": {
+   "missing_value": 0,
+   "players": [
+    {
+     "name": "Joel Edmundson",
+     "status": "Day-To-Day",
+     "playerId": 8476441,
+     "position": "D",
+     "value": -0.0651,
+     "regular": true,
+     "applied": false,
+     "note": "Edmundson will be a game-time call against Montreal on Monday due to an undisclosed injury, Zach Dooley of the Kings' official site reports.",
+     "date": "2026-11-23"
+    },
+    {
+     "name": "Trevor Moore",
+     "status": "Day-To-Day",
+     "playerId": 8479675,
+     "position": "L",
+     "value": -0.0023,
+     "regular": true,
+     "applied": false,
+     "note": "Moore (undisclosed) will be a game-time decision versus the Canadiens on Monday, Zach Dooley of the Kings' official site reports.",
+     "date": "2026-11-23"
+    }
+   ]
+  },
   "MIN": {
    "missing_value": 0.2048,
    "players": [
     {
      "name": "Quinn Hughes",
-     "status": "Out",
+     "status": "Injured Reserve",
      "playerId": 8480800,
      "position": "D",
      "value": 0.2169,
      "regular": true,
      "applied": true,
-     "note": "Hughes (upper body) will miss the rest of Minnesota's road trip, per Joe Smith of The Athletic on Saturday.",
-     "date": "2026-11-21"
+     "note": "ir",
+     "date": "2026-11-23"
     },
     {
      "name": "Olli Maatta",
@@ -640,18 +640,18 @@
    ]
   },
   "NYI": {
-   "missing_value": 0,
+   "missing_value": -0.0865,
    "players": [
     {
      "name": "Ryan Pulock",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8477506,
      "position": "D",
      "value": -0.0865,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-22"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-23"
     },
     {
      "name": "Alexander Romanov",
@@ -716,18 +716,18 @@
    ]
   },
   "OTT": {
-   "missing_value": 0,
+   "missing_value": -0.0307,
    "players": [
     {
      "name": "Hayden Hodgson",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8478173,
      "position": "R",
      "value": -0.0307,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-22"
+     "applied": true,
+     "note": "Hodgson (groin) has no timeline in place for his return to the lineup, per Bruce Garrioch of Postmedia on Nov. 14.",
+     "date": "2026-11-23"
     },
     {
      "name": "Andre Burakovsky",
@@ -836,18 +836,29 @@
    ]
   },
   "SJS": {
-   "missing_value": 0.0045,
+   "missing_value": -0.0304,
    "players": [
     {
-     "name": "Kiefer Sherwood",
+     "name": "Jacob Trouba",
      "status": "Out",
+     "playerId": 8476885,
+     "position": "D",
+     "value": -0.0349,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-23"
+    },
+    {
+     "name": "Kiefer Sherwood",
+     "status": "Injured Reserve",
      "playerId": 8480748,
      "position": "L",
      "value": 0.0045,
      "regular": true,
      "applied": true,
-     "note": "out",
-     "date": "2026-11-17"
+     "note": "Sherwood (upper body) was placed on injured reserve Monday.",
+     "date": "2026-11-23"
     },
     {
      "name": "Igor Chernyshov",
@@ -969,6 +980,17 @@
    "missing_value": 0,
    "players": [
     {
+     "name": "Jack Roslovic",
+     "status": "Day-To-Day",
+     "playerId": 8478458,
+     "position": "C",
+     "value": 0.0041,
+     "regular": true,
+     "applied": false,
+     "note": "Roslovic (upper body) will be a game-time decision versus the Islanders on Monday after head coach Jim Hiller told reporters, \"You'll just see tonight. I don't want to get too deep into that right now",
+     "date": "2026-11-23"
+    },
+    {
      "name": "Colton Sissons",
      "status": "Injured Reserve",
      "playerId": 8476925,
@@ -977,17 +999,6 @@
      "regular": false,
      "applied": false,
      "note": "Sissons (lower body) is day-to-day, per David Alter of The Hockey News on Sunday.",
-     "date": "2026-11-22"
-    },
-    {
-     "name": "Jack Roslovic",
-     "status": "Day-To-Day",
-     "playerId": 8478458,
-     "position": "C",
-     "value": 0.0041,
-     "regular": true,
-     "applied": false,
-     "note": "Roslovic (upper body) is day-to-day, per David Alter of The Hockey News on Sunday.",
      "date": "2026-11-22"
     },
     {
@@ -1070,19 +1081,8 @@
    ]
   },
   "UTA": {
-   "missing_value": -0.0559,
+   "missing_value": -0.029,
    "players": [
-    {
-     "name": "Clayton Keller",
-     "status": "Day-To-Day",
-     "playerId": 8479343,
-     "position": "R",
-     "value": 0.0074,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-22"
-    },
     {
      "name": "John Marino",
      "status": "Injured Reserve",
@@ -1091,19 +1091,19 @@
      "value": 0.0364,
      "regular": false,
      "applied": false,
-     "note": "Marino (upper body) is day-to-day and close to returning, per Cole Bagley of KSL Sports on Friday.",
-     "date": "2026-11-20"
+     "note": "Marino (upper body) likely won't return during Utah's four-game road trip, per Brogan Houston of the Deseret News on Monday.",
+     "date": "2026-11-23"
     },
     {
-     "name": "Dylan Guenther",
-     "status": "Injured Reserve",
-     "playerId": 8482699,
-     "position": "R",
-     "value": -0.0696,
-     "regular": false,
-     "applied": false,
-     "note": "Guenther (upper body) was upgraded to day-to-day ahead of Saturday's matchup with Anaheim, Cole Bagley of KSL Sports reports.",
-     "date": "2026-11-20"
+     "name": "Michael Carcone",
+     "status": "Out",
+     "playerId": 8479619,
+     "position": "L",
+     "value": 0.0269,
+     "regular": true,
+     "applied": true,
+     "note": "Carcone (upper body) will be out of action for 3-4 months, Catherine Bogart of the Mammoth's official site reports Monday.",
+     "date": "2026-11-23"
     },
     {
      "name": "Nick Schmaltz",
@@ -1190,8 +1190,19 @@
    ]
   },
   "WSH": {
-   "missing_value": 0,
+   "missing_value": 0.1047,
    "players": [
+    {
+     "name": "Jordan Kyrou",
+     "status": "Out",
+     "playerId": 8479385,
+     "position": "R",
+     "value": 0.1047,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-23"
+    },
     {
      "name": "Vincent Desharnais",
      "status": "Injured Reserve",
