@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "generated": "2026-11-23T00:09:31Z",
+ "generated": "2026-11-23T00:19:39Z",
  "data_through": "2026-11-21",
  "picks_enabled": false,
  "params": {
@@ -2158,7 +2158,7 @@
    "home_name": "Lightning",
    "start_utc": "2026-11-22T22:00:00Z",
    "state": "in",
-   "detail": "17:38 - 3rd",
+   "detail": "9:59 - 3rd",
    "frozen": true,
    "goal_factor": {
     "BUF": 0.861,
@@ -4326,7 +4326,7 @@
    "home_name": "Blues",
    "start_utc": "2026-11-23T00:00:00Z",
    "state": "in",
-   "detail": "19:23 - 1st",
+   "detail": "13:30 - 1st",
    "frozen": true,
    "goal_factor": {
     "EDM": 0.928,
@@ -6465,7 +6465,7 @@
    "home_name": "Stars",
    "start_utc": "2026-11-23T00:00:00Z",
    "state": "in",
-   "detail": "19:25 - 1st",
+   "detail": "12:36 - 1st",
    "frozen": true,
    "goal_factor": {
     "PIT": 0.834,
