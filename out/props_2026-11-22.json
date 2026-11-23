@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "generated": "2026-11-22T23:59:24Z",
+ "generated": "2026-11-23T00:09:31Z",
  "data_through": "2026-11-21",
  "picks_enabled": false,
  "params": {
@@ -11,24 +11,15 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 93,
-  "checked": 91,
-  "first_is_over": 91,
+  "pairs": 30,
+  "checked": 28,
+  "first_is_over": 28,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 200,
- "unmatched": [
-  {
-   "espn_id": "3067860",
-   "name": "Nathan Walker",
-   "team": "STL",
-   "market": "goal",
-   "game": "EDM@STL",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  }
- ],
- "unmatched_rate": 0.005,
+ "lines": 66,
+ "unmatched": [],
+ "unmatched_rate": 0.0,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -2167,7 +2158,7 @@
    "home_name": "Lightning",
    "start_utc": "2026-11-22T22:00:00Z",
    "state": "in",
-   "detail": "End of 2nd",
+   "detail": "17:38 - 3rd",
    "frozen": true,
    "goal_factor": {
     "BUF": 0.861,
@@ -4334,9 +4325,9 @@
    "away_name": "Oilers",
    "home_name": "Blues",
    "start_utc": "2026-11-23T00:00:00Z",
-   "state": "pre",
-   "detail": "11/22 - 7:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "19:23 - 1st",
+   "frozen": true,
    "goal_factor": {
     "EDM": 0.928,
     "STL": 0.964
@@ -6473,9 +6464,9 @@
    "away_name": "Penguins",
    "home_name": "Stars",
    "start_utc": "2026-11-23T00:00:00Z",
-   "state": "pre",
-   "detail": "11/22 - 7:00 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "19:25 - 1st",
+   "frozen": true,
    "goal_factor": {
     "PIT": 0.834,
     "DAL": 1.14
