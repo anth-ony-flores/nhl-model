@@ -1,6 +1,6 @@
 {
  "date": "2026-11-23",
- "generated": "2026-11-24T01:22:38Z",
+ "generated": "2026-11-24T01:32:46Z",
  "data_through": "2026-11-22",
  "picks_enabled": false,
  "params": {
@@ -73,7 +73,7 @@
    "home_name": "Devils",
    "start_utc": "2026-11-24T00:00:00Z",
    "state": "in",
-   "detail": "7:45 - 2nd",
+   "detail": "1:39 - 2nd",
    "frozen": true,
    "goal_factor": {
     "CBJ": 0.932,
@@ -7160,7 +7160,7 @@
    "home_name": "Islanders",
    "start_utc": "2026-11-24T00:30:00Z",
    "state": "in",
-   "detail": "End of 1st",
+   "detail": "20:00 - 2nd",
    "frozen": true,
    "goal_factor": {
     "TOR": 1.039,
