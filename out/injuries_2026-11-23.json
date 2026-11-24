@@ -1,7 +1,7 @@
 {
  "day": "2026-11-23",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-23 19:23",
+ "fetched": "2026-11-23 19:33",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -271,8 +271,19 @@
    ]
   },
   "CBJ": {
-   "missing_value": -0.0135,
+   "missing_value": 0.0468,
    "players": [
+    {
+     "name": "Mathieu Olivier",
+     "status": "Out",
+     "playerId": 8479671,
+     "position": "R",
+     "value": 0.0603,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-24"
+    },
     {
      "name": "Sean Monahan",
      "status": "Out",
