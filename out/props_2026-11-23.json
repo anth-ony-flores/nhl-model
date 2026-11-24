@@ -1,6 +1,6 @@
 {
  "date": "2026-11-23",
- "generated": "2026-11-24T00:42:10Z",
+ "generated": "2026-11-24T00:52:17Z",
  "data_through": "2026-11-22",
  "picks_enabled": false,
  "params": {
@@ -11,13 +11,13 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 90,
-  "checked": 85,
-  "first_is_over": 85,
+  "pairs": 61,
+  "checked": 58,
+  "first_is_over": 58,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 198,
+ "lines": 133,
  "unmatched": [
   {
    "espn_id": "4997137",
@@ -36,7 +36,7 @@
    "why": "athlete not on either team's ESPN roster"
   }
  ],
- "unmatched_rate": 0.0101,
+ "unmatched_rate": 0.015,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -73,7 +73,7 @@
    "home_name": "Devils",
    "start_utc": "2026-11-24T00:00:00Z",
    "state": "in",
-   "detail": "1:00 - 1st",
+   "detail": "End of 1st",
    "frozen": true,
    "goal_factor": {
     "CBJ": 0.932,
@@ -2484,7 +2484,7 @@
    "home_name": "Canadiens",
    "start_utc": "2026-11-24T00:30:00Z",
    "state": "in",
-   "detail": "20:00 - 1st",
+   "detail": "12:22 - 1st",
    "frozen": true,
    "goal_factor": {
     "LAK": 1.035,
@@ -4637,7 +4637,7 @@
    "home_name": "Senators",
    "start_utc": "2026-11-24T00:30:00Z",
    "state": "in",
-   "detail": "20:00 - 1st",
+   "detail": "13:44 - 1st",
    "frozen": true,
    "goal_factor": {
     "CGY": 0.86,
@@ -7160,7 +7160,7 @@
    "home_name": "Islanders",
    "start_utc": "2026-11-24T00:30:00Z",
    "state": "in",
-   "detail": "20:00 - 1st",
+   "detail": "16:05 - 1st",
    "frozen": true,
    "goal_factor": {
     "TOR": 1.039,
@@ -7969,9 +7969,9 @@
    "away_name": "Mammoth",
    "home_name": "Jets",
    "start_utc": "2026-11-24T00:30:00Z",
-   "state": "pre",
-   "detail": "11/23 - 7:30 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "13:08 - 1st",
+   "frozen": true,
    "goal_factor": {
     "UTA": 1.03,
     "WPG": 0.958
