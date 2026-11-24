@@ -1,7 +1,7 @@
 {
  "date": "2026-11-23",
  "data_through": "2026-11-22",
- "generated": "2026-11-23 17:11 MST",
+ "generated": "2026-11-23 17:21 MST",
  "league_xg60": 3.012,
  "b2b_effect": {
   "own_xg": -0.18,
@@ -200,6 +200,17 @@
    },
    "inj_home": [
     {
+     "name": "Ivan Demidov",
+     "status": "Injured Reserve",
+     "playerId": 8484984,
+     "position": "R",
+     "value": -0.0089,
+     "regular": false,
+     "applied": false,
+     "note": "General manager Kent Hughes said Monday that Demidov (ankle) will not travel with the team for Wednesday's game in Colorado, Renaud Lavoie of TVA Sports reports.",
+     "date": "2026-11-24"
+    },
+    {
      "name": "Mike Matheson",
      "status": "Out",
      "playerId": 8476875,
@@ -233,17 +244,6 @@
      "date": "2026-11-15"
     },
     {
-     "name": "Ivan Demidov",
-     "status": "Injured Reserve",
-     "playerId": 8484984,
-     "position": "R",
-     "value": -0.0089,
-     "regular": false,
-     "applied": false,
-     "note": "Demidov (foot) skated Tuesday and could resume training with the team next week, Patrick Friolet of RDS reports.",
-     "date": "2026-11-04"
-    },
-    {
      "name": "Lucas Condotta",
      "status": "Injured Reserve",
      "playerId": 8483549,
@@ -255,32 +255,9 @@
      "date": "2026-09-29"
     }
    ],
-   "inj_away": [
-    {
-     "name": "Joel Edmundson",
-     "status": "Day-To-Day",
-     "playerId": 8476441,
-     "position": "D",
-     "value": -0.0651,
-     "regular": true,
-     "applied": false,
-     "note": "Edmundson will be a game-time call against Montreal on Monday due to an undisclosed injury, Zach Dooley of the Kings' official site reports.",
-     "date": "2026-11-23"
-    },
-    {
-     "name": "Trevor Moore",
-     "status": "Day-To-Day",
-     "playerId": 8479675,
-     "position": "L",
-     "value": -0.0023,
-     "regular": true,
-     "applied": false,
-     "note": "Moore (undisclosed) will be a game-time decision versus the Canadiens on Monday, Zach Dooley of the Kings' official site reports.",
-     "date": "2026-11-23"
-    }
-   ],
+   "inj_away": [],
    "inj_adj_home": -0.074,
-   "inj_adj_away": 0,
+   "inj_adj_away": 0.0,
    "xg_home": 3.015,
    "xg_away": 2.996,
    "proj_home": 3.36,
@@ -582,14 +559,14 @@
    "inj_away": [
     {
      "name": "Jack Roslovic",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8478458,
      "position": "C",
      "value": 0.0041,
      "regular": true,
-     "applied": false,
-     "note": "Roslovic (upper body) will be a game-time decision versus the Islanders on Monday after head coach Jim Hiller told reporters, \"You'll just see tonight. I don't want to get too deep into that right now",
-     "date": "2026-11-23"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-24"
     },
     {
      "name": "Colton Sissons",
@@ -681,14 +658,14 @@
     }
    ],
    "inj_adj_home": -0.086,
-   "inj_adj_away": 0,
-   "xg_home": 3.164,
-   "xg_away": 2.853,
+   "inj_adj_away": 0.004,
+   "xg_home": 3.166,
+   "xg_away": 2.851,
    "proj_home": 3.36,
    "proj_away": 2.73,
-   "p_home": 0.6076,
-   "p_away": 0.3924,
-   "p_ot": 0.2387,
+   "p_home": 0.6083,
+   "p_away": 0.3917,
+   "p_ot": 0.2386,
    "fair_ml_home": -155,
    "fair_ml_away": 155,
    "exp_total": 6.08,
@@ -723,10 +700,10 @@
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3912,
-    "away_+1.5": 0.6088,
-    "away_-1.5": 0.2194,
-    "home_+1.5": 0.7806
+    "home_-1.5": 0.3918,
+    "away_+1.5": 0.6082,
+    "away_-1.5": 0.2189,
+    "home_+1.5": 0.7811
    }
   },
   {

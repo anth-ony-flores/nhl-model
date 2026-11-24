@@ -1,7 +1,7 @@
 {
  "day": "2026-11-23",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-23 17:11",
+ "fetched": "2026-11-23 17:21",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -487,33 +487,6 @@
     }
    ]
   },
-  "LAK": {
-   "missing_value": 0,
-   "players": [
-    {
-     "name": "Joel Edmundson",
-     "status": "Day-To-Day",
-     "playerId": 8476441,
-     "position": "D",
-     "value": -0.0651,
-     "regular": true,
-     "applied": false,
-     "note": "Edmundson will be a game-time call against Montreal on Monday due to an undisclosed injury, Zach Dooley of the Kings' official site reports.",
-     "date": "2026-11-23"
-    },
-    {
-     "name": "Trevor Moore",
-     "status": "Day-To-Day",
-     "playerId": 8479675,
-     "position": "L",
-     "value": -0.0023,
-     "regular": true,
-     "applied": false,
-     "note": "Moore (undisclosed) will be a game-time decision versus the Canadiens on Monday, Zach Dooley of the Kings' official site reports.",
-     "date": "2026-11-23"
-    }
-   ]
-  },
   "MIN": {
    "missing_value": 0.2048,
    "players": [
@@ -544,6 +517,17 @@
   "MTL": {
    "missing_value": -0.0739,
    "players": [
+    {
+     "name": "Ivan Demidov",
+     "status": "Injured Reserve",
+     "playerId": 8484984,
+     "position": "R",
+     "value": -0.0089,
+     "regular": false,
+     "applied": false,
+     "note": "General manager Kent Hughes said Monday that Demidov (ankle) will not travel with the team for Wednesday's game in Colorado, Renaud Lavoie of TVA Sports reports.",
+     "date": "2026-11-24"
+    },
     {
      "name": "Mike Matheson",
      "status": "Out",
@@ -576,17 +560,6 @@
      "applied": true,
      "note": "ir",
      "date": "2026-11-15"
-    },
-    {
-     "name": "Ivan Demidov",
-     "status": "Injured Reserve",
-     "playerId": 8484984,
-     "position": "R",
-     "value": -0.0089,
-     "regular": false,
-     "applied": false,
-     "note": "Demidov (foot) skated Tuesday and could resume training with the team next week, Patrick Friolet of RDS reports.",
-     "date": "2026-11-04"
     },
     {
      "name": "Lucas Condotta",
@@ -977,18 +950,18 @@
    ]
   },
   "TOR": {
-   "missing_value": 0,
+   "missing_value": 0.0041,
    "players": [
     {
      "name": "Jack Roslovic",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8478458,
      "position": "C",
      "value": 0.0041,
      "regular": true,
-     "applied": false,
-     "note": "Roslovic (upper body) will be a game-time decision versus the Islanders on Monday after head coach Jim Hiller told reporters, \"You'll just see tonight. I don't want to get too deep into that right now",
-     "date": "2026-11-23"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-24"
     },
     {
      "name": "Colton Sissons",
