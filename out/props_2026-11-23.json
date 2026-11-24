@@ -1,6 +1,6 @@
 {
  "date": "2026-11-23",
- "generated": "2026-11-24T02:43:37Z",
+ "generated": "2026-11-24T02:53:44Z",
  "data_through": "2026-11-22",
  "picks_enabled": false,
  "params": {
@@ -11,22 +11,14 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 62,
-  "checked": 59,
-  "first_is_over": 59,
+  "pairs": 29,
+  "checked": 27,
+  "first_is_over": 27,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 134,
+ "lines": 65,
  "unmatched": [
-  {
-   "espn_id": "4997137",
-   "name": null,
-   "team": null,
-   "market": "goal",
-   "game": "ANA@SEA",
-   "why": "athlete not on either team's ESPN roster"
-  },
   {
    "espn_id": "4272674",
    "name": null,
@@ -36,7 +28,7 @@
    "why": "athlete not on either team's ESPN roster"
   }
  ],
- "unmatched_rate": 0.0149,
+ "unmatched_rate": 0.0154,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -2484,7 +2476,7 @@
    "home_name": "Canadiens",
    "start_utc": "2026-11-24T00:30:00Z",
    "state": "in",
-   "detail": "19:59 - 3rd",
+   "detail": "14:24 - 3rd",
    "frozen": true,
    "goal_factor": {
     "LAK": 1.035,
@@ -4637,7 +4629,7 @@
    "home_name": "Senators",
    "start_utc": "2026-11-24T00:30:00Z",
    "state": "in",
-   "detail": "15:49 - 3rd",
+   "detail": "11:06 - 3rd",
    "frozen": true,
    "goal_factor": {
     "CGY": 0.86,
@@ -7160,7 +7152,7 @@
    "home_name": "Islanders",
    "start_utc": "2026-11-24T00:30:00Z",
    "state": "in",
-   "detail": "13:45 - 3rd",
+   "detail": "8:17 - 3rd",
    "frozen": true,
    "goal_factor": {
     "TOR": 1.039,
@@ -7970,7 +7962,7 @@
    "home_name": "Jets",
    "start_utc": "2026-11-24T00:30:00Z",
    "state": "in",
-   "detail": "13:23 - 3rd",
+   "detail": "6:40 - 3rd",
    "frozen": true,
    "goal_factor": {
     "UTA": 1.03,
@@ -10044,9 +10036,9 @@
    "away_name": "Ducks",
    "home_name": "Kraken",
    "start_utc": "2026-11-24T02:40:00Z",
-   "state": "pre",
-   "detail": "11/23 - 9:40 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "16:24 - 1st",
+   "frozen": true,
    "goal_factor": {
     "ANA": 1.039,
     "SEA": 1.102

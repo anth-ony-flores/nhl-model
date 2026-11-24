@@ -1,22 +1,22 @@
 {
  "day": "2026-11-23",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-23 19:43",
+ "fetched": "2026-11-23 19:53",
  "k": 1.0,
  "teams": {
   "ANA": {
-   "missing_value": 0.0367,
+   "missing_value": 0.0975,
    "players": [
     {
      "name": "Leo Carlsson",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8484153,
      "position": "C",
      "value": 0.0608,
      "regular": true,
-     "applied": false,
-     "note": "Carlsson (upper body) is day-to-day, according to Eric Stephens of The Athletic on Sunday.",
-     "date": "2026-11-22"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-24"
     },
     {
      "name": "Beckett Sennecke",
@@ -624,8 +624,19 @@
    ]
   },
   "NYI": {
-   "missing_value": -0.0865,
+   "missing_value": -0.0932,
    "players": [
+    {
+     "name": "Kyle Palmieri",
+     "status": "Out",
+     "playerId": 8475151,
+     "position": "C",
+     "value": -0.0067,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-24"
+    },
     {
      "name": "Ryan Pulock",
      "status": "Out",
