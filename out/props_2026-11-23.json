@@ -1,6 +1,6 @@
 {
  "date": "2026-11-23",
- "generated": "2026-11-24T00:32:02Z",
+ "generated": "2026-11-24T00:42:10Z",
  "data_through": "2026-11-22",
  "picks_enabled": false,
  "params": {
@@ -11,46 +11,14 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 192,
-  "checked": 186,
-  "first_is_over": 186,
+  "pairs": 90,
+  "checked": 85,
+  "first_is_over": 85,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 371,
+ "lines": 198,
  "unmatched": [
-  {
-   "espn_id": "3114755",
-   "name": "Dylan Larkin",
-   "team": "MTL",
-   "market": "pts",
-   "game": "LAK@MTL",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  },
-  {
-   "espn_id": "3114755",
-   "name": "Dylan Larkin",
-   "team": "MTL",
-   "market": "sog",
-   "game": "LAK@MTL",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  },
-  {
-   "espn_id": "3114755",
-   "name": "Dylan Larkin",
-   "team": "MTL",
-   "market": "goal",
-   "game": "LAK@MTL",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  },
-  {
-   "espn_id": "4755753",
-   "name": "Sam Morton",
-   "team": "CGY",
-   "market": "goal",
-   "game": "CGY@OTT",
-   "why": "no MoneyPuck skater match (no recent games?)"
-  },
   {
    "espn_id": "4997137",
    "name": null,
@@ -68,7 +36,7 @@
    "why": "athlete not on either team's ESPN roster"
   }
  ],
- "unmatched_rate": 0.0162,
+ "unmatched_rate": 0.0101,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -105,7 +73,7 @@
    "home_name": "Devils",
    "start_utc": "2026-11-24T00:00:00Z",
    "state": "in",
-   "detail": "5:20 - 1st",
+   "detail": "1:00 - 1st",
    "frozen": true,
    "goal_factor": {
     "CBJ": 0.932,
@@ -2515,9 +2483,9 @@
    "away_name": "Kings",
    "home_name": "Canadiens",
    "start_utc": "2026-11-24T00:30:00Z",
-   "state": "pre",
-   "detail": "11/23 - 7:30 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "20:00 - 1st",
+   "frozen": true,
    "goal_factor": {
     "LAK": 1.035,
     "MTL": 0.976
@@ -4668,9 +4636,9 @@
    "away_name": "Flames",
    "home_name": "Senators",
    "start_utc": "2026-11-24T00:30:00Z",
-   "state": "pre",
-   "detail": "11/23 - 7:30 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "20:00 - 1st",
+   "frozen": true,
    "goal_factor": {
     "CGY": 0.86,
     "OTT": 1.068
@@ -7191,9 +7159,9 @@
    "away_name": "Maple Leafs",
    "home_name": "Islanders",
    "start_utc": "2026-11-24T00:30:00Z",
-   "state": "pre",
-   "detail": "11/23 - 7:30 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "20:00 - 1st",
+   "frozen": true,
    "goal_factor": {
     "TOR": 1.039,
     "NYI": 1.079
@@ -8332,11 +8300,11 @@
       "player": "Mark Scheifele",
       "team": "WPG",
       "opp": "UTA",
-      "line": 1.5,
+      "line": 2.5,
       "open_line": 2.5,
-      "over": "-195",
+      "over": "+145",
       "over_open": "+140",
-      "under": "+140",
+      "under": "-195",
       "under_open": "-190",
       "updated": "2026-11-24T03:09Z",
       "player_id": 8476460,
@@ -8344,7 +8312,7 @@
       "proj_toi": 21.53,
       "games_weight": 44.3,
       "mean": 2.053,
-      "p_over": 0.599,
+      "p_over": 0.3372,
       "curve": {
        "0.5": 0.8628,
        "1.5": 0.599,
@@ -8355,12 +8323,12 @@
        "6.5": 0.0071,
        "7.5": 0.002
       },
-      "mkt_over": 0.6134,
-      "edge_over": -0.0143,
-      "edge_under": 0.0143,
+      "mkt_over": 0.3818,
+      "edge_over": -0.0446,
+      "edge_under": 0.0446,
       "lean": "Under",
-      "edge": 0.0143,
-      "strong": false
+      "edge": 0.0446,
+      "strong": true
      },
      {
       "espn_id": "3042016",
@@ -8662,9 +8630,9 @@
       "opp": "WPG",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+185",
+      "over": "+190",
       "over_open": "+175",
-      "under": "-250",
+      "under": "-260",
       "under_open": "-240",
       "updated": "2026-11-24T01:40Z",
       "player_id": 8477346,
@@ -8679,11 +8647,11 @@
        "2.5": 0.0068,
        "3.5": 0.0006
       },
-      "mkt_over": 0.3294,
-      "edge_over": -0.0142,
-      "edge_under": 0.0142,
+      "mkt_over": 0.3232,
+      "edge_over": -0.0079,
+      "edge_under": 0.0079,
       "lean": "Under",
-      "edge": 0.0142,
+      "edge": 0.0079,
       "strong": false
      },
      {
@@ -8999,7 +8967,7 @@
       "opp": "WPG",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+230",
+      "over": "+235",
       "over_open": "+195",
       "under": null,
       "under_open": null,
@@ -9013,9 +8981,9 @@
       "curve": {
        "0.5": 0.2446
       },
-      "mkt_over": 0.303,
+      "mkt_over": 0.2985,
       "vig_included": true,
-      "edge_over": -0.0585,
+      "edge_over": -0.0539,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -9057,7 +9025,7 @@
       "opp": "WPG",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+450",
+      "over": "+425",
       "over_open": "+360",
       "under": null,
       "under_open": null,
@@ -9071,12 +9039,12 @@
       "curve": {
        "0.5": 0.208
       },
-      "mkt_over": 0.1818,
+      "mkt_over": 0.1905,
       "vig_included": true,
-      "edge_over": 0.0261,
+      "edge_over": 0.0175,
       "edge_under": null,
       "lean": "Yes",
-      "edge": 0.0261,
+      "edge": 0.0175,
       "strong": false
      },
      {
@@ -9086,7 +9054,7 @@
       "opp": "WPG",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+400",
+      "over": "+390",
       "over_open": "+350",
       "under": null,
       "under_open": null,
@@ -9100,12 +9068,12 @@
       "curve": {
        "0.5": 0.208
       },
-      "mkt_over": 0.2,
+      "mkt_over": 0.2041,
       "vig_included": true,
-      "edge_over": 0.008,
+      "edge_over": 0.0039,
       "edge_under": null,
       "lean": "Yes",
-      "edge": 0.008,
+      "edge": 0.0039,
       "strong": false
      },
      {
@@ -9115,7 +9083,7 @@
       "opp": "WPG",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+340",
+      "over": "+350",
       "over_open": "+310",
       "under": null,
       "under_open": null,
@@ -9129,9 +9097,9 @@
       "curve": {
        "0.5": 0.196
       },
-      "mkt_over": 0.2273,
+      "mkt_over": 0.2222,
       "vig_included": true,
-      "edge_over": -0.0312,
+      "edge_over": -0.0262,
       "edge_under": null,
       "lean": null,
       "edge": null,
@@ -9231,7 +9199,7 @@
       "opp": "WPG",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+850",
+      "over": "+900",
       "over_open": "+1400",
       "under": null,
       "under_open": null,
@@ -9245,12 +9213,12 @@
       "curve": {
        "0.5": 0.1058
       },
-      "mkt_over": 0.1053,
+      "mkt_over": 0.1,
       "vig_included": true,
-      "edge_over": 0.0005,
+      "edge_over": 0.0058,
       "edge_under": null,
       "lean": "Yes",
-      "edge": 0.0005,
+      "edge": 0.0058,
       "strong": false
      },
      {
@@ -9492,7 +9460,7 @@
       "opp": "UTA",
       "line": 0.5,
       "open_line": 0.5,
-      "over": "+225",
+      "over": "+220",
       "over_open": "+225",
       "under": null,
       "under_open": null,
@@ -9506,9 +9474,9 @@
       "curve": {
        "0.5": 0.2596
       },
-      "mkt_over": 0.3077,
+      "mkt_over": 0.3125,
       "vig_included": true,
-      "edge_over": -0.0481,
+      "edge_over": -0.0529,
       "edge_under": null,
       "lean": null,
       "edge": null,
