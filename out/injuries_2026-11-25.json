@@ -1,7 +1,7 @@
 {
  "day": "2026-11-25",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-25 16:41",
+ "fetched": "2026-11-25 16:51",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -70,29 +70,18 @@
    ]
   },
   "BUF": {
-   "missing_value": 0,
+   "missing_value": -0.0441,
    "players": [
     {
-     "name": "Mattias Samuelsson",
-     "status": "Day-To-Day",
-     "playerId": 8480807,
-     "position": "D",
-     "value": -0.0118,
-     "regular": true,
-     "applied": false,
-     "note": "Samuelsson (undisclosed) is considered a game-time decision for Wednesday's matchup against the Rangers, Paul Hamilton of WGR Sports Radio 550 reports.",
-     "date": "2026-11-25"
-    },
-    {
      "name": "Tyson Kozak",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8482896,
      "position": "C",
      "value": -0.0441,
      "regular": true,
-     "applied": false,
-     "note": "Kozak (undisclosed) did not practice Tuesday and is considered day-to-day, per Paul Hamilton of WGR Sports Radio 550.",
-     "date": "2026-11-24"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-25"
     },
     {
      "name": "Konsta Helenius",
@@ -179,17 +168,17 @@
    ]
   },
   "CAR": {
-   "missing_value": 0.0188,
+   "missing_value": 0.0519,
    "players": [
     {
      "name": "K'Andre Miller",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8480817,
      "position": "D",
      "value": 0.0331,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
+     "applied": true,
+     "note": "out",
      "date": "2026-11-25"
     },
     {
@@ -950,8 +939,30 @@
    ]
   },
   "TBL": {
-   "missing_value": -0.0849,
+   "missing_value": -0.1717,
    "players": [
+    {
+     "name": "Erik Cernak",
+     "status": "Out",
+     "playerId": 8478416,
+     "position": "D",
+     "value": -0.0039,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-25"
+    },
+    {
+     "name": "Victor Hedman",
+     "status": "Out",
+     "playerId": 8475167,
+     "position": "D",
+     "value": -0.0829,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-25"
+    },
     {
      "name": "Conor Geekie",
      "status": "Injured Reserve",

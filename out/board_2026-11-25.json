@@ -1,7 +1,7 @@
 {
  "date": "2026-11-25",
  "data_through": "2026-11-24",
- "generated": "2026-11-25 16:41 MST",
+ "generated": "2026-11-25 16:51 MST",
  "league_xg60": 3.003,
  "b2b_effect": {
   "own_xg": -0.175,
@@ -220,26 +220,15 @@
    },
    "inj_home": [
     {
-     "name": "Mattias Samuelsson",
-     "status": "Day-To-Day",
-     "playerId": 8480807,
-     "position": "D",
-     "value": -0.0118,
-     "regular": true,
-     "applied": false,
-     "note": "Samuelsson (undisclosed) is considered a game-time decision for Wednesday's matchup against the Rangers, Paul Hamilton of WGR Sports Radio 550 reports.",
-     "date": "2026-11-25"
-    },
-    {
      "name": "Tyson Kozak",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8482896,
      "position": "C",
      "value": -0.0441,
      "regular": true,
-     "applied": false,
-     "note": "Kozak (undisclosed) did not practice Tuesday and is considered day-to-day, per Paul Hamilton of WGR Sports Radio 550.",
-     "date": "2026-11-24"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-25"
     },
     {
      "name": "Konsta Helenius",
@@ -321,53 +310,53 @@
      "date": "2026-09-29"
     }
    ],
-   "inj_adj_home": 0,
+   "inj_adj_home": -0.044,
    "inj_adj_away": 0.01,
-   "xg_home": 3.092,
-   "xg_away": 3.156,
-   "proj_home": 3.33,
-   "proj_away": 3.19,
-   "p_home": 0.523,
-   "p_away": 0.477,
-   "p_ot": 0.2369,
-   "fair_ml_home": -110,
-   "fair_ml_away": 110,
+   "xg_home": 3.114,
+   "xg_away": 3.134,
+   "proj_home": 3.35,
+   "proj_away": 3.17,
+   "p_home": 0.5301,
+   "p_away": 0.4699,
+   "p_ot": 0.2366,
+   "fair_ml_home": -113,
+   "fair_ml_away": 113,
    "exp_total": 6.53,
    "totals": {
     "4.5": {
-     "over": 0.7962,
-     "under": 0.2038
+     "over": 0.7963,
+     "under": 0.2037
     },
     "5.0": {
-     "over": 0.6273,
-     "under": 0.2038
+     "over": 0.6274,
+     "under": 0.2037
     },
     "5.5": {
-     "over": 0.6273,
-     "under": 0.3727
+     "over": 0.6274,
+     "under": 0.3726
     },
     "6.0": {
-     "over": 0.4872,
-     "under": 0.3727
+     "over": 0.4874,
+     "under": 0.3726
     },
     "6.5": {
-     "over": 0.4872,
-     "under": 0.5128
+     "over": 0.4874,
+     "under": 0.5126
     },
     "7.0": {
-     "over": 0.3171,
-     "under": 0.5128
+     "over": 0.3173,
+     "under": 0.5126
     },
     "7.5": {
-     "over": 0.3171,
-     "under": 0.6829
+     "over": 0.3173,
+     "under": 0.6827
     }
    },
    "puck_line": {
-    "home_-1.5": 0.3251,
-    "away_+1.5": 0.6749,
-    "away_-1.5": 0.2879,
-    "home_+1.5": 0.7121
+    "home_-1.5": 0.331,
+    "away_+1.5": 0.669,
+    "away_-1.5": 0.2824,
+    "home_+1.5": 0.7176
    }
   },
   {
@@ -418,6 +407,28 @@
    },
    "inj_home": [
     {
+     "name": "Erik Cernak",
+     "status": "Out",
+     "playerId": 8478416,
+     "position": "D",
+     "value": -0.0039,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-25"
+    },
+    {
+     "name": "Victor Hedman",
+     "status": "Out",
+     "playerId": 8475167,
+     "position": "D",
+     "value": -0.0829,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-25"
+    },
+    {
      "name": "Conor Geekie",
      "status": "Injured Reserve",
      "playerId": 8483447,
@@ -432,13 +443,13 @@
    "inj_away": [
     {
      "name": "K'Andre Miller",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8480817,
      "position": "D",
      "value": 0.0331,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
+     "applied": true,
+     "note": "out",
      "date": "2026-11-25"
     },
     {
@@ -453,53 +464,53 @@
      "date": "2026-11-24"
     }
    ],
-   "inj_adj_home": -0.085,
-   "inj_adj_away": 0.019,
-   "xg_home": 2.832,
-   "xg_away": 3.299,
-   "proj_home": 2.97,
-   "proj_away": 3.16,
-   "p_home": 0.4664,
-   "p_away": 0.5336,
-   "p_ot": 0.2452,
-   "fair_ml_home": 114,
-   "fair_ml_away": -114,
-   "exp_total": 6.12,
+   "inj_adj_home": -0.172,
+   "inj_adj_away": 0.052,
+   "xg_home": 2.892,
+   "xg_away": 3.239,
+   "proj_home": 3.02,
+   "proj_away": 3.11,
+   "p_home": 0.4856,
+   "p_away": 0.5144,
+   "p_ot": 0.2457,
+   "fair_ml_home": 106,
+   "fair_ml_away": -106,
+   "exp_total": 6.13,
    "totals": {
     "4.5": {
-     "over": 0.7493,
-     "under": 0.2507
+     "over": 0.7501,
+     "under": 0.2499
     },
     "5.0": {
-     "over": 0.5638,
-     "under": 0.2507
+     "over": 0.5647,
+     "under": 0.2499
     },
     "5.5": {
-     "over": 0.5638,
-     "under": 0.4362
+     "over": 0.5647,
+     "under": 0.4353
     },
     "6.0": {
-     "over": 0.4214,
-     "under": 0.4362
+     "over": 0.4224,
+     "under": 0.4353
     },
     "6.5": {
-     "over": 0.4214,
-     "under": 0.5786
+     "over": 0.4224,
+     "under": 0.5776
     },
     "7.0": {
-     "over": 0.2582,
-     "under": 0.5786
+     "over": 0.2589,
+     "under": 0.5776
     },
     "7.5": {
-     "over": 0.2582,
-     "under": 0.7418
+     "over": 0.2589,
+     "under": 0.7411
     }
    },
    "puck_line": {
-    "home_-1.5": 0.2738,
-    "away_+1.5": 0.7262,
-    "away_-1.5": 0.3273,
-    "home_+1.5": 0.6727
+    "home_-1.5": 0.2887,
+    "away_+1.5": 0.7113,
+    "away_-1.5": 0.3117,
+    "home_+1.5": 0.6883
    }
   },
   {
