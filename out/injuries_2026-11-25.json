@@ -1,7 +1,7 @@
 {
  "day": "2026-11-25",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-25 15:41",
+ "fetched": "2026-11-25 16:31",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -1073,6 +1073,17 @@
    "missing_value": 0.0269,
    "players": [
     {
+     "name": "Michael Carcone",
+     "status": "Injured Reserve",
+     "playerId": 8479619,
+     "position": "L",
+     "value": 0.0269,
+     "regular": true,
+     "applied": true,
+     "note": "ir",
+     "date": "2026-11-25"
+    },
+    {
      "name": "John Marino",
      "status": "Injured Reserve",
      "playerId": 8478507,
@@ -1081,17 +1092,6 @@
      "regular": false,
      "applied": false,
      "note": "Marino (upper body) likely won't return during Utah's four-game road trip, per Brogan Houston of the Deseret News on Monday.",
-     "date": "2026-11-23"
-    },
-    {
-     "name": "Michael Carcone",
-     "status": "Out",
-     "playerId": 8479619,
-     "position": "L",
-     "value": 0.0269,
-     "regular": true,
-     "applied": true,
-     "note": "Carcone (upper body) will be out of action for 3-4 months, Catherine Bogart of the Mammoth's official site reports Monday.",
      "date": "2026-11-23"
     },
     {
