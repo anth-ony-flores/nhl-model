@@ -1,7 +1,7 @@
 {
  "day": "2026-11-25",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-25 19:13",
+ "fetched": "2026-11-25 19:23",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -941,6 +941,17 @@
   "TBL": {
    "missing_value": -0.1717,
    "players": [
+    {
+     "name": "Pontus Holmberg",
+     "status": "Day-To-Day",
+     "playerId": 8480995,
+     "position": "R",
+     "value": -0.0179,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-26"
+    },
     {
      "name": "Erik Cernak",
      "status": "Out",
