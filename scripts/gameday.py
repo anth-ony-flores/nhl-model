@@ -28,7 +28,7 @@ def starts(day):
 def refresh(day):
     sh("git pull -q --rebase -X theirs origin main")
     # props_lines.py uses the morning's out/props_rates_DAY.json; a props failure never blocks the board
-    rc = sh(f"python injuries.py {day} && python board.py {day} && {{ python props_lines.py {day} || true; }} && python export_site.py {day}", cwd=ROOT / "src")
+    rc = sh(f"python injuries.py {day} && {{ python roster.py {day} || true; }} && python board.py {day} && {{ python props_lines.py {day} || true; }} && python export_site.py {day}", cwd=ROOT / "src")
     if rc != 0:
         print("refresh failed; will retry next cycle", flush=True)
         return

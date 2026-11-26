@@ -221,6 +221,13 @@ def build(day, feeds=None, rosters=None, scoreboard=None):
     prm = R["params"]
     cfg_p = ROOT / "out" / "props_config.json"
     cfg = json.load(open(cfg_p)) if cfg_p.exists() else {"picks": False}
+    # scratched per the NHL official game roster: no projection for players not in tonight's lineup
+    ro_p = ROOT / "out" / f"roster_{day}.json"
+    SCR = {}
+    if ro_p.exists():
+        for t, r in json.load(open(ro_p)).get("teams", {}).items():
+            if r.get("lineup_posted"):
+                SCR[t] = {norm(x["name"]) for x in r.get("scratches", [])} | {norm(x["name"], True) for x in r.get("scratches", [])}
 
     sb = scoreboard or get(f"{SITE}/scoreboard?dates={day.replace('-', '')}") or {}
     events = {}
@@ -296,6 +303,10 @@ def build(day, feeds=None, rosters=None, scoreboard=None):
                                   "why": "athlete not on either team's ESPN roster"})
                 continue
             t, a = espn_team[aid]
+            if norm(a["name"]) in SCR.get(t, ()) or norm(a["name"], True) in SCR.get(t, ()):
+                unmatched.append({"espn_id": aid, "name": a["name"], "team": t, "market": m, "game": f"{A}@{H}",
+                                  "why": "scratched per NHL official game roster"})
+                continue
             row = {"espn_id": aid, "player": a["name"], "team": t, "opp": opp[t], **ln}
             if m == "saves":
                 gm = match(a["name"], t, g_team, g_all)

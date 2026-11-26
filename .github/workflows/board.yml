@@ -58,6 +58,7 @@ jobs:
           python players.py
           python metrics.py ${{ steps.mode.outputs.day }}
           python injuries.py ${{ steps.mode.outputs.day }}
+          python roster.py ${{ steps.mode.outputs.day }} || true
           python board.py ${{ steps.mode.outputs.day }}
           python props.py ${{ steps.mode.outputs.day }} || echo "props rates failed"
           python props_lines.py ${{ steps.mode.outputs.day }} || echo "props lines failed"
@@ -68,6 +69,7 @@ jobs:
         run: |
           cd src
           python injuries.py ${{ steps.mode.outputs.day }}
+          python roster.py ${{ steps.mode.outputs.day }} || true
           python board.py ${{ steps.mode.outputs.day }}
           python props_lines.py ${{ steps.mode.outputs.day }} || echo "props lines failed"
           python export_site.py ${{ steps.mode.outputs.day }}

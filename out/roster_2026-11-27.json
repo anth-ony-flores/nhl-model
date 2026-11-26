@@ -1,0 +1,307 @@
+{
+ "day": "2026-11-27",
+ "source": "NHL official game roster reports (nhl.com/scores/htmlreports)",
+ "fetched": "2026-11-26 21:30 UTC",
+ "teams": {
+  "TOR": {
+   "game_id": 2026020400,
+   "opp": "BOS",
+   "home": false,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "BOS": {
+   "game_id": 2026020400,
+   "opp": "TOR",
+   "home": true,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "CGY": {
+   "game_id": 2026020401,
+   "opp": "NJD",
+   "home": false,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "NJD": {
+   "game_id": 2026020401,
+   "opp": "CGY",
+   "home": true,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "UTA": {
+   "game_id": 2026020402,
+   "opp": "NSH",
+   "home": false,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "NSH": {
+   "game_id": 2026020402,
+   "opp": "UTA",
+   "home": true,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "DAL": {
+   "game_id": 2026020403,
+   "opp": "STL",
+   "home": false,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "STL": {
+   "game_id": 2026020403,
+   "opp": "DAL",
+   "home": true,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "OTT": {
+   "game_id": 2026020404,
+   "opp": "TBL",
+   "home": false,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "TBL": {
+   "game_id": 2026020404,
+   "opp": "OTT",
+   "home": true,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "VAN": {
+   "game_id": 2026020405,
+   "opp": "PHI",
+   "home": false,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "PHI": {
+   "game_id": 2026020405,
+   "opp": "VAN",
+   "home": true,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "FLA": {
+   "game_id": 2026020406,
+   "opp": "WSH",
+   "home": false,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "WSH": {
+   "game_id": 2026020406,
+   "opp": "FLA",
+   "home": true,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "DET": {
+   "game_id": 2026020407,
+   "opp": "CBJ",
+   "home": false,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "CBJ": {
+   "game_id": 2026020407,
+   "opp": "DET",
+   "home": true,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "COL": {
+   "game_id": 2026020408,
+   "opp": "MIN",
+   "home": false,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "MIN": {
+   "game_id": 2026020408,
+   "opp": "COL",
+   "home": true,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "LAK": {
+   "game_id": 2026020409,
+   "opp": "ANA",
+   "home": false,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "ANA": {
+   "game_id": 2026020409,
+   "opp": "LAK",
+   "home": true,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "VGK": {
+   "game_id": 2026020410,
+   "opp": "SJS",
+   "home": false,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "SJS": {
+   "game_id": 2026020410,
+   "opp": "VGK",
+   "home": true,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "NYR": {
+   "game_id": 2026020411,
+   "opp": "CHI",
+   "home": false,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "CHI": {
+   "game_id": 2026020411,
+   "opp": "NYR",
+   "home": true,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "WPG": {
+   "game_id": 2026020412,
+   "opp": "NYI",
+   "home": false,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "NYI": {
+   "game_id": 2026020412,
+   "opp": "WPG",
+   "home": true,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "PIT": {
+   "game_id": 2026020413,
+   "opp": "BUF",
+   "home": false,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "BUF": {
+   "game_id": 2026020413,
+   "opp": "PIT",
+   "home": true,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "SEA": {
+   "game_id": 2026020414,
+   "opp": "EDM",
+   "home": false,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  },
+  "EDM": {
+   "game_id": 2026020414,
+   "opp": "SEA",
+   "home": true,
+   "lineup_posted": false,
+   "starter": null,
+   "dressed_goalies": [],
+   "scratches": [],
+   "dressed": []
+  }
+ }
+}

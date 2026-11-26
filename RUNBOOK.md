@@ -20,7 +20,7 @@ All times America/Phoenix (MST, UTC-7). Game day: DAY (YYYY-MM-DD).
    Format {"TEAM": {"id": NHL player id, "name": "...", "source": "who/when"}}. Goalie ids: data/goalies.parquet.
 3. Update out/summaries_DAY.json text where news changed (paraphrase, cite, no em dashes, 3 to 5 sentences).
    Summaries quote model numbers only when they match the new run.
-4. cd /home/claude/nhl-model/src && python3 injuries.py DAY && python3 board.py DAY && python3 metrics.py DAY && python3 build_page.py DAY
+4. cd /home/claude/nhl-model/src && python3 injuries.py DAY && python3 roster.py DAY && python3 board.py DAY && python3 metrics.py DAY && python3 build_page.py DAY
    cp /home/claude/nhl-model/out/nhl_board.html <scratchpad path above>; publish with Artifact (same file path).
 5. Skip games that already started (keep their last pre-game numbers; do not change them).
 6. If the current time is before the last game's start, schedule the next run with send_later in 15 minutes.
@@ -35,7 +35,7 @@ pre-game (every 15 min) and nightly tracking on its own. Claude's job on game da
 goalie overrides and summaries in out/, then
   cd /home/claude/nhl-model && git pull --rebase -X theirs origin main
   (edit out/goalie_overrides_DAY.json and out/summaries_DAY.json)
-  cd src && python3 injuries.py DAY && python3 board.py DAY && python3 export_site.py DAY && python3 build_page.py DAY
+  cd src && python3 injuries.py DAY && python3 roster.py DAY && python3 board.py DAY && python3 export_site.py DAY && python3 build_page.py DAY
   cd .. && git add -A out site && git commit -m "news DAY" && git push   (Pages redeploys on push)
   cp out/nhl_board.html to the artifact scratchpad path and publish (keeps the Claude artifact in sync).
 
@@ -44,3 +44,11 @@ goalie overrides and summaries in out/, then
   within 2 h; idle otherwise; stops after the last puck drop. Each refresh dispatches board.yml (publish) to redeploy.
 - Claude news checks: every 30 min when the next puck drop is 60 to 120 min away, every 15 min under 60 min,
   otherwise the next check is set for 120 min before the next puck drop. None after the last puck drop.
+
+## NHL official game roster (automatic)
+`src/roster.py DAY` reads each game's roster report (nhl.com/scores/htmlreports/<season>/RO<game>.HTM) into
+`out/roster_DAY.json`. It counts only once the final lineup is filed (Scratches section present), usually
+30 to 60 minutes before puck drop. board.py then: uses the bold starting goalie as confirmed (outranks manual
+overrides); swaps to a dressed goalie if the projected one is not dressed; applies scratched regulars as missing;
+lifts an injury adjustment for anyone who dressed. props_lines.py drops scratched players. Runs in every
+game-day refresh and in the morning and pregame workflow steps.

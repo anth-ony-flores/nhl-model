@@ -22,6 +22,12 @@ def american(p):
     return round(-100 * p / (1 - p)) if p >= 0.5 else round(100 * (1 - p) / p)
 
 
+def norm(s):
+    import unicodedata
+    s = unicodedata.normalize("NFKD", str(s)).encode("ascii", "ignore").decode().lower()
+    return "".join(ch for ch in s if ch.isalnum())
+
+
 def main(day):
     D = pd.Timestamp(day)
     prev = (D - pd.Timedelta(days=1)).strftime("%Y-%m-%d")
@@ -73,9 +79,15 @@ def main(day):
 
     ov_path = OUT / f"goalie_overrides_{day}.json"
     OV = json.load(open(ov_path)) if ov_path.exists() else {}
+    ro_path = OUT / f"roster_{day}.json"
+    RO = {t: r for t, r in (json.load(open(ro_path))["teams"] if ro_path.exists() else {}).items() if r.get("lineup_posted")}
 
     def proj_goalie(team):
         tg = cur[cur.team == team].tail(10)
+        ro = RO.get(team) or {}
+        if ro.get("starter"):   # official starting lineup outranks every other source
+            s = ro["starter"]; names.setdefault(s["id"], s["name"])
+            return int(s["id"]), "confirmed: NHL official game roster (starting lineup)", []
         if team in OV:
             g = OV[team]
             names.setdefault(g["id"], g["name"])
@@ -86,12 +98,36 @@ def main(day):
         pick, why = order[0], "most starts in last 10"
         if team in played_prev and y_start.get(team) == pick and len(order) > 1:
             pick, why = order[1], "back-to-back: rotated from yesterday's starter"
+        dressed = [g["id"] for g in ro.get("dressed_goalies", []) if g.get("id")]
+        if dressed and pick not in dressed:   # projected goalie is not dressed tonight
+            alt = [g for g in order if g in dressed] or dressed
+            pick, why = int(alt[0]), "projected goalie not dressed (NHL game roster); next in recent starts"
         alts = [{"id": int(g), "name": names.get(g, str(g)), "gsax_per_xg": round(GK.get(g, 0.0), 4)} for g in order]
         return int(pick), why, alts
 
     ip = OUT / f"injuries_{day}.json"
     IJ = json.load(open(ip)) if ip.exists() else {"teams": {}, "k": 0.0}
     INJ, INJK = IJ["teams"], IJ.get("k", 1.0)
+    # official lineups: scratched regulars count as missing; a listed injury is lifted if the player dressed
+    for t, ro in RO.items():
+        e = INJ.setdefault(t, {"missing_value": 0.0, "players": []})
+        dressed = {norm(n) for n in ro.get("dressed", [])}
+        have = {p.get("playerId") for p in e["players"]}
+        for p in e["players"]:
+            if norm(p["name"]) in dressed and p.get("applied"):
+                p["applied"] = False; p["status"] = f"{p['status']} (dressed per NHL game roster)"
+        for x in ro.get("scratches", []):
+            if x.get("playerId") is None:
+                continue
+            if x["playerId"] in have:
+                for p in e["players"]:
+                    if p.get("playerId") == x["playerId"] and p.get("regular") and not p.get("applied"):
+                        p["applied"] = True; p["status"] = f"{p['status']} (scratched per NHL game roster)"
+            elif x["regular"]:
+                e["players"].append({"name": x["name"], "status": "Scratched (NHL game roster)", "playerId": x["playerId"],
+                                     "position": x["pos"], "value": x["value"], "regular": True, "applied": True,
+                                     "note": "Not in tonight's lineup per the NHL official game roster", "date": day})
+        e["missing_value"] = round(sum(p["value"] for p in e["players"] if p.get("applied")), 4)
     out_games = []
     for g in todays:
         h, a = g["homeTeam"]["abbrev"], g["awayTeam"]["abbrev"]
@@ -103,8 +139,11 @@ def main(day):
         Mh = INJ.get(h, {}).get("missing_value", 0.0); Ma = INJ.get(a, {}).get("missing_value", 0.0)
         xh = max(0.5, xh - INJK * Mh / 2 + INJK * Ma / 2)
         xa = max(0.5, xa - INJK * Ma / 2 + INJK * Mh / 2)
-        lh = C["scale"] * c_t * S["hshare"] * xh * (1 + SK.get(h, 0)) * (1 - GK.get(ag, 0))
-        la = C["scale"] * c_t * S["ashare"] * xa * (1 + SK.get(a, 0)) * (1 - GK.get(hg, 0))
+        # goals per projected xG: the same constants the walk-forward backtest validated (c_home/c_away absorb
+        # home share and the fact that starters save more than average). The earlier c_t * share version ran
+        # about 3.5% low in 2026-27 (projected 6.15 goals vs 6.46 actual over 232 tracked games).
+        lh = C["scale"] * P["c_home"] * xh * (1 + SK.get(h, 0)) * (1 - GK.get(ag, 0))
+        la = C["scale"] * P["c_away"] * xa * (1 + SK.get(a, 0)) * (1 - GK.get(hg, 0))
         pr = game_probs(lh, la, P["dist"])
         tot = {}
         for line in [4.5, 5.0, 5.5, 6.0, 6.5, 7.0, 7.5]:
