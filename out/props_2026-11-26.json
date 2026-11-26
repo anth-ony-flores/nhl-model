@@ -1,0 +1,55 @@
+{
+ "date": "2026-11-26",
+ "generated": "2026-11-26T22:31:15Z",
+ "data_through": "2026-11-24",
+ "picks_enabled": false,
+ "params": {
+  "r_sog": 30,
+  "r_sa": 80,
+  "q_pull": 0.05375524208921083,
+  "f_pull": 0.5056968560681295,
+  "c_pts": 1.0
+ },
+ "side_check": {
+  "pairs": 0,
+  "checked": 0,
+  "first_is_over": 0,
+  "mismatch": 0,
+  "mismatches": []
+ },
+ "lines": 0,
+ "unmatched": [],
+ "unmatched_rate": null,
+ "strong": 0.03,
+ "backtest": {
+  "seasons": "2023-24 to 2025-26",
+  "rows": [
+   {
+    "label": "SOG 3+",
+    "model": 0.46624,
+    "base": 0.49117
+   },
+   {
+    "label": "Points 1+",
+    "model": 0.59234,
+    "base": 0.74713
+   },
+   {
+    "label": "Goal",
+    "model": 0.39025,
+    "base": 0.54558
+   },
+   {
+    "label": "Saves 26+",
+    "model": 0.65723,
+    "base": 0.7421
+   }
+  ]
+ },
+ "games": [],
+ "notes": [
+  "Market probability is DraftKings' vig-free over price; anytime goal is one-sided, so vig is included.",
+  "Edge = model probability minus market probability on the leaned side, in points.",
+  "Projections: MoneyPuck game logs (credit MoneyPuck.com); lines: DraftKings via ESPN."
+ ]
+}

@@ -1,237 +1,237 @@
 {
  "date": "2026-11-26",
- "data_through": "2026-11-24",
- "generated": "2026-11-26 14:32 MST",
- "league_xg60": 3.003,
+ "data_through": "2026-11-25",
+ "generated": "2026-11-26 15:31 MST",
+ "league_xg60": 2.999,
  "b2b_effect": {
-  "own_xg": -0.175,
-  "opp_xg": 0.143
+  "own_xg": -0.171,
+  "opp_xg": 0.146
  },
  "games": [],
  "ratings": [
   {
    "team": "CAR",
-   "off": 3.569,
-   "def": 2.571,
-   "net": 0.998,
-   "finishing": -0.0049
+   "off": 3.554,
+   "def": 2.564,
+   "net": 0.99,
+   "finishing": -0.0048
   },
   {
    "team": "COL",
-   "off": 3.311,
-   "def": 2.76,
-   "net": 0.551,
-   "finishing": 0.0133
+   "off": 3.325,
+   "def": 2.744,
+   "net": 0.581,
+   "finishing": 0.017
   },
   {
    "team": "MIN",
-   "off": 3.281,
-   "def": 2.764,
-   "net": 0.518,
-   "finishing": 0.0078
-  },
-  {
-   "team": "NJD",
-   "off": 3.275,
-   "def": 2.763,
-   "net": 0.512,
-   "finishing": -0.0193
-  },
-  {
-   "team": "OTT",
-   "off": 3.17,
-   "def": 2.669,
-   "net": 0.501,
-   "finishing": -0.0139
+   "off": 3.252,
+   "def": 2.739,
+   "net": 0.513,
+   "finishing": 0.0094
   },
   {
    "team": "VGK",
-   "off": 3.202,
-   "def": 2.707,
-   "net": 0.494,
+   "off": 3.201,
+   "def": 2.708,
+   "net": 0.493,
    "finishing": -0.0077
   },
   {
+   "team": "NJD",
+   "off": 3.252,
+   "def": 2.768,
+   "net": 0.484,
+   "finishing": -0.021
+  },
+  {
+   "team": "OTT",
+   "off": 3.178,
+   "def": 2.73,
+   "net": 0.448,
+   "finishing": -0.0145
+  },
+  {
    "team": "TBL",
-   "off": 3.213,
-   "def": 2.784,
-   "net": 0.428,
-   "finishing": 0.0076
+   "off": 3.212,
+   "def": 2.774,
+   "net": 0.438,
+   "finishing": 0.0037
   },
   {
    "team": "UTA",
-   "off": 3.162,
-   "def": 2.86,
-   "net": 0.302,
-   "finishing": -0.0092
-  },
-  {
-   "team": "DAL",
-   "off": 2.884,
-   "def": 2.783,
-   "net": 0.101,
-   "finishing": -0.0105
-  },
-  {
-   "team": "NYR",
-   "off": 3.08,
-   "def": 3.019,
-   "net": 0.061,
-   "finishing": -0.0149
-  },
-  {
-   "team": "WSH",
-   "off": 3.258,
-   "def": 3.207,
-   "net": 0.051,
-   "finishing": -0.007
+   "off": 3.136,
+   "def": 2.829,
+   "net": 0.307,
+   "finishing": -0.0049
   },
   {
    "team": "FLA",
-   "off": 3.025,
-   "def": 2.981,
-   "net": 0.044,
-   "finishing": -0.0171
+   "off": 3.085,
+   "def": 2.987,
+   "net": 0.098,
+   "finishing": -0.017
   },
   {
-   "team": "LAK",
-   "off": 2.844,
-   "def": 2.838,
-   "net": 0.006,
-   "finishing": -0.0363
+   "team": "WSH",
+   "off": 3.264,
+   "def": 3.184,
+   "net": 0.08,
+   "finishing": 0.0003
   },
   {
-   "team": "EDM",
-   "off": 2.849,
-   "def": 2.846,
-   "net": 0.004,
-   "finishing": 0.0527
-  },
-  {
-   "team": "BOS",
-   "off": 3.025,
-   "def": 3.037,
-   "net": -0.012,
-   "finishing": 0.0192
-  },
-  {
-   "team": "BUF",
-   "off": 3.07,
-   "def": 3.084,
-   "net": -0.014,
-   "finishing": 0.0079
-  },
-  {
-   "team": "MTL",
-   "off": 3.104,
-   "def": 3.12,
-   "net": -0.016,
-   "finishing": -0.0114
+   "team": "NYR",
+   "off": 3.052,
+   "def": 3.005,
+   "net": 0.047,
+   "finishing": -0.018
   },
   {
    "team": "NSH",
-   "off": 3.005,
-   "def": 3.032,
-   "net": -0.027,
-   "finishing": -0.0203
+   "off": 3.039,
+   "def": 2.997,
+   "net": 0.042,
+   "finishing": -0.0219
+  },
+  {
+   "team": "DAL",
+   "off": 2.851,
+   "def": 2.812,
+   "net": 0.038,
+   "finishing": -0.012
+  },
+  {
+   "team": "LAK",
+   "off": 2.842,
+   "def": 2.834,
+   "net": 0.008,
+   "finishing": -0.0361
+  },
+  {
+   "team": "EDM",
+   "off": 2.851,
+   "def": 2.849,
+   "net": 0.003,
+   "finishing": 0.0525
+  },
+  {
+   "team": "BUF",
+   "off": 3.054,
+   "def": 3.061,
+   "net": -0.007,
+   "finishing": 0.0127
   },
   {
    "team": "WPG",
-   "off": 2.991,
-   "def": 3.041,
-   "net": -0.051,
-   "finishing": -0.0156
+   "off": 3.003,
+   "def": 3.021,
+   "net": -0.018,
+   "finishing": -0.0143
+  },
+  {
+   "team": "MTL",
+   "off": 3.091,
+   "def": 3.137,
+   "net": -0.046,
+   "finishing": -0.0162
+  },
+  {
+   "team": "BOS",
+   "off": 3.006,
+   "def": 3.055,
+   "net": -0.049,
+   "finishing": 0.0178
   },
   {
    "team": "STL",
-   "off": 2.925,
-   "def": 2.989,
-   "net": -0.064,
-   "finishing": 0.0248
+   "off": 2.894,
+   "def": 3.0,
+   "net": -0.106,
+   "finishing": 0.0244
   },
   {
    "team": "PHI",
-   "off": 2.821,
-   "def": 2.895,
-   "net": -0.075,
-   "finishing": -0.0186
+   "off": 2.797,
+   "def": 2.907,
+   "net": -0.11,
+   "finishing": -0.0169
   },
   {
    "team": "PIT",
-   "off": 3.076,
-   "def": 3.169,
-   "net": -0.094,
-   "finishing": -0.0152
-  },
-  {
-   "team": "ANA",
-   "off": 3.1,
-   "def": 3.243,
-   "net": -0.143,
-   "finishing": -0.0029
+   "off": 3.072,
+   "def": 3.185,
+   "net": -0.113,
+   "finishing": -0.016
   },
   {
    "team": "CBJ",
-   "off": 2.856,
-   "def": 3.023,
-   "net": -0.167,
-   "finishing": -0.0251
+   "off": 2.859,
+   "def": 2.999,
+   "net": -0.14,
+   "finishing": -0.0274
   },
   {
-   "team": "DET",
-   "off": 2.858,
-   "def": 3.038,
-   "net": -0.18,
-   "finishing": -0.0354
+   "team": "ANA",
+   "off": 3.066,
+   "def": 3.215,
+   "net": -0.149,
+   "finishing": 0.0068
   },
   {
    "team": "NYI",
-   "off": 2.896,
-   "def": 3.138,
-   "net": -0.242,
-   "finishing": -0.0123
+   "off": 2.909,
+   "def": 3.106,
+   "net": -0.197,
+   "finishing": -0.016
   },
   {
-   "team": "SEA",
-   "off": 2.753,
-   "def": 3.133,
-   "net": -0.381,
-   "finishing": 0.0134
+   "team": "DET",
+   "off": 2.842,
+   "def": 3.049,
+   "net": -0.207,
+   "finishing": -0.0308
   },
   {
    "team": "TOR",
-   "off": 2.767,
-   "def": 3.156,
-   "net": -0.388,
+   "off": 2.77,
+   "def": 3.152,
+   "net": -0.383,
    "finishing": 0.0197
   },
   {
+   "team": "SEA",
+   "off": 2.75,
+   "def": 3.174,
+   "net": -0.423,
+   "finishing": 0.0085
+  },
+  {
    "team": "CGY",
-   "off": 2.662,
-   "def": 3.217,
-   "net": -0.555,
-   "finishing": -0.0299
+   "off": 2.677,
+   "def": 3.219,
+   "net": -0.542,
+   "finishing": -0.0233
   },
   {
    "team": "SJS",
-   "off": 2.798,
-   "def": 3.355,
-   "net": -0.556,
-   "finishing": -0.0152
+   "off": 2.771,
+   "def": 3.319,
+   "net": -0.548,
+   "finishing": -0.0203
   },
   {
    "team": "CHI",
-   "off": 2.651,
-   "def": 3.319,
-   "net": -0.667,
-   "finishing": -0.0065
+   "off": 2.69,
+   "def": 3.31,
+   "net": -0.62,
+   "finishing": -0.0085
   },
   {
    "team": "VAN",
-   "off": 2.604,
-   "def": 3.544,
-   "net": -0.94,
-   "finishing": -0.0046
+   "off": 2.621,
+   "def": 3.535,
+   "net": -0.914,
+   "finishing": -0.01
   }
  ],
  "scorecard": [
@@ -592,7 +592,7 @@
    "n": 3936
   }
  ],
- "goals_per_xg": 1.031,
+ "goals_per_xg": 1.0315,
  "params": {
   "team": {
    "hl": 70,
