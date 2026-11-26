@@ -1,7 +1,7 @@
 {
  "date": "2026-11-25",
  "data_through": "2026-11-24",
- "generated": "2026-11-25 19:54 MST",
+ "generated": "2026-11-25 20:04 MST",
  "league_xg60": 3.003,
  "b2b_effect": {
   "own_xg": -0.175,
@@ -2396,7 +2396,8 @@
     "away_+1.5": 0.6228,
     "away_-1.5": 0.2574,
     "home_+1.5": 0.7426
-   }
+   },
+   "frozen": true
   }
  ],
  "ratings": [
