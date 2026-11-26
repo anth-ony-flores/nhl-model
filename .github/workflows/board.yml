@@ -90,4 +90,13 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
-      - uses: actions/deploy-pages@v4
+      # GitHub's artifact listing is sometimes not ready the instant the upload finishes, which makes
+      # deploy-pages fail with "No artifacts named github-pages". Wait, then retry once.
+      - run: sleep 15
+      - id: deploy
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - if: steps.deploy.outcome == 'failure'
+        run: sleep 45
+      - if: steps.deploy.outcome == 'failure'
+        uses: actions/deploy-pages@v4
