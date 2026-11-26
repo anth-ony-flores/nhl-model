@@ -7,7 +7,7 @@ import csv, json, sys, urllib.request
 from datetime import date, timedelta
 from pathlib import Path
 import numpy as np
-from picks import norm_odds, make_picks, grade, novig, STRONG, movement, profit
+from picks import norm_odds, make_picks, grade, novig, STRONG, movement, open_picks, profit
 
 ROOT = Path(__file__).resolve().parent.parent
 LOG = ROOT / "tracking" / "log.csv"
@@ -20,7 +20,12 @@ FIELDS = (["date", "game", "espn_id", "away", "home", "away_score", "home_score"
            "model_p_home", "model_total", "away_goalie", "home_goalie",
            "dk_ml_away", "dk_ml_home", "dk_p_home", "dk_pl_home_line", "dk_pl_home_odds", "dk_pl_away_odds",
            "dk_total", "dk_over", "dk_under"]
-          + [f"{m}_{k}" for m in MKTS for k in (["pick", "result"] if m == "su" else ["pick", "odds", "edge", "model_p", "market_p", "result", "units", "open_odds", "open_p", "clv"])])
+          + [f"{m}_{k}" for m in MKTS for k in (["pick", "result"] if m == "su" else ["pick", "odds", "edge", "model_p", "market_p", "result", "units", "open_odds", "open_p", "clv"])]
+          # picks made from the locked morning projection against DraftKings' opening prices (primary record)
+          + ["lock_time", "lock_p_home", "lock_total",
+             "dk_open_ml_away", "dk_open_ml_home", "dk_open_total", "dk_open_over", "dk_open_under",
+             "dk_open_pl_home_line", "dk_open_pl_home_odds", "dk_open_pl_away_odds"]
+          + [f"o_{m}_{k}" for m in MKTS for k in (["pick", "result"] if m == "su" else ["pick", "odds", "edge", "model_p", "market_p", "close_p", "clv", "result", "units"])])
 
 
 def get(url):
@@ -45,8 +50,35 @@ def write_log(rows):
         w.writeheader(); w.writerows(rows)
 
 
-def track(day, board=None, scoreboard=None, summaries=None):
-    """board/scoreboard/summaries can be injected for tests; otherwise read from disk and ESPN."""
+def load_lock(day, g):
+    lp = ROOT / "out" / f"lock_{day}.json"
+    if not lp.exists():
+        return None
+    return json.load(open(lp))["games"].get(str(g.get("id")))
+
+
+def add_open(r, lk, p, hs, as_):
+    """Fill the o_* fields: picks from the locked projection vs DraftKings' opening line, graded at open odds."""
+    lg = {"home": r["home"], "away": r["away"], "p_home": lk["p_home"], "totals": lk["totals"], "puck_line": lk["puck_line"]}
+    P, oo, _ = open_picks(lg, p, hs, as_)
+    r.update({"lock_time": lk.get("locked"), "lock_p_home": lk["p_home"], "lock_total": lk.get("exp_total")})
+    if not P:
+        return
+    r.update({"dk_open_ml_away": oo["ml"]["away"], "dk_open_ml_home": oo["ml"]["home"], "dk_open_total": oo["total"]["line"],
+              "dk_open_over": oo["total"]["over"], "dk_open_under": oo["total"]["under"],
+              "dk_open_pl_home_line": oo["spread"]["home"]["line"], "dk_open_pl_home_odds": oo["spread"]["home"]["odds"],
+              "dk_open_pl_away_odds": oo["spread"]["away"]["odds"],
+              "o_su_pick": P["su"]["pick"], "o_su_result": P["su"]["result"]})
+    for m in ("ml", "pl", "tot"):
+        x = P.get(m)
+        if x:
+            for k in ("pick", "odds", "edge", "model_p", "market_p", "close_p", "clv", "result", "units"):
+                r[f"o_{m}_{k}"] = x.get(k)
+
+
+def track(day, board=None, scoreboard=None, summaries=None, locks=None, redo=False):
+    """board/scoreboard/summaries/locks can be injected for tests or backfill; otherwise read from disk and ESPN.
+    redo=True regrades games already in the log (used to backfill the opening-line fields)."""
     board = board or json.load(open(ROOT / "out" / f"board_{day}.json"))
     games = {(g["away"], g["home"]): g for g in board["games"]}
     sb = scoreboard or get(f"{ESPN}/scoreboard?dates={day.replace('-', '')}")
@@ -60,7 +92,7 @@ def track(day, board=None, scoreboard=None, summaries=None):
         H, A = fix(side["home"]["team"]["abbreviation"]), fix(side["away"]["team"]["abbreviation"])
         g = games.get((A, H))
         key = f"{day} {A}@{H}"
-        if g is None or key in existing:
+        if g is None or (key in existing and not redo):
             continue
         hs, as_ = int(side["home"]["score"]), int(side["away"]["score"])
         detail = c["status"]["type"].get("detail", "")
@@ -88,6 +120,9 @@ def track(day, board=None, scoreboard=None, summaries=None):
                     r[f"{m}_{k}"] = x[k]
                 for k, v in MV.get(m, {}).items():
                     r[f"{m}_{k}"] = v
+        lk = (locks or {}).get(str(g.get("id"))) if locks is not None else load_lock(day, g)
+        if lk and p:
+            add_open(r, lk, p, hs, as_)
         existing[key] = r
         added += 1
     write_log(list(existing.values()))
@@ -96,17 +131,17 @@ def track(day, board=None, scoreboard=None, summaries=None):
     return summary
 
 
-def rec(rows, m, strong=False):
+def rec(rows, m, strong=False, pre=""):
     W = L = Pu = 0; units = 0.0
     for r in rows:
-        if not r.get(f"{m}_result"):
+        if not r.get(f"{pre}{m}_result"):
             continue
-        if strong and float(r.get(f"{m}_edge") or 0) < STRONG:
+        if strong and float(r.get(f"{pre}{m}_edge") or 0) < STRONG:
             continue
-        res = r[f"{m}_result"]
+        res = r[f"{pre}{m}_result"]
         W += res == "W"; L += res == "L"; Pu += res == "P"
         if m != "su":
-            units += float(r.get(f"{m}_units") or 0)
+            units += float(r.get(f"{pre}{m}_units") or 0)
     n = W + L + Pu
     out = {"w": W, "l": L, "p": Pu, "pct": round(W / (W + L), 4) if W + L else None}
     if m != "su":
@@ -114,19 +149,19 @@ def rec(rows, m, strong=False):
     return out
 
 
-def rec_all(rows, strong=False):
+def rec_all(rows, strong=False, pre=""):
     """Combined record across moneyline, puck line and total (optionally strong-edge picks only)."""
-    parts = [rec(rows, m, strong=strong) for m in ("ml", "pl", "tot")]
+    parts = [rec(rows, m, strong=strong, pre=pre) for m in ("ml", "pl", "tot")]
     W = sum(x["w"] for x in parts); L = sum(x["l"] for x in parts); Pu = sum(x["p"] for x in parts)
     u = round(sum(x["units"] for x in parts), 2); n = W + L + Pu
     return {"w": W, "l": L, "p": Pu, "pct": round(W / (W + L), 4) if W + L else None, "units": u,
             "roi": round(u / n, 4) if n else None}
 
 
-def clv_stats(rows, m, strong=False):
+def clv_stats(rows, m, strong=False, pre=""):
     """Closing line value: how the market moved on the picked side between DraftKings' open and close."""
-    v = [float(r[f"{m}_clv"]) for r in rows if r.get(f"{m}_clv") not in (None, "")
-         and (not strong or float(r.get(f"{m}_edge") or 0) >= STRONG)]
+    v = [float(r[f"{pre}{m}_clv"]) for r in rows if r.get(f"{pre}{m}_clv") not in (None, "")
+         and (not strong or float(r.get(f"{pre}{m}_edge") or 0) >= STRONG)]
     if not v:
         return {"n": 0, "avg_pts": None, "beat_close_pct": None}
     return {"n": len(v), "avg_pts": round(100 * sum(v) / len(v), 2),
@@ -155,14 +190,44 @@ def summarize(rows):
          "clv_strong": {m: clv_stats(rows, m, strong=True) for m in ("ml", "pl", "tot")},
          "all_picks": rec_all(rows), "strong_all": rec_all(rows, strong=True),
          "names": NAMES}
+    # primary record: locked morning projection vs DraftKings' opening line, graded at the opening odds
+    orows = [r for r in rows if r.get("o_su_pick")]
+    orecent = [r for r in recent if r.get("o_su_pick")]
+    ob = [r for r in orows if r.get("dk_open_ml_home") not in (None, "") and novig(r["dk_open_ml_home"], r["dk_open_ml_away"]) is not None
+          and r.get("dk_p_home") not in (None, "")]
+    oy = [int(int(r["home_score"]) > int(r["away_score"])) for r in ob]
+    S["open"] = {"games": len(orows),
+                 "record": {m: rec(orows, m, pre="o_") for m in MKTS},
+                 "strong": {m: rec(orows, m, strong=True, pre="o_") for m in ("ml", "pl", "tot")},
+                 "last7": {m: rec(orecent, m, pre="o_") for m in MKTS},
+                 "all_picks": rec_all(orows, pre="o_"), "strong_all": rec_all(orows, strong=True, pre="o_"),
+                 "clv": {m: clv_stats(orows, m, pre="o_") for m in ("ml", "pl", "tot")},
+                 "clv_strong": {m: clv_stats(orows, m, strong=True, pre="o_") for m in ("ml", "pl", "tot")},
+                 "logloss": {"games": len(ob),
+                             "model_lock": ll([float(r["lock_p_home"]) for r in ob], oy) if ob else None,
+                             "market_open": ll([novig(r["dk_open_ml_home"], r["dk_open_ml_away"]) for r in ob], oy) if ob else None,
+                             "market_close": ll([float(r["dk_p_home"]) for r in ob], oy) if ob else None},
+                 "rules": "Picks are made from the day's first (morning) projection, locked, against DraftKings' opening "
+                          "prices, and graded at those prices, 1 unit per pick. Line movement = closing vig-free probability "
+                          "of the picked side minus its opening probability (positive: the market moved toward the pick)."}
     (ROOT / "tracking").mkdir(exist_ok=True)
     json.dump(S, open(ROOT / "tracking" / "summary.json", "w"), indent=1)
     picks = []
+    fl = lambda v: float(v) if v not in (None, "") else None
     for r in reversed(rows):
+        for m in MKTS:
+            if not r.get(f"o_{m}_pick"):
+                continue
+            e = fl(r.get(f"o_{m}_edge"))
+            picks.append({"basis": "open", "date": r["date"], "game": f"{r['away']} at {r['home']}",
+                          "final": f"{r['away']} {r['away_score']}, {r['home']} {r['home_score']}" + ("" if r["final_type"] == "REG" else f" ({r['final_type']})"),
+                          "market": m, "pick": r[f"o_{m}_pick"], "odds": r.get(f"o_{m}_odds") or None, "edge": e,
+                          "strong": e is not None and e >= STRONG, "result": r[f"o_{m}_result"], "units": fl(r.get(f"o_{m}_units")),
+                          "clv": fl(r.get(f"o_{m}_clv")), "locked": r.get("lock_time")})
         for m in MKTS:
             if not r.get(f"{m}_pick"):
                 continue
-            picks.append({"date": r["date"], "game": f"{r['away']} at {r['home']}",
+            picks.append({"basis": "close", "date": r["date"], "game": f"{r['away']} at {r['home']}",
                           "final": f"{r['away']} {r['away_score']}, {r['home']} {r['home_score']}" + ("" if r["final_type"] == "REG" else f" ({r['final_type']})"),
                           "market": m, "pick": r[f"{m}_pick"], "odds": r.get(f"{m}_odds") or None,
                           "edge": float(r[f"{m}_edge"]) if r.get(f"{m}_edge") else None,

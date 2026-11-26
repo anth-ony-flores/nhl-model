@@ -152,5 +152,155 @@
   "ml": "Moneyline",
   "pl": "Puck line",
   "tot": "Total"
+ },
+ "open": {
+  "games": 231,
+  "record": {
+   "su": {
+    "w": 138,
+    "l": 93,
+    "p": 0,
+    "pct": 0.5974
+   },
+   "ml": {
+    "w": 122,
+    "l": 108,
+    "p": 0,
+    "pct": 0.5304,
+    "units": 4.48,
+    "roi": 0.0195
+   },
+   "pl": {
+    "w": 132,
+    "l": 98,
+    "p": 0,
+    "pct": 0.5739,
+    "units": 9.86,
+    "roi": 0.0429
+   },
+   "tot": {
+    "w": 117,
+    "l": 111,
+    "p": 0,
+    "pct": 0.5132,
+    "units": -7.32,
+    "roi": -0.0321
+   }
+  },
+  "strong": {
+   "ml": {
+    "w": 56,
+    "l": 47,
+    "p": 0,
+    "pct": 0.5437,
+    "units": 5.05,
+    "roi": 0.049
+   },
+   "pl": {
+    "w": 66,
+    "l": 40,
+    "p": 0,
+    "pct": 0.6226,
+    "units": 9.01,
+    "roi": 0.085
+   },
+   "tot": {
+    "w": 72,
+    "l": 76,
+    "p": 0,
+    "pct": 0.4865,
+    "units": -12.83,
+    "roi": -0.0867
+   }
+  },
+  "last7": {
+   "su": {
+    "w": 30,
+    "l": 23,
+    "p": 0,
+    "pct": 0.566
+   },
+   "ml": {
+    "w": 30,
+    "l": 22,
+    "p": 0,
+    "pct": 0.5769,
+    "units": 3.49,
+    "roi": 0.0671
+   },
+   "pl": {
+    "w": 30,
+    "l": 23,
+    "p": 0,
+    "pct": 0.566,
+    "units": 3.14,
+    "roi": 0.0593
+   },
+   "tot": {
+    "w": 24,
+    "l": 29,
+    "p": 0,
+    "pct": 0.4528,
+    "units": -6.99,
+    "roi": -0.132
+   }
+  },
+  "all_picks": {
+   "w": 371,
+   "l": 317,
+   "p": 0,
+   "pct": 0.5392,
+   "units": 7.02,
+   "roi": 0.0102
+  },
+  "strong_all": {
+   "w": 194,
+   "l": 163,
+   "p": 0,
+   "pct": 0.5434,
+   "units": 1.23,
+   "roi": 0.0034
+  },
+  "clv": {
+   "ml": {
+    "n": 230,
+    "avg_pts": 1.22,
+    "beat_close_pct": 0.613
+   },
+   "pl": {
+    "n": 206,
+    "avg_pts": 1.1,
+    "beat_close_pct": 0.6214
+   },
+   "tot": {
+    "n": 196,
+    "avg_pts": 0.11,
+    "beat_close_pct": 0.449
+   }
+  },
+  "clv_strong": {
+   "ml": {
+    "n": 103,
+    "avg_pts": 1.91,
+    "beat_close_pct": 0.7573
+   },
+   "pl": {
+    "n": 93,
+    "avg_pts": 1.86,
+    "beat_close_pct": 0.7634
+   },
+   "tot": {
+    "n": 128,
+    "avg_pts": 0.37,
+    "beat_close_pct": 0.4922
+   }
+  },
+  "logloss": {
+   "games": 231,
+   "model_lock": 0.6667,
+   "market_open": 0.6692,
+   "market_close": 0.6592
+  },
+  "rules": "Picks are made from the day's first (morning) projection, locked, against DraftKings' opening prices, and graded at those prices, 1 unit per pick. Line movement = closing vig-free probability of the picked side minus its opening probability (positive: the market moved toward the pick)."
  }
 }

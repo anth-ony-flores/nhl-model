@@ -38,3 +38,12 @@ Scheduled runs on GitHub can start a few minutes late. Goalie confirmations and 
 - ESPN injury feed, Daily Faceoff and team reporters for lineup news.
 
 No team logos are used.
+
+
+## Pick tracking: bet at the opening line (primary)
+The first projection each game day (the morning run) is locked per game in `out/lock_DAY.json` and never
+changed. Picks are made from that lock against DraftKings' opening prices and graded at those prices, the
+bet you could place early. Line movement (closing line value) is the closing vig-free probability of the
+picked side minus its opening probability. The older record (latest projection vs the closing line) is kept
+alongside for comparison. Games before Nov 26, 2026 were backfilled from the earliest committed board of each
+day (`scripts/backfill_open.py`); one day (Oct 24) was first committed in the afternoon.

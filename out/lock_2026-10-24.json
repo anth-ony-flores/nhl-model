@@ -1,0 +1,336 @@
+{
+ "day": "2026-10-24",
+ "games": {
+  "2026020169": {
+   "home": "NJD",
+   "away": "LAK",
+   "locked": "2026-10-24 11:05 MST",
+   "p_home": 0.5952,
+   "exp_total": 5.82,
+   "totals": {
+    "5.5": {
+     "over": 0.5127,
+     "under": 0.4873
+    },
+    "6.0": {
+     "over": 0.3705,
+     "under": 0.4873
+    },
+    "6.5": {
+     "over": 0.3705,
+     "under": 0.6295
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3746,
+    "away_+1.5": 0.6254,
+    "away_-1.5": 0.2245,
+    "home_+1.5": 0.7755
+   },
+   "home_goalie": "Jake Allen",
+   "away_goalie": "Darcy Kuemper",
+   "backfilled": true
+  },
+  "2026020170": {
+   "home": "BOS",
+   "away": "SJS",
+   "locked": "2026-10-24 11:05 MST",
+   "p_home": 0.6518,
+   "exp_total": 6.44,
+   "totals": {
+    "5.5": {
+     "over": 0.615,
+     "under": 0.385
+    },
+    "6.0": {
+     "over": 0.4721,
+     "under": 0.385
+    },
+    "6.5": {
+     "over": 0.4721,
+     "under": 0.5279
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.4401,
+    "away_+1.5": 0.5599,
+    "away_-1.5": 0.1932,
+    "home_+1.5": 0.8068
+   },
+   "home_goalie": "Jeremy Swayman",
+   "away_goalie": "Yaroslav Askarov",
+   "backfilled": true
+  },
+  "2026020171": {
+   "home": "OTT",
+   "away": "NYR",
+   "locked": "2026-10-24 11:05 MST",
+   "p_home": 0.5238,
+   "exp_total": 5.97,
+   "totals": {
+    "5.5": {
+     "over": 0.5382,
+     "under": 0.4618
+    },
+    "6.0": {
+     "over": 0.3961,
+     "under": 0.4618
+    },
+    "6.5": {
+     "over": 0.3961,
+     "under": 0.6039
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3165,
+    "away_+1.5": 0.6835,
+    "away_-1.5": 0.279,
+    "home_+1.5": 0.721
+   },
+   "home_goalie": "Jonas Johansson",
+   "away_goalie": "Dylan Garand",
+   "backfilled": true
+  },
+  "2026020172": {
+   "home": "PIT",
+   "away": "NSH",
+   "locked": "2026-10-24 11:05 MST",
+   "p_home": 0.5709,
+   "exp_total": 6.68,
+   "totals": {
+    "5.5": {
+     "over": 0.6494,
+     "under": 0.3506
+    },
+    "6.0": {
+     "over": 0.5107,
+     "under": 0.3506
+    },
+    "6.5": {
+     "over": 0.5107,
+     "under": 0.4893
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3685,
+    "away_+1.5": 0.6315,
+    "away_-1.5": 0.2532,
+    "home_+1.5": 0.7468
+   },
+   "home_goalie": "Arturs Silovs",
+   "away_goalie": "Juuse Saros",
+   "backfilled": true
+  },
+  "2026020173": {
+   "home": "WSH",
+   "away": "BUF",
+   "locked": "2026-10-24 11:05 MST",
+   "p_home": 0.5074,
+   "exp_total": 6.92,
+   "totals": {
+    "5.5": {
+     "over": 0.6839,
+     "under": 0.3161
+    },
+    "6.0": {
+     "over": 0.5494,
+     "under": 0.3161
+    },
+    "6.5": {
+     "over": 0.5494,
+     "under": 0.4506
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3179,
+    "away_+1.5": 0.6821,
+    "away_-1.5": 0.3058,
+    "home_+1.5": 0.6942
+   },
+   "home_goalie": "Charlie Lindgren",
+   "away_goalie": "Ukko-Pekka Luukkonen",
+   "backfilled": true
+  },
+  "2026020174": {
+   "home": "CBJ",
+   "away": "VGK",
+   "locked": "2026-10-24 11:05 MST",
+   "p_home": 0.422,
+   "exp_total": 6.23,
+   "totals": {
+    "5.5": {
+     "over": 0.5811,
+     "under": 0.4189
+    },
+    "6.0": {
+     "over": 0.4385,
+     "under": 0.4189
+    },
+    "6.5": {
+     "over": 0.4385,
+     "under": 0.5615
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.2423,
+    "away_+1.5": 0.7577,
+    "away_-1.5": 0.3672,
+    "home_+1.5": 0.6328
+   },
+   "home_goalie": "Cam Talbot",
+   "away_goalie": "Adin Hill",
+   "backfilled": true
+  },
+  "2026020175": {
+   "home": "STL",
+   "away": "CAR",
+   "locked": "2026-10-24 11:05 MST",
+   "p_home": 0.4348,
+   "exp_total": 5.92,
+   "totals": {
+    "5.5": {
+     "over": 0.5303,
+     "under": 0.4697
+    },
+    "6.0": {
+     "over": 0.3879,
+     "under": 0.4697
+    },
+    "6.5": {
+     "over": 0.3879,
+     "under": 0.6121
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.2473,
+    "away_+1.5": 0.7527,
+    "away_-1.5": 0.3503,
+    "home_+1.5": 0.6497
+   },
+   "home_goalie": "Joel Hofer",
+   "away_goalie": "Pyotr Kochetkov",
+   "backfilled": true
+  },
+  "2026020176": {
+   "home": "EDM",
+   "away": "TOR",
+   "locked": "2026-10-24 11:05 MST",
+   "p_home": 0.5679,
+   "exp_total": 6.57,
+   "totals": {
+    "5.5": {
+     "over": 0.6345,
+     "under": 0.3655
+    },
+    "6.0": {
+     "over": 0.4946,
+     "under": 0.3655
+    },
+    "6.5": {
+     "over": 0.4946,
+     "under": 0.5054
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3642,
+    "away_+1.5": 0.6358,
+    "away_-1.5": 0.2542,
+    "home_+1.5": 0.7458
+   },
+   "home_goalie": "Tristan Jarry",
+   "away_goalie": "Sergei Bobrovsky",
+   "backfilled": true
+  },
+  "2026020177": {
+   "home": "UTA",
+   "away": "TBL",
+   "locked": "2026-10-24 11:05 MST",
+   "p_home": 0.5325,
+   "exp_total": 6.04,
+   "totals": {
+    "5.5": {
+     "over": 0.5499,
+     "under": 0.4501
+    },
+    "6.0": {
+     "over": 0.4076,
+     "under": 0.4501
+    },
+    "6.5": {
+     "over": 0.4076,
+     "under": 0.5924
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3249,
+    "away_+1.5": 0.6751,
+    "away_-1.5": 0.2734,
+    "home_+1.5": 0.7266
+   },
+   "home_goalie": "Karel Vejmelka",
+   "away_goalie": "Dennis Hildeby",
+   "backfilled": true
+  },
+  "2026020178": {
+   "home": "CGY",
+   "away": "DET",
+   "locked": "2026-10-24 11:05 MST",
+   "p_home": 0.4305,
+   "exp_total": 6.14,
+   "totals": {
+    "5.5": {
+     "over": 0.5661,
+     "under": 0.4339
+    },
+    "6.0": {
+     "over": 0.4234,
+     "under": 0.4339
+    },
+    "6.5": {
+     "over": 0.4234,
+     "under": 0.5766
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.2472,
+    "away_+1.5": 0.7528,
+    "away_-1.5": 0.3581,
+    "home_+1.5": 0.6419
+   },
+   "home_goalie": "Dustin Wolf",
+   "away_goalie": "Daniil Tarasov",
+   "backfilled": true
+  },
+  "2026020179": {
+   "home": "SEA",
+   "away": "MIN",
+   "locked": "2026-10-24 11:05 MST",
+   "p_home": 0.389,
+   "exp_total": 6.0,
+   "totals": {
+    "5.5": {
+     "over": 0.5429,
+     "under": 0.4571
+    },
+    "6.0": {
+     "over": 0.3995,
+     "under": 0.4571
+    },
+    "6.5": {
+     "over": 0.3995,
+     "under": 0.6005
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.2159,
+    "away_+1.5": 0.7841,
+    "away_-1.5": 0.3925,
+    "home_+1.5": 0.6075
+   },
+   "home_goalie": "Philipp Grubauer",
+   "away_goalie": "Jesper Wallstedt",
+   "backfilled": true
+  }
+ },
+ "backfilled_from": "git history of out/board_2026-10-24.json"
+}

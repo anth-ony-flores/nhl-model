@@ -1,0 +1,144 @@
+{
+ "day": "2026-11-06",
+ "games": {
+  "2026020262": {
+   "home": "BUF",
+   "away": "CBJ",
+   "locked": "2026-11-06 07:31 MST",
+   "p_home": 0.5804,
+   "exp_total": 5.98,
+   "totals": {
+    "4.5": {
+     "over": 0.7303,
+     "under": 0.2697
+    },
+    "5.0": {
+     "over": 0.5398,
+     "under": 0.2697
+    },
+    "5.5": {
+     "over": 0.5398,
+     "under": 0.4602
+    },
+    "6.0": {
+     "over": 0.397,
+     "under": 0.4602
+    },
+    "6.5": {
+     "over": 0.397,
+     "under": 0.603
+    },
+    "7.0": {
+     "over": 0.2378,
+     "under": 0.603
+    },
+    "7.5": {
+     "over": 0.2378,
+     "under": 0.7622
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3646,
+    "away_+1.5": 0.6354,
+    "away_-1.5": 0.2372,
+    "home_+1.5": 0.7628
+   },
+   "home_goalie": "Ukko-Pekka Luukkonen",
+   "away_goalie": "Jet Greaves",
+   "backfilled": true
+  },
+  "2026020263": {
+   "home": "MIN",
+   "away": "SJS",
+   "locked": "2026-11-06 07:31 MST",
+   "p_home": 0.7578,
+   "exp_total": 6.5,
+   "totals": {
+    "4.5": {
+     "over": 0.7919,
+     "under": 0.2081
+    },
+    "5.0": {
+     "over": 0.6266,
+     "under": 0.2081
+    },
+    "5.5": {
+     "over": 0.6266,
+     "under": 0.3734
+    },
+    "6.0": {
+     "over": 0.4802,
+     "under": 0.3734
+    },
+    "6.5": {
+     "over": 0.4802,
+     "under": 0.5198
+    },
+    "7.0": {
+     "over": 0.3156,
+     "under": 0.5198
+    },
+    "7.5": {
+     "over": 0.3156,
+     "under": 0.6844
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.5554,
+    "away_+1.5": 0.4446,
+    "away_-1.5": 0.1262,
+    "home_+1.5": 0.8738
+   },
+   "home_goalie": "Jesper Wallstedt",
+   "away_goalie": "Yaroslav Askarov",
+   "backfilled": true
+  },
+  "2026020264": {
+   "home": "CGY",
+   "away": "ANA",
+   "locked": "2026-11-06 07:31 MST",
+   "p_home": 0.5753,
+   "exp_total": 6.21,
+   "totals": {
+    "4.5": {
+     "over": 0.7601,
+     "under": 0.2399
+    },
+    "5.0": {
+     "over": 0.5783,
+     "under": 0.2399
+    },
+    "5.5": {
+     "over": 0.5783,
+     "under": 0.4217
+    },
+    "6.0": {
+     "over": 0.4357,
+     "under": 0.4217
+    },
+    "6.5": {
+     "over": 0.4357,
+     "under": 0.5643
+    },
+    "7.0": {
+     "over": 0.2709,
+     "under": 0.5643
+    },
+    "7.5": {
+     "over": 0.2709,
+     "under": 0.7291
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3645,
+    "away_+1.5": 0.6355,
+    "away_-1.5": 0.2441,
+    "home_+1.5": 0.7559
+   },
+   "home_goalie": "Devin Cooley",
+   "away_goalie": "Lukas Dostal",
+   "backfilled": true
+  }
+ },
+ "backfilled_from": "git history of out/board_2026-11-06.json"
+}

@@ -184,6 +184,19 @@ def main(day):
              "games": out_games, "ratings": rat, "scorecard": sc.to_dict("records"),
              "calibration": cal.to_dict("records"), "market_calibration": mc["markets"],
              "goals_per_xg": round(c_t, 4), "params": P}
+    # lock: the first projection of the day for each game, never overwritten. Picks against DraftKings'
+    # opening line are made from this snapshot (the bet you could place early), see picks.open_picks.
+    lock_p = OUT / f"lock_{day}.json"
+    LK = json.load(open(lock_p)) if lock_p.exists() else {"day": day, "games": {}}
+    for g in out_games:
+        if str(g["id"]) not in LK["games"] and pd.Timestamp(g["start_utc"]) > pd.Timestamp.now(tz="UTC"):
+            LK["games"][str(g["id"])] = {"home": g["home"], "away": g["away"], "locked": board["generated"],
+                                         "p_home": g["p_home"], "exp_total": g["exp_total"], "totals": g["totals"],
+                                         "puck_line": g["puck_line"],
+                                         "home_goalie": g["home_goalie"]["name"], "away_goalie": g["away_goalie"]["name"]}
+    json.dump(LK, open(lock_p, "w"), indent=1, default=float)
+    for g in board["games"]:
+        g["lock"] = LK["games"].get(str(g["id"]))
     # freeze games already started at their last pre-game numbers
     prev_p = OUT / f"board_{day}.json"
     if prev_p.exists():

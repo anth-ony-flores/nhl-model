@@ -1,0 +1,98 @@
+{
+ "day": "2026-11-16",
+ "games": {
+  "2026020331": {
+   "home": "NYR",
+   "away": "MTL",
+   "locked": "2026-11-16 08:59 MST",
+   "p_home": 0.5009,
+   "exp_total": 6.16,
+   "totals": {
+    "4.5": {
+     "over": 0.7541,
+     "under": 0.2459
+    },
+    "5.0": {
+     "over": 0.57,
+     "under": 0.2459
+    },
+    "5.5": {
+     "over": 0.57,
+     "under": 0.43
+    },
+    "6.0": {
+     "over": 0.4278,
+     "under": 0.43
+    },
+    "6.5": {
+     "over": 0.4278,
+     "under": 0.5722
+    },
+    "7.0": {
+     "over": 0.2636,
+     "under": 0.5722
+    },
+    "7.5": {
+     "over": 0.2636,
+     "under": 0.7364
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3013,
+    "away_+1.5": 0.6987,
+    "away_-1.5": 0.2999,
+    "home_+1.5": 0.7001
+   },
+   "home_goalie": "Dylan Garand",
+   "away_goalie": "Jacob Fowler",
+   "backfilled": true
+  },
+  "2026020332": {
+   "home": "UTA",
+   "away": "VAN",
+   "locked": "2026-11-16 08:59 MST",
+   "p_home": 0.8043,
+   "exp_total": 6.82,
+   "totals": {
+    "4.5": {
+     "over": 0.8241,
+     "under": 0.1759
+    },
+    "5.0": {
+     "over": 0.6742,
+     "under": 0.1759
+    },
+    "5.5": {
+     "over": 0.6742,
+     "under": 0.3258
+    },
+    "6.0": {
+     "over": 0.5303,
+     "under": 0.3258
+    },
+    "6.5": {
+     "over": 0.5303,
+     "under": 0.4697
+    },
+    "7.0": {
+     "over": 0.3652,
+     "under": 0.4697
+    },
+    "7.5": {
+     "over": 0.3652,
+     "under": 0.6348
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.6186,
+    "away_+1.5": 0.3814,
+    "away_-1.5": 0.1005,
+    "home_+1.5": 0.8995
+   },
+   "home_goalie": "Karel Vejmelka",
+   "away_goalie": "Kevin Lankinen",
+   "backfilled": true
+  }
+ },
+ "backfilled_from": "git history of out/board_2026-11-16.json"
+}

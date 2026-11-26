@@ -152,6 +152,32 @@ function makePicks(g, o) {
   P.mh = mh;
   return P;
 }
+/* Locked picks: the day's first projection (g.lock) against DraftKings' OPENING prices, the earliest bet available.
+   Same rules as src/picks.py open_picks(); these are the picks the primary record grades, at the opening odds. */
+function openOdds(o) {
+  const r = o && o.raw; if (!r || !r.moneyline) return null;
+  const op = (d, s) => (d && d[s] && d[s].open) || {};
+  const ml = {home: {open: op(r.moneyline, 'home').odds || null, close: null}, away: {open: op(r.moneyline, 'away').odds || null, close: null}};
+  let total = null;
+  if (r.total) { const ov = op(r.total, 'over'), un = op(r.total, 'under'); const line = parseFloat(String(ov.line || '').replace(/[ou]/, '')); if (isFinite(line)) total = {line, over: ov.odds, under: un.odds}; }
+  let spread = null;
+  if (r.pointSpread) { const h = op(r.pointSpread, 'home'), a = op(r.pointSpread, 'away'); if (h.line != null) spread = {home: {line: parseFloat(h.line), odds: h.odds}, away: {line: parseFloat(a.line), odds: a.odds}}; }
+  return {book: o.book, ml, total, spread, raw: r};
+}
+function lockedPicks(g, o) {
+  if (!g.lock) return null;
+  const oo = openOdds(o); if (!oo) return null;
+  const L = Object.assign({}, g, g.lock), P = makePicks(L, oo);
+  const oddsOf = (m, x) => {
+    if (!x || !x.pick) return null;
+    if (m === 'ml') return x.pick.startsWith(g.home + ' ') ? oo.ml.home.open : oo.ml.away.open;
+    if (m === 'pl') { const home = x.pick.startsWith(g.home + ' '); return home ? oo.spread.home.odds : oo.spread.away.odds; }
+    return x.pick.startsWith('Over') ? oo.total.over : oo.total.under;
+  };
+  for (const m of ['ml', 'pl', 'tot']) if (P[m] && P[m].pick) P[m].odds = oddsOf(m, P[m]);
+  P.oo = oo; P.L = L;
+  return P;
+}
 function gradeOf(kind, x, g, G) {
   if (!G || G.state !== 'post' || !x || !x.pick) return null;
   const hs = G.hs, as = G.as, home = x.pick.startsWith(g.home + ' ');
@@ -182,7 +208,17 @@ function marketHTML(g, G) {
     rows.push(`<div class="dkr"><span class="dkl">Puck line</span><span>${esc(x.fav)} −1.5 ${fmtO(x.fo)} / ${esc(x.dog)} +1.5 ${fmtO(x.dO)}</span><span>${x.mf != null ? 'Market ' + esc(x.fav) + ' covers ' + pc1(x.mf) : ''} · Model ${pc1(x.modFav)}</span><span>${pickTxt(x)}${resChip(gradeOf('pl', x, g, G))}</span></div>`);
   }
   const pre = !(G && G.state !== 'pre');
-  return `<div class="dkh"><span class="dl">${esc(o.book)} vs model</span><span class="nm">Market % has the vig removed. ${pre ? 'Current line; picks are graded at the closing line.' : 'Closing line; these are the graded picks.'}</span></div>` + rows.join('');
+  const LP = lockedPicks(g, o);
+  let lock = '';
+  if (LP) {
+    const t = (g.lock.locked || '').slice(11, 16);
+    const one = (lab, m, x) => x && x.pick
+      ? `<div class="dkr lk"><span class="dkl">${lab}</span><span><span class="pk${x.edge >= STRONG ? ' strong' : ''}">${esc(x.pick)} ${fmtO(x.odds)}</span></span><span>Edge ${pp(x.edge)} vs open</span><span>${resChip(gradeOf(m, x, g, G))}</span></div>`
+      : `<div class="dkr lk"><span class="dkl">${lab}</span><span class="nm">${m === 'tot' && LP.oo.total && LP.totInfo && LP.totInfo.mod == null ? 'No model number at the opening total' : 'No pick'}</span><span></span><span></span></div>`;
+    lock = `<div class="dkh"><span class="dl">Locked picks vs ${esc(o.book)} opening line</span><span class="nm">Model locked ${esc(t)} MST, before goalie and lineup news. These are the graded picks, at the opening odds.</span></div>`
+      + one('Moneyline', 'ml', LP.ml) + one('Puck line', 'pl', LP.pl) + one('Total' + (LP.oo.total ? ' ' + LP.oo.total.line : ''), 'tot', LP.tot);
+  }
+  return lock + `<div class="dkh"><span class="dl">${esc(o.book)} ${pre ? 'current line' : 'closing line'} vs latest model</span><span class="nm">Market % has the vig removed. For reference: the latest projection against the ${pre ? 'current' : 'closing'} line (tracked separately).</span></div>` + rows.join('');
 }
 
 
@@ -209,7 +245,7 @@ function moveCell(o, c, oo, co, label) {
 function movementHTML(g, G, k) {
   const o = G && (G.closeOdds || G.odds);
   if (!o || !o.raw) return '';
-  const raw = o.raw, P = makePicks(g, o), started = G.state !== 'pre';
+  const raw = o.raw, P = lockedPicks(g, o) || makePicks(g, o), started = G.state !== 'pre';
   const rows = [];
   const add = (name, mkt, side, other, sideLbl, picked) => {
     const op = px(raw, mkt, side, 'open'), cl = px(raw, mkt, side, 'close'), lv = px(raw, mkt, side, 'live');
@@ -234,7 +270,7 @@ function movementHTML(g, G, k) {
   const open = LIVE.mvOpen[k] ? ' open' : '';
   return `<details class="mx mv" data-k="${esc(k)}"${open}><summary><span class="xt">Line movement</span><span class="xh">${esc(o.book)} open vs ${started ? 'close vs live' : 'now'}</span><span class="chev" aria-hidden="true"></span></summary>
     <div class="tbl"><table class="mvt"><tr><th>Market</th><th>Side</th><th>Open</th><th>${started ? 'Close' : 'Now'}</th>${started ? '<th>Live</th>' : ''}<th>${started ? 'Open to close' : 'Move so far'}</th></tr>${rows.join('')}</table></div>
-    <p class="mxnote">Percentages have the vig removed, shown for the side listed. A move toward the model's pick before puck drop is a good sign the model saw something the market later agreed with.${started ? ' Live prices reflect the score and clock, so they are not a fair comparison to the pre-game line.' : ''}</p></details>`;
+    <p class="mxnote">Percentages have the vig removed, shown for the side listed. Pick is the locked pick made at the opening line. A move toward it means the market later agreed with the model (closing line value), the best single sign of a real edge.${started ? ' Live prices reflect the score and clock, so they are not a fair comparison to the pre-game line.' : ''}</p></details>`;
 }
 document.addEventListener('toggle', e => { const d = e.target; if (d.matches && d.matches('details.mv')) LIVE.mvOpen[d.dataset.k] = d.open; }, true);
 

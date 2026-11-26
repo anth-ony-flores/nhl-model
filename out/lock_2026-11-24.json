@@ -1,0 +1,52 @@
+{
+ "day": "2026-11-24",
+ "games": {
+  "2026020385": {
+   "home": "EDM",
+   "away": "VGK",
+   "locked": "2026-11-24 07:37 MST",
+   "p_home": 0.4852,
+   "exp_total": 6.09,
+   "totals": {
+    "4.5": {
+     "over": 0.7446,
+     "under": 0.2554
+    },
+    "5.0": {
+     "over": 0.5576,
+     "under": 0.2554
+    },
+    "5.5": {
+     "over": 0.5576,
+     "under": 0.4424
+    },
+    "6.0": {
+     "over": 0.4153,
+     "under": 0.4424
+    },
+    "6.5": {
+     "over": 0.4153,
+     "under": 0.5847
+    },
+    "7.0": {
+     "over": 0.2528,
+     "under": 0.5847
+    },
+    "7.5": {
+     "over": 0.2528,
+     "under": 0.7472
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.2878,
+    "away_+1.5": 0.7122,
+    "away_-1.5": 0.3112,
+    "home_+1.5": 0.6888
+   },
+   "home_goalie": "Devon Levi",
+   "away_goalie": "Carter Hart",
+   "backfilled": true
+  }
+ },
+ "backfilled_from": "git history of out/board_2026-11-24.json"
+}

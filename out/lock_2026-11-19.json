@@ -1,0 +1,558 @@
+{
+ "day": "2026-11-19",
+ "games": {
+  "2026020347": {
+   "home": "TOR",
+   "away": "LAK",
+   "locked": "2026-11-19 07:31 MST",
+   "p_home": 0.5059,
+   "exp_total": 6.17,
+   "totals": {
+    "4.5": {
+     "over": 0.7548,
+     "under": 0.2452
+    },
+    "5.0": {
+     "over": 0.5708,
+     "under": 0.2452
+    },
+    "5.5": {
+     "over": 0.5708,
+     "under": 0.4292
+    },
+    "6.0": {
+     "over": 0.4287,
+     "under": 0.4292
+    },
+    "6.5": {
+     "over": 0.4287,
+     "under": 0.5713
+    },
+    "7.0": {
+     "over": 0.2643,
+     "under": 0.5713
+    },
+    "7.5": {
+     "over": 0.2643,
+     "under": 0.7357
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3054,
+    "away_+1.5": 0.6946,
+    "away_-1.5": 0.296,
+    "home_+1.5": 0.704
+   },
+   "home_goalie": "Sergei Bobrovsky",
+   "away_goalie": "Darcy Kuemper",
+   "backfilled": true
+  },
+  "2026020348": {
+   "home": "OTT",
+   "away": "PHI",
+   "locked": "2026-11-19 07:31 MST",
+   "p_home": 0.5843,
+   "exp_total": 6.05,
+   "totals": {
+    "4.5": {
+     "over": 0.7398,
+     "under": 0.2602
+    },
+    "5.0": {
+     "over": 0.552,
+     "under": 0.2602
+    },
+    "5.5": {
+     "over": 0.552,
+     "under": 0.448
+    },
+    "6.0": {
+     "over": 0.409,
+     "under": 0.448
+    },
+    "6.5": {
+     "over": 0.409,
+     "under": 0.591
+    },
+    "7.0": {
+     "over": 0.248,
+     "under": 0.591
+    },
+    "7.5": {
+     "over": 0.248,
+     "under": 0.752
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3695,
+    "away_+1.5": 0.6305,
+    "away_-1.5": 0.2354,
+    "home_+1.5": 0.7646
+   },
+   "home_goalie": "Samuel Ersson",
+   "away_goalie": "Joseph Woll",
+   "backfilled": true
+  },
+  "2026020350": {
+   "home": "PIT",
+   "away": "STL",
+   "locked": "2026-11-19 07:31 MST",
+   "p_home": 0.4447,
+   "exp_total": 6.27,
+   "totals": {
+    "4.5": {
+     "over": 0.7667,
+     "under": 0.2333
+    },
+    "5.0": {
+     "over": 0.587,
+     "under": 0.2333
+    },
+    "5.5": {
+     "over": 0.587,
+     "under": 0.413
+    },
+    "6.0": {
+     "over": 0.4448,
+     "under": 0.413
+    },
+    "6.5": {
+     "over": 0.4448,
+     "under": 0.5552
+    },
+    "7.0": {
+     "over": 0.2787,
+     "under": 0.5552
+    },
+    "7.5": {
+     "over": 0.2787,
+     "under": 0.7213
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.2596,
+    "away_+1.5": 0.7404,
+    "away_-1.5": 0.3481,
+    "home_+1.5": 0.6519
+   },
+   "home_goalie": "Arturs Silovs",
+   "away_goalie": "Joel Hofer",
+   "backfilled": true
+  },
+  "2026020351": {
+   "home": "WSH",
+   "away": "BUF",
+   "locked": "2026-11-19 07:31 MST",
+   "p_home": 0.5734,
+   "exp_total": 6.62,
+   "totals": {
+    "4.5": {
+     "over": 0.8056,
+     "under": 0.1944
+    },
+    "5.0": {
+     "over": 0.641,
+     "under": 0.1944
+    },
+    "5.5": {
+     "over": 0.641,
+     "under": 0.359
+    },
+    "6.0": {
+     "over": 0.5015,
+     "under": 0.359
+    },
+    "6.5": {
+     "over": 0.5015,
+     "under": 0.4985
+    },
+    "7.0": {
+     "over": 0.3309,
+     "under": 0.4985
+    },
+    "7.5": {
+     "over": 0.3309,
+     "under": 0.6691
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3699,
+    "away_+1.5": 0.6301,
+    "away_-1.5": 0.2506,
+    "home_+1.5": 0.7494
+   },
+   "home_goalie": "Logan Thompson",
+   "away_goalie": "Colten Ellis",
+   "backfilled": true
+  },
+  "2026020352": {
+   "home": "CAR",
+   "away": "MTL",
+   "locked": "2026-11-19 07:31 MST",
+   "p_home": 0.7254,
+   "exp_total": 6.19,
+   "totals": {
+    "4.5": {
+     "over": 0.756,
+     "under": 0.244
+    },
+    "5.0": {
+     "over": 0.5769,
+     "under": 0.244
+    },
+    "5.5": {
+     "over": 0.5769,
+     "under": 0.4231
+    },
+    "6.0": {
+     "over": 0.4297,
+     "under": 0.4231
+    },
+    "6.5": {
+     "over": 0.4297,
+     "under": 0.5703
+    },
+    "7.0": {
+     "over": 0.2691,
+     "under": 0.5703
+    },
+    "7.5": {
+     "over": 0.2691,
+     "under": 0.7309
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.5119,
+    "away_+1.5": 0.4881,
+    "away_-1.5": 0.1435,
+    "home_+1.5": 0.8565
+   },
+   "home_goalie": "Pyotr Kochetkov",
+   "away_goalie": "Jakub Dobes",
+   "backfilled": true
+  },
+  "2026020354": {
+   "home": "WPG",
+   "away": "NYI",
+   "locked": "2026-11-19 07:31 MST",
+   "p_home": 0.4947,
+   "exp_total": 6.0,
+   "totals": {
+    "4.5": {
+     "over": 0.7333,
+     "under": 0.2667
+    },
+    "5.0": {
+     "over": 0.543,
+     "under": 0.2667
+    },
+    "5.5": {
+     "over": 0.543,
+     "under": 0.457
+    },
+    "6.0": {
+     "over": 0.4008,
+     "under": 0.457
+    },
+    "6.5": {
+     "over": 0.4008,
+     "under": 0.5992
+    },
+    "7.0": {
+     "over": 0.2405,
+     "under": 0.5992
+    },
+    "7.5": {
+     "over": 0.2405,
+     "under": 0.7595
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.2938,
+    "away_+1.5": 0.7062,
+    "away_-1.5": 0.3021,
+    "home_+1.5": 0.6979
+   },
+   "home_goalie": "Stuart Skinner",
+   "away_goalie": "Ilya Sorokin",
+   "backfilled": true
+  },
+  "2026020349": {
+   "home": "TBL",
+   "away": "EDM",
+   "locked": "2026-11-19 07:31 MST",
+   "p_home": 0.6237,
+   "exp_total": 5.99,
+   "totals": {
+    "4.5": {
+     "over": 0.7319,
+     "under": 0.2681
+    },
+    "5.0": {
+     "over": 0.5425,
+     "under": 0.2681
+    },
+    "5.5": {
+     "over": 0.5425,
+     "under": 0.4575
+    },
+    "6.0": {
+     "over": 0.3988,
+     "under": 0.4575
+    },
+    "6.5": {
+     "over": 0.3988,
+     "under": 0.6012
+    },
+    "7.0": {
+     "over": 0.2399,
+     "under": 0.6012
+    },
+    "7.5": {
+     "over": 0.2399,
+     "under": 0.7601
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.4042,
+    "away_+1.5": 0.5958,
+    "away_-1.5": 0.2072,
+    "home_+1.5": 0.7928
+   },
+   "home_goalie": "Andrei Vasilevskiy",
+   "away_goalie": "Tristan Jarry",
+   "backfilled": true
+  },
+  "2026020353": {
+   "home": "CHI",
+   "away": "CBJ",
+   "locked": "2026-11-19 07:31 MST",
+   "p_home": 0.4641,
+   "exp_total": 6.01,
+   "totals": {
+    "4.5": {
+     "over": 0.7344,
+     "under": 0.2656
+    },
+    "5.0": {
+     "over": 0.5445,
+     "under": 0.2656
+    },
+    "5.5": {
+     "over": 0.5445,
+     "under": 0.4555
+    },
+    "6.0": {
+     "over": 0.4022,
+     "under": 0.4555
+    },
+    "6.5": {
+     "over": 0.4022,
+     "under": 0.5978
+    },
+    "7.0": {
+     "over": 0.2418,
+     "under": 0.5978
+    },
+    "7.5": {
+     "over": 0.2418,
+     "under": 0.7582
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.2703,
+    "away_+1.5": 0.7297,
+    "away_-1.5": 0.3272,
+    "home_+1.5": 0.6728
+   },
+   "home_goalie": "Spencer Knight",
+   "away_goalie": "Cam Talbot",
+   "backfilled": true
+  },
+  "2026020355": {
+   "home": "CGY",
+   "away": "MIN",
+   "locked": "2026-11-19 07:31 MST",
+   "p_home": 0.2786,
+   "exp_total": 5.97,
+   "totals": {
+    "4.5": {
+     "over": 0.7278,
+     "under": 0.2722
+    },
+    "5.0": {
+     "over": 0.5406,
+     "under": 0.2722
+    },
+    "5.5": {
+     "over": 0.5406,
+     "under": 0.4594
+    },
+    "6.0": {
+     "over": 0.3934,
+     "under": 0.4594
+    },
+    "6.5": {
+     "over": 0.3934,
+     "under": 0.6066
+    },
+    "7.0": {
+     "over": 0.2379,
+     "under": 0.6066
+    },
+    "7.5": {
+     "over": 0.2379,
+     "under": 0.7621
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.1441,
+    "away_+1.5": 0.8559,
+    "away_-1.5": 0.5026,
+    "home_+1.5": 0.4974
+   },
+   "home_goalie": "Dustin Wolf",
+   "away_goalie": "Jesper Wallstedt",
+   "backfilled": true
+  },
+  "2026020356": {
+   "home": "COL",
+   "away": "ANA",
+   "locked": "2026-11-19 07:31 MST",
+   "p_home": 0.5805,
+   "exp_total": 6.78,
+   "totals": {
+    "4.5": {
+     "over": 0.8217,
+     "under": 0.1783
+    },
+    "5.0": {
+     "over": 0.6644,
+     "under": 0.1783
+    },
+    "5.5": {
+     "over": 0.6644,
+     "under": 0.3356
+    },
+    "6.0": {
+     "over": 0.527,
+     "under": 0.3356
+    },
+    "6.5": {
+     "over": 0.527,
+     "under": 0.473
+    },
+    "7.0": {
+     "over": 0.3555,
+     "under": 0.473
+    },
+    "7.5": {
+     "over": 0.3555,
+     "under": 0.6445
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3788,
+    "away_+1.5": 0.6212,
+    "away_-1.5": 0.2473,
+    "home_+1.5": 0.7527
+   },
+   "home_goalie": "Scott Wedgewood",
+   "away_goalie": "Laurent Brossoit",
+   "backfilled": true
+  },
+  "2026020357": {
+   "home": "SEA",
+   "away": "VAN",
+   "locked": "2026-11-19 07:31 MST",
+   "p_home": 0.6052,
+   "exp_total": 6.55,
+   "totals": {
+    "4.5": {
+     "over": 0.7985,
+     "under": 0.2015
+    },
+    "5.0": {
+     "over": 0.6313,
+     "under": 0.2015
+    },
+    "5.5": {
+     "over": 0.6313,
+     "under": 0.3687
+    },
+    "6.0": {
+     "over": 0.4906,
+     "under": 0.3687
+    },
+    "6.5": {
+     "over": 0.4906,
+     "under": 0.5094
+    },
+    "7.0": {
+     "over": 0.321,
+     "under": 0.5094
+    },
+    "7.5": {
+     "over": 0.321,
+     "under": 0.679
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3976,
+    "away_+1.5": 0.6024,
+    "away_-1.5": 0.2267,
+    "home_+1.5": 0.7733
+   },
+   "home_goalie": "Joey Daccord",
+   "away_goalie": "Leevi Merilainen",
+   "backfilled": true
+  },
+  "2026020358": {
+   "home": "VGK",
+   "away": "DAL",
+   "locked": "2026-11-19 07:31 MST",
+   "p_home": 0.5184,
+   "exp_total": 5.75,
+   "totals": {
+    "4.5": {
+     "over": 0.6991,
+     "under": 0.3009
+    },
+    "5.0": {
+     "over": 0.5004,
+     "under": 0.3009
+    },
+    "5.5": {
+     "over": 0.5004,
+     "under": 0.4996
+    },
+    "6.0": {
+     "over": 0.3597,
+     "under": 0.4996
+    },
+    "6.5": {
+     "over": 0.3597,
+     "under": 0.6403
+    },
+    "7.0": {
+     "over": 0.2068,
+     "under": 0.6403
+    },
+    "7.5": {
+     "over": 0.2068,
+     "under": 0.7932
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3082,
+    "away_+1.5": 0.6918,
+    "away_-1.5": 0.2794,
+    "home_+1.5": 0.7206
+   },
+   "home_goalie": "Adin Hill",
+   "away_goalie": "Jake Oettinger",
+   "backfilled": true
+  }
+ },
+ "backfilled_from": "git history of out/board_2026-11-19.json"
+}

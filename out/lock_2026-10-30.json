@@ -1,0 +1,144 @@
+{
+ "day": "2026-10-30",
+ "games": {
+  "2026020214": {
+   "home": "VGK",
+   "away": "NJD",
+   "locked": "2026-10-30 07:26 MST",
+   "p_home": 0.5261,
+   "exp_total": 5.99,
+   "totals": {
+    "4.5": {
+     "over": 0.7317,
+     "under": 0.2683
+    },
+    "5.0": {
+     "over": 0.5409,
+     "under": 0.2683
+    },
+    "5.5": {
+     "over": 0.5409,
+     "under": 0.4591
+    },
+    "6.0": {
+     "over": 0.3988,
+     "under": 0.4591
+    },
+    "6.5": {
+     "over": 0.3988,
+     "under": 0.6012
+    },
+    "7.0": {
+     "over": 0.2388,
+     "under": 0.6012
+    },
+    "7.5": {
+     "over": 0.2388,
+     "under": 0.7612
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3187,
+    "away_+1.5": 0.6813,
+    "away_-1.5": 0.2774,
+    "home_+1.5": 0.7226
+   },
+   "home_goalie": "Adin Hill",
+   "away_goalie": "Jake Allen",
+   "backfilled": true
+  },
+  "2026020215": {
+   "home": "FLA",
+   "away": "WPG",
+   "locked": "2026-10-30 07:26 MST",
+   "p_home": 0.6306,
+   "exp_total": 5.93,
+   "totals": {
+    "4.5": {
+     "over": 0.7239,
+     "under": 0.2761
+    },
+    "5.0": {
+     "over": 0.5326,
+     "under": 0.2761
+    },
+    "5.5": {
+     "over": 0.5326,
+     "under": 0.4674
+    },
+    "6.0": {
+     "over": 0.3889,
+     "under": 0.4674
+    },
+    "6.5": {
+     "over": 0.3889,
+     "under": 0.6111
+    },
+    "7.0": {
+     "over": 0.2318,
+     "under": 0.6111
+    },
+    "7.5": {
+     "over": 0.2318,
+     "under": 0.7682
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.4094,
+    "away_+1.5": 0.5906,
+    "away_-1.5": 0.2018,
+    "home_+1.5": 0.7982
+   },
+   "home_goalie": "Akira Schmid",
+   "away_goalie": "Clay Stevenson",
+   "backfilled": true
+  },
+  "2026020216": {
+   "home": "CGY",
+   "away": "SEA",
+   "locked": "2026-10-30 07:26 MST",
+   "p_home": 0.5324,
+   "exp_total": 5.85,
+   "totals": {
+    "4.5": {
+     "over": 0.7128,
+     "under": 0.2872
+    },
+    "5.0": {
+     "over": 0.5173,
+     "under": 0.2872
+    },
+    "5.5": {
+     "over": 0.5173,
+     "under": 0.4827
+    },
+    "6.0": {
+     "over": 0.3757,
+     "under": 0.4827
+    },
+    "6.5": {
+     "over": 0.3757,
+     "under": 0.6243
+    },
+    "7.0": {
+     "over": 0.2198,
+     "under": 0.6243
+    },
+    "7.5": {
+     "over": 0.2198,
+     "under": 0.7802
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3214,
+    "away_+1.5": 0.6786,
+    "away_-1.5": 0.2704,
+    "home_+1.5": 0.7296
+   },
+   "home_goalie": "Devin Cooley",
+   "away_goalie": "Philipp Grubauer",
+   "backfilled": true
+  }
+ },
+ "backfilled_from": "git history of out/board_2026-10-30.json"
+}

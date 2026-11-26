@@ -1,0 +1,190 @@
+{
+ "day": "2026-10-28",
+ "games": {
+  "2026020199": {
+   "home": "WSH",
+   "away": "PHI",
+   "locked": "2026-10-28 07:23 MST",
+   "p_home": 0.6807,
+   "exp_total": 5.78,
+   "totals": {
+    "4.5": {
+     "over": 0.7021,
+     "under": 0.2979
+    },
+    "5.0": {
+     "over": 0.5072,
+     "under": 0.2979
+    },
+    "5.5": {
+     "over": 0.5072,
+     "under": 0.4928
+    },
+    "6.0": {
+     "over": 0.3627,
+     "under": 0.4928
+    },
+    "6.5": {
+     "over": 0.3627,
+     "under": 0.6373
+    },
+    "7.0": {
+     "over": 0.2116,
+     "under": 0.6373
+    },
+    "7.5": {
+     "over": 0.2116,
+     "under": 0.7884
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.4552,
+    "away_+1.5": 0.5448,
+    "away_-1.5": 0.1674,
+    "home_+1.5": 0.8326
+   },
+   "home_goalie": "Logan Thompson",
+   "away_goalie": "Joseph Woll",
+   "backfilled": true
+  },
+  "2026020200": {
+   "home": "EDM",
+   "away": "CGY",
+   "locked": "2026-10-28 07:23 MST",
+   "p_home": 0.5695,
+   "exp_total": 5.88,
+   "totals": {
+    "4.5": {
+     "over": 0.7175,
+     "under": 0.2825
+    },
+    "5.0": {
+     "over": 0.5235,
+     "under": 0.2825
+    },
+    "5.5": {
+     "over": 0.5235,
+     "under": 0.4765
+    },
+    "6.0": {
+     "over": 0.3813,
+     "under": 0.4765
+    },
+    "6.5": {
+     "over": 0.3813,
+     "under": 0.6187
+    },
+    "7.0": {
+     "over": 0.2246,
+     "under": 0.6187
+    },
+    "7.5": {
+     "over": 0.2246,
+     "under": 0.7754
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3532,
+    "away_+1.5": 0.6468,
+    "away_-1.5": 0.2436,
+    "home_+1.5": 0.7564
+   },
+   "home_goalie": "Devon Levi",
+   "away_goalie": "Devin Cooley",
+   "backfilled": true
+  },
+  "2026020201": {
+   "home": "COL",
+   "away": "NJD",
+   "locked": "2026-10-28 07:23 MST",
+   "p_home": 0.6065,
+   "exp_total": 6.03,
+   "totals": {
+    "4.5": {
+     "over": 0.7375,
+     "under": 0.2625
+    },
+    "5.0": {
+     "over": 0.5493,
+     "under": 0.2625
+    },
+    "5.5": {
+     "over": 0.5493,
+     "under": 0.4507
+    },
+    "6.0": {
+     "over": 0.4059,
+     "under": 0.4507
+    },
+    "6.5": {
+     "over": 0.4059,
+     "under": 0.5941
+    },
+    "7.0": {
+     "over": 0.2457,
+     "under": 0.5941
+    },
+    "7.5": {
+     "over": 0.2457,
+     "under": 0.7543
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3891,
+    "away_+1.5": 0.6109,
+    "away_-1.5": 0.2195,
+    "home_+1.5": 0.7805
+   },
+   "home_goalie": "Mackenzie Blackwood",
+   "away_goalie": "Jake Allen",
+   "backfilled": true
+  },
+  "2026020202": {
+   "home": "SEA",
+   "away": "TOR",
+   "locked": "2026-10-28 07:23 MST",
+   "p_home": 0.4938,
+   "exp_total": 6.54,
+   "totals": {
+    "4.5": {
+     "over": 0.7978,
+     "under": 0.2022
+    },
+    "5.0": {
+     "over": 0.6295,
+     "under": 0.2022
+    },
+    "5.5": {
+     "over": 0.6295,
+     "under": 0.3705
+    },
+    "6.0": {
+     "over": 0.4897,
+     "under": 0.3705
+    },
+    "6.5": {
+     "over": 0.4897,
+     "under": 0.5103
+    },
+    "7.0": {
+     "over": 0.3194,
+     "under": 0.5103
+    },
+    "7.5": {
+     "over": 0.3194,
+     "under": 0.6806
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3014,
+    "away_+1.5": 0.6986,
+    "away_-1.5": 0.3115,
+    "home_+1.5": 0.6885
+   },
+   "home_goalie": "Joey Daccord",
+   "away_goalie": "Sergei Bobrovsky",
+   "backfilled": true
+  }
+ },
+ "backfilled_from": "git history of out/board_2026-10-28.json"
+}

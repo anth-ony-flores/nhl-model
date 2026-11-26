@@ -1,0 +1,144 @@
+{
+ "day": "2026-11-09",
+ "games": {
+  "2026020283": {
+   "home": "EDM",
+   "away": "NYR",
+   "locked": "2026-11-09 07:31 MST",
+   "p_home": 0.5557,
+   "exp_total": 6.29,
+   "totals": {
+    "4.5": {
+     "over": 0.7698,
+     "under": 0.2302
+    },
+    "5.0": {
+     "over": 0.5912,
+     "under": 0.2302
+    },
+    "5.5": {
+     "over": 0.5912,
+     "under": 0.4088
+    },
+    "6.0": {
+     "over": 0.4491,
+     "under": 0.4088
+    },
+    "6.5": {
+     "over": 0.4491,
+     "under": 0.5509
+    },
+    "7.0": {
+     "over": 0.2826,
+     "under": 0.5509
+    },
+    "7.5": {
+     "over": 0.2826,
+     "under": 0.7174
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3489,
+    "away_+1.5": 0.6511,
+    "away_-1.5": 0.2596,
+    "home_+1.5": 0.7404
+   },
+   "home_goalie": "Tristan Jarry",
+   "away_goalie": "Dylan Garand",
+   "backfilled": true
+  },
+  "2026020284": {
+   "home": "VAN",
+   "away": "PHI",
+   "locked": "2026-11-09 07:31 MST",
+   "p_home": 0.467,
+   "exp_total": 5.97,
+   "totals": {
+    "4.5": {
+     "over": 0.7297,
+     "under": 0.2703
+    },
+    "5.0": {
+     "over": 0.5384,
+     "under": 0.2703
+    },
+    "5.5": {
+     "over": 0.5384,
+     "under": 0.4616
+    },
+    "6.0": {
+     "over": 0.3963,
+     "under": 0.4616
+    },
+    "6.5": {
+     "over": 0.3963,
+     "under": 0.6037
+    },
+    "7.0": {
+     "over": 0.2368,
+     "under": 0.6037
+    },
+    "7.5": {
+     "over": 0.2368,
+     "under": 0.7632
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.2719,
+    "away_+1.5": 0.7281,
+    "away_-1.5": 0.3241,
+    "home_+1.5": 0.6759
+   },
+   "home_goalie": "Leevi Merilainen",
+   "away_goalie": "Joseph Woll",
+   "backfilled": true
+  },
+  "2026020285": {
+   "home": "SJS",
+   "away": "NYI",
+   "locked": "2026-11-09 07:31 MST",
+   "p_home": 0.4118,
+   "exp_total": 6.39,
+   "totals": {
+    "4.5": {
+     "over": 0.7814,
+     "under": 0.2186
+    },
+    "5.0": {
+     "over": 0.6073,
+     "under": 0.2186
+    },
+    "5.5": {
+     "over": 0.6073,
+     "under": 0.3927
+    },
+    "6.0": {
+     "over": 0.4655,
+     "under": 0.3927
+    },
+    "6.5": {
+     "over": 0.4655,
+     "under": 0.5345
+    },
+    "7.0": {
+     "over": 0.2976,
+     "under": 0.5345
+    },
+    "7.5": {
+     "over": 0.2976,
+     "under": 0.7024
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.237,
+    "away_+1.5": 0.763,
+    "away_-1.5": 0.3793,
+    "home_+1.5": 0.6207
+   },
+   "home_goalie": "Yaroslav Askarov",
+   "away_goalie": "Ilya Sorokin",
+   "backfilled": true
+  }
+ },
+ "backfilled_from": "git history of out/board_2026-11-09.json"
+}

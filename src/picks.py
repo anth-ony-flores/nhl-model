@@ -205,3 +205,68 @@ def movement(p, P):
             if po is not None:
                 out["tot"] = {"open_odds": os_, "open_p": round(po, 4), "clv": round(x["market_p"] - po, 4)}
     return out
+
+
+def odds_at(p, stage):
+    """ESPN pickcenter entry -> norm_odds() shape using one stage only ('open' or 'close'). None if missing."""
+    if not p:
+        return None
+    def g(d, s):
+        x = ((d or {}).get(s) or {}).get(stage) or {}
+        return x.get("line"), x.get("odds")
+    ml = p.get("moneyline") or {}
+    _, mh = g(ml, "home"); _, ma = g(ml, "away")
+    t = p.get("total") or {}
+    lo, oo = g(t, "over"); _, uo = g(t, "under")
+    try:
+        tl = float(str(lo).lstrip("ou")) if lo is not None else None
+    except ValueError:
+        tl = None
+    ps = p.get("pointSpread") or {}
+    lh, oh = g(ps, "home"); _, oa = g(ps, "away")
+    hl = num(lh) if lh is not None else None
+    if mh is None and tl is None and hl is None:
+        return None
+    return {"book": (p.get("provider") or {}).get("name", "DraftKings"), "stage": stage,
+            "ml": {"home": mh, "away": ma},
+            "total": {"line": tl, "over": oo, "under": uo},
+            "spread": {"home": {"line": hl, "odds": oh}, "away": {"line": -hl if hl is not None else None, "odds": oa}}}
+
+
+def side_p(o, m, x):
+    """Vig-free market probability of pick x's side (market m) in odds o, or None if that line is not offered there."""
+    if not o or not x:
+        return None
+    if m == "ml":
+        ph = novig(o["ml"]["home"], o["ml"]["away"])
+        return None if ph is None else (ph if x["side"] == "home" else 1 - ph)
+    if m == "pl":
+        sp = o["spread"]; s, t = x["side"], "away" if x["side"] == "home" else "home"
+        if sp[s]["line"] is None or sp[s]["line"] != x["line"]:
+            return None
+        return novig(sp[s]["odds"], sp[t]["odds"])
+    if m == "tot":
+        t = o["total"]
+        if t["line"] is None or float(t["line"]) != x["line"]:
+            return None
+        po = novig(t["over"], t["under"])
+        return None if po is None else (po if x["side"] == "over" else 1 - po)
+
+
+def open_picks(lock_g, p, hs=None, as_=None):
+    """Picks made with the locked morning model against DraftKings' OPENING prices, graded at those prices.
+    clv = closing vig-free probability of the picked side minus its opening probability (same line only):
+    positive means the market moved toward the pick after it was made."""
+    oo, oc = odds_at(p, "open"), odds_at(p, "close")
+    if not oo:
+        return None, oo, oc
+    P = make_picks(lock_g, oo)
+    if hs is not None:
+        P = grade(P, hs, as_)
+    for m in ("ml", "pl", "tot"):
+        x = P.get(m)
+        if x:
+            pc = side_p(oc, m, x)
+            x["close_p"] = round(pc, 4) if pc is not None else None
+            x["clv"] = round(pc - x["market_p"], 4) if pc is not None else None
+    return P, oo, oc

@@ -1,0 +1,190 @@
+{
+ "day": "2026-11-04",
+ "games": {
+  "2026020247": {
+   "home": "BUF",
+   "away": "OTT",
+   "locked": "2026-11-04 07:33 MST",
+   "p_home": 0.5137,
+   "exp_total": 6.66,
+   "totals": {
+    "4.5": {
+     "over": 0.8101,
+     "under": 0.1899
+    },
+    "5.0": {
+     "over": 0.6471,
+     "under": 0.1899
+    },
+    "5.5": {
+     "over": 0.6471,
+     "under": 0.3529
+    },
+    "6.0": {
+     "over": 0.5086,
+     "under": 0.3529
+    },
+    "6.5": {
+     "over": 0.5086,
+     "under": 0.4914
+    },
+    "7.0": {
+     "over": 0.3372,
+     "under": 0.4914
+    },
+    "7.5": {
+     "over": 0.3372,
+     "under": 0.6628
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3194,
+    "away_+1.5": 0.6806,
+    "away_-1.5": 0.2971,
+    "home_+1.5": 0.7029
+   },
+   "home_goalie": "Ukko-Pekka Luukkonen",
+   "away_goalie": "Jonas Johansson",
+   "backfilled": true
+  },
+  "2026020248": {
+   "home": "FLA",
+   "away": "CHI",
+   "locked": "2026-11-04 07:33 MST",
+   "p_home": 0.635,
+   "exp_total": 6.07,
+   "totals": {
+    "4.5": {
+     "over": 0.7422,
+     "under": 0.2578
+    },
+    "5.0": {
+     "over": 0.556,
+     "under": 0.2578
+    },
+    "5.5": {
+     "over": 0.556,
+     "under": 0.444
+    },
+    "6.0": {
+     "over": 0.4119,
+     "under": 0.444
+    },
+    "6.5": {
+     "over": 0.4119,
+     "under": 0.5881
+    },
+    "7.0": {
+     "over": 0.2513,
+     "under": 0.5881
+    },
+    "7.5": {
+     "over": 0.2513,
+     "under": 0.7487
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.4166,
+    "away_+1.5": 0.5834,
+    "away_-1.5": 0.2005,
+    "home_+1.5": 0.7995
+   },
+   "home_goalie": "Akira Schmid",
+   "away_goalie": "Spencer Knight",
+   "backfilled": true
+  },
+  "2026020249": {
+   "home": "LAK",
+   "away": "SJS",
+   "locked": "2026-11-04 07:33 MST",
+   "p_home": 0.5907,
+   "exp_total": 6.17,
+   "totals": {
+    "4.5": {
+     "over": 0.7544,
+     "under": 0.2456
+    },
+    "5.0": {
+     "over": 0.571,
+     "under": 0.2456
+    },
+    "5.5": {
+     "over": 0.571,
+     "under": 0.429
+    },
+    "6.0": {
+     "over": 0.428,
+     "under": 0.429
+    },
+    "6.5": {
+     "over": 0.428,
+     "under": 0.572
+    },
+    "7.0": {
+     "over": 0.2644,
+     "under": 0.572
+    },
+    "7.5": {
+     "over": 0.2644,
+     "under": 0.7356
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3774,
+    "away_+1.5": 0.6226,
+    "away_-1.5": 0.2323,
+    "home_+1.5": 0.7677
+   },
+   "home_goalie": "Darcy Kuemper",
+   "away_goalie": "Alex Nedeljkovic",
+   "backfilled": true
+  },
+  "2026020250": {
+   "home": "SEA",
+   "away": "CGY",
+   "locked": "2026-11-04 07:33 MST",
+   "p_home": 0.5039,
+   "exp_total": 5.87,
+   "totals": {
+    "4.5": {
+     "over": 0.7155,
+     "under": 0.2845
+    },
+    "5.0": {
+     "over": 0.5205,
+     "under": 0.2845
+    },
+    "5.5": {
+     "over": 0.5205,
+     "under": 0.4795
+    },
+    "6.0": {
+     "over": 0.3789,
+     "under": 0.4795
+    },
+    "6.5": {
+     "over": 0.3789,
+     "under": 0.6211
+    },
+    "7.0": {
+     "over": 0.2223,
+     "under": 0.6211
+    },
+    "7.5": {
+     "over": 0.2223,
+     "under": 0.7777
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.2987,
+    "away_+1.5": 0.7013,
+    "away_-1.5": 0.2926,
+    "home_+1.5": 0.7074
+   },
+   "home_goalie": "Philipp Grubauer",
+   "away_goalie": "Devin Cooley",
+   "backfilled": true
+  }
+ },
+ "backfilled_from": "git history of out/board_2026-11-04.json"
+}

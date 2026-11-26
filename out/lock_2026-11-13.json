@@ -1,0 +1,98 @@
+{
+ "day": "2026-11-13",
+ "games": {
+  "2026020310": {
+   "home": "VAN",
+   "away": "NYR",
+   "locked": "2026-11-13 07:29 MST",
+   "p_home": 0.3301,
+   "exp_total": 6.37,
+   "totals": {
+    "4.5": {
+     "over": 0.7777,
+     "under": 0.2223
+    },
+    "5.0": {
+     "over": 0.6039,
+     "under": 0.2223
+    },
+    "5.5": {
+     "over": 0.6039,
+     "under": 0.3961
+    },
+    "6.0": {
+     "over": 0.4598,
+     "under": 0.3961
+    },
+    "6.5": {
+     "over": 0.4598,
+     "under": 0.5402
+    },
+    "7.0": {
+     "over": 0.2941,
+     "under": 0.5402
+    },
+    "7.5": {
+     "over": 0.2941,
+     "under": 0.7059
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.1804,
+    "away_+1.5": 0.8196,
+    "away_-1.5": 0.4568,
+    "home_+1.5": 0.5432
+   },
+   "home_goalie": "Leevi Merilainen",
+   "away_goalie": "Dylan Garand",
+   "backfilled": true
+  },
+  "2026020311": {
+   "home": "VGK",
+   "away": "NSH",
+   "locked": "2026-11-13 07:29 MST",
+   "p_home": 0.6076,
+   "exp_total": 6.03,
+   "totals": {
+    "4.5": {
+     "over": 0.7375,
+     "under": 0.2625
+    },
+    "5.0": {
+     "over": 0.5493,
+     "under": 0.2625
+    },
+    "5.5": {
+     "over": 0.5493,
+     "under": 0.4507
+    },
+    "6.0": {
+     "over": 0.4059,
+     "under": 0.4507
+    },
+    "6.5": {
+     "over": 0.4059,
+     "under": 0.5941
+    },
+    "7.0": {
+     "over": 0.2457,
+     "under": 0.5941
+    },
+    "7.5": {
+     "over": 0.2457,
+     "under": 0.7543
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3902,
+    "away_+1.5": 0.6098,
+    "away_-1.5": 0.2187,
+    "home_+1.5": 0.7813
+   },
+   "home_goalie": "Carter Hart",
+   "away_goalie": "Juuse Saros",
+   "backfilled": true
+  }
+ },
+ "backfilled_from": "git history of out/board_2026-11-13.json"
+}

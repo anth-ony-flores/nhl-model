@@ -1,0 +1,144 @@
+{
+ "day": "2026-10-26",
+ "games": {
+  "2026020185": {
+   "home": "NYR",
+   "away": "LAK",
+   "locked": "2026-10-26 08:18 MST",
+   "p_home": 0.5583,
+   "exp_total": 5.9,
+   "totals": {
+    "4.5": {
+     "over": 0.7198,
+     "under": 0.2802
+    },
+    "5.0": {
+     "over": 0.5262,
+     "under": 0.2802
+    },
+    "5.5": {
+     "over": 0.5262,
+     "under": 0.4738
+    },
+    "6.0": {
+     "over": 0.384,
+     "under": 0.4738
+    },
+    "6.5": {
+     "over": 0.384,
+     "under": 0.616
+    },
+    "7.0": {
+     "over": 0.2268,
+     "under": 0.616
+    },
+    "7.5": {
+     "over": 0.2268,
+     "under": 0.7732
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3439,
+    "away_+1.5": 0.6561,
+    "away_-1.5": 0.252,
+    "home_+1.5": 0.748
+   },
+   "home_goalie": "Dylan Garand",
+   "away_goalie": "Darcy Kuemper",
+   "backfilled": true
+  },
+  "2026020186": {
+   "home": "CGY",
+   "away": "TOR",
+   "locked": "2026-10-26 08:18 MST",
+   "p_home": 0.4456,
+   "exp_total": 6.38,
+   "totals": {
+    "4.5": {
+     "over": 0.7797,
+     "under": 0.2203
+    },
+    "5.0": {
+     "over": 0.6046,
+     "under": 0.2203
+    },
+    "5.5": {
+     "over": 0.6046,
+     "under": 0.3954
+    },
+    "6.0": {
+     "over": 0.4631,
+     "under": 0.3954
+    },
+    "6.5": {
+     "over": 0.4631,
+     "under": 0.5369
+    },
+    "7.0": {
+     "over": 0.2951,
+     "under": 0.5369
+    },
+    "7.5": {
+     "over": 0.2951,
+     "under": 0.7049
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.2617,
+    "away_+1.5": 0.7383,
+    "away_-1.5": 0.3493,
+    "home_+1.5": 0.6507
+   },
+   "home_goalie": "Dustin Wolf",
+   "away_goalie": "Sergei Bobrovsky",
+   "backfilled": true
+  },
+  "2026020187": {
+   "home": "EDM",
+   "away": "DET",
+   "locked": "2026-10-26 08:18 MST",
+   "p_home": 0.5475,
+   "exp_total": 6.05,
+   "totals": {
+    "4.5": {
+     "over": 0.7395,
+     "under": 0.2605
+    },
+    "5.0": {
+     "over": 0.5512,
+     "under": 0.2605
+    },
+    "5.5": {
+     "over": 0.5512,
+     "under": 0.4488
+    },
+    "6.0": {
+     "over": 0.4087,
+     "under": 0.4488
+    },
+    "6.5": {
+     "over": 0.4087,
+     "under": 0.5913
+    },
+    "7.0": {
+     "over": 0.2474,
+     "under": 0.5913
+    },
+    "7.5": {
+     "over": 0.2474,
+     "under": 0.7526
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3375,
+    "away_+1.5": 0.6625,
+    "away_-1.5": 0.2622,
+    "home_+1.5": 0.7378
+   },
+   "home_goalie": "Devon Levi",
+   "away_goalie": "John Gibson",
+   "backfilled": true
+  }
+ },
+ "backfilled_from": "git history of out/board_2026-10-26.json"
+}

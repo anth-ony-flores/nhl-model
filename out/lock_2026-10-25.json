@@ -1,0 +1,236 @@
+{
+ "day": "2026-10-25",
+ "games": {
+  "2026020180": {
+   "home": "CHI",
+   "away": "FLA",
+   "locked": "2026-10-25 06:58 MST",
+   "p_home": 0.4523,
+   "exp_total": 5.97,
+   "totals": {
+    "4.5": {
+     "over": 0.7298,
+     "under": 0.2702
+    },
+    "5.0": {
+     "over": 0.5386,
+     "under": 0.2702
+    },
+    "5.5": {
+     "over": 0.5386,
+     "under": 0.4614
+    },
+    "6.0": {
+     "over": 0.3963,
+     "under": 0.4614
+    },
+    "6.5": {
+     "over": 0.3963,
+     "under": 0.6037
+    },
+    "7.0": {
+     "over": 0.2369,
+     "under": 0.6037
+    },
+    "7.5": {
+     "over": 0.2369,
+     "under": 0.7631
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.2609,
+    "away_+1.5": 0.7391,
+    "away_-1.5": 0.3364,
+    "home_+1.5": 0.6636
+   },
+   "home_goalie": "Spencer Knight",
+   "away_goalie": "Jacob Markstrom",
+   "backfilled": true
+  },
+  "2026020181": {
+   "home": "DAL",
+   "away": "NYI",
+   "locked": "2026-10-25 06:58 MST",
+   "p_home": 0.5733,
+   "exp_total": 5.41,
+   "totals": {
+    "4.5": {
+     "over": 0.6461,
+     "under": 0.3539
+    },
+    "5.0": {
+     "over": 0.439,
+     "under": 0.3539
+    },
+    "5.5": {
+     "over": 0.439,
+     "under": 0.561
+    },
+    "6.0": {
+     "over": 0.3025,
+     "under": 0.561
+    },
+    "6.5": {
+     "over": 0.3025,
+     "under": 0.6975
+    },
+    "7.0": {
+     "over": 0.1632,
+     "under": 0.6975
+    },
+    "7.5": {
+     "over": 0.1632,
+     "under": 0.8368
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3464,
+    "away_+1.5": 0.6536,
+    "away_-1.5": 0.2334,
+    "home_+1.5": 0.7666
+   },
+   "home_goalie": "Jake Oettinger",
+   "away_goalie": "Ilya Sorokin",
+   "backfilled": true
+  },
+  "2026020182": {
+   "home": "WPG",
+   "away": "MTL",
+   "locked": "2026-10-25 06:58 MST",
+   "p_home": 0.5087,
+   "exp_total": 6.0,
+   "totals": {
+    "4.5": {
+     "over": 0.7337,
+     "under": 0.2663
+    },
+    "5.0": {
+     "over": 0.5434,
+     "under": 0.2663
+    },
+    "5.5": {
+     "over": 0.5434,
+     "under": 0.4566
+    },
+    "6.0": {
+     "over": 0.4013,
+     "under": 0.4566
+    },
+    "6.5": {
+     "over": 0.4013,
+     "under": 0.5987
+    },
+    "7.0": {
+     "over": 0.2409,
+     "under": 0.5987
+    },
+    "7.5": {
+     "over": 0.2409,
+     "under": 0.7591
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3049,
+    "away_+1.5": 0.6951,
+    "away_-1.5": 0.2911,
+    "home_+1.5": 0.7089
+   },
+   "home_goalie": "Stuart Skinner",
+   "away_goalie": "Jakub Dobes",
+   "backfilled": true
+  },
+  "2026020183": {
+   "home": "NSH",
+   "away": "COL",
+   "locked": "2026-10-25 06:58 MST",
+   "p_home": 0.3118,
+   "exp_total": 6.12,
+   "totals": {
+    "4.5": {
+     "over": 0.7475,
+     "under": 0.2525
+    },
+    "5.0": {
+     "over": 0.5644,
+     "under": 0.2525
+    },
+    "5.5": {
+     "over": 0.5644,
+     "under": 0.4356
+    },
+    "6.0": {
+     "over": 0.4186,
+     "under": 0.4356
+    },
+    "6.5": {
+     "over": 0.4186,
+     "under": 0.5814
+    },
+    "7.0": {
+     "over": 0.2582,
+     "under": 0.5814
+    },
+    "7.5": {
+     "over": 0.2582,
+     "under": 0.7418
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.1662,
+    "away_+1.5": 0.8338,
+    "away_-1.5": 0.4704,
+    "home_+1.5": 0.5296
+   },
+   "home_goalie": "Matt Murray",
+   "away_goalie": "Mackenzie Blackwood",
+   "backfilled": true
+  },
+  "2026020184": {
+   "home": "VAN",
+   "away": "MIN",
+   "locked": "2026-10-25 06:58 MST",
+   "p_home": 0.3815,
+   "exp_total": 6.47,
+   "totals": {
+    "4.5": {
+     "over": 0.7896,
+     "under": 0.2104
+    },
+    "5.0": {
+     "over": 0.6191,
+     "under": 0.2104
+    },
+    "5.5": {
+     "over": 0.6191,
+     "under": 0.3809
+    },
+    "6.0": {
+     "over": 0.4773,
+     "under": 0.3809
+    },
+    "6.5": {
+     "over": 0.4773,
+     "under": 0.5227
+    },
+    "7.0": {
+     "over": 0.3089,
+     "under": 0.5227
+    },
+    "7.5": {
+     "over": 0.3089,
+     "under": 0.6911
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.2164,
+    "away_+1.5": 0.7836,
+    "away_-1.5": 0.4086,
+    "home_+1.5": 0.5914
+   },
+   "home_goalie": "Leevi Merilainen",
+   "away_goalie": "Calvin Pickard",
+   "backfilled": true
+  }
+ },
+ "backfilled_from": "git history of out/board_2026-10-25.json"
+}

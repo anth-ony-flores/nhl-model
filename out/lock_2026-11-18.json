@@ -1,0 +1,144 @@
+{
+ "day": "2026-11-18",
+ "games": {
+  "2026020344": {
+   "home": "DET",
+   "away": "BOS",
+   "locked": "2026-11-18 07:29 MST",
+   "p_home": 0.5334,
+   "exp_total": 5.96,
+   "totals": {
+    "4.5": {
+     "over": 0.7279,
+     "under": 0.2721
+    },
+    "5.0": {
+     "over": 0.5362,
+     "under": 0.2721
+    },
+    "5.5": {
+     "over": 0.5362,
+     "under": 0.4638
+    },
+    "6.0": {
+     "over": 0.3941,
+     "under": 0.4638
+    },
+    "6.5": {
+     "over": 0.3941,
+     "under": 0.6059
+    },
+    "7.0": {
+     "over": 0.235,
+     "under": 0.6059
+    },
+    "7.5": {
+     "over": 0.235,
+     "under": 0.765
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3242,
+    "away_+1.5": 0.6758,
+    "away_-1.5": 0.2715,
+    "home_+1.5": 0.7285
+   },
+   "home_goalie": "John Gibson",
+   "away_goalie": "Jeremy Swayman",
+   "backfilled": true
+  },
+  "2026020345": {
+   "home": "NJD",
+   "away": "MTL",
+   "locked": "2026-11-18 07:29 MST",
+   "p_home": 0.5763,
+   "exp_total": 5.97,
+   "totals": {
+    "4.5": {
+     "over": 0.7297,
+     "under": 0.2703
+    },
+    "5.0": {
+     "over": 0.5389,
+     "under": 0.2703
+    },
+    "5.5": {
+     "over": 0.5389,
+     "under": 0.4611
+    },
+    "6.0": {
+     "over": 0.3962,
+     "under": 0.4611
+    },
+    "6.5": {
+     "over": 0.3962,
+     "under": 0.6038
+    },
+    "7.0": {
+     "over": 0.2371,
+     "under": 0.6038
+    },
+    "7.5": {
+     "over": 0.2371,
+     "under": 0.7629
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3609,
+    "away_+1.5": 0.6391,
+    "away_-1.5": 0.24,
+    "home_+1.5": 0.76
+   },
+   "home_goalie": "Connor Hellebuyck",
+   "away_goalie": "Jacob Fowler",
+   "backfilled": true
+  },
+  "2026020346": {
+   "home": "UTA",
+   "away": "COL",
+   "locked": "2026-11-18 07:29 MST",
+   "p_home": 0.4611,
+   "exp_total": 6.5,
+   "totals": {
+    "4.5": {
+     "over": 0.7928,
+     "under": 0.2072
+    },
+    "5.0": {
+     "over": 0.6226,
+     "under": 0.2072
+    },
+    "5.5": {
+     "over": 0.6226,
+     "under": 0.3774
+    },
+    "6.0": {
+     "over": 0.4822,
+     "under": 0.3774
+    },
+    "6.5": {
+     "over": 0.4822,
+     "under": 0.5178
+    },
+    "7.0": {
+     "over": 0.3125,
+     "under": 0.5178
+    },
+    "7.5": {
+     "over": 0.3125,
+     "under": 0.6875
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.2751,
+    "away_+1.5": 0.7249,
+    "away_-1.5": 0.3379,
+    "home_+1.5": 0.6621
+   },
+   "home_goalie": "Karel Vejmelka",
+   "away_goalie": "Mackenzie Blackwood",
+   "backfilled": true
+  }
+ },
+ "backfilled_from": "git history of out/board_2026-11-18.json"
+}
