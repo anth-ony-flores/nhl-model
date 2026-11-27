@@ -1,6 +1,6 @@
 {
  "date": "2026-11-27",
- "generated": "2026-11-27T23:18:57Z",
+ "generated": "2026-11-27T23:29:09Z",
  "data_through": "2026-11-25",
  "picks_enabled": false,
  "params": {
@@ -18212,7 +18212,7 @@
    "home_name": "Wild",
    "start_utc": "2026-11-27T21:00:00Z",
    "state": "in",
-   "detail": "7:55 - 3rd",
+   "detail": "5:18 - 3rd",
    "frozen": false,
    "goal_factor": {
     "COL": 0.949,
@@ -20574,7 +20574,7 @@
    "home_name": "Ducks",
    "start_utc": "2026-11-27T21:00:00Z",
    "state": "in",
-   "detail": "11:02 - 3rd",
+   "detail": "5:36 - 3rd",
    "frozen": false,
    "goal_factor": {
     "LAK": 1.069,
@@ -22719,7 +22719,7 @@
    "home_name": "Sharks",
    "start_utc": "2026-11-27T21:00:00Z",
    "state": "in",
-   "detail": "10:49 - 3rd",
+   "detail": "6:09 - 3rd",
    "frozen": false,
    "goal_factor": {
     "VGK": 1.088,

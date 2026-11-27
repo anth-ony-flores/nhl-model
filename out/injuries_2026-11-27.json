@@ -1,7 +1,7 @@
 {
  "day": "2026-11-27",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-27 16:18",
+ "fetched": "2026-11-27 16:29",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -445,8 +445,19 @@
    ]
   },
   "FLA": {
-   "missing_value": 0,
+   "missing_value": -0.0126,
    "players": [
+    {
+     "name": "Garnet Hathaway",
+     "status": "Out",
+     "playerId": 8477903,
+     "position": "R",
+     "value": -0.0126,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-27"
+    },
     {
      "name": "Jonah Gadjovich",
      "status": "Injured Reserve",
@@ -963,6 +974,17 @@
   "TBL": {
    "missing_value": -0.1048,
    "players": [
+    {
+     "name": "Victor Hedman",
+     "status": "Day-To-Day",
+     "playerId": 8475167,
+     "position": "D",
+     "value": -0.0829,
+     "regular": true,
+     "applied": false,
+     "note": "Hedman (undisclosed) didn't finish Friday's game versus the Senators, Benjamin Pierce of the Lightning's official site reports.",
+     "date": "2026-11-27"
+    },
     {
      "name": "Erik Cernak",
      "status": "Out",
