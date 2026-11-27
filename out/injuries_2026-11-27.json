@@ -1,7 +1,7 @@
 {
  "day": "2026-11-27",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-27 15:15",
+ "fetched": "2026-11-27 16:18",
  "k": 1.0,
  "teams": {
   "ANA": {
@@ -760,7 +760,7 @@
    ]
   },
   "PHI": {
-   "missing_value": 0.0369,
+   "missing_value": 0.0212,
    "players": [
     {
      "name": "Owen Tippett",
@@ -768,17 +768,6 @@
      "playerId": 8480015,
      "position": "R",
      "value": 0.0212,
-     "regular": true,
-     "applied": true,
-     "note": "out",
-     "date": "2026-11-27"
-    },
-    {
-     "name": "Matvei Michkov",
-     "status": "Out",
-     "playerId": 8484387,
-     "position": "R",
-     "value": 0.0157,
      "regular": true,
      "applied": true,
      "note": "out",
@@ -1010,17 +999,17 @@
    ]
   },
   "TOR": {
-   "missing_value": 0.0588,
+   "missing_value": 0.0279,
    "players": [
     {
      "name": "Chris Tanev",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8475690,
      "position": "D",
      "value": -0.0309,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
+     "applied": true,
+     "note": "out",
      "date": "2026-11-27"
     },
     {
@@ -1176,6 +1165,17 @@
   "VAN": {
    "missing_value": 0.0729,
    "players": [
+    {
+     "name": "Filip Chytil",
+     "status": "Day-To-Day",
+     "playerId": 8480078,
+     "position": "C",
+     "value": -0.0308,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-27"
+    },
     {
      "name": "Elias Pettersson",
      "status": "Out",

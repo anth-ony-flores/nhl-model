@@ -1,7 +1,7 @@
 {
  "day": "2026-11-27",
  "source": "NHL official game roster reports (nhl.com/scores/htmlreports)",
- "fetched": "2026-11-27 22:16 UTC",
+ "fetched": "2026-11-27 23:18 UTC",
  "teams": {
   "TOR": {
    "game_id": 2026020400,
@@ -1426,12 +1426,15 @@
    "opp": "CHI",
    "home": false,
    "lineup_posted": true,
-   "starter": null,
+   "starter": {
+    "id": 8482193,
+    "name": "Dylan Garand"
+   },
    "dressed_goalies": [
     {
      "id": 8482193,
      "name": "Dylan Garand",
-     "starter": false
+     "starter": true
     },
     {
      "id": 8476914,
@@ -1483,12 +1486,15 @@
    "opp": "NYR",
    "home": true,
    "lineup_posted": true,
-   "starter": null,
+   "starter": {
+    "id": 8481519,
+    "name": "Spencer Knight"
+   },
    "dressed_goalies": [
     {
      "id": 8481519,
      "name": "Spencer Knight",
-     "starter": false
+     "starter": true
     },
     {
      "id": 8482123,

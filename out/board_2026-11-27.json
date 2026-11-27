@@ -1,7 +1,7 @@
 {
  "date": "2026-11-27",
  "data_through": "2026-11-25",
- "generated": "2026-11-27 15:16 MST",
+ "generated": "2026-11-27 16:18 MST",
  "league_xg60": 2.999,
  "b2b_effect": {
   "own_xg": -0.171,
@@ -216,7 +216,8 @@
     "away_-1.5": 0.2153,
     "home_+1.5": 0.7847
    },
-   "lock": null
+   "lock": null,
+   "frozen": true
   },
   {
    "id": 2026020401,
@@ -382,7 +383,8 @@
     "away_-1.5": 0.195,
     "home_+1.5": 0.805
    },
-   "lock": null
+   "lock": null,
+   "frozen": true
   },
   {
    "id": 2026020402,
@@ -548,7 +550,8 @@
     "away_-1.5": 0.2828,
     "home_+1.5": 0.7172
    },
-   "lock": null
+   "lock": null,
+   "frozen": true
   },
   {
    "id": 2026020403,
@@ -736,7 +739,8 @@
     "away_-1.5": 0.2574,
     "home_+1.5": 0.7426
    },
-   "lock": null
+   "lock": null,
+   "frozen": true
   },
   {
    "id": 2026020404,
@@ -891,7 +895,8 @@
     "away_-1.5": 0.2892,
     "home_+1.5": 0.7108
    },
-   "lock": null
+   "lock": null,
+   "frozen": true
   },
   {
    "id": 2026020405,
@@ -1057,7 +1062,8 @@
     "away_-1.5": 0.1663,
     "home_+1.5": 0.8337
    },
-   "lock": null
+   "lock": null,
+   "frozen": true
   },
   {
    "id": 2026020406,
@@ -1201,7 +1207,8 @@
     "away_-1.5": 0.2904,
     "home_+1.5": 0.7096
    },
-   "lock": null
+   "lock": null,
+   "frozen": true
   },
   {
    "id": 2026020407,
@@ -1334,7 +1341,8 @@
     "away_-1.5": 0.2813,
     "home_+1.5": 0.7187
    },
-   "lock": null
+   "lock": null,
+   "frozen": true
   },
   {
    "id": 2026020408,
@@ -1500,7 +1508,8 @@
     "away_-1.5": 0.2889,
     "home_+1.5": 0.7111
    },
-   "lock": null
+   "lock": null,
+   "frozen": true
   },
   {
    "id": 2026020409,
@@ -1644,7 +1653,8 @@
     "away_-1.5": 0.2727,
     "home_+1.5": 0.7273
    },
-   "lock": null
+   "lock": null,
+   "frozen": true
   },
   {
    "id": 2026020410,
@@ -1765,7 +1775,8 @@
     "away_-1.5": 0.4471,
     "home_+1.5": 0.5529
    },
-   "lock": null
+   "lock": null,
+   "frozen": true
   },
   {
    "id": 2026020411,
@@ -2046,7 +2057,8 @@
     },
     "home_goalie": "Spencer Knight",
     "away_goalie": "Dylan Garand"
-   }
+   },
+   "frozen": true
   },
   {
    "id": 2026020412,
