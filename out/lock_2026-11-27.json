@@ -1,0 +1,185 @@
+{
+ "day": "2026-11-27",
+ "games": {
+  "2026020411": {
+   "home": "CHI",
+   "away": "NYR",
+   "locked": "2026-11-27 15:16 MST",
+   "p_home": 0.4269,
+   "exp_total": 6.38,
+   "totals": {
+    "4.5": {
+     "over": 0.78,
+     "under": 0.22
+    },
+    "5.0": {
+     "over": 0.6052,
+     "under": 0.22
+    },
+    "5.5": {
+     "over": 0.6052,
+     "under": 0.3948
+    },
+    "6.0": {
+     "over": 0.4635,
+     "under": 0.3948
+    },
+    "6.5": {
+     "over": 0.4635,
+     "under": 0.5365
+    },
+    "7.0": {
+     "over": 0.2957,
+     "under": 0.5365
+    },
+    "7.5": {
+     "over": 0.2957,
+     "under": 0.7043
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.2479,
+    "away_+1.5": 0.7521,
+    "away_-1.5": 0.3656,
+    "home_+1.5": 0.6344
+   },
+   "home_goalie": "Spencer Knight",
+   "away_goalie": "Dylan Garand"
+  },
+  "2026020412": {
+   "home": "NYI",
+   "away": "WPG",
+   "locked": "2026-11-27 15:16 MST",
+   "p_home": 0.5386,
+   "exp_total": 6.15,
+   "totals": {
+    "4.5": {
+     "over": 0.7522,
+     "under": 0.2478
+    },
+    "5.0": {
+     "over": 0.5675,
+     "under": 0.2478
+    },
+    "5.5": {
+     "over": 0.5675,
+     "under": 0.4325
+    },
+    "6.0": {
+     "over": 0.4252,
+     "under": 0.4325
+    },
+    "6.5": {
+     "over": 0.4252,
+     "under": 0.5748
+    },
+    "7.0": {
+     "over": 0.2614,
+     "under": 0.5748
+    },
+    "7.5": {
+     "over": 0.2614,
+     "under": 0.7386
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3318,
+    "away_+1.5": 0.6682,
+    "away_-1.5": 0.2704,
+    "home_+1.5": 0.7296
+   },
+   "home_goalie": "Ilya Sorokin",
+   "away_goalie": "Stuart Skinner"
+  },
+  "2026020413": {
+   "home": "BUF",
+   "away": "PIT",
+   "locked": "2026-11-27 15:16 MST",
+   "p_home": 0.5772,
+   "exp_total": 7.06,
+   "totals": {
+    "4.5": {
+     "over": 0.8467,
+     "under": 0.1533
+    },
+    "5.0": {
+     "over": 0.7021,
+     "under": 0.1533
+    },
+    "5.5": {
+     "over": 0.7021,
+     "under": 0.2979
+    },
+    "6.0": {
+     "over": 0.5695,
+     "under": 0.2979
+    },
+    "6.5": {
+     "over": 0.5695,
+     "under": 0.4305
+    },
+    "7.0": {
+     "over": 0.3978,
+     "under": 0.4305
+    },
+    "7.5": {
+     "over": 0.3978,
+     "under": 0.6022
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3802,
+    "away_+1.5": 0.6198,
+    "away_-1.5": 0.2529,
+    "home_+1.5": 0.7471
+   },
+   "home_goalie": "Ukko-Pekka Luukkonen",
+   "away_goalie": "Arturs Silovs"
+  },
+  "2026020414": {
+   "home": "EDM",
+   "away": "SEA",
+   "locked": "2026-11-27 15:16 MST",
+   "p_home": 0.5848,
+   "exp_total": 6.37,
+   "totals": {
+    "4.5": {
+     "over": 0.779,
+     "under": 0.221
+    },
+    "5.0": {
+     "over": 0.604,
+     "under": 0.221
+    },
+    "5.5": {
+     "over": 0.604,
+     "under": 0.396
+    },
+    "6.0": {
+     "over": 0.462,
+     "under": 0.396
+    },
+    "6.5": {
+     "over": 0.462,
+     "under": 0.538
+    },
+    "7.0": {
+     "over": 0.2945,
+     "under": 0.538
+    },
+    "7.5": {
+     "over": 0.2945,
+     "under": 0.7055
+    }
+   },
+   "puck_line": {
+    "home_-1.5": 0.3758,
+    "away_+1.5": 0.6242,
+    "away_-1.5": 0.2393,
+    "home_+1.5": 0.7607
+   },
+   "home_goalie": "Devon Levi",
+   "away_goalie": "Philipp Grubauer"
+  }
+ }
+}

@@ -1,247 +1,1546 @@
 {
  "day": "2026-11-27",
  "source": "NHL official game roster reports (nhl.com/scores/htmlreports)",
- "fetched": "2026-11-26 21:30 UTC",
+ "fetched": "2026-11-27 22:16 UTC",
  "teams": {
   "TOR": {
    "game_id": 2026020400,
    "opp": "BOS",
    "home": false,
-   "lineup_posted": false,
-   "starter": null,
-   "dressed_goalies": [],
-   "scratches": [],
-   "dressed": []
+   "lineup_posted": true,
+   "starter": {
+    "id": 8476932,
+    "name": "Anthony Stolarz"
+   },
+   "dressed_goalies": [
+    {
+     "id": 8476932,
+     "name": "Anthony Stolarz",
+     "starter": true
+    },
+    {
+     "id": 8475683,
+     "name": "Sergei Bobrovsky",
+     "starter": false
+    }
+   ],
+   "scratches": [
+    {
+     "name": "Dakota Mermis",
+     "pos": "D",
+     "playerId": 8477541,
+     "regular": true,
+     "value": 0.0317
+    },
+    {
+     "name": "Dakota Joshua",
+     "pos": "C",
+     "playerId": 8478057,
+     "regular": true,
+     "value": 0.0547
+    },
+    {
+     "name": "Jack Roslovic",
+     "pos": "C",
+     "playerId": 8478458,
+     "regular": true,
+     "value": 0.0041
+    }
+   ],
+   "dressed": [
+    "Chris Tanev",
+    "Colton Sissons",
+    "Zack Macewen",
+    "Nick Paul",
+    "Jake Mccabe",
+    "Brandon Duhaime",
+    "Aatu Raty",
+    "Troy Stecher",
+    "Auston Matthews",
+    "Darren Raddysh",
+    "Morgan Rielly",
+    "Easton Cowan",
+    "Teddy Blueger",
+    "Kirill Marchenko",
+    "William Nylander",
+    "John Tavares",
+    "Gavin Mckenna",
+    "Oliver Ekman-Larsson",
+    "Anthony Stolarz",
+    "Sergei Bobrovsky"
+   ]
   },
   "BOS": {
    "game_id": 2026020400,
    "opp": "TOR",
    "home": true,
-   "lineup_posted": false,
-   "starter": null,
-   "dressed_goalies": [],
-   "scratches": [],
-   "dressed": []
+   "lineup_posted": true,
+   "starter": {
+    "id": 8480280,
+    "name": "Jeremy Swayman"
+   },
+   "dressed_goalies": [
+    {
+     "id": 8480280,
+     "name": "Jeremy Swayman",
+     "starter": true
+    },
+    {
+     "id": 8480022,
+     "name": "Michael DiPietro",
+     "starter": false
+    }
+   ],
+   "scratches": [
+    {
+     "name": "Frederic Brunet",
+     "pos": "D",
+     "playerId": 8483017,
+     "regular": false,
+     "value": -0.1196
+    },
+    {
+     "name": "Jonathan Aspirot",
+     "pos": "D",
+     "playerId": 8481219,
+     "regular": false,
+     "value": 0.0594
+    },
+    {
+     "name": "Michael Eyssimont",
+     "pos": "C",
+     "playerId": 8479591,
+     "regular": false,
+     "value": 0.037
+    }
+   ],
+   "dressed": [
+    "Mason Lohrei",
+    "Jj Peterka",
+    "Casey Mittelstadt",
+    "William Borgen",
+    "Pavel Zacha",
+    "Hampus Lindholm",
+    "Elias Lindholm",
+    "Morgan Geekie",
+    "Mark Kastelic",
+    "Matthew Poitras",
+    "Sean Kuraly",
+    "Charlie Mcavoy",
+    "Connor Clifton",
+    "Tanner Jeannot",
+    "David Pastrnak",
+    "Nikita Zadorov",
+    "Marat Khusnutdinov",
+    "Fraser Minten",
+    "Jeremy Swayman",
+    "Michael Dipietro"
+   ]
   },
   "CGY": {
    "game_id": 2026020401,
    "opp": "NJD",
    "home": false,
-   "lineup_posted": false,
-   "starter": null,
-   "dressed_goalies": [],
-   "scratches": [],
-   "dressed": []
+   "lineup_posted": true,
+   "starter": {
+    "id": 8482445,
+    "name": "Devin Cooley"
+   },
+   "dressed_goalies": [
+    {
+     "id": 8482445,
+     "name": "Devin Cooley",
+     "starter": true
+    },
+    {
+     "id": 8481692,
+     "name": "Dustin Wolf",
+     "starter": false
+    }
+   ],
+   "scratches": [
+    {
+     "name": "Ben Jones",
+     "pos": "C",
+     "playerId": 8480259,
+     "regular": false,
+     "value": -0.0457
+    },
+    {
+     "name": "Martin Pospisil",
+     "pos": "C",
+     "playerId": 8481028,
+     "regular": true,
+     "value": -0.0237
+    },
+    {
+     "name": "Brayden Pachal",
+     "pos": "D",
+     "playerId": 8481167,
+     "regular": false,
+     "value": 0.0519
+    }
+   ],
+   "dressed": [
+    "Mikael Backlund",
+    "Morgan Frost",
+    "Yegor Sharangovich",
+    "Zayne Parekh",
+    "Ryan Strome",
+    "Matt Coronato",
+    "Zach Whitecloud",
+    "Yan Kuznetsov",
+    "Jonathan Castagna",
+    "Adam Klapka",
+    "Joel Hanley",
+    "Jacob Middleton",
+    "Aydar Suniev",
+    "Simon Nemec",
+    "Maksim Tsyplakov",
+    "Brennan Othmann",
+    "Joel Farabee",
+    "Matvei Gridin",
+    "Devin Cooley",
+    "Dustin Wolf"
+   ]
   },
   "NJD": {
    "game_id": 2026020401,
    "opp": "CGY",
    "home": true,
-   "lineup_posted": false,
-   "starter": null,
-   "dressed_goalies": [],
-   "scratches": [],
-   "dressed": []
+   "lineup_posted": true,
+   "starter": {
+    "id": 8474596,
+    "name": "Jake Allen"
+   },
+   "dressed_goalies": [
+    {
+     "id": null,
+     "name": "David Rittich",
+     "starter": false
+    },
+    {
+     "id": 8474596,
+     "name": "Jake Allen",
+     "starter": true
+    }
+   ],
+   "scratches": [
+    {
+     "name": "Brenden Dillon",
+     "pos": "D",
+     "playerId": 8475455,
+     "regular": true,
+     "value": -0.0038
+    },
+    {
+     "name": "Declan Chisholm",
+     "pos": "D",
+     "playerId": 8480990,
+     "regular": true,
+     "value": -0.0297
+    },
+    {
+     "name": "Connor Hellebuyck",
+     "pos": "G",
+     "playerId": null,
+     "regular": false,
+     "value": 0.0
+    }
+   ],
+   "dressed": [
+    "Dougie Hamilton",
+    "Stefan Noesen",
+    "Cody Glass",
+    "Nico Hischier",
+    "Connor Brown",
+    "Evan Rodrigues",
+    "Vladislav Kolyachonok",
+    "Brett Pesce",
+    "Timo Meier",
+    "Luke Hughes",
+    "Anton Silaev",
+    "Jesper Bratt",
+    "Jesper Boqvist",
+    "Jonas Siegenthaler",
+    "Luke Evangelista",
+    "Arseny Gritsyuk",
+    "Jack Hughes",
+    "Amadeus Lombardi",
+    "David Rittich",
+    "Jake Allen"
+   ]
   },
   "UTA": {
    "game_id": 2026020402,
    "opp": "NSH",
    "home": false,
-   "lineup_posted": false,
-   "starter": null,
-   "dressed_goalies": [],
-   "scratches": [],
-   "dressed": []
+   "lineup_posted": true,
+   "starter": {
+    "id": 8478872,
+    "name": "Karel Vejmelka"
+   },
+   "dressed_goalies": [
+    {
+     "id": 8482657,
+     "name": "Sebastian Cossa",
+     "starter": false
+    },
+    {
+     "id": 8478872,
+     "name": "Karel Vejmelka",
+     "starter": true
+    }
+   ],
+   "scratches": [
+    {
+     "name": "Nick DeSimone",
+     "pos": "D",
+     "playerId": 8480084,
+     "regular": true,
+     "value": 0.0135
+    },
+    {
+     "name": "Yegor Borikov",
+     "pos": "R",
+     "playerId": null,
+     "regular": false,
+     "value": 0.0
+    }
+   ],
+   "dressed": [
+    "Clayton Keller",
+    "Dylan Guenther",
+    "Zac Jones",
+    "Vincent Trocheck",
+    "Andrew Peeke",
+    "Jack Mcbain",
+    "Dmitri Simashev",
+    "Barrett Hayton",
+    "Liam O'Brien",
+    "Daniil But",
+    "Mackenzie Weegar",
+    "Kailer Yamamoto",
+    "Lawson Crouse",
+    "Anders Lee",
+    "Kevin Stenlund",
+    "Logan Cooley",
+    "Gregor Biber",
+    "Mikhail Sergachev",
+    "Sebastian Cossa",
+    "Karel Vejmelka"
+   ]
   },
   "NSH": {
    "game_id": 2026020402,
    "opp": "UTA",
    "home": true,
-   "lineup_posted": false,
-   "starter": null,
-   "dressed_goalies": [],
-   "scratches": [],
-   "dressed": []
+   "lineup_posted": true,
+   "starter": {
+    "id": 8477424,
+    "name": "Juuse Saros"
+   },
+   "dressed_goalies": [
+    {
+     "id": 8481020,
+     "name": "Justus Annunen",
+     "starter": false
+    },
+    {
+     "id": 8477424,
+     "name": "Juuse Saros",
+     "starter": true
+    }
+   ],
+   "scratches": [
+    {
+     "name": "Ilya Lyubushkin",
+     "pos": "D",
+     "playerId": 8480950,
+     "regular": false,
+     "value": -0.0711
+    },
+    {
+     "name": "Vitali Pinchuk",
+     "pos": "C",
+     "playerId": 8486189,
+     "regular": true,
+     "value": -0.0278
+    },
+    {
+     "name": "Daemon Hunt",
+     "pos": "D",
+     "playerId": 8482094,
+     "regular": true,
+     "value": -0.121
+    }
+   ],
+   "dressed": [
+    "Adam Wilsby",
+    "Jayden Struble",
+    "Filip Forsberg",
+    "Alexander Kerfoot",
+    "Shane Wright",
+    "Jack Drury",
+    "Nils Hoglander",
+    "Mavrik Bourque",
+    "Nicolas Hague",
+    "Nick Perbix",
+    "Reid Schaefer",
+    "Roman Josi",
+    "Brady Skjei",
+    "Ross Colton",
+    "Jonathan Marchessault",
+    "Adam Edstrom",
+    "Ryan O'Reilly",
+    "Steven Stamkos",
+    "Justus Annunen",
+    "Juuse Saros"
+   ]
   },
   "DAL": {
    "game_id": 2026020403,
    "opp": "STL",
    "home": false,
-   "lineup_posted": false,
-   "starter": null,
-   "dressed_goalies": [],
-   "scratches": [],
-   "dressed": []
+   "lineup_posted": true,
+   "starter": {
+    "id": 8479193,
+    "name": "Casey DeSmith"
+   },
+   "dressed_goalies": [
+    {
+     "id": 8479193,
+     "name": "Casey DeSmith",
+     "starter": true
+    },
+    {
+     "id": 8479979,
+     "name": "Jake Oettinger",
+     "starter": false
+    }
+   ],
+   "scratches": [
+    {
+     "name": "Oskar B\u00e3\u0084Ck",
+     "pos": "C",
+     "playerId": null,
+     "regular": false,
+     "value": 0.0
+    },
+    {
+     "name": "Colin Blackwell",
+     "pos": "C",
+     "playerId": 8476278,
+     "regular": false,
+     "value": -0.0308
+    },
+    {
+     "name": "Trey Taylor",
+     "pos": "D",
+     "playerId": 8485468,
+     "regular": true,
+     "value": 0.0049
+    }
+   ],
+   "dressed": [
+    "Miro Heiskanen",
+    "Nils Lundkvist",
+    "Radek Faksa",
+    "Jamie Benn",
+    "David Perron",
+    "Sam Steel",
+    "Jason Robertson",
+    "Joel Kiviranta",
+    "Esa Lindell",
+    "Roope Hintz",
+    "Arttu Hyry",
+    "Kyle Burroughs",
+    "Justin Hryckowian",
+    "Wyatt Johnston",
+    "Thomas Harley",
+    "Tyler Myers",
+    "Tyler Seguin",
+    "Mikko Rantanen",
+    "Casey Desmith",
+    "Jake Oettinger"
+   ]
   },
   "STL": {
    "game_id": 2026020403,
    "opp": "DAL",
    "home": true,
-   "lineup_posted": false,
-   "starter": null,
-   "dressed_goalies": [],
-   "scratches": [],
-   "dressed": []
+   "lineup_posted": true,
+   "starter": {
+    "id": 8480981,
+    "name": "Joel Hofer"
+   },
+   "dressed_goalies": [
+    {
+     "id": 8480981,
+     "name": "Joel Hofer",
+     "starter": true
+    },
+    {
+     "id": 8476412,
+     "name": "Jordan Binnington",
+     "starter": false
+    }
+   ],
+   "scratches": [
+    {
+     "name": "Nathan Walker",
+     "pos": "L",
+     "playerId": 8477573,
+     "regular": false,
+     "value": -0.0423
+    },
+    {
+     "name": "Calle Rosen",
+     "pos": "D",
+     "playerId": 8480157,
+     "regular": false,
+     "value": 0.0172
+    },
+    {
+     "name": "Ross Johnston",
+     "pos": "L",
+     "playerId": 8477527,
+     "regular": true,
+     "value": -0.0466
+    }
+   ],
+   "dressed": [
+    "Philip Broberg",
+    "Alexey Toropchenko",
+    "Dalibor Dvorsky",
+    "Cam Fowler",
+    "Robert Thomas",
+    "Pius Suter",
+    "Logan Mailloux",
+    "Otto Stenberg",
+    "Jonatan Berggren",
+    "Adam Jiricek",
+    "Aleksanteri Kaskimaki",
+    "Colton Parayko",
+    "Jake Neighbours",
+    "Justin Barron",
+    "Connor Mcmichael",
+    "Dylan Holloway",
+    "Mason Mctavish",
+    "Pavel Buchnevich",
+    "Joel Hofer",
+    "Jordan Binnington"
+   ]
   },
   "OTT": {
    "game_id": 2026020404,
    "opp": "TBL",
    "home": false,
-   "lineup_posted": false,
-   "starter": null,
-   "dressed_goalies": [],
-   "scratches": [],
-   "dressed": []
+   "lineup_posted": true,
+   "starter": {
+    "id": 8476999,
+    "name": "Linus Ullmark"
+   },
+   "dressed_goalies": [
+    {
+     "id": 8481035,
+     "name": "Samuel Ersson",
+     "starter": false
+    },
+    {
+     "id": 8476999,
+     "name": "Linus Ullmark",
+     "starter": true
+    }
+   ],
+   "scratches": [
+    {
+     "name": "Hayden Hodgson",
+     "pos": "R",
+     "playerId": 8478173,
+     "regular": true,
+     "value": -0.0307
+    },
+    {
+     "name": "Djibril Toure",
+     "pos": "D",
+     "playerId": null,
+     "regular": false,
+     "value": 0.0
+    }
+   ],
+   "dressed": [
+    "Artem Zub",
+    "Jordan Spence",
+    "Shane Pinto",
+    "Tim St\u00e3\u009cTzle",
+    "Drake Batherson",
+    "Fabian Zetterlund",
+    "Nick Cousins",
+    "Michael Amadio",
+    "Dylan Cozens",
+    "Claude Giroux",
+    "Nikolas Matinpalo",
+    "Stephen Halliday",
+    "Tyler Kleven",
+    "Philip Tomasino",
+    "Ridly Greig",
+    "Thomas Chabot",
+    "Jake Sanderson",
+    "Andre Burakovsky",
+    "Samuel Ersson",
+    "Linus Ullmark"
+   ]
   },
   "TBL": {
    "game_id": 2026020404,
    "opp": "OTT",
    "home": true,
-   "lineup_posted": false,
-   "starter": null,
-   "dressed_goalies": [],
-   "scratches": [],
-   "dressed": []
+   "lineup_posted": true,
+   "starter": {
+    "id": 8483710,
+    "name": "Dennis Hildeby"
+   },
+   "dressed_goalies": [
+    {
+     "id": 8483710,
+     "name": "Dennis Hildeby",
+     "starter": true
+    },
+    {
+     "id": 8476883,
+     "name": "Andrei Vasilevskiy",
+     "starter": false
+    }
+   ],
+   "scratches": [
+    {
+     "name": "Scott Sabourin",
+     "pos": "R",
+     "playerId": 8477149,
+     "regular": true,
+     "value": -0.0318
+    },
+    {
+     "name": "Erik Cernak",
+     "pos": "D",
+     "playerId": 8478416,
+     "regular": true,
+     "value": -0.0039
+    }
+   ],
+   "dressed": [
+    "Brayden Point",
+    "Sam O'Reilly",
+    "Max Crozier",
+    "Jeff Viel",
+    "Ryan Mcdonagh",
+    "Zemgus Girgensons",
+    "Yanni Gourde",
+    "Brandon Hagel",
+    "Charle-Edouard D'Astous",
+    "Jake Guentzel",
+    "Anthony Cirelli",
+    "John Carlson",
+    "Victor Hedman",
+    "Emil Lilleberg",
+    "Nikita Kucherov",
+    "J.J. Moser",
+    "Gage Goncalves",
+    "Ilya Mikheyev",
+    "Dennis Hildeby",
+    "Andrei Vasilevskiy"
+   ]
   },
   "VAN": {
    "game_id": 2026020405,
    "opp": "PHI",
    "home": false,
-   "lineup_posted": false,
-   "starter": null,
-   "dressed_goalies": [],
-   "scratches": [],
-   "dressed": []
+   "lineup_posted": true,
+   "starter": {
+    "id": 8482447,
+    "name": "Leevi Meril\u00e4inen"
+   },
+   "dressed_goalies": [
+    {
+     "id": 8482447,
+     "name": "Leevi Meril\u00e4inen",
+     "starter": true
+    },
+    {
+     "id": 8480947,
+     "name": "Kevin Lankinen",
+     "starter": false
+    }
+   ],
+   "scratches": [
+    {
+     "name": "Arshdeep Bains",
+     "pos": "L",
+     "playerId": 8483395,
+     "regular": false,
+     "value": 0.0254
+    },
+    {
+     "name": "Elias Pettersson",
+     "pos": "C",
+     "playerId": 8480012,
+     "regular": true,
+     "value": 0.0194
+    },
+    {
+     "name": "Cameron Crotty",
+     "pos": "D",
+     "playerId": 8480075,
+     "regular": false,
+     "value": 0.0668
+    }
+   ],
+   "dressed": [
+    "Luke Schenn",
+    "Jamie Oleksiak",
+    "Tom Willander",
+    "Brock Boeser",
+    "Zeev Buium",
+    "Filip Hronek",
+    "Drew O'Connor",
+    "Marco Rossi",
+    "Elias Pettersson",
+    "Cole Reinhardt",
+    "Ty Mueller",
+    "Paul Cotter",
+    "Jacob Quillan",
+    "Jake Debrusk",
+    "Filip Chytil",
+    "Jonathan Lekkerimaki",
+    "Liam Ohgren",
+    "Linus Karlsson",
+    "Leevi Merilainen",
+    "Kevin Lankinen"
+   ]
   },
   "PHI": {
    "game_id": 2026020405,
    "opp": "VAN",
    "home": true,
-   "lineup_posted": false,
-   "starter": null,
-   "dressed_goalies": [],
-   "scratches": [],
-   "dressed": []
+   "lineup_posted": true,
+   "starter": {
+    "id": 8478435,
+    "name": "Dan Vladar"
+   },
+   "dressed_goalies": [
+    {
+     "id": 8479361,
+     "name": "Joseph Woll",
+     "starter": false
+    },
+    {
+     "id": 8478435,
+     "name": "Dan Vladar",
+     "starter": true
+    }
+   ],
+   "scratches": [
+    {
+     "name": "Matvei Michkov",
+     "pos": "R",
+     "playerId": 8484387,
+     "regular": true,
+     "value": 0.0157
+    },
+    {
+     "name": "Oliver Bonk",
+     "pos": "D",
+     "playerId": 8484148,
+     "regular": true,
+     "value": -0.0026
+    },
+    {
+     "name": "Owen Tippett",
+     "pos": "R",
+     "playerId": 8480015,
+     "regular": true,
+     "value": 0.0212
+    }
+   ],
+   "dressed": [
+    "David Jiricek",
+    "Travis Sanheim",
+    "Cam York",
+    "Jamie Drysdale",
+    "Travis Konecny",
+    "Sean Couturier",
+    "Christian Dvorak",
+    "Nick Seeler",
+    "Noah Cates",
+    "Simon Benoit",
+    "Trevor Zegras",
+    "Noel Acciari",
+    "Cole Knuble",
+    "Rasmus Ristolainen",
+    "Michael Bunting",
+    "Tyson Foerster",
+    "Denver Barkey",
+    "Porter Martone",
+    "Joseph Woll",
+    "Dan Vladar"
+   ]
   },
   "FLA": {
    "game_id": 2026020406,
    "opp": "WSH",
    "home": false,
-   "lineup_posted": false,
-   "starter": null,
-   "dressed_goalies": [],
-   "scratches": [],
-   "dressed": []
+   "lineup_posted": true,
+   "starter": {
+    "id": 8474593,
+    "name": "Jacob Markstrom"
+   },
+   "dressed_goalies": [
+    {
+     "id": 8474593,
+     "name": "Jacob Markstrom",
+     "starter": true
+    },
+    {
+     "id": 8481033,
+     "name": "Akira Schmid",
+     "starter": false
+    }
+   ],
+   "scratches": [
+    {
+     "name": "Bokondji Imama",
+     "pos": "L",
+     "playerId": 8478147,
+     "regular": true,
+     "value": -0.0224
+    },
+    {
+     "name": "Uvis Balinskis",
+     "pos": "D",
+     "playerId": 8484304,
+     "regular": true,
+     "value": -0.1028
+    }
+   ],
+   "dressed": [
+    "Seth Jones",
+    "Aaron Ekblad",
+    "Radko Gudas",
+    "Dmitry Kulikov",
+    "Brady Tkachuk",
+    "Sam Bennett",
+    "Sam Reinhart",
+    "Anton Lundell",
+    "Aleksander Barkov",
+    "Matthew Tkachuk",
+    "Lars Eller",
+    "Garnet Hathaway",
+    "Carter Verhaeghe",
+    "Eetu Luostarinen",
+    "Gustav Forsling",
+    "Brad Marchand",
+    "Niko Mikkola",
+    "Sandis Vilmanis",
+    "Jacob Markstrom",
+    "Akira Schmid"
+   ]
   },
   "WSH": {
    "game_id": 2026020406,
    "opp": "FLA",
    "home": true,
-   "lineup_posted": false,
-   "starter": null,
-   "dressed_goalies": [],
-   "scratches": [],
-   "dressed": []
+   "lineup_posted": true,
+   "starter": {
+    "id": 8480313,
+    "name": "Logan Thompson"
+   },
+   "dressed_goalies": [
+    {
+     "id": 8480313,
+     "name": "Logan Thompson",
+     "starter": true
+    },
+    {
+     "id": 8479292,
+     "name": "Charlie Lindgren",
+     "starter": false
+    }
+   ],
+   "scratches": [
+    {
+     "name": "Jack St. Ivany",
+     "pos": "D",
+     "playerId": 8481030,
+     "regular": true,
+     "value": -0.0257
+    },
+    {
+     "name": "Ethen Frank",
+     "pos": "R",
+     "playerId": 8483573,
+     "regular": false,
+     "value": 0.0239
+    },
+    {
+     "name": "Clay Stevenson",
+     "pos": "G",
+     "playerId": null,
+     "regular": false,
+     "value": 0.0
+    }
+   ],
+   "dressed": [
+    "Matt Roy",
+    "Jakob Chychrun",
+    "Alex Ovechkin",
+    "Ryan Leonard",
+    "Dylan Strome",
+    "Aliaksei Protas",
+    "Boone Jenner",
+    "Timothy Liljegren",
+    "Justin Sourdif",
+    "Martin Fehervary",
+    "Tom Wilson",
+    "Cole Hutson",
+    "Ilya Protas",
+    "Ivan Miroshnichenko",
+    "Anthony Beauvillier",
+    "Vincent Desharnais",
+    "Pierre-Luc Dubois",
+    "Alex Tuch",
+    "Logan Thompson",
+    "Charlie Lindgren"
+   ]
   },
   "DET": {
    "game_id": 2026020407,
    "opp": "CBJ",
    "home": false,
-   "lineup_posted": false,
-   "starter": null,
-   "dressed_goalies": [],
-   "scratches": [],
-   "dressed": []
+   "lineup_posted": true,
+   "starter": {
+    "id": 8476434,
+    "name": "John Gibson"
+   },
+   "dressed_goalies": [
+    {
+     "id": 8476434,
+     "name": "John Gibson",
+     "starter": true
+    },
+    {
+     "id": 8480193,
+     "name": "Daniil Tarasov",
+     "starter": false
+    }
+   ],
+   "scratches": [
+    {
+     "name": "Jacob Bernard-Docker",
+     "pos": "D",
+     "playerId": 8480879,
+     "regular": false,
+     "value": -0.0356
+    },
+    {
+     "name": "Carter Mazur",
+     "pos": "L",
+     "playerId": 8482802,
+     "regular": true,
+     "value": -0.0845
+    },
+    {
+     "name": "William Wallinder",
+     "pos": "D",
+     "playerId": 8482171,
+     "regular": true,
+     "value": -0.0142
+    }
+   ],
+   "dressed": [
+    "Ben Chiarot",
+    "Kirby Dach",
+    "Andrew Copp",
+    "Albert Johansson",
+    "Mason Appleton",
+    "Lucas Raymond",
+    "Andreas Englund",
+    "Michael Rasmussen",
+    "Michael Brandsegg-Nyg\u00e3 Rd",
+    "Viktor Arvidsson",
+    "J.T. Compher",
+    "Anton Johansson",
+    "Moritz Seider",
+    "Keegan Kolesar",
+    "Emmitt Finnie",
+    "Justin Faulk",
+    "Marco Kasper",
+    "Alex Debrincat",
+    "John Gibson",
+    "Daniil Tarasov"
+   ]
   },
   "CBJ": {
    "game_id": 2026020407,
    "opp": "DET",
    "home": true,
-   "lineup_posted": false,
-   "starter": null,
-   "dressed_goalies": [],
-   "scratches": [],
-   "dressed": []
+   "lineup_posted": true,
+   "starter": {
+    "id": 8482982,
+    "name": "Jet Greaves"
+   },
+   "dressed_goalies": [
+    {
+     "id": 8475660,
+     "name": "Cam Talbot",
+     "starter": false
+    },
+    {
+     "id": 8482982,
+     "name": "Jet Greaves",
+     "starter": true
+    }
+   ],
+   "scratches": [
+    {
+     "name": "Denton Mateychuk",
+     "pos": "D",
+     "playerId": 8483485,
+     "regular": true,
+     "value": 0.0214
+    },
+    {
+     "name": "Dmitri Voronkov",
+     "pos": "L",
+     "playerId": 8481716,
+     "regular": true,
+     "value": 0.0618
+    }
+   ],
+   "dressed": [
+    "Jake Christiansen",
+    "Charlie Coyle",
+    "Cole Sillinger",
+    "Zach Werenski",
+    "Ivan Provorov",
+    "Dante Fabbro",
+    "Adam Fantilli",
+    "Isac Lundestr\u00e3\u0096M",
+    "Sean Monahan",
+    "Valeri Nichushkin",
+    "Erik Gudbranson",
+    "Damon Severson",
+    "Mikael Pyyhtia",
+    "Matthew Knies",
+    "Kent Johnson",
+    "Jack Williams",
+    "Luca Del Bel Belluz",
+    "Ryan Lomberg",
+    "Cam Talbot",
+    "Jet Greaves"
+   ]
   },
   "COL": {
    "game_id": 2026020408,
    "opp": "MIN",
    "home": false,
-   "lineup_posted": false,
-   "starter": null,
-   "dressed_goalies": [],
-   "scratches": [],
-   "dressed": []
+   "lineup_posted": true,
+   "starter": {
+    "id": 8478406,
+    "name": "Mackenzie Blackwood"
+   },
+   "dressed_goalies": [
+    {
+     "id": 8478406,
+     "name": "Mackenzie Blackwood",
+     "starter": true
+    },
+    {
+     "id": 8475809,
+     "name": "Scott Wedgewood",
+     "starter": false
+    }
+   ],
+   "scratches": [
+    {
+     "name": "Nathan MacKinnon",
+     "pos": "C",
+     "playerId": 8477492,
+     "regular": true,
+     "value": 0.0828
+    },
+    {
+     "name": "Noah Juulsen",
+     "pos": "D",
+     "playerId": 8478454,
+     "regular": true,
+     "value": -0.0439
+    },
+    {
+     "name": "Martin Necas",
+     "pos": "C",
+     "playerId": 8480039,
+     "regular": true,
+     "value": 0.0196
+    }
+   ],
+   "dressed": [
+    "Mike Reilly",
+    "Devon Toews",
+    "Cale Makar",
+    "Fedor Svechkov",
+    "Nicolas Roy",
+    "Brock Nelson",
+    "T.J. Hughes",
+    "Taylor Makar",
+    "Parker Kelly",
+    "Logan O'Connor",
+    "Brett Kulak",
+    "Adam Beckman",
+    "Artturi Lehkonen",
+    "Sam Malinski",
+    "Jaden Schwartz",
+    "Brent Burns",
+    "Nazem Kadri",
+    "Gabriel Landeskog",
+    "Mackenzie Blackwood",
+    "Scott Wedgewood"
+   ]
   },
   "MIN": {
    "game_id": 2026020408,
    "opp": "COL",
    "home": true,
-   "lineup_posted": false,
-   "starter": null,
-   "dressed_goalies": [],
-   "scratches": [],
-   "dressed": []
+   "lineup_posted": true,
+   "starter": {
+    "id": 8482661,
+    "name": "Jesper Wallstedt"
+   },
+   "dressed_goalies": [
+    {
+     "id": 8482661,
+     "name": "Jesper Wallstedt",
+     "starter": true
+    },
+    {
+     "id": 8479406,
+     "name": "Filip Gustavsson",
+     "starter": false
+    }
+   ],
+   "scratches": [
+    {
+     "name": "Viking Gustafsson-Nyberg",
+     "pos": "D",
+     "playerId": 8486166,
+     "regular": false,
+     "value": -0.0588
+    },
+    {
+     "name": "Nico Sturm",
+     "pos": "C",
+     "playerId": 8481477,
+     "regular": false,
+     "value": -0.0129
+    }
+   ],
+   "dressed": [
+    "Brock Faber",
+    "Bobby Brink",
+    "Matt Boldy",
+    "Yakov Trenin",
+    "Joel Eriksson Ek",
+    "Marcus Foligno",
+    "Blake Coleman",
+    "Danila Yurov",
+    "Zach Bogosian",
+    "Jonas Brodin",
+    "Matt Kiersted",
+    "Ryan Hartman",
+    "Jared Spurgeon",
+    "Michael Mccarron",
+    "Maxim Shabanov",
+    "Nick Foligno",
+    "David Spacek",
+    "Kirill Kaprizov",
+    "Jesper Wallstedt",
+    "Filip Gustavsson"
+   ]
   },
   "LAK": {
    "game_id": 2026020409,
    "opp": "ANA",
    "home": false,
-   "lineup_posted": false,
-   "starter": null,
-   "dressed_goalies": [],
-   "scratches": [],
-   "dressed": []
+   "lineup_posted": true,
+   "starter": {
+    "id": 8475311,
+    "name": "Darcy Kuemper"
+   },
+   "dressed_goalies": [
+    {
+     "id": 8476341,
+     "name": "Anton Forsberg",
+     "starter": false
+    },
+    {
+     "id": 8475311,
+     "name": "Darcy Kuemper",
+     "starter": true
+    }
+   ],
+   "scratches": [
+    {
+     "name": "Scott Laughton",
+     "pos": "C",
+     "playerId": 8476872,
+     "regular": true,
+     "value": -0.0676
+    },
+    {
+     "name": "Kirill Kirsanov",
+     "pos": "D",
+     "playerId": null,
+     "regular": false,
+     "value": 0.0
+    },
+    {
+     "name": "Samuel Helenius",
+     "pos": "C",
+     "playerId": 8482726,
+     "regular": false,
+     "value": -0.0279
+    }
+   ],
+   "dressed": [
+    "Brian Dumoulin",
+    "Cody Ceci",
+    "Joel Edmundson",
+    "Drew Doughty",
+    "Adrian Kempe",
+    "Artemi Panarin",
+    "Trevor Moore",
+    "Alex Laferriere",
+    "Alex Turcotte",
+    "Kevin Fiala",
+    "Mats Zuccarello",
+    "Joel Armia",
+    "Mikey Anderson",
+    "Andre Lee",
+    "Quinton Byfield",
+    "Erik Haula",
+    "Corey Perry",
+    "Brandt Clarke",
+    "Anton Forsberg",
+    "Darcy Kuemper"
+   ]
   },
   "ANA": {
    "game_id": 2026020409,
    "opp": "LAK",
    "home": true,
-   "lineup_posted": false,
-   "starter": null,
-   "dressed_goalies": [],
-   "scratches": [],
-   "dressed": []
+   "lineup_posted": true,
+   "starter": {
+    "id": 8476316,
+    "name": "Laurent Brossoit"
+   },
+   "dressed_goalies": [
+    {
+     "id": 8480843,
+     "name": "Lukas Dostal",
+     "starter": false
+    },
+    {
+     "id": 8476316,
+     "name": "Laurent Brossoit",
+     "starter": true
+    }
+   ],
+   "scratches": [
+    {
+     "name": "Sam Colangelo",
+     "pos": "R",
+     "playerId": 8482118,
+     "regular": true,
+     "value": -0.0504
+    },
+    {
+     "name": "Tyson Hinds",
+     "pos": "D",
+     "playerId": 8482731,
+     "regular": false,
+     "value": 0.1593
+    },
+    {
+     "name": "Ville Husso",
+     "pos": "G",
+     "playerId": null,
+     "regular": false,
+     "value": 0.0
+    }
+   ],
+   "dressed": [
+    "Jackson Lacombe",
+    "Ian Moore",
+    "Nikita Nesterenko",
+    "Drew Helleson",
+    "Alex Killorn",
+    "Troy Terry",
+    "Judd Caulfield",
+    "Jeff Malott",
+    "Tim Washe",
+    "Beckett Sennecke",
+    "Nico Myatovic",
+    "Stian Solberg",
+    "Cutter Gauthier",
+    "Mikael Granlund",
+    "Tristan Luneau",
+    "Frank Vatrano",
+    "Roger Mcqueen",
+    "Pavel Mintyukov",
+    "Lukas Dostal",
+    "Laurent Brossoit"
+   ]
   },
   "VGK": {
    "game_id": 2026020410,
    "opp": "SJS",
    "home": false,
-   "lineup_posted": false,
-   "starter": null,
-   "dressed_goalies": [],
-   "scratches": [],
-   "dressed": []
+   "lineup_posted": true,
+   "starter": {
+    "id": 8479394,
+    "name": "Carter Hart"
+   },
+   "dressed_goalies": [
+    {
+     "id": 8478499,
+     "name": "Adin Hill",
+     "starter": false
+    },
+    {
+     "id": 8479394,
+     "name": "Carter Hart",
+     "starter": true
+    }
+   ],
+   "scratches": [
+    {
+     "name": "Raphael Lavoie",
+     "pos": "C",
+     "playerId": 8481534,
+     "regular": false,
+     "value": -0.0602
+    }
+   ],
+   "dressed": [
+    "Brayden Mcnabb",
+    "Rasmus Andersson",
+    "Jeremy Lauzon",
+    "Jack Eichel",
+    "Marc Gatcomb",
+    "Brett Howden",
+    "Trevor Connelly",
+    "Nic Dowd",
+    "Shea Theodore",
+    "Parker Wotherspoon",
+    "Braeden Bowman",
+    "Tomas Hertl",
+    "Ivan Barbashev",
+    "Dylan Coghlan",
+    "Mark Stone",
+    "William Karlsson",
+    "Mitch Marner",
+    "Victor Olofsson",
+    "Adin Hill",
+    "Carter Hart"
+   ]
   },
   "SJS": {
    "game_id": 2026020410,
    "opp": "VGK",
    "home": true,
-   "lineup_posted": false,
-   "starter": null,
-   "dressed_goalies": [],
-   "scratches": [],
-   "dressed": []
+   "lineup_posted": true,
+   "starter": {
+    "id": 8482137,
+    "name": "Yaroslav Askarov"
+   },
+   "dressed_goalies": [
+    {
+     "id": 8482137,
+     "name": "Yaroslav Askarov",
+     "starter": true
+    },
+    {
+     "id": 8477968,
+     "name": "Alex Nedeljkovic",
+     "starter": false
+    }
+   ],
+   "scratches": [
+    {
+     "name": "Cam Lund",
+     "pos": "C",
+     "playerId": 8483481,
+     "regular": false,
+     "value": -0.01
+    },
+    {
+     "name": "Eric Pohlkamp",
+     "pos": "D",
+     "playerId": 8484421,
+     "regular": true,
+     "value": -0.0384
+    },
+    {
+     "name": "Jacob Trouba",
+     "pos": "D",
+     "playerId": 8476885,
+     "regular": true,
+     "value": -0.0349
+    }
+   ],
+   "dressed": [
+    "Will Smith",
+    "Nolan Allan",
+    "Sam Dickinson",
+    "Michael Kesselring",
+    "Dmitry Orlov",
+    "Ty Dellandrea",
+    "Alexander Wennberg",
+    "Barclay Goodrow",
+    "Darnell Nurse",
+    "Mason Marchment",
+    "Ivar Stenberg",
+    "Luca Cagnoni",
+    "Collin Graf",
+    "Zack Ostapchuk",
+    "Macklin Celebrini",
+    "Tyler Toffoli",
+    "Michael Misa",
+    "Adam Gaudette",
+    "Yaroslav Askarov",
+    "Alex Nedeljkovic"
+   ]
   },
   "NYR": {
    "game_id": 2026020411,
    "opp": "CHI",
    "home": false,
-   "lineup_posted": false,
+   "lineup_posted": true,
    "starter": null,
-   "dressed_goalies": [],
-   "scratches": [],
-   "dressed": []
+   "dressed_goalies": [
+    {
+     "id": 8482193,
+     "name": "Dylan Garand",
+     "starter": false
+    },
+    {
+     "id": 8476914,
+     "name": "Joonas Korpisalo",
+     "starter": false
+    }
+   ],
+   "scratches": [
+    {
+     "name": "Matthew Robertson",
+     "pos": "D",
+     "playerId": 8481525,
+     "regular": true,
+     "value": -0.0115
+    },
+    {
+     "name": "Juuso Parssinen",
+     "pos": "C",
+     "playerId": 8481704,
+     "regular": false,
+     "value": -0.1008
+    }
+   ],
+   "dressed": [
+    "Braden Schneider",
+    "Sean Durzi",
+    "J.T. Miller",
+    "Alexis Lafreni\u00e3\u0088Re",
+    "Taylor Raddysh",
+    "Glenn Gawdin",
+    "Eeli Tolvanen",
+    "Adam Fox",
+    "Tye Kartye",
+    "Marcus Pettersson",
+    "Noah Laba",
+    "Vladislav Gavrikov",
+    "Jaroslav Chmelar",
+    "Will Cuylle",
+    "Scott Morrow",
+    "Max Sasson",
+    "Matt Rempe",
+    "Mika Zibanejad",
+    "Dylan Garand",
+    "Joonas Korpisalo"
+   ]
   },
   "CHI": {
    "game_id": 2026020411,
    "opp": "NYR",
    "home": true,
-   "lineup_posted": false,
+   "lineup_posted": true,
    "starter": null,
-   "dressed_goalies": [],
-   "scratches": [],
-   "dressed": []
+   "dressed_goalies": [
+    {
+     "id": 8481519,
+     "name": "Spencer Knight",
+     "starter": false
+    },
+    {
+     "id": 8482123,
+     "name": "Drew Commesso",
+     "starter": false
+    }
+   ],
+   "scratches": [
+    {
+     "name": "Jordan Greenway",
+     "pos": "L",
+     "playerId": 8478413,
+     "regular": true,
+     "value": -0.0235
+    },
+    {
+     "name": "Wyatt Kaiser",
+     "pos": "D",
+     "playerId": 8482176,
+     "regular": true,
+     "value": -0.0373
+    },
+    {
+     "name": "Tyler Bertuzzi",
+     "pos": "L",
+     "playerId": 8477479,
+     "regular": true,
+     "value": 0.0173
+    }
+   ],
+   "dressed": [
+    "Sam Rinzel",
+    "Ryan Donato",
+    "Oliver Moore",
+    "Kevin Korchinski",
+    "Anton Frondell",
+    "Ryan Greene",
+    "Cole Smith",
+    "Lucas Glendening",
+    "Andrew Mangiapane",
+    "Ian Cole",
+    "Dillon Boucher",
+    "Ethan Del Mastro",
+    "Artyom Levshunov",
+    "Alex Vlasic",
+    "Roman Kantserov",
+    "Landon Slaggert",
+    "Teuvo Teravainen",
+    "Frank Nazar",
+    "Spencer Knight",
+    "Drew Commesso"
+   ]
   },
   "WPG": {
    "game_id": 2026020412,

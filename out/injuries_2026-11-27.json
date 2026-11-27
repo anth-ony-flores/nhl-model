@@ -1,22 +1,22 @@
 {
  "day": "2026-11-27",
  "source": "ESPN injuries feed",
- "fetched": "2026-11-26 14:30",
+ "fetched": "2026-11-27 15:15",
  "k": 1.0,
  "teams": {
   "ANA": {
-   "missing_value": 0,
+   "missing_value": 0.0608,
    "players": [
     {
      "name": "Leo Carlsson",
-     "status": "Day-To-Day",
+     "status": "Injured Reserve",
      "playerId": 8484153,
      "position": "C",
      "value": 0.0608,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-26"
+     "applied": true,
+     "note": "ir",
+     "date": "2026-11-27"
     },
     {
      "name": "Ryan Poehling",
@@ -46,6 +46,17 @@
    "missing_value": 0,
    "players": [
     {
+     "name": "David Pastrnak",
+     "status": "Day-To-Day",
+     "playerId": 8477956,
+     "position": "R",
+     "value": 0.0542,
+     "regular": true,
+     "applied": false,
+     "note": "Pastrnak sustained a lower-body injury and is unlikely to return to Friday's game against Toronto.",
+     "date": "2026-11-27"
+    },
+    {
      "name": "James Hagens",
      "status": "Injured Reserve",
      "playerId": 8485395,
@@ -59,18 +70,40 @@
    ]
   },
   "BUF": {
-   "missing_value": 0,
+   "missing_value": 0.1235,
    "players": [
     {
+     "name": "Noah Ostlund",
+     "status": "Injured Reserve",
+     "playerId": 8483500,
+     "position": "C",
+     "value": 0.0274,
+     "regular": true,
+     "applied": true,
+     "note": "Ostlund (undisclosed) was placed on injured reserve Friday, per the NHL Media Site.",
+     "date": "2026-11-27"
+    },
+    {
      "name": "Tyson Kozak",
-     "status": "Day-To-Day",
+     "status": "Injured Reserve",
      "playerId": 8482896,
      "position": "C",
      "value": -0.0441,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-26"
+     "applied": true,
+     "note": "ir",
+     "date": "2026-11-27"
+    },
+    {
+     "name": "Zach Benson",
+     "status": "Out",
+     "playerId": 8484145,
+     "position": "L",
+     "value": 0.1402,
+     "regular": true,
+     "applied": true,
+     "note": "Benson (upper body) will not play in Friday's home clash against the Penguins, per Rachel Lenzi of The Buffalo News.",
+     "date": "2026-11-27"
     },
     {
      "name": "Konsta Helenius",
@@ -82,17 +115,6 @@
      "applied": false,
      "note": "ir",
      "date": "2026-11-12"
-    },
-    {
-     "name": "Justin Danforth",
-     "status": "Injured Reserve",
-     "playerId": 8479941,
-     "position": "R",
-     "value": -0.0039,
-     "regular": false,
-     "applied": false,
-     "note": "Danforth (upper body) was placed on injured reserve Thursday, per the NHL media site.",
-     "date": "2026-10-29"
     },
     {
      "name": "Matt Grzelcyk",
@@ -110,17 +132,6 @@
   "CGY": {
    "missing_value": -0.0237,
    "players": [
-    {
-     "name": "Morgan Frost",
-     "status": "Day-To-Day",
-     "playerId": 8480028,
-     "position": "C",
-     "value": 0.0078,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-26"
-    },
     {
      "name": "Martin Pospisil",
      "status": "Out",
@@ -169,33 +180,33 @@
      "applied": false,
      "note": "day-to-day",
      "date": "2026-11-26"
-    },
-    {
-     "name": "K'Andre Miller",
-     "status": "Day-To-Day",
-     "playerId": 8480817,
-     "position": "D",
-     "value": 0.0331,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-26"
     }
    ]
   },
   "CHI": {
-   "missing_value": -0.0433,
+   "missing_value": -0.002,
    "players": [
     {
      "name": "Tyler Bertuzzi",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8477479,
      "position": "L",
      "value": 0.0173,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-26"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-27"
+    },
+    {
+     "name": "Patrick Kane",
+     "status": "Injured Reserve",
+     "playerId": 8474141,
+     "position": "R",
+     "value": 0.024,
+     "regular": true,
+     "applied": true,
+     "note": "Kane (foot) was placed on injured reserve Friday, per the NHL media site.",
+     "date": "2026-11-27"
     },
     {
      "name": "Connor Bedard",
@@ -233,18 +244,29 @@
    ]
   },
   "COL": {
-   "missing_value": 0.0828,
+   "missing_value": 0.1024,
    "players": [
     {
-     "name": "Gavin Brindley",
+     "name": "Martin Necas",
      "status": "Out",
+     "playerId": 8480039,
+     "position": "C",
+     "value": 0.0196,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-27"
+    },
+    {
+     "name": "Gavin Brindley",
+     "status": "Injured Reserve",
      "playerId": 8484149,
      "position": "C",
      "value": -0.0585,
      "regular": false,
      "applied": false,
-     "note": "out",
-     "date": "2026-11-21"
+     "note": "ir",
+     "date": "2026-11-27"
     },
     {
      "name": "Nathan MacKinnon",
@@ -282,14 +304,14 @@
    ]
   },
   "CBJ": {
-   "missing_value": 0.0327,
+   "missing_value": 0.0214,
    "players": [
     {
      "name": "Denton Mateychuk",
      "status": "Out",
      "playerId": 8483485,
      "position": "D",
-     "value": 0.0327,
+     "value": 0.0214,
      "regular": true,
      "applied": true,
      "note": "out",
@@ -298,7 +320,7 @@
    ]
   },
   "DAL": {
-   "missing_value": -0.0853,
+   "missing_value": 0,
    "players": [
     {
      "name": "Kyle Capobianco",
@@ -317,8 +339,8 @@
      "playerId": 8483425,
      "position": "D",
      "value": -0.0853,
-     "regular": true,
-     "applied": true,
+     "regular": false,
+     "applied": false,
      "note": "Bichsel (lower body) was placed on injured reserve Saturday.",
      "date": "2026-11-14"
     },
@@ -336,18 +358,18 @@
    ]
   },
   "DET": {
-   "missing_value": 0,
+   "missing_value": -0.0142,
    "players": [
     {
      "name": "William Wallinder",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8482171,
      "position": "D",
      "value": -0.0142,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-26"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-27"
     },
     {
      "name": "Simon Edvinsson",
@@ -363,29 +385,29 @@
    ]
   },
   "EDM": {
-   "missing_value": 0,
+   "missing_value": 0.1684,
    "players": [
     {
-     "name": "Zach Hyman",
-     "status": "Day-To-Day",
-     "playerId": 8475786,
-     "position": "L",
-     "value": 0.1269,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-25"
-    },
-    {
      "name": "Filip Hallander",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8480842,
      "position": "C",
      "value": 0.0415,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-25"
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-27"
+    },
+    {
+     "name": "Zach Hyman",
+     "status": "Out",
+     "playerId": 8475786,
+     "position": "L",
+     "value": 0.1269,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-27"
     },
     {
      "name": "Alec Regula",
@@ -482,18 +504,18 @@
    ]
   },
   "MTL": {
-   "missing_value": 0,
+   "missing_value": -0.1054,
    "players": [
     {
      "name": "Kaiden Guhle",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8482087,
      "position": "D",
-     "value": -0.1161,
+     "value": -0.1054,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-26"
+     "applied": true,
+     "note": "Guhle (upper body) is considered day-to-day, the team announced Friday.",
+     "date": "2026-11-27"
     },
     {
      "name": "Ivan Demidov",
@@ -553,14 +575,25 @@
    ]
   },
   "NJD": {
-   "missing_value": -0.002,
+   "missing_value": -0.0297,
    "players": [
+    {
+     "name": "Declan Chisholm",
+     "status": "Out",
+     "playerId": 8480990,
+     "position": "D",
+     "value": -0.0297,
+     "regular": true,
+     "applied": true,
+     "note": "Chisholm (illness) is expected to miss Friday's game against Calgary, per Amanda Stein of the Devils' official site.",
+     "date": "2026-11-27"
+    },
     {
      "name": "Brenden Dillon",
      "status": "Suspension",
      "playerId": 8475455,
      "position": "D",
-     "value": -0.0098,
+     "value": -0.0038,
      "regular": true,
      "applied": false,
      "note": "suspension",
@@ -583,8 +616,8 @@
      "playerId": 8480192,
      "position": "D",
      "value": -0.002,
-     "regular": true,
-     "applied": true,
+     "regular": false,
+     "applied": false,
      "note": "Kovacevic (ankle) is expected to be sidelined for 4-6 weeks, per Kristy Flannery of The Hockey News.",
      "date": "2026-11-17"
     },
@@ -612,8 +645,8 @@
      "value": 0.0048,
      "regular": true,
      "applied": true,
-     "note": "ir",
-     "date": "2026-11-24"
+     "note": "Palmieri is expected to miss the next 6-8 months with a torn ACL and meniscus in his right knee, the team announced Friday.",
+     "date": "2026-11-27"
     },
     {
      "name": "Ryan Pulock",
@@ -640,14 +673,14 @@
    ]
   },
   "NYR": {
-   "missing_value": 0.0173,
+   "missing_value": 0.0117,
    "players": [
     {
      "name": "Gabe Perreault",
      "status": "Injured Reserve",
      "playerId": 8484210,
      "position": "R",
-     "value": 0.0069,
+     "value": 0.0013,
      "regular": true,
      "applied": true,
      "note": "Perreault (lower body) was put on injured reserve Thursday, per Mollie Walker of the New York Post.",
@@ -700,30 +733,8 @@
    ]
   },
   "OTT": {
-   "missing_value": -0.0307,
+   "missing_value": 0,
    "players": [
-    {
-     "name": "Andre Burakovsky",
-     "status": "Injured Reserve",
-     "playerId": 8477444,
-     "position": "L",
-     "value": -0.0175,
-     "regular": false,
-     "applied": false,
-     "note": "Burakovsky (lower body) will be with the Senators for their four-game road trip and is expected to play at some point, Bruce Garrioch of Postmedia reports Wednesday.",
-     "date": "2026-11-25"
-    },
-    {
-     "name": "Hayden Hodgson",
-     "status": "Injured Reserve",
-     "playerId": 8478173,
-     "position": "R",
-     "value": -0.0307,
-     "regular": true,
-     "applied": true,
-     "note": "ir",
-     "date": "2026-11-24"
-    },
     {
      "name": "Warren Foegele",
      "status": "Injured Reserve",
@@ -749,8 +760,30 @@
    ]
   },
   "PHI": {
-   "missing_value": 0,
+   "missing_value": 0.0369,
    "players": [
+    {
+     "name": "Owen Tippett",
+     "status": "Out",
+     "playerId": 8480015,
+     "position": "R",
+     "value": 0.0212,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-27"
+    },
+    {
+     "name": "Matvei Michkov",
+     "status": "Out",
+     "playerId": 8484387,
+     "position": "R",
+     "value": 0.0157,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-27"
+    },
     {
      "name": "Nikita Grebenkin",
      "status": "Injured Reserve",
@@ -879,40 +912,18 @@
    ]
   },
   "STL": {
-   "missing_value": -0.0231,
+   "missing_value": 0.0435,
    "players": [
     {
-     "name": "Pavel Buchnevich",
-     "status": "Day-To-Day",
-     "playerId": 8477402,
-     "position": "L",
-     "value": 0.0291,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-26"
-    },
-    {
      "name": "Jimmy Snuggerud",
-     "status": "Day-To-Day",
+     "status": "Injured Reserve",
      "playerId": 8483516,
      "position": "R",
      "value": 0.0527,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-26"
-    },
-    {
-     "name": "Connor McMichael",
-     "status": "Injured Reserve",
-     "playerId": 8481580,
-     "position": "L",
-     "value": -0.0139,
-     "regular": true,
      "applied": true,
      "note": "ir",
-     "date": "2026-11-24"
+     "date": "2026-11-27"
     },
     {
      "name": "Brandon Carlo",
@@ -961,40 +972,29 @@
    ]
   },
   "TBL": {
-   "missing_value": -0.1028,
+   "missing_value": -0.1048,
    "players": [
     {
-     "name": "Victor Hedman",
-     "status": "Day-To-Day",
-     "playerId": 8475167,
-     "position": "D",
-     "value": -0.0829,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-26"
-    },
-    {
      "name": "Erik Cernak",
-     "status": "Day-To-Day",
+     "status": "Out",
      "playerId": 8478416,
      "position": "D",
      "value": -0.0039,
      "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-26"
+     "applied": true,
+     "note": "Cernak (illness) is expected to miss Friday's game against Ottawa, per Gabby Shirley of the Lightning's official site.",
+     "date": "2026-11-27"
     },
     {
      "name": "Pontus Holmberg",
-     "status": "Out",
+     "status": "Injured Reserve",
      "playerId": 8480995,
      "position": "R",
-     "value": -0.0179,
+     "value": -0.016,
      "regular": true,
      "applied": true,
-     "note": "out",
-     "date": "2026-11-26"
+     "note": "ir",
+     "date": "2026-11-27"
     },
     {
      "name": "Conor Geekie",
@@ -1010,8 +1010,30 @@
    ]
   },
   "TOR": {
-   "missing_value": 0.0041,
+   "missing_value": 0.0588,
    "players": [
+    {
+     "name": "Chris Tanev",
+     "status": "Day-To-Day",
+     "playerId": 8475690,
+     "position": "D",
+     "value": -0.0309,
+     "regular": true,
+     "applied": false,
+     "note": "day-to-day",
+     "date": "2026-11-27"
+    },
+    {
+     "name": "Dakota Joshua",
+     "status": "Out",
+     "playerId": 8478057,
+     "position": "C",
+     "value": 0.0547,
+     "regular": true,
+     "applied": true,
+     "note": "out",
+     "date": "2026-11-27"
+    },
     {
      "name": "Jack Roslovic",
      "status": "Out",
@@ -1022,28 +1044,6 @@
      "applied": true,
      "note": "Roslovic (upper body) is expected to miss Friday's road clash against the Bruins, per Mark Masters of TSN.",
      "date": "2026-11-26"
-    },
-    {
-     "name": "Kirill Marchenko",
-     "status": "Injured Reserve",
-     "playerId": 8480893,
-     "position": "R",
-     "value": 0.0697,
-     "regular": false,
-     "applied": false,
-     "note": "Marchenko (lower body) is expected back in the lineup against the Bruins on Friday after telling reporters, \"My leg feels perfect and I'm ready to go,\" Mark Masters of TSN reports.",
-     "date": "2026-11-25"
-    },
-    {
-     "name": "Colton Sissons",
-     "status": "Injured Reserve",
-     "playerId": 8476925,
-     "position": "C",
-     "value": -0.0238,
-     "regular": false,
-     "applied": false,
-     "note": "Sissons (lower body) is day-to-day, per David Alter of The Hockey News on Sunday.",
-     "date": "2026-11-22"
     },
     {
      "name": "Cole McWard",
@@ -1222,35 +1222,19 @@
     }
    ]
   },
-  "VGK": {
-   "missing_value": 0,
-   "players": [
-    {
-     "name": "Marc Gatcomb",
-     "status": "Day-To-Day",
-     "playerId": 8483553,
-     "position": "C",
-     "value": -0.043,
-     "regular": true,
-     "applied": false,
-     "note": "day-to-day",
-     "date": "2026-11-25"
-    }
-   ]
-  },
   "WSH": {
    "missing_value": 0.105,
    "players": [
     {
-     "name": "Vincent Desharnais",
+     "name": "Jordan Kyrou",
      "status": "Injured Reserve",
-     "playerId": 8479576,
-     "position": "D",
-     "value": 0.0276,
-     "regular": false,
-     "applied": false,
-     "note": "Desharnais (appendectomy) is slated to miss Wednesday's game against the Flyers, Tarik El-Bashir of Monumental Sports Network reports.",
-     "date": "2026-11-25"
+     "playerId": 8479385,
+     "position": "R",
+     "value": 0.105,
+     "regular": true,
+     "applied": true,
+     "note": "Kyrou (upper body) was put on injured reserve Friday.",
+     "date": "2026-11-27"
     },
     {
      "name": "Rasmus Sandin",
@@ -1262,22 +1246,11 @@
      "applied": false,
      "note": "Sandin (knee) has been cleared to start taking contact, Sammi Silber of The District Standard reports Tuesday.",
      "date": "2026-11-24"
-    },
-    {
-     "name": "Jordan Kyrou",
-     "status": "Out",
-     "playerId": 8479385,
-     "position": "R",
-     "value": 0.105,
-     "regular": true,
-     "applied": true,
-     "note": "out",
-     "date": "2026-11-23"
     }
    ]
   },
   "WPG": {
-   "missing_value": 0.0578,
+   "missing_value": 0,
    "players": [
     {
      "name": "Dylan DeMelo",
@@ -1285,8 +1258,8 @@
      "playerId": 8476331,
      "position": "D",
      "value": 0.0578,
-     "regular": true,
-     "applied": true,
+     "regular": false,
+     "applied": false,
      "note": "DeMelo (lower body) is expected to be out of action for 4-6 weeks, Mitchell Clinton of the Jets' official site reports Thursday.",
      "date": "2026-11-19"
     },
