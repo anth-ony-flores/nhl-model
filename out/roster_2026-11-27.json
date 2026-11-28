@@ -1,7 +1,7 @@
 {
  "day": "2026-11-27",
  "source": "NHL official game roster reports (nhl.com/scores/htmlreports)",
- "fetched": "2026-11-28 00:09 UTC",
+ "fetched": "2026-11-28 00:20 UTC",
  "teams": {
   "TOR": {
    "game_id": 2026020400,
@@ -1552,11 +1552,46 @@
    "game_id": 2026020412,
    "opp": "NYI",
    "home": false,
-   "lineup_posted": false,
-   "starter": null,
-   "dressed_goalies": [],
+   "lineup_posted": true,
+   "starter": {
+    "id": 8479973,
+    "name": "Stuart Skinner"
+   },
+   "dressed_goalies": [
+    {
+     "id": 8482076,
+     "name": "Nico Daws",
+     "starter": false
+    },
+    {
+     "id": 8479973,
+     "name": "Stuart Skinner",
+     "starter": true
+    }
+   ],
    "scratches": [],
-   "dressed": []
+   "dressed": [
+    "Neal Pionk",
+    "Henry Thrun",
+    "Alex Iafallo",
+    "Gabriel Vilardi",
+    "Adam Lowry",
+    "Dawson Mercer",
+    "Brayden Yager",
+    "Morgan Barron",
+    "Mario Ferraro",
+    "Josh Morrissey",
+    "Cole Koepke",
+    "Dylan Samberg",
+    "Mark Scheifele",
+    "Elias Salomonsson",
+    "Viggo Bj\u00e3\u0096Rck",
+    "Tyrel Bauer",
+    "Kyle Connor",
+    "Cole Perfetti",
+    "Nico Daws",
+    "Stuart Skinner"
+   ]
   },
   "NYI": {
    "game_id": 2026020412,
