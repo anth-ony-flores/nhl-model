@@ -1,6 +1,6 @@
 {
  "date": "2026-11-27",
- "generated": "2026-11-28T00:40:34Z",
+ "generated": "2026-11-28T00:50:46Z",
  "data_through": "2026-11-25",
  "picks_enabled": false,
  "params": {
@@ -24998,7 +24998,7 @@
    "home_name": "Blackhawks",
    "start_utc": "2026-11-27T22:30:00Z",
    "state": "in",
-   "detail": "13:53 - 3rd",
+   "detail": "9:38 - 3rd",
    "frozen": true,
    "goal_factor": {
     "NYR": 1.094,
@@ -27010,7 +27010,7 @@
    "home_name": "Islanders",
    "start_utc": "2026-11-28T00:30:00Z",
    "state": "in",
-   "detail": "18:49 - 1st",
+   "detail": "13:12 - 1st",
    "frozen": true,
    "goal_factor": {
     "WPG": 1.051,

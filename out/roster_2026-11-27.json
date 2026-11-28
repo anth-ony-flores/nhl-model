@@ -1,7 +1,7 @@
 {
  "day": "2026-11-27",
  "source": "NHL official game roster reports (nhl.com/scores/htmlreports)",
- "fetched": "2026-11-28 00:40 UTC",
+ "fetched": "2026-11-28 00:50 UTC",
  "teams": {
   "TOR": {
    "game_id": 2026020400,
