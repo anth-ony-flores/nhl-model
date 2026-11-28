@@ -1,6 +1,6 @@
 {
  "date": "2026-11-27",
- "generated": "2026-11-28T00:30:22Z",
+ "generated": "2026-11-28T00:40:34Z",
  "data_through": "2026-11-25",
  "picks_enabled": false,
  "params": {
@@ -11,13 +11,13 @@
   "c_pts": 1.0
  },
  "side_check": {
-  "pairs": 480,
-  "checked": 435,
-  "first_is_over": 435,
+  "pairs": 452,
+  "checked": 408,
+  "first_is_over": 408,
   "mismatch": 0,
   "mismatches": []
  },
- "lines": 1000,
+ "lines": 936,
  "unmatched": [
   {
    "espn_id": "4588638",
@@ -236,7 +236,7 @@
    "why": "no MoneyPuck skater match (no recent games?)"
   }
  ],
- "unmatched_rate": 0.027,
+ "unmatched_rate": 0.0288,
  "strong": 0.03,
  "backtest": {
   "seasons": "2023-24 to 2025-26",
@@ -24998,7 +24998,7 @@
    "home_name": "Blackhawks",
    "start_utc": "2026-11-27T22:30:00Z",
    "state": "in",
-   "detail": "20:00 - 3rd",
+   "detail": "13:53 - 3rd",
    "frozen": true,
    "goal_factor": {
     "NYR": 1.094,
@@ -27009,9 +27009,9 @@
    "away_name": "Jets",
    "home_name": "Islanders",
    "start_utc": "2026-11-28T00:30:00Z",
-   "state": "pre",
-   "detail": "11/27 - 7:30 PM EST",
-   "frozen": false,
+   "state": "in",
+   "detail": "18:49 - 1st",
+   "frozen": true,
    "goal_factor": {
     "WPG": 1.051,
     "NYI": 1.005
