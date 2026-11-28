@@ -1,6 +1,6 @@
 {
  "date": "2026-11-27",
- "generated": "2026-11-27T23:59:46Z",
+ "generated": "2026-11-28T00:09:57Z",
  "data_through": "2026-11-25",
  "picks_enabled": false,
  "params": {
@@ -24998,7 +24998,7 @@
    "home_name": "Blackhawks",
    "start_utc": "2026-11-27T22:30:00Z",
    "state": "in",
-   "detail": "7:23 - 2nd",
+   "detail": "2:38 - 2nd",
    "frozen": true,
    "goal_factor": {
     "NYR": 1.094,
