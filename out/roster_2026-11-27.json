@@ -1,7 +1,7 @@
 {
  "day": "2026-11-27",
  "source": "NHL official game roster reports (nhl.com/scores/htmlreports)",
- "fetched": "2026-11-28 00:20 UTC",
+ "fetched": "2026-11-28 00:30 UTC",
  "teams": {
   "TOR": {
    "game_id": 2026020400,
@@ -1569,7 +1569,22 @@
      "starter": true
     }
    ],
-   "scratches": [],
+   "scratches": [
+    {
+     "name": "Haydn Fleury",
+     "pos": "D",
+     "playerId": 8477938,
+     "regular": false,
+     "value": -0.1321
+    },
+    {
+     "name": "Nino Niederreiter",
+     "pos": "R",
+     "playerId": 8475799,
+     "regular": false,
+     "value": 0.0365
+    }
+   ],
    "dressed": [
     "Neal Pionk",
     "Henry Thrun",
@@ -1597,11 +1612,68 @@
    "game_id": 2026020412,
    "opp": "WPG",
    "home": true,
-   "lineup_posted": false,
-   "starter": null,
-   "dressed_goalies": [],
-   "scratches": [],
-   "dressed": []
+   "lineup_posted": true,
+   "starter": {
+    "id": 8473575,
+    "name": "Semyon Varlamov"
+   },
+   "dressed_goalies": [
+    {
+     "id": 8478009,
+     "name": "Ilya Sorokin",
+     "starter": false
+    },
+    {
+     "id": 8473575,
+     "name": "Semyon Varlamov",
+     "starter": true
+    }
+   ],
+   "scratches": [
+    {
+     "name": "Ryan Pulock",
+     "pos": "D",
+     "playerId": 8477506,
+     "regular": false,
+     "value": -0.0865
+    },
+    {
+     "name": "Scott Mayfield",
+     "pos": "D",
+     "playerId": 8476429,
+     "regular": false,
+     "value": -0.0288
+    },
+    {
+     "name": "Mitchell Chaffee",
+     "pos": "R",
+     "playerId": 8482070,
+     "regular": true,
+     "value": -0.0674
+    }
+   ],
+   "dressed": [
+    "Adam Pelech",
+    "Matthew Kessel",
+    "Logan Stanley",
+    "Brayden Schenn",
+    "Anthony Duclair",
+    "Mathew Barzal",
+    "Bo Horvat",
+    "Victor Eklund",
+    "Jean-Gabriel Pageau",
+    "Matthew Schaefer",
+    "Emil Heineman",
+    "Casey Cizikas",
+    "Matias Maccelli",
+    "Calum Ritchie",
+    "Ben Hutton",
+    "Tony Deangelo",
+    "Ondrej Palat",
+    "Simon Holmstrom",
+    "Ilya Sorokin",
+    "Semyon Varlamov"
+   ]
   },
   "PIT": {
    "game_id": 2026020413,
